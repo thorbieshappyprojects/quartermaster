@@ -1,0 +1,40 @@
+id: puma-s1
+category: infantry-fighting-vehicle
+name: Schützenpanzer Puma S1
+family: Puma
+aliases: [SPz Puma S1, Puma IFV S1]
+manufacturer: { name: "PSM Projekt System & Management GmbH (joint venture of KNDS Deutschland and Rheinmetall Landsysteme)" }
+origin: DE
+role: Tracked infantry fighting vehicle with an unmanned 30 mm turret and anti-tank missiles, carrying a six-soldier infantry section for the German Army's mechanised infantry.
+memorable_fact: { text: "Although the Puma weighs up to 43 t, it can be flown in an A400M transport aircraft once its outer armour modules are removed.", source: s1 }
+status: in_production
+in_service_since: { value: 2021, source: s3, confidence: medium, note: "Year of the S1 standard. Rheinmetall reports 40 Pumas upgraded to S1 for NATO VJTF 2023, and the German Army chief declared the 'System Panzergrenadier' (S1 Puma plus IdZ-ES soldier system) ready for action on 18 March 2021. The base Puma entered service in 2015 (s11)." }
+units_built: { value: 350, source: s3, confidence: high, note: "Whole Puma family: the first production lot of 350 vehicles (including 13 driver-training vehicles), not S1-only. These are being upgraded to S1 (40 VJTF + 154 + 143 = 337 IFVs, finishing in 2029, s3/s5). Deliveries of new-build S1 vehicles from the second lot began in August 2026 (s7), so the current total is slightly higher. No public cumulative S1 count was found." }
+specs:
+  combat_weight: { value: 43, source: s1, confidence: high, range: { min: 40.7, max: 43 }, note: "Bundeswehr and KNDS (s2) state 43 t at protection level C. KNDS gives 31.4 t at protection level A (air-transportable configuration). Army Recognition (s9) reports 40,700 kg at level C. Displayed value uses the government figure." }
+  main_armament_calibre: { value: 30, source: s1, confidence: high, note: "30 mm MK30-2/ABM automatic cannon. Secondary armament: 5.56 mm MG4A1 and a launcher for two MELLS (Spike LR) anti-tank guided missiles." }
+  dismounts: { value: 6, source: s1, confidence: high, note: "Crew of 9 in total: commander, gunner and driver plus six infantry soldiers." }
+  engine_power: { value: 1088, source: s1, confidence: high, note: "Stated as 1,088 PS (800 kW), MTU ten-cylinder diesel. The value is metric horsepower; 800 kW is about 1,073 mechanical hp. KNDS (s2) states 800 kW." }
+  top_speed: { value: 70, source: s1, confidence: high, note: "70 km/h, also stated by KNDS (s2)." }
+  range: { value: 600, source: s8, confidence: low, range: { min: 460, max: 650 }, note: "No manufacturer or government figure found. Army Recognition gives 600 km (s8) and also 650 km (s9); Bundeswehr-Lexikon gives 460 km (s10). The 600 km figure is shown because it is the most frequently reported." }
+operators:
+  - { country: DE, force: Army (Heer), state: in_service, quantity: 350, source: s3, note: "First-lot fleet of 350 vehicles, including 13 driver-training vehicles, at mixed S0/VJTF/S1 standards; all IFVs are being brought to S1 by 2029." }
+  - { country: DE, force: Army (Heer), state: ordered, quantity: 250, source: s6, note: "Second lot: 50 S1 vehicles ordered in May 2023 plus 200 ordered in December 2025 (contract effective January 2026)." }
+cost: { value: 21.74, currency: EUR, price_year: 2023, basis: contract_per_unit, source: s4, confidence: medium, note: "In millions of EUR. May 2023 BAAINBw order to PSM for 50 new-build S1 Pumas: EUR 1.087 billion including VAT ÷ 50. The contract also covers spare-part packages, special tool sets and eight MELLS simulators. The December 2025 order of 200 vehicles for about EUR 4.2 billion gross (s5) works out to about EUR 21.0 million per vehicle." }
+contracts:
+  - { customer: Germany / Bundeswehr, year: 2021, quantity: 154, value: 1040000000, currency: EUR, note: "Upgrade of 154 first-lot Pumas to S1 standard (including VAT), with an option for 143 more (EUR 820 million), which was taken up in 2023. Not new-build vehicles.", source: s3 }
+  - { customer: Germany / Bundeswehr, year: 2023, quantity: 50, value: 1087000000, currency: EUR, note: "Second-lot framework contract with an initial order of 50 new-build S1 vehicles (including VAT). Deliveries were scheduled from December 2025; the first vehicle was handed over in August 2026 (s7).", source: s4 }
+  - { customer: Germany / Bundeswehr, year: 2025, quantity: 200, value: 4200000000, currency: EUR, note: "Amendment to the 2023 framework contract (gross), including protection modules and storage containers. First deliveries are planned for mid-2028; an amendment for an S2 standard is planned.", source: s5 }
+peers: [lynx-kf41, cv90-mkiv, ascod-2, redback]
+sources:
+  - { id: s1, url: "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-puma", title: "Schützenpanzer Puma", publisher: Bundeswehr, retrieved: 2026-11-21, kind: government }
+  - { id: s2, url: "https://knds.com/en/products/systems/puma", title: "PUMA | KNDS Group", publisher: KNDS, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s3, url: "https://www.rheinmetall.com/en/media/news-watch/news/2021/2021-06-29_billion-euro-contract-for-rheinmetall", title: "Billion-euro contract for Rheinmetall – Bundeswehr upgrading Puma infantry fighting vehicle to new design status", publisher: Rheinmetall AG, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s4, url: "https://www.rheinmetall.com/en/media/news-watch/news/2023/mai/2023-05-15-bundeswehr-orders-fifty-more-puma-infantry-fighting-vehicles", title: "Bundeswehr orders fifty more Puma infantry fighting vehicles", publisher: Rheinmetall AG, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s5, url: "https://www.rheinmetall.com/en/media/news-watch/news/2025/12/2025-12-19-rheinmetall-and-knds-to-supply-200-armoured-fighting-vehicles", title: "Rheinmetall and KNDS to supply 200 armoured fighting vehicles", publisher: Rheinmetall AG, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s6, url: "https://euro-sd.com/2026/01/major-news/48319/germany-orders-more-puma-ifvs/", title: "Bundeswehr places order with PSM for 200 more Puma IFVs", publisher: European Security & Defence, retrieved: 2026-11-21, kind: press }
+  - { id: s7, url: "https://www.thedefensenews.com/Germanys-Bundeswehr-Receives-First-S1-Puma-Infantry-Fighting-Vehicle-from-Second-Production-Batch/", title: "Germany's Bundeswehr Receives First S1 Puma Infantry Fighting Vehicle from Second Production Batch", publisher: The Defense News, retrieved: 2026-11-21, kind: press }
+  - { id: s8, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2023/bundeswehr-german-army-orders-50-more-puma-ifv-infantry-fighting-vehicles", title: "Bundeswehr German army orders 50 more Puma IFV infantry fighting vehicles", publisher: Army Recognition, retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2023/bundeswehr-successfully-tested-upgraded-puma-infantry-fighting-vehicle", title: "German army tested upgraded Puma Infantry Fighting Vehicle", publisher: Army Recognition, retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://bundeswehr-lexikon.de/schuetzenpanzer-puma/", title: "Schützenpanzer Puma - Bundeswehr Lexikon", publisher: Bundeswehr-Lexikon, retrieved: 2026-11-21, kind: other }
+  - { id: s11, url: "https://www.bundeswehr.de/de/organisation/heer/aktuelles/neuer-puma-revier-5820268", title: "Schützenpanzer Puma S1", publisher: Bundeswehr, retrieved: 2026-11-21, kind: government }

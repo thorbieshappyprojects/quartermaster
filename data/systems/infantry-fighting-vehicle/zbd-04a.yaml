@@ -1,0 +1,64 @@
+id: zbd-04a
+category: infantry-fighting-vehicle
+name: ZBD-04A (Type 04A)
+family: ZBD-04 (Type 04)
+aliases: [Type 04A, WZ502G]
+manufacturer: { name: "China North Industries Corporation (NORINCO)" }
+origin: CN
+role: Tracked amphibious infantry fighting vehicle with a 100 mm gun/missile launcher and coaxial 30 mm cannon, carrying a seven-soldier squad in PLA heavy combined-arms units.
+memorable_fact: { text: "Like the Russian BMP-3 it resembles, the ZBD-04A pairs a 100 mm gun that can fire anti-tank guided missiles with a coaxial 30 mm automatic cannon in a two-man turret.", source: s1 }
+status: in_service
+in_service_since:
+  value: 2011
+  source: s5
+  confidence: low
+  range: { min: 2006, max: 2011 }
+  note: "Year of first service of the ZBD-04A variant. One secondary reference (s5) says it entered service around 2011. MilitaryFactory (s3) says the improved model followed in 2006, which is unclear and may refer to the base ZBD-04. Army Recognition (s2) dates the base ZBD-04 to PLA service from 2006. The variant was shown publicly at the 1 October 2019 National Day parade (s1, s2)."
+units_built:
+  value: 2400
+  source: s3
+  confidence: low
+  note: "ZBD-04A IFV variant only, in PLA service as of 2022 per MilitaryFactory ('as many as 2,400 ... may be in service'). Wikipedia attributes the same 2,400 figure to IISS Military Balance 2025 p.241, which also lists about 225 ZBD-04A HJ-10/HJ-10A anti-tank missile carriers separately. That edition was not consulted directly, so it is not cited. No official production total has been published."
+specs:
+  combat_weight:
+    value: 24
+    source: s1
+    confidence: medium
+    range: { min: 23.6, max: 24 }
+    note: "Army Technology (s1) and Army Recognition (s2) give 24,000 kg. MilitaryFactory (s3) gives 23,586 kg. The 24 t trade-press figure is shown."
+  main_armament_calibre:
+    value: 100
+    source: s1
+    confidence: medium
+    note: "100 mm rifled, semi-automatic gun/missile launcher, stabilised in two planes, firing HE-FRAG rounds and gun-launched ATGMs. Secondary armament is a coaxial 30 mm automatic cannon and a 7.62 mm machine gun (s1, s2)."
+  dismounts:
+    value: 7
+    source: s1
+    confidence: medium
+    note: "Crew of 3 (driver, commander, gunner) plus 7 infantry. Also given by s3 and s4."
+  engine_power:
+    value: 670
+    source: s1
+    confidence: medium
+    note: "670 hp liquid-cooled diesel (s1). MilitaryFactory (s3) also gives 670 hp."
+  top_speed:
+    value: 75
+    source: s1
+    confidence: medium
+    note: "Maximum road speed 75 km/h. s2 and s3 agree. Water speed about 6 km/h using two water jets (s1, s2)."
+  range:
+    value: 600
+    source: s1
+    confidence: low
+    range: { min: 500, max: 600 }
+    note: "Army Technology (s1) gives a maximum cruising range of 600 km. Army Recognition (s2) prints '600 m', which appears to be a typo for 600 km. MilitaryFactory (s3) gives 500 km (311 mi). The 600 km figure is shown."
+operators:
+  - { country: CN, force: "People's Liberation Army Ground Force", state: in_service, quantity: 2400, source: s3 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public unit price or contract value found." }
+peers: [bmp-3, k21, m2a4-bradley]
+sources:
+  - { id: s1, url: "https://www.army-technology.com/projects/zbd-04a-tracked-infantry-fighting-vehicle/", title: "ZBD-04A Tracked Infantry Fighting Vehicle - Army Technology", publisher: "Army Technology (GlobalData)", retrieved: 2026-11-21, kind: press }
+  - { id: s2, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2019/new-chinese-zbd-04a-armored-tracked-ifv-infantry-fighting-vehicle", title: "New Chinese ZBD-04A armored tracked IFV Infantry Fighting Vehicle", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s3, url: "https://www.militaryfactory.com/armor/detail.php?armor_id=1226", title: "NORINCO ZBD-04A / ZBD-08 (WZ502G) Tracked Infantry Fighting Vehicle (IFV)", publisher: "MilitaryFactory.com", retrieved: 2026-11-21, kind: reference }
+  - { id: s4, url: "https://www.armyrecognition.com/news/army-news/2026/china-deploys-zbd-04a-fighting-vehicles-with-hq-17-air-defense-to-shield-mechanized-assault-units", title: "China Deploys ZBD-04A Fighting Vehicles with HQ-17 Air Defense to Shield Mechanized Assault Units", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.defensematrixlab.com/en/equipment/zbd-04", title: "ZBD-04 (infantry fighting vehicle, China): specs and operators", publisher: "Defense Matrix Lab", retrieved: 2026-11-21, kind: reference }

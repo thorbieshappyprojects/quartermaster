@@ -1,0 +1,42 @@
+id: redback
+category: infantry-fighting-vehicle
+name: AS21 Redback (Australian Army LAND 400 Phase 3 configuration)
+family: Redback
+aliases: [AS21, Redback IFV, CBWP AS21 Redback]
+manufacturer: { name: "Hanwha Defence Australia (subsidiary of Hanwha Aerospace)" }
+production_sites:
+  - { place: "Avalon, Greater Geelong (Hanwha Armoured vehicle Centre of Excellence, H-ACE)", country: AU, source: s2 }
+origin: KR
+role: Tracked infantry fighting vehicle with a manned 30 mm turret, built to carry an infantry section and replace the M113AS4 in Australian Army service.
+memorable_fact: { text: "The Redback is named after the Australian redback spider, which can kill creatures much larger than itself.", source: s4 }
+status: in_production
+in_service_since: { value: null, source: null, confidence: null, note: "Not yet in service. The first vehicle is scheduled for delivery in 2027 and the final one in December 2028 (s2, s7). Status is in_production because the 129-vehicle production contract was signed in 2023 and H-ACE Stage 2 for Redback production was completed in February 2026 (s5). Defence expects the first Australian-made vehicles to leave the line in 2027 (s6). The base K21 service date was not cited because no non-Wikipedia source was retrieved." }
+units_built: { value: null, source: null, confidence: null, note: "No public count of vehicles built was found. The 2023 contract includes eight prototypes built in South Korea and Australia (s3); serial production vehicles are expected from 2027 (s6)." }
+combat_use: { text: "No confirmed combat use as of 2026; the vehicle was still in trials and pre-series production in 2026.", source: s6 }
+specs:
+  combat_weight: { value: 42, source: s8, confidence: medium, note: "Hanwha Defense figure for the 2019 prototype (reported as 42 tons, taken as metric tonnes). No production-standard weight has been published. ANAO puts the vehicle in the 25–50 t 'medium' class (s7)." }
+  main_armament_calibre: { value: 30, source: s4, confidence: high, note: "Mk44S Bushmaster II 30 x 173 mm. The manufacturer says it can be converted to 40 mm Supershot by exchanging four parts. A separate 40 mm turret version with Lockheed Martin UK was unveiled in 2026 (s13)." }
+  dismounts: { value: 8, range: { min: 6, max: 8 }, source: s8, confidence: medium, note: "Hanwha Defense states up to eight troops (s8; also s11). Army Technology (s10) and Army Recognition (2021 trials report, s9) give six. The manufacturer figure is displayed." }
+  engine_power: { value: 1000, source: s9, confidence: medium, note: "MTU eight-cylinder diesel, 1,000 hp, as reported by trade press (s9, s11). Hanwha states it uses the same powerpack as the K9 self-propelled howitzer (s12)." }
+  top_speed: { value: 65, range: { min: 65, max: 70 }, source: s8, confidence: medium, note: "Hanwha Defense gives up to 65 km/h (s8). Army Technology gives 70 km/h (s10). The manufacturer figure is displayed." }
+  range: { value: 520, source: s8, confidence: medium, note: "Maximum range per Hanwha Defense for the 2019 prototype, as reported by Janes." }
+operators:
+  - { country: AU, force: "Army (3rd Armoured Combat Brigade, Townsville)", state: ordered, quantity: 129, source: s1 }
+cost: { value: 35897809, range: { min: 31007752, max: 35897809 }, currency: AUD, price_year: 2023, basis: contract_per_unit, source: s7, confidence: medium, note: "LAND 400 Phase 3 acquisition contract with Hanwha Defence Australia, signed 1 December 2023. ANAO gives an initial AusTender value of AUD 4,630,817,353.45; divided by 129 vehicles this is about AUD 35.9 million per vehicle. The contract also covers training, spares, sustainment until final acceptance and prototypes, so this is not a flyaway price. Range minimum: HDA's 'approximately $4 billion' / 129 (s3). The ministerial release gives about AUD 4.5 billion for acquisition plus initial support (s2). Total project value is about AUD 7 billion (s1), and approved expenditure was AUD 7.3 billion at February 2026 (s7)." }
+contracts:
+  - { customer: "Australia / Australian Army", year: 2023, quantity: 129, value: 4630817353.45, currency: AUD, note: "LAND 400 Phase 3 acquisition contract signed 1 December 2023, with a support contract signed at the same time (operative from August 2028). Deliveries are scheduled for 2027–2028. ANAO reported two unresolved very high technical risks (mobility and lethality) as at February 2026.", source: s7 }
+peers: [lynx-kf41, cv90-mkiv, ascod-2]
+sources:
+  - { id: s1, url: "https://www.defence.gov.au/defence-activities/projects/land-combat-vehicle-system-infantry-fighting-vehicle", title: "Land Combat Vehicle System (Infantry Fighting Vehicle)", publisher: "Australian Department of Defence", retrieved: 2026-11-21, kind: government }
+  - { id: s2, url: "https://www.minister.defence.gov.au/media-releases/2023-12-08/contracts-signed-infantry-fighting-vehicles", title: "Contracts signed for Infantry Fighting Vehicles", publisher: "Australian Minister for Defence", retrieved: 2026-11-21, kind: government }
+  - { id: s3, url: "https://www.hanwha-defence.com.au/news/hanwha-defence-australia-signs-contract-for-land-400-phase-3-redback-vehicles", title: "Hanwha Defence Australia signs contract for LAND 400 Phase 3 Redback vehicles", publisher: "Hanwha Defence Australia", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s4, url: "https://www.hanwha-defence.com.au/redback-ifv", title: "Redback IFV", publisher: "Hanwha Defence Australia", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s5, url: "https://www.hanwha-defence.com.au/h-ace", title: "H-ACE – Hanwha Armoured vehicle Centre of Excellence", publisher: "Hanwha Defence Australia", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s6, url: "https://news.defence.gov.au/army/capability/2026-09-03/new-fighting-vehicles-tested-sea", title: "New fighting vehicles tested at sea", publisher: "Australian Department of Defence (Defence News)", retrieved: 2026-11-21, kind: government }
+  - { id: s7, url: "https://www.anao.gov.au/work/performance-audit/defences-procurement-of-infantry-fighting-vehicles-land-400-phase-3", title: "Defence's Procurement of Infantry Fighting Vehicles (Land 400 Phase 3)", publisher: "Australian National Audit Office", retrieved: 2026-11-21, kind: government }
+  - { id: s8, url: "https://www.janes.com/defence-intelligence-insights/defence-news/adex-2019-hanwha-defense-unveils-prototype-of-as21-redback-ifv", title: "ADEX 2019: Hanwha Defense unveils prototype of AS21 Redback IFV", publisher: "Janes", retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2021/kf-41-lynx-and-redback-as-21-ifvs-conduct-firepower-demonstration-for-australian-army", title: "KF-41 Lynx and Redback AS-21 IFVs conduct firepower demonstration for Australian army", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://www.army-technology.com/projects/as21-redback-infantry-fighting-vehicle/", title: "AS21 Redback Infantry Fighting Vehicle", publisher: "Army Technology", retrieved: 2026-11-21, kind: press }
+  - { id: s11, url: "https://www.armadainternational.com/2023/08/redback-ifv-selected-by-australian-army/", title: "Redback IFV Selected by Australian Army", publisher: "Armada International", retrieved: 2026-11-21, kind: press }
+  - { id: s12, url: "https://hanwha-aerospace.eu/portfolio/redback-ifv/", title: "REDBACK IFV – Hanwha Aerospace Europe", publisher: "Hanwha Aerospace Europe", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s13, url: "https://www.armyrecognition.com/news/army-news/2026/lockheed-martin-uk-and-south-korea-unveil-as21-redback-40-mm-ifv-with-counter-drone-capability", title: "Lockheed Martin UK and South Korea Unveil AS21 Redback 40 mm IFV With Counter-Drone Capability", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }

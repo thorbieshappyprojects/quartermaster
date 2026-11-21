@@ -1,0 +1,44 @@
+id: m2a4-bradley
+category: infantry-fighting-vehicle
+name: M2A4E1 Bradley
+family: Bradley Fighting Vehicle
+aliases: [M2A4 Bradley, Bradley A4, M2A4 Bradley Fighting Vehicle]
+manufacturer: { name: BAE Systems }
+production_sites:
+  - { place: York, country: US, source: s1 }
+  - { place: Texarkana, country: US, source: s9 }
+origin: US
+role: Tracked infantry fighting vehicle of US Army Armored Brigade Combat Teams, carrying a crew of three plus seven infantry and armed with a 25 mm cannon and TOW missiles.
+memorable_fact: { text: "The M2A4E1, fielded in October 2026, is the first US Army infantry fighting vehicle to carry a hard-kill active protection system (Elbit's Iron Fist).", source: s3 }
+status: in_production
+in_service_since: { value: 2026, source: s2, confidence: medium, note: "Year of first fielding of the M2A4E1 variant (3rd ABCT, 1st Cavalry Division, October 2026). The M2A4 baseline has been fielded since April 2022 (s7), and the Bradley family entered service in 1981." }
+units_built: { value: 6700, source: s11, confidence: low, note: "Bradley family, all variants, since 1981 (reported as 'more than 6,700'). The source also says about 700 M2A4s are planned through 2029. The number of M2A4 or M2A4E1 vehicles delivered has not been published." }
+combat_use: { text: "No confirmed combat use of the M2A4 or M2A4E1 as of 2026. Earlier Bradley variants supplied to Ukraine have been used extensively in combat by Ukrainian forces.", source: s10 }
+specs:
+  combat_weight: { value: 36.3, source: s5, confidence: medium, range: { min: 36.287, max: 36.827 }, note: "Bradley A4 combat weight of 80,000 lb (36,287 kg), as listed by BAE Systems according to s5. One trade-press report (s6) also gives 36,827 kg. The Iron Fist LD kit on the M2A4E1 is reported at 329 kg (s2); no separate M2A4E1 combat weight has been published." }
+  main_armament_calibre: { value: 25, source: s2, confidence: medium, note: "M242 Bushmaster 25x137 mm cannon, retained on the M2A4E1. Secondary armament is an M240C 7.62 mm coaxial machine gun and a twin TOW launcher." }
+  dismounts: { value: 7, source: s5, confidence: medium, note: "Up to 7 squad members in the M2A4 configuration, plus a crew of 3." }
+  engine_power: { value: 675, source: s6, confidence: medium, note: "M2A4 diesel engine. The M2A3 engine produced 600 hp (s2)." }
+  top_speed: { value: 66, source: s5, confidence: medium, note: "Original figure 41 mph (Bradley A4)." }
+  range: { value: 402, source: s5, confidence: medium, note: "Original figure 250 miles cruising range (Bradley A4)." }
+operators:
+  - { country: US, force: Army, state: in_service, quantity: null, source: s2 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "A reported average of USD 4.35 million per M2A4 (Army plan for more than 700 vehicles through 2029) appears in trade press, but no price year is given, so it is not used. The published contracts do not give exact vehicle quantities, so no contract-per-unit figure can be calculated." }
+contracts:
+  - { customer: US Army, year: 2023, quantity: null, value: 288000000, currency: USD, note: "Change-order modification to convert legacy vehicles to M2A4. It followed a USD 274 million award (Aug 2023), a USD 128 million modification (Sep 2023) and a separate USD 190 million production contract (Aug 2023).", source: s9 }
+  - { customer: US Army, year: 2024, quantity: null, value: 440000000, currency: USD, note: "More than 200 additional M2A4s, including several M7A4 BFIST. Part of the effort to replenish stocks after M2A2-ODS-SA vehicles were sent to Ukraine. The exact quantity was not stated.", source: s8 }
+  - { customer: US Army, year: 2024, quantity: null, value: 656000000, currency: USD, note: "Order for additional M2A4 and M7A4 vehicles, announced by BAE Systems on 19 December 2024. The quantity was not stated.", source: s7 }
+  - { customer: US Army, year: 2026, quantity: null, value: 228000000, currency: USD, note: "Contract to Elbit Systems for Iron Fist APS kits for Bradley upgrades (M2A4E1), under a program led by General Dynamics. It followed a USD 37 million order in 2024. The number of vehicles was not disclosed.", source: s4 }
+peers: [puma-s1, cv90-mkiv, lynx-kf41]
+sources:
+  - { id: s1, url: "https://www.baesystems.com/en-aus/product/bradley-fighting-vehicle", title: "Bradley Fighting Vehicle", publisher: "BAE Systems", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://www.armyrecognition.com/news/army-news/2026/us-army-receives-first-m2a4e1-bradley-ifvs-equipped-with-iron-fist-aps-to-counter-missiles-and-drones", title: "U.S. Army Fields First M2A4E1 Bradley IFV with Iron Fist to Counter Drones and Missile Threats", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s3, url: "https://defence-industry.eu/u-s-army-receives-first-bradley-fighting-vehicles-fitted-with-iron-fist-active-protection/", title: "U.S. Army receives first Bradley fighting vehicles fitted with Iron Fist active protection", publisher: "Defence Industry Europe", retrieved: 2026-11-21, kind: press }
+  - { id: s4, url: "https://www.calcalistech.com/ctechnews/article/h16j7v8omg", title: "U.S. Army deploys Elbit's Iron Fist defense system against missiles and drones", publisher: "Calcalist (CTech)", retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.defenseadvancement.com/projects/bradley-fighting-vehicle/", title: "Bradley Fighting Vehicle - Defense Advancement", publisher: "Defense Advancement", retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://armyrecognition.com/news/army-news/2022/us-army-took-delivery-of-latest-variant-of-bradley-m2a4-tracked-armored-ifvs", title: "US Army took delivery of latest variant of Bradley M2A4 tracked armored IFVs", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s7, url: "https://euro-sd.com/2025/01/major-news/41902/bae-to-produce-more-m2a4s/", title: "BAE Systems receives contract to produce more Bradley M2A4s and M7A4s for US Army", publisher: "European Security & Defence", retrieved: 2026-11-21, kind: press }
+  - { id: s8, url: "https://www.overtdefense.com/2024/09/19/bae-systems-awarded-440-million-bradley-contract/", title: "BAE Systems Awarded $440 Million Bradley Contract", publisher: "Overt Defense", retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://www.armadainternational.com/2023/10/bae-systems-receives-288-million-contract-modification-for-bradley-fighting-vehicle-upgrades/", title: "BAE Systems receives $288 million contract modification for Bradley Fighting Vehicle upgrades", publisher: "Armada International", retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://www.lineofdeparture.army.mil/Journals/Armor/Armor-Archive/Spring-2026-Edition/Ukraine-and-the-Bradley/", title: "Ukrainian Combat Employment of the Bradley Fighting Vehicle", publisher: "U.S. Army Armor journal (Line of Departure)", retrieved: 2026-11-21, kind: government }
+  - { id: s11, url: "https://www.19fortyfive.com/2026/09/the-us-army-has-built-6700-bradleys-is-buying-700-more-at-4350000-each-through-2029-and-said-in-2019-the-design-had-hit-its-limits/", title: "The US Army Has Built 6,700 Bradleys, Is Buying 700 More at $4,350,000 Each Through 2029, and Said in 2019 the Design Had Hit Its Limits.", publisher: "19FortyFive", retrieved: 2026-11-21, kind: press }

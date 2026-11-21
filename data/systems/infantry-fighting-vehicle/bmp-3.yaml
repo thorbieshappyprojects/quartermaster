@@ -1,0 +1,94 @@
+id: bmp-3
+category: infantry-fighting-vehicle
+name: BMP-3 (current Russian production standard with add-on protection kits)
+family: BMP-3
+manufacturer: { name: "Kurganmashzavod (High-Precision Systems holding, Rostec)" }
+production_sites:
+  - { place: Kurgan, country: RU, source: s10 }
+origin: RU
+role: Tracked, amphibious infantry fighting vehicle that carries an infantry squad and is armed with a 100 mm gun/missile launcher and a coaxial 30 mm automatic cannon.
+memorable_fact: { text: "The BMP-3's main 100 mm gun can also launch anti-tank guided missiles, and it is paired with a 30 mm automatic cannon in the same turret.", source: s1 }
+status: in_production
+in_service_since:
+  value: 1987
+  source: s1
+  confidence: medium
+  note: "Year the base BMP-3 entered Russian (Soviet) Army service. Production has continued since then. Vehicles delivered since about 2024 have a revised standard configuration with add-on protection (s5), and Russian deliveries continued in batches through 2025 (s4). No separate service-entry year is published for this standard."
+units_built:
+  value: 2000
+  source: s12
+  confidence: low
+  note: "Whole BMP-3 family, all variants. Wikipedia gives 'No. built: 2,000+' as a lower bound, and no primary source for it was found. Jamestown, citing RUSI, reports 463 vehicles supplied in 2023 including overhauled vehicles, and estimates no more than about 200 of them were newly built (s6)."
+combat_use: { text: "Used by Russian forces in the war against Ukraine since 2022. Rostec states that current-standard vehicles were modified based on that combat experience, with added underbody blast protection and add-on armour kits.", source: s5 }
+specs:
+  combat_weight:
+    value: 18.7
+    source: s1
+    confidence: medium
+    note: "Base BMP-3 figure. The Defense Post, reporting on Rostec deliveries, gives 18,700 kg (s2). Current production vehicles are delivered with add-on armour, slat armour, upper-hemisphere protection and the Nakidka signature-reduction kit (s3, s4). No public combat weight for this configuration was found."
+  main_armament_calibre:
+    value: 100
+    source: s1
+    confidence: medium
+    note: "100 mm 2A70 rifled gun/missile launcher, with a coaxial 30 mm 2A72 automatic cannon."
+  dismounts:
+    value: 7
+    source: s1
+    confidence: medium
+    note: "Seven troops, with two additional seats (s1). Rosoboronexport material reported by Army Recognition also states seven infantry (s11)."
+  engine_power:
+    value: 500
+    source: s1
+    confidence: medium
+    note: "UTD-29 diesel, 500 hp. Wikipedia lists the UTD-29M at 500 hp (375 kW) (s12). The BMP-3M export upgrade uses the 660 hp UTD-32 (s1)."
+  top_speed:
+    value: 70
+    source: s1
+    confidence: medium
+    range: { min: 70, max: 72 }
+    note: "70 km/h on paved road (s1). Wikipedia gives 72 km/h (s12). The trade-press figure is displayed. Water speed is 10 km/h."
+  range:
+    value: 600
+    source: s1
+    confidence: medium
+    note: "Road range."
+operators:
+  - { country: RU, force: Ground Forces, state: in_service, quantity: 460, source: s6 }
+  - { country: AE, force: Land Forces, state: in_service, quantity: null, source: s1 }
+  - { country: KW, force: Land Force, state: in_service, quantity: null, source: s1 }
+  - { country: CY, force: National Guard, state: in_service, quantity: null, source: s1 }
+  - { country: KR, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: ID, force: Navy (Marine Corps), state: in_service, quantity: 54, source: s9 }
+  - { country: ID, force: Navy (Marine Corps), state: ordered, quantity: 22, source: s9 }
+  - { country: IQ, force: Army, state: in_service, quantity: null, source: s12 }
+  - { country: AZ, force: Land Forces, state: in_service, quantity: null, source: s12 }
+  - { country: VE, force: Army, state: in_service, quantity: null, source: s12 }
+  - { country: TM, force: Ground Forces, state: in_service, quantity: 4, source: s12 }
+  - { country: UA, force: Armed Forces (captured vehicles), state: in_service, quantity: null, source: s12 }
+cost:
+  value: 3080000
+  currency: USD
+  price_year: 2012
+  basis: contract_per_unit
+  source: s7
+  confidence: medium
+  note: "Indonesian 2012 contract with Rosoboronexport for 37 BMP-3F (the marine variant): USD 114 million including ammunition, spare parts and shipment, divided by 37 = about USD 3.08 million per vehicle (s7, s8). The 2019 Indonesian contract (22 BMP-3F for USD 108 million) gives about USD 4.91 million per vehicle (s9). No public unit price for current Russian production vehicles was found."
+contracts:
+  - { customer: Indonesia / Navy (Marine Corps), year: 2012, quantity: 37, value: 114000000, currency: USD, note: "BMP-3F, signed with Rosoboronexport. Value includes ammunition, spares and shipment. Handed over in January 2014.", source: s8 }
+  - { customer: Indonesia / Navy (Marine Corps), year: 2019, quantity: 22, value: 108000000, currency: USD, note: "BMP-3F, signed 22 April 2019. A separate USD 67.2 million contract covers 21 BT-3F armoured personnel carriers.", source: s9 }
+  - { customer: United Arab Emirates / Land Forces, year: 2011, quantity: 135, value: 74000000, currency: USD, note: "Upgrade of existing BMP-3 vehicles to BMP-3M standard, contracted with Rosoboronexport. Not new-build vehicles.", source: s1 }
+  - { customer: Russia / Ministry of Defence, year: 2015, quantity: null, value: null, currency: null, note: "Order for 'hundreds' of BMP-3s as an interim fleet. Deliveries ran from 2018 to 2023.", source: s2 }
+peers: [zbd-04a, m2a4-bradley, k21]
+sources:
+  - { id: s1, url: "https://www.army-technology.com/projects/bmp-3/", title: "BMP-3 Infantry Combat Vehicle - Army Technology", publisher: Army Technology, retrieved: 2026-11-21, kind: press }
+  - { id: s2, url: "https://thedefensepost.com/2025/02/07/russia-bmp-rostec/", title: "Russian Army Receives New BMP-3 Infantry Fighting Vehicles From Rostec", publisher: The Defense Post, retrieved: 2026-11-21, kind: press }
+  - { id: s3, url: "https://rostec.ru/en/media/news/rostec-has-delivered-a-new-batch-of-the-bmd-4m-and-bmp-3-to-the-army/", title: "Rostec has Delivered a New Batch of the BMD-4M and BMP-3 to the Army", publisher: Rostec, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s4, url: "https://militarnyi.com/en/news/russian-army-receives-new-bmp-3s-with-additional-protection-and-electronic-warfare/", title: "Russian Army Receives New BMP-3s With Additional Protection and Electronic Warfare", publisher: Militarnyi, retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://defensemirror.com/news/41080/Russian_Troops_Receive_BMP_3_IFVs_with_Enhanced_Electronic_Warfare__Protection", title: "Russian Troops Receive BMP-3 IFVs with Enhanced Electronic Warfare, Protection", publisher: Defense Mirror, retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://jamestown.org/russias-kurganmashzavod-factory-data-shows-the-limits-of-bmp-3-production-rates/", title: "Russia's Kurganmashzavod Factory Data Shows the Limits of BMP-3 Production Rates", publisher: The Jamestown Foundation (Eurasia Daily Monitor), retrieved: 2026-11-21, kind: reference }
+  - { id: s7, url: "https://en.antaranews.com/news/82036/ri-purchases-37-bmp-3f-tanks-from-russia-d", title: "RI purchases 37 BMP-3F tanks from russia", publisher: ANTARA News, retrieved: 2026-11-21, kind: press }
+  - { id: s8, url: "https://www.naval-technology.com/projects/bmp-3f-marines-fighting-vehicle-mfv/", title: "BMP-3F Marines Fighting Vehicle (MFV) - Naval Technology", publisher: Naval Technology, retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://www.asiapacificdefensejournal.com/2019/04/indonesia-orders-additional-bmp-3f-and.html", title: "Indonesia orders additional BMP-3F and BT-3F from Russia", publisher: Asia Pacific Defense Journal, retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://www.upi.com/Defense-News/2014/02/07/Indonesia-takes-final-delivery-of-BMP-3F-vehicles/52651391756460", title: "Indonesia takes final delivery of BMP-3F vehicles", publisher: UPI, retrieved: 2026-11-21, kind: press }
+  - { id: s11, url: "https://armyrecognition.com/news/army-news/2025/exclusive-reveal-rosoboronexport-unveils-the-main-advantages-of-the-latest-bmp-3-infantry-fighting-vehicle", title: "Exclusive Reveal: Rosoboronexport Unveils the main advantages of the latest BMP-3 Infantry Fighting Vehicle", publisher: Army Recognition, retrieved: 2026-11-21, kind: press }
+  - { id: s12, url: "https://en.wikipedia.org/wiki/BMP-3", title: "BMP-3", publisher: Wikipedia, retrieved: 2026-11-21, kind: reference }

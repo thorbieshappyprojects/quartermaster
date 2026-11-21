@@ -1,0 +1,36 @@
+id: k21
+category: infantry-fighting-vehicle
+name: K21 IFV (4th production batch, 2024–2028)
+family: K21
+aliases: [NIFV, KNIFV, K300, XK21]
+manufacturer: { name: Hanwha Aerospace }
+production_sites:
+  - { place: Changwon, country: KR, source: s1 }
+origin: KR
+role: Tracked, amphibious infantry fighting vehicle of the Republic of Korea Army, armed with a 40 mm cannon and carrying a nine-soldier infantry squad.
+memorable_fact: { text: "The K21 can cross rivers afloat using a flotation pontoon system and hydro-jets, reaching about 6 km/h in water.", source: s6 }
+status: in_production
+in_service_since: { value: 2009, source: s1, confidence: medium, note: "Year the base K21 entered service with the ROK Army (mass-production ceremony and entry into service reported November 2009). The 4th production batch (2024–2028) keeps the K21 designation; no separate public variant designation found." }
+units_built: { value: 466, range: { min: 400, max: 466 }, source: s3, confidence: low, note: "Whole K21 family for the ROK Army before the 4th batch. s3 reports 466 deployed as of 2023. s2 and s4 give about 400 from the first three batches: initial and 2nd batches about 240 (2009–2013), 3rd batch about 160 (2013–2016). The 4th batch adds about 120 vehicles through 2028. 466 is shown because it is the more specific figure." }
+specs:
+  combat_weight: { value: 25, range: { min: 25, max: 27 }, source: s6, confidence: medium, note: "s6 lists 25 t combat loaded and s1 describes a 25-ton IFV. s5 lists 27,000 kg. The lower figure is shown because two sources agree on it; no manufacturer figure found." }
+  main_armament_calibre: { value: 40, source: s1, confidence: medium, note: "40 mm automatic cannon; s5 and s6 agree." }
+  dismounts: { value: 9, source: s4, confidence: medium, note: "3 crew plus 9 infantry; s5 and s6 agree." }
+  engine_power: { value: 750, source: s1, confidence: medium, note: "Doosan D2840LXE V-10 turbo-diesel per s6. s6 also mentions an 840 hp engine planned under a product improvement programme (PIP); not confirmed for production vehicles." }
+  top_speed: { value: 70, source: s6, confidence: medium, note: "Road speed. s5 agrees. Cross-country 40 km/h; water 6 km/h." }
+  range: { value: 450, source: s6, confidence: medium, note: "Operational range; s5 also gives 450 km." }
+operators:
+  - { country: KR, force: Republic of Korea Army, state: in_service, quantity: 466, source: s3 }
+cost: { value: 5900000000, currency: KRW, price_year: 2024, basis: contract_per_unit, source: s2, confidence: medium, note: "The source's own per-vehicle figure (about 5.9 bn won) for the 4th production batch contract between DAPA and Hanwha Aerospace (Dec 2024, 709.3 bn won, which also covers 21 other line items). Basis: about 120 vehicles (s3, s7). Earlier batches cost 3.2–4.0 bn won per vehicle (s2). s1 gives about 4 bn won (USD 3.4 million) for a fully equipped vehicle in 2009." }
+contracts:
+  - { customer: Republic of Korea (DAPA) / ROK Army, year: 2024, quantity: 120, value: 709300000000, currency: KRW, note: "4th production batch contract with Hanwha Aerospace, signed 18 December 2024 and running to September 2028. Covers the K21 and 21 other line items, and replaces remaining K200A1 vehicles. The roughly 120-vehicle figure is approximate (s3, s7). s7 reports about USD 592 million allocated for this phase.", source: s2 }
+  - { customer: Republic of Korea (DAPA) / ROK Army, year: 2009, quantity: null, value: 665000000, currency: USD, note: "Phase 2 supply contract signed by Doosan DST in December 2009.", source: s6 }
+peers: [m2a4-bradley, puma-s1, cv90-mkiv, bmp-3]
+sources:
+  - { id: s1, url: "https://www.koreatimes.co.kr/southkorea/defense/20091127/k21-infantry-vehicle-put-into-service", title: "K21 Infantry Vehicle Put Into Service", publisher: The Korea Times, retrieved: 2026-11-21, kind: press }
+  - { id: s2, url: "http://www.defensetoday.kr/news/articleView.html?idxno=8495", title: "한화에어로스페이스, K21 보병전투차량 4차 양산 계약 체결", publisher: Defense Today (디펜스투데이), retrieved: 2026-11-21, kind: press }
+  - { id: s3, url: "http://www.defensetoday.kr/news/articleView.html?idxno=6645", title: "K21보병전투차 4차 양산 및 F-35A 추가도입 의결", publisher: Defense Today (디펜스투데이), retrieved: 2026-11-21, kind: press }
+  - { id: s4, url: "https://www.thecommoditiesnews.com/news/articleView.html?idxno=6922", title: "K21, 7800억 들여 2028년까지 4차 양산", publisher: CNews, retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.armyrecognition.com/military-products/army/infantry-fighting-vehicles/tracked-vehicles/k-21-south-korea-uk", title: "K21 IFV", publisher: Army Recognition, retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://www.army-technology.com/projects/k21-fighting-vehicle/", title: "K21 Infantry Fighting Vehicle: South Korean Armor Specs", publisher: Army Technology, retrieved: 2026-11-21, kind: press }
+  - { id: s7, url: "https://www.overtdefense.com/2025/02/21/south-korea-ordering-new-k21-infantry-fighting-vehicles/", title: "South Korea Ordering New K21 Infantry Fighting Vehicles", publisher: Overt Defense, retrieved: 2026-11-21, kind: press }

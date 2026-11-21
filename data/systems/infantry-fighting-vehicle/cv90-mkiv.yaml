@@ -1,0 +1,93 @@
+id: cv90-mkiv
+category: infantry-fighting-vehicle
+name: CV90 MkIV (production versions CV9030 MkIV for Czechia and CV9035 MkIV for Slovakia)
+family: CV90
+aliases: [CV90 Mk IV, CV9030 MkIV, CV9035 MkIV, BVP CV90 MkIV, Stridsfordon 90 MkIV]
+manufacturer: { name: BAE Systems Hägglunds }
+production_sites:
+  - { place: Örnsköldsvik, country: SE, source: s7 }
+origin: SE
+role: Tracked infantry fighting vehicle. It carries an infantry section and supports it with a turret-mounted automatic cannon and optional anti-tank guided missiles.
+memorable_fact: { text: "Of the 246 CV90 MkIVs the Czech Republic ordered, 39 are being built in Sweden and 207 in the Czech Republic with Czech industry partners.", source: s4 }
+status: in_production
+in_service_since:
+  value: 1993
+  source: s12
+  confidence: medium
+  note: "This year is for the base CV90 system, not the MkIV. Army Technology gives 1993 for entry into service; other references give 1994. The MkIV was unveiled in 2017 (s3). The first MkIV vehicles are due in the Czech Republic in 2026, with main deliveries in 2027-2030 (s10). Delivery to a unit was not confirmed in the sources found. The search tool limit was reached, so no events after mid-2026 could be checked."
+units_built:
+  value: 1300
+  source: s12
+  confidence: medium
+  note: "This is the whole CV90 family, not the MkIV: 'more than 1,300 vehicles in 15 variants' delivered by January 2021, according to Army Technology. No public figure for completed MkIV vehicles was found. Only first-of-type and early-production vehicles had been rolled out by 2026 (s4, s7)."
+combat_use:
+  text: "No confirmed combat use of the CV90 MkIV as of 2026. Earlier CV90 variants supplied to Ukraine have been used in combat by a Ukrainian brigade in the Bakhmut and Kupiansk sectors."
+  source: s13
+specs:
+  combat_weight:
+    value: 38
+    range: { min: 37, max: 38 }
+    source: s1
+    confidence: medium
+    note: "This is BAE's gross vehicle weight rating (GVWR), not a measured combat weight. BAE's current US product page gives a GVWR raised from 35 t to 38 t. An older BAE regional page (s2) gives 37 t. The newer manufacturer figure is shown."
+  main_armament_calibre:
+    value: 30
+    range: { min: 30, max: 35 }
+    source: s4
+    confidence: medium
+    note: "30 mm is for the Czech CV9030 MkIV, the first production MkIV rolled out. Slovakia's CV9035 MkIV carries a 35 mm cannon (s7). The D-series turret can take 30/40 mm and 35/50 mm cannons, up to a 120 mm gun (s3)."
+  dismounts:
+    value: 8
+    source: s3
+    confidence: low
+    note: "Army Recognition gives crew 3 + 8 for the generic MkIV. This comes from a single secondary source. Numbers for the Czech and Slovak configurations were not confirmed."
+  engine_power:
+    value: 1000
+    source: s1
+    confidence: high
+    note: "The manufacturer says 'up to 1,000 horsepower'. Army Technology names the engine as a Scania (s12)."
+  top_speed:
+    value: 70
+    source: s3
+    confidence: low
+    note: "Single secondary source (Army Recognition data sheet). No manufacturer figure for the MkIV was found."
+  range:
+    value: 350
+    source: s3
+    confidence: low
+    note: "Single secondary source (Army Recognition data sheet). No manufacturer figure for the MkIV was found."
+operators:
+  - { country: CZ, force: Army of the Czech Republic, state: ordered, quantity: 246, source: s5 }
+  - { country: SK, force: Armed Forces of the Slovak Republic, state: ordered, quantity: 152, source: s6 }
+  - { country: LT, force: Lithuanian Armed Forces, state: evaluating, quantity: 100, source: s9 }
+  - { country: SE, force: Swedish Armed Forces, state: evaluating, quantity: null, source: s14 }
+  - { country: FI, force: Finnish Defence Forces, state: evaluating, quantity: null, source: s11 }
+  - { country: NO, force: Norwegian Armed Forces, state: evaluating, quantity: null, source: s11 }
+cost:
+  value: 242700000
+  currency: CZK
+  price_year: 2023
+  basis: contract_per_unit
+  source: s5
+  confidence: medium
+  note: "Czech contract of May 2023: CZK 59.7 bn (about EUR 2.49 bn) for 246 CV90 MkIVs in seven variants. 59.7 bn / 246 = about CZK 242.7 m, or about EUR 10.1 m per vehicle. The total covers several variants and more than the vehicles themselves, so this is not a flyaway price. For comparison, Slovakia's EUR 1.3 bn for 152 vehicles (s6) works out to about EUR 8.6 m per vehicle."
+contracts:
+  - { customer: Czech Republic / Army, year: 2023, quantity: 246, value: 59700000000, currency: CZK, note: "Seven variants (CV9030 MkIV IFV and derivatives). 39 built in Sweden and 207 in the Czech Republic (s4). Deliveries planned 2026-2030 (s10).", source: s5 }
+  - { customer: Slovakia / Armed Forces, year: 2022, quantity: 152, value: 1300000000, currency: EUR, note: "Government-to-government agreement with Sweden for CV9035 MkIV vehicles in several configurations. First vehicle rolled out on 20 February 2026 (s7).", source: s6 }
+  - { customer: Lithuania (Nordic CV90 MkIV programme), year: 2026, quantity: 100, value: null, currency: null, note: "Lithuania signed an implementation agreement with partner nations in June 2026. BAE submitted its best and final offer for the multinational programme on 16 June 2026 (s8). Signature of the main contract was not confirmed in the sources found.", source: s9 }
+peers: [lynx-kf41, ascod-2, puma-s1]
+sources:
+  - { id: s1, url: "https://www.baesystems.com/en-us/product/cv90-mkiv", title: "CV90MkIV", publisher: BAE Systems, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://www.baesystems.com/en-cz/product/cv90-mkiv", title: "CV90 MkIV", publisher: BAE Systems, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s3, url: "https://www.armyrecognition.com/military-products/army/infantry-fighting-vehicles/tracked-vehicles/cv90-mk-iv-ifv-tracked-armored-infantry-fighting-vehicle", title: "CV90 Mk IV", publisher: Army Recognition, retrieved: 2026-11-21, kind: press }
+  - { id: s4, url: "https://www.army-technology.com/news/bae-systems-czech-army-vehicles/", title: "BAE Systems Hägglunds rolls out Czech Army's first CV90 IFV", publisher: Army Technology, retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://euro-sd.com/2023/05/news/31758/czech-republic-places-eur-2-5-bn-order-for-cv90-mkivs/", title: "Czech Republic Places EUR 2.5 Bn Order for CV90 MkIVs", publisher: European Security & Defence, retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://euro-sd.com/2022/12/news/28720/slovakia-signs-contract-for-cv90-mk-iv-vehicles/", title: "Slovakia Signs Contract for CV90 Mk IV Vehicles", publisher: European Security & Defence, retrieved: 2026-11-21, kind: press }
+  - { id: s7, url: "https://www.janes.com/osint-insights/defence-news/land/first-slovak-cv90-ifv-rolled-out", title: "First Slovak CV90 IFV rolled out", publisher: Janes, retrieved: 2026-11-21, kind: press }
+  - { id: s8, url: "https://www.janes.com/defence-intelligence-insights/defence-news/land/eurosatory-2026-bae-systems-hagglunds-makes-best-and-final-offer-for-cv90-mkiv-nordic-initiative", title: "Eurosatory 2026: BAE Systems Hägglunds makes best and final offer for CV90 MkIV Nordic initiative", publisher: Janes, retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://www.lrt.lt/en/news-in-english/19/2964056/lithuania-partners-sign-cv90-implementation-deal", title: "Lithuania, partners sign CV90 implementation deal", publisher: LRT, retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://mzv.gov.cz/stockholm/en/news_and_events_1/minister_of_defence_presentation_cv90.html", title: "Minister of Defence Jana Černochová attended the presentation of the CV90 Mk IV for the Czech Army", publisher: Embassy of the Czech Republic in Stockholm (Czech Ministry of Foreign Affairs), retrieved: 2026-11-21, kind: government }
+  - { id: s11, url: "https://valtioneuvosto.fi/en/-/236553176/finland-sweden-norway-lithuania-estonia-and-the-netherlands-look-into-joint-procurement-of-armoured-infantry-fighting-vehicles", title: "Finland, Sweden, Norway, Lithuania, Estonia and the Netherlands look into joint procurement of armoured infantry fighting vehicles", publisher: Finnish Government, retrieved: 2026-11-21, kind: government }
+  - { id: s12, url: "https://www.army-technology.com/projects/cv90/", title: "CV90 Armoured Combat Vehicle", publisher: Army Technology, retrieved: 2026-11-21, kind: press }
+  - { id: s13, url: "https://www.kyivpost.com/post/27804", title: "Powerful CV-90 Fighting Vehicles to Be Beefed Up on Front Line", publisher: Kyiv Post, retrieved: 2026-11-21, kind: press }
+  - { id: s14, url: "https://www.shephardmedia.com/news/landwarfareintl/eurosatory-2026-nordic-cv90-contract-to-be-signed-this-year-as-best-offer-submitted/", title: "Eurosatory 2026: Nordic CV90 contract to be signed this year as best offer submitted", publisher: Shephard Media, retrieved: 2026-11-21, kind: press }

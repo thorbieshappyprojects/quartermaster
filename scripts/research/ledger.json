@@ -1,5 +1,5 @@
 {
-  "spentUsd": 9.5523,
+  "spentUsd": 15.8925,
   "entries": [
     {
       "date": "2026-11-21",
@@ -104,6 +104,70 @@
       "input": 506426,
       "output": 10935,
       "searches": 9
+    },
+    {
+      "date": "2026-11-21",
+      "item": "infantry-fighting-vehicle/cv90-mkiv",
+      "usd": 0.7534,
+      "input": 373369,
+      "output": 12082,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "infantry-fighting-vehicle/lynx-kf41",
+      "usd": 0.814,
+      "input": 750950,
+      "output": 12764,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "infantry-fighting-vehicle/m2a4-bradley",
+      "usd": 0.9257,
+      "input": 715439,
+      "output": 17272,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "infantry-fighting-vehicle/ascod-2",
+      "usd": 0.7786,
+      "input": 495494,
+      "output": 11620,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "infantry-fighting-vehicle/k21",
+      "usd": 0.6038,
+      "input": 334246,
+      "output": 9408,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "infantry-fighting-vehicle/bmp-3",
+      "usd": 0.8921,
+      "input": 618074,
+      "output": 17637,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "infantry-fighting-vehicle/zbd-04a",
+      "usd": 0.8121,
+      "input": 704141,
+      "output": 8269,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "infantry-fighting-vehicle/redback",
+      "usd": 0.7605,
+      "input": 469341,
+      "output": 12779,
+      "searches": 15
     }
   ]
 }

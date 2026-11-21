@@ -1,0 +1,89 @@
+id: lynx-kf41
+category: infantry-fighting-vehicle
+name: "Lynx KF41 IFV (Lance 30 mm turret)"
+family: "Lynx"
+aliases: ["KF41 Lynx", "Kettenfahrzeug 41", "Lynx KF-41"]
+manufacturer: { name: "Rheinmetall Landsysteme GmbH (Rheinmetall AG)" }
+production_sites:
+  - { place: "Unterlüß", country: DE, source: s1 }
+  - { place: "Zalaegerszeg", country: HU, source: s7 }
+  - { place: "La Spezia", country: IT, source: s2 }
+origin: DE
+role: "Tracked infantry fighting vehicle with a crew of three and room for eight soldiers, armed with a 30 mm cannon in the Lance turret; the family also includes APC, command, recovery and medical versions."
+memorable_fact: { text: "Lynx KF41 vehicles share a common drive module, and Rheinmetall says a base vehicle can be switched between roles such as IFV, APC, command vehicle or ambulance within eight hours.", source: s3 }
+status: in_production
+in_service_since:
+  value: 2022
+  source: s7
+  confidence: medium
+  note: "Year the first production KF41 IFV (Lance 30 mm turret) was handed over to Hungary, the launch customer (October 2022). The type was unveiled at Eurosatory in June 2018."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public total production figure found for the KF41 family. Trade press reported 45 vehicles delivered to Hungary by early 2025, but this is a partial delivery count, not a total built."
+combat_use: { text: "No confirmed combat use as of 2026. Ukraine signed a contract in December 2025 for five vehicles to be delivered from early 2026, and trade press described them as set for their first combat use.", source: s11 }
+specs:
+  combat_weight:
+    value: 50
+    source: s1
+    confidence: medium
+    range: { min: 44, max: 50 }
+    note: "Shows the current manufacturer brochure maximum ('up to 50t'). Rheinmetall's 2018 launch release gave about 44 t for the IFV with the Lance 2.0 turret and a protection package for peer-on-peer combat. Weight depends on configuration."
+  main_armament_calibre:
+    value: 30
+    source: s2
+    confidence: high
+    note: "30 mm main gun in the Lance turret (the Hungarian order specifies a manned 30mm Lance turret). A 35 mm Wotan 35 cannon was shown with the Lance 2.0 turret in 2018 as an option."
+  dismounts:
+    value: 8
+    source: s2
+    confidence: high
+    note: "Manufacturer: crew compartment has space for 3 crew members and 8 soldiers."
+  engine_power:
+    value: 1140
+    source: s3
+    confidence: high
+    note: "850 kW Liebherr engine (originally stated as 850 kW / 1140 hp); 850 kW is confirmed in the current brochure (s1)."
+  top_speed:
+    value: 70
+    source: s9
+    confidence: medium
+    range: { min: 65, max: 70 }
+    note: "The manufacturer brochure (s1) gives max. road speed only as '>65km/h'. Trade press/reference sources give 70 km/h, which is consistent with the brochure figure."
+  range:
+    value: 500
+    source: s10
+    confidence: medium
+    note: "Operational range of 500 km per trade/reference sources (also given by Army Recognition). No manufacturer range figure found."
+operators:
+  - { country: HU, force: "Hungarian Defence Forces (Army)", state: in_service, quantity: 218, source: s4 }
+  - { country: IT, force: "Italian Army", state: ordered, quantity: 21, source: s8 }
+  - { country: UA, force: "Armed Forces of Ukraine", state: ordered, quantity: 5, source: s5 }
+  - { country: RO, force: "Romanian Land Forces", state: ordered, quantity: 298, source: s6 }
+cost:
+  value: 9170000
+  currency: EUR
+  price_year: 2020
+  basis: contract_per_unit
+  source: s4
+  confidence: low
+  note: "Hungarian MoD contract signed in 2020 worth 'more than €2 billion' divided by 218 Lynx KF41 (about €9.17 million each). The contract also covers nine Buffalo armoured recovery vehicles, simulators, training, initial spares and maintenance support, so this is only a rough per-vehicle figure."
+contracts:
+  - { customer: "Hungary / Ministry of Defence", year: 2020, quantity: 218, value: 2000000000, currency: EUR, note: "Launch order; more than €2 billion including nine Buffalo ARVs, simulators, training and spares; 46 built in Germany and 172 in Hungary; manned 30 mm Lance turret.", source: s4 }
+  - { customer: "Italy / Italian Army (A2CS programme)", year: 2025, quantity: 21, value: null, currency: null, note: "First A2CS order to the Leonardo Rheinmetall Military Vehicles joint venture; 5 vehicles with the Lance turret and 16 with Leonardo's Hitfist 30 mm turret. Contract value not found.", source: s8 }
+  - { customer: "Ukraine (financed by Germany)", year: 2025, quantity: 5, value: null, currency: null, note: "Signed December 2025; first batch valued 'in the mid double-digit million euro range'; two-man Lance turret.", source: s5 }
+  - { customer: "Romania / Directorate General for Armaments (EU SAFE)", year: 2026, quantity: 298, value: null, currency: null, note: "Signed 29 May 2026 as part of a €5.7 billion package that also includes Skyranger air defence, ammunition and vessels; Lynx-only value not stated. Mostly APCs plus mortar, command post and medical variants; deliveries 2028-2030.", source: s6 }
+peers: [cv90-mkiv, ascod-2, redback]
+sources:
+  - { id: s1, url: "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Vehicle-Systems/D1150e0624-Lynx-IFV.pdf", title: "Lynx IFV – Infantry Fighting Vehicle (brochure D1150e06.24)", publisher: "Rheinmetall", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://www.rheinmetall.com/en/products/tracked-armoured-vehicles/lynx-infantry-fighting-vehicle", title: "Lynx – The new-gen combat vehicle", publisher: "Rheinmetall", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s3, url: "https://www.rheinmetall.com/en/media/news-watch/news/2018/2018-06-12_rheinmetall-unveils-the-lynx-kf41-next-generation-combat-vehicle", title: "Rheinmetall unveils the Lynx KF41 next-generation combat vehicle", publisher: "Rheinmetall", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s4, url: "https://www.rheinmetall.com/en/media/news-watch/news/2020/2020-09-10_major-defence-deal", title: "NATO member Hungary orders 218 Lynx infantry fighting vehicles", publisher: "Rheinmetall", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s5, url: "https://www.rheinmetall.com/en/media/news-watch/news/2026/01/2026-01-12-rheinmetall-supplies-lynx-to-ukraine", title: "Rheinmetall supplies Lynx to Ukraine", publisher: "Rheinmetall", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s6, url: "https://www.rheinmetall.com/en/media/news-watch/news/2026/06/2026-06-02-major-historic-contract-in-romania-worth-5-7-billion", title: "Major historic contract from Romania worth €5.7 billion", publisher: "Rheinmetall", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s7, url: "https://euro-sd.com/2024/07/major-news/39594/first-hungarian-built-lynx/", title: "Rheinmetall hands over first locally produced KF41 Lynx to Hungarian armed forces", publisher: "European Security & Defence", retrieved: 2026-11-21, kind: press }
+  - { id: s8, url: "https://thedefensepost.com/2025/11/06/italy-lynx-ifv/", title: "Italy Awards First Next-Gen Lynx IFV Contract to Leonardo-Rheinmetall JV", publisher: "The Defense Post", retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://www.armyrecognition.com/military-products/army/infantry-fighting-vehicles/tracked-vehicles/kf41-lynx-ifv", title: "KF41 Lynx IFV", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://www.army-technology.com/projects/lynx-kf41-infantry-fighting-vehicle/", title: "Lynx Kf41 Infantry Fighting Vehicle", publisher: "Army Technology", retrieved: 2026-11-21, kind: press }
+  - { id: s11, url: "https://www.shephardmedia.com/news/landwarfareintl/rheinmetall-kf41-lynx-fighting-vehicles-set-for-first-taste-of-combat-in-ukraine/", title: "Rheinmetall KF41 Lynx fighting vehicles set for first taste of combat in Ukraine", publisher: "Shephard Media", retrieved: 2026-11-21, kind: press }

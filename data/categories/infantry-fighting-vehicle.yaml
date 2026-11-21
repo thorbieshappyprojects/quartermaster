@@ -1,0 +1,130 @@
+# Indicators: scripts/research/indicators/infantry-fighting-vehicle.yaml. Category card researched 2026-11-21.
+id: infantry-fighting-vehicle
+name: Tracked infantry fighting vehicles
+domain: Land combat
+wave: 1
+indicators:
+  - id: combat_weight
+    label: Combat weight
+    unit: t
+    trump: higher_wins
+    decimals: 1
+  - id: main_armament_calibre
+    label: Main armament calibre
+    unit: mm
+    trump: higher_wins
+  - id: dismounts
+    label: Dismounts carried
+    unit: ""
+    trump: higher_wins
+  - id: engine_power
+    label: Engine power
+    unit: hp
+    trump: higher_wins
+  - id: power_to_weight
+    label: Power-to-weight
+    unit: hp/t
+    trump: higher_wins
+    decimals: 1
+    derived:
+      op: divide
+      numerator: engine_power
+      denominator: combat_weight
+  - id: top_speed
+    label: Top speed (road)
+    unit: km/h
+    trump: higher_wins
+  - id: range
+    label: Range (road)
+    unit: km
+    trump: higher_wins
+category_card:
+  summary: Tracked infantry fighting vehicles (IFVs) are armoured, tracked combat vehicles that carry an infantry squad. Unlike armoured personnel carriers, they also carry their own weapons, typically an automatic cannon and often anti-tank guided missiles, so they can fight alongside the troops they deliver; examples include the M2 Bradley, CV90, Puma, Lynx and the BMP family.
+  purpose:
+    - text: IFVs carry infantry across the battlefield, give fire support to troops once they have dismounted, and can destroy enemy fighting vehicles.
+      source: s5
+    - text: In U.S. Army doctrine, the Bradley is part of a tightly coordinated combined-arms formation that delivers infantry and mobile firepower together.
+      source: s1
+    - text: Doctrine calls for the vehicle to close on the objective and dismount its squad at the last covered position before the assault.
+      source: s1
+  strengths:
+    - text: The Bradley's armament (25 mm cannon, coaxial machine gun and twin TOW missile launcher) lets it engage infantry, light vehicles and armoured targets in both attack and defence.
+      source: s1
+    - text: Ukrainian accounts reported by RUSI say Western IFVs gave crews better survivability than older BMPs, and troops mounted in BMPs had less confidence in their equipment.
+      source: s2
+    - text: Ukrainian units have used the Bradley's mobility and firepower for independent breakthroughs, ambushes and anti-armour tasks, sometimes with a single vehicle.
+      source: s1
+  weaknesses:
+    - text: Adding armour to improve protection increases weight and bulk, which reduces mobility and puts more stress on the chassis and drivetrain.
+      source: s3
+    - text: In the 2023 Ukrainian offensive, vehicles in narrow minefield breach lanes could not turn or move around a disabled lead vehicle without being immobilised themselves. This left concentrations of stranded armour that artillery then targeted.
+      source: s2
+    - text: "IFV procurement is hard to sustain: two earlier U.S. programmes to replace the Bradley were cancelled for programmatic and cost-related reasons."
+      source: s4
+  counters:
+    - text: Anti-tank minefields combined with artillery, which strikes armour that has been halted at obstacles.
+      source: s2
+    - text: FPV drones, non-line-of-sight ATGMs and drone-designated artillery can be fired from concealed positions. RUSI assesses that this undermines direct-fire overwatch and makes a mission kill against individual high-value vehicles highly likely.
+      source: s2
+    - text: "FPV drones used together with artillery: according to RUSI as reported by Defence Connect, the drone immobilises a vehicle and artillery then engages the infantry as they dismount."
+      source: s8
+    - text: Rocket-propelled grenades and anti-tank guided missiles, which active protection systems are designed to intercept or divert before impact.
+      source: s3
+  trends:
+    - text: Armed forces are pursuing hard-kill and soft-kill active protection systems as an alternative or adjunct to heavier passive armour.
+      source: s3
+    - text: Anti-drone cages and mesh began as improvised field modifications in Ukraine and have become a more standard feature of armoured vehicles. One analysis notes they require maintenance and work poorly against drones attacking from the front.
+      source: s7
+    - text: Newer programmes such as the U.S. XM30 are designed to be optionally manned (remotely operable without a crew aboard), and capabilities such as detecting uncrewed aerial systems are planned to be added after the first fielded version.
+      source: s6
+    - text: Ukrainian units often dismount infantry farther from the objective and use the IFV as a standoff fire-support platform because of the anti-armour threat. A U.S. Army journal article suggests this points towards smaller, dispersed vehicle sections.
+      source: s1
+sources:
+  - id: s1
+    url: https://www.lineofdeparture.army.mil/Journals/Armor/Armor-Archive/Spring-2026-Edition/Ukraine-and-the-Bradley/
+    title: Ukrainian Combat Employment of the Bradley Fighting Vehicle (Armor, Spring 2026)
+    publisher: U.S. Army, Armor journal (Line of Departure)
+    retrieved: 2026-11-21
+    kind: reference
+  - id: s2
+    url: https://static.rusi.org/lessons-learned-ukraine-offensive-2022-23.pdf
+    title: Preliminary Lessons from Ukraine's Offensive Operations, 2022-23
+    publisher: Royal United Services Institute (RUSI)
+    retrieved: 2026-11-21
+    kind: reference
+  - id: s3
+    url: https://euro-sd.com/2024/01/articles/36065/active-protection-systems-an-overview/
+    title: "Active protection systems: an overview"
+    publisher: European Security & Defence (ESD)
+    retrieved: 2026-11-21
+    kind: press
+  - id: s4
+    url: https://www.congress.gov/crs-product/IF12094
+    title: The Army's XM-30 Mechanized Infantry Combat Vehicle
+    publisher: Congressional Research Service (U.S. Congress)
+    retrieved: 2026-11-21
+    kind: government
+  - id: s5
+    url: https://news.usni.org/2026/09/15/report-to-congress-on-the-armys-xm-30-mechanized-infantry-combat-vehicle
+    title: Report to Congress on the Army's XM-30 Mechanized Infantry Combat Vehicle
+    publisher: USNI News (republishing Congressional Research Service report of 8 Sept 2026)
+    retrieved: 2026-11-21
+    kind: press
+  - id: s6
+    url: https://euro-sd.com/2025/10/articles/armament/47126/xm30-enters-prototyping-phase-bradley-successor-taking-shape/
+    title: "XM30 enters prototyping phase: Bradley successor taking shape"
+    publisher: European Security & Defence (ESD)
+    retrieved: 2026-11-21
+    kind: press
+  - id: s7
+    url: https://securityanddefence.pl/Analysis-of-the-power-of-drones-and-limitations-of-the-anti-drone-solutions-on-the,208347,0,2.html
+    title: Analysis of the power of drones and limitations of the anti-drone solutions on the Russian-Ukrainian battlefield
+    publisher: Security and Defence Quarterly
+    retrieved: 2026-11-21
+    kind: reference
+  - id: s8
+    url: https://www.defenceconnect.com.au/joint-capabilities/15871-lessons-from-the-ukrainian-frontlines
+    title: Lessons from the Ukrainian front lines
+    publisher: Defence Connect
+    retrieved: 2026-11-21
+    kind: press

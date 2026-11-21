@@ -1,0 +1,78 @@
+id: ascod-2
+category: infantry-fighting-vehicle
+name: ASCOD 2 IFV "Hunter" (Mednieks), Latvian configuration
+family: ASCOD
+aliases: [Mednieks, ASCOD Hunter, ASCOD IFV, ASCOD 2 IFV]
+manufacturer: { name: "General Dynamics European Land Systems - Santa Bárbara Sistemas (GDELS-SBS)" }
+production_sites:
+  - { place: Trubia, country: ES, source: s7 }
+  - { place: Valmiera, country: LV, source: s6 }
+origin: ES
+role: Tracked infantry fighting vehicle carrying a crew of three and eight infantry, armed with a 30 mm cannon in an unmanned remote turret.
+memorable_fact: { text: "Latvian soldiers of the Mechanized Infantry Brigade picked the name Hunter (Mednieks), which comes from Latvian mythology.", source: s4 }
+status: in_production
+in_service_since:
+  value: 2026
+  source: s5
+  confidence: medium
+  note: "Year this variant entered service: Latvia's National Armed Forces received the first Hunter on 7 October 2026. The base ASCOD family (Pizarro) entered series production in 1996, according to GDELS (s1)."
+units_built:
+  value: 1100
+  source: s2
+  confidence: low
+  note: "Family-level figure, not this variant. In January 2025 GDELS said there were 'more than 1100 vehicles in different variants in the market' across the whole ASCOD family (Pizarro, Ulan, Ajax-derived, Sabrah and others). This appears to count vehicles ordered or fielded and is a lower bound. No public total exists for Hunter vehicles built; deliveries began with the first vehicle in October 2026."
+specs:
+  combat_weight:
+    value: 42
+    source: s3
+    confidence: low
+    range: { min: 42, max: 45 }
+    note: "Reported for the Hunter as a gross weight 'expandable to 42 metric tons' (single trade-press source). GDELS gives the family maximum as 'up to 45 t, depending on version' (s1). No exact public combat weight for the Hunter configuration."
+  main_armament_calibre:
+    value: 30
+    source: s4
+    confidence: medium
+    note: "Elbit UT30 Mk2 unmanned turret with a 30 mm Mk44 Bushmaster II cannon (30x173 mm). Reported consistently in trade press."
+  dismounts:
+    value: 8
+    source: s1
+    confidence: high
+    note: "GDELS states a crew of 3+8 in the IFV configuration. Army Recognition (s4) reports the same 3 crew + 8 infantry for the Hunter."
+  engine_power:
+    value: 820
+    source: s3
+    confidence: low
+    range: { min: 820, max: 1100 }
+    note: "Originally given as 820 hp (600 kW), MTU 8V 199 TE21 diesel, in one trade-press report on the Hunter. Army Recognition (s4) says the Hunter's MTU 8V199-series engine produces 'up to 1,100 hp', which matches the family maximum GDELS gives (up to 1100 hp / 810 kW, s1). The installed-rating figure is displayed; inconsistent reporting."
+  top_speed:
+    value: 70
+    source: s4
+    confidence: medium
+    note: "Single trade-press figure for the Hunter."
+  range:
+    value: null
+    source: null
+    confidence: null
+operators:
+  - { country: LV, force: Latvian Land Forces (National Armed Forces), state: ordered, quantity: 84, source: s5 }
+cost:
+  value: 8880952
+  currency: EUR
+  price_year: 2025
+  basis: contract_per_unit
+  source: s2
+  confidence: high
+  note: "Latvian MoD initial contract of January 2025: about EUR 373 million for 42 IFVs including logistic support, divided by 42. The second contract (June 2025, EUR 387 million including VAT for 42 vehicles, s8) works out to about EUR 9.21 million per vehicle."
+contracts:
+  - { customer: Latvia / Ministry of Defence, year: 2025, quantity: 42, value: 373000000, currency: EUR, note: "Initial batch of ASCOD IFVs including logistic support, awarded to GDELS-Santa Bárbara Sistemas after an international competition.", source: s2 }
+  - { customer: Latvia / Ministry of Defence, year: 2025, quantity: 42, value: 387000000, currency: EUR, note: "Second batch of 42 IFVs for an additional battalion, signed June 2025; value includes VAT.", source: s8 }
+peers: [cv90-mkiv, k21, lynx-kf41]
+sources:
+  - { id: s1, url: "https://gdels.com/ascod.php", title: "ASCOD", publisher: General Dynamics European Land Systems, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://www.gdels.com/en/media/news/gdels-to-supply-latvia-with-ascod-infantry-fighting-vehicles-pjw6gh0qu9j9jtbj1szu6ugr", title: "GDELS to supply Latvia with ASCOD Infantry Fighting Vehicles", publisher: General Dynamics European Land Systems, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s3, url: "https://militaryleak.com/2026/11/05/latvian-national-armed-forces-receives-first-hunter-ascod-2-infantry-fighting-vehicle/", title: "Latvian National Armed Forces Receives First Hunter (ASCOD 2) Infantry Fighting Vehicle", publisher: MilitaryLeak.COM, retrieved: 2026-11-21, kind: press }
+  - { id: s4, url: "https://armyrecognition.com/news/army-news/2025/latvia-to-receive-first-ascod-hunter-ifv-from-gdels-in-early-2026", title: "Latvia to receive first ASCOD Hunter IFV from GDELS in early 2026", publisher: Army Recognition, retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.grosswald.org/latvia-first-hunter-mednieks-ascod-infantry-fighting-vehicle-84-by-2029-valmiera/", title: "Latvia Takes Delivery of Its First ASCOD-Based Hunter Infantry Fighting Vehicle — 84 by 2029, Final Assembly at Valmiera", publisher: Großwald, retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://www.mod.gov.lv/lv/zinas/aizsardzibas-ministrs-apmekles-ascod-kajnieku-kaujas-masinas-mednieks-prezentaciju", title: "Aizsardzības ministrs apmeklēs ASCOD kājnieku kaujas mašīnas “Mednieks” prezentāciju", publisher: Ministry of Defence of the Republic of Latvia, retrieved: 2026-11-21, kind: government }
+  - { id: s7, url: "https://militaryleak.com/2026/04/13/latvias-new-hunter-ascod-2-infantry-fighting-vehicle-enters-production/", title: "Latvia’s New HUNTER (ASCOD 2) Infantry Fighting Vehicle Enters Production", publisher: MilitaryLeak.COM, retrieved: 2026-11-21, kind: press }
+  - { id: s8, url: "https://defence-industry.eu/the-baltic-hunter-latvia-signs-deal-with-gdels-for-additional-ascod-combat-vehicles/", title: "The Baltic HUNTER: Latvia signs deal with GDELS for additional ASCOD combat vehicles", publisher: Defence Industry Europe, retrieved: 2026-11-21, kind: press }
