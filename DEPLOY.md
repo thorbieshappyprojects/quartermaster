@@ -35,12 +35,13 @@ SSH as the non-root deploy user with a key (`-o BatchMode=yes`); fail2ban bans f
 ### 2. VPS
 
 ```sh
-sudo install -d -m 750 -o deploy -g deploy /opt/quartermaster /opt/quartermaster/site
+sudo install -d -m 750 -o deploy -g deploy /opt/quartermaster
+sudo install -d -m 755 -o deploy -g deploy /opt/quartermaster/site   # 755: the hardened Caddy container must read it
 scp deploy/compose.yml deploy/Caddyfile deploy@SERVER:/opt/quartermaster/      # from the Mac
 ```
 
 **Token (owner only).** Run this, then on the empty line type `TUNNEL_TOKEN=`, paste the token, press Enter and
-then Ctrl-D. The token goes straight into the file on the server, not into shell history or a chat:
+then Ctrl-D (the `TUNNEL_TOKEN=` prefix is required; the bare token alone does not work). The token goes straight into the file on the server, not into shell history or a chat:
 
 ```sh
 ssh deploy@SERVER 'umask 077 && cat > /opt/quartermaster/.env'
