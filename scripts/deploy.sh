@@ -9,9 +9,14 @@ set -a; source ./deploy.env; set +a
 : "${DEPLOY_HOST:?set DEPLOY_HOST in deploy.env}"
 DEPLOY_PATH="${DEPLOY_PATH:-/opt/quartermaster/site}"
 
-echo "==> validate, test, build"
-npm run --silent build
-npm test --silent
+# Build from a clean export of HEAD so uncommitted work (e.g. cards mid-research) never ships.
+BUILD_DIR="$(mktemp -d)"
+trap 'rm -rf "$BUILD_DIR"' EXIT
+git archive HEAD | tar -x -C "$BUILD_DIR"
+ln -s "$PWD/node_modules" "$BUILD_DIR/node_modules"
+echo "==> validate, test, build $(git rev-parse --short HEAD)$(git diff --quiet HEAD || echo ' (uncommitted changes are not deployed)')"
+(cd "$BUILD_DIR" && npm run --silent build && npm test --silent)
+cd "$BUILD_DIR"
 [[ -f dist/index.html ]] || { echo "dist/index.html missing" >&2; exit 1; }
 if find dist \( -name '*.env' -o -name '.env*' -o -name '*.log' \) | grep -q .; then
   echo "refusing to deploy: env/log file in dist/" >&2; exit 1
