@@ -1,0 +1,44 @@
+id: type-10
+category: main-battle-tank
+name: Type 10
+family: Type 10
+aliases: ["10式戦車 (Hitomaru-shiki sensha)", "TK-X", "MBT-X", "10TK"]
+manufacturer: { name: Mitsubishi Heavy Industries }
+production_sites:
+  - { place: Sagamihara, country: JP, source: s7 }
+origin: JP
+role: Japanese main battle tank of the Ground Self-Defense Force, designed to be light enough to move across Japan's road and bridge network, with built-in C4I networking.
+memorable_fact: { text: "Thanks to its continuously variable transmission, the Type 10 can drive backwards as fast as it drives forwards, about 70 km/h.", source: s5 }
+status: in_production
+in_service_since: { value: 2012, range: { min: 2010, max: 2012 }, source: s11, confidence: low, note: "Base system (no separate production variant). Sources disagree. The MOD/ATLA reference guide (s12) says the tank was 'deployed in 2010', which matches the 2010 type adoption and the FY2010 start of procurement. GlobalSecurity (s8) reports that the first 13 production tanks were delivered in 2011. Wikipedia, citing Jiji Press, gives January 2012 as entry into service. 2012 is shown as the first service of production tanks with units." }
+units_built: { value: null, source: null, confidence: null, note: "No public figure for tanks built or delivered was found. Army Recognition (s5) reported 76 in JGSDF service in 2020. Army Recognition (s9) reported that the FY2025 order of 12 brings the total ordered to 148. FY2026 adds 8 more (s4). These are ordered or in-service figures, not tanks built." }
+combat_use: { text: "No confirmed combat use as of 2026.", source: s14 }
+specs:
+  combat_weight: { value: 44, range: { min: 43.3, max: 44 }, source: s5, confidence: medium, note: "44 t is the standard configuration. Army Recognition also gives 40 t (basic) and 48 t (fully equipped) for different modular-armour fits. GlobalSecurity (s6) lists 43.3 t. 44 t is shown because it is the most widely reported standard combat weight." }
+  gun_calibre: { value: 120, source: s1, confidence: high, note: "120 mm smoothbore gun; the MOD white paper lists it as 120mm 滑空砲." }
+  engine_power: { value: 1200, source: s6, confidence: medium, note: "1,200 hp at 2,300 rpm, from a water-cooled four-stroke V8 diesel; the same figure is given by Army Recognition (s5)." }
+  top_speed: { value: 70, source: s1, confidence: high, note: "Maximum speed of 70 km/h stated by MOD. Army Recognition (s5) says the same speed is reached in reverse." }
+  range: { value: 500, range: { min: 300, max: 500 }, source: s5, confidence: low, note: "No government figure found. Army Recognition gives a maximum range of 500 km. A Japanese enthusiast site (s13) lists 300 km. 500 km is shown as the trade-press figure." }
+  crew: { value: 3, source: s1, confidence: high }
+operators:
+  - { country: JP, force: Japan Ground Self-Defense Force, state: in_service, quantity: null, source: s1 }
+cost: { value: 1925000000, currency: JPY, price_year: 2025, basis: contract_per_unit, source: s2, confidence: medium, note: "FY2025 MOD budget request for 12 Type 10 tanks at ¥23.1 billion, divided by 12 (calculated, not stated by MOD). The FY2026 budget (s4) gives 8 tanks for about ¥15.8 billion (about ¥1.98 billion each). The FY2010 order (s8) worked out to about ¥954 million per tank, against a projected unit price of about ¥700 million (s6)." }
+contracts:
+  - { customer: Japan / Ground Self-Defense Force, year: 2010, quantity: 13, value: 12400000000, currency: JPY, note: "First production order (FY2010 budget); about ¥954 million per tank.", source: s8 }
+  - { customer: Japan / Ground Self-Defense Force, year: 2025, quantity: 12, value: 23100000000, currency: JPY, note: "FY2025 defence budget. Quantity and value from the FY2025 budget request (s2); the enacted FY2025 budget overview lists Type 10 acquisition for divisions and brigades.", source: s3 }
+  - { customer: Japan / Ground Self-Defense Force, year: 2026, quantity: 8, value: 15800000000, currency: JPY, note: "FY2026 (Reiwa 8) GSDF budget procurement as reported by trade press; value about ¥15.8 billion.", source: s4 }
+peers: [k2-black-panther, leclerc-xlr, leopard-2a8]
+sources:
+  - { id: s1, url: "http://www.clearing.mod.go.jp/hakusho_data/2016/pdf/28knmt04.pdf", title: "主要装備品の紹介〈陸上自衛隊〉 (Defense of Japan 2016 white paper, equipment introduction)", publisher: "Ministry of Defense, Japan", retrieved: 2026-11-21, kind: government }
+  - { id: s2, url: "https://www.mod.go.jp/en/d_act/d_budget/pdf/20241126a.pdf", title: "Overview of FY2025 Budget Request", publisher: "Ministry of Defense, Japan", retrieved: 2026-11-21, kind: government }
+  - { id: s3, url: "https://www.mod.go.jp/en/d_act/d_budget/pdf/fy2025_20250411a.pdf", title: "Progress and Budget in Fundamental Reinforcement of Defense Capabilities - Overview of FY2025 Budget", publisher: "Ministry of Defense, Japan", retrieved: 2026-11-21, kind: government }
+  - { id: s4, url: "https://japan-indepth.jp/?p=91612", title: "陸自令和8年度予算：主要装備調達と島嶼防衛強化の全貌", publisher: "Japan In-depth", retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2020/army-of-japan-to-acquire-more-local-made-type-10-main-battle-tanks-mbts", title: "Army of Japan to acquire more local-made Type 10 Main Battle Tanks MBTs", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://www.globalsecurity.org/military/world/japan/mbt-x-specs.htm", title: "Type 10 MBT-X Future Main Battle Tank (specifications)", publisher: "GlobalSecurity.org", retrieved: 2026-11-21, kind: reference }
+  - { id: s7, url: "https://www.kantei.go.jp/jp/pages/20240325_ishihara_hosakan_shisatsu.html", title: "石原総理大臣補佐官の三菱重工業株式会社相模原製作所視察", publisher: "Prime Minister's Office of Japan", retrieved: 2026-11-21, kind: government }
+  - { id: s8, url: "https://www.globalsecurity.org/military/world/japan/mbt-x.htm", title: "Type 10 MBT-X Future Main Battle Tank", publisher: "GlobalSecurity.org", retrieved: 2026-11-21, kind: reference }
+  - { id: s9, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/japan-upgrades-type-10-tanks-with-active-protection-systems-and-30mm-guns-to-counter-modern-threats", title: "Japan Upgrades Type 10 Tanks with Active Protection Systems and 30mm Guns to Counter Modern Threats", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s11, url: "https://en.wikipedia.org/wiki/Type_10", title: "Type 10", publisher: "Wikipedia", retrieved: 2026-11-21, kind: other }
+  - { id: s12, url: "https://www.mod.go.jp/atla/en/policy/pdf/handout_FY2018.pdf", title: "Introduction to the Equipment of the Japan Self-Defense Forces - A Reference Guide to the Defense Industrial Base of Japan", publisher: "Acquisition, Technology & Logistics Agency, Ministry of Defense, Japan", retrieved: 2026-11-21, kind: government }
+  - { id: s13, url: "https://combat1.sakura.ne.jp/10SHIKI.htm", title: "10式戦車", publisher: "combat1.sakura.ne.jp", retrieved: 2026-11-21, kind: other }
+  - { id: s14, url: "https://tanks-encyclopedia.com/modern/japan/type-10-hitomaru/", title: "Type 10 Hitomaru Main Battle Tank - Tank Encyclopedia", publisher: "Tank Encyclopedia", retrieved: 2026-11-21, kind: reference }

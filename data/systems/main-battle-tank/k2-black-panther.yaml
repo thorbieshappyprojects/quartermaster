@@ -68,7 +68,7 @@ contracts:
   - { customer: "Poland / Polish Armed Forces", year: 2025, quantity: 180, value: 6500000000, currency: USD, note: "Second executive contract, signed 1 August 2025 in Gliwice: 116 K2GF built in Korea and 64 K2PL (3 built in Korea, 61 in Poland). Also includes 81 support vehicles. Deliveries 2026-2030.", source: s2 }
   - { customer: "Republic of Korea / Army", year: 2023, quantity: null, value: 1940000000000, currency: KRW, note: "DAPA approved the 4th production batch on 25 May 2023, with KRW 1.94 trillion budgeted for 2024-2028. DAPA did not give a quantity; about 150 tanks were reported later (s5).", source: s4 }
   - { customer: "Peru / FAME S.A.C. (Peruvian Army)", year: 2025, quantity: 54, value: 2000000000, currency: USD, note: "Framework agreement signed December 2025, not a firm purchase contract. The value also covers 141 K808 wheeled vehicles. No implementation contract was reported in available sources as of mid-2026 (s9).", source: s8 }
-peers: [leopard-2a8, m1a2-sepv3-abrams]  # type-10 re-added once its card exists
+peers: [leopard-2a8, m1a2-sepv3-abrams, type-10]
 sources:
   - { id: s1, url: "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0101", title: "K2 Main Battle Tank | Hyundai Rotem", publisher: "Hyundai Rotem", retrieved: 2026-11-21, kind: manufacturer }
   - { id: s2, url: "https://www.defensenews.com/global/europe/2025/08/01/poland-doubles-down-on-south-korean-tanks-with-65-billion-deal/", title: "Poland doubles down on South Korean tanks with $6.5 billion deal", publisher: "Defense News", retrieved: 2026-11-21, kind: press }

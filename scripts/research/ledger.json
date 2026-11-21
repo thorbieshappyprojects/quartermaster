@@ -1,5 +1,5 @@
 {
-  "spentUsd": 27.3501,
+  "spentUsd": 28.0846,
   "entries": [
     {
       "date": "2026-11-21",
@@ -256,6 +256,14 @@
       "input": 989024,
       "output": 13581,
       "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "main-battle-tank/type-10",
+      "usd": 0.7345,
+      "input": 545634,
+      "output": 12771,
+      "searches": 13
     }
   ]
 }
