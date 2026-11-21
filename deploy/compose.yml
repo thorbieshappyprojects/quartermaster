@@ -1,13 +1,12 @@
-# Quartermaster static site on the VPS, in /opt/quartermaster. Publishes no port.
-# It joins the private network of the existing tunnel stack so its cloudflared
-# container can reach http://quartermaster-web:80. Nothing in that stack changes.
+# Quartermaster stack on the VPS, in /opt/quartermaster. Its own Compose project, private network and tunnel;
+# it shares nothing with the other stacks on the server (never touch those).
+# No ports are published: cloudflared dials out to Cloudflare and forwards to web:80.
 #   cd /opt/quartermaster && docker compose up -d
 name: quartermaster
 
 services:
   web:
     image: caddy:2
-    container_name: quartermaster-web
     restart: unless-stopped
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
@@ -15,12 +14,22 @@ services:
     read_only: true
     tmpfs: [/data, /config]
     cap_drop: [ALL]
-    cap_add: [NET_BIND_SERVICE]
+    cap_add: [NET_BIND_SERVICE]   # the caddy binary carries this file capability; without it exec fails
     security_opt: [no-new-privileges:true]
     mem_limit: 64m
-    networks: [tunnel]
+    networks: [internal]
+
+  tunnel:
+    image: cloudflare/cloudflared:2026.10.7
+    restart: unless-stopped
+    command: tunnel --no-autoupdate run
+    env_file: .env            # TUNNEL_TOKEN=... (written by the owner, chmod 600, never committed or printed)
+    depends_on: [web]
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 128m
+    networks: [internal]
 
 networks:
-  tunnel:
-    external: true
-    name: ${TUNNEL_NETWORK:-tom-dashboard_internal}
+  internal: {}

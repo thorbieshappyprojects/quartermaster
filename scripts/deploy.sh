@@ -8,6 +8,7 @@ DRY_RUN=0; [[ "${1:-}" == "--dry-run" ]] && DRY_RUN=1
 set -a; source ./deploy.env; set +a
 : "${DEPLOY_HOST:?set DEPLOY_HOST in deploy.env}"
 DEPLOY_PATH="${DEPLOY_PATH:-/opt/quartermaster/site}"
+[[ "$DEPLOY_PATH" == /opt/quartermaster/* ]] || { echo "refusing: DEPLOY_PATH must be inside /opt/quartermaster" >&2; exit 1; }
 
 # Build from a clean export of HEAD so uncommitted work (e.g. cards mid-research) never ships.
 BUILD_DIR="$(mktemp -d)"

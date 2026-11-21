@@ -29,7 +29,7 @@ The repository is **public**. Planning documents live in `docs/` locally and are
 - Card data: YAML in `data/`, validated against JSON Schemas (`schemas/`, Ajv 2020) plus cross-file rules, compiled to `src/generated/deck.json` (gitignored) at build time.
 - Player progress: `localStorage` (`quartermaster.progress.v1`), export/import as JSON file.
 - Tests: Vitest unit tests (`tests/unit`), one Playwright smoke test at phone and desktop width (`tests/e2e`).
-- CI (`.github/workflows/ci.yml`): validate → broken fixture must fail → typecheck → unit → build → e2e. Deployment: static files on the VPS behind the existing Cloudflare Tunnel, no login yet; `npm run deploy` (local) or the deploy workflow once `DEPLOY_ENABLED` is set (see `DEPLOY.md`).
+- CI (`.github/workflows/ci.yml`): validate → broken fixture must fail → typecheck → unit → build → e2e. Deployment: own Compose stack `/opt/quartermaster` on the VPS (Caddy + its own Cloudflare Tunnel, no published port, no login yet); never touch the other stacks there; `npm run deploy` (local) or the deploy workflow once `DEPLOY_ENABLED` is set (see `DEPLOY.md`).
 
 ## Layout
 
