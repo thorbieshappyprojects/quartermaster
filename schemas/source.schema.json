@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quartermaster.local/schemas/source.schema.json",
+  "title": "Shared source file (data/sources/*.yaml): a list of sources referenced as @id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["sources"],
+  "properties": {
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/source" }
+    }
+  }
+}

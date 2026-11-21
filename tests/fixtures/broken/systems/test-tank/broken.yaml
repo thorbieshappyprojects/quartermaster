@@ -1,0 +1,19 @@
+# Deliberately broken sample card: every problem here must be reported readably.
+id: broken
+category: test-tank
+name: Broken
+manufacturer: { name: Example Works }
+origin: Germany                # not an ISO code
+role: Broken on purpose.
+status: in_service
+in_service_since: { value: 2020, source: null, confidence: null }   # value without source
+units_built: { value: null, source: null, confidence: null }
+specs:
+  combat_weight: { value: 70, range: { min: 58, max: 62 }, source: s1, confidence: high }  # outside range
+  engine_power: { value: 1500, source: s9, confidence: high }        # unknown source id
+  top_speed: { value: 70, source: s1, confidence: high }             # unknown indicator; crew missing
+operators: []
+cost: { value: 9000000, currency: null, price_year: null, basis: null, source: s1, confidence: low }  # no basis
+peers: [ does-not-exist ]
+sources:
+  - { id: s1, url: "https://example.org/broken", title: Broken, publisher: Example, retrieved: 2026-01-01 }

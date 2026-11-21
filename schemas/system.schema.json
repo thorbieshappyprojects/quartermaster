@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quartermaster.local/schemas/system.schema.json",
+  "title": "System card (data/systems/<category>/<id>.yaml)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "category", "name", "manufacturer", "origin", "role", "status",
+    "in_service_since", "units_built", "specs", "operators", "cost", "peers", "sources"
+  ],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/slug" },
+    "category": { "$ref": "common.schema.json#/$defs/slug" },
+    "name": { "type": "string", "minLength": 1 },
+    "family": { "type": "string", "description": "Product family for later variant-lineage mode, e.g. Leopard 2" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "manufacturer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "benchmark_slug": { "$ref": "common.schema.json#/$defs/slug" }
+      }
+    },
+    "production_sites": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["place", "country", "source"],
+        "properties": {
+          "place": { "type": "string" },
+          "country": { "$ref": "common.schema.json#/$defs/country" },
+          "source": { "$ref": "common.schema.json#/$defs/sourceRef" }
+        }
+      }
+    },
+    "origin": { "$ref": "common.schema.json#/$defs/country" },
+    "role": { "type": "string", "minLength": 1, "maxLength": 200 },
+    "memorable_fact": { "$ref": "common.schema.json#/$defs/sourcedText" },
+    "status": { "enum": ["in_production", "in_service", "retired"] },
+    "in_service_since": { "$ref": "common.schema.json#/$defs/sourcedNumber" },
+    "units_built": { "$ref": "common.schema.json#/$defs/sourcedNumber" },
+    "combat_use": { "$ref": "common.schema.json#/$defs/sourcedText" },
+    "specs": {
+      "type": "object",
+      "additionalProperties": { "$ref": "common.schema.json#/$defs/sourcedNumber" }
+    },
+    "operators": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["country", "state", "source"],
+        "properties": {
+          "country": { "$ref": "common.schema.json#/$defs/country" },
+          "force": { "type": "string" },
+          "state": { "enum": ["in_service", "ordered", "retired", "evaluating"] },
+          "quantity": { "type": ["integer", "null"], "minimum": 0 },
+          "source": { "$ref": "common.schema.json#/$defs/sourceRef" },
+          "confidence": { "$ref": "common.schema.json#/$defs/confidence" }
+        }
+      }
+    },
+    "cost": { "$ref": "common.schema.json#/$defs/cost" },
+    "contracts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["customer", "source"],
+        "properties": {
+          "customer": { "type": "string" },
+          "year": { "type": ["integer", "null"] },
+          "quantity": { "type": ["integer", "null"], "minimum": 0 },
+          "value": { "type": ["number", "null"] },
+          "currency": { "oneOf": [{ "$ref": "common.schema.json#/$defs/currency" }, { "type": "null" }] },
+          "note": { "type": "string" },
+          "source": { "$ref": "common.schema.json#/$defs/sourceRef" }
+        }
+      }
+    },
+    "peers": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/slug" } },
+    "silhouette": { "type": "string", "description": "File name in public/silhouettes/" },
+    "sources": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/source" } }
+  }
+}

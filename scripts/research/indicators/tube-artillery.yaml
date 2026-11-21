@@ -1,0 +1,13 @@
+id: tube-artillery
+name: Tube artillery
+domain: Land fires
+wave: 1
+indicators:
+  - { id: calibre, label: Calibre, unit: mm, trump: higher_wins }
+  - { id: barrel_length, label: Barrel length, unit: calibres, trump: higher_wins }
+  - { id: max_range_standard, label: Max. range (standard round), unit: km, trump: higher_wins, decimals: 1 }
+  - { id: max_range_extended, label: Max. range (extended-range round), unit: km, trump: higher_wins, decimals: 1 }
+  - { id: rate_of_fire, label: Max. rate of fire, unit: rounds/min, trump: higher_wins }
+  - { id: into_action_time, label: Time into action, unit: s, trump: lower_wins }
+  - { id: combat_weight, label: Combat weight, unit: t, trump: lower_wins, decimals: 1, description: Lighter is easier to move; a playful convention. }
+  - { id: crew, label: Crew, unit: "", trump: lower_wins }

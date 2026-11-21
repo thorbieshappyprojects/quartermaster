@@ -1,0 +1,2 @@
+sources:
+  - { id: shared-ref, url: "https://example.org/yearbook", title: Yearbook, publisher: Example Institute, retrieved: 2026-01-01, kind: reference }

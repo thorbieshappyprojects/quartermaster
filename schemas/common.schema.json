@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quartermaster.local/schemas/common.schema.json",
+  "title": "Shared building blocks",
+  "$defs": {
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "confidence": { "enum": ["high", "medium", "low"] },
+    "country": {
+      "description": "ISO 3166-1 alpha-2 code",
+      "type": "string",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "currency": {
+      "description": "ISO 4217 code",
+      "type": "string",
+      "pattern": "^[A-Z]{3}$"
+    },
+    "sourceRef": {
+      "description": "Id of a source on the same card (s1) or a shared source (@id)",
+      "type": "string",
+      "pattern": "^@?[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "url", "title", "publisher", "retrieved"],
+      "properties": {
+        "id": { "$ref": "#/$defs/slug" },
+        "url": { "type": "string", "format": "uri" },
+        "title": { "type": "string", "minLength": 1 },
+        "publisher": { "type": "string", "minLength": 1 },
+        "retrieved": { "type": "string", "format": "date" },
+        "kind": {
+          "description": "Preference order: manufacturer, government, reference, press, other",
+          "enum": ["manufacturer", "government", "reference", "press", "other"]
+        },
+        "note": { "type": "string" }
+      }
+    },
+    "range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max"],
+      "properties": {
+        "min": { "type": "number" },
+        "max": { "type": "number" }
+      }
+    },
+    "sourcedNumber": {
+      "description": "A numeric value with provenance. Empty values (null) are allowed and logged.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "source", "confidence"],
+      "properties": {
+        "value": { "type": ["number", "null"] },
+        "range": { "oneOf": [{ "$ref": "#/$defs/range" }, { "type": "null" }] },
+        "source": { "oneOf": [{ "$ref": "#/$defs/sourceRef" }, { "type": "null" }] },
+        "confidence": { "oneOf": [{ "$ref": "#/$defs/confidence" }, { "type": "null" }] },
+        "note": { "type": "string" }
+      }
+    },
+    "sourcedText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "source"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "source": { "$ref": "#/$defs/sourceRef" },
+        "confidence": { "$ref": "#/$defs/confidence" }
+      }
+    },
+    "cost": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "currency", "price_year", "basis", "source", "confidence"],
+      "properties": {
+        "value": { "type": ["number", "null"], "description": "Per unit, in the given currency" },
+        "range": { "oneOf": [{ "$ref": "#/$defs/range" }, { "type": "null" }] },
+        "currency": { "oneOf": [{ "$ref": "#/$defs/currency" }, { "type": "null" }] },
+        "price_year": { "type": ["integer", "null"], "minimum": 1950, "maximum": 2100 },
+        "basis": { "oneOf": [{ "enum": ["unit_price", "contract_per_unit"] }, { "type": "null" }] },
+        "source": { "oneOf": [{ "$ref": "#/$defs/sourceRef" }, { "type": "null" }] },
+        "confidence": { "oneOf": [{ "$ref": "#/$defs/confidence" }, { "type": "null" }] },
+        "note": { "type": "string" }
+      }
+    }
+  }
+}

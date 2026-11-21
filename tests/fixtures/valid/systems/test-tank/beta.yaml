@@ -1,0 +1,18 @@
+id: beta
+category: test-tank
+name: Beta
+manufacturer: { name: Example Works }
+origin: FR
+role: Another fixture tank.
+status: in_production
+in_service_since: { value: 2022, source: "@shared-ref", confidence: medium }
+units_built: { value: null, source: null, confidence: null }
+specs:
+  combat_weight: { value: 55, source: s1, confidence: high }
+  engine_power: { value: null, source: null, confidence: null }
+  crew: { value: 3, source: s1, confidence: high }
+operators: []
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null }
+peers: [ alpha ]
+sources:
+  - { id: s1, url: "https://example.org/beta", title: Beta brochure, publisher: Example, retrieved: 2026-01-01 }

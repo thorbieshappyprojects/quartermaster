@@ -1,0 +1,11 @@
+id: wheeled-armoured-vehicle
+name: Wheeled armoured vehicles
+domain: Land combat
+wave: 1
+indicators:
+  - { id: combat_weight, label: Max. combat weight, unit: t, trump: higher_wins, decimals: 1 }
+  - { id: payload, label: Payload, unit: t, trump: higher_wins, decimals: 1 }
+  - { id: seats, label: Seats (crew + passengers), unit: "", trump: higher_wins }
+  - { id: engine_power, label: Engine power, unit: hp, trump: higher_wins }
+  - { id: top_speed, label: Top speed (road), unit: km/h, trump: higher_wins }
+  - { id: range, label: Range (road), unit: km, trump: higher_wins }

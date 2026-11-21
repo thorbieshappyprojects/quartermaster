@@ -1,0 +1,18 @@
+node_modules/
+dist/
+src/generated/
+coverage/
+playwright-report/
+test-results/
+.DS_Store
+# secrets
+.env
+.env.*
+!.env.example
+
+# planning docs stay local (repo is public)
+docs/
+
+# manufacturer context is imported locally and not published
+data/manufacturers/*
+!data/manufacturers/.gitkeep

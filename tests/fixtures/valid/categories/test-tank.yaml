@@ -1,0 +1,19 @@
+id: test-tank
+name: Test tanks
+domain: Land combat
+wave: 1
+indicators:
+  - { id: combat_weight, label: Combat weight, unit: t, trump: higher_wins }
+  - { id: engine_power, label: Engine power, unit: hp, trump: higher_wins }
+  - { id: power_to_weight, label: Power-to-weight, unit: hp/t, trump: higher_wins, decimals: 1,
+      derived: { op: divide, numerator: engine_power, denominator: combat_weight } }
+  - { id: crew, label: Crew, unit: "", trump: lower_wins }
+category_card:
+  summary: Fixture category used by the tests.
+  purpose: [ { text: Fixture purpose., source: c1 } ]
+  strengths: [ { text: Fixture strength., source: c1 } ]
+  weaknesses: [ { text: Fixture weakness., source: c1 } ]
+  counters: [ { text: Fixture counter., source: c1 } ]
+  trends: [ { text: Fixture trend., source: c1 } ]
+sources:
+  - { id: c1, url: "https://example.org/c1", title: Fixture, publisher: Example, retrieved: 2026-01-01 }

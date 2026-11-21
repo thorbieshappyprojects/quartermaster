@@ -1,0 +1,10 @@
+id: rocket-artillery
+name: Rocket artillery
+domain: Land fires
+wave: 1
+indicators:
+  - { id: rockets_per_launcher, label: Rockets per load (largest calibre), unit: "", trump: higher_wins }
+  - { id: max_range, label: Max. range (guided rocket), unit: km, trump: higher_wins }
+  - { id: reload_time, label: Reload time, unit: min, trump: lower_wins, decimals: 1 }
+  - { id: combat_weight, label: Combat weight, unit: t, trump: lower_wins, decimals: 1 }
+  - { id: crew, label: Crew, unit: "", trump: lower_wins }

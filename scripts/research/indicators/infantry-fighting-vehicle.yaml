@@ -1,0 +1,13 @@
+id: infantry-fighting-vehicle
+name: Tracked infantry fighting vehicles
+domain: Land combat
+wave: 1
+indicators:
+  - { id: combat_weight, label: Combat weight, unit: t, trump: higher_wins, decimals: 1 }
+  - { id: main_armament_calibre, label: Main armament calibre, unit: mm, trump: higher_wins }
+  - { id: dismounts, label: Dismounts carried, unit: "", trump: higher_wins }
+  - { id: engine_power, label: Engine power, unit: hp, trump: higher_wins }
+  - { id: power_to_weight, label: Power-to-weight, unit: hp/t, trump: higher_wins, decimals: 1,
+      derived: { op: divide, numerator: engine_power, denominator: combat_weight } }
+  - { id: top_speed, label: Top speed (road), unit: km/h, trump: higher_wins }
+  - { id: range, label: Range (road), unit: km, trump: higher_wins }

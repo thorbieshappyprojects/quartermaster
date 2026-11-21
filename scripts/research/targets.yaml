@@ -1,0 +1,64 @@
+# Research targets: candidate systems per category. Ids are proposals; the research
+# step confirms the current variant and may rename (the final id must match the file).
+main-battle-tank:
+  - { id: leopard-2a8, name: Leopard 2A8 }
+  - { id: leclerc-xlr, name: Leclerc XLR }
+  - { id: m1a2-sepv3-abrams, name: M1A2 SEPv3 Abrams }
+  - { id: t-90m, name: T-90M }
+  - { id: k2-black-panther, name: K2 Black Panther }
+  - { id: challenger-3, name: Challenger 3 }
+  - { id: merkava-mk4, name: Merkava Mk 4 }
+  - { id: type-99a, name: Type 99A }
+  - { id: type-10, name: Type 10 }
+  - { id: altay, name: Altay }
+infantry-fighting-vehicle:
+  - { id: puma-s1, name: Puma S1 }
+  - { id: cv90-mkiv, name: CV90 Mk IV }
+  - { id: lynx-kf41, name: Lynx KF41 }
+  - { id: m2a4-bradley, name: M2A4 Bradley }
+  - { id: ascod-2, name: ASCOD 2 }
+  - { id: k21, name: K21 }
+  - { id: bmp-3, name: BMP-3 }
+  - { id: zbd-04a, name: ZBD-04A }
+  - { id: redback, name: Redback AS21 }
+wheeled-armoured-vehicle:
+  - { id: boxer, name: Boxer }
+  - { id: vbci, name: VBCI }
+  - { id: patria-amv-xp, name: Patria AMV XP }
+  - { id: piranha-v, name: Piranha V }
+  - { id: stryker, name: Stryker }
+  - { id: rosomak, name: Rosomak }
+  - { id: griffon, name: VBMR Griffon }
+  - { id: btr-82a, name: BTR-82A }
+  - { id: pandur-ii, name: Pandur II }
+  - { id: dingo-2, name: Dingo 2 }
+tube-artillery:
+  - { id: pzh-2000, name: PzH 2000 }
+  - { id: caesar-mkii, name: CAESAR Mk II }
+  - { id: k9a2-thunder, name: K9A2 Thunder }
+  - { id: m109a7-paladin, name: M109A7 Paladin }
+  - { id: archer, name: Archer }
+  - { id: as90, name: AS-90 }
+  - { id: krab, name: AHS Krab }
+  - { id: 2s19m2-msta-s, name: 2S19M2 Msta-S }
+  - { id: rch-155, name: RCH 155 }
+  - { id: pcl-181, name: PCL-181 }
+rocket-artillery:
+  - { id: m142-himars, name: M142 HIMARS }
+  - { id: m270a2-mlrs, name: M270A2 MLRS }
+  - { id: k239-chunmoo, name: K239 Chunmoo }
+  - { id: puls, name: PULS }
+  - { id: astros-ii, name: ASTROS II }
+  - { id: tornado-s, name: Tornado-S }
+  - { id: phl-16, name: PHL-16 }
+  - { id: homar-k, name: Homar-K }
+  - { id: euro-puls, name: EuroPULS }
+engineering-vehicle:
+  - { id: leguan, name: Leguan bridge layer }
+  - { id: kodiak, name: Kodiak engineer vehicle }
+  - { id: bergepanzer-3-buffel, name: Bergepanzer 3 Büffel }
+  - { id: m88a2-hercules, name: M88A2 Hercules }
+  - { id: m1074-joint-assault-bridge, name: M1074 Joint Assault Bridge }
+  - { id: m1150-abv, name: M1150 Assault Breacher Vehicle }
+  - { id: dachs-2, name: Dachs 2 }
+  - { id: k1-avlb, name: K1 AVLB }

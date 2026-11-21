@@ -1,0 +1,11 @@
+id: engineering-vehicle
+name: Bridging, recovery and engineering vehicles
+domain: Land support
+wave: 1
+indicators:
+  - { id: bridge_span, label: Bridge span, unit: m, trump: higher_wins, decimals: 1, description: Bridge layers only. }
+  - { id: lift_capacity, label: Crane lift capacity, unit: t, trump: higher_wins, decimals: 1, description: Recovery and engineer vehicles only. }
+  - { id: load_class, label: Load class (MLC), unit: MLC, trump: higher_wins }
+  - { id: deployment_time, label: Bridge laying time, unit: min, trump: lower_wins, decimals: 1 }
+  - { id: combat_weight, label: Combat weight, unit: t, trump: higher_wins, decimals: 1 }
+  - { id: crew, label: Crew, unit: "", trump: lower_wins }

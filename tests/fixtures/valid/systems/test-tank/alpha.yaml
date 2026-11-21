@@ -1,0 +1,20 @@
+id: alpha
+category: test-tank
+name: Alpha
+manufacturer: { name: Example Works }
+origin: DE
+role: A fixture tank.
+memorable_fact: { text: It exists only in tests., source: s1 }
+status: in_service
+in_service_since: { value: 2020, source: s1, confidence: high }
+units_built: { value: null, source: null, confidence: null }
+specs:
+  combat_weight: { value: 60, range: { min: 58, max: 62 }, source: s1, confidence: medium }
+  engine_power: { value: 1500, source: s1, confidence: high }
+  crew: { value: 4, source: s1, confidence: high }
+operators:
+  - { country: DE, force: Army, state: in_service, quantity: 10, source: s1 }
+cost: { value: 10000000, currency: EUR, price_year: 2024, basis: contract_per_unit, source: s1, confidence: low }
+peers: [ beta ]
+sources:
+  - { id: s1, url: "https://example.org/alpha", title: Alpha datasheet, publisher: Example, retrieved: 2026-01-01, kind: manufacturer }
