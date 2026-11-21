@@ -1,0 +1,84 @@
+id: altay
+category: main-battle-tank
+name: Altay T1
+family: Altay
+aliases: [ALTAY Ana Muharebe Tankı, Yeni Altay]
+manufacturer: { name: BMC }
+production_sites:
+  - { place: Ankara, country: TR, source: s2 }
+origin: TR
+role: Tracked main battle tank with a 120 mm smoothbore gun, procured for the Turkish Land Forces to replace ageing M48 and M60 tanks.
+memorable_fact: { text: "The tank is named after General Fahrettin Altay, who commanded the Fifth Cavalry Corps in the Turkish War of Independence.", source: s3 }
+status: in_production
+in_service_since:
+  value: 2025
+  source: s2
+  confidence: medium
+  note: "Year of first service of the Altay T1 serial variant, which is also the first service of the base system. The first serial tanks were handed to the Turkish Land Forces on 28 October 2025 at BMC's new Ankara plant (s2). Two Altays with the South Korean powerpack had already been given to the Turkish Armed Forces in 2023, but only for testing (s4)."
+units_built:
+  value: 3
+  source: s5
+  confidence: low
+  range: { min: 2, max: 3 }
+  note: "Altay T1 serial tanks confirmed delivered, i.e. the confirmed fielded fleet. Euro-SD reports two delivered at the 28 Oct 2025 ceremony (s2). OverT Defense reports a first batch of three (s4). Defence Security Asia (Aug 2026) says three T1s entered the inventory in 2025 (s5). BMC told Shephard that 14 would be delivered by the end of 2026 (s6), but I found no confirmation that this happened. The official schedule announced by the SSB President is 3 in 2025, 11 in 2026, 41 in 2027 and 30 in 2028 (s11). Pre-series test vehicles are not counted."
+specs:
+  combat_weight:
+    value: 65
+    source: s2
+    confidence: medium
+    note: "BMC's technical specification page (s1) does not state a weight. Trade press gives 65 tonnes."
+  gun_calibre:
+    value: 120
+    source: s1
+    confidence: high
+    note: "120 mm L55 smoothbore main gun with 40 rounds stowed, per the manufacturer. The gun is produced by MKE (s2)."
+  engine_power:
+    value: 1500
+    source: s1
+    confidence: high
+    note: "BMC lists a 12-cylinder, 1,500 hp electronically controlled engine. On the T1 this is the HD Hyundai Infracore DV27K V12, paired with the SNT Dynamics EST15K transmission (s2). The indigenous BMC Power BATU powerpack (minimum 1,500 hp) is planned from the T2 onward (s2)."
+  top_speed:
+    value: 65
+    source: s1
+    confidence: high
+    note: "Maximum road speed per the manufacturer. Off-road speed is 45 km/h."
+  range:
+    value: 450
+    source: s1
+    confidence: high
+  crew:
+    value: 4
+    source: s1
+    confidence: high
+    note: "Commander, gunner, loader, driver."
+operators:
+  - { country: TR, force: Turkish Land Forces, state: in_service, quantity: 3, source: s5 }
+cost:
+  value: 14000000
+  currency: EUR
+  price_year: 2018
+  basis: contract_per_unit
+  source: s10
+  confidence: low
+  note: "Calculated as EUR 3.5 billion divided by 250 tanks, from the 2018 SSB-BMC serial production contract. The contract also covers life-cycle logistic support and setting up and running a Tank Systems Technology Centre. The value comes from Turkish trade press; Daily Sabah reported that the financial value was not disclosed when the contract was signed (s9)."
+contracts:
+  - customer: Türkiye / SSB for Turkish Land Forces
+    year: 2018
+    quantity: 250
+    value: 3500000000
+    currency: EUR
+    note: "Serial production contract awarded to BMC in April 2018 (s8) and signed in November 2018 (s9). Planned split is 85 Altay T1 and 165 Altay T2 (s11). It includes life-cycle logistic support and a Tank Systems Technology Centre. Defense News said total purchases could eventually reach 1,000 tanks (s8). The value is from trade press only; the SSB project page confirms the serial production contract but gives no value (s7)."
+    source: s10
+peers: [k2-black-panther, leopard-2a8, m1a2-sepv3-abrams]
+sources:
+  - { id: s1, url: "https://www.bmc.com.tr/en/defense-industry/altay/technical-specifications", title: "Altay - Technical Specifications - BMC", publisher: BMC, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://euro-sd.com/2025/10/major-news/47502/altay-serial-production-begins/", title: "Türkiye begins serial production of indigenous Altay main battle tank", publisher: European Security & Defence, retrieved: 2026-11-21, kind: press }
+  - { id: s3, url: "https://euro-sd.com/2025/07/articles/armament/45469/the-long-road-to-altay/", title: "The long road to Altay", publisher: European Security & Defence, retrieved: 2026-11-21, kind: press }
+  - { id: s4, url: "https://www.overtdefense.com/2025/10/31/turkiye-finally-receives-its-first-altay-tanks-after-long-delays/", title: "Türkiye Finally Receives Its First Altay Tanks After Long Delays", publisher: OverT Defense, retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://defencesecurityasia.com/en/turkiye-altay-tank-nato-southern-flank-eurasia-armoured-balance/", title: "Türkiye's Altay Tank Reshapes NATO's Southern Flank and Eurasia's Armoured Balance", publisher: Defence Security Asia, retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://www.shephardmedia.com/news/landwarfareintl/saha-2026-is-the-turkish-armys-altay-finally-ready/", title: "SAHA 2026: Is the Turkish Army's Altay MBT finally ready?", publisher: Shephard Media, retrieved: 2026-11-21, kind: press }
+  - { id: s7, url: "https://www.ssb.gov.tr/Website/ContentList.aspx?PageID=366", title: "ALTAY ANA MUHAREBE TANKI - SSB", publisher: Savunma Sanayii Başkanlığı (Presidency of Defence Industries), retrieved: 2026-11-21, kind: government }
+  - { id: s8, url: "https://www.defensenews.com/land/2018/04/25/turkey-awards-multibillion-dollar-contract-for-indigenous-altay-tank/", title: "Turkey awards multibillion-dollar contract for indigenous Altay tank", publisher: Defense News, retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://www.dailysabah.com/defense/2018/11/09/turkey-signs-mass-production-deal-with-bmc-for-altay-tanks", title: "Turkey signs mass production deal with BMC for Altay tanks", publisher: Daily Sabah, retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://www.savunmasanayist.com/altay-seri-uretime-hazir-hale-gelince-surec-ne-olacak/", title: "ALTAY Seri Üretime Hazır Hale Gelince Süreç Ne Olacak?", publisher: SavunmaSanayiST, retrieved: 2026-11-21, kind: press }
+  - { id: s11, url: "https://www.defenceturk.net/altay-tankinin-seri-uretim-teslimat-takvimi-aciklandi", title: "ALTAY tankının seri üretim teslimat takvimi açıklandı", publisher: DefenceTurk, retrieved: 2026-11-21, kind: press }

@@ -1,5 +1,5 @@
 {
-  "spentUsd": 7.457,
+  "spentUsd": 9.5523,
   "entries": [
     {
       "date": "2026-11-21",
@@ -80,6 +80,30 @@
       "input": 0,
       "output": 0,
       "searches": 0
+    },
+    {
+      "date": "2026-11-21",
+      "item": "main-battle-tank/altay",
+      "usd": 0.7331,
+      "input": 549137,
+      "output": 9726,
+      "searches": 13
+    },
+    {
+      "date": "2026-11-21",
+      "item": "infantry-fighting-vehicle/_category",
+      "usd": 0.6783,
+      "input": 525494,
+      "output": 10095,
+      "searches": 14
+    },
+    {
+      "date": "2026-11-21",
+      "item": "infantry-fighting-vehicle/puma-s1",
+      "usd": 0.6839,
+      "input": 506426,
+      "output": 10935,
+      "searches": 9
     }
   ]
 }

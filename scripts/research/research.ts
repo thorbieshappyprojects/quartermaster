@@ -20,7 +20,7 @@ const MODEL = 'claude-opus-5-5';
 // USD per million tokens / per search. Update if pricing changes.
 const PRICE = { input: 4, output: 20, cacheRead: 0.2, cacheWrite: 5, perSearch: 0.01 };
 const LEDGER = 'scripts/research/ledger.json';
-const EST_PER_CARD = 1.5; // conservative reserve before starting a card
+const EST_PER_CARD = Number(process.env.RESEARCH_RESERVE_USD ?? 1.5); // reserve required before starting a card
 const today = new Date().toISOString().slice(0, 10);
 
 type Target = { id: string; name: string };
