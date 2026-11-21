@@ -1,0 +1,92 @@
+id: dingo-2
+category: wheeled-armoured-vehicle
+name: Dingo 2 A4.1
+family: Dingo
+aliases: [ATF Dingo 2, Allschutz-Transport-Fahrzeug Dingo 2, Dingo 2 A4]
+manufacturer: { name: KNDS Deutschland (formerly Krauss-Maffei Wegmann) }
+origin: DE
+role: 4x4 vehicle on a Unimog truck chassis, protected against mines, small arms and IEDs, for patrol, security, command and special roles (German protected-vehicle class 3, GFF3).
+memorable_fact: { text: "When it was introduced in 1999, the Dingo was the Bundeswehr's first protected command and transport vehicle; it is built on a Mercedes-Benz Unimog truck chassis.", source: s3 }
+status: in_production
+in_service_since:
+  value: 2004
+  source: s8
+  confidence: medium
+  note: "Year the base Dingo 2 entered service (late 2004). The Dingo 1 entered German service in 1999/2000. Two A4.1 qualification vehicles were due in 2025 and the first 50 production vehicles in 2026 (s3, s10); no confirmed A4.1 entry into service was found."
+units_built:
+  value: 1200
+  source: s7
+  confidence: medium
+  note: "Whole Dingo family (Dingo 1 and Dingo 2), stated as 'over 1,200 vehicles delivered to ten countries' in KNDS material published December 2023, so this is a lower bound. Soldat & Technik (s3) reports more than 700 to the Bundeswehr plus about 400 to six other forces. No A4.1 production count is public."
+combat_use: { text: "Fifty older German Dingo 2 A1/A2 vehicles were transferred to Ukraine in 2022. Ukrainian air assault units have used them against Russian forces, including in the battle for Bakhmut.", source: s11 }
+specs:
+  combat_weight:
+    value: 14.5
+    source: s3
+    confidence: medium
+    range: { min: 13.1, max: 14.5 }
+    note: "14.5 t is the reported gross vehicle weight of the A4.1 on its new Unimog chassis, up from 13.2 t for earlier Bundeswehr Dingo 2s (s3, s4). Both outlets present these figures as reported rather than officially confirmed. KNDS lists up to 13.1 t for its current Dingo 2 catalogue configurations (s1). The A4.1 figure is shown because this card is for that variant."
+  payload:
+    value: null
+    source: null
+    confidence: null
+    note: "Press says the A4.1 chassis increases payload but gives no figure; KNDS gives none either."
+  seats:
+    value: 8
+    source: s2
+    confidence: medium
+    range: { min: 7, max: 8 }
+    note: "KNDS says the Dingo 2 patrol and security version has room for a crew of eight (s2). Militär Aktuell says the A4.1 patrol and security version for the Bundeswehr seats up to seven (s6). The manufacturer figure is shown."
+  engine_power:
+    value: 322
+    source: s3
+    confidence: medium
+    range: { min: 219, max: 322 }
+    note: "Originally 240 kW, converted at 1.341 hp/kW. This is the reported output of the A4.1's new six-cylinder turbodiesel (s3, s4). The previous engine was 163 kW (about 219 hp), the figure KNDS lists for current catalogue Dingo 2 versions (s1)."
+  top_speed:
+    value: 90
+    source: s9
+    confidence: low
+    note: "Generic Dingo 2 figure from a trade-press datasheet; not confirmed for the A4.1."
+  range:
+    value: 700
+    source: s1
+    confidence: medium
+    note: "KNDS states '> 700 km' for the Dingo 2 Reconnaissance; this is a lower bound and not specific to the A4.1."
+operators:
+  - { country: DE, force: Bundeswehr (mainly Army and Joint Support Service), state: in_service, quantity: null, source: s6 }
+  - { country: DE, force: Army (Dingo 2 A4.1), state: ordered, quantity: 115, source: s5 }
+  - { country: AT, force: Austrian Armed Forces, state: in_service, quantity: null, source: s6 }
+  - { country: BE, force: Belgian Land Component, state: in_service, quantity: 220, source: s8 }
+  - { country: LU, force: Luxembourg Army, state: in_service, quantity: 48, source: s8 }
+  - { country: CZ, force: Czech Army, state: in_service, quantity: null, source: s8 }
+  - { country: "NO", force: Norwegian Army, state: in_service, quantity: 20, source: s12 }
+  - { country: UA, force: Armed Forces of Ukraine, state: in_service, quantity: 50, source: s9 }
+cost:
+  value: 2660000
+  currency: EUR
+  price_year: 2023
+  basis: contract_per_unit
+  source: s3
+  confidence: medium
+  range: { min: 2660000, max: 3000000 }
+  note: "2023 order for the first 50 Dingo 2 A4.1 (replacing vehicles given to Ukraine). The Bundestag budget committee approved EUR 133 million for vehicles, a special tool set, spares and logistics, which is EUR 2.66 million per vehicle. Radios (D-LBO) and navigation equipment add EUR 14 million, for EUR 147 million in total (about EUR 2.94 million per vehicle) (s3, s4). The defence ministry gave about EUR 150 million (s10). Belgian Belgian Land Component and Luxembourg quantities are original order figures from 2005-2010, not confirmed current fleets. Ukraine's 50 is the number delivered in 2022; some have since been lost."
+contracts:
+  - { customer: Germany (BAAINBw), year: 2023, quantity: 50, value: 147000000, currency: EUR, note: "Framework agreement for up to 233 Dingo 2 A4.1 over seven years; 50 called off immediately. Value is the approved total including radio and navigation equipment.", source: s4 }
+  - { customer: Germany (BAAINBw), year: 2024, quantity: 65, value: null, currency: null, note: "Call-off of 65 A4.1 patrol and security vehicles from the 2023 framework for Panzerbrigade 45 in Lithuania; about 118 options would remain.", source: s5 }
+  - { customer: Belgium, year: 2005, quantity: 220, value: null, currency: null, note: "Order for 220 Dingo 2 with an option for 132 more.", source: s8 }
+  - { customer: Germany (BWB), year: 2006, quantity: 149, value: 109000000, currency: EUR, note: "Additional batch of earlier-generation Dingo 2.", source: s8 }
+peers: [griffon, pandur-ii]
+sources:
+  - { id: s1, url: "https://knds.com/en/products/systems/dingo-2-range/dingo-2-reconnaissance", title: "DINGO 2 Reconnaissance Vehicle (optical)", publisher: KNDS, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://knds.com/en/products/systems/dingo-2-range/dingo-2-patsec", title: "DINGO 2 PatSec", publisher: KNDS, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s3, url: "https://soldat-und-technik.de/2023/11/mobilitaet/36064/bundeswehr-beschafft-50-dingo-2-a4-1-auf-modernem-unimog-fahrgestell/", title: "Bundeswehr beschafft 50 Dingo 2 A4.1 auf modernem Unimog-Fahrgestell", publisher: Soldat & Technik (Mittler Report), retrieved: 2026-11-21, kind: press }
+  - { id: s4, url: "https://esut.de/2023/12/meldungen/45944/nachbeschaffung-dingo-2-a4-unter-vertrag/", title: "Nachbeschaffung Dingo 2 A4 unter Vertrag", publisher: Europäische Sicherheit & Technik, retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.hartpunkt.de/panzerbrigade-45-erhaelt-65-patrouillen-und-sicherungsfahrzeuge-dingo-2-a4-1/", title: "Panzerbrigade 45 erhält 65 Patrouillen- und Sicherungsfahrzeuge Dingo 2 A4.1", publisher: hartpunkt, retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://militaeraktuell.at/en/knds-bundeswehr-buys-65-dingo-2-for-lithuanian-brigade/", title: "KNDS: Bundeswehr buys 65 Dingo 2 for Lithuanian brigade", publisher: Militär Aktuell, retrieved: 2026-11-21, kind: press }
+  - { id: s7, url: "https://defence-industry.eu/knds-commissioned-to-supply-50-dingo-2-vehicles-to-the-bundeswehr/", title: "KNDS commissioned to supply 50 DINGO 2 vehicles to the Bundeswehr", publisher: Defence Industry Europe, retrieved: 2026-11-21, kind: press }
+  - { id: s8, url: "https://www.army-technology.com/projects/dingo2protecetedvehi/", title: "Dingo 2 All-Protected Carrier Vehicle", publisher: Army Technology, retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://www.armyrecognition.com/military-products/army/armoured-personnel-carriers/wheeled-vehicles/dingo-germany-uk", title: "Dingo 2 KMW", publisher: Army Recognition, retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://www.janes.com/osint-insights/defence-news/land/bundeswehr-orders-dingo-2s-to-replace-vehicles-donated-to-ukraine", title: "Bundeswehr orders Dingo 2s to replace vehicles donated to Ukraine", publisher: Janes, retrieved: 2026-11-21, kind: press }
+  - { id: s11, url: "https://defensearchives.com/editorials/development-and-characteristics-of-the-dingo-1-and-2-mraps/", title: "Development and characteristics of the Dingo 1 and 2 MRAP's", publisher: Defense Archives, retrieved: 2026-11-21, kind: other }
+  - { id: s12, url: "https://www.shephardmedia.com/news/landwarfareintl/norwegian-army-purchases-dingo-2/", title: "Norwegian Army purchases DINGO 2", publisher: Shephard Media, retrieved: 2026-11-21, kind: press }

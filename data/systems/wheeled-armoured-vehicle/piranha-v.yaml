@@ -1,0 +1,51 @@
+id: piranha-v
+category: wheeled-armoured-vehicle
+name: Piranha 5 (8x8)
+family: Piranha
+aliases: ["Piranha V", "Mowag Piranha V", "PIRANHA 5", "VCR 8x8 Dragón (Spanish derivative)"]
+manufacturer: { name: "General Dynamics European Land Systems (GDELS-Mowag)" }
+production_sites:
+  - { place: Kreuzlingen, country: CH, source: s13 }
+  - { place: Bucharest, country: RO, source: s3 }
+origin: CH
+role: "Modular 8x8 wheeled armoured vehicle used as an APC, IFV, command, ambulance, mortar, engineer and repair vehicle."
+memorable_fact: { text: "The Piranha 5 was presented in 2010 and is the fifth generation of a Swiss vehicle family. Licence production of the first 6x6 version began in Canada in 1977, starting the LAV/Stryker line.", source: s1 }
+status: in_production
+in_service_since: { value: 2017, source: s5, confidence: medium, note: "First service of the Piranha 5 itself, with Denmark as the first user. Wikipedia gives 2015 but marks it as an unreliable source." }
+units_built: { value: 616, source: s13, confidence: low, note: "Deliveries across the whole Piranha V family (8x8 plus the Spanish Dragón derivative) as of February 2026, as tallied by Wikipedia: Denmark 309, Romania 216, Spain 84, Moldova 5, Monaco 2 (Monaco marked 'citation needed'). No manufacturer total found." }
+specs:
+  combat_weight: { value: 33, source: s1, confidence: high, range: { min: 28, max: 33 }, note: "GDELS gives 33 t max. GVW for the 8x8 Piranha configuration. Army Technology lists 28 t (s10) and Army Recognition 30,000 kg (s9); these appear to be typical rather than maximum weights." }
+  payload: { value: 14.5, source: s1, confidence: high, note: "GDELS payload figure for the 8x8 configuration." }
+  seats: { value: 11, source: s10, confidence: medium, note: "3 crew + 8 passengers (APC configuration)." }
+  engine_power: { value: 586, source: s8, confidence: medium, range: { min: 550, max: 644 }, note: "MTU 6V199 diesel, 586 hp, as stated by Romarm for the Romanian vehicles. Army Technology mentions an earlier 550 hp TE20 engine (s10). Overt Defense gives up to 644 hp for MTU or Scania engines (s12)." }
+  top_speed: { value: 100, source: s8, confidence: medium, note: "Also 100 km/h in s9 and s10." }
+  range: { value: 550, source: s9, confidence: medium, range: { min: 500, max: 550 }, note: "Army Recognition gives 550 km for mixed road and off-road driving. Romarm states 'over 500 km' (s8). Overt Defense gives 340 miles (547 km) (s12)." }
+operators:
+  - { country: DK, force: Army, state: in_service, quantity: 309, source: s2 }
+  - { country: RO, force: Land Forces, state: in_service, quantity: 227, source: s3, note: "Ordered quantity. 30 were built by GDELS-Mowag in Switzerland and 64 were assembled in Romania by mid-2024 (s6). Romania planned 150 more in 2025 (s12); no signed contract confirmed here." }
+  - { country: ES, force: Army, state: in_service, quantity: 348, source: s7, note: "VCR 8x8 Dragón, a derivative based on the Piranha V. 348 is the ordered quantity." }
+  - { country: DE, force: Army, state: ordered, quantity: 256, source: s11, note: "Piranha 5 for the TaWAN tactical network project. Wikipedia describes this as 58 firm plus an option for 198 (s13)." }
+  - { country: DE, force: Army, state: ordered, quantity: 274, source: s13, note: "Luchs 2 reconnaissance vehicle on the Piranha V 6x6. Firm order according to Wikipedia only; low confidence." }
+  - { country: NL, force: Armed Forces, state: ordered, quantity: null, source: s13, note: "Electronic-warfare variant contract reported for June 2026. Wikipedia only; quantity unknown." }
+cost: { value: 1941748, currency: USD, price_year: 2015, basis: contract_per_unit, source: s2, confidence: medium, range: { min: 1941748, max: 2142395 }, note: "Danish DALO contract of December 2015: about USD 600 million for 309 vehicles in six variants, including a multi-year sustainment contract. Defense Update reported USD 662 million (DKK 4.5 billion), about USD 2.14 million per vehicle (s14). The Romanian contract (EUR 895 million for 227 vehicles, s4) works out to about EUR 3.94 million per vehicle, including local production." }
+contracts:
+  - { customer: "Denmark / Army (DALO)", year: 2015, quantity: 309, value: 600000000, currency: USD, note: "Signed 15 Dec 2015. Six variants (infantry, command, ambulance, engineer, mortar, repair) plus through-life support. Defense Update reported USD 662 million (DKK 4.5 billion) (s14).", source: s2 }
+  - { customer: "Romania / Land Forces", year: 2018, quantity: 227, value: 895000000, currency: EUR, note: "Signed 12 Jan 2018. Six configurations, with most local production by Uzina Mecanică București. Defense Update reported more than USD 1 billion (s3).", source: s4 }
+  - { customer: "Spain / Army", year: null, quantity: 348, value: null, currency: null, note: "VCR 8x8 Dragón, a derivative based on the Piranha V. Total ordered quantity; signing year and value not confirmed in the sources found.", source: s7 }
+  - { customer: "Germany / Army", year: 2025, quantity: 256, value: null, currency: null, note: "Piranha 5 for the TaWAN ground telecommunications expansion project (February 2025).", source: s11 }
+peers: [boxer, patria-amv-xp, vbci, stryker]
+sources:
+  - { id: s1, url: "https://www.gdels.com/en/products/wheeled-vehicles/piranha", title: "PIRANHA Wheeled Armored Vehicle", publisher: "General Dynamics European Land Systems", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://gd.com/news/press-releases/2016/01/general-dynamics-european-land-systems-signs-600-million-contract", title: "General Dynamics European Land Systems signs $600 Million Contract with Denmark for 309 PIRANHA 5 APCs", publisher: "General Dynamics", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s3, url: "https://defense-update.com/20180112_romanian_piranha.html", title: "Romania to Produce 227 Piranha 5 8×8 APCs", publisher: "Defense Update", retrieved: 2026-11-21, kind: press }
+  - { id: s4, url: "https://www.romania-insider.com/romania-penalties-general-dynamics-piranha", title: "Romania asks EUR 8.5 mln penalties from US company for delays in delivering armored vehicles", publisher: "Romania Insider", retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://euro-sd.com/2020/10/articles/exclusive/19519/first-gdels-piranha-v-delivered-to-romania/", title: "First PIRANHA V Delivered in Romania", publisher: "European Security & Defence", retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://www.janes.com/osint-insights/defence-news/land/bsda-2024-romanian-piranha-5-programme-progresses", title: "BSDA 2024: Romanian Piranha 5 programme progresses", publisher: "Janes", retrieved: 2026-11-21, kind: press }
+  - { id: s7, url: "https://www.shephardmedia.com/news/landwarfareintl/tencate-gets-to-work-on-armour-system-for-spains-dragon-vcr-combat-vehicle/", title: "TenCate gets to work on armour system for Spain's Dragon VCR combat vehicle", publisher: "Shephard Media", retrieved: 2026-11-21, kind: press }
+  - { id: s8, url: "https://romarm.ro/en/parteneriat-strategic-uzina-mecanica-bucuresti-general-dynamics-prin-fabricarea-piranha-5/", title: "Parteneriat strategic Uzina Mecanică București - General Dynamics, primul pas spre relansarea industriei de apărare prin fabricarea vehiculelor blindate Piranha 5", publisher: "Romarm", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s9, url: "https://www.armyrecognition.com/military-products/army/armoured-personnel-carriers/wheeled-vehicles/piranha-v-switzerland-uk", title: "Piranha 5 GDELS", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://www.army-technology.com/projects/piranhav/", title: "PIRANHA 5 Armoured Wheeled Vehicle", publisher: "Army Technology", retrieved: 2026-11-21, kind: press }
+  - { id: s11, url: "https://thedefensepost.com/2025/02/21/germany-piranha-vehicles/", title: "Germany Buys 256 Piranha V Armored Vehicles for Tactical Network Project", publisher: "The Defense Post", retrieved: 2026-11-21, kind: press }
+  - { id: s12, url: "https://www.overtdefense.com/2025/02/04/romania-to-acquire-150-piranha-5-armored-vehicles-in-2025-as-part-of-e8-billion-military-upgrade/", title: "Romania to Acquire 150 Piranha 5 Armored Vehicles in 2025", publisher: "Overt Defense", retrieved: 2026-11-21, kind: press }
+  - { id: s13, url: "https://en.wikipedia.org/wiki/Mowag_Piranha_V", title: "Mowag Piranha V", publisher: "Wikipedia", retrieved: 2026-11-21, kind: reference }
+  - { id: s14, url: "https://defense-update.com/20151211_danish_piranha.html", title: "Denmark Orders 309 Piranha 5s", publisher: "Defense Update", retrieved: 2026-11-21, kind: press }

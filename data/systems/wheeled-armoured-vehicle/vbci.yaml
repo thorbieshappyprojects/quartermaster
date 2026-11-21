@@ -1,0 +1,40 @@
+id: vbci
+category: wheeled-armoured-vehicle
+name: "VBCI (French Army VCI/VPC, 32 t configuration)"
+family: "VBCI"
+aliases: ["Véhicule blindé de combat d'infanterie", "VBCI VCI", "VBCI VPC", "VBCI 32 t"]
+manufacturer: { name: "KNDS France (formerly GIAT Industries / Nexter Systems), with Arquus (formerly Renault Trucks Defense)" }
+origin: FR
+role: "8x8 wheeled infantry fighting vehicle that carries an infantry combat group under armour and supports it with a 25 mm turret, alongside Leclerc tanks."
+memorable_fact: { text: "When the VBCI replaced tracked AMX-10Ps with the French UNIFIL battalion in Lebanon in 2010, the UN noted that the wheeled vehicle made less noise and did less damage to road surfaces.", source: s6 }
+status: in_service
+in_service_since: { value: 2008, source: s3, confidence: medium, note: "Year the base VBCI entered French Army service (first unit: 35e régiment d'infanterie, Belfort). Deliveries for France are complete. The 32 t configuration was delivered from 2015. The export VBCI MK2 / PHILOCTETES has no firm order as of Nov 2026." }
+units_built: { value: 630, source: s4, confidence: high, note: "French Army production run (VCI + VPC), given in a 2018 French parliamentary question as delivered since 2015. s3 gives the split as 520 VCI / 110 VPC. Wikipedia gives 510 / 120. Prototypes not included." }
+combat_use: { text: "Deployed by the French Army in Afghanistan, Mali, the Central African Republic and Lebanon (UNIFIL).", source: s1 }
+specs:
+  combat_weight: { value: 32, source: s1, confidence: medium, range: { min: 26, max: 32 }, note: "32 t is the maximum gross combat weight KNDS gives for the VBCI platform (MK2 family brochure). The 32 t configuration was qualified for the French fleet in 2014. The original VCI was quoted at 26 t combat weight (s2)." }
+  payload: { value: 13, source: s1, confidence: low, note: "Manufacturer figure for the VBCI MK2 ('up to 13 tons', empty weight 19 t). No separate public payload figure found for the French in-service VCI." }
+  seats: { value: 11, source: s5, confidence: high, range: { min: 11, max: 13 }, note: "VCI: crew of 2 plus 9 soldiers (s5). The 2010 UNIFIL statement (s6) gives 2 crew plus 11 soldiers. The VPC command version carries fewer passengers." }
+  engine_power: { value: 550, source: s2, confidence: medium, range: { min: 550, max: 600 }, note: "In-service vehicle: 550 hp six-cylinder in-line diesel. The VBCI MK2 has a 600 hp diesel (s1)." }
+  top_speed: { value: 100, source: s2, confidence: medium, note: "s2 says 'over 100 km/h' on metalled roads. KNDS gives 100 km/h for the MK2 (s1)." }
+  range: { value: 750, source: s2, confidence: medium, note: "Unrefuelled road range. KNDS gives the same 750 km for the MK2 (s1)." }
+operators:
+  - { country: FR, force: "Army (Armée de Terre)", state: in_service, quantity: 630, source: s4 }
+  - { country: QA, force: "Armed Forces", state: evaluating, quantity: null, source: s7 }
+  - { country: GR, force: "Hellenic Army", state: evaluating, quantity: null, source: s8 }
+cost: { value: 3490000, currency: EUR, price_year: 2012, basis: unit_price, source: s10, confidence: low, note: "Unit cost of the VCI version (VPC: EUR 2.74m), FY2012, as given by Wikipedia from a French Senate report on the 2013 budget; the Senate report itself was not accessed. A 2013 trade report (s3) puts the total programme cost at about EUR 2.86bn including development and pre-production for 630 vehicles." }
+contracts:
+  - { customer: "Qatar", year: 2017, quantity: 490, value: 1500000000, currency: EUR, note: "Letter of intent signed December 2017; value is a press estimate. It never became a firm order (s7).", source: s9 }
+  - { customer: "Qatar", year: 2026, quantity: null, note: "Letter of intent signed 21 October 2026 for several hundred VBCI MK2 with John Cockerill Defense turrets; negotiations continuing. A figure of 489 vehicles has been reported but not officially confirmed.", source: s7 }
+peers: [boxer, piranha-v, patria-amv-xp]
+sources:
+  - { id: s1, url: "https://knds.com/media/VBCI_MK_2_FAMILY_EN_a10b3eaed1.pdf", title: "VBCI MK2 FAMILY Proven Combat Abilities", publisher: "KNDS France", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://www.army-technology.com/projects/vbci/", title: "VBCI Wheeled Infantry Fighting Vehicle - Army Technology", publisher: "Army Technology", retrieved: 2026-11-21, kind: press }
+  - { id: s3, url: "https://www.army-technology.com/news/newsnexter-renault-deliver-additional-vbci-vehicle-french-army/", title: "Nexter and Renault deliver additional VBCI vehicle to French Army - Army Technology", publisher: "Army Technology", retrieved: 2026-11-21, kind: press }
+  - { id: s4, url: "https://questions.assemblee-nationale.fr/q15/15-3702QE.htm", title: "Question n°3702 : VBCI emploi - Assemblée nationale", publisher: "Assemblée nationale (France)", retrieved: 2026-11-21, kind: government }
+  - { id: s5, url: "https://www.arquus-defense.com/delivery-first-armoured-infantry-combat-vehicles-vbci", title: "Delivery of the first Armoured Infantry Combat Vehicles (VBCI)", publisher: "Arquus", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s6, url: "https://unifil.unmissions.org/en/press-releases/unifil-press-statement-amphibious-landing-new-french-apc-unifil-17-september", title: "UNIFIL Press Statement on Amphibious landing of new French APC in UNIFIL, 17 September 2010", publisher: "United Nations Interim Force in Lebanon (UNIFIL)", retrieved: 2026-11-21, kind: other }
+  - { id: s7, url: "https://www.armyrecognition.com/news/army-news/2026/qatar-revives-french-vbci-8x8-armored-vehicle-plan-with-belgian-turrets-after-years-of-stalled-talks", title: "Qatar Revives French VBCI 8x8 Armored Vehicle Plan With Belgian Turrets After Years of Stalled Talks", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s8, url: "https://knds.com/en/press-releases/strengthening-the-greek-defense-industry-and-renewing-the-armys-land-capibilities-the-ambition-of-the-vbci-philoctetes", title: "Strengthening the Greek defense industry and renewing the army's land capabilities: the ambition of the VBCI PHILOCTETES®", publisher: "KNDS", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s9, url: "https://defensemirror.com/news/25497/Qatar_May_Sign_Euro_1_5B_Deal_with_Nexter_for_490_VBCI_Armored_Vehicles", title: "Qatar May Sign Euro 1.5B Deal with Nexter for 490 VBCI Armored Vehicles", publisher: "Defense Mirror", retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://en.wikipedia.org/wiki/VBCI", title: "VBCI", publisher: "Wikipedia", retrieved: 2026-11-21, kind: reference }

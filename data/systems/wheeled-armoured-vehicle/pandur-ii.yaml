@@ -1,0 +1,47 @@
+id: pandur-ii
+category: wheeled-armoured-vehicle
+name: Pandur II 8x8
+family: Pandur
+aliases: [Pandur 2, KBVP Pandur II CZ, Pandur II CZ, Pandur II PT, Cobra (Indonesia)]
+manufacturer: { name: "General Dynamics European Land Systems-Steyr (licensed production by Tatra Defence Vehicle, CSG)" }
+production_sites:
+  - { place: "Vienna (Simmering)", country: AT, source: s7 }
+  - { place: "Nový Jičín", country: CZ, source: s6 }
+origin: AT
+role: "Modular 8x8 wheeled armoured vehicle family used as APC, infantry fighting vehicle, command, reconnaissance, engineer and ambulance variants."
+memorable_fact: { text: "The Czech Pandur II infantry fighting vehicle is amphibious and can cross water obstacles without extra equipment, propelled by two waterjets at up to 10 km/h.", source: s1 }
+status: in_service
+in_service_since: { value: 2008, source: s9, confidence: medium, note: "Year of first service of the Pandur II 8x8: Portugal, the first customer, accepted its first vehicles on 30 January 2008. Czech deliveries ran from 2009 to 2013 (s5)." }
+units_built: { value: null, source: null, confidence: null, note: "No single public total found. Fleet figures by customer: Czech Republic 127 (s13), Portugal 166 accepted (s9), Indonesia 23 contracted (s11). The successor Pandur 8x8 EVO (Tatra Defence Vehicle with GDELS-Steyr) was shown in 2025 and the Czech Republic is considering it to replace the Pandur II fleet (s13)." }
+specs:
+  combat_weight: { value: 22, source: s1, confidence: high, note: "Czech MoD gives 'up to 22 t' for the KBVP. Another Czech Army unit page gives 19,000 kg without crew (s2)." }
+  payload: { value: null, source: null, confidence: null }
+  seats: { value: 10, source: s1, confidence: high, range: { min: 10, max: 14 }, note: "Czech MoD: 10 persons (driver, gunner-operator, commander and up to 7 dismounts) in the KBVP IFV. Army Technology states the 8x8 carries up to 14 (s3). Government figure displayed." }
+  engine_power: { value: 449, source: s1, confidence: high, range: { min: 449, max: 450 }, note: "Czech MoD gives 335 kW (converted to about 449 hp). Army Technology gives 450 hp for the Cummins ISLe 450 diesel (s3). Government figure displayed." }
+  top_speed: { value: 105, source: s2, confidence: high, note: "Road speed; swimming speed is 10 km/h. Army Technology also gives 105 km/h (s3)." }
+  range: { value: 700, source: s1, confidence: high, note: "Maximum range as stated by the Czech MoD (dojezd 700 km)." }
+operators:
+  - { country: CZ, force: Army, state: in_service, quantity: 127, source: s13 }
+  - { country: PT, force: Army, state: in_service, quantity: 166, source: s9 }
+  - { country: ID, force: "Indonesian National Armed Forces", state: in_service, quantity: 23, source: s12 }
+cost: { value: 1404000, currency: EUR, price_year: 2005, basis: contract_per_unit, source: s8, confidence: medium, note: "Portuguese contract of February 2005: EUR 365 million (USD 482 million) for 260 vehicles in 15 variants, divided by 260. Other reports give EUR 364 million. Only 166 vehicles were finally accepted, so the actual cost per accepted vehicle differs." }
+contracts:
+  - { customer: "Portugal (Army and Navy)", year: 2005, quantity: 260, value: 365000000, currency: EUR, note: "First Pandur II export contract. In 2012 Portugal moved to cancel the remainder and kept 166 vehicles (s9).", source: s8 }
+  - { customer: "Czech Republic (Army)", year: 2006, quantity: 107, value: null, currency: null, note: "Pandur II CZ in six versions, 72 of them KBVP IFVs with the RCWS-30 turret. Deliveries completed in 2013.", source: s4 }
+  - { customer: "Czech Republic (Army)", year: 2015, quantity: 20, value: null, currency: null, note: "Final contract signed January 2015 for KOVS communications and KOVVŠ command-and-staff vehicles, reduced from about 30. Delivered by 2020 (s4).", source: s10 }
+  - { customer: Indonesia, year: 2019, quantity: 23, value: null, currency: null, note: "Signed December 2019 through Excalibur Army, with Tatra Defence Vehicle as licence holder (CSG group).", source: s11 }
+peers: [patria-amv-xp, piranha-v, rosomak, stryker]
+sources:
+  - { id: s1, url: "https://doarmady.mo.gov.cz/o-armade/armypedia/technika/kbvp-pandur-2", title: "KBVP PANDUR 2 | Do armády", publisher: "Ministry of Defence of the Czech Republic", retrieved: 2026-11-21, kind: government }
+  - { id: s2, url: "https://42mpr.mo.gov.cz/technika", title: "Technika", publisher: "Czech Army 42nd Mechanized Battalion (Ministry of Defence of the Czech Republic)", retrieved: 2026-11-21, kind: government }
+  - { id: s3, url: "https://www.army-technology.com/projects/pandurii/", title: "Pandur II 6x6 and 8x8 Light Armoured Vehicles", publisher: "Army Technology", retrieved: 2026-11-21, kind: press }
+  - { id: s4, url: "https://www.czdefence.com/article/pandur-ii-8x8-and-titus-wheeled-platforms-and-their-further-applications-in-the-czech-armed-forces", title: "Pandur II 8x8 and TITUS wheeled platforms and their further applications in the Czech Armed Forces", publisher: "CZDEFENCE", retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.czdefence.com/article/cooperation-with-gdels-continues-to-pay-off-for-czech-industry", title: "Cooperation with GDELS continues to pay off for Czech industry", publisher: "CZDEFENCE", retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://www.armedconflicts.com/CZE-AUT-KBVP-Pandur-II-CZ-t84772", title: "CZE/AUT - KBVP Pandur II CZ", publisher: "Armedconflicts.com (valka.cz)", retrieved: 2026-11-21, kind: other }
+  - { id: s7, url: "https://www.globalsecurity.org/military/world/europe/pandur-evo.htm", title: "Pandur EVO 6x6", publisher: "GlobalSecurity.org", retrieved: 2026-11-21, kind: reference }
+  - { id: s8, url: "https://www.militaryaerospace.com/home/article/16713620/portugal-buys-armored-vehicles-from-general-dynamics", title: "Portugal buys armored vehicles from General Dynamics", publisher: "Military & Aerospace Electronics", retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://www.defenseindustrydaily.com/general-dynamics-closes-482m-contract-with-portugal-070/", title: "Portugal Picks Pandur-II Wheeled APCs", publisher: "Defense Industry Daily", retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://www.forecastinternational.com/news/index.cfm?recno=279082", title: "Czech Army Pandur II", publisher: "Forecast International", retrieved: 2026-11-21, kind: reference }
+  - { id: s11, url: "https://www.czdefence.com/article/csg-companies-will-sell-wheeled-armoured-vehicles-pandur-ii-to-indonesia", title: "CSG companies will sell wheeled armoured vehicles Pandur II to Indonesia", publisher: "CZDEFENCE", retrieved: 2026-11-21, kind: press }
+  - { id: s12, url: "https://www.czdefence.com/article/pandur-ii-8x8-vehicles-will-replace-old-russian-armored-vehicles-as-part-of-the-indonesian-un-mission-in-lebanon", title: "Pandur II 8x8 vehicles will replace old Russian armored vehicles as part of the Indonesian UN mission in Lebanon", publisher: "CZDEFENCE", retrieved: 2026-11-21, kind: press }
+  - { id: s13, url: "https://thedefensepost.com/2026/02/06/czech-pandur-replacement/", title: "Czech Republic Nears 250+ Armored Vehicle Buy to Replace Pandur II Fleet", publisher: "The Defense Post", retrieved: 2026-11-21, kind: press }

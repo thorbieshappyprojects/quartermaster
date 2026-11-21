@@ -1,5 +1,5 @@
 {
-  "spentUsd": 15.8925,
+  "spentUsd": 27.3501,
   "entries": [
     {
       "date": "2026-11-21",
@@ -167,6 +167,94 @@
       "usd": 0.7605,
       "input": 469341,
       "output": 12779,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "wheeled-armoured-vehicle/_category",
+      "usd": 0.948,
+      "input": 940737,
+      "output": 12515,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "wheeled-armoured-vehicle/boxer",
+      "usd": 0.7733,
+      "input": 351724,
+      "output": 15517,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "wheeled-armoured-vehicle/vbci",
+      "usd": 1.0432,
+      "input": 906402,
+      "output": 15911,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "wheeled-armoured-vehicle/patria-amv-xp",
+      "usd": 1.0448,
+      "input": 1001398,
+      "output": 14368,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "wheeled-armoured-vehicle/piranha-v",
+      "usd": 0.6441,
+      "input": 229715,
+      "output": 12305,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "wheeled-armoured-vehicle/stryker",
+      "usd": 1.3573,
+      "input": 1323644,
+      "output": 23038,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "wheeled-armoured-vehicle/rosomak",
+      "usd": 1.3927,
+      "input": 1088967,
+      "output": 24650,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "wheeled-armoured-vehicle/griffon",
+      "usd": 1.0352,
+      "input": 1177413,
+      "output": 15772,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "wheeled-armoured-vehicle/btr-82a",
+      "usd": 1.1459,
+      "input": 1033922,
+      "output": 21311,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "wheeled-armoured-vehicle/pandur-ii",
+      "usd": 0.906,
+      "input": 561735,
+      "output": 17771,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "wheeled-armoured-vehicle/dingo-2",
+      "usd": 1.1671,
+      "input": 989024,
+      "output": 13581,
       "searches": 15
     }
   ]

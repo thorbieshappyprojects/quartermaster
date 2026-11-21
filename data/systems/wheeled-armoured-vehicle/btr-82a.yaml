@@ -1,0 +1,55 @@
+id: btr-82a
+category: wheeled-armoured-vehicle
+name: BTR-82AT
+family: "BTR-80 / BTR-82"
+aliases: ["BTR-82A", "БТР-82А", "BTR-82AM (BTR-80 rebuilt to BTR-82A standard)"]
+manufacturer: { name: "Military Industrial Company (VPK); built by Arzamas Machine-Building Plant (AMZ)" }
+production_sites:
+  - { place: Arzamas, country: RU, source: s16 }
+origin: RU
+role: "8x8 amphibious armoured personnel carrier with a stabilised 30 mm cannon; carries a 3-person crew and 7 dismounts for motorised infantry units."
+memorable_fact: { text: "The BTR-82A is a deep modernisation of the BTR-80, a model that dates from 1984; the first BTR-82A prototype appeared in 2009 and the vehicle remains amphibious.", source: s3 }
+status: in_production
+in_service_since: { value: 2013, source: s15, confidence: medium, note: "Year the base BTR-82A was formally adopted by the Russian armed forces, per s15. Army Technology (s7) reports that production for the Russian Army began in September 2013 and that Kazakhstan accepted 30 vehicles in December 2012. The BTR-82AT production standard was announced at Army-2021 (s6)." }
+units_built: { value: null, source: null, confidence: null, note: "No public total found. Reported orders include 130 new BTR-82A plus BTR-82AM rebuilds in 2020, and more than 300 BTR-82A/AM in 2021 (s11)." }
+combat_use: { text: "Used by Russian forces in the war in Ukraine, where Ukrainian M2 Bradley crews were filmed engaging BTR-82As in the Pokrovsk sector.", source: s12 }
+specs:
+  combat_weight: { value: 16, source: s1, confidence: medium, range: { min: 14.55, max: 16 }, note: "Rosoboronexport states a combat weight of 16 t and Rosgvardia (s3) also gives 16 t. The Russian MoD (s2) and Army Technology (s7) give 15.4 t, and Army Recognition (s4) gives 14,550 kg. 16 t is shown because it is the exporter's stated combat weight. These figures are for the base BTR-82A; the BTR-82AT's added protection is not covered by a public weight figure." }
+  payload: { value: null, source: null, confidence: null }
+  seats: { value: 10, source: s1, confidence: high, note: "3 crew + 7 dismounts; Rosgvardia (s3) also gives a 10-person complement. Army Recognition reports 9 or 10 for the BTR-82AT (s6)." }
+  engine_power: { value: 300, source: s2, confidence: high, note: "Stated as 220 kW (300 hp); KamAZ-740.14-300 diesel per s4." }
+  top_speed: { value: 100, source: s2, confidence: medium, range: { min: 80, max: 100 }, note: "The Russian MoD gives a maximum road speed of up to 100 km/h, consistent with Army Technology (s7). Rosoboronexport (s1) gives 80+ km/h and Rosgvardia (s3) at least 80 km/h. The MoD maximum-speed figure is shown." }
+  range: { value: 600, source: s2, confidence: medium, range: { min: 600, max: 800 }, note: "The Russian MoD gives 600 km road range, consistent with Army Recognition (s4) and Zona Militar (s13). Rosoboronexport (s1) and Rosgvardia (s3) give 700 km; Army Recognition's 2023 report (s5) gives 800 km. The MoD road-range figure is shown." }
+operators:
+  - { country: RU, force: Ground Forces, state: in_service, quantity: null, source: s7 }
+  - { country: RU, force: Airborne Troops (45th Separate Guards Special Purpose Brigade), state: in_service, quantity: null, source: s17 }
+  - { country: RU, force: National Guard (Rosgvardia), state: in_service, quantity: null, source: s3 }
+  - { country: KZ, force: Armed Forces, state: in_service, quantity: null, source: s7 }
+  - { country: AZ, force: Army, state: in_service, quantity: null, source: s7 }
+  - { country: BY, force: Army, state: in_service, quantity: 32, source: s14, note: "Delivery to Belarus and its 120th Mechanised Brigade is per s14; the quantity of 32 is per s7." }
+  - { country: UZ, force: Armed Forces, state: in_service, quantity: null, source: s7 }
+cost: { value: 29100000, currency: RUB, price_year: 2016, basis: unit_price, source: s10, confidence: low, note: "Unit price of a new BTR-82A in 2016 prices; a blog compilation citing Russian state procurement notice no. 0173100012516000186. No manufacturer or government unit price found. For comparison, the 2014 contract to rebuild 316 BTR-80s to BTR-82AM standard was worth RUB 6.77 billion (s9)." }
+contracts:
+  - { customer: "Russia / Ministry of Defence", year: 2014, quantity: 316, value: 6770000000, currency: RUB, note: "Contract with the 81st Armour Repair Plant to rebuild BTR-80s to BTR-82AM standard, delivered 2014-2016; a follow-on contract for 323 vehicles was signed in April 2016 for 2016-2018.", source: s9 }
+  - { customer: "Russia / Ministry of Defence", year: 2016, quantity: 20, value: null, currency: null, note: "Contract with Military Industrial Company for up to 20 new BTR-82As, delivered by the end of 2016.", source: s8 }
+  - { customer: "Belarus / Ministry of Defence", year: 2015, quantity: 32, value: null, currency: null, note: "Agreement signed at Russia Arms Expo in September 2015 (s14); Army Technology (s7) dates it to 2016 and gives 32 vehicles. Deliveries were made in 2021.", source: s14 }
+  - { customer: "Russia / Ministry of Defence", year: 2020, quantity: 130, value: null, currency: null, note: "130 new BTR-82As within orders of at least 460 BTR-82A and BTR-82AM in 2020, citing RUSI analysis.", source: s11 }
+peers: [stryker, pandur-ii, rosomak]
+sources:
+  - { id: s1, url: "http://roe.ru/production/land-forces/armored-combat-vehicles/btr-82a-armoured-personnel-carrier/?theme=theme-green", title: "Бронетранспортер БТР-82А", publisher: "Rosoboronexport", retrieved: 2026-11-21, kind: government }
+  - { id: s2, url: "https://structure.mil.ru/structure/forces/ground/weapons/motorised/more.htm?id=11802307@morfMilitaryModel", title: "Бронетранспортер БТР-82а : Министерство обороны Российской Федерации", publisher: "Ministry of Defence of the Russian Federation", retrieved: 2026-11-21, kind: government }
+  - { id: s3, url: "https://www.rosguard.gov.ru/page/index/bronetransporter-btr82a", title: "Бронетранспортер БТР-82А", publisher: "Federal National Guard Troops Service of the Russian Federation (Rosgvardia)", retrieved: 2026-11-21, kind: government }
+  - { id: s4, url: "https://www.armyrecognition.com/military-products/army/armoured-personnel-carriers/wheeled-vehicles/btr-82a-russia-uk?highlight=WyJydXNzaWEiXQ%3D%3D", title: "BTR-82A BTR-82AM", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://armyrecognition.com/news/army-news/army-news-2023/russia-develops-new-btr-82a-armored-vehicle-with-ballista-turret-and-new-armor-for-ukraine-combat", title: "Russia Develops New BTR-82A Armored Vehicle with Ballista Turret and New Armor for Ukraine Combat", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2021/army-2021-vpk-announces-launching-batch-production-of-btr-82at-apc", title: "Army-2021: VPK launches batch production of BTR-82AT APC", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s7, url: "https://www.army-technology.com/projects/btr-82a-armoured-personnel-carrier/", title: "BTR-82A Armoured Personnel Carrier (APC), Russia", publisher: "Army Technology", retrieved: 2026-11-21, kind: press }
+  - { id: s8, url: "https://tass.com/defense/868552", title: "Russian Defense Ministry to purchase 20 BTR-82A armored vehicles", publisher: "TASS", retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://armyrecognition.com/news/army-news/2016/ministry-of-defense-from-russia-will-get-323-btr-82am-armoured-personnel-carrier-in-2016-2018-12508162", title: "Ministry of Defense from Russia will get 323 BTR-82AM armoured personnel carrier in 2016-2018", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://altyn73.livejournal.com/1386477.html", title: "Почем нынче военная техника?: altyn73 — LiveJournal", publisher: "altyn73 (LiveJournal blog)", retrieved: 2026-11-21, kind: other }
+  - { id: s11, url: "https://www.trenchart.us/p/simple-and-available-the-wheeled", title: "Simple and Available, the Wheeled BTR-82 Is the Russian Military's Vehicular Future", publisher: "Trench Art", retrieved: 2026-11-21, kind: press }
+  - { id: s12, url: "https://militarnyi.com/en/news/ukrainian-m2-bradley-destroys-russian-btr-82a-in-fierce-skirmish/", title: "Ukrainian M2 Bradley Destroys Russian BTR-82A in Fierce Skirmish", publisher: "Militarnyi", retrieved: 2026-11-21, kind: press }
+  - { id: s13, url: "https://www.zona-militar.com/2020/11/19/btr-80-82/", title: "Programa VCBR: la propuesta rusa por BTR-80 y BTR-82A", publisher: "Zona Militar", retrieved: 2026-11-21, kind: press }
+  - { id: s14, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2021/belarus-army-receives-first-batch-of-new-btr-82a-apcs", title: "Belarus army receives first batch of new BTR-82A APCs", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s15, url: "https://xn--b1agacl3aeas4a.xn--p1ai/armament/btr-82a/", title: "Бронетранспортёр БТР-82А: обзор характеристики", publisher: "вооружение.рф", retrieved: 2026-11-21, kind: other }
+  - { id: s16, url: "http://www.r52.ru/news/34962", title: "\"ВПК\" представила новые модели БТР-82 и БТР-82А производства Арзамасского машзавода", publisher: "r52.ru", retrieved: 2026-11-21, kind: press }
+  - { id: s17, url: "https://www.armyrecognition.com/focus-analysis-conflicts/army/armies-in-the-world/btr-82a-8x8-armoured-enters-in-service-with-the-russian-45th-specialized-airborne-brigade-12510151", title: "BTR-82A 8x8 armoured enters in service with the Russian 45th Specialized Airborne Brigade", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }

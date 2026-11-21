@@ -1,0 +1,87 @@
+id: boxer
+category: wheeled-armoured-vehicle
+name: "Boxer (A3-standard 8×8 drive module, Armoured Personnel Carrier configuration)"
+family: "Boxer"
+aliases: ["GTK Boxer", "MRAV (Multi-Role Armoured Vehicle)", "PWV (Pantserwielvoertuig, Netherlands)", "Vilkas (Lithuania)", "Boxer MIV (United Kingdom)"]
+manufacturer: { name: "ARTEC GmbH (joint venture of KNDS Deutschland and Rheinmetall)" }
+production_sites:
+  - { place: "Munich", country: DE, source: s5 }
+  - { place: "Kassel", country: DE, source: s15 }
+  - { place: "Telford", country: GB, source: s4 }
+  - { place: "Stockport", country: GB, source: s4 }
+  - { place: "Ipswich", country: AU, source: s10 }
+origin: DE
+role: "Modular 8×8 armoured vehicle that pairs a common drive module with interchangeable mission modules for troop transport, command, medical, fire-support and other roles."
+memorable_fact: { text: "Boxer is built from two parts: a common 8×8 drive module and a mission module that can be swapped, so one chassis can serve as a troop carrier, ambulance or howitzer.", source: s3 }
+status: in_production
+in_service_since:
+  value: 2009
+  source: s5
+  confidence: high
+  note: "Year of the base system. The first series-production Boxer was handed over at the KMW plant in Munich in September 2009 (Germany/Netherlands). The Netherlands received its first vehicle in March 2010. The UK, the first full A3-standard customer, received its first two vehicles in December 2023 (s7)."
+units_built:
+  value: 760
+  source: s6
+  confidence: medium
+  note: "Family-wide. OCCAR's 2026 Business Plan says 'over 760' Boxer vehicles have been delivered under the OCCAR programme (Germany, Netherlands, Lithuania, UK). This excludes Australia's nationally procured LAND 400 Phase 2 vehicles and Ukrainian deliveries, so it is a lower bound. ARTEC's March 2025 brochure, as cited in s7, gave more than 1,700 vehicles ordered."
+combat_use: { text: "German Army Boxers were deployed to Afghanistan with ISAF from 2011.", source: s8 }
+specs:
+  combat_weight: { value: 38.5, source: s1, confidence: high, note: "ARTEC APC data sheet: max. gross vehicle weight 'up to 38.5 t'." }
+  payload: { value: 8, source: s2, confidence: high, note: "ARTEC: 8 tonnes payload." }
+  seats: { value: 11, source: s1, confidence: high, note: "Driver, commander and gunner (3) plus up to 8 dismounts (APC configuration)." }
+  engine_power:
+    value: 816
+    range: { min: 711, max: 816 }
+    source: s1
+    confidence: high
+    note: "ARTEC: MTU 8V199 TE20/21, up to 600 kW (816 hp) with the TE21. The earlier TE20 produces 530 kW (about 711 hp; s7 gives 710 bhp). Displayed value is the manufacturer maximum. British Army vehicles use the TE21 (s7)."
+  top_speed:
+    value: 100
+    range: { min: 100, max: 103 }
+    source: s1
+    confidence: high
+    note: "ARTEC states '> 100 km/h'. A figure of 103 km/h was published earlier (s7). The manufacturer lower bound is shown."
+  range:
+    value: 1000
+    range: { min: 1000, max: 1050 }
+    source: s1
+    confidence: high
+    note: "ARTEC states '> 1,000 km'. A figure of 1,050 km was published earlier (s7). The manufacturer lower bound is shown."
+operators:
+  - { country: DE, force: Army, state: in_service, quantity: null, source: s3 }
+  - { country: NL, force: Army, state: in_service, quantity: null, source: s3 }
+  - { country: LT, force: Army, state: in_service, quantity: 91, source: s3 }
+  - { country: LT, force: Army, state: ordered, quantity: 27, source: s3 }
+  - { country: GB, force: Army, state: in_service, quantity: 623, source: s7 }
+  - { country: AU, force: Army, state: in_service, quantity: 211, source: s9 }
+  - { country: UA, force: Army, state: in_service, quantity: 54, source: s14 }
+cost:
+  value: 20300000
+  currency: AUD
+  price_year: 2018
+  basis: contract_per_unit
+  source: s11
+  confidence: medium
+  note: "Australian LAND 400 Phase 2 contract of 9 August 2018, valued at AUD 4.28 bn per ANAO, divided by 211 vehicles (≈ AUD 20.3 m each). ANAO states the value includes items beyond the vehicles. The fleet mixes turreted Combat Reconnaissance Vehicles and other variants, so this is not a bare APC unit price."
+contracts:
+  - { customer: "Australia / Australian Army (LAND 400 Phase 2)", year: 2018, quantity: 211, value: 4280000000, currency: AUD, note: "Contract value as reported by ANAO. 131 of the 211 vehicles are the CRV variant (s9).", source: s11 }
+  - { customer: "Germany / Bundeswehr (Heavy Weapon Carrier for the Infantry)", year: 2024, quantity: 123, value: 2900000000, currency: USD, note: "Reported as USD 2.9 bn for up to 123 Lance-turreted vehicles, some built in Australia and shipped to Germany.", source: s13 }
+  - { customer: "Germany and Netherlands via OCCAR (Schakal IFV)", year: 2025, quantity: 222, value: 4700000000, currency: EUR, note: "Total order value EUR 4.7 bn (Rheinmetall share almost EUR 3.4 bn). 150 for Germany, 72 for the Netherlands. Boxer chassis with Puma turret.", source: s12 }
+  - { customer: "United Kingdom / British Army via OCCAR (RCH 155)", year: 2026, quantity: 72, value: null, currency: null, note: "MoD gave the value as 'nearly £1 billion' including initial training and in-service support. No exact figure was published, so value is left null. First deliveries are expected in 2028.", source: s7 }
+peers: [piranha-v, patria-amv-xp, vbci, stryker]
+sources:
+  - { id: s1, url: "https://www.artec-boxer.com/vehicles/armoured-personnel-carrier/", title: "Armoured Personnel Carrier | Artec Boxer", publisher: "ARTEC GmbH", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://www.artec-boxer.com/the-differences/payload/", title: "Payload | Artec Boxer", publisher: "ARTEC GmbH", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s3, url: "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle", title: "OCCAR - BOXER - A MULTI ROLE ARMOURED VEHICLE", publisher: "OCCAR", retrieved: 2026-11-21, kind: government }
+  - { id: s4, url: "https://occar.int/news/iav-2025-occar-presents-latest-boxer-programme-status-and-first-britishproduced-boxer-vehicle-unveiled", title: "IAV 2025 OCCAR Presents Latest BOXER Programme Status and First British-produced BOXER Vehicle Unveiled", publisher: "OCCAR", retrieved: 2026-11-21, kind: government }
+  - { id: s5, url: "https://www.occar.int:443/first-boxer-delivered", title: "First Boxer delivered", publisher: "OCCAR", retrieved: 2026-11-21, kind: government }
+  - { id: s6, url: "https://www.globalsecurity.org/military/library/report/2026/2026-business-pan_occar_20260324.pdf", title: "2026 Business Plan OCCAR", publisher: "OCCAR (hosted by GlobalSecurity.org)", retrieved: 2026-11-21, kind: government }
+  - { id: s7, url: "https://www.thinkdefence.co.uk/docs/boxer-vehicle-details/", title: "Boxer (Vehicle Details) - Think Defence", publisher: "Think Defence", retrieved: 2026-11-21, kind: reference }
+  - { id: s8, url: "https://www.australiandefence.com.au/news/more-boxer-apcs-for-germany", title: "More Boxer APCs for Germany", publisher: "Australian Defence Magazine", retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://www.rheinmetall.com/en/media/news-watch/news/2021/2021-06-02_rheinmetall-delivers-the-first-25-boxer-8x8-combat-reconnaissance-vehicles-to-the-australian-army", title: "Rheinmetall delivers the first 25 Boxer 8x8 Combat Reconnaissance Vehicles to the Australian Army", publisher: "Rheinmetall AG", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s10, url: "https://statements.qld.gov.au/statements/97407", title: "First Qld made Boxer CRV military vehicles under local production in Ipswich", publisher: "Queensland Government Ministerial Media Statements", retrieved: 2026-11-21, kind: government }
+  - { id: s11, url: "https://www.anao.gov.au/work/performance-audit/defence-procurement-combat-reconnaissance-vehicles-land400-phase2", title: "Defence's Procurement of Combat Reconnaissance Vehicles (LAND 400 Phase 2)", publisher: "Australian National Audit Office", retrieved: 2026-11-21, kind: government }
+  - { id: s12, url: "https://www.rheinmetall.com/en/media/news-watch/news/2025/10/2025-10-20-infantry-fighting-vehicle-222-jackals-schakal-for-germany-and-the-netherlands", title: "222 Jackals (Schakal) for Germany and the Netherlands", publisher: "Rheinmetall AG", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s13, url: "https://www.shephardmedia.com/news/landwarfareintl/rheinmetall-wins-29-billion-contract-to-supply-boxer-8x8s-to-the-bundeswehr/", title: "Rheinmetall wins $2.9 billion contract to supply Boxer 8x8s to the Bundeswehr", publisher: "Shephard Media", retrieved: 2026-11-21, kind: press }
+  - { id: s14, url: "https://defence-blog.com/ukraine-receives-first-rch-155-howitzers-after-years-of-delay/", title: "Ukraine receives first RCH 155 howitzers after years of delay", publisher: "Defence Blog", retrieved: 2026-11-21, kind: press }
+  - { id: s15, url: "https://www.edrmagazine.eu/land-400-phase-2-australian-government-inspects-first-australian-boxer-vehicle-at-rheinmetall-in-kassel-germany", title: "Land 400 Phase 2: Australian Government inspects first Australian Boxer vehicle at Rheinmetall in Kassel, Germany", publisher: "EDR Magazine", retrieved: 2026-11-21, kind: press }

@@ -1,0 +1,96 @@
+id: stryker
+category: wheeled-armoured-vehicle
+name: "Stryker Double V-Hull A1 (DVH A1)"
+family: "Stryker"
+aliases: ["Stryker A1", "Stryker DVHA1", "Interim Armored Vehicle (IAV)", "M1126 Infantry Carrier Vehicle (base ICV variant)"]
+manufacturer: { name: "General Dynamics Land Systems" }
+production_sites:
+  - { place: "Anniston, Alabama", country: US, source: s4 }
+  - { place: "Lima, Ohio", country: US, source: s4 }
+  - { place: "London, Ontario", country: CA, source: s4 }
+  - { place: "Veliko Tarnovo", country: BG, source: s6 }
+origin: US
+role: "8x8 wheeled armoured vehicle family that carries an infantry squad or mission equipment for US Army Stryker brigade combat teams."
+memorable_fact: { text: "The Stryker was the first new military vehicle to enter US Army service since the Abrams tank of the 1980s.", source: s4 }
+status: in_production
+in_service_since:
+  value: 2003
+  range: { min: 2002, max: 2003 }
+  source: s4
+  confidence: medium
+  note: "Year for the base Stryker system, not the A1 variant. Infantry carrier deliveries began in April 2002, and the Stryker entered operational service in November 2003, when the first Stryker brigade deployed to Iraq. The year 2003 is shown because it is the explicit service-entry date. No source in this research gave a first-fielding year for the DVH A1."
+units_built:
+  value: 4900
+  source: s10
+  confidence: medium
+  note: "Whole Stryker family, all variants. Trade press says 'more than 4,900', so this is a lower bound; other trade sources give the same figure. No public total for DVH A1 production alone was found."
+combat_use:
+  text: "US Army Stryker brigades deployed to Iraq from November 2003 and later to Afghanistan."
+  source: s4
+specs:
+  combat_weight:
+    value: 27.2
+    range: { min: 27.2, max: 28.6 }
+    source: s1
+    confidence: medium
+    note: "Gross vehicle weight. GDLS states 60,000 lb (27.2 t) for the Stryker A1; s15 gives the same figure. The DOT&E FY2017 report (s2) states a 63,000 lb (28.6 t) gross vehicle weight rating for the DVH A1 upgrade. The manufacturer figure is displayed."
+  payload: { value: null, source: null, confidence: null }
+  seats:
+    value: 11
+    source: s11
+    confidence: medium
+    note: "Infantry carrier configuration: 2 crew plus a 9-soldier squad; s4 gives the same figure. Seating varies by variant."
+  engine_power:
+    value: 450
+    source: s1
+    confidence: high
+    note: "Caterpillar C9 engine, which replaces the 350 hp Caterpillar C7 of earlier Strykers (s2)."
+  top_speed:
+    value: 97
+    range: { min: 97, max: 100 }
+    source: s11
+    confidence: low
+    note: "Original source figure: 60 mph (97 km/h); s4 gives 100 km/h. Both figures are for the original flat-bottom infantry carrier. No published top speed for the heavier DVH A1 was found."
+  range:
+    value: 483
+    range: { min: 483, max: 502 }
+    source: s11
+    confidence: low
+    note: "Original source figure: more than 300 miles (483 km); s4 gives 502 km. Both figures are for the original flat-bottom infantry carrier. No published range for the DVH A1 was found."
+operators:
+  - { country: US, force: "Army (incl. Army National Guard)", state: in_service, quantity: null, source: s13, note: "Trade press reports that the Army operates more than 4,400 Stryker vehicles of all variants (2025) and continues upgrading them to DVH A1." }
+  - { country: UA, force: "Ground Forces", state: in_service, quantity: null, source: s13, note: "Reported figures differ: 189 vehicles (s8, 2023) and more than 400 received since March 2023 (s13, 2025). These are earlier variants supplied from US stocks. s8 reports them in combat use with Ukraine." }
+  - { country: TH, force: "Royal Thai Army", state: in_service, quantity: 130, source: s7, note: "All delivered; s8 gives the same figure." }
+  - { country: MK, force: "Army", state: in_service, quantity: 42, source: s7, note: "Initially 54 vehicles, reduced to 42 in 2024." }
+  - { country: BG, force: "Land Forces", state: in_service, quantity: 183, source: s6, note: "183 new-production Strykers on order, including 90 M1296 Dragoon. Final assembly and acceptance take place at the TEREM-Ivaylo plant in Veliko Tarnovo. The first five were accepted on 3 November 2026, and final deliveries are scheduled by the end of 2028 (s5). Eight Excess Defense Articles (EDA) Strykers were also delivered in February 2026 (s5)." }
+  - { country: AR, force: "Army", state: ordered, quantity: 8, source: s7, note: "8 ordered out of 207 planned; the source reports that deliveries have begun." }
+cost:
+  value: 4593053
+  currency: USD
+  price_year: 2026
+  basis: contract_per_unit
+  source: s3
+  confidence: high
+  note: "Calculated as USD 229,652,638 divided by 50 vehicles. This is the US Army fixed-price-incentive contract of 15 May 2026 for 50 Stryker DVH A1 vehicles."
+contracts:
+  - { customer: "United States / Army", year: 2026, quantity: 50, value: 229652638, currency: USD, note: "Fixed-price-incentive contract for 50 Stryker DVH A1 vehicles, estimated completion 30 June 2028. The Army had proposed halting DVH A1 purchases in its FY2026 budget, but Congress added funds for these vehicles (s9).", source: s3 }
+  - { customer: "Bulgaria / Land Forces", year: 2025, quantity: null, value: 680000000, currency: USD, note: "GD-reported 2025 award for Stryker vehicles for Bulgaria; vehicle count not stated. It is part of a Foreign Military Sales (FMS) package of nearly USD 2 billion for 183 new-production Strykers plus Javelin weapons, ammunition and support equipment (s5).", source: s12 }
+  - { customer: "United States / Army", year: 2018, quantity: 116, value: 258000000, currency: USD, note: "Contract modification to convert 116 flat-bottom Strykers to the Stryker A1 configuration (double-V hull, 450 hp engine).", source: s14 }
+  - { customer: "United States / Army", year: 2000, quantity: 2131, value: 8000000000, currency: USD, note: "Original Interim Armored Vehicle contract to General Dynamics and General Motors for 2,131 Strykers to equip six brigade combat teams.", source: s13 }
+peers: [boxer, vbci, patria-amv-xp, piranha-v]
+sources:
+  - { id: s1, url: "https://www.gdls.com/stryker/", title: "STRYKER - General Dynamics Land Systems", publisher: "General Dynamics Land Systems", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://www.dote.osd.mil/Portals/97/pub/reports/FY2017/army/2017strykerdvha1ecp.pdf?ver=2019-08-19-113850-710", title: "Stryker Double V-Hull A1 (DVH A1) Engineering Change Proposal (FY2017 Annual Report)", publisher: "Director, Operational Test and Evaluation (US DoD)", retrieved: 2026-11-21, kind: government }
+  - { id: s3, url: "https://www.war.gov/News/Contracts/Contract/Article/4493876/contracts-for-may-15-2026/", title: "Contracts for May 15, 2026", publisher: "U.S. Department of War", retrieved: 2026-11-21, kind: government }
+  - { id: s4, url: "https://www.army-technology.com/projects/stryker-armoured-combat-vehicle/", title: "Stryker Armoured Combat Vehicle Family, United States of America", publisher: "Army Technology", retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.army.mil/article/295798/usasac_executes_historic_2b_stryker_package_for_bulgaria", title: "USASAC executes historic $2B Stryker package for Bulgaria", publisher: "U.S. Army", retrieved: 2026-11-21, kind: government }
+  - { id: s6, url: "https://www.armyrecognition.com/news/army-news/2026/bulgaria-accepts-first-five-us-m1126-stryker-icv-armored-vehicles-under-1-4-billion-army-modernization", title: "Bulgaria accepts first five US M1126 Stryker ICV armored vehicles under $1.4 billion Army modernization", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s7, url: "https://milmag.pl/en/stryker-icv-deliveries-to-bulgaria-begin/", title: "Stryker ICV Deliveries to Bulgaria Begin", publisher: "Milmag", retrieved: 2026-11-21, kind: press }
+  - { id: s8, url: "https://www.armadainternational.com/2023/09/bulgaria-approved-for-us-stryker-combat-vehicles/", title: "Bulgaria Approved for US Stryker Combat Vehicles", publisher: "Armada International", retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://insidedefense.com/insider/gdls-build-50-more-stryker-dvh-a1s-under-230-million-deal", title: "GDLS to build 50 more Stryker DVH A1s under $230 million deal", publisher: "Inside Defense", retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://defence-industry.eu/general-dynamics-land-systems-secures-229-6-million-u-s-agreement-for-50-stryker-dvh-armoured-vehicles/", title: "General Dynamics Land Systems secures $229.6 million U.S. agreement for 50 Stryker DVH armoured vehicles", publisher: "Defence Industry Europe", retrieved: 2026-11-21, kind: press }
+  - { id: s11, url: "https://www.military.com/equipment/m1126-stryker-combat-vehicle", title: "Stryker Combat Vehicle: Specs, Variants & History", publisher: "Military.com", retrieved: 2026-11-21, kind: reference }
+  - { id: s12, url: "https://www.sec.gov/Archives/edgar/data/40533/000130817926000173/gd014595-ars.pdf", title: "General Dynamics Corp - Form ARS - FY2025 (2025 Annual Report)", publisher: "General Dynamics Corporation (via U.S. SEC EDGAR)", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s13, url: "https://armyrecognition.com/news/army-news/2025/argentina-signs-agreement-with-us-for-stryker-armored-vehicles-to-modernize-its-mechanized-infantry", title: "Argentina signs agreement with US for Stryker armored vehicles to modernize its mechanized infantry", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s14, url: "https://defense-update.com/20180626_strykera1.html", title: "General Dynamics Upgrades More Strykers to A1 Variants", publisher: "Defense Update", retrieved: 2026-11-21, kind: press }
+  - { id: s15, url: "https://www.army-technology.com/news/us-army-spends-712m-for-300-stryker-vehicles/", title: "US Army purchases 300 Stryker vehicles after Ukraine donations", publisher: "Army Technology", retrieved: 2026-11-21, kind: press }

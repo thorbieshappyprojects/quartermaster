@@ -1,0 +1,42 @@
+id: patria-amv-xp
+category: wheeled-armoured-vehicle
+name: Patria AMV XP 8x8
+family: Patria AMV
+aliases: ["AMVxp", "AMV XP 8x8", "BOV 8x8 (Slovak programme name)"]
+manufacturer: { name: Patria }
+production_sites:
+  - { place: Muroran, country: JP, source: s6 }
+origin: FI
+role: "Modular 8x8 armoured wheeled vehicle serving as a base for APC, IFV, command, ambulance, reconnaissance, repair/recovery and 120 mm mortar variants."
+memorable_fact: { text: "Japan chose the AMV XP in December 2022 to replace its Type 96 APCs, and Japan Steel Works builds it under licence at its Muroran plant in Hokkaido.", source: s6 }
+status: in_production
+in_service_since: { value: 2023, source: s5, confidence: medium, note: "This variant: the first AMV XP (an ambulance) was delivered to Slovakia in September 2023. The original Patria AMV entered service earlier; that date is not used here." }
+units_built: { value: null, source: null, confidence: null, note: "No public total for AMV XP vehicles built was found. Known orders are 76 for Slovakia and 82 funded by Japan through FY2025; these are orders, not vehicles built." }
+specs:
+  combat_weight: { value: 32, source: s1, confidence: high, note: "Manufacturer: max. combat weight 32 000 kg." }
+  payload: { value: 15, source: s1, confidence: high, note: "Manufacturer: max. payload 15 000 kg." }
+  seats: { value: 11, source: s13, confidence: low, note: "3 crew + 8 dismounts (APC layout), from a single secondary source. The manufacturer brochure gives no seat count, and the layout varies by variant." }
+  engine_power: { value: 603, source: s1, confidence: high, note: "Manufacturer: 450 kW (6-cylinder in-line diesel, 2140 Nm), converted at 1 hp = 0.7457 kW." }
+  top_speed: { value: 100, source: s1, confidence: high, note: "Manufacturer states max. speed '>100 km/h'; 100 is the stated lower bound." }
+  range: { value: 800, range: { min: 800, max: 1000 }, source: s1, confidence: high, note: "Manufacturer states operating range 800-1000 km; the lower bound is shown." }
+operators:
+  - { country: SK, force: Slovak Armed Forces, state: in_service, quantity: 76, source: s10, note: "2022 G2G deal: 60 IFV, 10 ambulance, 6 command post vehicles. Deliveries began in 2023 and continue under a delivery timeline revised in 2026." }
+  - { country: JP, force: Japan Ground Self-Defense Force, state: in_service, quantity: 82, source: s7, note: "Funds allocated for 82 through FY2025 under the Wheeled Armoured Personnel Carrier (WAPC) programme. The first licence-built vehicle was handed over in September 2025 (s6)." }
+  - { country: CZ, force: Army of the Czech Republic, state: evaluating, quantity: null, source: s11, note: "Patria is offering the AMV XP 8x8 CZ and signed MoUs with Czech state enterprises in 2026. There is no order." }
+cost: { value: 4675000, currency: EUR, price_year: 2022, basis: unit_price, source: s3, confidence: medium, note: "Per-vehicle price stated by the Slovak Defence Minister for the 2022 Slovakia-Finland-Patria G2G agreement for 76 vehicles (about EUR 355.3 million in total), as reported by Defense News." }
+contracts:
+  - { customer: Slovakia (Armed Forces), year: 2022, quantity: 76, value: 355300000, currency: EUR, note: "G2G agreement between Slovakia, Finland and Patria. Total derived by Defense News from the EUR 4.675 million unit price. The first eight vehicles were built in Finland and the rest in Slovakia with Konstrukta Defence.", source: s3 }
+  - { customer: Japan (Ministry of Defense / JGSDF), year: 2024, quantity: 26, value: null, currency: null, note: "Japan Steel Works contract for 26 licence-built vehicles. The FY2023 budget line was JPY 13.6 billion for 26 vehicles; that is a budget figure, not the contract value.", source: s9 }
+  - { customer: Japan (Ministry of Defense / JGSDF), year: 2025, quantity: 82, value: 56100000000, currency: JPY, note: "Cumulative budget funding for FY2023-FY2025, not a single contract. ESD reports a different total (JPY 561 billion); the Breaking Defense figure is shown.", source: s8 }
+peers: [piranha-v, boxer, vbci]
+sources:
+  - { id: s1, url: "https://www.patriagroup.com/download/patria-amv-xp-brochure-2", title: "Patria AMV XP is perfect for any operations in any environment (brochure)", publisher: Patria, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s3, url: "https://www.defensenews.com/global/europe/2022/08/31/slovakia-finland-ink-production-deal-for-76-patria-combat-vehicles/", title: "Slovakia, Finland ink production deal for 76 Patria combat vehicles", publisher: Defense News, retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.army-technology.com/projects/patria-amvxp/", title: "Patria AMV XP 8x8 Armored Vehicle - Army Technology", publisher: Army Technology, retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://euro-sd.com/2025/09/major-news/46847/jgsdf-gets-first-amv-xp-8x8/", title: "JGSDF receives first Patria AMV XP 8×8 under Japan's WAPC programme", publisher: European Security & Defence, retrieved: 2026-11-21, kind: press }
+  - { id: s7, url: "https://www.overtdefense.com/2025/05/30/japan-to-begin-local-production-of-finnish-patria-amv-xp/", title: "Japan to Begin Local Production of Finnish Patria AMV XP", publisher: Overt Defense, retrieved: 2026-11-21, kind: press }
+  - { id: s8, url: "https://breakingdefense.com/2025/05/japan-steel-works-to-begin-local-production-of-patria-amv-in-september/", title: "Japan Steel Works to begin local production of Patria AMV in September", publisher: Breaking Defense, retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://www.mitsuipr.com/news/2024/0516-1/", title: "日本製鋼所が装輪装甲車受注 防衛省向け、26両生産へ", publisher: Sanyu Shimbun (mitsuipr.com), retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://www.joint-forces.com/defence-equipment-news/91871-patria-and-slovakia-update-amv-xp-8x8-agreement", title: "Patria and Slovakia Update AMV XP 8x8 Agreement", publisher: Joint Forces News (Patria press release), retrieved: 2026-11-21, kind: press }
+  - { id: s11, url: "https://www.patriagroup.com/newsroom/news/2026/patria-signs-memoranda-of-understanding-with-czech-state-enterprises-for-new-8x8-armoured-vehicle-programme", title: "Patria signs Memoranda of Understanding with Czech state enterprises for new 8x8 armoured vehicle programme", publisher: Patria, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s13, url: "https://x.com/nicholadrummond/status/960311736179023872", title: "Nicholas Drummond on X: Patria AMV Xp ... Crew of 3 plus 8 dismounts", publisher: Nicholas Drummond (X), retrieved: 2026-11-21, kind: other }

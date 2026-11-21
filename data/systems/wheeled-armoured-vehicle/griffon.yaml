@@ -1,0 +1,52 @@
+id: griffon
+category: wheeled-armoured-vehicle
+name: "Griffon VBMR – VTT (véhicule transport de troupes / troop-carrier version)"
+family: "Griffon (VBMR lourd, Scorpion programme)"
+aliases: ["VBMR Griffon", "VBMR lourd", "Griffon VTT", "EBMR Griffon"]
+manufacturer: { name: "KNDS France (lead of the EBMR temporary consortium with Arquus and Thales)" }
+production_sites:
+  - { place: Roanne, country: FR, source: s5 }
+  - { place: Limoges, country: FR, source: s5 }
+  - { place: Cholet, country: FR, source: s5 }
+  - { place: Staden, country: BE, source: s14 }
+origin: FR
+role: "Six-wheeled multirole armoured vehicle that carries and supports infantry; built in troop-transport, command post, artillery observation, medical and 120 mm mortar versions."
+memorable_fact: { text: "The Griffon replaced the VAB and was the first vehicle of France's Scorpion programme to be delivered, with the first vehicles handed over on 1 July 2019.", source: s3 }
+status: in_production
+in_service_since: { value: 2019, source: s3, confidence: high, note: "Base system and the VTT troop-carrier version: DGA qualification on 24 June 2019, first vehicles delivered on 1 July 2019. In October 2023 deliveries still included VTT (13) and VPC command-post (3) vehicles, which confirms that the VTT is still in production (s6). Other versions came later, e.g. MEPAC mortar carrier from 2024/25." }
+units_built: { value: 575, source: s8, confidence: high, note: "Whole Griffon family, all versions, delivered to France: 575 Griffon delivered since 2019 by 31 Dec 2023, according to the GME EBMR (s8). The French Army fleet in Dec 2023 is also given as 575 (s4). Later annual deliveries: 151 in 2024 (trade press, s15) and 150 in 2025 (DGA, s7). No official cumulative figure after 2023 was found, so no updated total is shown. Belgian deliveries started in July 2025 (s14). Planned French fleet: 1,437 by end-2030 and 1,818 by 2035 (s4)." }
+combat_use: { text: "Deployed with Operation Barkhane in Mali in 2021. The GTD-1 Korrigan battlegroup carried out a 12-day operation between Gao and Timbuktu, described as the first major engagement of the Griffon with the SICS combat information system.", source: s9 }
+specs:
+  combat_weight: { value: 24.5, source: s1, confidence: high, note: "Gross vehicle weight (PTAC) 24.5 t, as stated by the French Army and by Arquus (s2)." }
+  payload: { value: null, source: null, confidence: null }
+  seats: { value: 10, source: s1, confidence: high, note: "Up to 10 equipped soldiers including driver and gunner, i.e. 2 crew + 8 dismounts." }
+  engine_power: { value: 400, source: s1, confidence: high, note: "Given as 400 ch (French metric horsepower) by the French Army and 400 CV (Renault engine) by Arquus (s2). Not converted to SAE hp." }
+  top_speed: { value: 90, source: s1, confidence: high, note: "90 km/h maximum. Arquus also gives 90 km/h on road (s2)." }
+  range: { value: 800, source: s1, confidence: high, note: "800 km at 60 km/h (French Army). Arquus gives 800 km with a 400 L tank (s2)." }
+operators:
+  - { country: FR, force: "Army (Armée de Terre)", state: in_service, quantity: null, source: s4 }
+  - { country: BE, force: "Land Component", state: in_service, quantity: null, source: s12 }
+  - { country: LU, force: "Army (Luxembourg-Belgian Guide-Chasseurs Battalion)", state: ordered, quantity: 16, source: s13 }
+cost: { value: 1500000, currency: EUR, price_year: 2017, basis: unit_price, source: s10, confidence: medium, range: { min: 1000000, max: 1500000 }, note: "The French Senate opinion on the 2018 finance bill gives an acquisition cost of about EUR 1.5 million per Griffon, citing statements by the French Army chief of staff in 2016–2017. This figure is shown. Regional press (s11, 2022) says the unit cost is close to EUR 1 million (low confidence). Neither figure is tied to a specific contract." }
+contracts:
+  - { customer: "France / DGA (French Army)", year: 2014, quantity: 1722, value: null, currency: null, note: "December 2014 development and production contract awarded to the KNDS France–Arquus–Thales consortium for 1,722 Griffon. The 2019–2025 military programming law later raised the target to 1,872 (s3). The 2024–2030 law sets 1,818 by 2035 (s4).", source: s4 }
+  - { customer: "France / DGA (French Army)", year: 2022, quantity: 302, value: null, currency: null, note: "Complementary order for 302 Griffon, plus 54 Griffon MEPAC and 88 Jaguar.", source: s4 }
+  - { customer: "Belgium (CaMo 1, via DGA)", year: 2019, quantity: 382, value: null, currency: null, note: "Notified 24 June 2019, covering 382 Griffon and 60 Jaguar. Janes (s12) gives 392 Griffon for CaMo 1; the DGA figure (382) is used. CaMo 2 added 24 Griffon MEPAC (s12).", source: s4 }
+  - { customer: "Belgium and Luxembourg (CaMo, via DGA)", year: 2026, quantity: 108, value: null, currency: null, note: "Order reported in Feb 2026 for 269 CaMo vehicles in total. It includes 92 Griffon for Belgium and 16 Griffon for Luxembourg; the rest are Serval and Jaguar.", source: s13 }
+peers: [piranha-v, patria-amv-xp, pandur-ii]
+sources:
+  - { id: s1, url: "https://www.defense.gouv.fr/terre/nos-materiels/nos-innovations/dossier-programme-scorpion/griffon-vehicule-blinde-multi-roles", title: "Griffon - Véhicule blindé multi-rôles", publisher: "Ministère des Armées – Armée de Terre", retrieved: 2026-11-21, kind: government }
+  - { id: s2, url: "https://www.arquus-defense.com/fr/programme-scorpion/vehicule-blinde-multi-role-vbmr-griffon", title: "VBMR Griffon", publisher: "Arquus", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s3, url: "https://www.defense.gouv.fr/sites/default/files/ministere-armees/Fiche%20LPM%20-%20Griffon%20(v%C3%A9hicule%20blind%C3%A9%20multi-r%C3%B4les)_0.pdf", title: "Fiche LPM – Griffon (véhicule blindé multi-rôles)", publisher: "Ministère des Armées", retrieved: 2026-11-21, kind: government }
+  - { id: s4, url: "https://www.defense.gouv.fr/sites/default/files/dga/024_Dossier_10ans_SCORPION%20version%20finale.pdf", title: "2014 - 2024 : les dix ans du programme Scorpion – Focus véhicules blindés Griffon, Jaguar et Serval (Novembre 2024)", publisher: "Direction générale de l'armement (DGA)", retrieved: 2026-11-21, kind: government }
+  - { id: s5, url: "https://www.defense.gouv.fr/dga/actualites/dossier-2014-2024-dix-ans-du-programme-scorpion", title: "Dossier : 2014 - 2024 : les dix ans du programme Scorpion", publisher: "Direction générale de l'armement (DGA)", retrieved: 2026-11-21, kind: government }
+  - { id: s6, url: "https://www.defense.gouv.fr/dga/actualites/livraison-16-vehicules-blindes-griffon-cadre-du-programme-scorpion", title: "Livraison de 16 véhicules blindés Griffon dans le cadre du programme Scorpion", publisher: "Direction générale de l'armement (DGA)", retrieved: 2026-11-21, kind: government }
+  - { id: s7, url: "https://www.defense.gouv.fr/sites/default/files/dga/Bilan%20activites%20DGA%202025%202.pdf", title: "Bilan d'activités de la DGA 2025", publisher: "Direction générale de l'armement (DGA)", retrieved: 2026-11-21, kind: government }
+  - { id: s8, url: "https://www.arquus-defense.com/sites/default/files/2024-02/123%20GRIFFON%20et%2022%20JAGUAR%20livr%C3%A9s%20en%202023%20Nexter%20KNDS%20Arquus%20et%20Thales%20(004).pdf", title: "123 GRIFFON et 22 JAGUAR livrés à la DGA en 2023 : objectifs atteints pour Nexter, société de KNDS, Arquus et Thales", publisher: "Arquus / GME EBMR (Nexter-KNDS, Arquus, Thales)", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s9, url: "https://www.defense.gouv.fr/operations/actualites/barkhane-premier-deploiement-griffon", title: "BARKHANE - Premier déploiement pour les Griffon", publisher: "Ministère des Armées", retrieved: 2026-11-21, kind: government }
+  - { id: s10, url: "https://www.senat.fr/rap/a17-110-8/a17-110-818.html", title: "Projet de loi de finances pour 2018 : Défense : Équipement des forces", publisher: "Sénat (France)", retrieved: 2026-11-21, kind: government }
+  - { id: s11, url: "https://www.ouest-france.fr/pays-de-la-loire/angers-49000/angers-sous-le-blindage-du-vehicule-militaire-griffon-un-concentre-de-technologie-867f6030-ff85-11ec-a772-a209d8033673", title: "Défilé du Génie à Angers : sous le blindage du blindé militaire Griffon, un concentré de technologie", publisher: "Ouest-France", retrieved: 2026-11-21, kind: press }
+  - { id: s12, url: "https://www.janes.com/defence-intelligence-insights/defence-news/land/belgian-army-presents-griffon-vehicles", title: "Belgian army presents Griffon vehicles", publisher: "Janes", retrieved: 2026-11-21, kind: press }
+  - { id: s13, url: "https://thedefensepost.com/2026/02/04/belgium-luxembourg-camo-vehicles/", title: "Belgium, Luxembourg Purchase 270 CaMo Armored Vehicles From KNDS France", publisher: "The Defense Post", retrieved: 2026-11-21, kind: press }
+  - { id: s14, url: "https://www.opex360.com/2025/07/16/scorpion-camo-larmee-belge-a-recu-ses-premiers-blindes-griffon/", title: "SCORPION/CaMo : L'armée belge a reçu ses premiers blindés Griffon", publisher: "Zone Militaire (opex360)", retrieved: 2026-11-21, kind: press }
+  - { id: s15, url: "https://defensemirror.com/news/38982/First_French_made_Griffon_Armored_Vehicles_to_Belgium_in_July", title: "First French-made Griffon Armored Vehicles to Belgium in July", publisher: "Defense Mirror", retrieved: 2026-11-21, kind: press }

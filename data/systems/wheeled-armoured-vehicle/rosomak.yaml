@@ -1,0 +1,54 @@
+id: rosomak
+category: wheeled-armoured-vehicle
+name: KTO Rosomak with ZSSW-30 unmanned turret (standard hull; lengthened Rosomak-L entering production)
+family: Patria AMV
+aliases: [KTO Rosomak, Kołowy Transporter Opancerzony Rosomak, Rosomak-L, Rosomak ZSSW-30, Wolverine]
+manufacturer: { name: "Rosomak S.A. (Polska Grupa Zbrojeniowa); ZSSW-30 IFV contracts led by Huta Stalowa Wola S.A. in consortium with Rosomak S.A." }
+production_sites:
+  - { place: Siemianowice Śląskie, country: PL, source: s4 }
+  - { place: Stalowa Wola, country: PL, source: s5 }
+origin: PL
+role: Amphibious 8x8 wheeled armoured vehicle used by Poland as an infantry fighting vehicle and as a base for command, medical, reconnaissance and other variants.
+memorable_fact: { text: "Poland's contribution to the ISAF mission in Afghanistan included over 130 Rosomak vehicles, all supplied by the Siemianowice plant.", source: s16 }
+status: in_production
+in_service_since: { value: 2004, source: s4, confidence: medium, note: "Base system. The first licence agreement with Patria (30 June 2003) covered 690 vehicles with deliveries scheduled for 2004-2013. The ZSSW-30 turret version was delivered to units from the 2022 contract onward (s6); Rosomak-L deliveries are scheduled for 2027-2028 (s7)." }
+units_built: { value: 1000, source: s13, confidence: low, note: "Approximate, whole Rosomak family (all variants). Trade press (May 2026) reported that the 1,000th serial example was due for delivery in 2026; the Polish defence minister said in December 2024 that the Land Forces had about a thousand Rosomaks (s14). Earlier licences covered 690 (2003) and 307 (2013) vehicles (s4). In 2025 Rosomak S.A. delivered 82 Rosomak vehicles, including 36 chassis for ZSSW-30 turrets, which are integrated with the turrets at Huta Stalowa Wola (s5)." }
+combat_use: { text: "Polish Rosomaks deployed with ISAF in Afghanistan were up-armoured and fitted with RPG net armour; trade press reports they faced RPG and IED attacks there. Vehicles were also supplied to Ukraine from 2023.", source: s15 }
+specs:
+  combat_weight: { value: 26, source: s2, confidence: medium, range: { min: 22.5, max: 26 }, note: "Manufacturer gives vehicle mass of 16,000-26,000 kg for the base version; displayed value is the upper figure. Polish MoD gives 22.5 t for the HITFIST-30P IFV (s3). Army Recognition gives a 26,000 kg permissible gross weight for the ZSSW-30 version (s10). Rosomak-L reported with maximum permissible mass of 25.5 t (s19)." }
+  payload: { value: null, source: null, confidence: null }
+  seats: { value: 9, source: s11, confidence: medium, range: { min: 9, max: 11 }, note: "ZSSW-30 version: crew of 3 plus 6 dismounts per Times of Defence; Army Recognition states up to 9 soldiers (s10). The manufacturer lists driver, commander, gunner and 8 infantry (11) for the HITFIST-30P version (s1)." }
+  engine_power: { value: 490, source: s12, confidence: low, range: { min: 394, max: 490 }, note: "Original figure ~490 KM (metric hp) for the Scania diesel of the classic version. Army Recognition gives 294 kW (~394 hp) for a Scania DI 12 49A 03P in the ZSSW-30 vehicle (s10). Rosomak-L is planned to use the more powerful Scania DC13 079A (s13); no public power figure found for it." }
+  top_speed: { value: 100, source: s1, confidence: high, range: { min: 80, max: 100 }, note: "Manufacturer and Polish MoD (s3) state 100 km/h; Army Recognition cites 80 km/h for the ZSSW-30 version (s10)." }
+  range: { value: 500, source: s3, confidence: high, range: { min: 500, max: 700 }, note: "Polish MoD states 500 km; manufacturer gives an operational range of 500-700 km (s1)." }
+operators:
+  - { country: PL, force: Land Forces, state: in_service, quantity: null, source: s14, note: "About a thousand Rosomaks of all variants per the defence minister (Dec 2024); 341 ZSSW-30 vehicles planned under a framework agreement (s6)." }
+  - { country: UA, force: Armed Forces of Ukraine, state: in_service, quantity: null, source: s17, note: "Ukraine's president announced in April 2023 that Poland would supply 200 Rosomaks, half of them promptly; no confirmed public delivered total found." }
+cost: { value: 44830000, currency: PLN, price_year: 2024, basis: contract_per_unit, source: s9, confidence: medium, note: "Executive contract No. 2 of 8 July 2024 (Armament Agency with HSW, WB Electronics, Rosomak S.A., PGZ): about PLN 2.6 bn for 58 Rosomak with ZSSW-30 and Spike ATGM launchers, including spares; 2.6 bn / 58. For comparison, the 17 Dec 2024 Rosomak-L contract (PLN 4.3 bn gross for 80, incl. logistics and training packages) works out to about PLN 53.75 M per vehicle (s8)." }
+contracts:
+  - { customer: Poland (Ministry of National Defence), year: 2003, quantity: 690, value: null, currency: null, note: "First Patria licence agreement (30 June 2003), 690 vehicles for delivery 2004-2013.", source: s4 }
+  - { customer: Poland (Armament Agency), year: 2022, quantity: 70, value: null, currency: null, note: "First executive contract (5 July 2022) for 70 ZSSW-30 turrets integrated with existing Rosomak chassis, under a framework agreement for 341 vehicles.", source: s6 }
+  - { customer: Poland (Armament Agency), year: 2024, quantity: 58, value: 2600000000, currency: PLN, note: "8 July 2024, new-build Rosomak with ZSSW-30 and Spike; annexed in May 2026 for SAFE financing (s18, s20).", source: s9 }
+  - { customer: Poland (Armament Agency), year: 2024, quantity: 80, value: 4300000000, currency: PLN, note: "17 Dec 2024, Rosomak-L with ZSSW-30, deliveries 2027-2028, with option to increase; value gross, also reported by s8; refinanced via SAFE annex in 2026 (s18).", source: s7 }
+peers: [patria-amv-xp, piranha-v, boxer, stryker]
+sources:
+  - { id: s1, url: "https://www.rosomaksa.pl/kto-rosomak-wersja-bojowa", title: "KTO Rosomak - wersja bojowa", publisher: Rosomak S.A., retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://www.rosomaksa.pl/kto-rosomak-wersja-bazowa", title: "KTO Rosomak - wersja bazowa", publisher: Rosomak S.A., retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s3, url: "https://www.wojsko-polskie.pl/kto-rosomak/", title: "Kołowy Transporter Opancerzony ROSOMAK", publisher: Polish Ministry of National Defence (wojsko-polskie.pl), retrieved: 2026-11-21, kind: government }
+  - { id: s4, url: "https://zbiam.pl/artykuly/rosomak-s-a-w-2025-roku/", title: "Rosomak S.A. w 2025 roku", publisher: ZBiAM / Wojsko i Technika, retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://defence24.pl/przemysl/produkcja-rosomaka-przyspiesza-znamy-liczby", title: "Produkcja Rosomaka przyspiesza. Znamy liczby", publisher: Defence24, retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://milmag.pl/en/third-batch-of-rosomaks-with-zssw-30-delivered-to-the-polish-armed-forces/", title: "Third Batch of Rosomaks with ZSSW-30 Delivered to the Polish Armed Forces", publisher: MILMAG, retrieved: 2026-11-21, kind: press }
+  - { id: s7, url: "https://www.rosomaksa.pl/aktualnosci/rosomak-l-z-zssw-30-dla-wojska-polskiego", title: "ROSOMAK-L z ZSSW-30 dla Wojska Polskiego", publisher: Rosomak S.A., retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s8, url: "https://defence24.com/armed-forces/80-new-rosomaks-agreement-signed-with-an-option-for-more", title: "80 New Rosomaks: Agreement Signed with an Option for More", publisher: Defence24, retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://kresy.pl/wydarzenia/58-rosomakow-z-zssw-30-dla-wojska-polskiego-foto/", title: "58 Rosomaków z ZSSW-30 dla Wojska Polskiego", publisher: Kresy.pl (quoting Armament Agency statement), retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2023/mspo-2023-hsw-presents-rosomak-with-the-zssw-30-turret", title: "MSPO 2023: HSW presents Rosomak IFV with ZSSW-30 turret", publisher: Army Recognition, retrieved: 2026-11-21, kind: press }
+  - { id: s11, url: "https://www.timesofdefence.com.tr/polish-armed-forces-receive-fourth-batch-of-upgraded-zssw-30-rosomak-8x8-ifvs-at-poznan-training-center/", title: "Polish Armed Forces Receive Fourth Batch of Upgraded ZSSW-30 Rosomak 8x8 IFVs at Poznań Training Center", publisher: Times of Defence, retrieved: 2026-11-21, kind: press }
+  - { id: s12, url: "https://portalobronny.se.pl/przemysl-zbrojeniowy/kto-rosomak-historia-wersje-i-250-strykerow-w-tle-aa-4NbV-pYHK-HGSV.html", title: "KTO Rosomak: historia, wersje i 250 Strykerów w tle", publisher: Portal Obronny (Super Express), retrieved: 2026-11-21, kind: press }
+  - { id: s13, url: "https://zbiam.pl/rosomak-s-a-z-umowa-na-dostawy-silnikow-do-kto-rosomak/", title: "Rosomak S.A. z umową na dostawy silników do KTO Rosomak", publisher: ZBiAM, retrieved: 2026-11-21, kind: press }
+  - { id: s14, url: "https://www.wprost.pl/polityka/11889792/nowe-rosomaki-trafia-do-polskiej-armii-mon-podpisalo-umowe.html", title: "Nowe Rosomaki trafią do polskiej armii. MON podpisało umowę", publisher: Wprost, retrieved: 2026-11-21, kind: press }
+  - { id: s15, url: "https://www.joint-forces.com/features/36720-armour-focus-kto-rosomak-8x8", title: "Armour Focus ~ KTO Rosomak 8x8", publisher: Joint-Forces.com, retrieved: 2026-11-21, kind: press }
+  - { id: s16, url: "https://www.patriagroup.com/case-kto-rosomak-poland", title: "Case KTO Rosomak, Poland", publisher: Patria, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s17, url: "https://www.rferl.org/a/ukraine-poland-rozomak-infantry-vehicles/32356037.html", title: "Zelenskiy Says Poland To Provide Ukraine With 200 Infantry Vehicles", publisher: Radio Free Europe/Radio Liberty, retrieved: 2026-11-21, kind: press }
+  - { id: s18, url: "https://defence24.pl/sily-zbrojne/te-wozy-bojowe-kupimy-z-safe-cel-najwieksze-wojska-ladowe-w-europie", title: "Te wozy bojowe kupimy z SAFE. Cel: Największe wojska lądowe w Europie", publisher: Defence24, retrieved: 2026-11-21, kind: press }
+  - { id: s19, url: "https://dziennikzbrojny.pl/aktualnosci/news,1,12104,aktualnosci-z-polski,pierwsze-longi-trafia-do-wojska", title: "Pierwsze „Longi” trafią do wojska", publisher: Dziennik Zbrojny, retrieved: 2026-11-21, kind: press }
+  - { id: s20, url: "https://www.konflikty.pl/technika-wojskowa/na-ladzie/polska-wszystkie-umowy-safe/", title: "Polska podpisała wszystkie samodzielne umowy w ramach SAFE", publisher: Konflikty.pl, retrieved: 2026-11-21, kind: press }

@@ -1,0 +1,142 @@
+# Indicators: scripts/research/indicators/wheeled-armoured-vehicle.yaml. Category card researched 2026-11-21.
+id: wheeled-armoured-vehicle
+name: Wheeled armoured vehicles
+domain: Land combat
+wave: 1
+indicators:
+  - id: combat_weight
+    label: Max. combat weight
+    unit: t
+    trump: higher_wins
+    decimals: 1
+  - id: payload
+    label: Payload
+    unit: t
+    trump: higher_wins
+    decimals: 1
+  - id: seats
+    label: Seats (crew + passengers)
+    unit: ""
+    trump: higher_wins
+  - id: engine_power
+    label: Engine power
+    unit: hp
+    trump: higher_wins
+  - id: top_speed
+    label: Top speed (road)
+    unit: km/h
+    trump: higher_wins
+  - id: range
+    label: Range (road)
+    unit: km
+    trump: higher_wins
+category_card:
+  summary: Wheeled armoured vehicles are protected vehicles that run on tyres rather than tracks, usually in 4x4, 6x6 or 8x8 layouts. They are used as armoured personnel carriers, wheeled infantry fighting vehicles, reconnaissance, fire-support and air-defence platforms. Compared with tracked vehicles they generally offer more road speed and range and a lighter support burden. In exchange they have less off-road mobility in soft ground and less room for added weight and armour.
+  purpose:
+    - text: A 2019 RUSI study argued that a wheeled mechanised infantry vehicle suits a brigade that must deploy itself by road over long distances. Its reasons were the long range, large carrying capacity and reliability typical of these vehicles.
+      source: s3
+    - text: Current US Army doctrine for Stryker infantry platoons and squads is written for a peer threat. It has infantry use the vehicles' tactical mobility to close with the enemy and fight in close combat.
+      source: s8
+    - text: Wheeled vehicles also carry large-calibre guns for direct fire support. Examples include Japan's Type 16 with a 105 mm gun and the US Stryker Mobile Gun System used in Iraq and Afghanistan. These vehicles cannot absorb the level of fire that a tank can.
+      source: s1
+  strengths:
+    - text: "A RAND assessment for the Australian Defence Science and Technology Group found three advantages for wheeled vehicles over tracked ones: better on-road mobility, lower maintenance costs and less crew and squad fatigue."
+      source: s2
+    - text: Large 8x8 designs can cover long road distances under their own power. RUSI cites Boxer as reaching 100 km/h with a range of over 1,000 km, and a Stryker operational range of about 550 km.
+      source: s3
+    - text: In urban areas and on roads, wheeled vehicles generally show better tactical agility and operational mobility than tracked equivalents at lower cost. On sandy soils their traction can approach that of tracked vehicles.
+      source: s1
+  weaknesses:
+    - text: Off-road mobility is lower in weak or wet soils. Simulations cited by ESD show an 8x8 producing about 79.2% of a tracked vehicle's thrust on firmer soil, falling to as little as 50.4% on loam.
+      source: s1
+    - text: Tyres cannot be enlarged to carry more weight, so there is limited room to add armour and weapons. Heavier armour packages further reduce off-road mobility. RAND found that tracked vehicles have the advantage in weight growth and in the ability to fight and survive.
+      source: s2
+    - text: Reliability drops with extensive off-road use. When US Strykers in Iraq were fitted with extra armour, they suffered heavy tyre and wheel-station wear and drivetrain damage.
+      source: s1
+    - text: Claims of strategic air mobility have been overstated before. In 2004 GAO reported that expectations for moving Strykers by C-130 within a theatre needed to be clarified. It also found Stryker off-road mobility to be lower than that of tracked vehicles.
+      source: s10
+  counters:
+    - text: Drones saturate the front in Ukraine. CSIS reports that armoured vehicles that are deployed can face dozens of attacks per vehicle per day.
+      source: s7
+    - text: In Ukraine, small drones and loitering munitions have been added to established anti-armour threats rather than replacing them. Those threats include anti-tank guided missiles, guided artillery munitions and mines. A vehicle is often immobilised first and then finished off by drones.
+      source: s6
+    - text: The US Congressional Research Service has pointed to reports of significant damage that anti-tank guided missiles and uncrewed aerial systems have done to infantry fighting vehicles in Ukraine.
+      source: s11
+    - text: Medium-calibre cannon and heavy machine guns threaten lighter designs. Wheeled vehicles of the BTR-3, BTR-4 and BTR-80 type are protected only against 12.7 mm rounds across the frontal arc. Heavier Western designs such as Boxer and Piranha 5 can be armoured against 30 mm rounds across the frontal arc.
+      source: s1
+  trends:
+    - text: Fleets in service are being refitted against drones. The Netherlands' Boxer midlife update adds a remote weapon station with counter-drone capability so that crews can detect and defeat hostile drones themselves.
+      source: s4
+    - text: Active protection systems are being integrated on 8x8 vehicles. KNDS Deutschland and EuroTrophy announced in September 2025 that Trophy had been integrated on a pre-series Boxer armoured personnel carrier prototype, with live-fire testing as the next step.
+      source: s5
+    - text: Wheeled chassis are being used for mobile short-range air defence and counter-drone vehicles that move with manoeuvre forces. Germany ordered one verification vehicle and 18 production Boxer Skyranger 30 systems under a contract worth EUR 595 million.
+      source: s9
+    - text: Western wheeled vehicles have become heavier as armour and complexity have been added. Ukraine's use of lighter BTR-family vehicles has renewed debate over whether lighter 6x6 and 8x8 designs with more accepted risk are a better fit.
+      source: s1
+sources:
+  - id: s1
+    url: https://euro-sd.com/2023/01/articles/29120/the-role-of-wheeled-vehicles-in-peer-conflict-and-the-tracks-vs-wheels-debate/
+    title: The Role of Wheeled Vehicles in Peer Conflict and the Tracks vs Wheels Debate
+    publisher: European Security & Defence (Mittler Report)
+    retrieved: 2026-11-21
+    kind: press
+  - id: s2
+    url: https://www.rand.org/pubs/research_reports/RR1834.html
+    title: "Assessing Tracked and Wheeled Vehicles for Australian Mounted Close Combat Operations: Lessons Learned in Recent Conflicts, Impact of Advanced Technologies, and System-Level Implications"
+    publisher: RAND Corporation
+    retrieved: 2026-11-21
+    kind: reference
+  - id: s3
+    url: https://static.rusi.org/201906_op_strike_web.pdf
+    title: "Strike: From Concept to Force (RUSI Occasional Paper, June 2019)"
+    publisher: Royal United Services Institute
+    retrieved: 2026-11-21
+    kind: reference
+  - id: s4
+    url: https://thedefensepost.com/2026/05/26/netherlands-boxer-counter-drone-upgrade/
+    title: Netherlands Upgrades Boxer Vehicles With Counter-Drone Systems
+    publisher: The Defense Post
+    retrieved: 2026-11-21
+    kind: press
+  - id: s5
+    url: https://www.armyrecognition.com/archives/archives-land-defense/defense-news-army-2025/germany-equips-boxer-8x8-armored-vehicle-with-trophy-active-defense-system-to-counter-rpgs-and-drone-strikes
+    title: Germany equips Boxer 8x8 armored vehicle with Trophy active defense system to counter RPGs and drone strikes
+    publisher: Army Recognition
+    retrieved: 2026-11-21
+    kind: press
+  - id: s6
+    url: https://euro-sd.com/2026/01/articles/armed-forces/48794/countering-the-drone-threat-to-heavy-armour/
+    title: Countering the drone threat to heavy armour
+    publisher: European Security & Defence (Mittler Report)
+    retrieved: 2026-11-21
+    kind: press
+  - id: s7
+    url: https://www.csis.org/analysis/seven-contemporary-insights-state-ukraine-war
+    title: Seven Contemporary Insights on the State of the Ukraine War
+    publisher: Center for Strategic and International Studies
+    retrieved: 2026-11-21
+    kind: reference
+  - id: s8
+    url: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN44078-ATP_3-21.9-000-WEB-2.pdf
+    title: ATP 3-21.9 Stryker Infantry Rifle Platoon and Squad (June 2025)
+    publisher: Headquarters, Department of the Army (US)
+    retrieved: 2026-11-21
+    kind: government
+  - id: s9
+    url: https://www.armyrecognition.com/news/army-news/2026/u-s-army-sgt-stout-and-germanys-boxer-skyranger-30-show-two-paths-to-mobile-counter-drone-defense
+    title: U.S. Army SGT Stout and Germany's Boxer Skyranger 30 Show Two Paths to Mobile Counter-Drone Defense
+    publisher: Army Recognition
+    retrieved: 2026-11-21
+    kind: press
+  - id: s10
+    url: https://www.gao.gov/assets/gao-04-925.pdf
+    title: "Military Transformation: Fielding of Army's Stryker Vehicles Is Well Under Way, but Expectations for Their Transportability by C-130 Aircraft Need to Be Clarified (GAO-04-925)"
+    publisher: US Government Accountability Office
+    retrieved: 2026-11-21
+    kind: government
+  - id: s11
+    url: https://thedefensepost.com/2025/01/30/us-ukraine-combat-vehicle/
+    title: Congressional Research Service Urges Ukraine Lessons for Future Combat Vehicle
+    publisher: The Defense Post
+    retrieved: 2026-11-21
+    kind: press
