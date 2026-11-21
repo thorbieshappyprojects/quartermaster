@@ -17,3 +17,4 @@ docs/
 data/manufacturers/*
 !data/manufacturers/.gitkeep
 scripts/research/*.log
+deploy.env

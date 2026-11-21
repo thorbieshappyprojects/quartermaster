@@ -15,7 +15,8 @@
     "test:e2e": "playwright test",
     "build": "npm run validate && npm run build:data && tsc --noEmit && vite build",
     "preview": "vite preview",
-    "import:manufacturers": "tsx scripts/import-manufacturers.ts"
+    "import:manufacturers": "tsx scripts/import-manufacturers.ts",
+    "deploy": "zsh scripts/deploy.sh"
   },
   "dependencies": {
     "@preact/signals": "^2.11.4",
