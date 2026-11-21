@@ -45,3 +45,27 @@ describe('compile', () => {
     expect(deck.sharedSources.map((s) => s.id)).toEqual(['shared-ref']);
   });
 });
+
+import { toEur } from '../../scripts/lib/compile.ts';
+import type { Cost, FxTable } from '../../src/model/types.ts';
+
+describe('EUR conversion', () => {
+  const fx: FxTable = {
+    source: { id: 'ecb-exr', url: 'https://example.org', title: 'ECB', publisher: 'ECB', retrieved: '2026-01-01' },
+    annual: { USD: { '2022': 1.05 } },
+    partial_year: { year: 2026, rates: { USD: { value: 1.16, months: '2026-01 to 2026-10' } } },
+  };
+  const cost = (value: number | null, currency: string | null, price_year: number | null): Cost => ({ value, currency, price_year, basis: 'unit_price', source: 's1', confidence: 'low' });
+
+  it('uses the annual average of the price year', () => {
+    expect(toEur(cost(10_500_000, 'USD', 2022), fx)).toEqual({ value: 10_000_000, rate: 1.05, year: 2022 });
+  });
+  it('falls back to the partial-year average and marks it', () => {
+    expect(toEur(cost(11_600_000, 'USD', 2026), fx)).toMatchObject({ value: 10_000_000, partial: '2026-01 to 2026-10' });
+  });
+  it('keeps EUR as is and returns nothing when no rate or value exists', () => {
+    expect(toEur(cost(5, 'EUR', 2020), fx)).toEqual({ value: 5, rate: 1, year: 2020 });
+    expect(toEur(cost(5, 'GBP', 2020), fx)).toBeUndefined();
+    expect(toEur(cost(null, null, null), fx)).toBeUndefined();
+  });
+});

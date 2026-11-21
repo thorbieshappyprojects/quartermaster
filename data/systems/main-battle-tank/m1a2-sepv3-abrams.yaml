@@ -1,6 +1,6 @@
 id: m1a2-sepv3-abrams
 category: main-battle-tank
-name: M1A2 SEPv3 Abrams (M1A2C)
+name: "M1A2 SEPv3 Abrams"
 family: M1 Abrams
 aliases: ["M1A2C", "M1A2 SEP v3", "M1A2 System Enhancement Package version 3"]
 manufacturer: { name: General Dynamics Land Systems }

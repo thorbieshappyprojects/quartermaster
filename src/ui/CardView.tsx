@@ -143,6 +143,7 @@ export function SystemCardView({ card, onPrev, onNext }: { card: CompiledSystem;
       <header class="card-head">
         <div class="cat">{cat?.name}</div>
         <h1>{card.name}</h1>
+        {card.variant_note && <div class="variant" title={card.variant_note}>{card.variant_note}</div>}
       </header>
       <section class="card-body stack" aria-live="polite">
         {face === 0 && (
@@ -228,9 +229,15 @@ export function SystemCardView({ card, onPrev, onNext }: { card: CompiledSystem;
             <dl class="kv">
               <dt>Unit cost (estimate)</dt>
               <dd>
-                {formatMoney(card.cost.value, card.cost.currency)}
+                {card.cost.eur ? formatMoney(card.cost.eur.value, 'EUR') : formatMoney(card.cost.value, card.cost.currency)}
                 <Conf c={card.cost.confidence} />
               </dd>
+              {card.cost.eur && card.cost.currency !== 'EUR' && (
+                <>
+                  <dt>Original figure</dt>
+                  <dd>{formatMoney(card.cost.value, card.cost.currency)}</dd>
+                </>
+              )}
               {card.cost.value != null && (
                 <>
                   <dt>Basis</dt>
@@ -240,6 +247,12 @@ export function SystemCardView({ card, onPrev, onNext }: { card: CompiledSystem;
                 </>
               )}
             </dl>
+            {card.cost.eur && card.cost.currency !== 'EUR' && (
+              <p class="muted small">
+                Converted at the ECB {card.cost.eur.partial ? `average for ${card.cost.eur.partial}` : `annual average ${card.cost.eur.year}`}: 1 EUR ={' '}
+                {card.cost.eur.rate.toLocaleString('en-GB', { maximumFractionDigits: 4 })} {card.cost.currency}. Not adjusted for inflation.
+              </p>
+            )}
             {card.cost.basis === 'contract_per_unit' && <p class="muted small">Contract values usually include training, spares and support, so they exceed the bare unit price.</p>}
             {card.cost.note && <p class="muted small">{card.cost.note}</p>}
             {card.contracts?.length ? (
@@ -284,6 +297,13 @@ export function SystemCardView({ card, onPrev, onNext }: { card: CompiledSystem;
               Spec confidence: {confCounts.high ?? 0} high · {confCounts.medium ?? 0} medium · {confCounts.low ?? 0} low · {confCounts.empty ?? 0} empty
             </p>
             <SourceList refs={sourceUses(card, cat)} local={card.sources} />
+            {card.cost.eur && card.cost.currency !== 'EUR' && deck.fxSource && (
+              <p class="src">
+                <a href={deck.fxSource.url} target="_blank" rel="noopener noreferrer">{deck.fxSource.title}</a>{' '}
+                <span class="muted">— {deck.fxSource.publisher}, retrieved {deck.fxSource.retrieved}</span>
+                <div class="muted small">Used for: EUR conversion of the unit cost</div>
+              </p>
+            )}
           </>
         )}
       </section>

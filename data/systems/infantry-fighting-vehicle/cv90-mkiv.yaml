@@ -1,6 +1,7 @@
 id: cv90-mkiv
 category: infantry-fighting-vehicle
-name: CV90 MkIV (production versions CV9030 MkIV for Czechia and CV9035 MkIV for Slovakia)
+name: "CV90 Mk IV"
+variant_note: "Production versions CV9030 MkIV (Czechia) and CV9035 MkIV (Slovakia)"
 family: CV90
 aliases: [CV90 Mk IV, CV9030 MkIV, CV9035 MkIV, BVP CV90 MkIV, Stridsfordon 90 MkIV]
 manufacturer: { name: BAE Systems Hägglunds }

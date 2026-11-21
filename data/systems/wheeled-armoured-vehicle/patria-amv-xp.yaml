@@ -1,6 +1,7 @@
 id: patria-amv-xp
 category: wheeled-armoured-vehicle
-name: Patria AMV XP 8x8
+name: "Patria AMV XP"
+variant_note: "8×8"
 family: Patria AMV
 aliases: ["AMVxp", "AMV XP 8x8", "BOV 8x8 (Slovak programme name)"]
 manufacturer: { name: Patria }

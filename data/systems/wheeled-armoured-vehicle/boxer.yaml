@@ -1,6 +1,7 @@
 id: boxer
 category: wheeled-armoured-vehicle
-name: "Boxer (A3-standard 8×8 drive module, Armoured Personnel Carrier configuration)"
+name: "Boxer"
+variant_note: "A3-standard 8×8 drive module, armoured personnel carrier configuration"
 family: "Boxer"
 aliases: ["GTK Boxer", "MRAV (Multi-Role Armoured Vehicle)", "PWV (Pantserwielvoertuig, Netherlands)", "Vilkas (Lithuania)", "Boxer MIV (United Kingdom)"]
 manufacturer: { name: "ARTEC GmbH (joint venture of KNDS Deutschland and Rheinmetall)" }

@@ -13,6 +13,7 @@ export interface LoadedData {
   systems: LoadedFile[];
   sources: LoadedFile[];
   manufacturers: LoadedFile[];
+  fx: LoadedFile[];
   parseErrors: { file: string; message: string }[];
 }
 
@@ -35,9 +36,10 @@ export function loadData(root: string): LoadedData {
     systems: [],
     sources: [],
     manufacturers: [],
+    fx: [],
     parseErrors: [],
   };
-  const groups = ['categories', 'systems', 'sources', 'manufacturers'] as const;
+  const groups = ['categories', 'systems', 'sources', 'manufacturers', 'fx'] as const;
   for (const group of groups) {
     for (const path of listYaml(join(root, group))) {
       const file = relative(process.cwd(), path);

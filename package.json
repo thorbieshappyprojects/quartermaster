@@ -16,7 +16,8 @@
     "build": "npm run validate && npm run build:data && tsc --noEmit && vite build",
     "preview": "vite preview",
     "import:manufacturers": "tsx scripts/import-manufacturers.ts",
-    "deploy": "zsh scripts/deploy.sh"
+    "deploy": "zsh scripts/deploy.sh",
+    "fetch:fx": "tsx scripts/fetch-fx.ts"
   },
   "dependencies": {
     "@preact/signals": "^2.11.4",

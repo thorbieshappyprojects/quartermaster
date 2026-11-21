@@ -1,6 +1,6 @@
 id: type-99a
 category: main-battle-tank
-name: "Type 99A (ZTZ-99A)"
+name: "Type 99A"
 family: "Type 99 (ZTZ-99)"
 aliases: ["ZTZ-99A", "ZTZ99A", "Type 99A2"]
 manufacturer: { name: "Norinco (China North Industries Group)" }

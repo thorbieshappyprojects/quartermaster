@@ -1,6 +1,6 @@
 id: zbd-04a
 category: infantry-fighting-vehicle
-name: ZBD-04A (Type 04A)
+name: "ZBD-04A"
 family: ZBD-04 (Type 04)
 aliases: [Type 04A, WZ502G]
 manufacturer: { name: "China North Industries Corporation (NORINCO)" }

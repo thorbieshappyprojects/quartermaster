@@ -1,6 +1,7 @@
 id: lynx-kf41
 category: infantry-fighting-vehicle
-name: "Lynx KF41 IFV (Lance 30 mm turret)"
+name: "Lynx KF41"
+variant_note: "With Lance 30 mm turret"
 family: "Lynx"
 aliases: ["KF41 Lynx", "Kettenfahrzeug 41", "Lynx KF-41"]
 manufacturer: { name: "Rheinmetall Landsysteme GmbH (Rheinmetall AG)" }

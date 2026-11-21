@@ -1,8 +1,8 @@
 id: puma-s1
 category: infantry-fighting-vehicle
-name: Schützenpanzer Puma S1
+name: "Puma S1"
 family: Puma
-aliases: [SPz Puma S1, Puma IFV S1]
+aliases: ["Schützenpanzer Puma S1", SPz Puma S1, Puma IFV S1]
 manufacturer: { name: "PSM Projekt System & Management GmbH (joint venture of KNDS Deutschland and Rheinmetall Landsysteme)" }
 origin: DE
 role: Tracked infantry fighting vehicle with an unmanned 30 mm turret and anti-tank missiles, carrying a six-soldier infantry section for the German Army's mechanised infantry.

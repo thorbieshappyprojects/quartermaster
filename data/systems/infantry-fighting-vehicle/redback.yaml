@@ -1,6 +1,7 @@
 id: redback
 category: infantry-fighting-vehicle
-name: AS21 Redback (Australian Army LAND 400 Phase 3 configuration)
+name: "AS21 Redback"
+variant_note: "Australian Army LAND 400 Phase 3 configuration"
 family: Redback
 aliases: [AS21, Redback IFV, CBWP AS21 Redback]
 manufacturer: { name: "Hanwha Defence Australia (subsidiary of Hanwha Aerospace)" }

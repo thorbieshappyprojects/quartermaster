@@ -1,6 +1,7 @@
 id: griffon
 category: wheeled-armoured-vehicle
-name: "Griffon VBMR – VTT (véhicule transport de troupes / troop-carrier version)"
+name: "VBMR Griffon"
+variant_note: "VTT troop-carrier version"
 family: "Griffon (VBMR lourd, Scorpion programme)"
 aliases: ["VBMR Griffon", "VBMR lourd", "Griffon VTT", "EBMR Griffon"]
 manufacturer: { name: "KNDS France (lead of the EBMR temporary consortium with Arquus and Thales)" }

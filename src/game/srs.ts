@@ -74,8 +74,10 @@ export function questionsFor(card: CompiledSystem, category: Category, all: Comp
   if (card.memorable_fact) textQ('fact', `Which system? ${card.memorable_fact.text}`, card.name, sameCat.map((c) => c.name));
   if (card.in_service_since.value != null)
     textQ('since', `In service since (${card.name})?`, String(card.in_service_since.value), [-6, -3, -2, 2, 3, 5, ...peers.map((c) => (c.in_service_since.value ?? 0) - card.in_service_since.value!)].map((d) => (d ? String(card.in_service_since.value! + d) : undefined)));
-  if (card.cost.value != null)
-    textQ('cost', `Unit cost estimate of the ${card.name} (${card.cost.basis === 'unit_price' ? 'unit price' : 'contract value per unit'}, ${card.cost.price_year})?`, formatMoney(card.cost.value, card.cost.currency), [0.5, 0.7, 1.4, 2].map((f) => formatMoney(card.cost.value! * f, card.cost.currency)));
+  // Cost questions are asked in EUR (converted at the ECB rate of the price year) so they compare across cards.
+  const cost = card.cost.eur ? { value: card.cost.eur.value, currency: 'EUR' } : card.cost.value != null ? { value: card.cost.value, currency: card.cost.currency } : null;
+  if (cost)
+    textQ('cost', `Unit cost estimate of the ${card.name} (${card.cost.basis === 'unit_price' ? 'unit price' : 'contract value per unit'}, ${card.cost.price_year} prices)?`, formatMoney(cost.value, cost.currency), [0.5, 0.7, 1.4, 2].map((f) => formatMoney(cost.value * f, cost.currency)));
   return qs;
 }
 

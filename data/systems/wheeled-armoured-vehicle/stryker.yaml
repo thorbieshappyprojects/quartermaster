@@ -1,6 +1,7 @@
 id: stryker
 category: wheeled-armoured-vehicle
-name: "Stryker Double V-Hull A1 (DVH A1)"
+name: "Stryker DVH A1"
+variant_note: "Double V-Hull A1"
 family: "Stryker"
 aliases: ["Stryker A1", "Stryker DVHA1", "Interim Armored Vehicle (IAV)", "M1126 Infantry Carrier Vehicle (base ICV variant)"]
 manufacturer: { name: "General Dynamics Land Systems" }

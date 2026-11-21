@@ -1,6 +1,7 @@
 id: piranha-v
 category: wheeled-armoured-vehicle
-name: Piranha 5 (8x8)
+name: "Piranha V"
+variant_note: "8×8"
 family: Piranha
 aliases: ["Piranha V", "Mowag Piranha V", "PIRANHA 5", "VCR 8x8 Dragón (Spanish derivative)"]
 manufacturer: { name: "General Dynamics European Land Systems (GDELS-Mowag)" }

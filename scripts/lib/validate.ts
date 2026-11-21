@@ -5,6 +5,8 @@ import Ajv2020, { type ErrorObject, type ValidateFunction } from 'ajv/dist/2020.
 import addFormats from 'ajv-formats';
 import type { Category, Cost, Source, SourcedNumber, SourcedText, SystemCard } from '../../src/model/types.ts';
 import { fileStem, parentDir, type LoadedData } from './load.ts';
+import { toEur } from './compile.ts';
+import type { FxTable } from '../../src/model/types.ts';
 
 export type Level = 'error' | 'warning' | 'gap';
 
@@ -273,6 +275,8 @@ export function validate(data: LoadedData): ValidationResult {
     checkSourcedNumber(ctx, 'in_service_since', card.in_service_since, 'in service since');
     checkSourcedNumber(ctx, 'units_built', card.units_built, 'units built');
     checkCost(ctx, 'cost', card.cost);
+    if (card.cost?.value != null && card.cost.currency && card.cost.price_year && !toEur(card.cost, data.fx[0]?.data as FxTable | undefined))
+      issues.push({ level: 'warning', file, path: 'cost', message: `no ECB rate for ${card.cost.currency} ${card.cost.price_year}; cost is shown without EUR conversion (run npm run fetch:fx)` });
     checkTexts(ctx, 'memorable_fact', [card.memorable_fact]);
     checkTexts(ctx, 'combat_use', [card.combat_use]);
     if (!card.memorable_fact) issues.push({ level: 'gap', file, path: 'memorable_fact', message: 'no memorable fact' });

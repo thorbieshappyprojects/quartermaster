@@ -1,6 +1,6 @@
 id: challenger-3
 category: main-battle-tank
-name: Challenger 3 (CR3)
+name: "Challenger 3"
 family: Challenger
 aliases: [CR3]
 manufacturer: { name: Rheinmetall BAE Systems Land (RBSL) }

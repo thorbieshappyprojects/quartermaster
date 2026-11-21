@@ -1,6 +1,6 @@
 id: leclerc-xlr
 category: main-battle-tank
-name: Leclerc XLR (Leclerc rénové)
+name: "Leclerc XLR"
 family: Leclerc
 aliases: ["Leclerc rénové", "Leclerc XLR rénové", "Leclerc XLR/rénové"]
 manufacturer: { name: KNDS France (formerly Nexter Systems) }

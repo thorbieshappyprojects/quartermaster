@@ -1,6 +1,7 @@
 id: k2-black-panther
 category: main-battle-tank
-name: "K2 Black Panther (ROK Army 4th production batch / K2GF export standard)"
+name: "K2 Black Panther"
+variant_note: "ROK Army 4th production batch / K2GF export standard"
 family: "K2 Black Panther"
 aliases: ["K2", "Heukpyo", "K2GF", "K2PL"]
 manufacturer: { name: "Hyundai Rotem" }

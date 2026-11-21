@@ -16,7 +16,7 @@ export function Browser() {
         (s) =>
           (!filter.value || s.category === filter.value) &&
           (!q ||
-            [s.name, s.family, ...(s.aliases ?? []), s.manufacturer.name, countryName(s.origin), s.origin, categoriesById.get(s.category)?.name]
+            [s.name, s.variant_note, s.family, ...(s.aliases ?? []), s.manufacturer.name, countryName(s.origin), s.origin, categoriesById.get(s.category)?.name]
               .filter(Boolean)
               .some((t) => t!.toLowerCase().includes(q))),
       ),

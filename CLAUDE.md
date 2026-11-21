@@ -16,7 +16,8 @@ The repository is **public**. Planning documents live in `docs/` locally and are
 - **No invented values.** A value without a public source stays `null` and is logged as a gap. Empty values cannot be picked in the duel; if the opponent's value is empty the round is a tie.
 - **Every value carries a source id and a confidence** (`high`, `medium`, `low`). Sources store URL, title, publisher, retrieval date (and optional `kind`).
 - **Conflicting public figures are stored as a `range`**, with the displayed `value` chosen explicitly (it must lie inside the range).
-- **Cost always has currency, price year and basis** (`unit_price` or `contract_per_unit`); the basis is shown on the card.
+- **Cost always has currency, price year and basis** (`unit_price` or `contract_per_unit`); the basis is shown on the card. The sourced figure stays in its original currency; for comparison the build converts it to EUR with the ECB annual average of the price year (`data/fx/ecb.yaml`, refreshed with `npm run fetch:fx`; an incomplete year uses the months published so far and is marked). EUR is shown first, the original next to it; not adjusted for inflation.
+- **Names are short** (max 32 characters, the current variant, e.g. `Leopard 2A8`). Configuration or batch details go in `variant_note`, other designations in `aliases`.
 - **Derived values** (e.g. power-to-weight) are never stored on cards: the category declares `derived: {op: divide, numerator, denominator}` and the build computes them, flagged "calc", with the lower of the two input confidences.
 - **Public, catalogue-level information only.** No leaked, classified or export-controlled technical detail.
 - **Source preference:** manufacturer and government publications first, then reference works and trade press. Wikipedia is a pointer (validator warns); cite the underlying source.
@@ -53,7 +54,8 @@ tests/fixtures/{valid,broken}/       # validator fixtures; broken/ must always f
 ```yaml
 id: leopard-2a8
 category: main-battle-tank
-name: Leopard 2A8
+name: Leopard 2A8                            # short, max 32 chars
+variant_note: "..."                          # optional: configuration the values describe
 manufacturer: { name: "...", benchmark_slug: optional-slug }
 production_sites: [ { place: "...", country: DE, source: s1 } ]
 origin: DE                                   # ISO 3166-1 alpha-2

@@ -1,6 +1,7 @@
 id: ascod-2
 category: infantry-fighting-vehicle
-name: ASCOD 2 IFV "Hunter" (Mednieks), Latvian configuration
+name: "ASCOD 2"
+variant_note: "IFV \"Hunter\" (Mednieks), Latvian configuration"
 family: ASCOD
 aliases: [Mednieks, ASCOD Hunter, ASCOD IFV, ASCOD 2 IFV]
 manufacturer: { name: "General Dynamics European Land Systems - Santa Bárbara Sistemas (GDELS-SBS)" }

@@ -78,7 +78,8 @@ The YAML must follow this shape (all keys required unless marked optional):
 
 id: ${target.id}
 category: ${cat.id}
-name: <current variant name>
+name: <short current variant name, max 32 chars, e.g. "Leopard 2A8" - no descriptions>
+variant_note: <optional, one short phrase: the configuration or batch the values describe>
 family: <product family, e.g. "Leopard 2">            # optional
 aliases: [<other names>]                              # optional
 manufacturer: { name: <prime contractor> }

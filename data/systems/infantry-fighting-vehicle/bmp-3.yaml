@@ -1,6 +1,7 @@
 id: bmp-3
 category: infantry-fighting-vehicle
-name: BMP-3 (current Russian production standard with add-on protection kits)
+name: "BMP-3"
+variant_note: "Current Russian production standard with add-on protection kits"
 family: BMP-3
 manufacturer: { name: "Kurganmashzavod (High-Precision Systems holding, Rostec)" }
 production_sites:

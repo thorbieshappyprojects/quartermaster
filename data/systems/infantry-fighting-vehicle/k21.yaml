@@ -1,6 +1,7 @@
 id: k21
 category: infantry-fighting-vehicle
-name: K21 IFV (4th production batch, 2024–2028)
+name: "K21"
+variant_note: "4th production batch, 2024–2028"
 family: K21
 aliases: [NIFV, KNIFV, K300, XK21]
 manufacturer: { name: Hanwha Aerospace }

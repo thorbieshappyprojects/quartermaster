@@ -1,6 +1,7 @@
 id: rosomak
 category: wheeled-armoured-vehicle
-name: KTO Rosomak with ZSSW-30 unmanned turret (standard hull; lengthened Rosomak-L entering production)
+name: "KTO Rosomak"
+variant_note: "With ZSSW-30 unmanned turret; standard hull (lengthened Rosomak-L entering production)"
 family: Patria AMV
 aliases: [KTO Rosomak, Kołowy Transporter Opancerzony Rosomak, Rosomak-L, Rosomak ZSSW-30, Wolverine]
 manufacturer: { name: "Rosomak S.A. (Polska Grupa Zbrojeniowa); ZSSW-30 IFV contracts led by Huta Stalowa Wola S.A. in consortium with Rosomak S.A." }

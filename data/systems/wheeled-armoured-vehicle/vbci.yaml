@@ -1,6 +1,7 @@
 id: vbci
 category: wheeled-armoured-vehicle
-name: "VBCI (French Army VCI/VPC, 32 t configuration)"
+name: "VBCI"
+variant_note: "French Army VCI/VPC, 32 t configuration"
 family: "VBCI"
 aliases: ["Véhicule blindé de combat d'infanterie", "VBCI VCI", "VBCI VPC", "VBCI 32 t"]
 manufacturer: { name: "KNDS France (formerly GIAT Industries / Nexter Systems), with Arquus (formerly Renault Trucks Defense)" }

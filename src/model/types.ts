@@ -96,6 +96,8 @@ export interface SystemCard {
   id: string;
   category: string;
   name: string;
+  /** Short qualifier shown under the name, e.g. the configuration the values describe. */
+  variant_note?: string;
   family?: string;
   aliases?: string[];
   manufacturer: { name: string; benchmark_slug?: string };
@@ -123,8 +125,25 @@ export interface CompiledSpec extends SourcedNumber {
   inputs?: string[];
 }
 
-export interface CompiledSystem extends Omit<SystemCard, 'specs'> {
+/** Cost converted to EUR for comparison (display only; the original cost stays the sourced value). */
+export interface EurCost {
+  value: number;
+  /** Units of the original currency per 1 EUR. */
+  rate: number;
+  year: number;
+  /** Set when the price year has no annual average yet, e.g. "2026-01 to 2026-10". */
+  partial?: string;
+}
+
+export interface CompiledSystem extends Omit<SystemCard, 'specs' | 'cost'> {
   specs: Record<string, CompiledSpec>;
+  cost: Cost & { eur?: EurCost };
+}
+
+export interface FxTable {
+  source: Source;
+  annual: Record<string, Record<string, number>>;
+  partial_year: { year: number; rates: Record<string, { value: number; months: string }> };
 }
 
 export interface Manufacturer {
@@ -139,4 +158,6 @@ export interface Deck {
   systems: CompiledSystem[];
   sharedSources: Source[];
   manufacturers: Manufacturer[];
+  /** Source of the exchange rates used for EUR conversion, if any. */
+  fxSource?: Source;
 }
