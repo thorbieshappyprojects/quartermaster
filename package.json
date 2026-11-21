@@ -10,7 +10,7 @@
     "build:data": "tsx scripts/build-data.ts",
     "report": "tsx scripts/report.ts",
     "research": "tsx scripts/research/research.ts",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "npm run build:data && tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "playwright test",
     "build": "npm run validate && npm run build:data && tsc --noEmit && vite build",
