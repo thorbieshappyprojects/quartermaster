@@ -23,7 +23,8 @@ export function resolveSource(ref: string | null | undefined, local: Source[]): 
 }
 
 export function silhouetteUrl(card: Pick<CompiledSystem, 'silhouette' | 'category'>): string {
-  return `./silhouettes/${card.silhouette ?? `_${card.category}.svg`}`;
+  // Absolute URL: a relative url() inside a CSS custom property resolves against the stylesheet, not the page.
+  return new URL(`silhouettes/${card.silhouette ?? `_${card.category}.svg`}`, document.baseURI).href;
 }
 
 export function hasOwnSilhouette(card: CompiledSystem): boolean {

@@ -56,7 +56,14 @@ export function useFaces(count: number, onPrevCard?: () => void, onNextCard?: ()
       setFace((f) => (f + 1) % count);
     },
   };
-  return { face, setFace, handlers };
+  // Direction of the last turn (1 = forward, -1 = back) so the flip animation turns the right way.
+  const prev = useRef(face);
+  const dir = ((face - prev.current + count) % count) <= count / 2 ? 1 : -1;
+  useEffect(() => {
+    prev.current = face;
+  }, [face]);
+  const flipClass = face === prev.current ? 'card' : `card flip ${dir > 0 ? 'fwd' : 'back'}`;
+  return { face, setFace, handlers, flipClass };
 }
 
 function Spec({ card, cat }: { card: CompiledSystem; cat: Category }) {
@@ -124,14 +131,15 @@ export function SourceList({ refs, local }: { refs: Map<string, string[]>; local
 
 export function SystemCardView({ card, onPrev, onNext }: { card: CompiledSystem; onPrev?: () => void; onNext?: () => void }) {
   const cat = categoriesById.get(card.category);
-  const { face, setFace, handlers } = useFaces(FACES.length, onPrev, onNext);
+  const { face, setFace, handlers, flipClass } = useFaces(FACES.length, onPrev, onNext);
   useEffect(() => setFace(0), [card.id]);
   const peers = [...peersOf(card, deck.systems)].map((id) => systemsById.get(id)).filter(Boolean) as CompiledSystem[];
   const maker = card.manufacturer.benchmark_slug ? deck.manufacturers.find((m) => m.slug === card.manufacturer.benchmark_slug) : undefined;
   const confCounts = Object.values(card.specs).reduce<Record<string, number>>((acc, v) => ((acc[v.confidence ?? 'empty'] = (acc[v.confidence ?? 'empty'] ?? 0) + 1), acc), {});
 
   return (
-    <article class="card" {...handlers} data-testid="system-card" aria-roledescription="card">
+    <div class="card-stage">
+    <article key={`${card.id}-${face}`} class={flipClass} {...handlers} data-testid="system-card" aria-roledescription="card">
       <header class="card-head">
         <div class="cat">{cat?.name}</div>
         <h1>{card.name}</h1>
@@ -287,6 +295,7 @@ export function SystemCardView({ card, onPrev, onNext }: { card: CompiledSystem;
         ))}
       </nav>
     </article>
+    </div>
   );
 }
 

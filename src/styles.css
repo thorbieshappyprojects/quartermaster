@@ -122,15 +122,24 @@ input[type='search'], select {
 .sil { width: 100%; aspect-ratio: 5 / 2; background: var(--sil); -webkit-mask: var(--src) center / contain no-repeat; mask: var(--src) center / contain no-repeat; }
 .sil.placeholder { opacity: 0.35; }
 
-/* playing card */
+/* playing card: fixed playing-card proportions (63 × 88 mm), same size on every face */
+.card-stage { perspective: 1400px; width: min(100%, 400px, calc((100dvh - 210px) * 63 / 88)); min-width: 280px; margin: 0 auto; }
 .card {
   background: var(--surface); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow);
-  max-width: 520px; margin: 0 auto; overflow: hidden; touch-action: pan-y; user-select: none;
+  aspect-ratio: 63 / 88; width: 100%; display: flex; flex-direction: column;
+  overflow: hidden; touch-action: pan-y; user-select: none; transform-origin: center;
 }
-.card-head { padding: 14px 16px 8px; border-bottom: 1px solid var(--line); }
+.card.flip.fwd { animation: flip-fwd 0.32s ease-out; }
+.card.flip.back { animation: flip-back 0.32s ease-out; }
+@keyframes flip-fwd { from { transform: rotateY(-80deg); } to { transform: rotateY(0); } }
+@keyframes flip-back { from { transform: rotateY(80deg); } to { transform: rotateY(0); } }
+@media (prefers-reduced-motion: reduce) { .card.flip.fwd, .card.flip.back { animation: none; } }
+.card-head { flex: none; padding: 12px 16px 8px; border-bottom: 1px solid var(--line); }
+.card-head h1 { font-size: 1.2rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0; }
 .card-head .cat { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
-.card-body { padding: 14px 16px; min-height: 340px; }
-.faces { display: flex; border-top: 1px solid var(--line); }
+.card-body .sil { width: 80%; margin-left: auto; margin-right: auto; }
+.card-body { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 12px 16px; font-size: 0.92rem; scrollbar-width: thin; }
+.faces { flex: none; display: flex; border-top: 1px solid var(--line); }
 .faces button { flex: 1; border: 0; background: none; padding: 10px 2px; font-size: 0.72rem; color: var(--muted); cursor: pointer; min-height: 44px; }
 .faces button.on { color: var(--accent); font-weight: 700; box-shadow: inset 0 3px 0 var(--accent); }
 .kv { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 12px; margin: 0; }

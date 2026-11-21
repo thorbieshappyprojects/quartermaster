@@ -8,7 +8,7 @@ const KEYS = ['purpose', 'strengths', 'weaknesses', 'counters', 'trends'] as con
 
 export function CategoryPage({ id }: { id: string }) {
   const cat = categoriesById.get(id);
-  const { face, setFace, handlers } = useFaces(FACES.length);
+  const { face, setFace, handlers, flipClass } = useFaces(FACES.length);
   if (!cat) return <p>Unknown category. <a href="#/">Back to cards</a></p>;
   const cc = cat.category_card;
   const refs = new Map<string, string[]>();
@@ -17,7 +17,8 @@ export function CategoryPage({ id }: { id: string }) {
   return (
     <div class="stack">
       <a href="#/">← Cards</a>
-      <article class="card" {...handlers} data-testid="category-card">
+      <div class="card-stage">
+      <article key={`${id}-${face}`} class={flipClass} {...handlers} data-testid="category-card">
         <header class="card-head">
           <div class="cat">Category card · {cat.domain}</div>
           <h1>{cat.name}</h1>
@@ -67,6 +68,7 @@ export function CategoryPage({ id }: { id: string }) {
           ))}
         </nav>
       </article>
+      </div>
     </div>
   );
 }
