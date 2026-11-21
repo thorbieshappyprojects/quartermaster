@@ -59,7 +59,8 @@
           "state": { "enum": ["in_service", "ordered", "retired", "evaluating"] },
           "quantity": { "type": ["integer", "null"], "minimum": 0 },
           "source": { "$ref": "common.schema.json#/$defs/sourceRef" },
-          "confidence": { "$ref": "common.schema.json#/$defs/confidence" }
+          "confidence": { "$ref": "common.schema.json#/$defs/confidence" },
+          "note": { "type": "string" }
         }
       }
     },

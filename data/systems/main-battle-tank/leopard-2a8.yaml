@@ -1,0 +1,92 @@
+id: leopard-2a8
+category: main-battle-tank
+name: Leopard 2A8
+family: "Leopard 2"
+aliases: ["Leopard 2 A8", "Leopard 2A8 NOR / Leopard 2A8 NO (Norwegian version)", "Strv 123 B (Swedish designation)"]
+manufacturer: { name: "KNDS Deutschland GmbH & Co. KG" }
+production_sites:
+  - { place: Munich, country: DE, source: s3 }
+  - { place: Levanger, country: "NO", source: s7 }
+origin: DE
+role: "Tracked main battle tank; the latest production version of the Leopard 2 family, armed with a 120 mm smoothbore gun and fitted with an active protection system."
+memorable_fact: { text: "German defence officials describe the Leopard 2A8 as the first newly built Leopard tank since 1992; earlier versions were upgrades of existing tanks.", source: s4 }
+status: in_production
+in_service_since:
+  value: 2026
+  source: s6
+  confidence: medium
+  note: "Year this variant was first delivered: Norway's first two Leopard 2A8 NO arrived at Rena camp on 30 April 2026. The Norwegian Army plans to start integrating the tanks in 2027 (s5). Deliveries of Germany's 123 tanks are reported for 2027-2030 (s4). The first German and Norwegian vehicles were rolled out in Munich on 19 November 2025 (s3). The year applies to the A8 variant, not the Leopard 2 base system."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public production count found. Orders at the time of retrieval were 123 (DE), 54 (NO), 46 (NL), 44 each (CZ, LT, SE, HR); see operators."
+specs:
+  combat_weight:
+    value: 69.5
+    range: { min: 61.5, max: 69.5 }
+    source: s1
+    confidence: medium
+    note: "The KNDS datasheet states '< 69.5 t (configuration dependent)'. The displayed value is that upper limit. An older KNDS brochure (s2) gives 61.5-64.3 t."
+  gun_calibre:
+    value: 120
+    source: s1
+    confidence: high
+    note: "120 mm L55 A1 smoothbore gun."
+  engine_power:
+    value: 1500
+    source: s1
+    confidence: high
+    note: "Stated as 1,100 kW (1,500 hp)."
+  top_speed:
+    value: 60
+    source: s1
+    confidence: high
+    note: "60 km/h on road. The brochure (s2) gives 28 km/h in reverse."
+  range:
+    value: 400
+    source: s1
+    confidence: medium
+    note: "The datasheet states '~400 km (road)'. The brochure (s2) states '< 400 km (road)'."
+  crew:
+    value: 4
+    source: s1
+    confidence: high
+operators:
+  - { country: DE, force: "German Army (Heer)", state: ordered, quantity: 123, source: s3 }
+  - { country: "NO", force: "Norwegian Army", state: ordered, quantity: 54, source: s5 }
+  - { country: NL, force: "Royal Netherlands Army", state: ordered, quantity: 46, source: s11 }
+  - { country: CZ, force: "Army of the Czech Republic", state: ordered, quantity: 44, source: s12 }
+  - { country: LT, force: "Lithuanian Land Forces", state: ordered, quantity: 44, source: s10 }
+  - { country: SE, force: "Swedish Army", state: ordered, quantity: 44, source: s13 }
+  - { country: HR, force: "Croatian Army", state: ordered, quantity: 44, source: s9 }
+cost:
+  value: 33725886
+  currency: EUR
+  price_year: 2025
+  basis: contract_per_unit
+  source: s9
+  confidence: high
+  range: { min: 21590909, max: 33725886 }
+  note: "Croatian contract of 10 December 2025: EUR 1,483,938,969.77 for 44 tanks, divided by 44. The total includes the supplementary contracts for simulators and a five-year extended warranty. Other contracts: Lithuania, EUR 950 million for 44 tanks including spares and logistics (about EUR 21.6 million per tank, s10). Germany's first call-off, EUR 525.6 million for 18 tanks including development and five years of logistic support (about EUR 29.2 million per tank, s8)."
+contracts:
+  - { customer: "Germany / German Army", year: 2023, quantity: 18, value: 525600000, currency: EUR, note: "Framework contract for up to 123 tanks signed with BAAINBw in May 2023. Value is the first firm order for 18 tanks, covering development, delivery and a five-year logistics package. ESUT reported a further EUR 2.4 billion as an option.", source: s8 }
+  - { customer: "Norway / Norwegian Army", year: 2023, quantity: 54, value: null, currency: null, note: "Contract signed 17 February 2023 (s14). The Norwegian Defence Materiel Agency gives a price-adjusted project cost frame of NOK 23.4 billion (s5). That is a project budget, not the contract value. Most of the tanks are to be built by RITEK in Norway.", source: s14 }
+  - { customer: "Lithuania / Lithuanian Land Forces", year: 2024, quantity: 44, value: 950000000, currency: EUR, note: "Contract with KNDS Deutschland signed December 2024, as reported by The Defense Post.", source: s10 }
+  - { customer: "Croatia / Croatian Army", year: 2025, quantity: 44, value: 1483938969.77, currency: EUR, note: "Order confirmation signed in Berlin on 10 December 2025. The value includes supplementary contracts for simulators and a five-year extended warranty. Funded partly through the EU SAFE instrument.", source: s9 }
+peers: [m1a2-sepv3-abrams, k2-black-panther, leclerc-xlr, challenger-3]
+sources:
+  - { id: s1, url: "https://knds.com/media/KNDS_DB_Ansicht_LEOPARD_2_A8_EN_db4b5ee21e.pdf", title: "LEOPARD 2 A8 - The world's leading main battle tank (datasheet)", publisher: "KNDS Deutschland", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://knds.com/media/KNDS_B_Ansicht_LEOPARD_2_A8_EN_056fd1a8ad.pdf", title: "LEOPARD 2 A8 - The world's leading main battle tank (brochure)", publisher: "KNDS Deutschland", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s3, url: "https://knds.com/en/press-releases/roll-out-of-the-knds-leopard-2-a8-and-pz-h-2000-systems", title: "Roll-out: LEOPARD 2A8 and PzH 2000 Systems", publisher: "KNDS Group", retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s4, url: "https://www.defensenews.com/global/europe/2025/11/20/knds-unveils-the-leopard-2a8-first-new-battle-tank-build-since-1992/", title: "KNDS unveils the Leopard 2A8, first new battle tank build since 1992", publisher: "Defense News", retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.fma.no/en/news-and-media/newsarticles/norway-s-new-battle-tank-has-rolled-out-from-the-supplier", title: "Norway's new battle tank has rolled out from the supplier", publisher: "Norwegian Defence Materiel Agency", retrieved: 2026-11-21, kind: government }
+  - { id: s6, url: "https://defence-blog.com/norway-receives-first-trophy-equipped-leopard-2a8-tanks/", title: "Norway receives first Trophy-equipped Leopard 2A8 tanks", publisher: "Defence Blog", retrieved: 2026-11-21, kind: press }
+  - { id: s7, url: "https://www.army-technology.com/news/norways-leopard-2a8-tanks-highlight-european-network/", title: "Norway's Leopard 2A8 tanks highlight European network", publisher: "Army Technology", retrieved: 2026-11-21, kind: press }
+  - { id: s8, url: "https://esut.de/en/2023/05/meldungen/42279/rahmenvertrag-fuer-bis-zu-123-leopard-2a8-unterschrieben/", title: "Framework contract signed for up to 123 Leopard 2A8s", publisher: "ESUT - Europäische Sicherheit & Technik", retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://www.morh.hr/en/deputy-prime-minister-and-defence-minister-ivan-anusic-signs-contracts-in-berlin-for-the-delivery-of-44-leopard-2a8-tanks/", title: "Deputy Prime Minister and Defence Minister Ivan Anušić Signs Contracts in Berlin for the Delivery of 44 Leopard 2A8 Tanks", publisher: "Ministry of Defence of the Republic of Croatia (MORH)", retrieved: 2026-11-21, kind: government }
+  - { id: s10, url: "https://thedefensepost.com/2026/07/30/lithuania-leopard-2a8-tanks/", title: "Lithuania to Assemble Leopard 2A8 Tanks at Kaunas Plant", publisher: "The Defense Post", retrieved: 2026-11-21, kind: press }
+  - { id: s11, url: "https://www.defensenews.com/global/europe/2025/05/15/netherlands-buys-46-leopard-tanks-from-knds-for-more-than-1-billion/", title: "Netherlands buys 46 Leopard tanks from KNDS for more than $1 billion", publisher: "Defense News", retrieved: 2026-11-21, kind: press }
+  - { id: s12, url: "https://militaeraktuell.at/en/czech-republic-orders-44-leopard-2a8-main-battle-tanks-from-knds/", title: "Czech Republic orders 44 Leopard 2A8 main battle tanks from KNDS", publisher: "Militär Aktuell", retrieved: 2026-11-21, kind: press }
+  - { id: s13, url: "https://www.army-technology.com/news/sweden-leopard-2-a8-tanks-knds-germany/", title: "Sweden to secure 44 Leopard 2A8 tanks from KNDS Germany", publisher: "Army Technology", retrieved: 2026-11-21, kind: press }
+  - { id: s14, url: "https://www.armyrecognition.com/archives/archives-land-defense/defense-news-army-2025/norways-next-generation-leopard-2a8-tank-to-roll-out-on-november-19-from-knds-germany-factory", title: "Norway's Next-Generation Leopard 2A8 Tank to Roll Out on November 19 from KNDS Germany Factory", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }

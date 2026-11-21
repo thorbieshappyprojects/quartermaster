@@ -79,6 +79,7 @@ export interface Operator {
   quantity?: number | null;
   source: string;
   confidence?: Confidence;
+  note?: string;
 }
 
 export interface Contract {

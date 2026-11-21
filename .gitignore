@@ -16,3 +16,4 @@ docs/
 # manufacturer context is imported locally and not published
 data/manufacturers/*
 !data/manufacturers/.gitkeep
+scripts/research/*.log

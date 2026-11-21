@@ -1,0 +1,141 @@
+# Indicators: scripts/research/indicators/main-battle-tank.yaml. Category card researched 2026-11-21.
+id: main-battle-tank
+name: Main battle tanks
+domain: Land combat
+wave: 1
+indicators:
+  - id: combat_weight
+    label: Combat weight
+    unit: t
+    trump: higher_wins
+    decimals: 1
+  - id: gun_calibre
+    label: Gun calibre
+    unit: mm
+    trump: higher_wins
+  - id: engine_power
+    label: Engine power
+    unit: hp
+    trump: higher_wins
+  - id: power_to_weight
+    label: Power-to-weight
+    unit: hp/t
+    trump: higher_wins
+    decimals: 1
+    derived:
+      op: divide
+      numerator: engine_power
+      denominator: combat_weight
+  - id: top_speed
+    label: Top speed (road)
+    unit: km/h
+    trump: higher_wins
+  - id: range
+    label: Range (road)
+    unit: km
+    trump: higher_wins
+  - id: crew
+    label: Crew
+    unit: ""
+    trump: lower_wins
+    description: Fewer crew means more automation; a playful convention.
+category_card:
+  summary: A main battle tank is a heavily armoured, usually tracked combat vehicle that combines a large-calibre direct-fire main gun, armour protection and cross-country mobility in a single platform. It is the main heavy direct-fire system of armoured and mechanised ground forces and is normally used alongside infantry, artillery, engineers and air defence.
+  purpose:
+    - text: "US Army doctrine gives the tank platoon the same mission as the Armor Branch: to close with and destroy enemy forces using fire, manoeuvre and shock effect, or to repel an enemy assault by fire and counterattack."
+      source: s1
+    - text: Tanks are designed mainly to defeat the standing armies of peer or near-peer states, and a 2026 RUSI Journal analysis of the Russo-Ukrainian War argues that they remain essential to combined-arms operations despite drones and precision-guided munitions.
+      source: s10
+    - text: In the Russo-Ukrainian War, armour has often been used in a fire-support role, delivering accurate direct fire against enemy positions and carrying out gun raids, rather than mainly for breakthrough attempts.
+      source: s4
+  strengths:
+    - text: US Army doctrine describes the tank platoon as providing a combination of firepower, mobility and armour protection that does not exist elsewhere in the US Army, and states that a tank's armour can be decisive in large-scale combat.
+      source: s1
+    - text: Analysis of early Ukraine-war losses found tanks far more survivable than other armoured vehicles; crews often survived hits that disabled the tank's weapons or mobility, and without tanks, armies would have to use lighter vehicles that suffer more catastrophic losses.
+      source: s3
+    - text: RUSI field research in 2023 found Russian explosive reactive armour highly effective, stopping most anti-tank systems from defeating the tank's armour.
+      source: s4
+    - text: A US Army general described the Abrams as exceptionally well protected against direct fire from other tanks and fighting vehicles, and said main battle tanks are most effective in the offence or when able to move.
+      source: s6
+  weaknesses:
+    - text: Tanks are among the most logistics-intensive items of equipment, needing routine maintenance, spare parts and large amounts of fuel, and they need infantry to protect them from enemy anti-tank teams, especially in urban terrain.
+      source: s3
+    - text: US Army doctrine notes that a tank platoon may have operational and tactical mobility problems because of its vehicles' weight.
+      source: s1
+    - text: Current designs such as the Abrams were not built to resist top-attack threats (diving anti-tank missiles, loitering munitions and drones), and the US Army says tanks become vulnerable to many threats when stationary.
+      source: s6
+    - text: "High-intensity war causes heavy attrition: the IISS estimated that Russia lost about 1,400 main battle tanks in 2024 and more than 4,000 since February 2022, and that new production plus refurbishment of stored vehicles would not make up for these losses indefinitely."
+      source: s7
+  counters:
+    - text: First-person-view (FPV) drones can manoeuvre to strike the side, top or rear where armour is weaker; in Ukraine this forced Ukrainian armoured vehicles to stay 3-10 km behind the front line, which left armoured counterattacks highly vulnerable.
+      source: s5
+    - text: Top-attack anti-tank guided missiles, loitering munitions and low-cost FPV drones (reported at under USD 500 each) are seen by US Army planners as the key new threat to all combat vehicles.
+      source: s6
+    - text: In early 2022, artillery and Soviet-era anti-tank mines destroyed many Russian tanks, and dismounted anti-tank teams were effective where tanks lacked infantry support; anti-tank guided missiles were not the main cause of losses.
+      source: s3
+    - text: "Established threats remain alongside drones: anti-tank guided missiles, rocket-propelled grenades and mines, while persistent aerial surveillance makes concealment and evasion harder."
+      source: s8
+  trends:
+    - text: The US Army replaced its planned Abrams SEPv4 upgrade with the more ambitious M1E3. The aim is a lighter tank with a smaller logistics footprint, better top-attack protection, a built-in active protection system, signature reduction and a modular open systems architecture, with fielding targeted for the early 2030s.
+      source: s6
+    - text: Active protection systems are moving from optional add-ons to standard fit; for example, Germany has ordered Trophy for its Leopard 2s and plans to make it standard on future versions.
+      source: s8
+    - text: Both sides in Ukraine have fitted improvised overhead cages or screens against drones and top-attack weapons; on Russian tanks such as the T-90, these have been reported to have only limited success.
+      source: s9
+    - text: Russian forces have added thermal camouflage and other modifications, together with changed tactics, which have significantly reduced how easily their tanks can be detected at stand-off ranges.
+      source: s4
+sources:
+  - id: s1
+    url: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN44282-ATP_3-20.15-000-WEB-1.pdf
+    title: ATP 3-20.15 Tank Platoon (July 2025)
+    publisher: Headquarters, Department of the Army (US Army Publishing Directorate)
+    retrieved: 2026-11-21
+    kind: government
+  - id: s3
+    url: https://warontherocks.com/the-tank-is-not-obsolete-and-other-observations-about-the-future-of-combat/
+    title: The Tank Is Not Obsolete, and Other Observations About the Future of Combat (Rob Lee, 6 September 2022)
+    publisher: War on the Rocks
+    retrieved: 2026-11-21
+    kind: press
+  - id: s4
+    url: https://static.rusi.org/403-SR-Russian-Tactics-web-final.pdf
+    title: "Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine (Watling and Reynolds, 2023)"
+    publisher: Royal United Services Institute (RUSI)
+    retrieved: 2026-11-21
+    kind: reference
+  - id: s5
+    url: https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/September-October-2025/Lessons-from-Ukraine/
+    title: "Russia's Changes in the Conduct of War Based on Lessons from Ukraine: Adapting Technology, Force Structures, and the Defense Industry (Military Review, September-October 2025)"
+    publisher: Army University Press (US Army)
+    retrieved: 2026-11-21
+    kind: government
+  - id: s6
+    url: https://breakingdefense.com/2024/06/inside-the-us-armys-race-to-apply-ukraine-lessons-to-future-abrams-bradley-replacement/
+    title: Inside the US Army's race to apply Ukraine lessons to future Abrams, Bradley replacement (Ashley Roque, 3 June 2024)
+    publisher: Breaking Defense
+    retrieved: 2026-11-21
+    kind: press
+  - id: s7
+    url: https://euro-sd.com/2025/02/major-news/42546/2025-military-balance-launch/
+    title: Russia losing armour in Ukraine at an unsustainable rate, confirms IISS (Peter Felstead, 12 February 2025)
+    publisher: European Security & Defence (reporting IISS Military Balance 2025 launch)
+    retrieved: 2026-11-21
+    kind: press
+  - id: s8
+    url: https://www.shephardmedia.com/news/landwarfareintl/active-protection-systems-from-optional-upgrade-to-operational-requirement/
+    title: "Active protection systems: from optional upgrade to operational requirement (13 October 2026)"
+    publisher: Shephard Media (Shephard Studio content produced in partnership with Rafael, maker of Trophy; partly paywalled; only the public part was used)
+    retrieved: 2026-11-21
+    kind: other
+  - id: s9
+    url: https://smallwarsjournal.com/2025/05/28/t90-tank-failures-ukraine-combat-analysis/
+    title: "Success in Syria, Failure in Ukraine: The Russian T-90 Main Battle Tank in Combat (28 May 2025)"
+    publisher: Small Wars Journal
+    retrieved: 2026-11-21
+    kind: press
+  - id: s10
+    url: https://www.tandfonline.com/doi/full/10.1080/03071847.2026.2638134
+    title: Principles of Modern Tank Design (Josiah Mosser, 2026; only the publicly visible abstract and excerpts were read; the full text could not be opened)
+    publisher: The RUSI Journal (Taylor & Francis)
+    retrieved: 2026-11-21
+    kind: reference

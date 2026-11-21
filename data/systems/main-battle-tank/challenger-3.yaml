@@ -1,0 +1,35 @@
+id: challenger-3
+category: main-battle-tank
+name: Challenger 3 (CR3)
+family: Challenger
+aliases: [CR3]
+manufacturer: { name: Rheinmetall BAE Systems Land (RBSL) }
+production_sites:
+  - { place: Telford, country: GB, source: s3 }
+origin: GB
+role: British Army main battle tank made by upgrading Challenger 2 hulls with a new turret, a 120 mm smoothbore gun, new sights, digital systems and modular armour.
+memorable_fact: { text: "The first crewed live firing of Challenger 3 in January 2026 was the first UK firing of a newly developed main battle tank in more than 30 years.", source: s3 }
+status: in_production
+in_service_since: { value: 1998, source: s2, confidence: high, note: "This is the service-entry year of the base system, Challenger 2, which DE&S says was introduced in 1998. As of 2026-11-21, Challenger 3 is in trials and has not entered service. Its initial operating capability is planned for 2027 and full operating capability for 2030 (s4, s5). Trade press reports possible delays caused by turret gearbox problems (s4)." }
+units_built: { value: null, source: null, confidence: null, note: "No public source gives a confirmed number of vehicles completed. 148 vehicles are on order. According to s4, RBSL had built two prototypes by September 2024, and 8 prototypes in total were planned before the remaining 140 tanks are produced." }
+combat_use: { text: "No confirmed combat use as of 2026.", source: s4 }
+specs:
+  combat_weight: { value: 66, source: s4, confidence: medium, range: { min: 66, max: 80 }, note: "Calibre Defence gives 66 t in the base configuration, rising to as much as 80 t with additional armour. The 66 t base figure is shown. The DE&S figure of 62,500 kg is listed in the page's Challenger 2 section, so it is not used here." }
+  gun_calibre: { value: 120, source: s1, confidence: high, note: "Rheinmetall 120 mm high-pressure L55A1 smoothbore gun." }
+  engine_power: { value: 1200, source: s4, confidence: low, range: { min: 1200, max: 1500 }, note: "Calibre Defence (s4) says Challenger 3 keeps the 1,200 hp Perkins CV12-9A diesel from Challenger 2, with modifications under HAAIP. GlobalSecurity (s6) gives 1,500 hp. DE&S describes only an 'upgraded engine with a new cooling system' and gives no figure. The 1,200 hp figure is shown because it is the better-sourced value." }
+  top_speed: { value: 60, source: s4, confidence: medium, note: "Calibre Defence gives 60 km/h. GlobalSecurity (s6) also gives 60 km/h on road. No manufacturer figure has been published." }
+  range: { value: 400, source: s4, confidence: low, note: "Single secondary source, which gives the operating range as '400 km +'." }
+  crew: { value: 4, source: s2, confidence: medium, note: "The DE&S joint Challenger 2/Challenger 3 page lists a crew of 4, but in its Challenger 2 specification section. Challenger 3 keeps the hull and has no reported autoloader." }
+operators:
+  - { country: GB, force: British Army, state: ordered, quantity: 148, source: s2 }
+cost: { value: 5405405, currency: GBP, price_year: 2021, basis: contract_per_unit, source: s2, confidence: medium, note: "Calculated as the £800m May 2021 DE&S/MoD contract with RBSL divided by 148 tanks. The contract covers design, development and conversion, so this is not a flyaway unit price. RBSL later described the contract as '£800+ million' (s3). Calibre Defence gives a whole-life cost of £1.9bn (s4)." }
+contracts:
+  - { customer: United Kingdom / British Army (via DE&S), year: 2021, quantity: 148, value: 800000000, currency: GBP, note: "May 2021 contract with RBSL to upgrade 148 Challenger 2 tanks to the Challenger 3 standard (s1, s2). Later referred to as '£800+ million' (s3).", source: s2 }
+peers: [leopard-2a8, m1a2-sepv3-abrams, leclerc-xlr, k2-black-panther]
+sources:
+  - { id: s1, url: "https://www.rheinmetall.com/en/products/tracked-armoured-vehicles/challenger", title: "Challenger 2 and 3 – Main Battle Tank", publisher: Rheinmetall AG, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://des.mod.uk/what-we-do/army-procurement-support/challenger-3/", title: "Challenger 2 and Challenger 3 - Defence Equipment & Support", publisher: Defence Equipment & Support (UK MoD), retrieved: 2026-11-21, kind: government }
+  - { id: s3, url: "https://www.rheinmetall.com/en/media/news-watch/news/2026/01/2026-01-20-challenger-3-completes-successful-manned-live-firing-trials", title: "Challenger 3 completes successful manned live firing trials", publisher: Rheinmetall AG, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s4, url: "https://www.calibredefence.co.uk/challenger-3-technical-profile/", title: "Challenger 3 - Calibre Defence", publisher: Calibre Defence, retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.army-technology.com/projects/challenger-3-main-battle-tank-mbt-uk/", title: "Challenger 3 Main Battle Tank, UK", publisher: Army Technology (GlobalData), retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://www.globalsecurity.org/military/world/europe/challenger3.htm", title: "Challenger 3 Main Battle Tank", publisher: GlobalSecurity.org, retrieved: 2026-11-21, kind: reference }

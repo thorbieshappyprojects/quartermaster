@@ -1,0 +1,28 @@
+id: type-99a
+category: main-battle-tank
+name: "Type 99A (ZTZ-99A)"
+family: "Type 99 (ZTZ-99)"
+aliases: ["ZTZ-99A", "ZTZ99A", "Type 99A2"]
+manufacturer: { name: "Norinco (China North Industries Group)" }
+origin: CN
+role: "Third-generation main battle tank of the PLA Ground Force, with a 125 mm autoloaded gun and a three-person crew."
+memorable_fact: { text: "The Type 99A carries the JD-3 laser self-defence system, which detects enemy targeting lasers and can fire a beam back to damage or disrupt hostile optics.", source: s2 }
+status: in_service
+in_service_since: { value: 2011, source: s2, confidence: low, note: "Year the Type 99A variant entered service, as reported (the source says 'around 2011'). The base Type 99 entered service in 2001. The Type 99A was first tested in 2007 and first shown publicly at the September 2015 Beijing parade (s1). Variant check: the Type 99A is still the most numerous Type 99 variant with published specifications. The newer Type 99B upgrade was first shown at the 3 September 2025 parade, and a Chinese expert quoted by Global Times in September 2026 said it had entered service with armoured units (s3). No full public specifications for the Type 99B were found, so this card describes the Type 99A." }
+units_built: { value: 700, source: s2, confidence: low, note: "Type 99A only, described as an estimate ('believed to have produced'). The same source estimates about 1,300 tanks for the whole Type 99 family (Type 99 plus Type 99A)." }
+combat_use: { text: "No confirmed combat use as of 2026. The tank has been used in exercises and high-altitude deployments, including the Karakoram range after the 2021 Line of Actual Control tensions.", source: s2 }
+specs:
+  combat_weight: { value: 58, source: s1, confidence: low, range: { min: 55, max: 58 }, note: "s1 gives 58,000 kg; s2 gives 55-58 t. No manufacturer or government figure has been published, so the s1 figure is shown." }
+  gun_calibre: { value: 125, source: s1, confidence: medium, note: "125 mm smoothbore gun with autoloader; s2 names it the ZPT-98." }
+  engine_power: { value: 1500, source: s1, confidence: medium, note: "Turbocharged diesel, named 150HB in s1 and HP150 in s2; both give 1,500 hp." }
+  top_speed: { value: 80, source: s1, confidence: low, range: { min: 75, max: 80 }, note: "s1 gives a maximum road speed of 80 km/h. s2 gives 'up to 80 km/h' in one passage and 75-80 km/h in another. 80 is shown." }
+  range: { value: 600, source: s1, confidence: medium, note: "Internal fuel only; 800 km with two external fuel drums (s1, s2)." }
+  crew: { value: 3, source: s1, confidence: medium, note: "Commander, gunner and driver; an autoloader replaces the loader." }
+operators:
+  - { country: CN, force: "People's Liberation Army Ground Force", state: in_service, quantity: 700, source: s2 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public unit price or contract value found. The type is not exported and no procurement contracts have been published." }
+peers: [t-90m, m1a2-sepv3-abrams, leopard-2a8, k2-black-panther]
+sources:
+  - { id: s1, url: "https://www.armyrecognition.com/military-products/army/main-battle-tanks/main-battle-tanks/type-99a-99-a2-ztz-99a-main-battle-tank-china-11408171", title: "Type 99A 99A2 ZTZ99A", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s2, url: "https://armyrecognition.com/news/army-news/2025/analysis-discover-how-the-type-99a-tank-has-become-a-key-asset-of-chinas-modern-ground-forces", title: "Analysis: Discover how the Type 99A tank has become a key asset of China's modern ground forces", publisher: "Army Recognition", retrieved: 2026-11-21, kind: press }
+  - { id: s3, url: "https://www.globalsecurity.org/wmd/library/news/china/2026/09/china-260917-globaltimes02.htm", title: "Chinese state broadcaster airs rare Type 99B tank training footage; expert sees combat readiness, more demanding drills ahead", publisher: "Global Times (republished by GlobalSecurity.org)", retrieved: 2026-11-21, kind: press }

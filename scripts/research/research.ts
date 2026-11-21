@@ -118,8 +118,10 @@ category_card:
   counters:   [ ... ]   # 2-4 items: typical threats/counters
   trends:     [ ... ]   # 2-4 items: current development trends (e.g. lessons from Ukraine)
 sources:
-  - { id: s1, url: <exact URL>, title: ..., publisher: ..., retrieved: ${today}, kind: ... }
+  - { id: s1, url: <exact URL>, title: ..., publisher: ..., retrieved: ${today}, kind: manufacturer|government|reference|press|other }
 
+category_card has exactly the keys summary, purpose, strengths, weaknesses, counters, trends (no id or name).
+kind must be one of manufacturer, government, reference, press, other (think tanks and journals are "reference").
 Every item cites a source you actually read. Every source must be used.`;
 }
 
@@ -149,6 +151,7 @@ function collect(content: Anthropic.Beta.BetaContentBlock[], urls: Set<string>, 
 }
 
 async function converse(messages: Anthropic.Beta.BetaMessageParam[], system: string, acc: RunResult): Promise<Anthropic.Beta.BetaMessage> {
+  let drops = 0;
   for (let turn = 0; turn < 8; turn++) {
     const stream = client.beta.messages.stream({
       model: MODEL,
@@ -162,7 +165,17 @@ async function converse(messages: Anthropic.Beta.BetaMessageParam[], system: str
       tools: TOOLS,
       messages,
     });
-    const msg = await stream.finalMessage();
+    let msg: Anthropic.Beta.BetaMessage;
+    try {
+      msg = await stream.finalMessage();
+    } catch (e) {
+      // A dropped connection is not an APIError; retry the same turn a couple of times.
+      // Tokens streamed before the drop may still be billed but are not in the ledger.
+      if (e instanceof Anthropic.APIError || ++drops > 2) throw e;
+      console.log(`  connection dropped (${(e as Error).message}), retrying turn`);
+      turn--;
+      continue;
+    }
     const c = costOf(msg.usage);
     acc.usd += c.usd;
     acc.searches += c.searches;

@@ -1,0 +1,85 @@
+{
+  "spentUsd": 7.457,
+  "entries": [
+    {
+      "date": "2026-11-21",
+      "item": "main-battle-tank/_category",
+      "usd": 0.781,
+      "input": 638005,
+      "output": 14624,
+      "searches": 10
+    },
+    {
+      "date": "2026-11-21",
+      "item": "main-battle-tank/leopard-2a8",
+      "usd": 1.6903,
+      "input": 2297754,
+      "output": 16296,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "main-battle-tank/leclerc-xlr",
+      "usd": 0.749,
+      "input": 516473,
+      "output": 12170,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "main-battle-tank/m1a2-sepv3-abrams",
+      "usd": 0.8666,
+      "input": 566393,
+      "output": 18155,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "main-battle-tank/t-90m",
+      "usd": 0.8498,
+      "input": 654672,
+      "output": 12483,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "main-battle-tank/k2-black-panther",
+      "usd": 0.6573,
+      "input": 466061,
+      "output": 10387,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "main-battle-tank/challenger-3",
+      "usd": 0.6226,
+      "input": 348320,
+      "output": 8660,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "main-battle-tank/merkava-mk4",
+      "usd": 0.6368,
+      "input": 339567,
+      "output": 11038,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "main-battle-tank/type-99a",
+      "usd": 0.6036,
+      "input": 376841,
+      "output": 8448,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-21",
+      "item": "main-battle-tank/type-10",
+      "usd": 0,
+      "input": 0,
+      "output": 0,
+      "searches": 0
+    }
+  ]
+}

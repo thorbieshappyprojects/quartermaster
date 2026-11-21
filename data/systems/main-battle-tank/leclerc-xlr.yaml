@@ -1,0 +1,40 @@
+id: leclerc-xlr
+category: main-battle-tank
+name: Leclerc XLR (Leclerc rénové)
+family: Leclerc
+aliases: ["Leclerc rénové", "Leclerc XLR rénové", "Leclerc XLR/rénové"]
+manufacturer: { name: KNDS France (formerly Nexter Systems) }
+production_sites:
+  - { place: Roanne, country: FR, source: s2 }
+origin: FR
+role: Main battle tank of the French Army; renovated Leclerc integrated into the SCORPION networked combat system for collaborative combat.
+memorable_fact: { text: "The Leclerc XLR is not newly built: existing French Army Leclerc tanks are renovated at KNDS France's Roanne site so they can stay in service until the future Franco-German MGCS arrives.", source: s2 }
+status: in_production
+in_service_since: { value: 2023, source: s5, confidence: medium, note: "Year of first service of the XLR variant: the 501e Régiment de chars de combat received its first renovated Leclerc in November 2023. The first XLR prototype was delivered to the DGA on 22 December 2022 (s3). The base Leclerc entered service in 1993 (s2)." }
+units_built: { value: 34, source: s2, confidence: high, note: "XLR variant only: renovated tanks delivered to the French Army as of 10 December 2024, 21 of them in 2024. This is the latest official cumulative figure found. 200 renovations are on order; trade press (s6) describes deliveries as ongoing in 2026. Not a count of new-build hulls." }
+combat_use: { text: "No confirmed combat use of the XLR variant as of 2026; French Leclerc tanks have been deployed to Kosovo, Lebanon, Estonia and Romania.", source: s3 }
+specs:
+  combat_weight: { value: 63, source: s1, confidence: medium, range: { min: 56, max: 63 }, note: "The French Army gives 56 t (empty) to 63 t (gross vehicle weight). Trade press (s6) says the XLR's extra ballistic and mine protection raises combat weight from 57.4 t to about 63 t. 63 t is displayed as the fully equipped figure." }
+  gun_calibre: { value: 120, source: s1, confidence: high }
+  engine_power: { value: 1500, source: s1, confidence: high, note: "Stated as 1500 ch (metric horsepower) for the Wärtsilä V8X hyperbar diesel." }
+  top_speed: { value: 65, source: s1, confidence: medium, range: { min: 65, max: 72 }, note: "The French Army states 65 km/h on road (50 km/h off-road) for the XLR. A secondary product summary (s10) gives 72 km/h on road. The government figure is displayed." }
+  range: { value: 615, source: s1, confidence: high, note: "French Army figure for range/distance franchissable." }
+  crew: { value: 3, source: s1, confidence: high, note: "Commander, gunner, driver; the gun uses an automatic loader (s2)." }
+operators:
+  - { country: FR, force: Army, state: in_service, quantity: 34, source: s2 }
+cost: { value: 1510000, currency: EUR, price_year: 2015, basis: contract_per_unit, source: s7, confidence: low, note: "Leclerc renovation contract notified to Nexter Systems by the DGA in March 2015, worth about EUR 330 million for 200 renovated Leclerc tanks and 18 renovated DCL recovery vehicles. 330 million / 218 vehicles = about EUR 1.51 million. This mixes tanks and recovery vehicles and is not a tank-only unit price. No values were found for the 2021, 2022 and 2024 orders." }
+contracts:
+  - { customer: France / French Army, year: 2015, quantity: 200, value: 330000000, currency: EUR, note: "DGA renovation contract with Nexter Systems for 200 renovated Leclerc tanks and 18 renovated DCL recovery vehicles; deliveries were originally planned from 2020.", source: s7 }
+  - { customer: France / French Army, year: 2021, quantity: 50, value: null, currency: null, note: "First batch of 50 tanks to be renovated to XLR standard, as reported by Janes.", source: s4 }
+  - { customer: France / French Army, year: 2022, quantity: 50, value: null, currency: null, note: "Second batch of 50 renovated Leclerc tanks, ordered from Nexter Systems on 29 December 2022.", source: s3 }
+  - { customer: France / French Army, year: 2024, quantity: 100, value: null, currency: null, note: "Ordered 24 December 2024 and announced 28 January 2025, bringing renovations ordered to 200. Under the 2024-2030 military programming law, 160 are to be renovated by end-2030 and 40 more by end-2035.", source: s2 }
+peers: [leopard-2a8, m1a2-sepv3-abrams, challenger-3]
+sources:
+  - { id: s1, url: "https://www.defense.gouv.fr/en/node/267", title: "Le char Leclerc XLR rénové", publisher: "Ministère des Armées – Armée de Terre", retrieved: 2026-11-21, kind: government }
+  - { id: s2, url: "https://www.defense.gouv.fr/sites/default/files/ministere-armees/Communiqu%C3%A9_La%20direction%20g%C3%A9n%C3%A9rale%20de%20l'armement%20commande%20100%20chars%20Leclerc%20r%C3%A9nov%C3%A9s%20XLR.pdf", title: "La DGA commande 100 chars Leclerc rénovés XLR (communiqué de presse, 28 janvier 2025)", publisher: "Ministère des Armées", retrieved: 2026-11-21, kind: government }
+  - { id: s3, url: "https://www.defense.gouv.fr/dga/actualites/dga-notifie-commande-cinquante-chars-leclerc-renoves", title: "La DGA notifie la commande de cinquante chars Leclerc rénovés", publisher: "Direction générale de l'armement", retrieved: 2026-11-21, kind: government }
+  - { id: s4, url: "https://www.janes.com/osint-insights/defence-news/land/france-orders-100-upgraded-leclerc-xlr-tanks", title: "France orders 100 upgraded Leclerc XLR tanks", publisher: "Janes", retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.opex360.com/2023/11/23/le-501e-regiment-de-chars-de-combat-a-recu-son-premier-leclerc-renove/", title: "Le 501e Régiment de chars de combat a reçu son premier Leclerc « rénové »", publisher: "Zone Militaire (opex360)", retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://milmag.pl/en/eurosatory-2026-knds-presents-the-upgraded-leclerc-xlr-renove/", title: "Eurosatory 2026: KNDS presents the upgraded Leclerc XLR/rénové", publisher: "Milmag", retrieved: 2026-11-21, kind: press }
+  - { id: s7, url: "https://operationnels.com/2015/03/16/loperation-renovation-du-char-leclerc-lancee/", title: "L'opération rénovation du char Leclerc lancée", publisher: "Opérationnels SLDS (relaying defense.gouv.fr)", retrieved: 2026-11-21, kind: press }
+  - { id: s10, url: "https://thedefensewatch.com/defense-systems/leclerc-xlr-main-battle-tank/", title: "Leclerc XLR Main Battle Tank", publisher: "The Defense Watch", retrieved: 2026-11-21, kind: other }

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-21",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "usd": 0,
+  "searches": 0,
+  "queries": [],
+  "urlsSeen": [],
+  "unseenSourceUrls": [],
+  "remainingErrors": [
+    "ERROR   data/systems/main-battle-tank/type-10.yaml: terminated"
+  ]
+}

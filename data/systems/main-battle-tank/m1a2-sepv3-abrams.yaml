@@ -1,0 +1,91 @@
+id: m1a2-sepv3-abrams
+category: main-battle-tank
+name: M1A2 SEPv3 Abrams (M1A2C)
+family: M1 Abrams
+aliases: ["M1A2C", "M1A2 SEP v3", "M1A2 System Enhancement Package version 3"]
+manufacturer: { name: General Dynamics Land Systems }
+production_sites:
+  - { place: Lima, country: US, source: s7 }
+  - { place: Anniston, country: US, source: s7 }
+origin: US
+role: Tracked main battle tank with a 120 mm smoothbore gun; the current production configuration of the Abrams series for the US Army and export customers.
+memorable_fact: { text: "The SEPv3 adds a new auxiliary power unit so the crew can run sensors and communications without starting the tank's 1,500 hp gas-turbine engine.", source: s4 }
+status: in_production
+in_service_since:
+  value: 2020
+  source: s6
+  confidence: high
+  note: "Year the first US Army unit was equipped with this variant (FY2020; 3rd Battalion, 8th Cavalry Regiment, 1st Cavalry Division, Fort Hood, July 2020 per s15). The first SEPv3 initial-production vehicle was delivered in October 2017 (s5). The base Abrams debuted in 1980 (s2). The Army plans to keep producing the SEPv3 at a reduced rate until production moves to the M1E3 (s6, s8)."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "The sources reviewed give no public cumulative total of SEPv3 tanks built or upgraded. The variant includes upgraded existing hulls (for example M1A1 to SEPv3 under 2018–2019 orders, s5) as well as export builds."
+specs:
+  combat_weight:
+    value: 73.6
+    source: s3
+    confidence: medium
+    note: "Army Recognition data sheet gives 73,600 kg. Army Recognition (s4) also calls the tank '70-ton' without saying which ton. No manufacturer or government figure was found."
+  gun_calibre:
+    value: 120
+    source: s2
+    confidence: high
+    note: "120 mm M256 smoothbore gun (s3, s5)."
+  engine_power:
+    value: 1500
+    source: s2
+    confidence: high
+    note: "Honeywell AGT1500 gas turbine, 1,500 hp (also s5)."
+  top_speed:
+    value: 68
+    source: s3
+    confidence: low
+    note: "Single trade-press data-sheet figure (68 km/h). No manufacturer or government figure found."
+  range:
+    value: 425
+    source: s3
+    confidence: low
+    note: "Single trade-press data-sheet figure (425 km). No manufacturer or government figure found."
+  crew:
+    value: 4
+    source: s5
+    confidence: medium
+    note: "Driver, commander, loader and gunner (s5). Also stated in s3."
+operators:
+  - { country: US, force: Army, state: in_service, quantity: null, source: s15 }
+  - { country: PL, force: Land Forces, state: in_service, quantity: 250, source: s10 }
+  - { country: AU, force: Army, state: in_service, quantity: 75, source: s11 }
+  - { country: TW, force: Army, state: in_service, quantity: 108, source: s13 }
+  - { country: RO, force: Land Forces, state: ordered, quantity: 54, source: s14 }
+  - { country: BH, force: Royal Bahraini Army, state: evaluating, quantity: 50, source: s5 }
+cost:
+  value: 4592000
+  currency: USD
+  price_year: 2022
+  basis: contract_per_unit
+  source: s9
+  confidence: medium
+  note: "US Army order to GDLS of up to USD 1.148 billion for 250 M1A2 SEPv3 tanks for Poland (August 2022), divided by 250. This covers the GDLS tank-production order only. Poland's overall purchase package was reported at USD 4.75 billion and also covered support. US Army domestic unit costs vary by year and hull source and were not used."
+contracts:
+  - { customer: "US Army", year: 2020, quantity: null, value: 4600000000, currency: USD, note: "Fixed-price-incentive contract to produce M1A2 SEPv3 tanks; first delivery order about USD 406 million; estimated completion June 2028. Quantity not stated.", source: s1 }
+  - { customer: "Poland (via US Army Foreign Military Sales order)", year: 2022, quantity: 250, value: 1148000000, currency: USD, note: "Order worth up to USD 1.148 billion to deliver 250 M1A2 SEPv3. Contract signed April 5, 2022 (s10). Deliveries began January 2025; the final shipment of 33 tanks was expected in late November or early December 2026 (s10).", source: s9 }
+  - { customer: "US Army", year: 2019, quantity: 174, value: 714000000, currency: USD, note: "Delivery order to upgrade 174 M1A1 tanks to M1A2 SEPv3 standard (January 2019).", source: s5 }
+  - { customer: "Taiwan Army", year: 2019, quantity: 108, value: 40520000000, currency: TWD, note: "Budget of NT$40.52 billion (about USD 1.28 billion) for 2019–2027 to buy 108 M1A2T tanks, an export variant that broadly resembles the SEPv3 (s13). Part of a wider USD 2.22 billion deal (s13). Final batch delivered April 2026.", source: s12 }
+peers: [leopard-2a8, k2-black-panther, challenger-3]
+sources:
+  - { id: s1, url: "https://www.gd.com/Articles/2020/12/23/gdls-awarded-m1a2-sepv3-abrams-contract", title: "General Dynamics awarded $4.6 billion U.S. Army contract for latest configuration of Abrams Main Battle Tanks", publisher: General Dynamics, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s2, url: "https://www.gdls.com/m1a2-sepv3/", title: "ABRAMS - General Dynamics Land Systems", publisher: General Dynamics Land Systems, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s3, url: "https://www.armyrecognition.com/military-products/army/main-battle-tanks/main-battle-tanks/m1a2-sep-v3-main-battle-tank-technical-data-sheet-specifications-pictures-video-11710154", title: "M1A2 Abrams Sep V3 M1A2C", publisher: Army Recognition, retrieved: 2026-11-21, kind: press }
+  - { id: s4, url: "https://www.armyrecognition.com/archives/archives-land-defense/2019/m1a2-sepv3-abrams-officially-redesignated-m1a2c", title: "M1A2 SEPv3 Abrams officially redesignated M1A2C", publisher: Army Recognition, retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.army-technology.com/projects/abrams-m1a2-sepv3-main-battle-tank/", title: "Abrams M1A2 SEPv3 Main Battle Tank: Specs", publisher: Army Technology, retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://www.congress.gov/crs_external_products/IF/PDF/IF12495/IF12495.13.pdf", title: "CRS In Focus IF12495 (updated April 23, 2026)", publisher: Congressional Research Service, retrieved: 2026-11-21, kind: government }
+  - { id: s7, url: "https://www.army.mil/article/194952/army_rolls_out_latest_version_of_iconic_abrams_main_battle_tank", title: "Army rolls out latest version of iconic Abrams Main Battle Tank", publisher: U.S. Army, retrieved: 2026-11-21, kind: government }
+  - { id: s8, url: "https://www.defensenews.com/land/2023/09/06/us-army-scraps-abrams-tank-upgrade-unveils-new-modernization-plan/", title: "US Army scraps Abrams tank upgrade, unveils new modernization plan", publisher: Defense News, retrieved: 2026-11-21, kind: press }
+  - { id: s9, url: "https://www.gd.com/Articles/2022/08/25/gdls-to-provide-abrams-tanks-to-poland-under-foreign-military-sales-order", title: "General Dynamics Land Systems to Provide Abrams Tanks to Poland Under $1.1 Billion Foreign Military Sales Order", publisher: General Dynamics, retrieved: 2026-11-21, kind: manufacturer }
+  - { id: s10, url: "https://milmag.pl/en/final-shipment-of-polish-m1a2-sepv3-abrams-tanks-ready-for-dispatch/", title: "Final shipment of Polish M1A2 SEPv3 Abrams tanks ready for dispatch", publisher: MILMAG, retrieved: 2026-11-21, kind: press }
+  - { id: s11, url: "https://www.janes.com/defence-intelligence-insights/defence-news/land/australian-army-takes-delivery-of-more-m1a2-mbts", title: "Australian Army takes delivery of more M1A2 MBTs", publisher: Janes, retrieved: 2026-11-21, kind: press }
+  - { id: s12, url: "https://focustaiwan.tw/politics/202604270012", title: "Final batch of 28 M1A2T Abrams tanks delivered to Taiwan", publisher: Focus Taiwan (CNA), retrieved: 2026-11-21, kind: press }
+  - { id: s13, url: "https://www.janes.com/defence-intelligence-insights/defence-news/land/taiwan-receives-final-batch-of-m1a2t-abrams-tanks", title: "Taiwan receives final batch of M1A2T Abrams tanks", publisher: Janes, retrieved: 2026-11-21, kind: press }
+  - { id: s14, url: "https://breakingdefense.com/2023/11/romania-cleared-to-buy-2-5b-worth-of-abrams-tanks/", title: "Romania cleared to buy $2.5B worth of Abrams tanks", publisher: Breaking Defense, retrieved: 2026-11-21, kind: press }
+  - { id: s15, url: "https://www.joint-forces.com/defence-equipment-news/34410-first-abrams-m1a2c-sep-v3-tanks-issued", title: "First Abrams M1A2C SEP v3 Tanks Issued", publisher: Joint Forces News, retrieved: 2026-11-21, kind: press }

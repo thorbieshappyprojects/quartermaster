@@ -1,0 +1,37 @@
+id: t-90m
+category: main-battle-tank
+name: T-90M Proryv
+family: T-90
+aliases: ["Proryv-3", "T-90M Model 2017", "Т-90М «Прорыв»"]
+manufacturer: { name: Uralvagonzavod (Rostec) }
+production_sites:
+  - { place: Nizhny Tagil, country: RU, source: s7 }
+origin: RU
+role: Main battle tank with a 125 mm smoothbore gun and autoloader; a deep modernisation of the T-90 built for the Russian Ground Forces.
+memorable_fact: { text: "The T-90M's 125 mm smoothbore gun also serves as the launcher for guided anti-tank missiles, which can reach targets up to 5 km away.", source: s2 }
+status: in_production
+in_service_since: { value: 2020, source: s1, confidence: medium, note: "This variant (T-90M). The Russian army press service said on 13 April 2020 that the first T-90Ms had gone to the 1st Guards Tank Army; RBC (s3) places state trials in February 2020 and the first batch in spring 2020. The base T-90 entered service in the early 1990s." }
+units_built: { value: 231, range: { min: 231, max: 267 }, source: s4, confidence: medium, note: "T-90M only, new-build tanks and T-90As upgraded to T-90M standard, April 2020 to mid-2024 (IISS minimum; up to 267 if every batch had 15 tanks). IISS also gives about 67 T-90Ms in Russian active service in February 2022. Production has continued since, but no public total covering 2025-2026 was found." }
+combat_use: { text: "Used by Russia in its full-scale invasion of Ukraine since 2022; by mid-2024 the open-source project Oryx had recorded at least 100 T-90Ms destroyed, damaged and abandoned, or captured.", source: s5 }
+specs:
+  combat_weight: { value: 48, range: { min: 46.5, max: 48 }, source: s2, confidence: medium, note: "48 t in Rossiyskaya Gazeta and RBC (s3, about 48 t). The Army Recognition spec table (s1) gives 46,500 kg, which appears to come from older T-90 data." }
+  gun_calibre: { value: 125, source: s2, confidence: medium, note: "125 mm 2A46M-5 smoothbore (s3)." }
+  engine_power: { value: 1130, range: { min: 1000, max: 1130 }, source: s2, confidence: medium, note: "V-92S2F multi-fuel diesel, 1,130 hp (s2, s3). The Army Recognition mobility table (s1) gives 1,000 hp (V-92S2), which conflicts with its own text and appears to be T-90S data." }
+  top_speed: { value: 70, range: { min: 60, max: 70 }, source: s2, confidence: medium, note: "Road speed of up to 70 km/h per s2 and s3; s1 gives 60 km/h." }
+  range: { value: 550, source: s3, confidence: medium, note: "Up to 550 km; s1 gives the same figure." }
+  crew: { value: 3, source: s2, confidence: medium, note: "Commander, gunner and driver; the autoloader replaces a loader." }
+operators:
+  - { country: RU, force: Ground Forces, state: in_service, quantity: null, source: s1 }
+cost: { value: 2500000, range: { min: 2500000, max: 4500000 }, currency: USD, price_year: 2023, basis: unit_price, source: s3, confidence: low, note: "Not tied to a specific contract. RBC (citing RIA Novosti) gives a 2023 T-90 price of USD 2.5-4.5 million depending on version; the lower bound is shown because GlobalSecurity (s6) also gives USD 2.5 million for the T-90M (no year stated). No official Russian MoD unit price has been published." }
+contracts:
+  - { customer: Russia / Ministry of Defence, year: 2017, quantity: null, value: null, currency: null, note: "First T-90M supply contract with Uralvagonzavod, signed at the Army-2017 forum; quantity and value not disclosed.", source: s1 }
+  - { customer: Russia / Ministry of Defence, year: 2019, quantity: null, value: null, currency: null, note: "Year given is the last of three MoD contracts signed 2017-2019, reported to total over 160 tanks (exact figure and values not public).", source: s6 }
+peers: [m1a2-sepv3-abrams, leopard-2a8, type-99a]
+sources:
+  - { id: s1, url: "https://www.armyrecognition.com/military-products/army/main-battle-tanks/main-battle-tanks/t-90m-model-2017-mbt-main-battle-tank-technical-data-sheet", title: "T-90M Model 2017 Proryv-3", publisher: Army Recognition, retrieved: 2026-11-21, kind: press }
+  - { id: s2, url: "https://rg.ru/2024/03/12/novuiu-partiiu-tankov-t-90m-proryv-otpravili-v-vojska.html", title: "Новую партию танков Т-90М \"Прорыв\" отправили в войска", publisher: Rossiyskaya Gazeta, retrieved: 2026-11-21, kind: press }
+  - { id: s3, url: "https://www.rbc.ru/base/27/11/2025/6925be259a7947a915f3d73f", title: "Танк Т-90М «Прорыв»: технические характеристики, стоимость и фото российской боевой машины", publisher: RBC, retrieved: 2026-11-21, kind: press }
+  - { id: s4, url: "https://www.iiss.org/online-analysis/military-balance/2024/06/russian-t-90m-production-less-than-meets-the-eye/", title: "Russian T-90M production: less than meets the eye", publisher: International Institute for Strategic Studies, retrieved: 2026-11-21, kind: reference }
+  - { id: s5, url: "https://kyivindependent.com/russian-t-90m-tank-losses-hit-100-and-they-only-had-67-to-begin-with/", title: "Russia's T-90M tank losses in Ukraine hit 100 – and it only had 67 to begin with", publisher: The Kyiv Independent, retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://www.globalsecurity.org/military/world/russia/t-90.htm", title: "T-72BU / T-90 (Obiekt 188) Tank", publisher: GlobalSecurity.org, retrieved: 2026-11-21, kind: reference }
+  - { id: s7, url: "https://www.armyrecognition.com/news/army-news/2026/russia-delivers-new-t-90m-tanks-despite-sanctions-as-defense-industry-supports-ukraine-war", title: "Russian Army Receives New T-90M Tanks Despite Sanctions as Defense Industry Supports Ukraine War", publisher: Army Recognition, retrieved: 2026-11-21, kind: press }

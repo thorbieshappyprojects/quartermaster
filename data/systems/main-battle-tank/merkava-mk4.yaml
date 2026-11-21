@@ -1,0 +1,35 @@
+id: merkava-mk4
+category: main-battle-tank
+name: Merkava Mk 4 Barak
+family: Merkava
+aliases: [Merkava Barak, Merkava 5, Merkava Mk 4, Merkava Mark IV]
+manufacturer: { name: "Israel Ministry of Defense - Merkava and Armored Vehicles Directorate (MANTAK)" }
+production_sites:
+  - { place: Tel HaShomer, country: IL, source: s2 }
+origin: IL
+role: Main battle tank of the Israel Defense Forces, with a front-mounted engine and a rear hatch; the Barak is the latest version of the Merkava 4.
+memorable_fact: { text: "The Barak version of the Merkava 4, revealed in 2023, gives the tank commander a high-tech helmet display linked to advanced sensors.", source: s5 }
+status: in_production
+in_service_since: { value: 2023, source: s2, confidence: high, note: "Year the Barak variant entered service (first deliveries to the 52nd Battalion, 401st Armoured Brigade, September 2023, per MoD statement reported by Janes). The base Merkava Mk 4 had its first battalion fully operational in 2004 (s1)." }
+units_built: { value: null, source: null, confidence: null, note: "No reliable public production total found for the Merkava Mk 4 family or the Barak variant." }
+combat_use: { text: "The Israeli Ministry of Defense highlighted the use of the Merkava Mk 4 Barak and other armoured vehicles in the fighting after the 7 October 2023 Hamas attack, i.e. in the Gaza war.", source: s3 }
+specs:
+  combat_weight: { value: 65, source: s1, confidence: medium, note: "Figure for the Merkava 4 (65,000 kg); no separate public weight for the Barak variant." }
+  gun_calibre: { value: 120, source: s1, confidence: medium, note: "120 mm smoothbore gun developed by Israel Military Industries." }
+  engine_power: { value: 1500, source: s1, confidence: medium, note: "GD883 (licence-built MTU 883) V-12 diesel, 1,500 hp; also stated by The Defense Post (s6)." }
+  top_speed: { value: 60, source: s1, confidence: medium, note: "Army Recognition figure for the Merkava 4. Some secondary references list a higher road speed; not used." }
+  range: { value: 500, source: s1, confidence: medium, note: "Merkava 4 figure; no separate public figure for the Barak." }
+  crew: { value: 4, source: s1, confidence: medium, note: "Commander, loader, gunner and driver." }
+operators:
+  - { country: IL, force: Israel Defense Forces Ground Forces (Armored Corps), state: in_service, quantity: null, source: s2 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public per-unit price found from a government, manufacturer or reputable trade-press source." }
+contracts:
+  - { customer: Israel / Ministry of Defense, year: 2025, quantity: null, value: 1500000000, currency: USD, note: "MoD-approved five-year plan of about $1.5 billion to increase production of Merkava Mk 4 Barak tanks, Namer APCs and Eitan wheeled APCs; covers several vehicle types, not tanks only.", source: s3 }
+  - { customer: Israel (US Foreign Military Sales), year: 2026, quantity: null, value: 73500000, currency: USD, note: "Rolls-Royce Solutions America contract for Merkava power packs (GD883 engine) to support the fleet; not a tank purchase.", source: s6 }
+peers: [leopard-2a8, m1a2-sepv3-abrams, challenger-3, k2-black-panther]
+sources:
+  - { id: s1, url: "https://www.armyrecognition.com/military-products/army/main-battle-tanks/main-battle-tanks/merkava-iv-4-israel-uk", title: "Merkava 4", publisher: Army Recognition, retrieved: 2026-11-21, kind: press }
+  - { id: s2, url: "https://www.janes.com/osint-insights/defence-news/defence/israel-unveils-next-generation-barak-tank", title: "Israel unveils next-generation Barak tank", publisher: Janes, retrieved: 2026-11-21, kind: press }
+  - { id: s3, url: "https://www.timesofisrael.com/liveblog_entry/defense-ministry-approves-1-5-billion-procurement-of-new-israeli-made-armored-vehicles-tanks/", title: "Defense Ministry approves $1.5 billion procurement of new Israeli-made armored vehicles, tanks", publisher: The Times of Israel, retrieved: 2026-11-21, kind: press }
+  - { id: s5, url: "https://www.timesofisrael.com/advanced-sensors-high-tech-helmet-israels-5th-generation-battle-tank-revealed/", title: "Advanced sensors, high-tech helmet: Israel's 5th generation battle tank revealed", publisher: The Times of Israel, retrieved: 2026-11-21, kind: press }
+  - { id: s6, url: "https://thedefensepost.com/2026/02/24/rolls-royce-merkava-tank/", title: "Rolls-Royce America Secures $73.5M Merkava Tank Power-Pack Deal", publisher: The Defense Post, retrieved: 2026-11-21, kind: press }
