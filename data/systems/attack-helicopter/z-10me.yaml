@@ -1,0 +1,30 @@
+id: z-10me
+category: attack-helicopter
+name: Z-10ME
+variant_note: Upgraded export version of the Z-10, as inducted by Pakistan in 2025
+family: Z-10
+manufacturer: { name: Changhe Aircraft Industries Corporation (AVIC) }
+origin: CN
+role: Medium twin-engine, two-seat tandem attack helicopter for anti-armour strikes, with a secondary air-to-air role.
+memorable_fact: { text: "Pakistan evaluated Z-10s and cancelled a potential contract in 2022, before inducting the upgraded Z-10ME in 2025.", source: s3 }
+status: in_service
+in_service_since: { value: 2025, source: s1, confidence: medium, note: "Z-10ME: commissioned by the Pakistan Army Aviation Corps at Multan, 2 August 2025. The base Z-10 first flew in April 2003 and reached the PLA around the end of the 2000s." }
+units_built: { value: null, source: null, confidence: null, note: "No public figure." }
+specs:
+  max_speed: { value: null, source: null, confidence: null, note: "No published figure found." }
+  range: { value: null, source: null, confidence: null, note: "No internal-fuel range found. Army Recognition (s4) reports an unattributed 'combat range' of 800-1,120 km and endurance of up to 3.5 hours." }
+  service_ceiling: { value: 6000, source: s4, confidence: low, note: "Army Recognition: maximum operating ceiling 6,000 m, unattributed." }
+  max_takeoff_weight: { value: 7.2, source: s2, confidence: low, note: "Quwa: 'reportedly 7.2 tons' (not stated as MTOW). The Chinese exporter calls it a 6-tonne class helicopter (s1); Army Recognition (s4) gives about 7,000 kg." }
+  engine_power: { value: null, source: null, confidence: null, note: "Twin-engine. Army Recognition (s4) attributes 1,500 kW to an upgraded WZ-9G engine without saying whether per engine; not used." }
+  gun_calibre: { value: 30, range: { min: 23, max: 30 }, source: s4, confidence: low, note: "Army Recognition: main gun upgraded from 23 mm to 30 mm on the ME. Other trade-press coverage of the 2024 Singapore Airshow gives 23 mm." }
+operators:
+  - { country: PK, force: Army Aviation Corps, state: in_service, quantity: null, source: s1, note: "Initial batch reportedly about 30 aircraft (unverified, s2)." }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public contract value. An unattributed estimate of USD 15 million per aircraft (s4) is not used." }
+contracts:
+  - { customer: Pakistan / Ministry of Defence Production, year: null, quantity: 30, value: null, currency: null, note: "Quwa cites an unverified corporate timeline: contract with CATIC signed on 11 July (year not given) for 30 Z-10ME.", source: s2 }
+peers: [t129-atak, ah-64e-apache, ka-52m, mi-28nm]
+sources:
+  - { id: s1, url: "https://www.chinadaily.com.cn/a/202508/05/WS68915727a31073015a870bb0.html", title: "Pakistan's army commissions Chinese-made Z-10ME attack helicopter", publisher: China Daily, retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://quwa.org/pakistan-army-news/z-10me-pakistans-answer-to-indias-apache-was-just-arrived-heres-what-it-can-do/", title: "Z-10ME: Pakistan's answer to India's Apache has just arrived", publisher: Quwa, retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://shephardmedia.com/news/air-warfare/singapore-airshow-2024-china-debuts-apache-competitor-attack-helicopter-in-singapore", title: "Singapore Airshow 2024: China debuts Apache competitor attack helicopter in Singapore", publisher: Shephard Media, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.armyrecognition.com/archives/archives-aerospace-defense/defense-news-aerospace-2025/pakistan-replaces-us-made-attack-helicopters-with-chinese-z-10me-p-to-strike-faster-and-farther", title: "Pakistan replaces US-made attack helicopters with Chinese Z-10ME-P to strike faster and farther", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }

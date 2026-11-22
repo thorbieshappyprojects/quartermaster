@@ -1,0 +1,67 @@
+# Category card researched 2026-11-22 in a Claude Code session (web search).
+id: attack-helicopter
+name: Attack helicopters
+domain: Air combat
+wave: 3
+indicators:
+  - { id: max_speed, label: Max. speed, unit: km/h, trump: higher_wins }
+  - { id: range, label: Range (internal fuel), unit: km, trump: higher_wins }
+  - { id: service_ceiling, label: Service ceiling, unit: m, trump: higher_wins }
+  - { id: max_takeoff_weight, label: Max. take-off weight, unit: t, trump: higher_wins, decimals: 1 }
+  - { id: engine_power, label: Total engine power, unit: hp, trump: higher_wins }
+  - { id: power_to_weight, label: Power-to-weight, unit: hp/t, trump: higher_wins, decimals: 1,
+      derived: { op: divide, numerator: engine_power, denominator: max_takeoff_weight } }
+  - { id: gun_calibre, label: Gun calibre, unit: mm, trump: higher_wins }
+category_card:
+  summary: "Attack helicopters are armed rotorcraft built to find and strike targets on the ground, and increasingly in the air, in direct support of ground forces. Most current types seat a crew of two in tandem and carry a turreted gun, guided missiles and rockets on stub wings."
+  purpose:
+    - text: "Helicopters combine speed, flexibility and independence from runways, which suits raids, air assault and the support of ground forces. Soviet-style doctrine pairs attack helicopters with air-assault troops in the deep battle."
+      source: s1
+    - text: "Along the front in Ukraine, attack helicopters mainly provide fire support to ground troops. Their role has shifted from leading assaults to combat support."
+      source: s3
+    - text: "A newer task is mobile air defence against drones. A US Army official called the AH-64E a mobile air-defence platform that fills a gap ground systems cannot cover alone."
+      source: s6
+  strengths:
+    - text: "Attack helicopters carry a heavier and reloadable weapon load than most drones, including an autocannon and missiles, which allows longer missions. A drone's payload shrinks as its range and endurance grow."
+      source: s5
+    - text: "They can operate from unimproved sites, and the crew on board can make decisions on the spot instead of depending on a data link that can be jammed."
+      source: s5
+    - text: "In a 2025 US Army live-fire test, AH-64E crews scored 13 kills in 14 engagements against drones, using radar-guided missiles, laser-guided rockets and the 30 mm gun."
+      source: s6
+  weaknesses:
+    - text: "Analysts quoted by ASPI describe attack helicopters as slow and easy to detect, and point to heavy Russian and Ukrainian losses, including Ka-52s."
+      source: s4
+    - text: "An IISS estimate cited by Military Times puts Russian losses at about 40% of the pre-war Ka-52 fleet."
+      source: s3
+    - text: "Helicopters depend on a permissive air environment and on supporting forces. In the Hostomel assault of 2022 the Russian helicopter force lost about 17% of its airframes, mostly attack helicopters and mostly to shoulder-fired missiles."
+      source: s1
+    - text: "Cost is a concern: one analysis notes that an armed drone can cost as little as a twentieth of a new AH-64 Apache."
+      source: s7
+  counters:
+    - text: "Shoulder-fired surface-to-air missiles (MANPADS) delivered to Ukraine made low-altitude airspace a no-go zone for Russian helicopters early in the war."
+      source: s7
+    - text: "Layered ground-based air defence, from MANPADS to integrated systems such as Buk, S-300 and Pantsir, threatens helicopters. Suppressing it needs dedicated SEAD/DEAD, electronic warfare and intelligence support."
+      source: s1
+    - text: "Growing ground-based air defences make crewed flight over the battlefield nearly impossible, so helicopters stay behind their own lines."
+      source: s3
+    - text: "Cheap drones are a new threat: in October 2026 a Ukrainian brigade claimed an air-defence FPV drone downed a Russian Mi-28NM in mid-air, despite added protection on newer aircraft."
+      source: s9
+  trends:
+    - text: "RUSI researchers describe Russian crews angling upwards to loft unguided rockets out to several miles while staying over their own lines, rather than closing with the target."
+      source: s2
+    - text: "Longer-range guided missiles such as Russia's LMUR let helicopters strike from farther away, and drones teamed with helicopters are seen as a way to add reconnaissance and reach."
+      source: s3
+    - text: "Manned-unmanned teaming and air-launched effects (drones launched from the helicopter to scout, decoy or jam) are meant to keep the helicopter outside enemy air defences."
+      source: s5
+    - text: "The US Army is retiring its AH-64D Apaches to fly only the AH-64E and is cutting air cavalry squadrons, relying more on drones sent forward for armed reconnaissance."
+      source: s8
+sources:
+  - { id: s1, url: "https://www.rusi.org/explore-our-research/publications/commentary/helicopters-remain-vital-part-joint-force", title: "Helicopters Remain a Vital Part of the Joint-Force", publisher: Royal United Services Institute (RUSI), retrieved: 2026-11-22, kind: reference }
+  - { id: s2, url: "https://www.rusi.org/news-and-comment/in-the-news/ukraine-and-kursk-sounded-death-knell-attack-helicopter-one-nation-disagrees", title: "Ukraine and Kursk sounded the death knell of the attack helicopter. One nation disagrees", publisher: Royal United Services Institute (RUSI), retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://www.militarytimes.com/news/your-military/2024/07/19/drone-warfare-in-ukraine-prompts-fresh-thinking-in-helicopter-tactics/", title: "Drone warfare in Ukraine prompts fresh thinking in helicopter tactics", publisher: Military Times, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.aspistrategist.org.au/whats-the-future-for-crewed-aircraft-in-combat/", title: "What's the future for crewed aircraft in combat?", publisher: Australian Strategic Policy Institute (The Strategist), retrieved: 2026-11-22, kind: reference }
+  - { id: s5, url: "https://smallwarsjournal.com/?p=148244", title: "Attack Helicopters Remain Vital to the American Way of War", publisher: Small Wars Journal, retrieved: 2026-11-22, kind: reference }
+  - { id: s6, url: "https://theaviationist.com/2025/11/21/operation-flyswatter-apache-c-uas/", title: "U.S. Army AH-64E V6 Apaches Validated in Massive Counter-Drone Drill", publisher: The Aviationist, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://aviationweek.com/defense-space/budget-policy-operations/opinion-end-air-assault", title: "Opinion: The End Of Air Assault?", publisher: Aviation Week, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.defensenews.com/land/2025/05/20/army-aviation-charts-new-course-as-it-grapples-with-surprise-cuts/", title: "Army aviation charts new course as it grapples with surprise cuts", publisher: Defense News, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://united24media.com/war-in-ukraine/russia-gave-its-mi-28nm-new-anti-drone-defenses-a-ukrainian-fpv-still-took-it-down-23420", title: "Russia gave its Mi-28NM new anti-drone defenses; a Ukrainian FPV still took it down", publisher: United24 Media, retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,32 @@
+id: ka-52m
+category: attack-helicopter
+name: Ka-52M
+variant_note: Modernised Ka-52 with new sensor turret, LMUR missile and self-protection; specs are published Ka-52/Ka-52E figures
+family: Ka-52 Alligator
+aliases: [Ka-52M Alligator, Hokum-B]
+manufacturer: { name: Russian Helicopters (Kamov / Progress Arsenyev) }
+production_sites:
+  - { place: Arsenyev, country: RU, source: s2 }
+origin: RU
+role: Two-seat reconnaissance and attack helicopter with coaxial rotors, used against armour, troops and air targets.
+memorable_fact: { text: "The Ka-52 is lifted by two coaxial main rotors that turn in opposite directions, one above the other.", source: s1 }
+status: in_production
+in_service_since: { value: 2022, source: s2, confidence: medium, note: "Ka-52M: the first 10 upgraded helicopters were delivered to Russian army aviation by January 2023, after first combat use in September 2022. The base Ka-52 entered service in 2010-2011 (s1)." }
+units_built: { value: null, source: null, confidence: null, note: "No official Ka-52M total. At least 10 delivered by January 2023; 114 planned, including upgrades of older Ka-52s (s2)." }
+combat_use: { text: "Used in the war against Ukraine since September 2022; Ukraine has claimed several shot down.", source: s2 }
+specs:
+  max_speed: { value: 300, source: s1, confidence: low, note: "Published Ka-52 figure (cruise 260 km/h). No Ka-52M-specific figure was found; the Rosoboronexport Ka-52E catalogue also gives 300 km/h." }
+  range: { value: 460, source: s1, confidence: low, note: "Ka-52 practical range on internal fuel; ferry range 1,110 km. The Rosoboronexport Ka-52E catalogue also gives 460 km." }
+  service_ceiling: { value: 5500, source: s1, confidence: low, note: "Ka-52 maximum altitude; the Ka-52E catalogue also gives 5,500 m." }
+  max_takeoff_weight: { value: 10.8, range: { min: 10.8, max: 12.2 }, source: s1, confidence: low, note: "Ka-52: 10,800 kg. Rosoboronexport catalogue listings give 12,200 kg for the export Ka-52E (seen in search results only; the site could not be opened). No Ka-52M figure was found." }
+  engine_power: { value: 4800, source: s1, confidence: low, note: "Two Klimov VK-2500 turboshafts, 2,400 hp maximum take-off power each (Ka-52). Other sources give lower ratings for the Ka-52 engine variant." }
+  gun_calibre: { value: 30, source: s1, confidence: medium, note: "2A42 30 mm automatic gun on an NPPU-80 side mount." }
+operators:
+  - { country: RU, force: Aerospace Forces (Army Aviation), state: in_service, quantity: null, source: s2 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public unit price or contract value was found." }
+contracts:
+  - { customer: Russia / Ministry of Defence, year: 2021, quantity: 30, value: null, currency: null, note: "First Ka-52M batch ordered in August 2021 (Army-2021 forum); a further contract followed in August 2022.", source: s2 }
+peers: [mi-28nm, ah-64e-apache, z-10me, tiger-had]
+sources:
+  - { id: s1, url: "https://www.airforce-technology.com/?p=4212", title: "Ka-52 Alligator (Hokum B) attack helicopter", publisher: Airforce Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://armyrecognition.com/archives/archives-aerospace-defense/aerospace-defense-2023/russian-army-receives-10-upgraded-ka-52m-attack-helicopters", title: "Russian army receives 10 upgraded Ka-52M attack helicopters", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }

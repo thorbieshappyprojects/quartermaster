@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "RUSI attack helicopters future relevance Ukraine war lessons Ka-52 pop-up rocket fire MANPADS",
+    "Army Transformation Initiative 2025 divest AH-64D Apache attack helicopter drones replace breakingdefense",
+    "AH-64E Apache shoot down drones combat 2024 Middle East Army Apaches Iranian drones",
+    "Mi-28NM Ukraine combat use Lancet shot down Mi-28NM 2022 2023 Russian Helicopters Mi-28NM deliveries 2024"
+  ],
+  "urlsSeen": [
+    "https://www.rusi.org/explore-our-research/publications/commentary/helicopters-remain-vital-part-joint-force",
+    "https://www.rusi.org/news-and-comment/in-the-news/ukraine-and-kursk-sounded-death-knell-attack-helicopter-one-nation-disagrees",
+    "https://www.militarytimes.com/news/your-military/2024/07/19/drone-warfare-in-ukraine-prompts-fresh-thinking-in-helicopter-tactics/",
+    "https://www.aspistrategist.org.au/whats-the-future-for-crewed-aircraft-in-combat/",
+    "https://smallwarsjournal.com/?p=148244",
+    "https://theaviationist.com/2025/11/21/operation-flyswatter-apache-c-uas/",
+    "https://aviationweek.com/defense-space/budget-policy-operations/opinion-end-air-assault",
+    "https://www.defensenews.com/land/2025/05/20/army-aviation-charts-new-course-as-it-grapples-with-surprise-cuts/",
+    "https://breakingdefense.com/2026/04/army-making-significant-headway-in-ati-aviation-overhaul-divesting-apache-ah-64d-fleet/",
+    "https://united24media.com/war-in-ukraine/russia-gave-its-mi-28nm-new-anti-drone-defenses-a-ukrainian-fpv-still-took-it-down-23420",
+    "https://www.flightglobal.com/has-the-ukraine-war-sounded-the-death-knell-for-military-rotorcraft/165534.article",
+    "https://www.pravda.com.ua/eng/articles/2026/08/02/8046898/",
+    "https://static.rusi.org/air-manoeuvre-forces-in-european-large-scale-combat-operations-final.pdf"
+  ]
+}

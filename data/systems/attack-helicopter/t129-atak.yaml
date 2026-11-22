@@ -1,0 +1,35 @@
+id: t129-atak
+category: attack-helicopter
+name: T129 ATAK
+variant_note: T129 with LHTEC CTS800-4A engines, per Turkish Aerospace data
+family: A129 / T129
+aliases: [T129B ATAK, T-129]
+manufacturer: { name: Turkish Aerospace (TUSAŞ) }
+origin: TR
+role: Light twin-engine, two-seat attack and reconnaissance helicopter derived from the A129 Mangusta.
+memorable_fact: { text: "The Philippine Air Force says its T129s are known for high performance in hot, high and maritime conditions.", source: s2 }
+status: in_production
+in_service_since: { value: 2014, source: s3, confidence: medium, note: "Year of first delivery to the Turkish Armed Forces." }
+units_built: { value: 70, source: s3, confidence: low, note: "Anadolu Agency (2022): 'more than 70 units have been produced so far', a lower bound." }
+combat_use: { text: "Used by Turkey in Operation Olive Branch in Syria's Afrin region; a T129 went down there on 10 February 2018, killing both crew.", source: s4 }
+specs:
+  max_speed: { value: 281, source: s1, confidence: medium, note: "Turkish Aerospace lists 281 km/h (152 kt) as maximum cruise speed; no separate maximum speed is given." }
+  range: { value: 537, source: s1, confidence: high, note: "Turkish Aerospace: 537 km (290 nm); endurance 3 hours." }
+  service_ceiling: { value: 4572, source: s1, confidence: high, note: "15,000 ft; hover ceiling out of ground effect 4,221 m." }
+  max_takeoff_weight: { value: 5.065, source: s1, confidence: high, note: "Turkish Aerospace: 5,065 kg." }
+  engine_power: { value: 2746, source: s1, confidence: high, note: "Two LHTEC CTS800-4A turboshafts, take-off power 2 x 1,024 kW (2 x 1,373 shp)." }
+  gun_calibre: { value: 20, source: s1, confidence: high, note: "20 mm turreted gun, 500 rounds." }
+operators:
+  - { country: TR, force: Land Forces, state: in_service, quantity: null, source: s1, note: "Turkish Aerospace lists 76 planned for the Land Forces (59 firm, 17 optional); delivered number not stated." }
+  - { country: TR, force: Ministry of Interior (Gendarmerie), state: in_service, quantity: null, source: s1, note: "27 planned (24 firm, 3 optional)." }
+  - { country: PH, force: Air Force, state: in_service, quantity: 6, source: s2 }
+  - { country: NG, force: Air Force, state: in_service, quantity: 6, source: s1 }
+cost: { value: 44833333, currency: USD, price_year: 2020, basis: contract_per_unit, source: s2, confidence: medium, note: "Philippine government-to-government contract of about USD 269 million for six T129 (agreement of 2020 per s3), divided by six." }
+contracts:
+  - { customer: Philippines / Philippine Air Force, year: 2020, quantity: 6, value: 269000000, currency: USD, note: "Deliveries 2022-2024, the last two about a year late.", source: s2 }
+peers: [ah-1z-viper, tiger-had, z-10me, ah-64e-apache]
+sources:
+  - { id: s1, url: "https://tusas.com/en/product/t129-atak", title: "T129 ATAK", publisher: Turkish Aerospace (TUSAŞ), retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.defensenews.com/global/asia-pacific/2024/05/24/philippines-receives-two-delayed-t129-combat-helicopters/", title: "Philippines receives two delayed T129 combat helicopters", publisher: Defense News, retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://aa.com.tr/en/asia-pacific/turkish-attack-helicopter-enters-philippine-air-forces-inventory/2556746", title: "Turkish attack helicopter enters Philippine Air Force's inventory", publisher: Anadolu Agency, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://aa.com.tr/en/middle-east/2-turkish-pilots-martyred-in-syria-helicopter-crash/1059732", title: "2 Turkish pilots martyred in Syria helicopter crash", publisher: Anadolu Agency, retrieved: 2026-11-22, kind: press }

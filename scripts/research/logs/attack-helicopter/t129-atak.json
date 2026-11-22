@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "TUSA\u015e T129 ATAK technical specifications maximum speed range service ceiling maximum take-off weight LHTEC CTS800",
+    "T129 ATAK deliveries Turkish Land Forces 2014 first entered service combat operations Afrin; Philippines six T129 contract $269 million",
+    "T129 ATAK helicopter Operation Olive Branch Afrin 2018 shot down"
+  ],
+  "urlsSeen": [
+    "https://tusas.com/en/product/t129-atak",
+    "https://tusas.com/content/files/uploads/1890/TechnicSpec_EN_T129ATAK.pdf",
+    "https://www.defensenews.com/global/asia-pacific/2024/05/24/philippines-receives-two-delayed-t129-combat-helicopters/",
+    "https://aa.com.tr/en/asia-pacific/turkish-attack-helicopter-enters-philippine-air-forces-inventory/2556746",
+    "https://aa.com.tr/en/middle-east/2-turkish-pilots-martyred-in-syria-helicopter-crash/1059732",
+    "https://www.thedefensepost.com/?p=4664"
+  ]
+}

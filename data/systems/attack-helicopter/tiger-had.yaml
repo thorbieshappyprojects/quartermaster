@@ -1,0 +1,34 @@
+id: tiger-had
+category: attack-helicopter
+name: Tiger HAD
+variant_note: Support and destruction variant (Hélicoptère d'Appui et de Destruction) with uprated MTR390-E engines
+family: Tiger
+aliases: [Tigre HAD, EC665 Tiger HAD, Tiger HAD-E]
+manufacturer: { name: Airbus Helicopters }
+origin: FR
+role: Twin-engine, two-seat attack helicopter for fire support, anti-armour and escort missions in the French and Spanish armies.
+memorable_fact: { text: "The Tiger seats the pilot in front and the gunner above and behind, and is built with a flat, narrow silhouette to keep its radar and infrared signature low.", source: s1 }
+status: in_service
+in_service_since: { value: 2013, source: s3, confidence: medium, note: "First production Tiger in HAD configuration delivered to the French procurement agency DGA on 19 April 2013. The Tiger family's first serial delivery was in 2005 (s1)." }
+units_built: { value: null, source: null, confidence: null, note: "No public HAD production total was found. Airbus gives 206 Tigers ordered across all variants (s1)." }
+combat_use: { text: "The Tiger family has been in combat since July 2009, in Afghanistan, Libya and Mali.", source: s1 }
+specs:
+  max_speed: { value: 280, source: s2, confidence: medium, note: "French Ministry of the Armed Forces: 280 km/h at full load (Tiger, not variant-specific). Airbus (s1) gives a fast cruise speed of 271 km/h at MTOW, sea level. Press references give up to 315 km/h." }
+  range: { value: 740, source: s1, confidence: high, note: "Airbus: maximum range 'armed' with standard fuel tanks, 400 nm (740 km). 1,130 km unarmed with external tanks." }
+  service_ceiling: { value: 4000, source: s1, confidence: medium, note: "Airbus flight envelope: service ceiling -500 m to 4,000 m (13,123 ft)." }
+  max_takeoff_weight: { value: 6.6, source: s1, confidence: high, note: "Airbus: 6,600 kg (ISA, sea level); the French ministry (s2) also gives 6.6 t." }
+  engine_power: { value: 2928, source: s1, confidence: medium, note: "Airbus lists '2 x MTR 390 - Step 1-5: 1,092 kW / 1,464 shp', read here as per engine (2 x 1,464 shp). Super contingency (one engine inoperative) 1,774 shp." }
+  gun_calibre: { value: 30, source: s1, confidence: high, note: "Nexter 30M781 30 mm turret gun, 450 rounds, 750 rounds per minute." }
+operators:
+  - { country: FR, force: Army Light Aviation (ALAT), state: in_service, quantity: 67, source: s2, note: "Fleet being converted to a single HAD standard of 67 Tigers by 2025." }
+  - { country: ES, force: Army Airmobile Forces (FAMET), state: in_service, quantity: 18, source: s4, note: "18 HAD in service; Spain's six HAP were retired." }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public unit price for the Tiger HAD was found. The 2022 Tiger MkIII mid-life upgrade is reported at about EUR 65.8 million per aircraft (s4), which is an upgrade cost, not a unit price." }
+contracts:
+  - { customer: France (via OCCAR), year: 2022, quantity: 42, value: 2800000000, currency: EUR, note: "Tiger MkIII mid-life upgrade of 42 aircraft, option for 25 more; first delivery late 2029.", source: s4 }
+  - { customer: Spain (via OCCAR), year: 2022, quantity: 18, value: 1180000000, currency: EUR, note: "Tiger MkIII upgrade of 18 aircraft, deliveries 2030-2034.", source: s4 }
+peers: [ah-64e-apache, t129-atak, ah-1z-viper, ka-52m]
+sources:
+  - { id: s1, url: "https://mediaassets.airbus.com/pm_38_379_379510-6dwkt12akx.pdf?dl=true", title: "Tiger HAD brochure (Tiger HAD-BR-0918E)", publisher: Airbus Helicopters, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://prod-site-internet-minarm-admin.cloud.defense.gouv.fr/sites/default/files/ministere-armees/Fiche%20LPM%20-%20H%C3%A9licopt%C3%A8re%20Tigre.pdf", title: "Fiche LPM - Hélicoptère Tigre", publisher: Ministère des Armées (France), retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://flightglobal.com/french-army-receives-first-enhanced-tiger-had/109460.article", title: "French army receives first enhanced Tiger HAD", publisher: FlightGlobal, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://breakingdefense.com/2022/03/france-spain-ink-deals-to-upgrade-tiger-attack-helicopters/", title: "France, Spain ink deals to upgrade Tiger attack helicopters", publisher: Breaking Defense, retrieved: 2026-11-22, kind: press }

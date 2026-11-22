@@ -1,0 +1,36 @@
+id: mi-28nm
+category: attack-helicopter
+name: Mi-28NM
+variant_note: Modernised Mi-28N with mast-mounted radar, VK-2500P engines and LMUR missile; most performance values are Mi-28NE figures
+family: Mi-28
+aliases: [Mi-28NM Night Hunter, Havoc]
+manufacturer: { name: Russian Helicopters (Mil / Rostvertol) }
+production_sites:
+  - { place: Rostov-on-Don, country: RU, source: s4 }
+origin: RU
+role: Two-seat tandem attack helicopter for anti-armour, fire support and strikes on air targets, day and night.
+memorable_fact: { text: "Unlike the Mi-28N, the NM carries an N025M radar on top of the rotor mast and can fire the long-range LMUR missile.", source: s5 }
+status: in_production
+in_service_since: { value: 2019, source: s4, confidence: medium, note: "Rostec: the first serial Mi-28NM were delivered to the Russian Ministry of Defence in 2019. The base Mi-28N was first accepted in 2008 (s5)." }
+units_built: { value: null, source: null, confidence: null, note: "No official total. TWZ (early 2023) doubted that more than 10 were in service; 98 are on order for delivery by 2027." }
+combat_use: { text: "First seen in the war against Ukraine on 15 October 2022; LMUR missile launches were shown from January 2023.", source: s5 }
+specs:
+  max_speed: { value: 300, source: s2, confidence: low, note: "Mi-28NE export variant: 300 km/h, cruise 270 km/h. Mi-28N figures range from 282 to 324 km/h (s3). No Mi-28NM-specific figure was found." }
+  range: { value: 435, source: s2, confidence: low, note: "Mi-28NE: about 435 km. Mi-28N: 460 km at normal take-off weight (s3)." }
+  service_ceiling: { value: 5600, source: s2, confidence: low, note: "Mi-28NE. Mi-28N: 5,700-5,750 m (s3)." }
+  max_takeoff_weight: { value: 12.1, range: { min: 11.5, max: 12.1 }, source: s2, confidence: low, note: "Mi-28NE: 12,100 kg. Mi-28N: 11,500 kg (s3)." }
+  engine_power: { value: 5000, source: s1, confidence: medium, note: "Two VK-2500P turboshafts, 2,500 hp each at take-off rating (2,800 hp emergency), up from 2,400 hp on the earlier engine." }
+  gun_calibre: { value: 30, source: s3, confidence: medium, note: "2A42 30 mm cannon in a movable chin mount (Mi-28N/NE)." }
+operators:
+  - { country: RU, force: Aerospace Forces (Army Aviation), state: in_service, quantity: null, source: s4 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public unit price or contract value was found." }
+contracts:
+  - { customer: Russia / Ministry of Defence, year: 2017, quantity: 2, value: null, currency: null, note: "Initial production series, ordered 31 October 2017.", source: s5 }
+  - { customer: Russia / Ministry of Defence, year: 2019, quantity: 98, value: null, currency: null, note: "Signed 27 June 2019 for delivery 2020-2027; a further batch of unknown size was ordered in August 2022.", source: s5 }
+peers: [ka-52m, ah-64e-apache, z-10me]
+sources:
+  - { id: s1, url: "https://defensemirror.com/news/23767/New_Engine_to_Increase_Power_of_Russian_Mi_28NM_Attack_helicopter", title: "New Engine to Increase Power of Russian Mi-28NM Attack helicopter", publisher: Defense Mirror, retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.airforce-technology.com/?p=4539", title: "Mi-28NE Night Hunter attack helicopter", publisher: Airforce Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.airforce-technology.com/?p=1837", title: "Mi-28A/N Havoc attack helicopter", publisher: Airforce Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://contactairlandandsea.com/?p=15595", title: "Rostec delivered more than 20 attack helicopters this year", publisher: Contact Air Land and Sea, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.twz.com/russias-mi-28nm-attack-helicopter-seen-using-new-anti-armor-missile-in-ukraine", title: "Russia's Mi-28NM Attack Helicopter Seen Using New Anti-Armor Missile In Ukraine", publisher: The War Zone (TWZ), retrieved: 2026-11-22, kind: press }

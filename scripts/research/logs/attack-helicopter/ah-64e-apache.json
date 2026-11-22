@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Boeing AH-64E Apache specifications max speed range service ceiling max gross weight T700-GE-701D",
+    "GE Aerospace T700-GE-701D shaft horsepower Apache",
+    "Boeing awarded contract AH-64E Apache helicopters 2025 Poland 96 Apache value",
+    "AH-64E Apache Guardian first unit equipped 2011 initial operating capability 1-25 Attack Reconnaissance Battalion",
+    "AH-64E Apache shoot down drones combat 2024 Middle East Army Apaches Iranian drones"
+  ],
+  "urlsSeen": [
+    "https://www.boeing.com/defense/military-rotorcraft/ah-64-apache",
+    "https://www.army.mil/article/137579/ah_64e_apache_attack_helicopter",
+    "https://des.mod.uk/what-we-do/army-procurement-support/apache-ah64e",
+    "https://www.army.mod.uk/learn-and-explore/equipment/aircraft/ah-64e-apache-attack-helicopter",
+    "https://www.geaerospace.com/sites/default/files/datasheet-T700-701D.pdf",
+    "https://www.geaerospace.com/military/engines/t700-engine",
+    "https://investors.boeing.com/investors/news/press-release-details/2025/Boeing-to-Build-96-AH-64E-Apache-Helicopters-for-Poland/default.aspx",
+    "https://www.defensenews.com/?p=68217",
+    "https://www.army.mil/article/115953/army_achieves_initial_operating_capability_with_the_ah_64e_apache",
+    "https://theaviationist.com/2026/03/10/uae-ah-64-apaches-counter-drone/",
+    "https://theaviationist.com/2025/11/21/operation-flyswatter-apache-c-uas/"
+  ]
+}

@@ -1,0 +1,36 @@
+id: ah-1z-viper
+category: attack-helicopter
+name: AH-1Z Viper
+variant_note: Four-blade H-1 upgrade attack helicopter of the US Marine Corps and export customers
+family: H-1
+aliases: [Zulu Cobra, Bell AH-1Z]
+manufacturer: { name: Bell Textron }
+origin: US
+role: Twin-engine, two-seat attack helicopter for close air support, escort and armed reconnaissance, designed for shipboard operation.
+memorable_fact: { text: "The AH-1Z shares 85 percent of its parts with the UH-1Y Venom utility helicopter, mostly in the powertrain and subsystems.", source: s3 }
+status: in_production
+in_service_since: { value: 2011, source: s3, confidence: high, note: "US Marine Corps initial operating capability, 2011." }
+units_built: { value: 189, source: s4, confidence: medium, note: "US Marine Corps program of record, completed with the 189th delivery in November 2022; export aircraft for Bahrain, the Czech Republic and Nigeria come on top." }
+specs:
+  max_speed: { value: 370, source: s1, confidence: high, note: "Bell: maximum speed 200 KIAS (indicated airspeed), about 370 km/h; cruise speed 139 KTAS (257 km/h)." }
+  range: { value: 574, source: s1, confidence: high, note: "Bell: maximum range 310 nm; combat radius 131 nm." }
+  service_ceiling: { value: 6100, source: s2, confidence: low, note: "The Defense Post: 20,000+ ft (6,100+ m), a lower bound. Bell does not list a service ceiling." }
+  max_takeoff_weight: { value: 8.4, source: s1, confidence: high, note: "Bell: maximum gross weight 18,500 lb (8,391 kg)." }
+  engine_power: { value: 3600, source: s1, confidence: high, note: "Two GE T700-GE-401C turboshafts, 1,800 shp each (uninstalled; unit per s2)." }
+  gun_calibre: { value: 20, source: s1, confidence: high, note: "M197 20 mm three-barrel cannon (650 rounds in Bell's performance assumptions)." }
+operators:
+  - { country: US, force: Marine Corps, state: in_service, quantity: 189, source: s4 }
+  - { country: BH, force: Royal Bahraini Air Force, state: in_service, quantity: 12, source: s3 }
+  - { country: CZ, force: Air Force, state: in_service, quantity: 4, source: s3, note: "Four ordered with eight UH-1Y." }
+  - { country: NG, force: Air Force, state: ordered, quantity: 12, source: s5 }
+cost: { value: 37916667, currency: USD, price_year: 2024, basis: contract_per_unit, source: s5, confidence: medium, note: "US Navy contract to Bell of March 2024, USD 455 million (undefinitized) for 12 AH-1Z for Nigeria, including engineering, programme management and logistics support, divided by 12." }
+contracts:
+  - { customer: Nigeria (US Navy FMS contract to Bell), year: 2024, quantity: 12, value: 455000000, currency: USD, note: "Deliveries to be complete by July 2028.", source: s5 }
+  - { customer: Czech Republic, year: null, quantity: 4, value: null, currency: null, note: "Order for eight UH-1Y and four AH-1Z.", source: s3 }
+peers: [ah-64e-apache, t129-atak, tiger-had]
+sources:
+  - { id: s1, url: "https://www.bellflight.com/products/bell-ah-1z", title: "Bell AH-1Z Viper", publisher: Bell Textron, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://thedefensepost.com/2026/06/26/ah-1z-viper-guide/", title: "Born to Strike: The AH-1Z Viper Helicopter, Explained", publisher: The Defense Post, retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.twz.com/the-last-u-s-ah-1-attack-helicopter-has-been-delivered-to-the-marines", title: "The Last Marine AH-1 Delivered Marking Beginning Of The End Of The Huey Era", publisher: The War Zone (TWZ), retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.navalnews.com/naval-news/2022/11/bell-delivers-189th-and-final-ah-1z-viper-helicopter-to-the-usmc/", title: "Bell Delivers 189th and Final AH-1Z Viper Helicopter to the USMC", publisher: Naval News, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://seapowermagazine.org/navy-awards-bell-textron-contract-for-12-ah-1z-helicopters-for-nigeria/", title: "Navy Awards Bell Textron Contract for 12 AH-1Z Helicopters for Nigeria", publisher: Seapower Magazine, retrieved: 2026-11-22, kind: press }

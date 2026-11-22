@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Airbus Tiger HAD MTR390-E specifications max speed range maximum take-off weight",
+    "Tigre HAD vitesse maximale km/h minist\u00e8re des Arm\u00e9es fiche h\u00e9licopt\u00e8re de combat",
+    "Tiger MkIII contract OCCAR 2022 France Spain value helicopters upgrade 42 Tigre HAD Spain 18",
+    "first Tigre HAD delivered French Army ALAT April 2013 Airbus Helicopters Eurocopter"
+  ],
+  "urlsSeen": [
+    "https://mediaassets.airbus.com/pm_38_379_379510-6dwkt12akx.pdf?dl=true",
+    "https://prod-site-internet-minarm-admin.cloud.defense.gouv.fr/sites/default/files/ministere-armees/Fiche%20LPM%20-%20H%C3%A9licopt%C3%A8re%20Tigre.pdf",
+    "https://www.airbus.com/en/newsroom/press-releases/2022-03-france-and-spain-launch-tiger-mkiii-programme",
+    "https://breakingdefense.com/2022/03/france-spain-ink-deals-to-upgrade-tiger-attack-helicopters/",
+    "https://flightglobal.com/french-army-receives-first-enhanced-tiger-had/109460.article",
+    "https://armyrecognition.com/military-products/air/helicopters/attack-helicopters/tigre-ec665-eurocopter",
+    "https://www.shephardmedia.com/news/defence-helicopter/tigre-flies-with-uprated-engines/"
+  ]
+}

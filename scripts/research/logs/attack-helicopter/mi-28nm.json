@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Mi-28NM Night Hunter specifications max speed 300 km/h range ceiling maximum take-off weight 2A42 30mm",
+    "Mi-28NM contract 98 helicopters Army-2019 deliveries Rostvertol first serial Mi-28NM 2019 combat Syria",
+    "Mi-28NM Ukraine combat use Lancet shot down Mi-28NM 2022 2023 Russian Helicopters Mi-28NM deliveries 2024",
+    "UEC Klimov VK-2500 take-off power 2400 hp Ka-52 Mi-28 engine"
+  ],
+  "urlsSeen": [
+    "https://www.airforce-technology.com/?p=1837",
+    "https://www.airforce-technology.com/?p=4539",
+    "https://defensemirror.com/news/23767/New_Engine_to_Increase_Power_of_Russian_Mi_28NM_Attack_helicopter",
+    "https://contactairlandandsea.com/?p=15595",
+    "https://aviationweek.com/defense-space/inside-russias-modernized-mi-28nm",
+    "https://www.twz.com/russias-mi-28nm-attack-helicopter-seen-using-new-anti-armor-missile-in-ukraine",
+    "https://www.globalsecurity.org/military/world/russia/mi-28nm.htm",
+    "https://rhc.ru/en/media/rostec-has-completed-the-delivery-of-attack-helicopters-as-part-of-the-state-defense-contract-for-2019"
+  ]
+}

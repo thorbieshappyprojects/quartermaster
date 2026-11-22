@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Ka-52M Alligator specifications maximum speed range ceiling take-off weight VK-2500 Rostec",
+    "Rosoboronexport Ka-52E helicopter specifications maximum take-off weight static ceiling flight range",
+    "Ka-52M first serial delivery Russian Aerospace Forces 2022 Progress Arsenyev modernised Alligator deliveries",
+    "UEC Klimov VK-2500 take-off power 2400 hp Ka-52 Mi-28 engine"
+  ],
+  "urlsSeen": [
+    "https://www.airforce-technology.com/?p=4212",
+    "https://roe.ru/eng/catalog/aerospace-systems/helicopters/ka-52e",
+    "https://www.roe.ru/en/production/aerospace-forces/helicopters/combat-and-combat-transport-helicopters/ka-52e/",
+    "https://armyrecognition.com/archives/archives-aerospace-defense/aerospace-defense-2023/russian-army-receives-10-upgraded-ka-52m-attack-helicopters",
+    "https://tass.com/defense/1254839",
+    "https://www.rostec.ru/en/news/russian-army-receives-new-alligator-helicopters/",
+    "https://www.globalsecurity.org/military/world/russia/ka-52m-program.htm",
+    "https://www.edrmagazine.eu/russian-helicopters-has-signed-the-first-contract-for-the-delivery-of-upgraded-ka-52m-helicopters"
+  ]
+}

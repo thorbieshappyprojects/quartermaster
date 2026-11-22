@@ -1,0 +1,45 @@
+id: ah-64e-apache
+category: attack-helicopter
+name: AH-64E Apache
+variant_note: AH-64E (formerly Apache Block III, "Guardian"), current production standard
+family: AH-64 Apache
+aliases: [AH-64E Guardian, Apache Block III]
+manufacturer: { name: Boeing }
+production_sites:
+  - { place: "Mesa, Arizona", country: US, source: s1 }
+  - { place: Hyderabad, country: IN, source: s1 }
+origin: US
+role: Twin-engine, two-seat attack helicopter for anti-armour, close air support, armed reconnaissance and counter-drone missions.
+memorable_fact: { text: "Its mast-mounted Longbow radar can detect and classify up to 256 potential targets, show 128 to the crew and rank the top 16 threats.", source: s3 }
+status: in_production
+in_service_since: { value: 2013, source: s5, confidence: medium, note: "US Army: the first AH-64E unit (1-229th Attack Reconnaissance Battalion) fielded the type in 2013 and reached initial operating capability that year. The first production Block III aircraft was delivered in October 2011." }
+units_built: { value: 891, source: s1, confidence: high, note: "Boeing: more than 891 E-models delivered as of November 2025. More than 2,875 Apaches of all models (A to E) have been produced." }
+combat_use: { text: "Boeing reports more than 1.3 million combat flight hours for the Apache fleet across all models; no checked source gave an AH-64E-specific combat record.", source: s1 }
+specs:
+  max_speed: { value: 279, range: { min: 279, max: 330 }, source: s1, confidence: medium, note: "Boeing gives a maximum level flight speed of 150+ knots (279+ km/h), a lower bound. The UK MoD (s3) lists a maximum speed of 330 km/h and the US Army fact file (s4) 164 knots (about 304 km/h)." }
+  range: { value: 481, source: s4, confidence: low, note: "US Army fact file: 260 nautical miles. Boeing does not publish a range; the fact-file page could not be opened, so the figure is taken from its search listing." }
+  service_ceiling: { value: 6096, source: s1, confidence: high, note: "Boeing: 20,000 ft (6,096 m)." }
+  max_takeoff_weight: { value: 10.4, range: { min: 7.7, max: 10.4 }, source: s1, confidence: medium, note: "Boeing: maximum operating weight 23,000 lb (10,433 kg); primary mission gross weight 15,075 lb (6,838 kg). The UK MoD (s3) lists a maximum weight of 7,746 kg, apparently on a different basis." }
+  engine_power: { value: 3988, source: s2, confidence: high, note: "Two GE T700-GE-701D turboshafts, 1,994 shp each at the maximum (10-minute) rating; 2,000 shp contingency rating (sea level, standard day)." }
+  gun_calibre: { value: 30, source: s1, confidence: high, note: "M230 30 mm chain gun, 1,200 rounds, 600-650 rounds per minute." }
+operators:
+  - { country: US, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: GB, force: Army Air Corps, state: in_service, quantity: 50, source: s3 }
+  - { country: AU, force: Army, state: in_service, quantity: null, source: s6, note: "Deliveries under way (Boeing, November 2025)." }
+  - { country: IN, force: Army, state: in_service, quantity: null, source: s6 }
+  - { country: MA, force: Royal Moroccan Air Force, state: in_service, quantity: null, source: s6 }
+  - { country: PL, force: Armed Forces, state: ordered, quantity: 96, source: s6, note: "Deliveries from 2028; eight aircraft leased from the US Army in the meantime." }
+cost: { value: 48958333, currency: USD, price_year: 2025, basis: contract_per_unit, source: s6, confidence: medium, note: "US Army Foreign Military Sales contract to Boeing of November 2025, nearly USD 4.7 billion, divided by the 96 AH-64E for Poland. Poland's whole purchase, including weapons, training and support, is about USD 10 billion (s7)." }
+contracts:
+  - { customer: Poland, year: 2024, quantity: 96, value: 10000000000, currency: USD, note: "Government-to-government agreement signed 13 August 2024, including weapons (Hellfire, JAGM, Stinger), training, logistics and offsets.", source: s7 }
+  - { customer: Poland (US Army FMS contract to Boeing), year: 2025, quantity: 96, value: 4700000000, currency: USD, note: "Production contract announced 26 November 2025; nearly USD 4.7 billion.", source: s6 }
+  - { customer: United Kingdom / British Army, year: null, quantity: 50, value: 2300000000, currency: USD, note: "Foreign Military Sale of 50 AH-64E worth about USD 2.3 billion; first aircraft arrived November 2020, initial operating capability May 2023.", source: s3 }
+peers: [tiger-had, ka-52m, mi-28nm, ah-1z-viper]
+sources:
+  - { id: s1, url: "https://www.boeing.com/defense/military-rotorcraft/ah-64-apache", title: "AH-64 Apache", publisher: Boeing, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.geaerospace.com/sites/default/files/datasheet-T700-701D.pdf", title: "T700-701D datasheet", publisher: GE Aerospace, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://des.mod.uk/what-we-do/army-procurement-support/apache-ah64e", title: "Apache AH64E", publisher: Defence Equipment and Support (UK MoD), retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.army.mil/article/137579/ah_64e_apache_attack_helicopter", title: "AH-64E Apache Attack Helicopter", publisher: US Army, retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.army.mil/article/115953/army_achieves_initial_operating_capability_with_the_ah_64e_apache", title: "Army Achieves Initial Operating Capability with the AH-64E Apache", publisher: US Army, retrieved: 2026-11-22, kind: government }
+  - { id: s6, url: "https://investors.boeing.com/investors/news/press-release-details/2025/Boeing-to-Build-96-AH-64E-Apache-Helicopters-for-Poland/default.aspx", title: "Boeing to Build 96 AH-64E Apache Helicopters for Poland", publisher: Boeing, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s7, url: "https://www.defensenews.com/?p=68217", title: "Poland buys 96 Apache helicopters to boost attack capabilities", publisher: Defense News, retrieved: 2026-11-22, kind: press }

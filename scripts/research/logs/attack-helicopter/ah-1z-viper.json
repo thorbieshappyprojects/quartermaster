@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Bell AH-1Z Viper specifications max gross weight cruise speed range T700-GE-401C service ceiling",
+    "navy.mil fact file AH-1Z Viper ceiling unit cost date deployed IOC 2011 Marine Corps final AH-1Z delivered 2022 Bell",
+    "Nigeria 12 AH-1Z helicopters DSCA $997 million approved 2022; Czech Republic AH-1Z delivered 2023; Bahrain AH-1Z",
+    "Bell delivers final AH-1Z Viper to U.S. Marine Corps program of record November 2022",
+    "AH-1Z Viper first combat deployment Afghanistan Helmand HMLA-367 2009 Marines"
+  ],
+  "urlsSeen": [
+    "https://www.bellflight.com/products/bell-ah-1z",
+    "https://thedefensepost.com/2026/06/26/ah-1z-viper-guide/",
+    "https://www.twz.com/the-last-u-s-ah-1-attack-helicopter-has-been-delivered-to-the-marines",
+    "https://www.navalnews.com/naval-news/2022/11/bell-delivers-189th-and-final-ah-1z-viper-helicopter-to-the-usmc/",
+    "https://seapowermagazine.org/navy-awards-bell-textron-contract-for-12-ah-1z-helicopters-for-nigeria/",
+    "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2160217/ah-1z-viper-and-uh-1y-venom-helicopters",
+    "https://www.navair.navy.mil/product/AH-1Z-Viper",
+    "https://www.defencetalk.com/upgraded-h-1-helicopters-deploy-for-the-first-time-as-a-unit-38405/"
+  ]
+}
