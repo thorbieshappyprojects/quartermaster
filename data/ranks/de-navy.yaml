@@ -1,0 +1,43 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: de-navy
+country: DE
+branch: navy
+force: Marine
+force_en: German Navy
+note: Rank names follow the Federal President's order on rank designations; English names and NATO codes are those the Bundeswehr publishes. Officer candidates are listed at OF-D as in the Bundeswehr career tables.
+ranks:
+  - { id: de-navy-matrose, name: Matrose, name_en: Seaman recruit, code: OR-1, group: enlisted, note: "Entry rank; the title can depend on the assignment.", source: s1 }
+  - { id: de-navy-gefreiter, name: Gefreiter, name_en: Seaman apprentice, code: OR-2, group: enlisted, source: s1 }
+  - { id: de-navy-obergefreiter, name: Obergefreiter, name_en: Seaman, code: OR-3, group: enlisted, source: s1 }
+  - { id: de-navy-hauptgefreiter, name: Hauptgefreiter, name_en: "Seaman, senior grade", code: OR-3, group: enlisted, source: s1 }
+  - { id: de-navy-stabsgefreiter, name: Stabsgefreiter, name_en: Petty officer third class, code: OR-4, group: enlisted, source: s1 }
+  - { id: de-navy-oberstabsgefreiter, name: Oberstabsgefreiter, name_en: "Petty officer third class, senior grade", code: OR-4, group: enlisted, source: s1 }
+  - { id: de-navy-korporal, name: Korporal, name_en: Senior corporal, code: OR-4, group: enlisted, note: "Introduced in 2021 as a senior enlisted rank above Oberstabsgefreiter; no official English designation found.", source: s2 }
+  - { id: de-navy-stabskorporal, name: Stabskorporal, name_en: Staff corporal, code: OR-4, group: enlisted, note: "Introduced in 2021, the most senior enlisted rank; no official English designation found.", source: s2 }
+  - { id: de-navy-maat, name: Maat, name_en: Petty officer second class, code: OR-5, group: nco, source: s3 }
+  - { id: de-navy-obermaat, name: Obermaat, name_en: "Petty officer second class, senior grade", code: OR-5, group: nco, source: s3 }
+  - { id: de-navy-bootsmann, name: Bootsmann, name_en: Petty officer first class, code: OR-6, group: nco, source: s4 }
+  - { id: de-navy-oberbootsmann, name: Oberbootsmann, name_en: "Petty officer first class, senior grade", code: OR-6, group: nco, source: s4 }
+  - { id: de-navy-hauptbootsmann, name: Hauptbootsmann, name_en: Chief petty officer, code: OR-7, group: nco, source: s4 }
+  - { id: de-navy-stabsbootsmann, name: Stabsbootsmann, name_en: Senior chief petty officer, code: OR-8, group: nco, source: s4 }
+  - { id: de-navy-oberstabsbootsmann, name: Oberstabsbootsmann, name_en: Master chief petty officer, code: OR-9, group: nco, source: s4 }
+  - { id: de-navy-seekadett, name: Seekadett, name_en: Probationary naval officer cadet, code: OF-D, group: officer_cadet, note: "Bundeswehr career table lists it as 'Student Officer' (OF-D); the same page's text and the insignia page give OR-5. Ranks alongside Maat.", source: s3 }
+  - { id: de-navy-faehnrich-zur-see, name: Fähnrich zur See, name_en: Junior naval officer cadet, code: OF-D, group: officer_cadet, note: "Career table gives OF-D; the Bundeswehr insignia page gives OR-6. Ranks alongside Bootsmann.", source: s4 }
+  - { id: de-navy-oberfaehnrich-zur-see, name: Oberfähnrich zur See, name_en: Senior naval officer cadet, code: OF-D, group: officer_cadet, note: "Career table gives OF-D; the Bundeswehr insignia page gives OR-7. Ranks alongside Hauptbootsmann.", source: s4 }
+  - { id: de-navy-leutnant-zur-see, name: Leutnant zur See, name_en: Ensign, code: OF-1, group: officer, source: s5 }
+  - { id: de-navy-oberleutnant-zur-see, name: Oberleutnant zur See, name_en: "Lieutenant, junior grade", code: OF-1, group: officer, source: s5 }
+  - { id: de-navy-kapitaenleutnant, name: Kapitänleutnant, name_en: Lieutenant, code: OF-2, group: officer, note: "Medical officers of this grade are titled Stabsarzt (and corps equivalents).", source: s5 }
+  - { id: de-navy-stabskapitaenleutnant, name: Stabskapitänleutnant, name_en: "Lieutenant, senior grade", code: OF-2, group: officer, source: s5 }
+  - { id: de-navy-korvettenkapitaen, name: Korvettenkapitän, name_en: Lieutenant commander, code: OF-3, group: officer, source: s5 }
+  - { id: de-navy-fregattenkapitaen, name: Fregattenkapitän, name_en: Commander, code: OF-4, group: officer, source: s5 }
+  - { id: de-navy-kapitaen-zur-see, name: Kapitän zur See, name_en: Captain, code: OF-5, group: officer, source: s5 }
+  - { id: de-navy-flottillenadmiral, name: Flottillenadmiral, name_en: Rear admiral (lower half), code: OF-6, group: general_flag, source: s5 }
+  - { id: de-navy-konteradmiral, name: Konteradmiral, name_en: Rear admiral (upper half), code: OF-7, group: general_flag, source: s5 }
+  - { id: de-navy-vizeadmiral, name: Vizeadmiral, name_en: Vice admiral, code: OF-8, group: general_flag, source: s5 }
+  - { id: de-navy-admiral, name: Admiral, name_en: Admiral, code: OF-9, group: general_flag, note: "Highest naval rank; equivalent to General.", source: s5 }
+sources:
+  - { id: s1, url: "https://www.bundeswehr.de/en/about-bundeswehr/ranks-and-careers/dienstgradabzeichen-marine-1102514", title: Rank insignia of the German Navy, publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://www.bundeswehr.de/de/ueber-die-bundeswehr/dienstgrade-laufbahnen-bundeswehr/laufbahn-mannschaften", title: Die Laufbahngruppe der Mannschaften in der Bundeswehr, publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.bundeswehr.de/en/about-bundeswehr/ranks-and-careers/junior-noncommissioned-officers", title: Junior Noncommissioned Officers, publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.bundeswehr.de/en/about-bundeswehr/ranks-and-careers/senior-noncommissioned-officers", title: Senior noncommissioned officers, publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.bundeswehr.de/en/about-bundeswehr/ranks-and-careers/officer-careers", title: Officer Careers, publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }

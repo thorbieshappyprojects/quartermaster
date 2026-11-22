@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "bundeswehr.de Dienstgrade Heer Luftwaffe Marine Übersicht",
+    "Bundeswehr Dienstgrade NATO-Rangcode OR-4 Stabskorporal Korporal OR-5 Fahnenjunker Tabelle",
+    "Dienstgrade Bundeswehr Abkürzungen NATO-Rangcode \"StKpl\" \"OStGefr\" OR-4",
+    "STANAG 2116 rank codes Germany OR-1 OF-10 nato.int pdf",
+    "Dienstgrad NATO-Rangcode OR-5 OF-1 Bundeswehr (bundeswehr.de, bmvg.de, bundestag.de, gesetze-im-internet.de)",
+    "Korporal Stabskorporal Bundeswehr 2021 neue Dienstgrade NATO OR-4 Mannschaften",
+    "bundeswehr.de English \"Korporal\" \"OR-4\" rank",
+    "Dienstgrad Abkürzungen Bundeswehr \"OStFw\" \"StUffz\" \"KptLt\" \"FKpt\" Liste",
+    "bundeswehr.de \"Die Laufbahngruppe der Unteroffiziere\" NATO-Rang Tabelle Feldwebel Fahnenjunker"
+  ],
+  "urlsSeen": [
+    "https://www.bundeswehr.de/en/about-bundeswehr/ranks-and-careers/rank-insignia-german-army--1102652",
+    "https://www.bundeswehr.de/de/menschen-karrieren/dienstgrade-heer-luftwaffe-marine-sanitaet",
+    "https://www.gesetze-im-internet.de/bprdgrunifano/BJNR415500021.html",
+    "https://www.bundeswehr.de/de/ueber-die-bundeswehr/dienstgrade-laufbahnen-bundeswehr",
+    "https://www.bundeswehr.de/resource/blob/5919624/dbb6cb44053419e051a5ee325c0cb9e4/download-dienstgrade-bundeswehr-data.pdf",
+    "https://www.bundeswehr.de/resource/blob/5784864/e35986596e0aec102efb0b09bb6204c0/dienstgrade-in-der-bundeswehr-data.pdf",
+    "https://www.bmvg.de/resource/blob/5261464/7f0dead2671a3fbc57b03ca9c34bd950/bekleidung-und-uniformen-der-bundeswehr-data.pdf",
+    "https://www.bundeswehr.de/resource/blob/5057222/9bcaec331bc70fff22f3dd1658c417f3/bbp-dienstgrade-data.pdf",
+    "https://en.wikipedia.org/wiki/Ranks_of_the_German_Bundeswehr",
+    "https://de.wikipedia.org/wiki/Dienstgrade_der_Bundeswehr",
+    "https://en.wikipedia.org/wiki/Korporal",
+    "https://www.bundeswehr.de/de/meldungen/korporal-stabskorporal-faq-1625086",
+    "https://www.bundeswehr.de/de/ueber-die-bundeswehr/dienstgrade-laufbahnen-bundeswehr/laufbahn-mannschaften",
+    "https://www.bundeswehr.de/de/ueber-die-bundeswehr/dienstgrade-laufbahnen-bundeswehr/unteroffiziere-ohne-portepee",
+    "https://www.bundeswehr.de/de/ueber-die-bundeswehr/dienstgrade-laufbahnen-bundeswehr/unteroffiziere-mit-portepee-feldwebel-",
+    "https://www.bundeswehr.de/de/ueber-die-bundeswehr/dienstgrade-laufbahnen-bundeswehr/laufbahn-offiziere",
+    "https://www.bundeswehr.de/en/about-bundeswehr/ranks-and-careers/junior-noncommissioned-officers",
+    "https://www.bundeswehr.de/en/about-bundeswehr/ranks-and-careers/senior-noncommissioned-officers",
+    "https://www.bundeswehr.de/en/about-bundeswehr/ranks-and-careers/officer-careers"
+  ]
+}

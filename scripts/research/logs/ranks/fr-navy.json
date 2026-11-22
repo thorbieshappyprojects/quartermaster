@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "defense.gouv.fr grades armée de terre militaires du rang sous-officiers officiers",
+    "STANAG 2116 France OR-9 major marine nationale maître principal correspondance grades OTAN",
+    "\"APersP-01\" \"NATO codes for grades of military personnel\" pdf",
+    "STANAG 2116 edition 7 APersP-01 ranks NATO pdf France annex",
+    "site:defense.gouv.fr marine grades marine nationale matelot quartier-maître second maître",
+    "lamarinerecrute.fr grades de la Marine nationale matelot breveté quartier-maître premier maître maître principal major",
+    "defense.gouv.fr/marine \"grades\" marine nationale page officielle insignes de grade officiers mariniers",
+    "lamarinerecrute.gouv.fr grades marine nationale"
+  ],
+  "urlsSeen": [
+    "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf",
+    "https://en.wikipedia.org/wiki/Ranks_and_insignia_of_NATO",
+    "https://lamarinerecrute.gouv.fr/se-projeter/statut-de-marin/les-grades",
+    "https://cms.lamarinerecrute.gouv.fr/media/120d4704-fbb4-402a-8ae3-0a96afef9397-xlarge_Tableau-grade.webp",
+    "https://en.wikipedia.org/wiki/Ranks_in_the_French_Navy",
+    "https://www.colsbleus.defense.gouv.fr/sites/default/files/2018-12/CBHS1_INT_BD.pdf",
+    "https://www.lamarinerecrute.fr/sites/default/files/orientationkit/documents/Guide_du_marin_2023.pdf (redirects to lamarinerecrute.gouv.fr)"
+  ]
+}

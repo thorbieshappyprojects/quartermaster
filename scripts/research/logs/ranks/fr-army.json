@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "defense.gouv.fr grades armée de terre militaires du rang sous-officiers officiers",
+    "STANAG 2116 France OR-9 major marine nationale maître principal correspondance grades OTAN",
+    "\"APersP-01\" \"NATO codes for grades of military personnel\" pdf",
+    "STANAG 2116 edition 7 APersP-01 ranks NATO pdf France annex",
+    "site:defense.gouv.fr terre grades armée de Terre soldat caporal-chef de 1re classe général d'armée",
+    "sengager.fr grades armée de Terre soldat de 1re classe caporal-chef de 1re classe sergent adjudant-chef major",
+    "sengager.fr officier PDF \"LES GRADES\" officiers sous-lieutenant capitaine colonel général",
+    "\"BM2\" sergent-chef nouveau galon OR-7 code OTAN armée de Terre 2022",
+    "\"Article L4131-1\" code de la défense grades hiérarchie militaire générale"
+  ],
+  "urlsSeen": [
+    "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf",
+    "https://en.wikipedia.org/wiki/Ranks_and_insignia_of_NATO",
+    "https://www.sengager.fr/assets/MILITAIRE_DU_RANG_0c06203286.pdf",
+    "https://www.sengager.fr/assets/SOUS_OFFICIER_b39fd48f2a.pdf",
+    "https://www.sengager.fr/assets/OFFICIER_c0c4ab4114.pdf",
+    "https://www.terremag.defense.gouv.fr/sites/default/files/2022-12/TIM-334.pdf",
+    "https://www.terremag.defense.gouv.fr/sites/default/files/2023-03/TIM335.pdf",
+    "https://www.terre.defense.gouv.fr/sites/default/files/reserve-citoyenne/Module%20d%E2%80%99acculturation%20-%203.%20Les%20hommes%20et%20les%20femmes.pdf",
+    "https://www.defense.gouv.fr/sites/default/files/energie-ops/Grades%20de%20poitrine%20SEO.pdf",
+    "https://web.archive.org/web/20220612085956/https://rescue18.fr/wp-content/uploads/2020/02/INSTRUCTION-N-10300_DEF_EMAT_LOG_ASH-DEF_DCCAT_LOG_REG.pdf",
+    "https://en.wikipedia.org/wiki/Ranks_in_the_French_Army",
+    "https://en.wikipedia.org/wiki/Template:Ranks_and_Insignia_of_NATO_Armies/OR/France",
+    "https://rh-terre.defense.gouv.fr/actualites/item/1095-premiere-remise-du-nouveau-galon-de-sch-bm2-par-le-cemat (login wall)",
+    "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071307/LEGISCTA000006137720/ (HTTP 403)"
+  ]
+}

@@ -18,10 +18,10 @@ const client = new Anthropic();
 // Pilot (M9): Germany and France, all three services. Extend this list for the next steps.
 const FORCES = [
   { id: 'de-army', country: 'DE', branch: 'army', hint: 'German Army (Heer) of the Bundeswehr' },
-  { id: 'de-air_force', country: 'DE', branch: 'air_force', hint: 'German Air Force (Luftwaffe) of the Bundeswehr' },
+  { id: 'de-air-force', country: 'DE', branch: 'air_force', hint: 'German Air Force (Luftwaffe) of the Bundeswehr' },
   { id: 'de-navy', country: 'DE', branch: 'navy', hint: 'German Navy (Marine) of the Bundeswehr' },
   { id: 'fr-army', country: 'FR', branch: 'army', hint: "French Army (Armée de Terre)" },
-  { id: 'fr-air_force', country: 'FR', branch: 'air_force', hint: "French Air and Space Force (Armée de l'Air et de l'Espace)" },
+  { id: 'fr-air-force', country: 'FR', branch: 'air_force', hint: "French Air and Space Force (Armée de l'Air et de l'Espace)" },
   { id: 'fr-navy', country: 'FR', branch: 'navy', hint: 'French Navy (Marine nationale)' },
 ];
 

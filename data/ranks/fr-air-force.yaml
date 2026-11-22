@@ -1,0 +1,31 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: fr-air-force
+country: FR
+branch: air_force
+force: Armée de l'Air et de l'Espace
+force_en: French Air and Space Force
+note: Rank names follow the service's own rank chart; NATO codes follow the French column of NATO APersP-01 (STANAG 2116, Ed. A V3, June 2022). Maréchal de France (OF-10) is a state dignity and is not listed.
+ranks:
+  - { id: fr-air-force-aviateur-de-2de-classe, name: Aviateur de 2de classe, name_en: Airman, code: OR-1, group: enlisted, note: "Listed as Aviateur at OR-1 in APersP-01.", source: s1 }
+  - { id: fr-air-force-aviateur-de-1re-classe, name: Aviateur de 1re classe, name_en: Airman first class, code: OR-2, group: enlisted, source: s2 }
+  - { id: fr-air-force-caporal, name: Caporal, name_en: Corporal, code: OR-3, group: enlisted, source: s2 }
+  - { id: fr-air-force-caporal-chef, name: Caporal-chef, name_en: Senior corporal, code: OR-4, group: enlisted, note: "The service chart shows a separate insignia for caporaux-chefs with more than 10 years of service.", source: s2 }
+  - { id: fr-air-force-sergent, name: Sergent, name_en: Sergeant, code: OR-5, group: nco, source: s2 }
+  - { id: fr-air-force-sergent-chef, name: Sergent-chef, name_en: Staff sergeant, code: OR-6, group: nco, source: s2 }
+  - { id: fr-air-force-adjudant, name: Adjudant, name_en: Warrant officer, code: OR-8, group: nco, source: s2 }
+  - { id: fr-air-force-adjudant-chef, name: Adjudant-chef, name_en: Chief warrant officer, code: OR-9, group: nco, source: s2 }
+  - { id: fr-air-force-major, name: Major, name_en: Senior warrant officer, code: OR-9, group: nco, note: "Highest NCO rank, not an officer rank.", source: s2 }
+  - { id: fr-air-force-aspirant, name: Aspirant, name_en: Officer cadet, code: OF-D, group: officer_cadet, note: "Officially not an officer; APersP-01 places it between OR-9 and OF-1 with officers' prerogatives.", source: s2 }
+  - { id: fr-air-force-sous-lieutenant, name: Sous-lieutenant, name_en: Second lieutenant, code: OF-1, group: officer, source: s2 }
+  - { id: fr-air-force-lieutenant, name: Lieutenant, name_en: Lieutenant, code: OF-1, group: officer, source: s2 }
+  - { id: fr-air-force-capitaine, name: Capitaine, name_en: Captain, code: OF-2, group: officer, source: s2 }
+  - { id: fr-air-force-commandant, name: Commandant, name_en: Major, code: OF-3, group: officer, source: s2 }
+  - { id: fr-air-force-lieutenant-colonel, name: Lieutenant-colonel, name_en: Lieutenant colonel, code: OF-4, group: officer, source: s2 }
+  - { id: fr-air-force-colonel, name: Colonel, name_en: Colonel, code: OF-5, group: officer, source: s2 }
+  - { id: fr-air-force-general-de-brigade-aerienne, name: Général de brigade aérienne, name_en: Air commodore, code: OF-6, group: general_flag, source: s2 }
+  - { id: fr-air-force-general-de-division-aerienne, name: Général de division aérienne, name_en: Air vice-marshal, code: OF-7, group: general_flag, note: "Highest rank in the statutory hierarchy; the two senior general levels are appointments with rank marks.", source: s2 }
+  - { id: fr-air-force-general-de-corps-aerien, name: Général de corps aérien, name_en: Air marshal, code: OF-8, group: general_flag, note: "APersP-01 lists it as Général de corps d'armée aérienne at OF-8; a rank mark held by a général de division aérienne.", source: s1 }
+  - { id: fr-air-force-general-d-armee-aerienne, name: Général d'armée aérienne, name_en: Air chief marshal, code: OF-9, group: general_flag, note: "A rank mark held by a général de division aérienne.", source: s2 }
+sources:
+  - { id: s1, url: "https://www.defense.gouv.fr/air/grades-larmee-lair-lespace", title: "Les grades dans l'armée de l'Air et de l'Espace", publisher: Ministère des Armées, retrieved: 2026-11-22, kind: government, note: "Rank names read from the page's rank chart image." }
+  - { id: s2, url: "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf", title: "APersP-01 NATO Codes for Grades of Military Personnel, Edition A Version 3 (Annexes C and F, FRA)", publisher: NATO Standardization Office, retrieved: 2026-11-22, kind: government, note: "Third-party copy of the NATO standard that implements STANAG 2116." }

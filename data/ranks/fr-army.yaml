@@ -1,0 +1,34 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: fr-army
+country: FR
+branch: army
+force: Armée de Terre
+force_en: French Army
+note: NATO codes follow the French column of NATO APersP-01 (STANAG 2116, Ed. A V3, June 2022); Maréchal de France (OF-10) is a state dignity rather than a rank and is not listed.
+ranks:
+  - { id: fr-army-soldat, name: Soldat, name_en: Private, code: OR-1, group: enlisted, source: s1 }
+  - { id: fr-army-soldat-de-1re-classe, name: Soldat de 1re classe, name_en: Private first class, code: OR-2, group: enlisted, source: s1 }
+  - { id: fr-army-caporal, name: Caporal, name_en: Corporal, code: OR-3, group: enlisted, note: "Called brigadier in the armoured cavalry, artillery, transport and materiel branches.", source: s1 }
+  - { id: fr-army-caporal-chef, name: Caporal-chef, name_en: Senior corporal, code: OR-4, group: enlisted, note: "Called brigadier-chef in the armoured cavalry, artillery, transport and materiel branches.", source: s1 }
+  - { id: fr-army-caporal-chef-de-1re-classe, name: Caporal-chef de 1re classe, name_en: Senior corporal first class, code: OR-4, group: enlisted, note: "Most senior enlisted rank. APersP-01 lists only caporal-chef at OR-4; this rank is placed at the same code.", source: s2 }
+  - { id: fr-army-sergent, name: Sergent, name_en: Sergeant, code: OR-5, group: nco, note: "Called maréchal des logis in the armoured cavalry, artillery, transport and materiel branches.", source: s1 }
+  - { id: fr-army-sergent-chef, name: Sergent-chef, name_en: Staff sergeant, code: OR-6, group: nco, note: "Called maréchal des logis-chef in the armoured cavalry, artillery, transport and materiel branches.", source: s1 }
+  - { id: fr-army-sergent-chef-bm2, name: Sergent-chef BM2, name_en: Sergeant first class, code: OR-7, group: nco, role: Deputy platoon leader (sous-officier adjoint), note: "A sergent-chef holding the second-level military certificate (BM2), with its own insignia. APersP-01 places the qualified sergent-chef at OR-7 and the others at OR-6.", source: s3 }
+  - { id: fr-army-adjudant, name: Adjudant, name_en: Warrant officer, code: OR-8, group: nco, source: s1 }
+  - { id: fr-army-adjudant-chef, name: Adjudant-chef, name_en: Chief warrant officer, code: OR-9, group: nco, source: s1 }
+  - { id: fr-army-major, name: Major, name_en: Senior warrant officer, code: OR-9, group: nco, note: "Highest NCO rank, not an officer rank; APersP-01 notes the major roughly shares the responsibilities of a lieutenant.", source: s1 }
+  - { id: fr-army-aspirant, name: Aspirant, name_en: Officer cadet, code: OF-D, group: officer_cadet, note: "Officially not an officer; APersP-01 places it between OR-9 and OF-1 with officers' prerogatives.", source: s1 }
+  - { id: fr-army-sous-lieutenant, name: Sous-lieutenant, name_en: Second lieutenant, code: OF-1, group: officer, source: s1 }
+  - { id: fr-army-lieutenant, name: Lieutenant, name_en: Lieutenant, code: OF-1, group: officer, source: s1 }
+  - { id: fr-army-capitaine, name: Capitaine, name_en: Captain, code: OF-2, group: officer, source: s1 }
+  - { id: fr-army-commandant, name: Commandant, name_en: Major, code: OF-3, group: officer, note: "Called chef de bataillon (infantry, engineers, signals), chef d'escadrons (armoured cavalry) or chef d'escadron (artillery, transport); addressed as mon commandant.", source: s1 }
+  - { id: fr-army-lieutenant-colonel, name: Lieutenant-colonel, name_en: Lieutenant colonel, code: OF-4, group: officer, source: s1 }
+  - { id: fr-army-colonel, name: Colonel, name_en: Colonel, code: OF-5, group: officer, source: s1 }
+  - { id: fr-army-general-de-brigade, name: Général de brigade, name_en: Brigadier general, code: OF-6, group: general_flag, source: s1 }
+  - { id: fr-army-general-de-division, name: Général de division, name_en: Major general, code: OF-7, group: general_flag, note: "Highest rank in the statutory hierarchy; the two senior general levels are appointments with rank marks.", source: s1 }
+  - { id: fr-army-general-de-corps-d-armee, name: Général de corps d'armée, name_en: Lieutenant general, code: OF-8, group: general_flag, note: "A rank mark (rang et appellation) held by a général de division.", source: s1 }
+  - { id: fr-army-general-d-armee, name: Général d'armée, name_en: General, code: OF-9, group: general_flag, note: "A rank mark (rang et appellation) held by a général de division.", source: s1 }
+sources:
+  - { id: s1, url: "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf", title: "APersP-01 NATO Codes for Grades of Military Personnel, Edition A Version 3 (Annexes A and D, FRA)", publisher: NATO Standardization Office, retrieved: 2026-11-22, kind: government, note: "Third-party copy of the NATO standard that implements STANAG 2116." }
+  - { id: s2, url: "https://www.sengager.fr/assets/MILITAIRE_DU_RANG_0c06203286.pdf", title: "Militaire du rang (Les grades du militaire du rang)", publisher: Armée de Terre (sengager.fr), retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.terremag.defense.gouv.fr/sites/default/files/2022-12/TIM-334.pdf", title: "Terre Information Magazine n° 334 (nouveau parcours des sous-officiers, BM1–BM4)", publisher: Armée de Terre, retrieved: 2026-11-22, kind: government }

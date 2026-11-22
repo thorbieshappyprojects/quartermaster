@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "defense.gouv.fr grades armée de terre militaires du rang sous-officiers officiers",
+    "STANAG 2116 France OR-9 major marine nationale maître principal correspondance grades OTAN",
+    "\"APersP-01\" \"NATO codes for grades of military personnel\" pdf",
+    "STANAG 2116 edition 7 APersP-01 ranks NATO pdf France annex",
+    "\"caporal-chef de première classe\" armée de l'air et de l'espace militaires techniciens de l'air grade",
+    "\"OR-9\" \"OR-8\" adjudant-chef adjudant \"sergent-chef\" \"OR-6\" France code OTAN"
+  ],
+  "urlsSeen": [
+    "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf",
+    "https://en.wikipedia.org/wiki/Ranks_and_insignia_of_NATO",
+    "https://www.defense.gouv.fr/air/grades-larmee-lair-lespace",
+    "https://www.defense.gouv.fr/sites/default/files/air/mise%20en%20page%20grades_.png",
+    "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/2019-04/Les_grades_armee_air.pdf",
+    "https://prod-site-internet-minarm-admin.cloud.defense.gouv.fr/sites/default/files/bulletin-officiel/Instruction%20N%C2%B0%205700%20ARM%20DRH-AAE%20SDGR%20BGA%20DNA%20du%2017%20f%C3%A9vrier%202025.pdf"
+  ]
+}

@@ -1,0 +1,32 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: fr-navy
+country: FR
+branch: navy
+force: Marine nationale
+force_en: French Navy
+note: NATO codes follow the French column of NATO APersP-01 (STANAG 2116, Ed. A V3, June 2022), which has no French OR-7. Amiral de France (OF-10) is a state dignity and is not listed; the trainee grades élève maistrancier and second maître maistrancier shown on the Navy chart are left out.
+ranks:
+  - { id: fr-navy-mousse, name: Mousse, name_en: Junior sailor, code: OR-1, approximate: true, group: enlisted, note: "Youngest entry grade (École des mousses), shown on the Navy's rank chart; not in APersP-01, placed with matelot at OR-1.", source: s1 }
+  - { id: fr-navy-matelot, name: Matelot, name_en: Seaman, code: OR-1, group: enlisted, source: s2 }
+  - { id: fr-navy-matelot-brevete, name: Matelot breveté, name_en: Able seaman, code: OR-2, group: enlisted, source: s2 }
+  - { id: fr-navy-quartier-maitre-de-2e-classe, name: Quartier-maître de 2e classe, name_en: Leading seaman, code: OR-3, group: enlisted, source: s2 }
+  - { id: fr-navy-quartier-maitre-de-1re-classe, name: Quartier-maître de 1re classe, name_en: Senior leading seaman, code: OR-4, group: enlisted, source: s2 }
+  - { id: fr-navy-second-maitre, name: Second maître, name_en: Petty officer, code: OR-5, group: nco, source: s2 }
+  - { id: fr-navy-maitre, name: Maître, name_en: Chief petty officer, code: OR-6, group: nco, source: s2 }
+  - { id: fr-navy-premier-maitre, name: Premier maître, name_en: Senior chief petty officer, code: OR-8, group: nco, source: s2 }
+  - { id: fr-navy-maitre-principal, name: Maître principal, name_en: Master chief petty officer, code: OR-9, group: nco, source: s2 }
+  - { id: fr-navy-major, name: Major, name_en: Senior warrant officer, code: OR-9, group: nco, note: "Highest rank of the officiers mariniers, not an officer rank.", source: s2 }
+  - { id: fr-navy-aspirant, name: Aspirant, name_en: Midshipman, code: OF-D, group: officer_cadet, note: "Officially not an officer; APersP-01 places it between OR-9 and OF-1 with officers' prerogatives.", source: s2 }
+  - { id: fr-navy-enseigne-de-vaisseau-de-2e-classe, name: Enseigne de vaisseau de 2e classe, name_en: Ensign, code: OF-1, group: officer, source: s2 }
+  - { id: fr-navy-enseigne-de-vaisseau-de-1re-classe, name: Enseigne de vaisseau de 1re classe, name_en: Sub-lieutenant, code: OF-1, group: officer, source: s2 }
+  - { id: fr-navy-lieutenant-de-vaisseau, name: Lieutenant de vaisseau, name_en: Lieutenant, code: OF-2, group: officer, source: s2 }
+  - { id: fr-navy-capitaine-de-corvette, name: Capitaine de corvette, name_en: Lieutenant commander, code: OF-3, group: officer, source: s2 }
+  - { id: fr-navy-capitaine-de-fregate, name: Capitaine de frégate, name_en: Commander, code: OF-4, group: officer, source: s2 }
+  - { id: fr-navy-capitaine-de-vaisseau, name: Capitaine de vaisseau, name_en: Captain, code: OF-5, group: officer, source: s2 }
+  - { id: fr-navy-contre-amiral, name: Contre-amiral, name_en: Rear admiral, code: OF-6, group: general_flag, source: s2 }
+  - { id: fr-navy-vice-amiral, name: Vice-amiral, name_en: Vice admiral, code: OF-7, group: general_flag, note: "Highest rank in the statutory hierarchy; the two senior flag levels are appointments with rank marks.", source: s2 }
+  - { id: fr-navy-vice-amiral-d-escadre, name: Vice-amiral d'escadre, name_en: Squadron vice admiral, code: OF-8, group: general_flag, note: "A rank mark held by a vice-amiral.", source: s2 }
+  - { id: fr-navy-amiral, name: Amiral, name_en: Admiral, code: OF-9, group: general_flag, note: "A rank mark held by a vice-amiral.", source: s2 }
+sources:
+  - { id: s1, url: "https://lamarinerecrute.gouv.fr/se-projeter/statut-de-marin/les-grades", title: Les grades dans la Marine nationale, publisher: Marine nationale, retrieved: 2026-11-22, kind: government, note: "Rank names read from the page's rank chart image." }
+  - { id: s2, url: "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf", title: "APersP-01 NATO Codes for Grades of Military Personnel, Edition A Version 3 (Annexes B and E, FRA)", publisher: NATO Standardization Office, retrieved: 2026-11-22, kind: government, note: "Third-party copy of the NATO standard that implements STANAG 2116." }

@@ -1,0 +1,43 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: de-air-force
+country: DE
+branch: air_force
+force: Luftwaffe
+force_en: German Air Force
+note: Rank names follow the Federal President's order on rank designations; English names and NATO codes are those the Bundeswehr publishes. Officer candidates are listed at OF-D as in the Bundeswehr career tables.
+ranks:
+  - { id: de-air-force-flieger, name: Flieger, name_en: Basic airman, code: OR-1, group: enlisted, note: "Entry rank; the title can depend on the assignment (e.g. Sanitätssoldat).", source: s1 }
+  - { id: de-air-force-gefreiter, name: Gefreiter, name_en: Airman, code: OR-2, group: enlisted, source: s1 }
+  - { id: de-air-force-obergefreiter, name: Obergefreiter, name_en: Airman first class, code: OR-3, group: enlisted, source: s1 }
+  - { id: de-air-force-hauptgefreiter, name: Hauptgefreiter, name_en: "Airman first class, senior grade", code: OR-3, group: enlisted, source: s1 }
+  - { id: de-air-force-stabsgefreiter, name: Stabsgefreiter, name_en: Senior airman, code: OR-4, group: enlisted, source: s1 }
+  - { id: de-air-force-oberstabsgefreiter, name: Oberstabsgefreiter, name_en: "Senior airman, senior grade", code: OR-4, group: enlisted, source: s1 }
+  - { id: de-air-force-korporal, name: Korporal, name_en: Senior corporal, code: OR-4, group: enlisted, note: "Introduced in 2021 as a senior enlisted rank above Oberstabsgefreiter; no official English designation found.", source: s2 }
+  - { id: de-air-force-stabskorporal, name: Stabskorporal, name_en: Staff corporal, code: OR-4, group: enlisted, note: "Introduced in 2021, the most senior enlisted rank; no official English designation found.", source: s2 }
+  - { id: de-air-force-unteroffizier, name: Unteroffizier, name_en: Sergeant, code: OR-5, group: nco, source: s3 }
+  - { id: de-air-force-stabsunteroffizier, name: Stabsunteroffizier, name_en: Staff sergeant, code: OR-5, group: nco, source: s3 }
+  - { id: de-air-force-feldwebel, name: Feldwebel, name_en: Technical sergeant, code: OR-6, group: nco, source: s4 }
+  - { id: de-air-force-oberfeldwebel, name: Oberfeldwebel, name_en: "Technical sergeant, senior grade", code: OR-6, group: nco, source: s4 }
+  - { id: de-air-force-hauptfeldwebel, name: Hauptfeldwebel, name_en: Master sergeant, code: OR-7, group: nco, source: s4 }
+  - { id: de-air-force-stabsfeldwebel, name: Stabsfeldwebel, name_en: Senior master sergeant, code: OR-8, group: nco, source: s4 }
+  - { id: de-air-force-oberstabsfeldwebel, name: Oberstabsfeldwebel, name_en: Chief master sergeant, code: OR-9, group: nco, source: s4 }
+  - { id: de-air-force-fahnenjunker, name: Fahnenjunker, name_en: Probationary officer cadet, code: OF-D, group: officer_cadet, note: "Bundeswehr career table lists it as 'Student Officer' (OF-D); the same page's text and the insignia page give OR-5. Ranks alongside Unteroffizier.", source: s3 }
+  - { id: de-air-force-faehnrich, name: Fähnrich, name_en: Junior officer cadet, code: OF-D, group: officer_cadet, note: "Career table gives OF-D; the Bundeswehr insignia page gives OR-6. Ranks alongside Feldwebel.", source: s4 }
+  - { id: de-air-force-oberfaehnrich, name: Oberfähnrich, name_en: Senior officer cadet, code: OF-D, group: officer_cadet, note: "Career table gives OF-D; the Bundeswehr insignia page gives OR-7/OR-8. Ranks alongside Hauptfeldwebel.", source: s4 }
+  - { id: de-air-force-leutnant, name: Leutnant, name_en: Second lieutenant, code: OF-1, group: officer, source: s5 }
+  - { id: de-air-force-oberleutnant, name: Oberleutnant, name_en: First lieutenant, code: OF-1, group: officer, source: s5 }
+  - { id: de-air-force-hauptmann, name: Hauptmann, name_en: Captain, code: OF-2, group: officer, note: "Medical officers of this grade are titled Stabsarzt (and corps equivalents).", source: s5 }
+  - { id: de-air-force-stabshauptmann, name: Stabshauptmann, name_en: "Captain, senior grade", code: OF-2, group: officer, source: s5 }
+  - { id: de-air-force-major, name: Major, name_en: Major, code: OF-3, group: officer, source: s5 }
+  - { id: de-air-force-oberstleutnant, name: Oberstleutnant, name_en: Lieutenant colonel, code: OF-4, group: officer, source: s5 }
+  - { id: de-air-force-oberst, name: Oberst, name_en: Colonel, code: OF-5, group: officer, source: s5 }
+  - { id: de-air-force-brigadegeneral, name: Brigadegeneral, name_en: Brigadier general, code: OF-6, group: general_flag, source: s5 }
+  - { id: de-air-force-generalmajor, name: Generalmajor, name_en: Major general, code: OF-7, group: general_flag, source: s5 }
+  - { id: de-air-force-generalleutnant, name: Generalleutnant, name_en: Lieutenant general, code: OF-8, group: general_flag, source: s5 }
+  - { id: de-air-force-general, name: General, name_en: General, code: OF-9, group: general_flag, note: "Highest rank of the Bundeswehr.", source: s5 }
+sources:
+  - { id: s1, url: "https://www.bundeswehr.de/en/about-bundeswehr/ranks-and-careers/dienstgradabzeichen-luftwaffe-1102342", title: Rank insignia of the German Air Force, publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://www.bundeswehr.de/de/ueber-die-bundeswehr/dienstgrade-laufbahnen-bundeswehr/laufbahn-mannschaften", title: Die Laufbahngruppe der Mannschaften in der Bundeswehr, publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.bundeswehr.de/en/about-bundeswehr/ranks-and-careers/junior-noncommissioned-officers", title: Junior Noncommissioned Officers, publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.bundeswehr.de/en/about-bundeswehr/ranks-and-careers/senior-noncommissioned-officers", title: Senior noncommissioned officers, publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.bundeswehr.de/en/about-bundeswehr/ranks-and-careers/officer-careers", title: Officer Careers, publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
