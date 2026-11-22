@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: f-35a
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:RAAF_(A35-009)_Lockheed_Martin_F-35A_Lightning_II_display_at_the_2019_Australian_International_Airshow_(IMG_3022).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/RAAF_%28A35-009%29_Lockheed_Martin_F-35A_Lightning_II_display_at_the_2019_Australian_International_Airshow_%28IMG_3022%29.jpg/1280px-RAAF_%28A35-009%29_Lockheed_Martin_F-35A_Lightning_II_display_at_the_2019_Australian_International_Airshow_%28IMG_3022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: RAAF (A35-009) Lockheed Martin F-35A Lightning II display at the 2019 Australian International Airshow (IMG 3022).jpg
+    caption: Royal Australian Air Force F-35A Lightning II A35-009 on display at the 2019 Australian International Airshow.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Bidgee
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:USAF_F-35A_Lightning_II_Landing_2.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/USAF_F-35A_Lightning_II_Landing_2.jpg/1280px-USAF_F-35A_Lightning_II_Landing_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: USAF F-35A Lightning II Landing 2.jpg
+    caption: U.S. Air Force F-35A Lightning II of the 6th Weapons Squadron landing at Nellis Air Force Base during Aviation Nation 2017.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Noah Wulf
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:F-35_Heritage_Flight_Team_performs_in_Bell_Fort_Worth_Alliance_AirShow.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/F-35_Heritage_Flight_Team_performs_in_Bell_Fort_Worth_Alliance_AirShow.jpg/1280px-F-35_Heritage_Flight_Team_performs_in_Bell_Fort_Worth_Alliance_AirShow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: F-35 Heritage Flight Team performs in Bell Fort Worth Alliance AirShow.jpg
+    caption: F-35A Lightning II of the F-35 Heritage Flight Team performing a vertical climb at the Fort Worth Alliance Air Show, 2018.
+    shows: exact_variant
+    licence: Public domain
+    author: Airman 1st Class Alexander Cook
+    credit: https://www.dvidshub.net/image/4822354/f-35-heritage-flight-team-performs-bell-fort-worth-alliance-airshow
+    priority: A
+    retrieved: 2026-11-22
+note: "#7 is described as an F-35B despite the title saying F-35A, so it was excluded. The Kraków and Japanese photos do not specify the variant. #11 shows the X-35, #13 and #16 show prototypes or test aircraft, #12 is a diagram, and #18 is a mock-up."

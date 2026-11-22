@@ -1,0 +1,35 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: gripen-e
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Swedish_Saab_JAS_39E_Gripen.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Swedish_Saab_JAS_39E_Gripen.jpg/1280px-Swedish_Saab_JAS_39E_Gripen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Swedish Saab JAS 39E Gripen.jpg
+    caption: Swedish Saab JAS 39E Gripen in flight at the Royal International Air Tattoo, RAF Fairford, 2025.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Air Force photo by Airman 1st Class Cody J. A. Mott
+    credit: https://www.dvidshub.net/image/9188196/riat-2025-opening-day
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:SAAB_JAS_39E_Gripen_396034.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/SAAB_JAS_39E_Gripen_396034.jpg/1280px-SAAB_JAS_39E_Gripen_396034.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: SAAB JAS 39E Gripen 396034.jpg
+    caption: Saab JAS 39E Gripen with serial 396034, 2026.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: TunaFish Spotting
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Swedish_Saab_JAS_39E_Gripen_creates_vortices.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Swedish_Saab_JAS_39E_Gripen_creates_vortices.jpg/1280px-Swedish_Saab_JAS_39E_Gripen_creates_vortices.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Swedish Saab JAS 39E Gripen creates vortices.jpg
+    caption: Swedish Saab JAS 39E Gripen creating vortices as it climbs at the Royal International Air Tattoo, 2025.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Air Force photo by Airman 1st Class Cody J. A. Mott
+    credit: https://www.dvidshub.net/image/9188184/riat-2025-opening-day
+    priority: A
+    retrieved: 2026-11-22
+note: "#9–11 are titled JAS-39E but their descriptions say JAS-39C, so they were skipped. #12–13 have conflicting titles (39C) and descriptions (39E), so they were also skipped. #14/15 are plausible 39E alternates. The workshop photos (#20–24) likely show presentations or mock-ups."

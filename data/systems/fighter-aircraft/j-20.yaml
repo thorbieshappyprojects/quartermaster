@@ -1,0 +1,71 @@
+id: j-20
+category: fighter-aircraft
+name: "J-20"
+variant_note: "Baseline single-seat J-20 (AL-31FM2 early batches, WS-10C later batches); figures are public estimates for the J-20 family"
+family: "J-20"
+aliases: ["Weilong", "Mighty Dragon", "Fagin"]
+manufacturer: { name: "Chengdu Aircraft Industry Group (CAIG)" }
+origin: CN
+role: "Twin-engine, single-seat stealth fighter for air superiority and long-range interception, with secondary strike capability."
+memorable_fact: { text: "When the J-20 entered service, it was only the third true stealth fighter to become operational anywhere in the world.", source: s1 }
+status: in_production
+in_service_since:
+  value: 2017
+  source: s2
+  confidence: medium
+  note: "Service entry of the base J-20. Mitchell Institute gives IOC 2017 and The Defense Post gives service entry in 2017. The War Zone (s1) puts service entry in late 2016. The J-20A and the two-seat J-20S came later."
+units_built:
+  value: 500
+  source: s1
+  confidence: low
+  range: { min: 300, max: 500 }
+  note: "Covers the whole family (J-20, J-20A, J-20S). The War Zone estimates that about 500 had likely been delivered by mid-2026. It also cites RUSI's estimate of about 300 in service by late 2025, and Janes counted about 195 inducted by May 2024. The War Zone says 4 of 14 frontline units have switched to the J-20A, so the baseline J-20 is still the most widely fielded version. There is no official figure."
+combat_use: { text: "No confirmed combat use as of 2026.", source: s4 }
+specs:
+  max_speed:
+    value: 2.0
+    source: s2
+    confidence: low
+    note: "Mitchell Institute lists Mach 2. Defence Security Asia (s5) also gives Mach 2.0. No official figure."
+  combat_radius:
+    value: 2000
+    source: s3
+    confidence: medium
+    range: { min: 1100, max: 2000 }
+    note: "The Australian Army DATE reference page gives a combat radius of 2,000 km. That page is a training-environment threat reference, not a Chinese figure. Mitchell Institute (s2) lists a 'combat range' of 1,080 nm (about 2,000 km). TheDefenseWatch (s7) gives a combat radius of 1,100 km."
+  service_ceiling:
+    value: 20000
+    source: s2
+    confidence: low
+    range: { min: 18000, max: 20000 }
+    note: "Mitchell Institute gives 65,617 ft, which converts to 20,000 m. Defence Security Asia (s5) and TheDefenseWatch (s7) also give 20,000 m. A pre-service 2011 Airforce Technology page (s6) gives 18,000 m."
+  max_takeoff_weight:
+    value: 37.0
+    source: s2
+    confidence: low
+    range: { min: 35.0, max: 37.0 }
+    note: "Mitchell Institute gives 81,600 lb, which converts to 37.0 t. Defence Security Asia (s5) and TheDefenseWatch (s7) give 37,000 kg. The early Airforce Technology page (s6) gives 35,000 kg."
+  thrust:
+    value: 294
+    source: s5
+    confidence: low
+    range: { min: 284, max: 294 }
+    note: "Total afterburning thrust for two WS-10C engines, which Defence Security Asia reports at 142–147 kN each. The displayed value is the upper figure (2 × 147 kN). The early-batch AL-31FM2 engines were similar in thrust. The J-20A uses WS-15 engines and is not covered here."
+  hardpoints:
+    value: 4
+    source: s7
+    confidence: low
+    range: { min: 4, max: 8 }
+    note: "4 external wing hardpoints, for non-stealth use, plus internal weapons bays (one main and two side bays). A pre-service 2011 Airforce Technology projection (s6) said eight."
+operators:
+  - { country: CN, force: "People's Liberation Army Air Force", state: in_service, quantity: null, source: s1 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No reliable public unit price or contract value found. The aircraft is not exported and Chinese procurement contracts are not published." }
+peers: [f-35a, su-35s, eurofighter-typhoon]
+sources:
+  - { id: s1, url: "https://www.twz.com/air/how-many-j-20-stealth-fighters-does-china-actually-have", title: "How Many J-20 Mighty Dragon Fighters Does China Actually Have?", publisher: "The War Zone (TWZ)", retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.mitchellaerospacepower.org/weapons/j-20/", title: "J-20", publisher: "Mitchell Institute for Aerospace Studies", retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://date.army.gov.au/equipment/j-20", title: "J 20", publisher: "Australian Army (Decisive Action Training Environment)", retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://thedefensepost.com/2026/07/26/j-20-guide/", title: "J-20 Mighty Dragon: China's Fifth-Gen Stealth Fighter Explained", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://defencesecurityasia.com/en/inside-china-j20-revolution-300-stealth-fighters-challenge-f22-f35/", title: "Inside China's J-20 Revolution: 300 Stealth Fighters Now Challenge the F-22 and F-35", publisher: "Defence Security Asia", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.airforce-technology.com/projects/chengdu-j20/", title: "Chengdu J-20 Multirole Stealth Fighter Aircraft - Airforce Technology", publisher: "Airforce Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://thedefensewatch.com/defense-systems/chengdu-j-20-mighty-dragon-stealth-fighter/", title: "J-20 Mighty Dragon - Full Specifications", publisher: "TheDefenseWatch.com", retrieved: 2026-11-22, kind: other }

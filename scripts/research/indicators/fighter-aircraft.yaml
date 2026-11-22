@@ -1,0 +1,13 @@
+id: fighter-aircraft
+name: Fighter aircraft
+domain: Air combat
+wave: 3
+indicators:
+  - { id: max_speed, label: Max. speed, unit: Mach, trump: higher_wins, decimals: 2 }
+  - { id: combat_radius, label: Combat radius, unit: km, trump: higher_wins }
+  - { id: service_ceiling, label: Service ceiling, unit: m, trump: higher_wins }
+  - { id: max_takeoff_weight, label: Max. take-off weight, unit: t, trump: higher_wins, decimals: 1 }
+  - { id: thrust, label: Total thrust (with afterburner), unit: kN, trump: higher_wins, decimals: 1 }
+  - { id: thrust_to_weight, label: Thrust per tonne MTOW, unit: kN/t, trump: higher_wins, decimals: 2,
+      derived: { op: divide, numerator: thrust, denominator: max_takeoff_weight } }
+  - { id: hardpoints, label: Hardpoints, unit: "", trump: higher_wins }

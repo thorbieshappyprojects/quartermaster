@@ -1,0 +1,67 @@
+id: rafale-f4
+category: fighter-aircraft
+name: "Rafale F4"
+variant_note: "F4 standard (F4.1 qualified 2023); airframe/performance data are Rafale family figures"
+family: "Rafale"
+aliases: ["Rafale F4.1", "Dassault Rafale F4"]
+manufacturer: { name: "Dassault Aviation" }
+production_sites:
+  - { place: "Mérignac", country: FR, source: s12 }
+origin: FR
+role: "Twin-engine multirole combat aircraft for air superiority, ground attack, reconnaissance and nuclear deterrence, with F4 networked-combat upgrades."
+memorable_fact: { text: "The F4 standard added the Thales Scorpion helmet-mounted display, the MICA NG missile and the 1,000 kg AASM Hammer bomb; the first F4 jet reached the French Air and Space Force in March 2023.", source: s4 }
+status: in_production
+in_service_since:
+  value: 2023
+  source: s4
+  confidence: medium
+  note: "Year the variant entered service: the first F4.1-standard Rafale went to the Air Warfare Centre (CEAM) at Mont-de-Marsan on 2 March 2023. The DGA qualified the F4.1 standard on 13 March 2023 (s5). The base Rafale entered service with the French Navy in 2004 and the Air Force in 2006 (s6)."
+units_built:
+  value: 300
+  source: s6
+  confidence: high
+  note: "Rafale family, all standards: Dassault said its 300th Rafale was completed in early October 2025. StratPost (s7) works out about 313 deliveries by 31 Dec 2025. No public F4-only figure exists, because French jets are being upgraded to F4 as well as built new."
+combat_use: { text: "The Rafale family has been used in combat over Libya (2011), Mali (2013), Iraq and Syria, and against Iranian drones in 2024. The sources reviewed do not say which combat use involved F4-standard aircraft.", source: s15 }
+specs:
+  max_speed: { value: 1.8, source: s1, confidence: high, note: "Manufacturer figure: M 1.8 / 750 kt (Rafale family)." }
+  combat_radius: { value: 1850, source: s14, confidence: low, range: { min: 1000, max: 1852 }, note: "No manufacturer or government figure. Military Factory gives 1,000 nmi (about 1,852 km), shown rounded to 1,850 km. Other secondary sources give 1,000 to 1,850 km (s17). Mission profile not stated." }
+  service_ceiling: { value: 15240, source: s1, confidence: high, note: "Converted from the manufacturer figure of 50,000 ft." }
+  max_takeoff_weight: { value: 24.5, source: s1, confidence: high, note: "Manufacturer figure: 24.5 t (54,000 lb)." }
+  thrust: { value: 147, source: s2, confidence: high, note: "Two Safran M88 engines, 7.5 tonnes-force each with afterburner (s1, s2), converted: 2 x 73.5 kN = about 147 kN." }
+  hardpoints: { value: 14, source: s1, confidence: high, note: "Manufacturer figure: 14 store stations in total, 5 of them heavy/wet. The naval version has 13." }
+operators:
+  - { country: FR, force: "French Air and Space Force", state: in_service, quantity: null, source: s8 }
+  - { country: ID, force: "Indonesian Air Force", state: in_service, quantity: 42, source: s12 }
+  - { country: AE, force: "UAE Air Force and Air Defence", state: ordered, quantity: 80, source: s10 }
+  - { country: IN, force: "Indian Air Force", state: evaluating, quantity: 114, source: s16 }
+cost:
+  value: 119000000
+  currency: EUR
+  price_year: 2023
+  basis: contract_per_unit
+  source: s9
+  confidence: low
+  range: { min: 119000000, max: 200000000 }
+  note: "French tranche 5 contract (December 2023): 42 F4 aircraft for 'more than EUR 5 billion' (s9), so about EUR 119m per aircraft at minimum. The UAE contract for 80 F4s at about EUR 16bn works out to about EUR 200m each (s11). Export packages include support and weapons. Confidence is low because the French total is only a lower bound."
+contracts:
+  - { customer: "France / Air and Space Force (tranche 5)", year: 2023, quantity: 42, value: 5000000000, currency: EUR, note: "Single-seat F4 aircraft ordered by the DGA at the end of December 2023 (s8). Value reported as 'more than EUR 5 billion' (s9). Deliveries planned 2027-2032.", source: s9 }
+  - { customer: "United Arab Emirates", year: 2021, quantity: 80, value: 16000000000, currency: EUR, note: "First export customer for the F4 (s10). Value for the aircraft package; other reports give USD 16-19bn, some including 12 H225M helicopters.", source: s11 }
+  - { customer: "Indonesia / Air Force", year: 2022, quantity: 42, value: 8100000000, currency: EUR, note: "Framework agreed February 2022; firm orders of 6 (2022), 18 (2023) and 18 (2024) (s12). First three aircraft arrived 23 January 2026. Value 'roughly EUR 8.1 billion'.", source: s13 }
+peers: [eurofighter-typhoon, f-35a, gripen-e]
+sources:
+  - { id: s1, url: "https://www.dassault-aviation.com/en/defense/rafale/specifications-and-performance-data/", title: "Rafale specifications and performance data", publisher: "Dassault Aviation", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://web.safran-group.com/safran-on-board/en/rafale.html", title: "Safran's contribution to the Rafale (Dassault Aviation)", publisher: "Safran", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.defensenews.com/global/europe/2023/03/07/french-air-force-receives-first-of-upgraded-rafale-f4-fighter-aircraft/", title: "French Air Force receives first of upgraded Rafale F4 fighter aircraft", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.edrmagazine.eu/france-the-rafale-qualified-to-the-f4-1-standard-by-the-directorate-general-of-armaments", title: "France: the Rafale qualified to the F4.1 standard by the Directorate General of Armaments", publisher: "EDR Magazine", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.dassault-aviation.com/en/group/press/press-kits/delivery-of-the-300th-rafale/", title: "Delivery of the 300th Rafale - Press kits", publisher: "Dassault Aviation", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s7, url: "https://stratpost.com/dassault-delivers-26-rafale-fighters-in-2025/", title: "Dassault Delivers 26 Rafale Fighters in 2025", publisher: "StratPost", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.globenewswire.com/news-release/2024/01/12/2808643/0/en/dassault-aviation-receives-an-order-for-42-rafales-for-the-french-air-and-space-force.html", title: "Dassault Aviation receives an order for 42 Rafales for the French Air and Space Force", publisher: "Dassault Aviation (via GlobeNewswire)", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s9, url: "https://theaviationist.com/2024/01/16/france-orders-new-rafale-f4-fighters/", title: "France Orders New Rafale F4 Fighters", publisher: "The Aviationist", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.overtdefense.com/2021/12/03/united-arab-emirates-becomes-first-export-rafale-f4-customer/", title: "United Arab Emirates Becomes First Export Rafale F4 Customer", publisher: "Overt Defense", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://warwingsdaily.com/the-cost-of-the-rafale-why-does-it-vary-between-orders/", title: "The cost of the Rafale: why does it vary between orders?", publisher: "War Wings Daily", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://euro-sd.com/2026/01/major-news/48920/indonesia-gets-first-rafales/", title: "Indonesian Air Force receives its first three Rafales", publisher: "European Security & Defence", retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://migflug.com/afterburner/indonesia-first-dassault-rafale-delivery/", title: "Indonesia Rafale Delivery: Three Down, 39 to Go", publisher: "MiGFlug", retrieved: 2026-11-22, kind: other }
+  - { id: s14, url: "https://www.militaryfactory.com/aircraft/detail.php?aircraft_id=60", title: "Dassault Rafale 4th Generation Multirole Fighter Aircraft", publisher: "Military Factory", retrieved: 2026-11-22, kind: reference }
+  - { id: s15, url: "https://www.flyajetfighter.com/the-rafales-real-capabilities-in-high-intensity-conflict/", title: "The Rafale's real capabilities in high-intensity conflict", publisher: "Fly a Jet Fighter", retrieved: 2026-11-22, kind: other }
+  - { id: s16, url: "https://www.theweek.in/news/defence/2026/07/13/rafale-fighter-jet-gets-major-electronic-warfare-upgrade-as-india-eyes-114-customised-f4-fighters.html", title: "Rafale fighter jet gets major electronic warfare upgrade as India eyes 114 customised F4 fighters", publisher: "The Week", retrieved: 2026-11-22, kind: press }
+  - { id: s17, url: "https://thedefensewatch.com/defense-systems/dassault-rafale-fighter-jet/", title: "Rafale Fighter Jet", publisher: "The Defense Watch", retrieved: 2026-11-22, kind: other }

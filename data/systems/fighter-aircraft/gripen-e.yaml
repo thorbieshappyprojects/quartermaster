@@ -1,0 +1,46 @@
+id: gripen-e
+category: fighter-aircraft
+name: Gripen E
+variant_note: Single-seat JAS 39E (F-39E in Brazil); key data per Saab, Gripen F two-seater shares most values
+family: JAS 39 Gripen
+aliases: [JAS 39E Gripen, F-39E Gripen]
+manufacturer: { name: Saab AB }
+production_sites:
+  - { place: Linköping, country: SE, source: s2 }
+  - { place: Gavião Peixoto, country: BR, source: s5 }
+origin: SE
+role: Single-engine multirole fighter for air-to-air, air-to-surface and reconnaissance missions.
+memorable_fact: { text: "The first Gripen E assembled in Brazil, rolled out by Embraer at Gavião Peixoto in March 2026, was the first supersonic aircraft manufactured in Latin America.", source: s5 }
+status: in_production
+in_service_since: { value: 2025, source: s4, confidence: medium, note: "Year the Swedish Air Force formally received its first Gripen E (20 October 2025, the first of 60 ordered). Brazil's air force operated F-39E aircraft before this, but no checked source gave its service-entry date, so confidence is medium." }
+units_built: { value: null, source: null, confidence: null, note: "No public cumulative production or delivery total for Gripen E/F was found." }
+specs:
+  max_speed: { value: 2, source: s2, confidence: high, note: "Saab gives 'Maximum speed: Mach 2'. ESD (s3) gives 2,100 km/h at 15,240 m." }
+  combat_radius: { value: null, source: null, confidence: null, note: "Saab does not publish a combat radius. Press figures conflict (800 to 1,800 km) and often give combat range rather than radius, so no value is shown." }
+  service_ceiling: { value: 16000, source: s2, confidence: medium, range: { min: 15850, max: 16000 }, note: "Saab gives 'more than 16 thousand meters', a lower bound, which is shown. ESD (s3) gives 52,000 ft, about 15,850 m." }
+  max_takeoff_weight: { value: 16.5, source: s1, confidence: high, note: "Saab: 16,500 kg." }
+  thrust: { value: 98, source: s1, confidence: high, note: "Single GE F414-GE-39E engine. Saab gives a maximum thrust of 98 kN. ESD (s3) gives 64 kN dry and 98 kN with afterburner." }
+  hardpoints: { value: 10, source: s1, confidence: high }
+operators:
+  - { country: SE, force: Swedish Air Force, state: in_service, quantity: 60, source: s4 }
+  - { country: BR, force: Brazilian Air Force, state: in_service, quantity: 36, source: s2 }
+  - { country: CO, force: Colombian Aerospace Force, state: ordered, quantity: 17, source: s6 }
+  - { country: TH, force: Royal Thai Air Force, state: ordered, quantity: 4, source: s7 }
+  - { country: UA, force: Ukrainian Air Force, state: ordered, quantity: 16, source: s8 }
+cost: { value: 182350000, currency: EUR, price_year: 2025, basis: contract_per_unit, source: s6, confidence: medium, note: "Colombia contract of November 2025: EUR 3.1 billion for 17 Gripen E/F (15 E, 2 F) divided by 17 aircraft. Press reports say the contract also covers equipment and weapons. Other contracts per aircraft: Thailand 2025, about SEK 1.3 billion (including equipment, support and training); Brazil 2014, about SEK 1.09 billion (including logistics support, weapons and simulators)." }
+contracts:
+  - { customer: Brazil / Brazilian Air Force, year: 2014, quantity: 36, value: 39300000000, currency: SEK, note: "28 Gripen E and 8 Gripen F, signed 27 October 2014. Value includes logistics support, weapons and simulators; 15 aircraft are to be assembled in Brazil.", source: s2 }
+  - { customer: Colombia / Colombian Aerospace Force, year: 2025, quantity: 17, value: 3100000000, currency: EUR, note: "15 Gripen E and 2 Gripen F, to be delivered 2026-2032.", source: s6 }
+  - { customer: Thailand / Royal Thai Air Force, year: 2025, quantity: 4, value: 5300000000, currency: SEK, note: "3 Gripen E and 1 Gripen F, ordered through Sweden's defence procurement agency (FMV) on 25 August 2025, including equipment, support and training. A separate offset agreement was also signed.", source: s9 }
+  - { customer: Ukraine, year: 2026, quantity: 16, value: 2500000000, currency: USD, note: "Reported by Breaking Defense as a USD 2.5 billion acquisition of 16 Gripen E signed with Saab in July 2026. Single trade-press source.", source: s8 }
+peers: [f-16-block-70, rafale-f4, f-35a]
+sources:
+  - { id: s1, url: "https://www.saab.com/products/gripen-e-series", title: "Gripen E-series | Saab", publisher: Saab, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.saab.com/globalassets/markets/brazil/4.-gripen/brochures/success-of-a-true-collaboration.pdf", title: "GRIPEN E/F Success of a True Collaboration - The Brazilian Fighter", publisher: Saab, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://euro-sd.com/2025/10/major-news/47338/swaf-accepts-first-gripen-e/", title: "Swedish Air Force accepts its first Gripen E into service", publisher: European Security & Defence, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.regeringen.se/artiklar/2025/10/den-forsta-av-60-jas-39-gripen-e-har-levererats-till-forsvarsmakten/", title: "Den första av 60 Jas 39 Gripen E har levererats till Försvarsmakten", publisher: Government of Sweden (Regeringskansliet), retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://aviationweek.com/defense/budget-policy-operations/embraer-unveils-first-f-39e-gripen-assembled-brazil", title: "Embraer Unveils First F-39E Gripen Assembled In Brazil", publisher: Aviation Week, retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://news.cision.com/saab/r/saab-signs-contract-for-gripen-e-f-with-colombia,c4267619", title: "Saab signs contract for Gripen E/F with Colombia", publisher: Saab, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s7, url: "https://news.cision.com/saab/r/saab-receives-gripen-e-f-order-for-thailand,c4222029", title: "Saab receives Gripen E/F order for Thailand", publisher: Saab, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s8, url: "https://breakingdefense.com/2026/07/sweden-eyes-additional-batch-of-gripen-e-jets-to-replace-ukraine-bound-aircraft/", title: "Sweden eyes additional batch of Gripen E jets to replace Ukraine-bound aircraft", publisher: Breaking Defense, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.asianmilitaryreview.com/2025/08/thailand-inks-deal-for-first-quartet-of-gripen-e-f-fighters-foc/", title: "Thailand inks deal for first quartet of Gripen E/F fighters", publisher: Asian Military Review, retrieved: 2026-11-22, kind: press }

@@ -1,5 +1,5 @@
 {
-  "spentUsd": 106.3106,
+  "spentUsd": 114.0063,
   "entries": [
     {
       "date": "2026-11-21",
@@ -2047,6 +2047,126 @@
       "usd": 0.0164,
       "input": 2909,
       "output": 237,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "fighter-aircraft/_category",
+      "usd": 0.7773,
+      "input": 755824,
+      "output": 9558,
+      "searches": 10
+    },
+    {
+      "date": "2026-11-22",
+      "item": "fighter-aircraft/f-35a",
+      "usd": 1.0057,
+      "input": 715518,
+      "output": 21909,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "fighter-aircraft/eurofighter-typhoon",
+      "usd": 0.7736,
+      "input": 519591,
+      "output": 13501,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "fighter-aircraft/rafale-f4",
+      "usd": 0.788,
+      "input": 485028,
+      "output": 13784,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "fighter-aircraft/f-16-block-70",
+      "usd": 1.7745,
+      "input": 2866587,
+      "output": 17214,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "fighter-aircraft/gripen-e",
+      "usd": 0.7994,
+      "input": 543182,
+      "output": 13775,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "fighter-aircraft/su-35s",
+      "usd": 0.8241,
+      "input": 667605,
+      "output": 12496,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "fighter-aircraft/j-20",
+      "usd": 0.8057,
+      "input": 607811,
+      "output": 10133,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/eurofighter-typhoon",
+      "usd": 0.0267,
+      "input": 3353,
+      "output": 662,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/f-16-block-70",
+      "usd": 0.0236,
+      "input": 4274,
+      "output": 324,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/f-35a",
+      "usd": 0.0206,
+      "input": 3524,
+      "output": 327,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/gripen-e",
+      "usd": 0.021,
+      "input": 3726,
+      "output": 304,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/j-20",
+      "usd": 0.0155,
+      "input": 2743,
+      "output": 228,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/rafale-f4",
+      "usd": 0.019,
+      "input": 3563,
+      "output": 237,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/su-35s",
+      "usd": 0.021,
+      "input": 3686,
+      "output": 315,
       "searches": 0
     }
   ]

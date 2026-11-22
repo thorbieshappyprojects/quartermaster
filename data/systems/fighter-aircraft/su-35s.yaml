@@ -1,0 +1,50 @@
+id: su-35s
+category: fighter-aircraft
+name: Su-35S
+variant_note: Russian Aerospace Forces production standard (T-10BM); specs are published Su-35 data
+family: Su-27 (Flanker)
+aliases: [Su-35, Flanker-E, T-10BM]
+manufacturer: { name: "Sukhoi (United Aircraft Corporation)" }
+production_sites:
+  - { place: Komsomolsk-on-Amur, country: RU, source: s1 }
+origin: RU
+role: Single-seat, twin-engine multirole fighter with thrust-vectoring engines, used for air superiority and precision strike against ground and surface targets.
+memorable_fact: { text: "The Su-35 is a deep modernisation of the Su-27 rather than a new design; the modernised version first flew in 2008, and UAC calls it a '4++' generation aircraft.", source: s2 }
+status: in_production
+in_service_since: { value: 2014, source: s1, confidence: medium, note: "Year this variant entered service: the first 12 Su-35S went to the 23rd Fighter Aviation Regiment at Dzemgi on 12 February 2014. According to the same TASS report, Russia's Ministry of Industry and Trade said in September 2017 that the type had been formally accepted into service." }
+units_built: { value: 150, source: s10, confidence: low, note: "Trade-press estimate of 'over 150' Su-35S delivered to the Russian Aerospace Forces since 2014; this is a lower bound. Export aircraft (24 for China, plus later deliveries to Algeria and Ethiopia) are not included. UAC does not give batch sizes, so no official total exists." }
+combat_use: { text: "Used in Russia's campaign in Syria from 2015 and in the war against Ukraine from 2022, where the Russian MoD showed it intercepting air targets and striking air defence systems.", source: s11 }
+specs:
+  max_speed: { value: 2.25, source: s3, confidence: low, range: { min: 2.25, max: 2.35 }, note: "Airforce Technology gives 2,390 km/h (Mach 2.25); TASS (s1) gives 2,500 km/h (Mach 2.35). No manufacturer figure was found; the more conservative and more often cited value is shown." }
+  combat_radius: { value: 1600, source: s4, confidence: low, note: "About 1,600 km per Key Military and Army Recognition (s5); no mission profile is given and the manufacturer does not publish a radius. Other outlets give much larger and inconsistent figures." }
+  service_ceiling: { value: 18000, source: s1, confidence: medium, note: "18,000 m per TASS; Airforce Technology (s3) gives the same figure." }
+  max_takeoff_weight: { value: 34.5, source: s1, confidence: medium, note: "34,500 kg per TASS; Airforce Technology (s3) and Jamestown (s11) give the same figure." }
+  thrust: { value: 284.4, source: s3, confidence: medium, note: "2 x 142.2 kN with afterburner (AL-41F1S / izdeliye 117S); TASS (s1) gives 14,500 kgf per engine, which is the same thrust." }
+  hardpoints: { value: 12, source: s1, confidence: medium, note: "12 stores stations, up to 8 t of weapons, per TASS; Airforce Technology (s3) also lists 12." }
+operators:
+  - { country: RU, force: Russian Aerospace Forces, state: in_service, quantity: null, source: s8 }
+  - { country: CN, force: People's Liberation Army Air Force, state: in_service, quantity: 24, source: s5 }
+  - { country: DZ, force: Algerian Air Force, state: in_service, quantity: null, source: s12 }
+  - { country: ET, force: Ethiopian Air Force, state: in_service, quantity: null, source: s14 }
+  - { country: IR, force: Islamic Republic of Iran Air Force, state: ordered, quantity: null, source: s16 }
+cost: { value: 83300000, currency: USD, price_year: 2015, basis: contract_per_unit, source: s6, confidence: medium, note: "2015 contract with China: about USD 2 billion for 24 aircraft (about USD 83.3 million each); TASS gives an estimated unit cost of USD 83-85 million. The contract-level value may include support items." }
+contracts:
+  - { customer: Russia / Air Force, year: 2009, quantity: 48, value: 66000000000, currency: RUB, note: "First Su-35S contract; all 48 aircraft built by end of 2015.", source: s9 }
+  - { customer: Russia / Aerospace Forces, year: 2015, quantity: 50, value: 100000000000, currency: RUB, note: "Second contract, signed December 2015; deliveries completed by 2020 (s8).", source: s9 }
+  - { customer: China / PLAAF, year: 2015, quantity: 24, value: 2000000000, currency: USD, note: "First export contract; the value is a reported estimate ('topping USD 2 billion'). Deliveries 2016-2018 (s7, s1).", source: s6 }
+peers: [eurofighter-typhoon, rafale-f4, f-16-block-70]
+sources:
+  - { id: s1, url: "https://www.aviaport.ru/news/684689/", title: "Многоцелевой истребитель Су-35. История и характеристики", publisher: "TASS (via AviaPort)", retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://uacrussia.ru/en/aircraft/lineup/military/su-35/", title: "UAC :: Su-35", publisher: "United Aircraft Corporation", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.airforce-technology.com/projects/su-35/", title: "Su-35 Flanker-E Multirole Fighter", publisher: "Airforce Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.keymilitary.com/article/best-breed", title: "Best in breed", publisher: "Key Military", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.armyrecognition.com/archives/archives-aerospace-defense/aerospace-defense-2018/su-35s-fighter-jets-officially-entered-service-with-plaaf", title: "Su-35S fighter jets officially entered service with PLAAF", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://tass.com/defense/837662", title: "Russia inks contract with China on Su-35 deliveries", publisher: "TASS", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.defensenews.com/air/2017/01/09/china-receives-first-advanced-su-35-flankers-from-russia/", title: "China Receives First Advanced Su-35 Flankers From Russia", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.airdatanews.com/russia-receives-more-su-35-s-fighters-but-how-many-have-been-delivered/", title: "Russia receives more Su-35S fighters, but how many have been delivered?", publisher: "Air Data News", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://militarnyi.com/en/news/uac-transfers-first-su-35s-batch-to-russian-aerospace-forces-in-2026/", title: "UAC Transfers First Su-35S Batch to Russian Aerospace Forces in 2026", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://militarywatchmagazine.com/article/russian-air-force-new-batch-su35-fighters", title: "Russian Air Force Receives New Batch of Su-35 Air Superiority Fighters Following Expansion of Production", publisher: "Military Watch Magazine", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://jamestown.substack.com/p/rosoboronexports-international-arms", title: "Rosoboronexport's International Arms Sales Status Uncertain", publisher: "Jamestown Foundation", retrieved: 2026-11-22, kind: reference }
+  - { id: s12, url: "https://www.iiss.org/online-analysis/military-balance/2025/04/felon-outflanked", title: "Felon outflanked?", publisher: "IISS Military Balance", retrieved: 2026-11-22, kind: reference }
+  - { id: s14, url: "https://tass.com/defense/2209487", title: "Rosoboronexport delivers first batch of Su-35 fighter jets to Ethiopian Air Force", publisher: "TASS", retrieved: 2026-11-22, kind: press }
+  - { id: s16, url: "https://theins.press/en/news/299063", title: "Iran says Russian Su-35 fighter jets will arrive only after war with U.S. ends", publisher: "The Insider", retrieved: 2026-11-22, kind: press }

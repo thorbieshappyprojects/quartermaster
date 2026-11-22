@@ -1,0 +1,128 @@
+# Indicators: scripts/research/indicators/fighter-aircraft.yaml. Category card researched 2026-11-22.
+id: fighter-aircraft
+name: Fighter aircraft
+domain: Air combat
+wave: 3
+indicators:
+  - id: max_speed
+    label: Max. speed
+    unit: Mach
+    trump: higher_wins
+    decimals: 2
+  - id: combat_radius
+    label: Combat radius
+    unit: km
+    trump: higher_wins
+  - id: service_ceiling
+    label: Service ceiling
+    unit: m
+    trump: higher_wins
+  - id: max_takeoff_weight
+    label: Max. take-off weight
+    unit: t
+    trump: higher_wins
+    decimals: 1
+  - id: thrust
+    label: Total thrust (with afterburner)
+    unit: kN
+    trump: higher_wins
+    decimals: 1
+  - id: thrust_to_weight
+    label: Thrust per tonne MTOW
+    unit: kN/t
+    trump: higher_wins
+    decimals: 2
+    derived:
+      op: divide
+      numerator: thrust
+      denominator: max_takeoff_weight
+  - id: hardpoints
+    label: Hardpoints
+    unit: ""
+    trump: higher_wins
+category_card:
+  summary: Fighter aircraft are fast, manoeuvrable fixed-wing combat aircraft built mainly to gain and keep control of the air by engaging enemy aircraft and missiles, and most current types are multirole aircraft that can also attack targets on the ground. In-service fleets include fourth-generation aircraft and fifth-generation low-observable aircraft. Sixth-generation crewed fighters and uncrewed collaborative combat aircraft are in development.
+  purpose:
+    - text: In US Air Force counterair doctrine, fighters fly sweep missions to find and destroy enemy aircraft and escort missions to protect other aircraft, including high-value airborne assets, to gain local or theatre air superiority.
+      source: s1
+    - text: Air forces such as Israel's treat air superiority as a precondition for other operations; in 2025 Israel gained it over Iran in under four days, which let its aircraft operate freely, while Russia has not achieved it over Ukraine.
+      source: s2
+    - text: In Ukraine, fighters are used mostly for air defence against massed cruise missile and one-way attack drone raids, and also make stand-off strikes on battlefield targets with glide bombs.
+      source: s7
+  strengths:
+    - text: "Multirole flexibility: Ukraine's F-16s are assessed as its most flexible and effective fighters across all mission types, including air defence, suppression of air defences with AGM-88 HARM and glide-bomb attacks."
+      source: s7
+    - text: Fifth-generation aircraft combine stealth with large computing power; in 2025 Israeli F-35Is flew ahead of F-15I/F-16I strike packages in a reconnaissance role, which made the older aircraft more effective.
+      source: s2
+    - text: Stand-off weapons let fighters deliver heavy firepower without entering defended airspace; Russian Su-34s release guided glide bombs from at least 60 km, and up to 130 km in some conditions, while staying under their own air defence cover.
+      source: s3
+  weaknesses:
+    - text: "Cost and production speed: unit cost has historically risen more than tenfold every 20 years, the next US fighter is expected to cost several hundred million dollars per aircraft, and F-35s arrive two to three years after they are ordered."
+      source: s5
+    - text: Older non-stealth fighters such as the F-16, Rafale and Typhoon may not be able to enter airspace defended by capable Russian air defences without significant risk, and air defences have pushed crewed aircraft to stand-off distances that reduce their effectiveness.
+      source: s4
+    - text: "Fighters depend on vulnerable bases and support aircraft: a significant share of Russian aircraft losses have been on the ground from drone and ATACMS strikes on airbases, and Chinese missiles can threaten tankers and forward air bases 1,000 km or more away."
+      source: s3
+    - text: Airframe hours and missiles are limited; using fighters against cheap drones has used up an unsustainable number of flying hours and air-to-air missiles, and airframes need deep factory maintenance after a set number of hours.
+      source: s7
+  counters:
+    - text: "Ground-based integrated air defence systems: Russia's surface-to-air missile coverage, several hundred batteries that are still being produced and upgraded, remains the main threat to NATO air power in Europe."
+      source: s3
+    - text: "Dispersed, mobile air defences: Ukraine prevented Russia from gaining air superiority by moving and dispersing its SAM units, using shoot-and-scoot tactics, and switching radars on and off to defeat anti-radiation missiles."
+      source: s2
+    - text: Opposing fighters with long-range air-to-air missiles, working with early-warning aircraft and SAMs; examples are Russian Su-35S fleets armed mainly with R-37M missiles and China's fast-growing J-20 and J-16 fleets armed with PL-15 and PL-17 missiles.
+      source: s3
+    - text: "Attacks on the ground: counterair doctrine targets enemy airfields, runways, fuel, launch sites and command and control to stop enemy aircraft from operating."
+      source: s1
+  trends:
+    - text: Sixth-generation fighters are being designed for greater range, speed, payload and stealth against both radar and infrared sensors, with all-round sensor fusion; low-speed dogfighting performance is a lower priority.
+      source: s6
+    - text: Crewed fighters are being teamed with uncrewed collaborative combat aircraft; the US Air Force plans to field thousands of cheaper autonomous aircraft to add combat capacity without the cost of more crewed fighters.
+      source: s5
+    - text: Air forces are adopting cheaper weapons for intercepting drones; Ukrainian F-16 pilots use the 20 mm cannon and APKWS II laser-guided rockets against drones to save air-to-air missiles for cruise missiles.
+      source: s7
+    - text: The war in Ukraine suggests that low-observable aircraft such as the F-35, paired with electronic warfare, may be essential to gain air superiority over capably defended territory, and it may push NATO allies to invest more in uncrewed and penetrating technologies.
+      source: s4
+sources:
+  - id: s1
+    url: https://www.doctrine.af.mil/Portals/61/documents/AFDP_3-01/3-01-AFDP-COUNTERAIR.pdf
+    title: Air Force Doctrine Publication 3-01, Counterair Operations (15 June 2023)
+    publisher: US Air Force, Curtis E. LeMay Center for Doctrine Development and Education
+    retrieved: 2026-11-22
+    kind: government
+  - id: s2
+    url: https://www.csis.org/analysis/air-superiority-twenty-first-century-lessons-iran-and-ukraine
+    title: "Air Superiority in the Twenty-First Century: Lessons from Iran and Ukraine"
+    publisher: Center for Strategic and International Studies (CSIS)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s3
+    url: https://www.rusi.org/explore-our-research/publications/insights-papers/evolution-russian-and-chinese-air-power-threats
+    title: The Evolution of Russian and Chinese Air Power Threats
+    publisher: Royal United Services Institute (RUSI)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s4
+    url: https://www.rand.org/pubs/commentary/2024/02/air-defense-shapes-warfighting-in-ukraine.html
+    title: Air Defense Shapes Warfighting in Ukraine
+    publisher: RAND Corporation
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s5
+    url: https://www.csis.org/analysis/department-defenses-collaborative-combat-aircraft-program-good-news-bad-news-and
+    title: "The Department of Defense's Collaborative Combat Aircraft Program: Good News, Bad News, and Unanswered Questions"
+    publisher: Center for Strategic and International Studies (CSIS)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s6
+    url: https://www.defensenews.com/air/2024/07/19/how-the-sixth-generation-fighter-jet-will-upend-air-warfare/
+    title: How the sixth-generation fighter jet will upend air warfare
+    publisher: Defense News
+    retrieved: 2026-11-22
+    kind: press
+  - id: s7
+    url: https://www.rusi.org/explore-our-research/publications/commentary/four-years-update-air-war-over-ukraine
+    title: "Four Years On: An Update on the Air War Over Ukraine"
+    publisher: Royal United Services Institute (RUSI)
+    retrieved: 2026-11-22
+    kind: reference

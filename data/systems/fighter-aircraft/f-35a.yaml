@@ -1,0 +1,71 @@
+id: f-35a
+category: fighter-aircraft
+name: F-35A Lightning II
+variant_note: Conventional take-off and landing (CTOL) variant; values are for the current production configuration
+family: F-35 Lightning II
+aliases: ["F-35 CTOL", "F-35I Adir (Israeli derivative of the F-35A)"]
+manufacturer: { name: Lockheed Martin }
+production_sites:
+  - { place: Fort Worth, country: US, source: s6 }
+  - { place: Cameri, country: IT, source: s6 }
+  - { place: Nagoya, country: JP, source: s6 }
+origin: US
+role: Single-seat, single-engine stealth multirole fighter for air-to-air and surface-attack missions, flown from conventional runways.
+memorable_fact: { text: "The F-35A is the most common F-35 variant; the US Air Force alone plans to buy 1,763 of them.", source: s5 }
+status: in_production
+in_service_since: { value: 2016, source: s2, confidence: high, note: "This variant: US Air Force declared Initial Operational Capability on 2 August 2016. The first USAF delivery was in April 2011." }
+units_built: { value: 1300, source: s7, confidence: low, note: "Covers the whole F-35 family (A, B and C), not the F-35A alone. The source gives about 1,300 F-35s in service worldwide as of January 2026. No public F-35A-only total was found. The 191 jets delivered in 2025 included 48 F-35As for the USAF." }
+combat_use: { text: "Israel's F-35I Adir, a modified F-35A, was the first F-35 used in combat; the Israel Defense Forces confirmed in May 2018 that it had flown airstrikes in the Middle East.", source: s8 }
+specs:
+  max_speed: { value: 1.6, source: s1, confidence: high, note: "Manufacturer figure: Mach 1.6. The USAF fact sheet gives the same value (about 1,200 mph)." }
+  combat_radius: { value: 1093, source: s1, confidence: high, note: "Manufacturer gives more than 590 nmi (1,093 km) on internal fuel. Range on internal fuel is more than 1,200 nmi (2,200 km)." }
+  service_ceiling: { value: 15240, source: s3, confidence: medium, note: "Government fact sheet says 'above 50,000 feet (15 kilometers)'. 50,000 ft = 15,240 m. This is a lower bound, not an exact figure." }
+  max_takeoff_weight: { value: 31.75, source: s2, confidence: medium, note: "USAF fact sheet gives a '70,000 pound class', which converts to about 31.75 t. The 'class' wording makes this approximate." }
+  thrust: { value: 177.9, source: s1, confidence: medium, range: { min: 177.9, max: 191.3 }, note: "Single F135-PW-100 engine. Lockheed Martin gives 40,000 lbf maximum (with afterburner) and 25,000 lbf military power; 40,000 lbf = 177.9 kN. USAF fact sheets give 43,000 lb (191.3 kN). The manufacturer's afterburner figure is displayed." }
+  hardpoints: { value: 10, source: s4, confidence: high, note: "4 internal weapon stations in two weapon bays plus 3 external stations under each wing." }
+operators:
+  - { country: US, force: Air Force, state: in_service, quantity: 1763, source: s5 }
+  - { country: AU, force: Air Force, state: in_service, quantity: 72, source: s12 }
+  - { country: IL, force: Air Force, state: in_service, quantity: 75, source: s12 }
+  - { country: JP, force: Air Self-Defense Force, state: in_service, quantity: 105, source: s12 }
+  - { country: KR, force: Air Force, state: in_service, quantity: 40, source: s13 }
+  - { country: IT, force: Air Force, state: in_service, quantity: null, source: s14 }
+  - { country: NL, force: Air Force, state: in_service, quantity: null, source: s14 }
+  - { country: NO, force: Air Force, state: in_service, quantity: null, source: s14 }
+  - { country: DK, force: Air Force, state: in_service, quantity: null, source: s14 }
+  - { country: BE, force: Air Force, state: in_service, quantity: null, source: s14 }
+  - { country: PL, force: Air Force, state: in_service, quantity: null, source: s14 }
+  - { country: CA, force: Air Force, state: ordered, quantity: null, source: s14 }
+  - { country: CZ, force: Air Force, state: ordered, quantity: null, source: s14 }
+  - { country: FI, force: Air Force, state: ordered, quantity: null, source: s15 }
+  - { country: CH, force: Air Force, state: ordered, quantity: null, source: s16 }
+  - { country: DE, force: Air Force, state: ordered, quantity: 35, source: s17 }
+  - { country: RO, force: Air Force, state: ordered, quantity: 32, source: s18 }
+  - { country: GR, force: Air Force, state: ordered, quantity: null, source: s19 }
+  - { country: SG, force: Air Force, state: ordered, quantity: null, source: s20 }
+cost: { value: 92000000, currency: USD, price_year: 2025, basis: unit_price, source: s9, confidence: medium, range: { min: 92000000, max: 100000000 }, note: "Average flyaway cost of an F-35A across production Lots 18 and 19 (definitized September 2025), in then-year dollars. These are F-35 Joint Program Office figures as reported by Air & Space Forces Magazine. Other trade press (s10) said the Lot 18 Pratt & Whitney engine contract pushed the Lot 18 F-35A to over USD 100 million. The JPO-derived USD 92 million average is displayed." }
+contracts:
+  - { customer: "US DoD F-35 Joint Program Office (US and international customers)", year: 2025, quantity: 296, value: 24300000000, currency: USD, note: "Definitized Lots 18 and 19 airframe contract (modification of 29 September 2025). The total is nearly USD 24.3 billion and covers all three variants, not only the F-35A.", source: s11 }
+  - { customer: "Romania (Air Force)", year: 2024, quantity: 32, value: null, currency: null, note: "Letter of Offer and Acceptance signed for about 32 F-35As; no value in the source used.", source: s18 }
+peers: [j-20, rafale-f4, eurofighter-typhoon, gripen-e]
+sources:
+  - { id: s1, url: "https://www.f35.com/content/dam/lockheed-martin/aero/f35/documents/FG19-00608_001%20Product%20Card%20F-35A%20media.pdf", title: "The World's Most Advanced Fighter F-35A (product card)", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.388fw.acc.af.mil/Portals/103/F35A_LightningII_ACC%20Fact%20Sheet.pdf", title: "F-35A Lightning II fact sheet (current as of January 16, 2019)", publisher: "US Air Force Air Combat Command", retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.afnwc.af.mil/About-Us/Fact-Sheets/Article/2074660/f-35a-lightning-ii/", title: "F-35A Lightning II > Air Force Nuclear Weapons Center > Fact Sheets", publisher: "US Air Force Nuclear Weapons Center", retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.af.mil/News/Article-Display/Article/110093/f-35-begins-integration-phase-of-weapons-testing/", title: "F-35 begins integration phase of weapons testing", publisher: "US Air Force", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.f35.com/f35/global-enterprise/united-states.html", title: "United States", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s6, url: "https://www.congress.gov/crs-product/R48304", title: "F-35 Lightning II: Background and Issues for Congress", publisher: "Congressional Research Service", retrieved: 2026-11-22, kind: government }
+  - { id: s7, url: "https://theaviationist.com/2026/01/09/lockheed-martin-delivered-191-f-35s-in-2025/", title: "Lockheed Martin Delivered 191 F-35s in 2025", publisher: "The Aviationist", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.navytimes.com/news/your-navy/2018/05/24/israel-just-showed-that-the-f-35-can-fight-so-whats-next/", title: "Israel just showed that the F-35 can fight. So what's next?", publisher: "Navy Times", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://migflug.com/afterburner/f-35-price-2026-variant-costs-lots-18-19/", title: "F-35 Price 2026: What Each Variant Really Costs Now", publisher: "MiGFlug", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://defence-industry.eu/new-f-35-lot-18-contract-raises-unit-cost-of-fighter-aircraft-to-over-100-million-each/", title: "New F-35 Lot 18 contract raises unit cost of fighter aircraft to over $100 million each", publisher: "Defence Industry Europe", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://www.airandspaceforces.com/f-35-lots-18-and-19-contract/", title: "F-35 Deal for Lots 18 and 19 Covers 296 Fighters at $24.3 Billion", publisher: "Air & Space Forces Magazine", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://aviationnews.eu/news/2025/01/lockheed-martin-f-35-lightning-ii-current-and-future-operators/", title: "Lockheed Martin F-35 Lightning II Current and Future Operators", publisher: "Aviation News", retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://defense.info/highlight-of-the-week/the-f-35-global-enterprise-in-the-indo-pacific-region/", title: "The F-35 Global Enterprise in the Indo-Pacific Region", publisher: "Defense.info", retrieved: 2026-11-22, kind: press }
+  - { id: s14, url: "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II_operators", title: "Lockheed Martin F-35 Lightning II operators", publisher: "Wikipedia", retrieved: 2026-11-22, kind: reference }
+  - { id: s15, url: "https://www.f35.com/f35/global-enterprise.html", title: "F-35 in Action", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s16, url: "https://www.globalsecurity.org/military/library/news/2026/08/mil-260814-ch01.htm", title: "Swiss F-35A on track: First components will be manufactured in Italy", publisher: "GlobalSecurity.org (Swiss government release)", retrieved: 2026-11-22, kind: government }
+  - { id: s17, url: "https://theaviationist.com/2024/05/08/german-f-35s-produced-in-us/", title: "German F-35s Will Be Produced In The U.S. At Fort Worth's Production Facility", publisher: "The Aviationist", retrieved: 2026-11-22, kind: press }
+  - { id: s18, url: "https://simpleflying.com/what-to-know-global-f-35-program/", title: "What To Know About The Global F-35 Program", publisher: "Simple Flying", retrieved: 2026-11-22, kind: press }
+  - { id: s19, url: "https://www.f35.com/f35/global-enterprise/greece.html", title: "Greece", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s20, url: "https://www.scmp.com/news/china/military/article/3342328/record-f-35-deliveries-muscle-american-allies-asia-pacific-region", title: "Record F-35 deliveries muscle up American allies in the Asia-Pacific region", publisher: "South China Morning Post", retrieved: 2026-11-22, kind: press }

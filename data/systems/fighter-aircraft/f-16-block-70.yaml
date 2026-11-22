@@ -1,0 +1,104 @@
+id: f-16-block-70
+category: fighter-aircraft
+name: F-16 Block 70
+variant_note: "New-build F-16C/D Block 70 (GE F110 engine); the Block 72 is the same jet with a Pratt & Whitney F100 engine"
+family: F-16 Fighting Falcon
+aliases: ["F-16V", "F-16 Block 70/72", "Viper"]
+manufacturer: { name: Lockheed Martin }
+production_sites:
+  - { place: Greenville, country: US, source: s12 }
+origin: US
+role: "Single-engine multirole fighter for air-to-air and air-to-surface missions. It is the newest production version of the F-16, with an APG-83 AESA radar and a new mission computer."
+memorable_fact: { text: "Lockheed Martin rates the Block 70/72 airframe for 12,000 flight hours, more than 50 percent longer than earlier production F-16s.", source: s2 }
+status: in_production
+in_service_since:
+  value: 2023
+  source: s5
+  confidence: medium
+  note: "Year of first delivery of this variant: the first of 16 jets for Bahrain was handed over in Greenville in March 2023. The base F-16A reached initial operating capability in January 1979 (s3)."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public total for Block 70/72 jets built or delivered was found. Known deliveries: Slovakia 14 (complete, s9), Bulgaria 8 of 16 (s11), Taiwan 2 of 66 by October 2026 (s13), plus Bahrain (first jet March 2023, s5)."
+combat_use: { text: "A Royal Bahraini Air Force F-16 Block 70 shot down two Iranian drones during a Middle East conflict. Press reports describe these as the first air-to-air kills for the Block 70/72 version.", source: s6 }
+specs:
+  max_speed:
+    value: 2.0
+    source: s1
+    confidence: high
+    range: { min: 2.0, max: 2.05 }
+    note: "Lockheed Martin gives 1,500 mph (Mach 2+), so 2.0 is a lower bound. Army Recognition gives Mach 2.05 (s4)."
+  combat_radius:
+    value: 550
+    source: s4
+    confidence: low
+    note: "Single secondary source, described as about 550 km depending on load and mission profile. Lockheed Martin and USAF give no combat radius. USAF gives a ferry range of more than 2,002 mi for the F-16C/D (s3)."
+  service_ceiling:
+    value: 15240
+    source: s3
+    confidence: medium
+    note: "USAF figure for the F-16 family: 'above 50,000 feet (15 kilometers)', converted to 15,240 m. Army Recognition gives the same 50,000 ft for Block 70 (s4)."
+  max_takeoff_weight:
+    value: 21.77
+    source: s1
+    confidence: high
+    range: { min: 19.2, max: 21.77 }
+    note: "Lockheed Martin gives a maximum take-off gross weight of 48,000 lb / 21,772 kg. Army Recognition gives about 19,200 kg (s4). The USAF F-16C/D figure is 37,500 lb (s3). The manufacturer figure is displayed."
+  thrust:
+    value: 129.0
+    source: s1
+    confidence: high
+    range: { min: 129.0, max: 131.2 }
+    note: "Lockheed Martin gives an engine thrust class of 29,000 lb (one engine), converted to 129.0 kN. Army Recognition gives 29,500 lb (131.2 kN) with afterburner (s4)."
+  hardpoints:
+    value: 11
+    source: s4
+    confidence: medium
+    note: "6 underwing, 2 wingtip, 2 under-fuselage and 1 centerline station, according to Army Recognition."
+operators:
+  - { country: BH, force: Royal Bahraini Air Force, state: in_service, quantity: 16, source: s5 }
+  - { country: SK, force: Slovak Air Force, state: in_service, quantity: 14, source: s9 }
+  - { country: BG, force: Bulgarian Air Force, state: in_service, quantity: 16, source: s11 }
+  - { country: TW, force: Republic of China Air Force, state: in_service, quantity: 66, source: s13 }
+  - { country: JO, force: Royal Jordanian Air Force, state: ordered, quantity: 12, source: s8 }
+  - { country: MA, force: Royal Moroccan Air Force, state: ordered, quantity: 25, source: s15 }
+  - { country: PE, force: Peruvian Air Force, state: ordered, quantity: 12, source: s20 }
+  - { country: TR, force: Turkish Air Force, state: ordered, quantity: 40, source: s16 }
+  - { country: PH, force: Philippine Air Force, state: evaluating, quantity: 20, source: s18 }
+cost:
+  value: 70000000
+  currency: USD
+  price_year: 2018
+  basis: contract_per_unit
+  source: s7
+  confidence: medium
+  range: { min: 63000000, max: 70000000 }
+  note: "Bahrain's production deal: USD 1.12 billion for 16 aircraft (s7), about USD 70 million per jet. The contract year (2018) is not stated in s7. The same article quotes an analyst estimate of about USD 63 million per unit. Full packages with weapons and support cost much more per jet: about USD 128 million for Slovakia and about USD 285 million for Peru (s19)."
+contracts:
+  - { customer: "Bahrain / Royal Bahraini Air Force", year: 2018, quantity: 16, value: 1120000000, currency: USD, note: "Block 70 production deal reported by Breaking Defense. Contract year not stated in source.", source: s7 }
+  - { customer: "Slovakia / Slovak Air Force", year: 2018, quantity: 14, value: 1800000000, currency: USD, note: "Reported package value of about USD 1.8 billion (s19 dates it 2019). All 14 jets delivered (s9).", source: s19 }
+  - { customer: "Taiwan / Republic of China Air Force", year: 2019, quantity: 66, value: 8000000000, currency: USD, note: "USD 8 billion sale approved in 2019. The first two jets arrived in October 2026 after software delays.", source: s14 }
+  - { customer: "Peru / Peruvian Air Force", year: 2026, quantity: 12, value: 3420000000, currency: USD, note: "Contract signed April 2026. Estimated package value includes weapons, radars and logistics support.", source: s17 }
+peers: [gripen-e, rafale-f4, eurofighter-typhoon]
+sources:
+  - { id: s1, url: "https://sustainability.lockheedmartin.com/content/dam/lockheed-martin/aero/documents/F-16/F-16_Block_70-72_Product_Card_August_2021.pdf", title: "The World's Most Advanced 4th Generation Fighter F-16 Block 70/72 (Product Card, August 2021)", publisher: Lockheed Martin, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.lockheedmartin.com/en-us/products/f-16.html", title: "F-16 Fighting Falcon", publisher: Lockheed Martin, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104505/f-16-fighting-falcon/", title: "F-16 Fighting Falcon > Air Force > Fact Sheet Display", publisher: U.S. Air Force, retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.armyrecognition.com/military-products/air/fighter/f-16-block-70-72", title: "F-16 Block 70 / 72 F-16V", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://breakingdefense.com/2023/03/lockheed-martin-delivers-first-f-16-block-70-fighter-jet-to-bahrain/", title: "Lockheed Martin delivers first F-16 Block 70 fighter jet to Bahrain", publisher: Breaking Defense, retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.twz.com/air/bahrain-first-to-claim-f-16-block-70-air-to-air-kills", title: "Bahrain First To Claim F-16 Block 70 Air-To-Air Kills", publisher: The War Zone, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://breakingdefense.com/2022/06/new-f-16s-give-jordans-air-force-a-boost-but-what-comes-next/", title: "New F-16s give Jordan's air force a boost, but what comes next?", publisher: Breaking Defense, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://breakingdefense.com/2023/01/jordan-inks-deal-for-12-block-70-f-16s-from-lockheed-martin/", title: "Jordan inks deal for 12 Block 70 F-16s from Lockheed Martin", publisher: Breaking Defense, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.flightglobal.com/defence/lockheed-completes-f-16-deliveries-for-slovakia-and-first-batch-shipments-to-bulgaria/165753.article", title: "Lockheed Martin completes F-16 Block 70 fighter deliveries for Slovakia and first batch shipments to Bulgaria", publisher: FlightGlobal, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://news.lockheedmartin.com/2024-1-10-Lockheed-Martin-Delivers-First-Two-F-16-Block-70-Aircraft-for-Slovakia", title: "Lockheed Martin Delivers First Two F-16 Block 70 Aircraft for Slovakia", publisher: Lockheed Martin, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s11, url: "https://nationalinterest.org/blog/buzz/bulgarias-f-16-fighter-jets-will-be-three-years-late-now-what-ps-082026", title: "Bulgaria's F-16 Fighter Jets Will Be Three Years Late. Now What?", publisher: The National Interest, retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-completes-production-initial-f-16-block-70", title: "Lockheed Martin Completes Production of Initial F-16 Block 70 Fleets for Bulgaria and Slovakia", publisher: Lockheed Martin, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s13, url: "https://www.taipeitimes.com/News/front/archives/2026/10/03/2003865308", title: "Taiwan receives first 2 F-16V Block 70s", publisher: Taipei Times, retrieved: 2026-11-22, kind: press }
+  - { id: s14, url: "https://industrialbasealpha.com/article/taiwan-receives-first-two-f-16v-block-70-fighters-from-8-billion-order", title: "Taiwan receives first two F-16V Block 70 fighters from $8 billion order", publisher: Industrial Base Alpha, retrieved: 2026-11-22, kind: press }
+  - { id: s15, url: "https://www.twz.com/air/first-f-16-block-72-has-flown", title: "First F-16 Block 72 Has Flown", publisher: The War Zone, retrieved: 2026-11-22, kind: press }
+  - { id: s16, url: "https://meta-defense.fr/en/2026/09/29/turkey-us-progress-40-f-16-block-70/", title: "Turkey calls for US progress on its 40 F-16 Block 70s", publisher: Meta-Defense, retrieved: 2026-11-22, kind: press }
+  - { id: s17, url: "https://www.upi.com/Top_News/World-News/2026/04/21/latam-peru-F16-fighter-jet-purchase/7561776794149/", title: "Peru signs F-16 fighter jet deal after days of tensions with U.S.", publisher: UPI, retrieved: 2026-11-22, kind: press }
+  - { id: s18, url: "https://www.dsca.mil/Press-Media/Major-Arms-Sales/Article-Display/Article/4142323/philippines-f-16-aircraft", title: "Philippines – F-16 Aircraft", publisher: Defense Security Cooperation Agency, retrieved: 2026-11-22, kind: government }
+  - { id: s19, url: "https://defencesecurityasia.com/en/peru-f16-block70-deal-285-million-price-shock/", title: "Peru's F-16 Block 70 Deal Sparks Outrage: $285 Million Per Jet Price Tag Shocks Defence Analysts", publisher: Defence Security Asia, retrieved: 2026-11-22, kind: press }
+  - { id: s20, url: "https://breakingdefense.com/2026/04/schrodingers-f-16s-lockheed-says-peru-is-buying-fighters-questions-remain-in-lima/", title: "Lockheed limbo in Lima? Firm says Peru is buying F-16s, but questions remain", publisher: Breaking Defense, retrieved: 2026-11-22, kind: press }

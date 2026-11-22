@@ -1,0 +1,76 @@
+id: eurofighter-typhoon
+category: fighter-aircraft
+name: Eurofighter Typhoon Tranche 2
+variant_note: Tranche 2 production standard (core nations and Saudi Arabia); airframe and engine specs are common to Tranches 1-3
+family: Eurofighter Typhoon
+aliases: [EF-2000, Typhoon FGR4, C.16]
+manufacturer: { name: Eurofighter Jagdflugzeug GmbH }
+production_sites:
+  - { place: Warton, country: GB, source: s11 }
+# Origin: jointly developed by Germany, United Kingdom, Italy and Spain; DE given as seat of Eurofighter GmbH.
+origin: DE
+role: Twin-engine, single-seat multirole combat aircraft for air defence and air-to-ground missions.
+memorable_fact: { text: "The Typhoon can supercruise, meaning it can fly supersonic for long periods without using afterburners.", source: s1 }
+status: in_production
+in_service_since: { value: 2008, source: s4, confidence: medium, note: "First Tranche 2 deliveries (UK, October 2008). The base system was first delivered to the Bundeswehr in 2003 (s1)." }
+units_built:
+  value: 251
+  range: { min: 251, max: 275 }
+  source: s4
+  confidence: low
+  note: "Tranche 2 contract quantity for the four core nations (236 originally, raised to 251). A secondary source gives 275 Tranche 2 aircraft overall (s13). Whole family: 769 ordered and 619 delivered per an Eurofighter briefing slide reported in November 2026 (s3)."
+combat_use: { text: "RAF Typhoons first saw combat in 2011 over Libya (Op ELLAMY) and have flown in Iraq and Syria under Op SHADER since 2015.", source: s2 }
+specs:
+  max_speed: { value: 2.0, source: s1, confidence: medium, note: "Austrian MoD lists top speed as 2,495 km/h / Mach 2." }
+  combat_radius:
+    value: 1389
+    range: { min: 601, max: 1389 }
+    source: s5
+    confidence: low
+    note: "Depends on the flight profile: 1,389 km for hi-lo-hi ground attack, 601 km for lo-lo-lo ground attack. Not a manufacturer figure."
+  service_ceiling:
+    value: 16765
+    range: { min: 16765, max: 18290 }
+    source: s1
+    confidence: medium
+    note: "Shows the government figure (Austrian MoD). GlobalSecurity lists 18,290 m (60,000 ft) (s5)."
+  max_takeoff_weight:
+    value: 23.5
+    range: { min: 23.0, max: 23.5 }
+    source: s6
+    confidence: medium
+    note: "EUROCONTROL and GlobalSecurity (s5) list 23,500 kg. The Austrian MoD air-show page lists 23,000 kg (s1)."
+  thrust: { value: 180, source: s1, confidence: high, note: "2 x EJ200 at 90 kN each with afterburner (60 kN dry)." }
+  hardpoints: { value: 13, source: s7, confidence: medium, note: "Four under each wing and five under the fuselage. Matches GlobalSecurity (s5)." }
+operators:
+  - { country: GB, force: Royal Air Force, state: in_service, quantity: 156, source: s3, note: "Delivered, all tranches" }
+  - { country: DE, force: German Air Force, state: in_service, quantity: 140, source: s3, note: "Delivered, all tranches; further Tranche 4 and 5 aircraft on order (s8)" }
+  - { country: IT, force: Italian Air Force, state: in_service, quantity: 95, source: s3, note: "Delivered, all tranches" }
+  - { country: ES, force: Spanish Air and Space Force, state: in_service, quantity: 72, source: s3, note: "Delivered, all tranches" }
+  - { country: SA, force: Royal Saudi Air Force, state: in_service, quantity: 72, source: s3, note: "Delivered" }
+  - { country: KW, force: Kuwait Air Force, state: in_service, quantity: 25, source: s3, note: "Delivered; later-tranche aircraft, not Tranche 2" }
+  - { country: QA, force: Qatar Emiri Air Force, state: in_service, quantity: 24, source: s3, note: "Delivered; later-tranche aircraft, not Tranche 2" }
+  - { country: AT, force: Austrian Air Force, state: in_service, quantity: 15, source: s3, note: "Tranche 1 aircraft" }
+  - { country: OM, force: Royal Air Force of Oman, state: in_service, quantity: 12, source: s3, note: "Delivered; later-tranche aircraft, not Tranche 2" }
+  - { country: TR, force: Turkish Air Force, state: ordered, quantity: 20, source: s9, note: "New-build aircraft ordered October 2025" }
+cost: { value: 187500000, currency: EUR, price_year: 2025, basis: contract_per_unit, source: s8, confidence: medium, note: "German Tranche 5 order of October 2025: EUR 3.75 billion for 20 aircraft, as stated by the German MoD. These are newer-standard aircraft, not Tranche 2. No public per-unit price for Tranche 2 was found." }
+contracts:
+  - { customer: Germany/Italy/Spain/UK (core nations), year: 2004, quantity: 236, value: null, currency: null, note: "Tranche 2 production contract, signed December 2004. Quantity later raised to 251. The reported value ('EUR 14m') looks like a typo, so it is not recorded.", source: s4 }
+  - { customer: Germany/Italy/Spain/UK (core nations), year: 2009, quantity: null, value: 9000000000, currency: EUR, note: "Tranche 3 production contract signed in Munich, July 2009.", source: s4 }
+  - { customer: Germany (Luftwaffe), year: 2025, quantity: 20, value: 3750000000, currency: EUR, note: "Tranche 5. Deliveries planned 2031-2034.", source: s8 }
+  - { customer: Turkey (Turkish Air Force), year: 2025, quantity: 20, value: 10660000000, currency: USD, note: "Government-to-government deal with the UK, per a UK government statement. FlightGlobal reports £5.4 billion (s12) and Militär Aktuell about €6.2 billion (s3); the scope behind each figure may differ.", source: s9 }
+peers: [rafale-f4, f-35a, gripen-e, su-35s]
+sources:
+  - { id: s1, url: "https://www.airpower.gv.at/eurofighter-typhoon-ita/?lang=en", title: "Eurofighter Typhoon Aeronautica Militare – AIRPOWER24 6th – 7th Sept 24", publisher: Austrian Ministry of Defence (Bundesheer), retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://www.raf.mod.uk/aircraft/current-aircraft/typhoon-fgr41/", title: "Typhoon FGR4", publisher: Royal Air Force, retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://militaeraktuell.at/en/eurofighter-sees-a-market-for-more-than-200-jets-36-for-austria/", title: "Eurofighter Sees a Market for More Than 200 Jets, 36 for Austria", publisher: Militär Aktuell, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.airforce-technology.com/projects/ef2000/", title: "Eurofighter Typhoon Multirole Combat Fighter - Airforce Technology", publisher: Airforce Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.globalsecurity.org/military/world/europe/eurofighter-specs.htm", title: "Eurofighter Typhoon EF-2000 - Specifications", publisher: GlobalSecurity.org, retrieved: 2026-11-22, kind: reference }
+  - { id: s6, url: "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=EUFI", title: "Aircraft Performance Database > EUFI", publisher: EUROCONTROL, retrieved: 2026-11-22, kind: government }
+  - { id: s7, url: "https://www.armyrecognition.com/military-products/air/fighter/eurofighter-typhoon-multirole-fighter-aircraft-technical-data-sheet", title: "Eurofighter Typhoon", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://euro-sd.com/2025/10/major-news/47301/germany-orders-20-eurofighters/", title: "Germany firms up order for 20 Tranche 5 Eurofighters - European Security & Defence", publisher: European Security & Defence, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://breakingdefense.com/2025/10/turkey-inks-deal-for-20-eurofighter-typhoon-jets/", title: "Turkey inks deal for 20 Eurofighter Typhoon jets", publisher: Breaking Defense, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.eurofighter.com/news/eurofighter-welcomes-tuerkiye-as-new-partner-with-order-for-20-typhoon-jets", title: "TÜRKİYE ORDERS 20 TYPHOON JETS", publisher: Eurofighter Jagdflugzeug GmbH, retrieved: 2026-11-22, kind: manufacturer, note: "Confirms the prime contractor name and Türkiye as the tenth operator nation" }
+  - { id: s11, url: "https://breakingdefense.com/2024/12/how-bae-plans-to-keep-its-eurofighter-typhoon-uk-final-assembly-line-alive-for-gcap/", title: "How BAE plans to keep its Eurofighter Typhoon UK final assembly line alive for GCAP - Breaking Defense", publisher: Breaking Defense, retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://www.flightglobal.com/fixed-wing/turkey-orders-20-eurofighter-typhoons-under-54bn-deal/165046.article", title: "Turkey orders 20 Eurofighter Typhoons under £5.4bn deal extending UK production into 2030s", publisher: FlightGlobal, retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://migflug.com/aircraft-manufacturers/eurofighter/", title: "Eurofighter", publisher: MiGFlug, retrieved: 2026-11-22, kind: other }
