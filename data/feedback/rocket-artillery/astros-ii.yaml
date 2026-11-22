@@ -1,0 +1,19 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: astros-ii
+items:
+  - summary: The officer who took command of the Brazilian Army's new ASTROS 2020 Logistics Center at Formosa said the rocket system is demanding to support. He said keeping it running takes in-depth technical knowledge and complex management tools. The article covers the ASTROS 2020 programme as a whole, including the Mk3M upgrade of older Mk2/Mk3 vehicles alongside the move to newer launchers.
+    quote: whose weapons system requires us to have in-depth professional knowledge and work with complex management tools
+    speaker: Brazilian Army lieutenant colonel, commander of the ASTROS 2020 Logistics Center (Brazil)
+    context: Opening of the ASTROS 2020 Instruction and Logistics Centers at Fort Santa Bárbara, Formosa, Goiás, early 2018; reported by Diálogo Américas
+    sentiment: mixed
+    topics:
+      - maintenance
+      - logistics
+      - training
+    source:
+      url: https://dialogo-americas.com/articles/astros-2020-program-strengthens-brazilian-armys-artillery/
+      title: ASTROS 2020 Program Strengthens Brazilian Army's Artillery
+      publisher: Diálogo Américas
+      date: 2018-05-16
+      retrieved: 2026-11-22
+note: I found very little public feedback from crews or users. Other sources I found were left out because they gave no user opinions. These were reports on the July 2023 Operação Zeus test loading an AV-LMU Mk6 into a KC-390 aircraft (no results seen), a Brazilian Marine Corps journal piece (only descriptive parts seen), Malaysian and Indonesian exercise news, and a blog's second-hand claim from an Iraqi commander. I hit the search tool's usage limit before I could check them fully.

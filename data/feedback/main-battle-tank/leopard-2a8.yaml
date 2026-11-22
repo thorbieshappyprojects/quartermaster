@@ -1,0 +1,61 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: leopard-2a8
+items:
+  - summary: A staff sergeant at the Norwegian Army Land Warfare Centre said the fully digitised Leopard 2A8NO makes it easier to work with land, sea and air platforms. The tanks were handed over to the centre, which plans a year of testing and user training before the tanks go to Telemark Battalion.
+    quote: The new vehicle is fully digitized. This means that we can now cooperate more easily with other combat platforms
+    speaker: Staff sergeant, Norwegian Army Land Warfare Centre (Norway)
+    context: Handover of the first Leopard 2A8NO tanks to the Norwegian Army, with a live demonstration at the start of a one-year test and training period, 2026
+    sentiment: positive
+    topics:
+      - sensors
+      - training
+    source:
+      url: https://milmag.pl/en/first-leopard-2a8no-tanks-delivered-to-norway/
+      title: First Leopard 2A8NO Tanks Delivered to Norway
+      publisher: MILMAG
+      date: "2026"
+      retrieved: 2026-11-22
+  - summary: Crew members of Ukraine's 47th Mechanised Brigade said the Leopard 2A6 (an earlier variant) greatly improved crew survivability compared with Soviet-era tanks, and that it fits taller crew members better than the T-72.
+    quote: the main advantage of this machine is crew survivability
+    speaker: Ukrainian Leopard 2A6 gunner and tank commander, 47th Mechanised Brigade (Ukraine)
+    context: Earlier variant (2A6). Video released by Ukraine's Ministry of Defence after fighting near Robotyne in Zaporizhzhia, 2023
+    sentiment: positive
+    topics:
+      - protection
+      - ergonomics
+    source:
+      url: https://www.forcesnews.com/ukraine/ukrainian-tank-crew-praise-nocturnal-predator-leopard-2
+      title: Ukrainian tank crew praise 'nocturnal predator' Leopard 2
+      publisher: Forces News
+      date: 2023-09
+      retrieved: 2026-11-22
+  - summary: A Ukrainian brigade commander reported that one of his Leopard 2A4 tanks (an earlier variant) was still operational after 45 FPV drone hits. He also said he still values tanks and expects successful tank attacks in the future.
+    quote: One of his Leopard 2A4 tanks took 45 FPV hits and is still operational
+    speaker: Ukrainian brigade commander (as relayed by analyst Rob Lee)
+    context: Earlier variant (2A4). Counteroffensive near Lyman, Donetsk region. The account comes from analyst Rob Lee's post on X, which Militär Aktuell reported in November 2026
+    sentiment: positive
+    topics:
+      - protection
+      - reliability
+    source:
+      url: https://militaeraktuell.at/en/ukraine-despite-45-hits-from-fpv-drones-the-leo-2a4-kept-going/
+      title: "Ukraine: Despite 45 hits from FPV drones, the Leo 2A4 kept going"
+      publisher: Militär Aktuell
+      date: 2026-11
+      retrieved: 2026-11-22
+  - summary: A German tank platoon commander described how ammunition is handled in the Leopard 2A6 (an earlier variant). The turret holds 15 rounds and the hull stores 27 more, and a well-trained crew needs 5 to 10 minutes to reload the turret magazine from the hull. The battlegroup's colonel said no Ukrainian Leopard 2A6 crew member had died so far and called the tank strong on both firepower and protection.
+    quote: these tanks are the ultimate firepower while providing the protection we need to survive in combat situations
+    speaker: German tank platoon commander and battlegroup colonel (Germany)
+    context: Earlier variant (2A6). CZ Defence visit to the multinational battlegroup in Slovakia. The interview took place in late August; the year is not stated in the text I saw
+    sentiment: positive
+    topics:
+      - firepower
+      - protection
+      - logistics
+    source:
+      url: https://www.czdefence.com/article/leopard-2a6-valuk-oshkosh-jltv-we-visited-a-multinational-battle-group-in-slovakia
+      title: "Leopard 2A6, Valuk, Oshkosh JLTV: We visited Multinational Battlegroup in Slovakia"
+      publisher: CZ DEFENCE
+      date: unknown
+      retrieved: 2026-11-22
+note: I found very little first-hand user feedback on the 2A8 itself (one Norwegian comment from handover and early testing), so three items cover earlier Leopard 2 variants; my search was stopped early by a tool limit, so German, Lithuanian, Czech, Dutch and Swedish 2A8 user sources were not checked.

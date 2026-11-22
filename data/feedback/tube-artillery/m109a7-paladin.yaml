@@ -1,0 +1,75 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: m109a7-paladin
+items:
+  - summary: During the suspended 2016 initial operational test, crews said the M109A7 turret had less room inside than the M109A6 because of the new electric rammer and the wiring for the 600-volt system. They also said intercom cables got tangled when they wore crewman helmets, and they suggested a smaller rammer and wireless intercoms.
+    quote: Soldiers suggested reducing the size of the rammer to create more space inside the M109A7 SPH.
+    speaker: US Army howitzer crews in the operational test unit (reported by DOT&E)
+    context: Soldier observations from the October 2016 Initial Operational Test and Evaluation (IOT&E), published in the January 2017 DOT&E operational assessment
+    sentiment: negative
+    topics:
+      - ergonomics
+    source:
+      url: https://apps.dtic.mil/sti/pdfs/AD1026142.pdf
+      title: M109 Family of Vehicles, Paladin Integrated Management (PIM) Operational Assessment of the Initial Operational Test and Evaluation
+      publisher: Director, Operational Test and Evaluation (via DTIC)
+      date: 2017-01
+      retrieved: 2026-11-22
+  - summary: The same test crews said the M109A7 maneuvered and pivoted much better than the M109A6. However, they saw more wear on road wheels and track pads than on the lighter A6, and they believed sustained high-charge firing would need more in-depth recurring preventive maintenance.
+    quote: Soldiers commented that the maneuverability and pivot capability of the new M109A7 SPH is a marked improvement over the M109A6 SPH.
+    speaker: US Army howitzer crews in the operational test unit (reported by DOT&E)
+    context: Soldier observations from the October 2016 IOT&E, which was halted over toxic fumes in the crew compartment and breech reliability problems
+    sentiment: mixed
+    topics:
+      - mobility
+      - maintenance
+      - reliability
+    source:
+      url: https://apps.dtic.mil/sti/pdfs/AD1026142.pdf
+      title: M109 Family of Vehicles, Paladin Integrated Management (PIM) Operational Assessment of the Initial Operational Test and Evaluation
+      publisher: Director, Operational Test and Evaluation (via DTIC)
+      date: 2017-01
+      retrieved: 2026-11-22
+  - summary: Section chiefs from the unit that ran the early PIM Limited User Test described a demanding trial, with 947 rounds fired per gun, driving across varied terrain and degraded and night fire missions. Overall they said the evaluation went well.
+    quote: We shot 947 rounds per gun and did a lot of driving through all different types of terrain
+    speaker: US Army howitzer section chiefs, Battery A of the test battalion
+    context: PIM Limited User Test at Yuma Proving Ground before the 2013 low-rate initial production decision (early prototype stage)
+    sentiment: positive
+    topics:
+      - reliability
+      - mobility
+    source:
+      url: https://www.army.mil/article/92328/iron_thunder_soldiers_run_m109_paladin_integrated_management_through_testing_gamut
+      title: Iron Thunder Soldiers run M109 Paladin Integrated Management through testing gamut
+      publisher: U.S. Army (army.mil)
+      date: 2012
+      retrieved: 2026-11-22
+  - summary: Field artillery soldiers from Fort Riley tested upgraded breech components on the M109A7 by firing repeated high-charge missions. Their platoon leader said the crews fired more Charge 5H rounds than most had in their careers, and the unit looked forward to having the upgrades fielded.
+    quote: We are absolutely looking forward to the breech upgrades that we tested being fielded on our M109A7s back at Fort Riley.
+    speaker: US Army field artillery platoon leader
+    context: Breech reliability upgrade test at Yuma Proving Ground, about 2020, after breech problems found in the 2016 IOT&E
+    sentiment: positive
+    topics:
+      - reliability
+      - firepower
+    source:
+      url: https://www.army.mil/article/233645/field_artillery_soldiers_test_self_propelled_howitzer_upgrade_reliability
+      title: Field Artillery Soldiers test self-propelled Howitzer upgrade reliability
+      publisher: U.S. Army (army.mil)
+      date: 2020
+      retrieved: 2026-11-22
+  - summary: When the unit converted to the M109A7, a battalion commander said the system made fires more accurate and timely, and that digital fault checking made maintenance much faster than on the M109A6. The battalion's gunnery sergeant said the loading system made crew drills smoother.
+    quote: Maintenance on the M109A7 is far more optimized than the M109A6 in the ability to validate faults
+    speaker: US Army field artillery battalion commander, 3-16 FA (with the battalion gunnery sergeant)
+    context: Interview during the battalion's conversion to the M109A7, before a National Training Center rotation, about 2024
+    sentiment: positive
+    topics:
+      - maintenance
+      - firepower
+      - ergonomics
+    source:
+      url: https://www.fieldartillery.org/news/thunderous-transformation-3-16-fas-modernization-of-the-m109a7-paladin
+      title: "Thunderous Transformation: 3-16 FA's Modernization of the M109A7 Paladin"
+      publisher: United States Field Artillery Association
+      date: 2024
+      retrieved: 2026-11-22
+note: All the first-hand material is from the US, either Army or Field Artillery Association press pieces (positive in tone) or the critical 2016–2017 DOT&E test report; I found no credible user feedback from Taiwan's M109A7 crews.

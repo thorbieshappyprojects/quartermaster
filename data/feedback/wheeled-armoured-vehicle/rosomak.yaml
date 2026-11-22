@@ -1,0 +1,76 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: rosomak
+items:
+  - summary: Veterans of the 12th Mechanised Brigade say their Rosomak (Hitfist-30P turret variant) kept moving after a roadside bomb in Ghazni tore off two wheels with their hubs and suspension arms. The crew had only bruises, and the driver drove the badly tilted vehicle back to base himself. They name backup systems such as an emergency gearbox and manual turret control as the reasons it survives.
+    quote: To żywotna konstrukcja
+    speaker: Polish Rosomak driver and crew commander, 12th Mechanised Brigade
+    context: Recalling an IED strike in Ghazni province, Afghanistan, in November 2012 (earlier Hitfist-30P variant)
+    sentiment: positive
+    topics:
+      - protection
+      - mobility
+      - reliability
+    source:
+      url: https://wiadomosci.wp.pl/jak-wojskowi-oceniaja-sluzbe-na-rosomakach-6027761399280257a
+      title: Jak wojskowi oceniają służbę na rosomakach?
+      publisher: WP Wiadomości
+      date: 2015-01-30
+      retrieved: 2026-11-22
+  - summary: A deputy company commander says the turret's thermal sights helped crews spot threats quickly on night patrols in Afghanistan, and that he felt safer in a Rosomak than in an MRAP. He credits the medical evacuation version with saving a wounded soldier's life. He adds that in narrow village streets the long cannon barrel was a drawback, so the machine-gun-armed APC version was more useful there.
+    speaker: Polish deputy company commander, 1st Motorised Infantry Battalion, 12th Mechanised Brigade
+    context: Looking back on patrols with the Polish contingent in Afghanistan (earlier Hitfist-30P and APC variants)
+    sentiment: positive
+    topics:
+      - sensors
+      - firepower
+      - mobility
+    source:
+      url: https://wiadomosci.wp.pl/jak-wojskowi-oceniaja-sluzbe-na-rosomakach-6027761399280257a
+      title: Jak wojskowi oceniają służbę na rosomakach?
+      publisher: WP Wiadomości
+      date: 2015-01-30
+      retrieved: 2026-11-22
+  - summary: The battalion's chief of staff says the vehicles were reliable in Afghanistan because a large service set-up with spare parts was close at hand. At home, however, slow procedures for getting parts and fluids are a serious problem. Officers say simple items like seals for the thermal cameras, brake pads and hubs are not stocked, so vehicles sit unused.
+    speaker: Polish battalion deputy commander and chief of staff, 12th Mechanised Brigade
+    context: Peacetime operation in Poland compared with the Afghanistan deployment (earlier variant)
+    sentiment: mixed
+    topics:
+      - maintenance
+      - logistics
+      - reliability
+    source:
+      url: https://wiadomosci.wp.pl/jak-wojskowi-oceniaja-sluzbe-na-rosomakach-6027761399280257a
+      title: Jak wojskowi oceniají służbę na rosomakach?
+      publisher: WP Wiadomości
+      date: 2015-01-30
+      retrieved: 2026-11-22
+  - summary: A long-serving gunner says it takes at least three years of regular range time to train a good Rosomak gunner. He adds that new crews tend to hold back for fear of damaging the delicate sights. A crew commander estimates that most damage caused by crews comes from young soldiers who lack driving or turret skills, and that readiness improves once they gain experience.
+    speaker: Polish Rosomak gunner-operator and crew commander, 12th Mechanised Brigade
+    context: Comments made during a brigade field exercise at Drawsko training area, about 2015 (earlier Hitfist-30P variant)
+    sentiment: mixed
+    topics:
+      - training
+      - ergonomics
+      - maintenance
+    source:
+      url: https://wiadomosci.wp.pl/jak-wojskowi-oceniaja-sluzbe-na-rosomakach-6027761399280257a
+      title: Jak wojskowi oceniají służbę na rosomakach?
+      publisher: WP Wiadomości
+      date: 2015-01-30
+      retrieved: 2026-11-22
+  - summary: According to Ukraine's Ministry of Defence, Ukrainian service members rate the Rosomak as easy to learn, fast and manoeuvrable, and well armed thanks to the 30 mm Bushmaster cannon. They also say it protects its crew under constant drone attack, and damaged vehicles are repaired and sent back to service. The ministry summarises the troops' views rather than quoting named crew members.
+    quote: the APC effectively performs its primary function of preserving crew lives even under constant enemy drone attacks
+    speaker: Ukrainian service members, as summarised by the Ministry of Defence of Ukraine
+    context: Ministry overview of Rosomaks in Ukrainian service (Hitfist-30P combat variant and Rak mortar), May 2026
+    sentiment: positive
+    topics:
+      - protection
+      - mobility
+      - training
+    source:
+      url: https://www.globalsecurity.org/wmd/library/news/ukraine/2026/05/ukraine-260514-ukraine-mod01.htm
+      title: "Poland's predator in Ukrainian service: an overview of the Rosomak APC"
+      publisher: Ministry of Defence of Ukraine (republished by GlobalSecurity.org)
+      date: 2026-05-14
+      retrieved: 2026-11-22
+note: I found no first-hand crew comments on the ZSSW-30 turret or the Rosomak-L (reports on its first live firing with the 21st Podhale Rifles Brigade gave no user views), and a tool limit stopped me before I could check Ukrainian video interviews, so all items cover the earlier Hitfist-30P variant, four of them from one 2015 Polish article.

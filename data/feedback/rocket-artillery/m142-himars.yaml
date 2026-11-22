@@ -1,0 +1,73 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: m142-himars
+items:
+  - summary: A Ukrainian HIMARS operator says the crew spends most of its time under cover and only a few minutes in the open for each mission, because Russian reconnaissance drones search for the launchers. He also says GPS jamming, including interference from Ukraine's own air-defence systems, can affect navigation. Even so, he says the launcher still works well against Russian artillery and that the crew has enough munitions for now.
+    quote: I think it's 95 percent in shelter and five percent working, if you compare the time,
+    speaker: Ukrainian HIMARS operator (call sign "Tucha")
+    context: Interview about current HIMARS combat use in Ukraine, 2026. These are launchers Ukraine received earlier, not the Lot 17 cab standard. The outlet says this is one crew's experience only.
+    sentiment: mixed
+    topics:
+      - protection
+      - sensors
+      - mobility
+    source:
+      url: https://balticsentinel.eu/8570131/hunted-by-drones-hampered-by-jamming-how-ukraine-currently-uses-himars
+      title: "Hunted by Drones, Hampered by Jamming: How Ukraine Currently Uses HIMARS"
+      publisher: The Baltic Sentinel
+      date: 2026-10-23
+      retrieved: 2026-11-22
+  - summary: A Ukrainian rocket platoon commander says his unit only fires HIMARS at targets worth the cost of a rocket, mainly Russian long-range artillery, and that it hits close to 90% of its targets. He says the crew watches the sky by every available means whenever the launcher moves out, so the enemy cannot find it.
+    quote: We cannot allow the enemy to determine where the HIMARS is moving or from where it is firing.
+    speaker: Ukrainian rocket artillery platoon commander, 148th Artillery Brigade, Air Assault Forces
+    context: Ukrinform interview with an officer who moved from Grad rocket launchers to HIMARS, 2026. Ukraine uses earlier-standard M142 launchers.
+    sentiment: positive
+    topics:
+      - firepower
+      - protection
+      - logistics
+    source:
+      url: https://www.ukrinform.net/rubric-ato/4151871-artillery-officer-kraft-himars-target-hit-rate-reaches-nearly-90.html
+      title: 'Artillery Officer "Kraft": HIMARS Target Hit Rate Reaches Nearly 90%'
+      publisher: Ukrinform
+      date: 2026-08-07
+      retrieved: 2026-11-22
+  - summary: Members of a Ukrainian HIMARS crew say Russian jamming and air defences have had little effect, with misses measured in meters, and that most launches hit their targets. They also say Russian reconnaissance drones tracking their movements have become a much bigger problem over the past year.
+    speaker: Ukrainian HIMARS crew members
+    context: Defence Blog reporting on an earlier piece by the Ukrainian outlet hromadske, 2026. The crew also looked back on the 2022 Kherson operation. Earlier-standard M142.
+    sentiment: mixed
+    topics:
+      - firepower
+      - sensors
+      - protection
+    source:
+      url: https://defence-blog.com/ukrainian-crew-reveals-rare-look-inside-himars-operations/
+      title: Ukrainian crew reveals rare look inside HIMARS operations
+      publisher: Defence Blog
+      date: 2026
+      retrieved: 2026-11-22
+  - summary: Ukrainian soldiers on the southern front, including a fire controller and a lawmaker serving as a commander, praised HIMARS for letting them strike deep behind Russian lines with good precision. They also said they did not have enough heavy weapons.
+    speaker: Ukrainian fire controller and a Ukrainian commander who is also a member of parliament
+    context: NPR report from Mykolaiv region during the 2022 southern counteroffensive. Earlier-standard M142.
+    sentiment: positive
+    topics:
+      - firepower
+      - logistics
+    source:
+      url: https://www.npr.org/2022/09/02/1120621146/ukraine-counteroffensive-russia-war-himars
+      title: Ukraine's southern offensive relies on heavy weapons. Soldiers say there aren't enough
+      publisher: NPR
+      date: 2022-09-02
+      retrieved: 2026-11-22
+  - summary: An Estonian HIMARS crew carried out its first independent live fire after years of training with US soldiers. The report describes this as a milestone for Baltic defence. The article names the battery's first sergeant as one of about 100 Estonian troops trained to operate the system.
+    speaker: Estonian HIMARS battery personnel; US security-cooperation official also quoted
+    context: First live fire by Estonia's own HIMARS, Undva, Estonia, July 2025
+    sentiment: positive
+    topics:
+      - training
+    source:
+      url: https://www.stripes.com/theaters/europe/2025-07-14/estonia-himars-first-fire-18437371.html
+      title: "'Very emotional day': First HIMARS launch by Estonia marks milestone in Baltic defense"
+      publisher: Stars and Stripes
+      date: 2025-07-14
+      retrieved: 2026-11-22
+note: Almost all first-hand accounts come from Ukrainian crews using earlier-standard M142s, and I found nothing from users about the Lot 17 or armoured-cab (ICP) version; the search stopped early when the tool's usage limit ran out, so the Estonian item is weak on direct crew comments.

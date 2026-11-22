@@ -1,0 +1,19 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: redback
+items:
+  - summary: The Republic of Korea Army's 11th Mechanised Infantry Division ran a six-week evaluation of the AS21 Redback in April–May 2022, covering mobility, operability and maintainability. A South Korean procurement official said afterwards that the trial had confirmed the vehicle's reliability. This was the pre-production export prototype tested in Korea, not the final Australian LAND 400 Phase 3 build.
+    quote: The reliability and sophisticated technology of the Redback IFV has been proved during the latest ROK Army trial run of the vehicle
+    speaker: Brigadier general and head of the Maneuver Program Department, Defense Acquisition Program Administration (DAPA), South Korea, summarising a South Korean Army trial-unit evaluation
+    context: Media day on 27 May 2022 at the end of the 11th Mechanised Infantry Division's six-week trial of the pre-production Redback (earlier version of the same family, not the Australian service configuration)
+    sentiment: positive
+    topics:
+      - reliability
+      - mobility
+      - maintenance
+    source:
+      url: https://www.shephardmedia.com/news/landwarfareintl/south-korean-army-completes-evaluation-of-redback-ifv/
+      title: South Korean army completes evaluation of Redback IFV
+      publisher: Shephard Media
+      date: 2022
+      retrieved: 2026-11-22
+note: Very little first-hand reporting from users so far, because Australian Redbacks don't enter unit service until 2027; the only item is a South Korean procurement official's summary of a 2022 trial, with no direct quotes from the trial soldiers.

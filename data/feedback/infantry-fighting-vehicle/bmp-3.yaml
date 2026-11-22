@@ -1,0 +1,44 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: bmp-3
+items:
+  - summary: Soldiers from Ukraine's 21st Sarmat Battalion (56th Brigade) captured a Russian BMP-3. They said the vehicle had only recently come out of storage, because its weapons were still coated in grease. They also pointed out that the side-opening troop compartment can slow down how fast troops get out. After talking with the crew, a captain was surprised that the vehicle has an onboard toilet, and the unit then used it to fire its 100 mm gun at high angles with the autoloader.
+    speaker: Ukrainian soldiers and a captain of the 56th Separate Motorized Infantry Brigade (users of a captured vehicle)
+    context: The unit captured the Russian BMP-3 in 2024 and the outlet reported from the unit's video. The earlier BMP-3 build is not specified.
+    sentiment: mixed
+    topics:
+      - firepower
+      - ergonomics
+      - logistics
+    source:
+      url: https://en.defence-ua.com/news/ukrainian_forces_capture_the_bmp_3_vehicle_uncover_surprising_features_of_russian_ifv_video-11553.html
+      title: Ukrainian Forces Capture the BMP-3 Vehicle, Uncover Surprising Features of russian IFV (Video)
+      publisher: Defense Express
+      date: 2024-08-18
+      retrieved: 2026-11-22
+  - summary: A Russian BMP-3 crew commander, identified only by a call sign, said the crew's main job is supporting infantry with both indirect and direct fire against enemy infantry and light targets. Army Recognition presented this as evidence that the BMP-3 is shifting toward an indirect fire-support role in Ukraine.
+    speaker: Russian BMP-3 crew commander (call sign only)
+    context: Russia–Ukraine war, about 2024. Seen only in a search-result excerpt of the Army Recognition article, not the full page. The article appears to draw on a Russian-produced report.
+    sentiment: mixed
+    topics:
+      - firepower
+      - training
+    source:
+      url: https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/russia-s-bmp-3-role-in-ukraine-is-shifting-to-indirect-fire-support-vehicle
+      title: Russia's BMP-3 role in Ukraine is shifting to indirect fire support vehicle
+      publisher: Army Recognition
+      date: 2024
+      retrieved: 2026-11-22
+  - summary: Ukrainian army mechanics repaired captured Russian BMP-3s and put them back into service. The report says the troops had trouble finding spare parts to fix the vehicles, which they treat as war trophies.
+    speaker: Ukrainian Army mechanics and troops
+    context: Refurbishment of captured BMP-3s during the Russia–Ukraine war, reported about late 2024. Seen only in a search-result excerpt of the article.
+    sentiment: mixed
+    topics:
+      - maintenance
+      - logistics
+    source:
+      url: https://www.yahoo.com/news/look-bmp-3-russias-answer-104101713.html
+      title: Take a look at the BMP-3, Russia's answer to the US-made Bradley fighting vehicle
+      publisher: Yahoo News (syndicated)
+      date: 2024
+      retrieved: 2026-11-22
+note: I found only three usable items, all from the Russia–Ukraine war, and I only read the full article for the first one; the other two come from search excerpts because I hit the tool-use limit before I could open them. None of them clearly concern the current Russian production model with add-on armour kits, and I found no first-hand accounts from crews in the UAE, Indonesia or other export operators.

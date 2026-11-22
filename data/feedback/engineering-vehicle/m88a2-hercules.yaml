@@ -1,0 +1,47 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: m88a2-hercules
+items:
+  - summary: A depot maintenance supervisor working on the M88A2 at Marine Corps Logistics Base Barstow says the Hercules is the only US military vehicle that can pull a deeply bogged M1 Abrams free by itself. He credits this to its tracks, which dig in where a tank's tracks would just spin.
+    quote: the only vehicle the military has that can, on its own, pull an M1 Abrams Main Battle Tank out of the mud
+    speaker: US Marine Corps depot maintenance branch head (civilian artisan), M88A2 project
+    context: Overhaul of M88A2 vehicles at Production Plant Barstow, Marine Depot Maintenance Command (USMC); article by base public affairs
+    sentiment: positive
+    topics:
+      - mobility
+      - firepower
+    source:
+      url: https://www.dvidshub.net/news/209077/hercules-m88a2-has-strength-its-demigod-namesake
+      title: The Hercules M88A2 has the strength of its demigod namesake
+      publisher: DVIDS / Marine Corps Logistics Base Barstow
+      date: 2015
+      retrieved: 2026-11-22
+  - summary: Depot maintainers say the Hercules is hard to work on, with the very large engine described as a particular challenge. Their supervisor still calls it good value for the money because of the Abrams tanks it can save.
+    quote: The whole engine is a challenge because it's so massive
+    speaker: US Marine Corps depot engine maintainer (civilian artisan), Production Plant Barstow
+    context: Rebuild and testing of M88A2 engines and vehicles at MCLB Barstow before their return to Marine units
+    sentiment: mixed
+    topics:
+      - maintenance
+      - cost
+    source:
+      url: https://www.mclbbarstow.marines.mil/Media-Room/Stories/Article/Article/958040/the-hercules-m88-has-the-strength-of-its-demigod-namesake/
+      title: The Hercules M88 has the strength of its demigod namesake
+      publisher: Marine Corps Logistics Base Barstow
+      date: 2015
+      retrieved: 2026-11-22
+  - summary: After cancelling the M88A3, the US Army said it would put its effort into upgrading parts of the M88A2 and overhauling whole vehicles. It said readiness and reliability were the problems it most needed to fix in the fleet it already has.
+    quote: This path forward will allow the Army to fully concentrate on improving the readiness and reliability of the M88A2
+    speaker: US Army spokesperson (operating service, institutional statement)
+    context: Army statement in July 2025 announcing the end of M88A3 procurement over cost concerns
+    sentiment: mixed
+    topics:
+      - reliability
+      - cost
+      - maintenance
+    source:
+      url: https://www.defensenews.com/land/2025/07/29/old-tank-recovery-vehicles-get-new-life-as-m88a3-is-nixed/
+      title: Old tank recovery vehicles get new life as M88A3 is nixed
+      publisher: Defense News
+      date: 2025-07-29
+      retrieved: 2026-11-22
+note: "I found little first-hand reporting. These are three US items: two from USMC depot maintainers, written up by base public affairs (they may be the same article, published twice), and one Army statement that speaks for the service rather than for crews. A capped search budget cut the research short. I found no credible interviews with Ukrainian, Polish or other foreign M88A2 crews, so more searching may turn some up."

@@ -1,0 +1,61 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: archer
+items:
+  - summary: A Ukrainian gunner with two years of combat experience, who earlier served on the Soviet-era D-20 towed howitzer, compared it with the Archer during the system's first combat use. He said the Archer is a highly automated, very advanced machine that hits targets directly, often within one or two rounds. He also noted that it deploys quickly.
+    quote: I believe that the Archer is a sniper howitzer. It hits straight on target, not aiming in squares, but directly into it.
+    speaker: Ukrainian artilleryman in an Archer crew (former D-20 gunner)
+    context: Video interview with a UNITED24 correspondent, reported by Defense Express, about the first combat use of Archer (Volvo 6x6 version) in Donetsk region, January 2024
+    sentiment: positive
+    topics:
+      - firepower
+      - mobility
+      - ergonomics
+    source:
+      url: https://en.defence-ua.com/events/archers_first_real_combat_deployment_in_the_donetsk_region_video-9226.html
+      title: Ukrainian Artillerymen Share Details of Archer Self-Propelled Howitzer System's Combat Operations in Donetsk Region (Video)
+      publisher: Defense Express
+      date: 2024-01-19
+      retrieved: 2026-11-22
+  - summary: The driver of an Archer in the 43rd Artillery Brigade said its mobility and concealment leave the enemy unsure where the fire is coming from. He added that it can do more damage because it can move. The outlet reported that, because of the drone threat, the crews keep the vehicle under camouflage in dug-in positions rather than driving openly in classic shoot-and-scoot fashion.
+    quote: They don't understand where the shots are coming from. It's very mobile and great.
+    speaker: Ukrainian Archer driver (43rd Artillery Brigade)
+    context: Embedded reporting on the southern front near the Donetsk region border, 2025 (Volvo 6x6 version)
+    sentiment: positive
+    topics:
+      - mobility
+      - protection
+    source:
+      url: https://united24media.com/war-in-ukraine/meet-archer-the-swedish-howitzer-annihilating-russian-tanks-on-ukraines-southern-front-9181
+      title: Meet Archer, the Swedish Howitzer Annihilating Russian Tanks on Ukraine's Southern Front
+      publisher: UNITED24 Media
+      date: 2025-06-17
+      retrieved: 2026-11-22
+  - summary: A commander in the 43rd Artillery Brigade, known by his call sign, described a fight in the Kursk operation where three Archers stopped an attack by 18 Russian tanks, destroying vehicles one by one. He said his crews trained in Sweden and named their guns after their Swedish instructors. The same report shows an Archer from the unit waiting for repair.
+    quote: Only three Archers stopped this column.
+    speaker: Ukrainian Archer unit commander (43rd Artillery Brigade)
+    context: Interview during embedded reporting, 2025, recalling fighting in the Kursk operation (Volvo 6x6 version)
+    sentiment: positive
+    topics:
+      - firepower
+      - training
+    source:
+      url: https://united24media.com/war-in-ukraine/meet-archer-the-swedish-howitzer-annihilating-russian-tanks-on-ukraines-southern-front-9181
+      title: Meet Archer, the Swedish Howitzer Annihilating Russian Tanks on Ukraine's Southern Front
+      publisher: UNITED24 Media
+      date: 2025-06-17
+      retrieved: 2026-11-22
+  - summary: A soldier serving in an Archer crew said the crew can quickly pack up and leave a firing position after shooting, which helps them survive enemy counter-battery fire. The article calls the Archer one of the most advanced weapons the allies have given Ukraine.
+    quote: We also quickly organise ourselves and leave the shooting site
+    speaker: Ukrainian soldier in an Archer crew (45th brigade)
+    context: Early combat use in Ukraine, late 2023 to early 2024 (Volvo 6x6 version). Only the search-result excerpt could be read; the full page did not load.
+    sentiment: positive
+    topics:
+      - mobility
+      - protection
+    source:
+      url: https://www.technology.org/2024/01/09/giant-sniper-rifle-ukrainians-enjoy-their-archer-howitzers/
+      title: Giant Sniper Rifle - Ukrainians Enjoy Archer Howitzers
+      publisher: Technology.org
+      date: 2024-01-09
+      retrieved: 2026-11-22
+note: All items are Ukrainian crew comments on the earlier Volvo A30D 6x6 Archer; I found no first-hand user feedback on the RMMV HX2 8x8 version, and no critical crew accounts or British or Swedish user interviews that I could check.

@@ -1,0 +1,70 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: m1074-joint-assault-bridge
+items:
+  - summary: During the 2020 operational test, a JAB vehicle commander said the large amount of hands-on training before the test gave crews confidence in the equipment and in their own abilities before the field exercise.
+    quote: The amount of hands-on training we received, really gave all of us confidence in the equipment and our capabilities going into the field problem
+    speaker: US Army engineer vehicle commander (Sgt., 1st Engineer Battalion, 1st Infantry Division)
+    context: The second JAB operational test, an 11-day force-on-force event in 2020 with more than 40 natural gap crossings and 22 combined-arms breaches
+    sentiment: positive
+    topics:
+      - training
+    source:
+      url: https://www.army.mil/article/241558/1st_infantry_division_combined_arms_soldiers_test_joint_assault_bridge
+      title: 1st Infantry Division combined-arms Soldiers test Joint Assault Bridge
+      publisher: U.S. Army (army.mil)
+      date: 2020-12
+      retrieved: 2026-11-22
+  - summary: An engineer company commander described gap crossings and breaches as complex missions that need engineers and maneuver units to work together, and said the JAB let his unit keep up its pace throughout the test.
+    quote: The JAB allowed us to maintain tempo throughout.
+    speaker: US Army engineer company commander (1st Engineer Battalion)
+    context: The 2020 JAB operational test with 1st Armored Brigade Combat Team, 1st Infantry Division
+    sentiment: positive
+    topics:
+      - mobility
+    source:
+      url: https://www.army.mil/article/241558/1st_infantry_division_combined_arms_soldiers_test_joint_assault_bridge
+      title: 1st Infantry Division combined-arms Soldiers test Joint Assault Bridge
+      publisher: U.S. Army (army.mil)
+      date: 2020-12
+      retrieved: 2026-11-22
+  - summary: The commander of a fielding unit said the JAB changes how a combined-arms breach works. She noted that its MLC 115 bridge is twice the load class of the Wolverine it replaces, so it can carry the M1A2 SEPv3 across a gap.
+    quote: The fielding of the JAB changes the dynamic of the Combined Arms Breach.
+    speaker: US Army brigade engineer battalion company commander (3rd BEB)
+    context: New-equipment fielding and gap-crossing training, the first time a JAB was used to cross both the M1A2 SEPv3 and the M109A7 (about 2021)
+    sentiment: positive
+    topics:
+      - mobility
+    source:
+      url: https://www.army.mil/article/250247/greywolf_fields_new_joint_assault_bridge
+      title: GREYWOLF Fields New Joint Assault Bridge
+      publisher: U.S. Army (army.mil)
+      date: 2021
+      retrieved: 2026-11-22
+  - summary: A vehicle commander said the fielding exercise let many soldiers experience a real gap crossing. He stressed that doing it repeatedly builds team cohesion, skill, and an understanding of all the moving parts of the mission.
+    quote: Consistency builds perfection.
+    speaker: US Army vehicle commander (Sgt., Bravo Company, 3rd BEB)
+    context: JAB fielding and training event with the GREYWOLF brigade (about 2021)
+    sentiment: positive
+    topics:
+      - training
+    source:
+      url: https://www.army.mil/article/250247/greywolf_fields_new_joint_assault_bridge
+      title: GREYWOLF Fields New Joint Assault Bridge
+      publisher: U.S. Army (army.mil)
+      date: 2021
+      retrieved: 2026-11-22
+  - summary: The Pentagon's chief weapons tester reported poor reliability and limited availability during the first JAB operational test, run with a trial unit at Fort Bliss in 2019. The Army then fixed hydraulic problems and changed training after finding that maintainers also needed instruction on the M1A1 Abrams chassis, not just the bridge launcher.
+    speaker: DOT&E evaluators reporting on the US Army trial unit (Fort Bliss engineers)
+    context: The first initial operational test of the JAB at Fort Bliss, April 2019, as reported before the second test
+    sentiment: negative
+    topics:
+      - reliability
+      - maintenance
+      - training
+    source:
+      url: https://www.defensenews.com/land/2020/02/06/after-fixes-to-hydraulics-army-gears-up-for-second-stab-at-test-of-new-assault-bridge/
+      title: After fixes to hydraulics, US Army gears up for second stab at test of new assault bridge
+      publisher: Defense News
+      date: 2020-02-06
+      retrieved: 2026-11-22
+note: Most first-hand comments come from US Army public-affairs articles about the 2020 operational test and early fieldings, so they lean positive; the critical item is based on search-result excerpts only because the page couldn't be opened, and I found no crew comments from Romania.

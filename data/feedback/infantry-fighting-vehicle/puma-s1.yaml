@@ -1,0 +1,61 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: puma-s1
+items:
+  - summary: After a December 2022 gunnery exercise at Bergen, the commander of the 10th Panzer Division wrote to Army leadership that every one of the company's 18 Pumas had become non-operational. He listed turret faults, problems with the electronics and a cable fire in the driver's compartment.
+    quote: Despite all the good preparation, the operational readiness of the vehicle will be a lottery.
+    speaker: German Army division commander (Maj. Gen., 10th Panzer Division; public official)
+    context: Internal letter first reported by Der Spiegel and quoted in English translation. It concerned Pumas in the upgraded VJTF 2023 configuration, the standard that preceded the S1, during preparation for NATO VJTF 2023 in December 2022.
+    sentiment: negative
+    topics:
+      - reliability
+      - maintenance
+    source:
+      url: https://militarnyi.com/en/news/the-german-military-faced-massive-failures-of-the-puma-ifv-systems/
+      title: The German military faced massive failures of the Puma IFV systems
+      publisher: Militarnyi
+      date: 2022
+      retrieved: 2026-11-22
+  - summary: The commander of the German Puma contingent in NATO's eVA Battlegroup Slovakia said the vehicle did even better than expected on its first deployment abroad. He said the tracked Puma kept moving in difficult terrain where wheeled vehicles often got stuck.
+    quote: Der Puma bewährt sich im Einsatz noch besser als erwartet.
+    speaker: German Army battalion commander and contingent leader (Lt. Col.)
+    context: First foreign deployment of the Puma, with the NATO enhanced Vigilance Activities battlegroup in Slovakia, about 2024.
+    sentiment: positive
+    topics:
+      - mobility
+      - reliability
+    source:
+      url: https://www.bundeswehr.de/de/auftrag/einsaetze/eva-puma-nato-ostflanke-5757114
+      title: Der Schützenpanzer Puma an der NATO-Ostflanke
+      publisher: Bundeswehr
+      date: 2024
+      retrieved: 2026-11-22
+  - summary: A company commander from Panzergrenadierbataillon 33 led 18 Pumas alongside Leopard 2A6 tanks in a two-week live-fire exercise. He said more than 80 percent of the Pumas were ready for use each morning, helped by on-site technicians who showed crews how to fix minor faults themselves.
+    quote: Eine Einsatzbereitschaft von über 80 Prozent der Schützenpanzer Puma, also mindestens 14 Stück, konnte jeden Morgen sichergestellt werden
+    speaker: German Army mechanised infantry company commander (Major)
+    context: Exercise at the Lower Saxony armoured training centre (Schießübungszentrum Panzertruppen), about 2023, after the December 2022 breakdowns.
+    sentiment: positive
+    topics:
+      - reliability
+      - maintenance
+      - training
+    source:
+      url: https://www.bundeswehr.de/de/organisation/heer/aktuelles/bewaehrungsprobe-fuer-den-schuetzenpanzer-puma-5635552
+      title: Bewährungsprobe für den Schützenpanzer Puma
+      publisher: Bundeswehr
+      date: 2023
+      retrieved: 2026-11-22
+  - summary: In a Bundeswehr podcast, a Puma crew of commander, gunner, driver and dismount team leader talked about their vehicle. The commander praised the stabilised cannon, effective ranges beyond 2,000 m, the two independent sights, the thermal imager and the link to the soldiers' Infanterist der Zukunft system, which shows where dismounted troops are.
+    quote: Ich habe auf dem Schützenpanzer Puma Kampfentfernungen von über 2000 Metern, habe zwei voneinander unabhängige Optiken
+    speaker: German Army Puma vehicle commander (Hauptfeldwebel)
+    context: Combined-arms attack exercise with Leopard tanks at the Altmark combat training centre (GÜZ), about 2023. The Puma variant is not stated.
+    sentiment: positive
+    topics:
+      - firepower
+      - sensors
+    source:
+      url: https://www.bundeswehr.de/de/mediathek/podcast-schuetzenpanzer-puma-5579472
+      title: Pumas und Leoparden greifen an
+      publisher: Bundeswehr
+      date: 2023
+      retrieved: 2026-11-22
+note: "Coverage is thin: one critical commander's letter, reported second-hand through Der Spiegel, and three positive Bundeswehr publications, which are official and may be one-sided. Sources rarely name the variant explicitly, and the dates of the Bundeswehr pages are estimated."

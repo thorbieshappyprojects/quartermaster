@@ -1,0 +1,61 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: k239-chunmoo
+items:
+  - summary: The commander of the first Polish Homar-K rocket battalion said the Jelcz chassis gives the crew a lot of space inside the cab. In his view, this makes preparing and working the system more comfortable than in vehicles with smaller cabs.
+    quote: na pewno atutem tego rozwiązania jest ilość miejsca dla obsługi w środku pojazdu
+    speaker: Polish Army lieutenant colonel, commander of 3rd Rocket Battalion, 18th Artillery Regiment
+    context: Interview with the Polish military magazine Polska Zbrojna, retold by WP Tech, early 2024, shortly after the battalion received its first launchers
+    sentiment: positive
+    topics:
+      - ergonomics
+    source:
+      url: https://tech.wp.pl/wojsko-polskie-ocenia-wyrzutnie-wojskowy-wskazuje-zalety-homar-k,6995942755101312a
+      title: Wojsko Polskie ocenia wyrzutnię. Wojskowy wskazuje zalety Homar-K
+      publisher: WP Tech
+      date: 2024-02
+      retrieved: 2026-11-22
+  - summary: The same battalion commander said early experience with the 15 Homar-K launchers delivered at the end of 2023 was positive. He linked this to the equipment being new and under warranty, and said full service support with quick response times helped training.
+    quote: Pierwsze doświadczenia nie mogą być inne jak pozytywne. Mówimy tu o nowym fabrycznie sprzęcie, na gwarancji.
+    speaker: Polish Army lieutenant colonel, commander of 3rd Rocket Battalion, 18th Artillery Regiment
+    context: Defence24 visit to the 18th Artillery Regiment at Nowa Dęba, early 2024
+    sentiment: positive
+    topics:
+      - maintenance
+      - reliability
+      - training
+    source:
+      url: https://defence24.pl/sily-zbrojne/pierwszy-dywizjon-z-homarami-k
+      title: Pierwszy dywizjon z Homarami-K [WIDEO]
+      publisher: Defence24
+      date: 2024-02
+      retrieved: 2026-11-22
+  - summary: After Poland's first live firings of the Homar-K at the Ustka range, where more than a dozen crews hit targets in the Baltic at up to about 80 km, an officer from Poland's General Command called it a major step. He added that much work was still needed to bring in new munitions and develop procedures.
+    quote: Przed nami jeszcze wiele pracy, która wiąże się m.in. z implementacją nowego uzbrojenia i wypracowaniem procedur dotyczących jego używania.
+    speaker: Polish Army colonel, General Command of the Armed Forces
+    context: First Polish Homar-K live firings at Ustka by the 3rd Battalion of the 18th Artillery Brigade, late 2024
+    sentiment: mixed
+    topics:
+      - firepower
+      - training
+    source:
+      url: https://www.polska-zbrojna.pl/home/articleshow/42918?t=Homar-czyli-przelom
+      title: Homar, czyli przełom
+      publisher: Polska Zbrojna
+      date: 2024-12
+      retrieved: 2026-11-22
+  - summary: A Polish artillery major training on the Chunmoo in Korea said he had already seen its firepower and mobility in Poland. He said watching the automated fire control system and the experienced Korean operators showed him how good the system and its training programme are.
+    quote: By observing the automated fire control system and the skilled operators, I could clearly see the excellence of the Chunmoo system
+    speaker: Polish Army major, 18th Artillery Brigade
+    context: International K239 training course run by a ROK Army Chunmoo training unit in Paju, South Korea, 2025
+    sentiment: positive
+    topics:
+      - firepower
+      - mobility
+      - training
+    source:
+      url: https://milmag.pl/en/polish-artillery-troops-take-part-in-international-k239-chunmoo-training/
+      title: Polish Artillery Troops Take Part in International K239 Chunmoo Training
+      publisher: MILMAG
+      date: 2025-05
+      retrieved: 2026-11-22
+note: First-hand reporting comes almost entirely from Polish Homar-K units early in service and is generally positive. Some of it is formal, from commanders or ceremonies. No credible crew accounts were found from South Korea (beyond a training-course statement), the UAE, Saudi Arabia, Norway, Estonia or Croatia. Several article fetches failed, so the summaries are based on search-result text, and dates are approximate (month only).

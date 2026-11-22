@@ -1,0 +1,30 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: rch-155
+items:
+  - summary: After Ukrainian soldiers tested and trialled the first RCH 155 delivered in 2025, they reported technical issues. They also said the howitzer had to be integrated with Ukraine's own battlefield management and command-and-control systems before it could be used in coordinated operations, and KNDS said it was making changes to the Ukrainian vehicles as a result. The users did not speak directly here; KNDS Germany's CEO passed on their feedback in a Deutsche Welle interview.
+    speaker: Ukrainian Armed Forces trial users (feedback relayed by the manufacturer, KNDS Germany)
+    context: Ukrainian testing and trials of the first RCH 155 after the January 2025 handover; reported in August 2025
+    sentiment: mixed
+    topics:
+      - reliability
+      - sensors
+      - training
+    source:
+      url: https://thedefensepost.com/2025/08/29/knds-rch-155-howitzer-ukraine/
+      title: KNDS Refines RCH-155 Howitzer for Ukraine After Soldier Feedback
+      publisher: The Defense Post
+      date: 2025-08-29
+      retrieved: 2026-11-22
+  - summary: The first early report from use in Ukraine says Ukrainian crews have repeatedly hit targets about 40 km away with their first round. The claim comes from a KNDS adviser posting on X, not from the crews themselves. German Aid to Ukraine (GAU) reported it but said it has not yet seen detailed or independent performance reporting.
+    speaker: Ukrainian RCH 155 crews (claim relayed on X by an adviser to the manufacturer; reported by an independent aid tracker)
+    context: First RCH 155 use in Ukraine, mid-2026; reported when GAU confirmed delivery in September 2026
+    sentiment: positive
+    topics:
+      - firepower
+    source:
+      url: https://defence-blog.com/ukraine-receives-first-rch-155-howitzers-after-years-of-delay/
+      title: Ukraine receives first RCH 155 howitzers after years of delay
+      publisher: Defence Blog
+      date: 2026-09
+      retrieved: 2026-11-22
+note: Very little first-hand reporting exists, because the system only reached Ukraine in mid-2026 and British and German crews are just starting training. Neither item quotes a crew member directly; both pass on user feedback through the manufacturer's side, and the second item is a social-media claim that a reputable tracker reported but could not verify.

@@ -1,0 +1,18 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: leguan
+items:
+  - summary: A German Army article on a pioneer platoon with the NATO eFP battlegroup in Lithuania says the Leguan's crew laid the bridge in about five minutes and picked it back up in about seven, and every vehicle in the company crossed, including Leopard 2 tanks of over 70 tonnes. The photo captions also say the bridge is narrow, so a soldier stood at the far end and used hand signals to guide each driver across.
+    quote: Viel Spielraum zum Lenken gibt es auf der Brücke nicht
+    speaker: German Army (Bundeswehr) pioneer platoon attached to the 1st German combat company, eFP Lithuania, as reported by the Bundeswehr's own editorial team
+    context: Crossing a water obstacle during eFP Lithuania training, 2021. The story comes from the army's own media, not a direct crew interview.
+    sentiment: positive
+    topics:
+      - mobility
+      - ergonomics
+    source:
+      url: https://www.bundeswehr.de/de/auftrag/verteidigung/pioniere-efp-leguan-brueckenlegepanzer-rukla-litauen-5220144
+      title: Kein Hindernis ist zu groß – Die Pioniere bei EFP
+      publisher: Bundeswehr
+      date: 2021-09-17
+      retrieved: 2026-11-22
+note: I found only one usable item because the search tool hit its limit before I could check sources for the other operators (NL, CH, SE, NO, DK, FI, SG, LT), and the other results were supplier announcements, delivery news, reference pages or industry pieces with no crew voice.

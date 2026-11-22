@@ -1,0 +1,76 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: leclerc-xlr
+items:
+  - summary: A former Leclerc platoon sergeant, who served in Kosovo in 1999–2000, said the fire-control computer was the tank's greatest strength because it made firing on the move about as accurate as firing from a halt. He also said the earlier Leclerc was hard to master, protection could have been better, and its external 7.62 mm machine gun had to be fired manually, which meant a crew member had to get out. He expected the XLR to fix these weak points.
+    quote: If you are not the master of its technology, you cannot be good in tactics
+    speaker: Retired French Leclerc platoon sergeant / tank commander
+    context: Q&A interview on a personal military-history blog (not a defence outlet), 2021; about the earlier Leclerc, with comments on the planned XLR upgrade
+    sentiment: mixed
+    topics:
+      - firepower
+      - ergonomics
+      - protection
+    source:
+      url: https://alejandro-8en.blogspot.com/2021/01/interview-with-former-leclerc-crew.html
+      title: Interview with a former Leclerc crew member
+      publisher: History and military technology (blog)
+      date: 2021-01-17
+      retrieved: 2026-11-22
+  - summary: The same former crew member said the Leclerc was surprisingly reliable in Kosovo, covering 300–500 km a day with only early teething problems and some track-pad wear. He rejected the idea that a three-person crew makes maintenance much harder, but said the French Army's logistics chain was weak.
+    quote: I was really surprised by the reliability of the Leclerc and it was a big and good surprise.
+    speaker: Retired French Leclerc platoon sergeant / tank commander
+    context: Same 2021 blog interview, recalling his 1999–2000 Kosovo deployment on the earlier Leclerc
+    sentiment: mixed
+    topics:
+      - reliability
+      - maintenance
+      - logistics
+    source:
+      url: https://alejandro-8en.blogspot.com/2021/01/interview-with-former-leclerc-crew.html
+      title: Interview with a former Leclerc crew member
+      publisher: History and military technology (blog)
+      date: 2021-01-17
+      retrieved: 2026-11-22
+  - summary: The 501st Tank Regiment (501e RCC) said the Leclerc outperformed other NATO tanks in the tank-specific events of Exercise Iron Spear in Latvia, where a French crew won. The French General Staff credited the win to the crew keeping its readiness high. The rival German and Norwegian Leopard 2 crews were also described as highly skilled.
+    quote: Sur les épreuves propres aux chars, le Leclerc a surclassé les autres chars de l'Otan.
+    speaker: French 501st Tank Regiment (unit statement) and French General Staff (EMA)
+    context: NATO Exercise Iron Spear 2019-2, Adazi, Latvia, Mission Lynx deployment; earlier Leclerc variant
+    sentiment: positive
+    topics:
+      - firepower
+      - training
+    source:
+      url: https://www.opex360.com/2019/10/16/mission-lynx-lequipage-dun-char-leclerc-surclasse-ses-homologues-de-lotan-lors-de-lexercice-iron-spear/
+      title: "Mission Lynx : L'équipage d'un char Leclerc surclasse ses homologues de l'Otan lors de l'exercice Iron Spear"
+      publisher: Zone Militaire (opex360)
+      date: 2019-10-16
+      retrieved: 2026-11-22
+  - summary: The commander of French forces in Estonia, an infantry officer, ranked the Abrams first and the Leclerc second among the NATO tanks used there. He said the Leclerc had great technology when it was new and that new technology is now being added. He also said he found tanks a bit claustrophobic.
+    quote: Leclerc had some great tech when it was new, and we are adapting new tech to it again
+    speaker: Commander of French forces in Estonia (NATO battlegroup)
+    context: ERR News interview about the NATO battlegroup and winter training, about early 2024; refers to the earlier Leclerc and the ongoing renovation
+    sentiment: mixed
+    topics:
+      - sensors
+      - ergonomics
+    source:
+      url: https://news.err.ee/1609233804/interview-commander-of-french-forces-in-estonia-on-the-nato-battlegroup-and-winter-training
+      title: Interview | Commander of French forces in Estonia on the NATO battlegroup and winter training
+      publisher: ERR News
+      date: 2024
+      retrieved: 2026-11-22
+  - summary: The 501st Tank Regiment welcomed its first renovated Leclerc (XLR) in a Facebook post, which a defence outlet reported, calling it the Army's main tool for coercion and decision. The article also noted the XLR had arrived later than the budget schedule planned.
+    quote: Le premier char Leclerc rénové [XLR] est arrivé au 501e RCC !
+    speaker: French 501st Tank Regiment (unit statement)
+    context: Unit Facebook post of 22 November 2023, as reported by Zone Militaire/opex360 (seen via a Scoop.it repost)
+    sentiment: positive
+    topics:
+      - training
+      - logistics
+    source:
+      url: https://www.scoop.it/topic/defense-news/p/4149076715/2023/11/24/le-501e-regiment-de-chars-de-combat-a-recu-son-premier-leclerc-renove
+      title: Le 501e Régiment de chars de combat a reçu son premier Leclerc "rénové"
+      publisher: Zone Militaire (opex360), via Scoop.it
+      date: 2023-11-24
+      retrieved: 2026-11-22
+note: I found almost no first-hand crew feedback on the XLR itself; four items are about the earlier Leclerc and one is a unit announcement, the two strongest come from one personal blog interview rather than a defence outlet, and the search was cut short when the search-tool limit ran out, so XLR trials and exercise accounts (e.g. 5th Dragoons at ZHANNIBAL, STAT testing) are not covered.

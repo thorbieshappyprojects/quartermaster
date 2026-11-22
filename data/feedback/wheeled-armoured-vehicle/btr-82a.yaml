@@ -1,0 +1,72 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: btr-82a
+items:
+  - summary: During a trial in a Kamchatka naval infantry brigade, an officer said the BTR-82A loaded onto landing ships faster than the MT-LBV it might replace, and was faster and more comfortable. He said it handled deep snow and boggy ground well once drivers learned to use the tyre-pressure and differential-lock systems. He also said all the vehicles returned from the brigade exercise without breakdowns.
+    quote: БТР-82А, можно сказать, «мерседес» по сравнению с его предшественником БТР-80.
+    speaker: Russian naval infantry captain, reconnaissance battalion deputy commander for armament
+    context: Six-month-plus trial (approbation) of BTR-82A in the Kamchatka naval infantry brigade, autumn 2017 to spring 2018, covering exercises, a winter off-road run and live firing
+    sentiment: positive
+    topics:
+      - mobility
+      - reliability
+      - ergonomics
+    source:
+      url: http://redstar.ru/btr-82a-pokoryaet-kamchatku/
+      title: БТР-82А покоряет Камчатку
+      publisher: Krasnaya Zvezda (Russian MoD newspaper)
+      date: 2018-06-20
+      retrieved: 2026-11-22
+  - summary: A conscript gunner in the same trial said the fighting compartment is separate from the troop compartment and highly automated, and that the weapons are simple to aim and fire. The same captain said that after many live-fire sessions he rejected claims that the 2A72 cannon loses accuracy and wears its barrel quickly.
+    quote: Управлять пушкой и пулемётом, мне кажется, сможет любой геймер, имеющий даже начальные навыки владения игровым джойстиком
+    speaker: Russian naval infantry gunner (conscript); captain of the same brigade
+    context: Live-fire training at Radygino range, Kamchatka, March 2018, during the BTR-82A trial
+    sentiment: positive
+    topics:
+      - firepower
+      - ergonomics
+      - sensors
+    source:
+      url: http://redstar.ru/btr-82a-pokoryaet-kamchatku/
+      title: БТР-82А покоряет Камчатку
+      publisher: Krasnaya Zvezda (Russian MoD newspaper)
+      date: 2018-06-20
+      retrieved: 2026-11-22
+  - summary: An Azerbaijani vehicle commander who fought in the 2020 war said the BTR-82A is more manoeuvrable than earlier BTRs, with a stronger engine and better armour. He also said the added inner liners improve protection against fragments and that the vehicle lets crews fight by day and by night.
+    quote: Самое главное, что его отличает, - это более мощный двигатель и броня.
+    speaker: Azerbaijani BTR-82A vehicle commander (praporshchik)
+    context: Interview at a unit vehicle park after the 44-day 2020 Karabakh war
+    sentiment: positive
+    topics:
+      - mobility
+      - protection
+    source:
+      url: https://armiya.az/ru/news/175998
+      title: "БТР-82А в Отечественной войне: экипаж машины боевой"
+      publisher: Armiya.az
+      date: 2021-06-25
+      retrieved: 2026-11-22
+  - summary: Russian troops abandoned a BTR-82A and dropped a grenade inside to put it out of action. In a video report, a Ukrainian soldier explains how his unit repaired the damage and brought the vehicle back into service on Ukraine's side.
+    speaker: Ukrainian soldier (unit that repaired a captured vehicle)
+    context: Captured BTR-82A in the Kharkiv region, 2022; RFE/RL video report (only the article summary was reviewed, not the full video)
+    sentiment: positive
+    topics:
+      - maintenance
+    source:
+      url: https://www.rferl.org/a/btr-ukraine-russia-apc-personnel-carrier-captured-repaired-kharkiv/31913809.html
+      title: How A Wrecked Russian Armored Vehicle Is Now Fighting For Ukraine
+      publisher: RadioFreeEurope/RadioLiberty
+      date: 2022
+      retrieved: 2026-11-22
+  - summary: Defence Blog reported that Russian BTR-82 crews complain the vehicle gives too little protection against small-arms fire and artillery fragments. Units were adding improvised metal-channel armour to the front and sides. The outlet does not say who the crews were or where the complaints came from, so this is weak evidence.
+    speaker: Russian BTR-82 crews (unattributed, as reported by the outlet)
+    context: First months of the full-scale war in Ukraine, 2022
+    sentiment: negative
+    topics:
+      - protection
+    source:
+      url: https://defence-blog.com/russian-btr-82-uses-junk-metal-to-protect-from-small-arms-fire/
+      title: Russian BTR-82 uses junk metal to protect from small arms fire
+      publisher: Defence Blog
+      date: 2023
+      retrieved: 2026-11-22
+note: "Firsthand reporting is thin: the strongest items come from Russian and Azerbaijani military media (with a likely positive slant), plus one Ukrainian video report and one unattributed claim about crew complaints; dates for the RFE/RL and Defence Blog items are approximate, the BTR-82AT variant itself was not found specifically, and a search hit limit stopped further checks."

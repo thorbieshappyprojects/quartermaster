@@ -1,0 +1,44 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: merkava-mk4
+items:
+  - summary: A Merkava Mk 4 company-level tank commander from the 401st Brigade praised the Trophy active protection system. He described a 2014 Gaza incident in which a long-range anti-tank missile aimed at a company commander's tank was defeated automatically, and said the protection gave crews confidence and helped morale.
+    quote: We understood the tank was targeted, but the system worked like a charm. Because of [Trophy], the threat was neutralized. Everything was automatic
+    speaker: Israeli Merkava Mk 4 tank commander (captain, 46th Battalion, 401st Brigade)
+    context: Interview at a base near Gaza in December 2015, recalling Operation Protective Edge (2014); earlier Mk 4 variant with Trophy, not the Barak
+    sentiment: positive
+    topics:
+      - protection
+    source:
+      url: https://www.defensenews.com/land/2016/01/28/israel-to-equip-troop-carriers-with-trophy-aps/
+      title: Israel To Equip Troop Carriers With Trophy APS
+      publisher: Defense News
+      date: 2016-01-28
+      retrieved: 2026-11-22
+  - summary: An officer at the IDF tank commanders' school said fitting Trophy changed how tank commanders behave. Before it, crews fought more defensively and tended to stay in cover.
+    speaker: Israeli officer at the IDF tank commanders' school
+    context: Remarks quoted secondhand in a 2023 overview article on Trophy-equipped Merkava Mk 4 tanks; earlier Mk 4 variant, not the Barak; original source and date not given in the material seen
+    sentiment: positive
+    topics:
+      - protection
+      - training
+    source:
+      url: https://www.19fortyfive.com/2023/05/merkava-the-super-tank-from-israel-that-ukraine-would-love/
+      title: "Merkava: The Super Tank from Israel That Ukraine Would Love"
+      publisher: 19FortyFive
+      date: 2023-05
+      retrieved: 2026-11-22
+  - summary: A reporter rode in a Barak with the battalion commander leading its introduction and a conscript driver. He described the crew as very enthusiastic about the new tank's sensors and the commander's helmet display, and the commander pushing the driver to drive fast through thick dust with almost no visibility.
+    speaker: Israeli Barak battalion commander and crew, as observed by a journalist
+    context: Media test drive in the northern Golan Heights, September 2023, around the time the Barak entered service with the 52nd Battalion; weak item, since the crew's views come through the reporter and most direct quotes are from an Elbit executive
+    sentiment: positive
+    topics:
+      - sensors
+      - ergonomics
+      - mobility
+    source:
+      url: https://www.ynetnews.com/business/article/bkx7uz2x6
+      title: "Intelligent and deadly: The awe-inspiring efficiency of the IDF's new Barak tank"
+      publisher: Ynetnews
+      date: 2023
+      retrieved: 2026-11-22
+note: Little first-hand reporting found and the search was cut short; one strong crew interview (Mk 4 with Trophy, 2016), plus a secondhand instructor remark and a journalist's test ride, with no crew accounts yet of the Barak in combat.

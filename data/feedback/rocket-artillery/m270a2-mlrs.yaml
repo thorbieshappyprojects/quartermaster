@@ -1,0 +1,78 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: m270a2-mlrs
+items:
+  - summary: A gunner in one of the first US units to get the M270A2 liked the roomier cab, the better crew protection and the hydraulics that tilt the cab for maintenance. He also reported early faults to his chain of command. Switches on the accelerator and brakes worked loose while driving, and standard tow cables were too weak to pull the heavier A2, so a tow bar was needed.
+    quote: But other than that, they're pretty sweet.
+    speaker: US Army MLRS gunner, 1st Battalion, 6th Field Artillery (M270A2)
+    context: First M270A2 fielding and first live fire at Grafenwoehr Training Area, Germany, September 2024
+    sentiment: mixed
+    topics:
+      - ergonomics
+      - protection
+      - reliability
+    source:
+      url: https://www.stripes.com/branches/army/2024-09-24/army-artillery-vehicle-arrives-germany-15285094.html
+      title: New Army mobile armored launchers get mostly positive feedback after test in Germany
+      publisher: Stars and Stripes
+      date: 2024-09-24
+      retrieved: 2026-11-22
+  - summary: The battalion commander said soldiers were happy with the M270A2. The new engine and transmission drive differently, so crews have to relearn things like how to control the throttle. He added that sharing a fire control system with HIMARS makes cross-training easier. The same article says many soldiers felt it was too early to judge whether the A2 is easier to maintain than the A1.
+    quote: The soldiers were happy with them ... but it's positive feedback from the ground up.
+    speaker: US Army field artillery battalion commander (M270A2)
+    context: After weeks of instruction and the first M270A2 live fire, Grafenwoehr, Germany, September 2024
+    sentiment: positive
+    topics:
+      - mobility
+      - training
+      - sensors
+    source:
+      url: https://www.stripes.com/branches/army/2024-09-24/army-artillery-vehicle-arrives-germany-15285094.html
+      title: New Army mobile armored launchers get mostly positive feedback after test in Germany
+      publisher: Stars and Stripes
+      date: 2024-09-24
+      retrieved: 2026-11-22
+  - summary: A battery commander said the M270A2 is somewhat faster and more mobile than the A1. He also said its improved cab protects soldiers in a way the A1's did not, and that system upgrades let crews fire faster and process missions more efficiently.
+    quote: The major difference we have seen with the M270A2 is that they are a little bit faster and more mobile.
+    speaker: US Army battery commander, 1st Battalion, 77th Field Artillery Regiment, 41st Field Artillery Brigade
+    context: Army release on the brigade swapping its M270A1s for M270A2s, including use in exercise Dynamic Front 25 in Finland, late 2024
+    sentiment: positive
+    topics:
+      - mobility
+      - protection
+      - firepower
+    source:
+      url: https://www.dvidshub.net/news/487665/41st-fab-becomes-first-us-army-unit-receive-new-m270a2-mlrs
+      title: 41st FAB becomes first U.S. Army unit to receive new M270A2 MLRS
+      publisher: DVIDS (US Army)
+      date: 2024-12
+      retrieved: 2026-11-22
+  - summary: Crews from a Ukrainian rocket brigade, which had moved from Soviet-era Smerch launchers to the M270 (earlier variant, supplied by allies), said switching over was fairly easy. They credited skilled British instructors and the system's logical control layout. A commander praised the designers but said the high cost of each rocket affects which targets he chooses to engage.
+    quote: Really, the difference between the M270 and Smerch is night and day.
+    speaker: Ukrainian M270 battery commander, 107th Rocket Artillery Brigade (interviewee used a pseudonym)
+    context: Kyiv Post visit to the brigade in eastern Ukraine, January 2023 (earlier M270 variant)
+    sentiment: positive
+    topics:
+      - training
+      - ergonomics
+      - cost
+    source:
+      url: https://www.kyivpost.com/post/11446
+      title: "Meet the Beast: Ukraine's Elite M270 Rocket Brigade"
+      publisher: Kyiv Post
+      date: 2023-01
+      retrieved: 2026-11-22
+  - summary: Ukrainian soldiers took a UK maintenance course on the M270, run by British Army electrical and mechanical engineering trainers and 26th Regiment Royal Artillery. The point was to keep the launchers combat-ready and pass the skills on to other troops once home. A Ukrainian trainee called the system decisive for Ukraine's ability to strike back.
+    quote: decisive for the ability of the Ukrainian Armed Forces to strike back at the invaders on our occupied lands.
+    speaker: Ukrainian soldier on an M270 maintenance course (as relayed by Ukraine's General Staff)
+    context: UK Operation Orbital maintenance training, May 2023 (earlier M270 variant); the outlet based its report on a Ukrainian General Staff statement
+    sentiment: positive
+    topics:
+      - maintenance
+      - training
+    source:
+      url: https://euromaidanpress.com/2023/05/24/ukrainian-soldiers-learn-to-repair-m270-mlrs-in-the-uk/
+      title: Ukrainian soldiers learn to repair M270 MLRS in the UK
+      publisher: Euromaidan Press
+      date: 2023-05-24
+      retrieved: 2026-11-22
+note: First-hand M270A2 feedback found so far comes only from early US Army units in Germany (2024), plus Ukrainian comments on older M270s; search was cut short by a tool limit, and no British, Finnish or Italian M270A2 crew accounts turned up.

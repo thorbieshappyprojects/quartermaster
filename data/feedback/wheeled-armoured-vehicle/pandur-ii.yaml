@@ -1,0 +1,60 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: pandur-ii
+items:
+  - summary: Czech crew members serving with the Logar Provincial Reconstruction Team said the up-armoured Pandur II CZ M1 was stable and agile on paved and unpaved roads and could turn on the spot in soft ground. The platoon commander singled out the optical and thermal sights, which let crews spot people and vehicles several thousand metres away, day or night.
+    quote: Vozidla jsou stabilní s vysokou pohyblivostí na zpevněných i nezpevněných komunikacích, v měkkém povrchu jsme schopni se s nimi otočit na místě
+    speaker: Czech squad commander and platoon commander, combat support platoon, 41st Mechanised Battalion (Czech Republic)
+    context: Afghanistan (Logar province, FOB Shank), about one year after the four vehicles were deployed in January 2011; ISAF PRT patrols and route clearance with US units
+    sentiment: positive
+    topics:
+      - mobility
+      - sensors
+      - firepower
+    source:
+      url: https://mocr.mo.gov.cz/aktualni-mise/afghanistan-logar/zpravodajstvi/vozidla-pandur-v-afghanistanu-64285/
+      title: Vozidla Pandur v Afghánistánu
+      publisher: Ministerstvo obrany ČR
+      date: 2012
+      retrieved: 2026-11-22
+  - summary: The platoon's technician said heat, dust and sand affect any vehicle in Afghanistan, including the Pandur, so crews were trained to service the chassis and weapons themselves while deployed. He said they completed all scheduled maintenance even though the field workshops were much more basic than those at home.
+    speaker: Czech combat support platoon technician (sergeant), 41st Mechanised Battalion (Czech Republic)
+    context: Afghanistan, Logar PRT; field maintenance done in November 2011
+    sentiment: positive
+    topics:
+      - maintenance
+      - reliability
+      - training
+    source:
+      url: https://mocr.mo.gov.cz/aktualni-mise/afghanistan-logar/zpravodajstvi/vozidla-pandur-v-afghanistanu-64285/
+      title: Vozidla Pandur v Afghánistánu
+      publisher: Ministerstvo obrany ČR
+      date: 2012
+      retrieved: 2026-11-22
+  - summary: The PRT unit commander said Pandurs went on almost every patrol and were used as much as possible. Their size still limited where they could go, because moving through built-up areas was harder, so the task area decided whether they were included.
+    quote: Rozhodující pro jejich začlenění je prostor plnění úkolu s ohledem na rozměry vozidla a tím jeho ztížený pohyb v zastavěných oblastech.
+    speaker: Commander of the 8th Czech PRT unit (lieutenant colonel, Czech Republic)
+    context: Afghanistan, Logar province, including Operation Lion's Liberty II at Puli Alam, winter 2011–2012
+    sentiment: mixed
+    topics:
+      - mobility
+    source:
+      url: https://mocr.mo.gov.cz/aktualni-mise/afghanistan-logar/zpravodajstvi/vozidla-pandur-v-afghanistanu-64285/
+      title: Vozidla Pandur v Afghánistánu
+      publisher: Ministerstvo obrany ČR
+      date: 2012
+      retrieved: 2026-11-22
+  - summary: Czech generals told members of parliament that 21 of the army's 107 Pandur II vehicles could not be used because spare parts deliveries had problems. This points to fleet availability problems at home.
+    speaker: Czech Army generals briefing members of parliament (Czech Republic)
+    context: Meeting with MPs in Prague on 30 October, as reported by Janes; only the search summary was seen, not the full article
+    sentiment: negative
+    topics:
+      - maintenance
+      - logistics
+      - reliability
+    source:
+      url: https://www.janes.com/osint-insights/defence-news/czech-pandur-ii-availability-suffers-from-spare-parts-delays
+      title: Czech Pandur II availability suffers from spare parts delays
+      publisher: Janes
+      date: 2019
+      retrieved: 2026-11-22
+note: "All items are from the Czech Army: three from one 2012 ministry report on the Afghanistan deployment, plus a Janes report on spare parts (2019 date is estimated, not confirmed); I found no first-hand crew accounts from Portugal (KFOR, Lithuania, CAR) or Indonesia (Cobra), and a tool limit stopped further searching."

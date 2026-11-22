@@ -1,0 +1,18 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: k1-avlb
+items:
+  - summary: During a week-long combined exercise, a ROK Army K1 AVLB crew laid a bridge over a mock anti-tank ditch so US M2A3 Bradleys could cross toward the objective. The commander of the US company that crossed it said the South Korean force carried out the breach and his unit then exploited it. He described the combined drill as being of great value to his soldiers.
+    quote: They conducted the breach
+    speaker: US Army company commander (allied unit that crossed the K1 AVLB bridge); ROK battalion commander also quoted on combined training in general
+    context: ROK 137th Mechanized Battalion (8th Infantry Division) and US 2-12 Cavalry combined arms training at Nightmare Range near Pocheon, South Korea, July 30 to August 4, 2016
+    sentiment: positive
+    topics:
+      - mobility
+      - training
+    source:
+      url: https://www.army.mil/article/173413
+      title: U.S., Korean troops train as single force
+      publisher: U.S. Army (army.mil)
+      date: 2016-08-16
+      retrieved: 2026-11-22
+note: I found only one usable item, and its speaker is an allied commander whose unit crossed the bridge, not a K1 AVLB crew member or maintainer. My search was cut short by the tool-use limit, so I didn't get to look properly through Korean sources, especially Kookbang Ilbo (국방일보, the Korean defence ministry's daily), which is the most likely place to find crew interviews. A user-edited wiki (Namu Wiki, a Korean site anyone can edit) has an unsourced line calling the bridge-layer driver's daily routine hard; I left it out because it doesn't meet the sourcing bar.

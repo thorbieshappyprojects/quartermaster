@@ -1,5 +1,5 @@
 {
-  "spentUsd": 62.1515,
+  "spentUsd": 73.5942,
   "entries": [
     {
       "date": "2026-11-21",
@@ -1127,6 +1127,294 @@
       "usd": 0.2812,
       "input": 108144,
       "output": 4141,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/m1a2-sepv3-abrams",
+      "usd": 0.3828,
+      "input": 242267,
+      "output": 5502,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/merkava-mk4",
+      "usd": 0.3857,
+      "input": 206597,
+      "output": 4020,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/t-90m",
+      "usd": 0.289,
+      "input": 106514,
+      "output": 4552,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/type-10",
+      "usd": 0.1486,
+      "input": 41470,
+      "output": 856,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/type-99a",
+      "usd": 0.3457,
+      "input": 171662,
+      "output": 4226,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/astros-ii",
+      "usd": 0.2767,
+      "input": 102669,
+      "output": 3261,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/euro-puls",
+      "usd": 0.3596,
+      "input": 212717,
+      "output": 4229,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/homar-k",
+      "usd": 0.4092,
+      "input": 296462,
+      "output": 4136,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/k239-chunmoo",
+      "usd": 0.2562,
+      "input": 87434,
+      "output": 3659,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/m142-himars",
+      "usd": 0.3037,
+      "input": 110617,
+      "output": 4659,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/m270a2-mlrs",
+      "usd": 0.3052,
+      "input": 130182,
+      "output": 4434,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/phl-16",
+      "usd": 0.2395,
+      "input": 97199,
+      "output": 2328,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/puls",
+      "usd": 0.3241,
+      "input": 193040,
+      "output": 4911,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/tornado-s",
+      "usd": 0.3264,
+      "input": 99573,
+      "output": 4111,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/2s19m2-msta-s",
+      "usd": 0.3681,
+      "input": 201709,
+      "output": 5519,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/archer",
+      "usd": 0.3005,
+      "input": 147001,
+      "output": 4229,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/as90",
+      "usd": 0.3275,
+      "input": 193472,
+      "output": 4838,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/caesar-mkii",
+      "usd": 0.2212,
+      "input": 55707,
+      "output": 3147,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/k9a2-thunder",
+      "usd": 0.2338,
+      "input": 60775,
+      "output": 2982,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/krab",
+      "usd": 0.3493,
+      "input": 145270,
+      "output": 5393,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/m109a7-paladin",
+      "usd": 0.2615,
+      "input": 94399,
+      "output": 3614,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/pcl-181",
+      "usd": 0.1917,
+      "input": 58975,
+      "output": 1389,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/pzh-2000",
+      "usd": 0.2713,
+      "input": 102271,
+      "output": 4292,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/rch-155",
+      "usd": 0.3519,
+      "input": 168052,
+      "output": 3742,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/boxer",
+      "usd": 0.3958,
+      "input": 200482,
+      "output": 4368,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/btr-82a",
+      "usd": 0.4167,
+      "input": 220330,
+      "output": 5174,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/dingo-2",
+      "usd": 0.419,
+      "input": 259391,
+      "output": 5958,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/griffon",
+      "usd": 0.2739,
+      "input": 93612,
+      "output": 4417,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/pandur-ii",
+      "usd": 0.3638,
+      "input": 172475,
+      "output": 5054,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/patria-amv-xp",
+      "usd": 0.1462,
+      "input": 40085,
+      "output": 865,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/piranha-v",
+      "usd": 0.3679,
+      "input": 150931,
+      "output": 4679,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/rosomak",
+      "usd": 0.4621,
+      "input": 361792,
+      "output": 6104,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/stryker",
+      "usd": 0.279,
+      "input": 94589,
+      "output": 3882,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/vbci",
+      "usd": 0.357,
+      "input": 198007,
+      "output": 5140,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/k2-black-panther",
+      "usd": 0.4187,
+      "input": 200770,
+      "output": 4671,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/pandur-ii",
+      "usd": 0.3134,
+      "input": 168291,
+      "output": 4113,
       "searches": 8
     }
   ]

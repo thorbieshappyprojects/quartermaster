@@ -1,0 +1,76 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: m1a2-sepv3-abrams
+items:
+  - summary: In a 2019 operational test at Fort Hood, an armoured unit from 1st Brigade, 1st Cavalry Division completed 19 of 20 missions in the SEPv3. Testers found that the under-armour auxiliary power unit helped with continuous operations, cut fuel use and made the tank quieter. The same report flagged that the added weight makes the tank harder to recover and move, that crews had trouble with government-furnished equipment, and that the remote weapon station's thermal sight washed out.
+    quote: Crews had difficulty operating government-furnished equipment.
+    speaker: US Army operational test unit (1st Brigade, 1st Cavalry Division), as assessed by the Pentagon's test office (DOT&E)
+    context: Follow-on operational test and evaluation of the M1A2 SEPv3, Fort Hood, Texas, May 2019; published in the DOT&E FY2020 annual report
+    sentiment: mixed
+    topics:
+      - reliability
+      - mobility
+      - logistics
+    source:
+      url: https://www.dote.osd.mil/Portals/97/pub/reports/FY2020/army/2020abrams-m1a2.pdf?ver=8YvBd9qRklJDXHFaAtPGKA%3D%3D
+      title: Abrams M1A2 System Enhancement Packages (SEPs) Main Battle Tank (MBT) and Trophy Active Protection System (APS)
+      publisher: Office of the Director, Operational Test and Evaluation (US DoD)
+      date: 2021
+      retrieved: 2026-11-22
+  - summary: Ukrainian crews of the 425th "Skala" Regiment named accuracy as the Abrams' biggest strength and its tall, bulky shape as its biggest weakness. One crewman said his tank survived more than 20 drone hits thanks to its armour plus improvised rubber strips and a wire cage. After heavy losses, the unit stopped using its tanks until it can find a way to counter the drones.
+    quote: It's very tall — and very large — so it's hard to conceal.
+    speaker: Ukrainian Abrams crewman and commanders, 425th Separate Assault Regiment
+    context: Earlier variant (Australian-supplied M1A1); fighting around Pokrovsk, December 2025 to March 2026; interviews first given to Ukraine's Hromadske and reported by TWZ
+    sentiment: mixed
+    topics:
+      - protection
+      - firepower
+    source:
+      url: https://www.twz.com/land/how-russian-drones-forced-ukraine-to-park-its-m1-abrams-tanks
+      title: How Russian Drones Forced Ukraine To Park Its M1 Abrams Tanks
+      publisher: The War Zone (TWZ)
+      date: 2026-09-04
+      retrieved: 2026-11-22
+  - summary: Skala Regiment commanders said they still think it is worth sending the tank into combat even if it may be lost, because it protects the crew and can carry assault infantry forward quickly. They also said the operations depended on fog and rain to keep Russian drones from spotting them.
+    quote: First and foremost — it saves the lives of the crew inside it.
+    speaker: Ukrainian Abrams tank commander, 425th Separate Assault Regiment
+    context: Earlier variant (M1A1); interview first given to Hromadske about operations near Pokrovsk, reported by TWZ in 2026
+    sentiment: positive
+    topics:
+      - protection
+      - mobility
+    source:
+      url: https://www.twz.com/land/how-russian-drones-forced-ukraine-to-park-its-m1-abrams-tanks
+      title: How Russian Drones Forced Ukraine To Park Its M1 Abrams Tanks
+      publisher: The War Zone (TWZ)
+      date: 2026-09-04
+      retrieved: 2026-11-22
+  - summary: A Ukrainian Abrams crew told the Ukrainian military channel Army TV that the tank is very easy to drive and that they learned its weapons in about a week. Their commander said the armour had held up against Russian Kornet anti-tank missiles.
+    quote: But it's literally very fast. You can master it in a week.
+    speaker: Ukrainian Abrams tank crew (driver, crewman and commander)
+    context: Earlier variant (US-supplied M1A1); Army TV interview reported by Business Insider (syndicated by Yahoo News), about 2024
+    sentiment: positive
+    topics:
+      - ergonomics
+      - training
+      - protection
+    source:
+      url: https://www.yahoo.com/news/ukrainian-tank-crew-said-abrams-080437613.html
+      title: A Ukrainian tank crew said the Abrams tank is as easy to drive as a scooter and that they learned how to operate its weapons in 1 week
+      publisher: Business Insider via Yahoo News
+      date: 2024
+      retrieved: 2026-11-22
+  - summary: Ukrainian crews who trained in Germany told CNN that the Abrams armour was not enough against drones and that the tank is a top-priority target. They also said condensation from rain or fog could damage its electronics.
+    quote: The tank's armor is not sufficient for this moment.
+    speaker: Ukrainian Abrams crew member
+    context: Earlier variant (US-supplied M1A1); CNN interview, about 2024, as reported second-hand by EurAsian Times
+    sentiment: negative
+    topics:
+      - protection
+      - reliability
+    source:
+      url: https://www.eurasiantimes.com/abrams-tanks-face-heavy-criticism-from-ukrainia/
+      title: Abrams Tanks Face 'Heavy Criticism' From Ukrainian Military; Crew Says US MBTs Are No.1 Targets In Warzone
+      publisher: EurAsian Times
+      date: 2024
+      retrieved: 2026-11-22
+note: The only user feedback I found on the SEPv3 itself is the 2019 operational test summarised by DOT&E. The other items are about the earlier M1A1 in Ukraine. I hit the search limit before I could look for interviews with US, Polish, Australian, Romanian, Taiwanese or Bahraini crews. Sources I did check (Taiwan M1A2T, Polish training, US fielding articles) had no crew voices.

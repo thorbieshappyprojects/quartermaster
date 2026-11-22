@@ -1,0 +1,76 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: k2-black-panther
+items:
+  - summary: Soldiers on a 9th Armoured Cavalry Brigade K2GF firing course strongly preferred the tank to their old PT-91s and praised the hydropneumatic suspension in particular. They also listed small things they missed, such as a heated vision block that does not fog up and a step to help crews climb aboard. Some said a Polish-language interface and manual would help.
+    quote: Jazda po wybojach nie wyrywa ci drążków z ręki, a sam wóz sobie bezwładnie płynie po wybojach.
+    speaker: Polish K2 crew member in training, 9th Armoured Cavalry Brigade (Poland)
+    context: Fixed-position firing training and a media day at Bemowo Piskie, summer 2025; K2GF is replacing the PT-91 Twardy in the brigade
+    sentiment: mixed
+    topics:
+      - mobility
+      - ergonomics
+      - training
+    source:
+      url: https://defence24.pl/polityka-obronna/za-kulisami-co-mysla-zolnierze-o-k2
+      title: "Za kulisami: co myślą żołnierze o K2?"
+      publisher: Defence24.pl
+      date: 2025-07-14
+      retrieved: 2026-11-22
+  - summary: A lieutenant who commands a K2 unit near the Kaliningrad border said the tank is more mobile in mud than the lighter PT-91 and pointed to its automatic target tracking and stabilised gun. He also credited the manufacturer's quick help when a key part failed during an exercise. The article says more than 90% of the fleet is combat-ready, but that figure comes from the manufacturer's support set-up, not from the crews.
+    quote: digital fighter jet on the ground
+    speaker: Polish Army lieutenant, K2 unit commander, armoured brigade in Braniewo (Poland)
+    context: Reporter visit to a tactical training ground in Braniewo, 7 September 2026; K2GF fleet
+    sentiment: positive
+    topics:
+      - mobility
+      - firepower
+      - maintenance
+    source:
+      url: https://www.koreajoongangdaily.com/business/hyundai-rotems-k2-could-serve-as-longterm-backbone-of-polands-armed-forces-for-decades/12874379
+      title: Hyundai Rotem K2 tanks bolster Poland's NATO border with Russia
+      publisher: Korea JoongAng Daily
+      date: 2026-09-14
+      retrieved: 2026-11-22
+  - summary: Instructors and trainees on a K2 crew course said the tank is roomy, even for a very tall crew member, and less physically tiring than older tanks, partly because it has air conditioning and heating. The course commander added that trainees must learn the onboard computers and fire-control system as well as the vehicle itself, and a trainee gunner said it was easy to learn as his first armoured vehicle.
+    quote: W czołgu K-2 jest bardzo dużo miejsca w przedziałach, bez problemu się więc mieszczę
+    speaker: Polish K2 crew corporal; also a course commander (second lieutenant) and trainees, 9th Armoured Cavalry Brigade (Poland)
+    context: K2 crew conversion course for 25 tankers at the Braniewo garrison training area, reported by local media around early 2026
+    sentiment: positive
+    topics:
+      - ergonomics
+      - training
+    source:
+      url: https://www.portel.pl/wiadomosci/tak-cwicza-czolgisci-z-k2/147963
+      title: Tak ćwiczą czołgiści z K2
+      publisher: Portel.pl
+      date: 2026
+      retrieved: 2026-11-22
+  - summary: Defence24 summarised feedback from 16th Mechanised Division units that use the K2GF. Soldiers rate the tank's mobility in muddy north-eastern terrain very highly and praise its intuitive digital systems, commander's panoramic sight and autoloader. Logistics staff point to the engine's modest fuel use. This is the outlet's summary of unit feedback rather than named first-hand quotes.
+    speaker: Polish soldiers and logistics staff of the 20th Mechanised and 9th Armoured Cavalry Brigades (Poland), as summarised by the outlet
+    context: Review of about six months of K2GF service in the 9th Brigade and earlier use in the 20th Brigade, including the Dragon-24 exercise, April 2025
+    sentiment: positive
+    topics:
+      - mobility
+      - sensors
+      - logistics
+    source:
+      url: https://defence24.pl/sily-zbrojne/czarne-pantery-zdobywaja-pancerna-polske
+      title: Czarne Pantery zdobywają pancerną Polskę
+      publisher: Defence24.pl
+      date: 2025-04-18
+      retrieved: 2026-11-22
+  - summary: A retired Polish lieutenant general who used to command the 15th Mechanised Brigade said Abrams tanks had struggled in the boggy Masurian terrain, while the K2 would cope there. He argued that producing and servicing the tank in Poland, and being able to swap components quickly, are vital lessons from Ukraine.
+    quote: To teren bagnisty, błotnisty, zapadający się. Abramsy sobie tam nie radzą.
+    speaker: Retired Polish Army lieutenant general, former commander of the 15th Mechanised Brigade and 18th Mechanised Division (Poland)
+    context: Commentary in Defence24 ahead of the second K2 contract, April 2025; based on commanding in the region, not on crewing the K2
+    sentiment: positive
+    topics:
+      - mobility
+      - maintenance
+    source:
+      url: https://defence24.pl/sily-zbrojne/czarne-pantery-zdobywaja-pancerna-polske
+      title: Czarne Pantery zdobywają pancerną Polskę
+      publisher: Defence24.pl
+      date: 2025-04-18
+      retrieved: 2026-11-22
+note: Almost all first-hand reporting is from Polish K2GF units in Braniewo and Bartoszyce and is mostly positive (mobility, suspension, digital systems, comfort); some critical points are minor ergonomics and language issues. Separate reports of engine faults (e.g. Defence Blog, ~October 2026) quote the procurement agency and an analyst, not users, so they are left out; no credible user accounts were found for the ROK Army 4th batch, K2PL or Peru.

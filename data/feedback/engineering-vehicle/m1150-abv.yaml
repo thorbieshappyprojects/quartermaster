@@ -1,0 +1,48 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: m1150-abv
+items:
+  - summary: The Marine ABV vehicle commander described the first combat use of the vehicle in Now Zad, Helmand. His crew had to develop their own tactics and procedures, and he said the line charges cleared the IED threat ahead of the infantry. He also reported that the supported battalion considered the mission a no-go without the ABVs.
+    quote: There was no guidebook for this vehicle. We've had to develop our own tactics and procedures.
+    speaker: US Marine Corps ABV vehicle commander, 2nd Combat Engineer Battalion
+    context: Operation Cobra's Anger, Now Zad, Afghanistan, December 2009. This was the ABV's first combat use.
+    sentiment: positive
+    topics:
+      - firepower
+      - training
+    source:
+      url: https://www.dvidshub.net/news/42693/marines-blast-through-now-zad-with-assault-breacher-vehicles
+      title: Marines blast through Now Zad with assault breacher vehicles
+      publisher: DVIDS (I Marine Expeditionary Force)
+      date: 2009-12-13
+      retrieved: 2026-11-22
+  - summary: An ABV mechanic said the vehicles needed very little maintenance during the operation and did not break down. In the same story, an ABV operator said the vehicle could move through rough terrain faster and should reduce IED casualties.
+    quote: We haven't needed to do much maintenance with these vehicles. We were right there in case anything broke down, but it didn't.
+    speaker: US Marine Corps ABV mechanic, 2nd Combat Engineer Battalion
+    context: Operation Cobra's Anger, Now Zad, Afghanistan, December 2009 (reported in a Marine Corps public affairs story).
+    sentiment: positive
+    topics:
+      - reliability
+      - maintenance
+      - mobility
+    source:
+      url: https://www.dvidshub.net/news/42693/marines-blast-through-now-zad-with-assault-breacher-vehicles
+      title: Marines blast through Now Zad with assault breacher vehicles
+      publisher: DVIDS (I Marine Expeditionary Force)
+      date: 2009-12-13
+      retrieved: 2026-11-22
+  - summary: An Australian sapper who trained on the ABV in the US said the 72-tonne, 12-metre vehicle is heavy and long, so drivers must take care not to cause damage. He believes it makes breaching safer because the line charges and plough reduce the need to clear mines on foot with explosives.
+    quote: The ABV is heavy and just very long; you can definitely whack down trees and cause a bit of collateral damage if you're not careful
+    speaker: Australian Army sapper, 3rd Combat Engineer Regiment
+    context: After finishing the Combat Engineer Heavy Track Course in Missouri, USA, ahead of Australian deliveries in 2025.
+    sentiment: positive
+    topics:
+      - mobility
+      - protection
+      - training
+    source:
+      url: https://www.defence.gov.au/news-events/news/2024-09-11/new-vehicles-game-changer-sappers
+      title: New vehicles a game-changer for sappers
+      publisher: Australian Department of Defence
+      date: 2024-09-11
+      retrieved: 2026-11-22
+note: I found only 3 items. All are from official military public-affairs stories (Marine combat use in 2009 and Australian training in 2024), and I found no credible first-hand Ukrainian crew accounts before my search tool limit ran out.

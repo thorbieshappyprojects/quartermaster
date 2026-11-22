@@ -1,0 +1,60 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: boxer
+items:
+  - summary: An Australian Boxer crew driver who helped test the Block II Combat Reconnaissance Vehicle said the new emergency escape hatch for the driver improves survivability. He added that seeing Block I lessons carried into Block II made him more confident about the vehicle.
+    quote: The implementation of an emergency escape hatch for the driver on the Block II design ensures improved survivability
+    speaker: Australian Army Boxer crew driver (2nd/14th Light Horse Regiment)
+    context: Testing at Rheinmetall's Unterlüß site in Germany in late 2023. This is the Boxer CRV (reconnaissance) variant, a different family member from the A3 APC. The crew drew on their experience with Block I vehicles.
+    sentiment: positive
+    topics:
+      - protection
+      - ergonomics
+    source:
+      url: https://www.defenceconnect.com.au/land/13598-adf-put-new-boxer-combat-recon-vehicle-through-its-paces-in-germany
+      title: ADF puts new Boxer combat recon vehicle through its paces in Germany
+      publisher: Defence Connect
+      date: 2024-02-13
+      retrieved: 2026-11-22
+  - summary: An Australian crew commander said it was very useful to see how soldiers' input had shaped the Block II Boxer design, especially how the crew operates the weapons. He also valued being able to tell his unit how their suggestions had been built in.
+    quote: particularly in the crew operation of the weapon systems, and be able to tell them how it has been implemented
+    speaker: Australian Army Boxer crew commander (2nd/14th Light Horse Regiment)
+    context: Block II Boxer CRV testing in Germany, late 2023, which included firing the 30 mm cannon and programmable rounds. CRV variant, not the APC.
+    sentiment: positive
+    topics:
+      - ergonomics
+      - firepower
+      - training
+    source:
+      url: https://thedefensepost.com/2024/02/14/australia-boxer-design-input-soldiers/
+      title: Australia Obtains New Boxer Design Input From Soldiers
+      publisher: The Defense Post
+      date: 2024-02-14
+      retrieved: 2026-11-22
+  - summary: An Australian sergeant said a highlight of the trials was the new electronics for handling combat information, communications and weapons. In his view, the surveillance and reconnaissance system gives every crew member better awareness of the battlefield, not just the commander.
+    quote: provides not only the commander but all crew within the vehicle a situational awareness advantage on the battlefield
+    speaker: Australian Army sergeant, Boxer crew (2nd/14th Light Horse Regiment)
+    context: Block II Boxer CRV testing and design briefings in Germany, late 2023. CRV variant, not the APC.
+    sentiment: positive
+    topics:
+      - sensors
+    source:
+      url: https://www.defenceconnect.com.au/land/13598-adf-put-new-boxer-combat-recon-vehicle-through-its-paces-in-germany
+      title: ADF puts new Boxer combat recon vehicle through its paces in Germany
+      publisher: Defence Connect
+      date: 2024-02-13
+      retrieved: 2026-11-22
+  - summary: The British Army reported that its soldiers had fired the remote weapon station on a UK Boxer for the first time, using machine guns and a grenade launcher. It said the stabilised weapon station was accurate when firing from a halt, at night and on the move. This is the army's own social media post as reported by Army Technology, not a named crew member.
+    quote: The accuracy of the fully digital and stabilised RWS has been demonstrated when firing static, at night and on the move
+    speaker: British Army (official statement on soldier-crewed trial firings, UK Boxer MIV)
+    context: Live-fire trials at Lulworth Ranges, UK, mid-2024, during Boxer MIV introduction. The army's social media post was reported by Army Technology.
+    sentiment: positive
+    topics:
+      - firepower
+      - sensors
+    source:
+      url: https://www.army-technology.com/news/following-challenger-3-british-armys-boxer-miv-completes-live-fire-trials/
+      title: Following Challenger 3, British Army's Boxer MIV completes live fire trials
+      publisher: Army Technology
+      date: 2024
+      retrieved: 2026-11-22
+note: Very little first-hand crew reporting turned up; the search budget ran out before German, Dutch, Lithuanian or Ukrainian user accounts could be checked. Three items are Australian soldiers talking about the Boxer CRV (a different variant), and the UK item is an official army statement rather than a crew voice.

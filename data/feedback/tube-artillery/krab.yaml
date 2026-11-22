@@ -1,0 +1,62 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: krab
+items:
+  - summary: A four-person Ukrainian crew that switched from the Soviet-era 2S19 Msta-S to the Krab told a reporter riding along with them that the Krab is faster, easier to operate and more accurate.
+    quote: A Porsche Compared To A Lada
+    speaker: Ukrainian Krab howitzer crew (former Msta-S crew)
+    context: Current Time (RFE/RL) video report filmed with a frontline crew, summer 2022, shortly after Poland delivered the first Krabs; Ukraine's early Krabs were Polish serial K9-chassis vehicles
+    sentiment: positive
+    topics:
+      - firepower
+      - ergonomics
+      - training
+    source:
+      url: https://www.rferl.org/amp/a-porsche-compared-to-a-lada-ukrainian-artillerists-swap-soviet-howitzer-for-polish-built-krab/32012739.html
+      title: "'A Porsche Compared To A Lada': Ukrainian Artillerists Swap Soviet Howitzer For Polish-Built Krab"
+      publisher: RFE/RL (Current Time)
+      date: 2022-08-31
+      retrieved: 2026-11-22
+  - summary: A crew commander who used to serve on 2S5 Giatsint guns said the computerised fire control does the calculations for the crew and that the Krab is fast both on the move and when firing. He also said the crew could stay inside the vehicle for long periods and still have some armour around them, even if not much. The driver praised the powerful automatic transmission.
+    quote: But this is a good cannon. Fast. Both in terms of motion and shooting.
+    speaker: Ukrainian Krab crew commander (sergeant) and driver
+    context: ArmyInform interview reported by Militarnyi, during summer combat operations in the first months of Krab use in Ukraine (exact date not shown on the page)
+    sentiment: positive
+    topics:
+      - firepower
+      - mobility
+      - protection
+    source:
+      url: https://militarnyi.com/en/news/the-crew-of-the-krab-acs-shared-how-they-are-fighting-with-the-invaders/
+      title: The crew of the Krab ACS shared how they are fighting with the invaders
+      publisher: Militarnyi
+      date: 2022
+      retrieved: 2026-11-22
+  - summary: A gun commander who had earlier served on the PzH 2000 said the Krab performs its tasks very well and, in his view, is more accurate. Defense Express, as reported by Portal Obronny, said the Krab's daily rate of fire was lower than the PzH 2000's, and that both guns were pushed to their limits.
+    speaker: Ukrainian gun commander, 26th Artillery Brigade (previously a PzH 2000 crew member)
+    context: Interview reported by Defense Express and summarised in Polish by Portal Obronny, 2025; a Kresy.pl report of an Armia TV interview with a Krab gun commander who also served on the PzH 2000 adds that the Krab is simpler to learn and easier to repair in the field (possibly the same soldier)
+    sentiment: positive
+    topics:
+      - firepower
+      - reliability
+      - training
+    source:
+      url: https://portalobronny.se.pl/wojna-w-ukrainie/krab-kontra-pzh-2000-ukrainscy-artylerzysci-porownali-polskie-i-niemieckie-haubice-aa-Vkhj-xHbE-vR4e.html
+      title: Krab kontra PzH 2000. Ukraińscy artylerzyści porównali polskie i niemieckie haubice
+      publisher: Portal Obronny (Super Express)
+      date: 2025-10-13
+      retrieved: 2026-11-22
+  - summary: A mechanic from the 26th Artillery Brigade stressed how much more comfortable the Krab is for its users than the 2S19 Msta-S or 2S1 Gvozdika. He said he knew of one Krab firing about 260–270 rounds in a single day near Bakhmut. A Krab with added slat (bar) armour can be seen in the background of the interview.
+    speaker: Ukrainian artillery mechanic, 26th Artillery Brigade
+    context: Interview given in June 2025, reported by Defence24
+    sentiment: positive
+    topics:
+      - ergonomics
+      - maintenance
+      - firepower
+    source:
+      url: https://defence24.pl/wojna-na-ukrainie-raport-specjalny-defence24/krab-pod-bachmutem-270-strzalow-w-jeden-dzien
+      title: "Krab pod Bachmutem: 270 strzałów w jeden dzień"
+      publisher: Defence24
+      date: 2025-08-26
+      retrieved: 2026-11-22
+note: Most first-hand reporting comes from Ukrainian crews comparing the Krab with Soviet guns or the PzH 2000, and it is mostly positive. Critical views (thin armour, unprotected ammunition storage, a rough interior) mainly come from a PzH 2000 commander who did not crew the Krab, so he is left out. I found no crew feedback from Polish users or on the upgraded 2025-26 deliveries; my search limit ran out before I could look further.

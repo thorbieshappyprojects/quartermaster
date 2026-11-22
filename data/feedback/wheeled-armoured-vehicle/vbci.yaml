@@ -1,0 +1,61 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: vbci
+items:
+  - summary: The French Army's feedback from Operation Serval says the 92nd Infantry Regiment's VBCIs were in combat two days after reaching Gao. The 25 mm cannon was used heavily, mostly at 1,500–2,000 m. Crews valued the sights, the laser rangefinder linked to GPS, the air conditioning and the central tyre-inflation system in sand. Apart from some hose problems, maintenance needs were low, and RPG hits glanced off the hull angles.
+    quote: La qualité de sa mobilité et son agilité spécialement en tout terrain a été très apprécié
+    speaker: French Army lessons-learned report (92e RI VBCI units), as reported by a blog
+    context: Operation Serval, Mali, 2013. This was the earlier, lighter version before the upgrade to 32 t. The report was summarised by FOB in 2014.
+    sentiment: positive
+    topics:
+      - firepower
+      - mobility
+      - maintenance
+    source:
+      url: https://www.forcesoperations.com/equipements-retour-sur-lengagement-au-mali-partie-2/
+      title: "Equipements: retour sur l'engagement au Mali (partie 2)"
+      publisher: FOB - Forces Operations Blog
+      date: 2014-04-30
+      retrieved: 2026-11-22
+  - summary: A 92e RI corporal who drove a VBCI said on the radio that his vehicle rolled over at very low speed in Mali. He added that seatbelts are hard to fasten while wearing a combat vest and body armour. The outlet notes that otherwise the vehicle is still regarded as excellent.
+    quote: au Mali, on a fait un tonneau, à très petite vitesse mais ça surprend
+    speaker: French VBCI driver (corporal, 92e RI)
+    context: France Bleu Pays d'Auvergne report on the regiment's equipment, relayed by Zone Militaire in November 2013. The incident was during Serval and involved the earlier version before the upgrade to 32 t.
+    sentiment: mixed
+    topics:
+      - ergonomics
+      - mobility
+      - protection
+    source:
+      url: https://www.opex360.com/2013/11/22/un-vbci-du-92e-a-fait-un-tonneau-au-mali/
+      title: Un VBCI du 92e a fait un tonneau au Mali
+      publisher: Zone Militaire (opex360)
+      date: 2013-11-22
+      retrieved: 2026-11-22
+  - summary: A wounded crew member described their VBCI placing itself between a Barkhane convoy and a suicide vehicle that then exploded. All six crew members were injured and none were killed. He believes the vehicle's heavy armour stopped the blast from causing deaths.
+    quote: Dans notre véhicule, on n'a pas eu de mort. C'est le principal.
+    speaker: French VBCI crew member (caporal-chef)
+    context: Franceinfo interview after a suicide vehicle-bomb attack on a convoy near Gao, Mali, in early January 2021 (Operation Barkhane)
+    sentiment: positive
+    topics:
+      - protection
+    source:
+      url: https://www.franceinfo.fr/monde/terrorisme-djihadistes/operation-barkhane/document-franceinfo-on-a-fait-notre-job-on-a-sauve-des-vies-le-temoignage-d-un-soldat-francais-blesse-dans-une-attaque-terroriste-au-mali_4259509.html
+      title: "\"On a fait notre job, on a sauvé des vies\" : le témoignage d'un soldat français blessé dans une attaque terroriste au Mali"
+      publisher: franceinfo
+      date: 2021
+      retrieved: 2026-11-22
+  - summary: The French Army's 2018 feedback report on the NATO Lynx mission in Estonia, as quoted by Zone Militaire, says the VBCI was used heavily and well liked. According to the report it was fully satisfactory for mobility, handled both heat and cold well, and helped crews and dismounts recover between actions.
+    quote: particulièrement sollicité et apprécié
+    speaker: French Army lessons-learned report (Lynx mission units)
+    context: NATO enhanced Forward Presence mission in Estonia. The 2018 report was quoted in a September 2021 article on a parliamentary debate about the VBCI's future.
+    sentiment: positive
+    topics:
+      - mobility
+      - ergonomics
+    source:
+      url: https://www.opex360.com/2021/09/11/un-depute-suggere-dequiper-larmee-de-terre-avec-un-vehicule-blinde-chenille-comme-le-kf-41-allemand/
+      title: Un député suggère d'équiper l'armée de Terre avec un véhicule blindé chenillé comme le KF-41 allemand
+      publisher: Zone Militaire (opex360)
+      date: 2021-09-11
+      retrieved: 2026-11-22
+note: Only four strong items were found, all from French users and drawn from French defence blogs and media (Serval and Barkhane in Mali, Lynx in Estonia); the search tool hit its usage limit before searches on Qatari or Greek users, Afghanistan or Lebanon could run, so those were not covered.

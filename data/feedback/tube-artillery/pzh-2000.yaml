@@ -1,0 +1,62 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: pzh-2000
+items:
+  - summary: A newly trained Ukrainian PzH 2000 crew told RFE/RL that they learned the howitzer in about six weeks. They praised its automated loading, which lets the crew reload a full 60-round load in about 12 minutes, and they described its effect on targets as devastating. They put its practical range at about 30 km, depending on the ammunition.
+    quote: It allows you to fire three shots in ten seconds, this is its fastest rate of fire, it's very fast
+    speaker: Ukrainian PzH 2000 crew member
+    context: RFE/RL interview with a Ukrainian crew in Donbas soon after the first German and Dutch deliveries in mid-2022 (earlier PzH 2000 variant), reported by Militarnyi
+    sentiment: positive
+    topics:
+      - firepower
+      - training
+    source:
+      url: https://militarnyi.com/en/news/ukrainian-military-assessed-the-true-worth-of-the-german-pzh-2000-self-propelled-howitzer/
+      title: Ukrainian military assessed the true worth of the German PzH 2000 self-propelled howitzer
+      publisher: Militarnyi
+      date: 2022-07-21
+      retrieved: 2026-11-22
+  - summary: Gunners from Ukraine's 43rd Artillery Brigade told The New York Times that the PzH 2000 handles mud and moisture badly. They said its electronics play up when they get wet or dirty, and that after firing about 120 rounds the crew needs a full day of maintenance. One officer said he pulled the 60-ton howitzers back from the front because he feared they would get stuck in soft ground and be unable to escape fire.
+    quote: The Panzer really loves cleanliness.
+    speaker: Ukrainian artilleryman, 43rd Artillery Brigade
+    context: New York Times report from spring 2023, before the counteroffensive, as reported by Defense Express (earlier PzH 2000 variant)
+    sentiment: mixed
+    topics:
+      - maintenance
+      - mobility
+      - reliability
+    source:
+      url: https://en.defence-ua.com/weapon_and_tech/ukrainian_artillerymen_about_pzh_2000_vacuum_cleaner_tender_electronics_and_the_tenacious_enemy_of_this_howitzer-6607.html
+      title: 'Ukrainian Artillerymen About PzH 2000: Vacuum Cleaner, Tender Electronics and the "Tenacious Enemy" of this Howitzer'
+      publisher: Defense Express
+      date: 2023-05-04
+      retrieved: 2026-11-22
+  - summary: A gunner from Ukraine's 26th Artillery Brigade who had served on both the PzH 2000 and the Polish Krab said the PzH 2000 reached a higher daily output, up to 240 rounds compared with 140 for the Krab. However, he found the Krab more accurate. He also said that under heavy, sustained fire the PzH 2000's many automated modules overheated and circuit boards sometimes came loose, although the gun still completed its missions.
+    quote: Blocks overheated, and sometimes circuit boards even came loose from their soldering. Still, the PzH 2000 fulfilled its battlefield missions.
+    speaker: Ukrainian artillery gunner, 26th Artillery Brigade
+    context: Comparison of the Krab and PzH 2000 based on combat use in Ukraine, from an ArmyTV report covered by Defense Express in 2025 (earlier PzH 2000 variant)
+    sentiment: mixed
+    topics:
+      - firepower
+      - reliability
+    source:
+      url: https://en.defence-ua.com/news/krab_or_pzh_2000_ukrainian_gunners_weigh_the_strengths_and_weaknesses_of_both_howitzers-16007.html
+      title: Krab or PzH 2000? Ukrainian Gunners Weigh the Strengths and Weaknesses of Both Howitzers
+      publisher: Defense Express
+      date: 2025-10-02
+      retrieved: 2026-11-22
+  - summary: Two Ukrainian artillery commanders with almost two years of combat use told Bild that the spare-parts situation for Western-supplied howitzers, including the PzH 2000, was "catastrophic." They said barrel wear is severe and that replacement barrels arrived slowly, which left some guns out of service.
+    quote: It's a great system, but the wear and tear is severe.
+    speaker: Ukrainian artillery commander
+    context: Bild report from 2024 on howitzers donated by Germany, the Netherlands and Italy, as reported by Defense Express (earlier PzH 2000 variant)
+    sentiment: mixed
+    topics:
+      - maintenance
+      - logistics
+      - reliability
+    source:
+      url: https://en.defence-ua.com/news/ukrainian_artillerymen_cant_use_german_pzh_2000_whats_the_problem-11805.html
+      title: Ukrainian Artillerymen Can't Use German PzH 2000, What's the Problem
+      publisher: Defense Express
+      date: 2024-09-10
+      retrieved: 2026-11-22
+note: All four items are Ukrainian crews talking about earlier PzH 2000 variants from 2022 to 2025, and most come second-hand through outlets like Defense Express and Militarnyi rather than the original interviews. I found no first-hand user comments on the new-build A4 and did not search for German, Dutch or other operators' views because I reached the search tool's limit.

@@ -1,0 +1,43 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: k21
+items:
+  - summary: This is an official accident finding, not crew testimony. South Korea's defence ministry looked into a K21 that flooded during a 2010 river-crossing exercise, killing an NCO. It found the cause was a design flaw, not crew error. Fielding of 50 vehicles was put on hold until the flaw was fixed.
+    speaker: Republic of Korea Ministry of National Defense accident investigation (operator's ministry)
+    context: Early-production K21 (not the 2024–2028 batch); findings released in November 2010 after the July 2010 sinking at the Mechanized School in Jangseong
+    sentiment: negative
+    topics:
+      - protection
+      - mobility
+    source:
+      url: https://imnews.imbc.com/replay/2010/nwtoday/article/2742512_30527.html
+      title: '"K21 장갑차 사고는 설계결함 때문"'
+      publisher: MBC News
+      date: 2010
+      retrieved: 2026-11-22
+  - summary: The ministry said the flooding came from weak setting and management of buoyancy standards as the vehicle's weight and centre of gravity changed. It warned 25 people over the failure.
+    speaker: Republic of Korea Ministry of National Defense
+    context: Early-production K21; official findings announced on 2010-11-19, after a review that included academy and KAIST experts
+    sentiment: negative
+    topics:
+      - protection
+      - mobility
+    source:
+      url: https://www.seoul.co.kr/news/politics/diplomacy/2010/11/19/20101119800081
+      title: “K-21 장갑차 침몰사고 ‘설계결함’ 때문”···25명 엄중경고
+      publisher: Seoul Shinmun
+      date: 2010-11-19
+      retrieved: 2026-11-22
+  - summary: Investigators found the K21's centre of gravity sat too far forward, so water came in over the bow during river crossings. The bilge pump was also downgraded when production specs were set, from about 470 L to about 170 L.
+    speaker: Military investigation team (ROK Army / defence authorities)
+    context: Early-production K21; preliminary findings reported in September 2010 after repeated flooding incidents
+    sentiment: negative
+    topics:
+      - protection
+      - mobility
+    source:
+      url: https://www.seoul.co.kr/news/society/2010/09/08/20100908009023
+      title: “잇단 침수사고 K21 장갑차 설계 때부터 앞으로 기울어”
+      publisher: Seoul Shinmun
+      date: 2010-09-08
+      retrieved: 2026-11-22
+note: I found no real crew or commander interviews about the K21, and nothing at all on the 4th production batch. My search ran out of tool calls before I could check sources like Kookbang Ilbo (the defence ministry newspaper) or DVIDS (the US military's media service). All three items above are official findings about the 2010 flooding of early-production vehicles, not crew testimony. Anonymous soldier posts on DCinside forums were left out because no reputable outlet reported them.

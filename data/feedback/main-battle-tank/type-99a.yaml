@@ -1,0 +1,60 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: type-99a
+items:
+  - summary: A 99A tank commander who joined when his company switched to the 99A in early 2018 said the information systems were the hardest part. A commander has to run communications, fire control, electro-optical countermeasures and IFF systems, with nearly 200 switches and buttons and more than 60 connectors. He came last in his company's first assessment and needed about three months of extra drilling to qualify. He then learned the commander's override fire skill and came to see the commander's job as directing the whole crew and linking the tank to higher command.
+    quote: 但对99A坦克车长而言，车长就应是三者合一，是全车的‘灵魂’
+    speaker: PLA 99A tank commander (sergeant-level crew member), China
+    context: Profile after a 2021 exercise on the Horqin grassland, covering his conversion to the 99A in 2018
+    sentiment: mixed
+    topics:
+      - ergonomics
+      - training
+      - sensors
+    source:
+      url: https://paper.xinmin.cn/html/xmwb/2021-10-18/20/119667.html
+      title: 一个99A坦克车长的“突击”
+      publisher: Xinmin Evening News (新民晚报)
+      date: 2021-10-18
+      retrieved: 2026-11-22
+  - summary: An armour technician with 18 years in a 99A company said getting a tank out of the vehicle park now takes less equipment and effort than it did more than 10 years ago. He recalled that on earlier tank generations without widespread electronic and hydraulic controls, drivers needed their whole body's strength to work the steering levers.
+    quote: 现在的坦克已经好了很多。
+    speaker: PLA armour technician in a 99A tank company, China
+    context: PLA Daily reporter embedded with an 82nd Group Army combined-arms brigade exercise in the Taihang Mountains (2022); compares the 99A with earlier generations
+    sentiment: positive
+    topics:
+      - ergonomics
+      - maintenance
+    source:
+      url: http://www.mod.gov.cn/gfbw/tp_214132/jskj/4910569.html
+      title: 解放军报记者跟随新一代主战坦克突击 感受99A式坦克威力
+      publisher: PLA Daily, republished by Ministry of National Defense of the PRC
+      date: 2022-05-10
+      retrieved: 2026-11-22
+  - summary: A master sergeant who has served in tanks since 1993 said the unit had no ready-made manuals, standards or guides when the 99A was introduced. Crews worked out the tank part by part, training on the vehicle by day and memorising data at night. He said that each new tank generation forces crews to retrain or leave, and that an older squad leader once left the service after giving up on a new tank he found too complex.
+    quote: 当时，没有成型的教材，也没有适用的标准，更没有指导手册以供参考
+    speaker: PLA master sergeant (driver, commander and information-system operator), China
+    context: First-person account in the PLA Daily (2022) about the 99A's introduction into service, with comments on earlier tank generations
+    sentiment: mixed
+    topics:
+      - training
+    source:
+      url: http://www.mod.gov.cn/gfbw/tp_214132/jskj/4910569.html
+      title: 解放军报记者跟随新一代主战坦克突击 感受99A式坦克威力
+      publisher: PLA Daily, republished by Ministry of National Defense of the PRC
+      date: 2022-05-10
+      retrieved: 2026-11-22
+  - summary: During a brigade attack exercise, the reporter saw a 99A commander share target information with neighbouring units in real time while intelligence came in from the brigade command post. A brigade training staff officer said the tank's value is as part of a networked force, not as a lone vehicle. Crews also told the reporter they were proud to drive the 99A.
+    quote: 它既是战场上的猛虎，也是体系作战的一分子。
+    speaker: PLA combined-arms brigade training staff officer, China
+    context: Battalion attack-and-seize exercise of an 82nd Group Army combined-arms brigade, reported by PLA Daily in 2022
+    sentiment: positive
+    topics:
+      - sensors
+      - firepower
+    source:
+      url: http://www.mod.gov.cn/gfbw/tp_214132/jskj/4910569.html
+      title: 解放军报记者跟随新一代主战坦克突击 感受99A式坦克威力
+      publisher: PLA Daily, republished by Ministry of National Defense of the PRC
+      date: 2022-05-10
+      retrieved: 2026-11-22
+note: All the first-hand crew material found comes from Chinese state or state-aligned media (PLA Daily via the MND website, and Xinmin Evening News), so it is upbeat and frames problems as training challenges overcome. No independent evaluations, trial reports or Western defence-media crew interviews were found, and the search was cut short by a tool limit.

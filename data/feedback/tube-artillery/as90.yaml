@@ -1,0 +1,72 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: as90
+items:
+  - summary: A Ukrainian crew commander from the Third Assault Brigade said the AS90 works very well when it is properly checked and maintained. Compared with the Soviet-era 2S19 Msta-S it replaced, the crew described a roomier interior, better armour and better damping of the gun's recoil vibration.
+    quote: It feels like it was built with the operator in mind
+    speaker: Ukrainian self-propelled gun crew commander (2nd Self-Propelled Artillery Battery, Third Assault Brigade)
+    context: The Times visited the crew in its frontline position near Izyum in July 2025. The source is a full repost of the Times article by the League of Ukrainian Canadians.
+    sentiment: positive
+    topics:
+      - ergonomics
+      - protection
+      - maintenance
+    source:
+      url: https://www.lucorg.com/good-work-guys-surgical-british-guns-rattle-russia/
+      title: "'Good work, guys. Surgical' — British guns rattle Russia"
+      publisher: The Times (reposted by League of Ukrainian Canadians)
+      date: 2025-07-25
+      retrieved: 2026-11-22
+  - summary: A sergeant in the same battery said their AS90s had been fired far more than they were designed for and kept working. He added that a heavily worn barrel is less accurate and needs more rounds to hit the target.
+    quote: after 8,000 shots, maybe you'll hit on the fifth shot instead of the third
+    speaker: Ukrainian artillery sergeant (Third Assault Brigade)
+    context: Same Times visit to the battery near Izyum, July 2025. The source is a full repost of the Times article by the League of Ukrainian Canadians.
+    sentiment: mixed
+    topics:
+      - reliability
+      - firepower
+      - maintenance
+    source:
+      url: https://www.lucorg.com/good-work-guys-surgical-british-guns-rattle-russia/
+      title: "'Good work, guys. Surgical' — British guns rattle Russia"
+      publisher: The Times (reposted by League of Ukrainian Canadians)
+      date: 2025-07-25
+      retrieved: 2026-11-22
+  - summary: After the 151st Mechanized Brigade received AS-90s, its artillerymen said the gun clearly makes their strikes more effective. They also rated its combat and technical capabilities well above the Soviet systems they used before.
+    quote: significantly increases the effectiveness of strikes and provides a tangible advantage on the battlefield
+    speaker: Ukrainian artillerymen, 151st Mechanized Brigade
+    context: Militarnyi reported the AS-90 entering service with the brigade in about early 2025. The comments were most likely first published by the brigade, but I could not confirm this. I only saw the search-result excerpt, not the full article.
+    sentiment: positive
+    topics:
+      - firepower
+    source:
+      url: https://militarnyi.com/en/news/british-as-90-self-propelled-artillery-systems-entered-service-with-the-151st-mechanized-brigade-of-the-armed-forces-of-ukraine/
+      title: British AS-90 self-propelled artillery systems entered service with the 151st Mechanized Brigade of the Armed Forces of Ukraine
+      publisher: Militarnyi
+      date: 2025
+      retrieved: 2026-11-22
+  - summary: Army Recognition reported that Ukrainian soldiers found the AS90 noticeably more accurate and longer-ranged than the Soviet-era 2S1 and 2S3 howitzers. The outlet linked this partly to the British L15 high-explosive shells. The article does not name or describe the soldiers who said this.
+    speaker: Ukrainian soldiers (unspecified units), as reported
+    context: Report on AS90 use in Ukraine in early 2024, naming the 3rd Assault Brigade and 116th Mechanized Brigade as users.
+    sentiment: positive
+    topics:
+      - firepower
+    source:
+      url: https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/ukraine-s-as90-howitzers-doanted-by-uk-outshine-old-soviet-made-artillery-in-accuracy-and-range
+      title: UK-Donated AS90 Howitzers Outperform Old Soviet-Made Artillery in Accuracy and Range in Ukraine
+      publisher: Army Recognition
+      date: 2024-03-06
+      retrieved: 2026-11-22
+  - summary: When the British Army tested the gun under severe conditions in its user trial, the barrel managed only half the required number of equivalent full-charge firings. This was blamed on newer, more energetic propellants that increased barrel wear.
+    speaker: British Army user trial (evaluation finding, as summarised by the publisher)
+    context: British Army user trial of the AS90 gun during development, before or around its entry into service in the early 1990s. This is the original L39 configuration, not the later 52-calibre Braveheart.
+    sentiment: negative
+    topics:
+      - reliability
+      - maintenance
+    source:
+      url: https://www.globalsecurity.org/military/world/europe/as90.htm
+      title: AS90 Braveheart 155mm - Self Propelled Howitzer
+      publisher: GlobalSecurity.org
+      date: n.d.
+      retrieved: 2026-11-22
+note: Only a few first-hand accounts were found, almost all from Ukrainian crews; I found none from British AS90 crews, and the search tool limit cut the search short; the Militarnyi item rests on a search excerpt, the Army Recognition item does not identify its sources, and the trial finding comes from a secondary summary.

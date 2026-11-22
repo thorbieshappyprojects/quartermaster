@@ -1,0 +1,58 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: puls
+items:
+  - summary: An Israeli company commander in the battalion using the Lahav (Israel's name for PULS) said the launcher could reach its firing position within minutes and be ready for a new mission within an hour. The article says it fires faster and more accurately than the M270 launchers it replaced.
+    speaker: Israeli artillery company commander, Battalion 334, 282nd Fire Brigade (IDF)
+    context: First combat use of the Lahav in the Gaza war that began in October 2023. The unit was switching over from the tracked M270 at the time. Army Recognition reported the account; it is the outlet's summary, not a direct interview.
+    sentiment: positive
+    topics:
+      - mobility
+      - firepower
+    source:
+      url: https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/hamas-israel-war-2023/israeli-army-deploys-new-lahav-multi-caliber-mlrs-against-hamas-militants-in-gaza-strip
+      title: Israeli Army deploys new Lahav multi-caliber MLRS against Hamas militants in Gaza Strip
+      publisher: Army Recognition
+      date: "2024"
+      retrieved: 2026-11-22
+  - summary: The Danish Army's deputy commander said the system works as intended and is very loud. He said the army had lacked this kind of capability, that PULS now gives it more firepower and range, and he praised its ability to fire different munition types. The head of the Artillery Regiment called the first firing a significant day that his soldiers had been waiting for.
+    speaker: Deputy Commander of the Danish Army and head of the Danish Artillery Regiment (Denmark)
+    context: First test firing on Danish soil, Oksbøl range, 2 July 2024. Comments come from a Danish MoD release as reported by Army Recognition.
+    sentiment: positive
+    topics:
+      - firepower
+      - training
+    source:
+      url: https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/denmark-conducts-the-first-test-of-its-israeli-puls-rocket-system
+      title: Denmark conducts the first test of its Israeli PULS rocket system
+      publisher: Army Recognition
+      date: 2024-07
+      retrieved: 2026-11-22
+  - summary: An official at Denmark's defence procurement agency (DALO) described the first firing as a joint effort by the artillery regiment, the military maintenance service, Elbit and DALO. He said a rocket left the launcher just nine days after the rockets arrived in Denmark. The tests also measured noise and the amount of exhaust gas inside the crew cab.
+    speaker: Head of Combat Support Division, Danish Defence Acquisition and Logistics Organisation (Denmark)
+    context: Integration test firings at Oksbøl, July 2024
+    sentiment: positive
+    topics:
+      - logistics
+      - maintenance
+      - ergonomics
+    source:
+      url: https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/denmark-conducts-the-first-test-of-its-israeli-puls-rocket-system
+      title: Denmark conducts the first test of its Israeli PULS rocket system
+      publisher: Army Recognition
+      date: 2024-07
+      retrieved: 2026-11-22
+  - summary: The Royal Netherlands Army fired 16 rockets over two days from its temporary PULS launchers mounted on Tatra trucks, and all of them landed within the target margins. The firings checked the system's safety and reliability and kept the operators' certification current.
+    quote: The test demonstrated that the system is safe and functions as intended
+    speaker: Dutch Ministry of Defence (trial/validation report)
+    context: Validation firing at Breezanddijk on the Afsluitdijk, 8–9 July 2025, before the final Scania Gryphus version enters service
+    sentiment: positive
+    topics:
+      - reliability
+      - training
+    source:
+      url: https://defence-industry.eu/dutch-army-successfully-tests-puls-rocket-artillery-system-on-afsluitdijk-video/
+      title: Dutch army successfully tests PULS rocket artillery system on Afsluitdijk [VIDEO]
+      publisher: Defence Industry Europe
+      date: 2025-07-10
+      retrieved: 2026-11-22
+note: I found little first-hand reporting from crews. Most material is MoD or commander statements from trials and service entry in Israel, Denmark and the Netherlands, and the search tool hit its usage limit before I could check other operators (including the earlier Lynx variant) or sources in other languages.

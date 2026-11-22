@@ -1,0 +1,73 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: k9a2-thunder
+items:
+  - summary: The head of Norway's artillery school said the K9 roughly doubles the range of the guns Norway used before. He also said it is easy to operate and to train crews on, and that it performs well in snow and winter conditions.
+    quote: The K9 is easy to use and easy to educate and train, which is the key strength of the K9 Self-Propelled Howitzer.
+    speaker: Colonel, Head of Norwegian School of Artillery and Army Air Defence (Norway)
+    context: Spoke at the 2nd K9 User Club meeting in Norway, where user nations shared experience on operation, maintenance and training. The event was attended by Hanwha. Norway's guns are the K9 Vidar, a national variant of the original K9.
+    sentiment: positive
+    topics:
+      - training
+      - firepower
+      - mobility
+    source:
+      url: https://www.joint-forces.com/defence-equipment-news/61838-k9-artillery-user-nations-gather-in-norway
+      title: K9 Artillery User Nations Gather In Norway
+      publisher: Joint Forces News
+      date: 2023
+      retrieved: 2026-11-22
+  - summary: Estonia's artillery battalion commander described the first firing of Estonian K9s at about 30 km, the maximum range for standard ammunition. The article says the gun was highly accurate at that distance, which would save ammunition in wartime. He also said the active-duty crews gained experience the unit can feed into soldier training.
+    speaker: Head of the Artillery Battalion, Estonian Defence Forces
+    context: Long-range live fire in Ida-Viru County, after four years of Estonian service. Estonia's guns are the K9 Kõu, a variant of the original K9.
+    sentiment: positive
+    topics:
+      - firepower
+      - training
+    source:
+      url: https://news.err.ee/1609455185/edf-gets-chance-to-test-k9-self-propelled-howitzers-accuracy
+      title: EDF gets chance to test K9 self-propelled howitzers' accuracy
+      publisher: ERR News
+      date: 2024
+      retrieved: 2026-11-22
+  - summary: A conscript K9 crew commander and his instructors said the teams were well drilled and worked well together during their first live fire. They also described what crews only learn by actually firing, such as the vehicle shifting and rolling back, and system warnings when a crew member misses a step.
+    quote: I was satisfied with the teamwork – we had studied and drilled this thing hard, everyone fulfilled their role very well
+    speaker: Conscript K9 crew commander (Private), Estonian Defence Forces
+    context: First live-fire training for conscripts and reservists on the K9 Kõu in August 2023, reported from Estonian Defence Forces material.
+    sentiment: positive
+    topics:
+      - training
+      - ergonomics
+    source:
+      url: https://www.joint-forces.com/exercise-news/66477-estonian-artillerymen-k9-kou-live-fire-training
+      title: Estonian Artillerymen K9 Kõu Live-Fire Training
+      publisher: Joint Forces News
+      date: 2023
+      retrieved: 2026-11-22
+  - summary: India's Army chief said the K9 Vajra was originally bought for armoured formations in the plains but had extremely successful field trials at high altitude in Eastern Ladakh. A regiment was then deployed there. ANI reported, citing army officials, that the guns hit targets at 50 km in mountains up to 16,000 ft.
+    speaker: Chief of Army Staff, Indian Army (public official)
+    context: Exclusive interview with ANI in Leh, October 2021, during the standoff on the Line of Actual Control with China. India's guns are the K9 Vajra-T, based on the original K9.
+    sentiment: positive
+    topics:
+      - firepower
+      - mobility
+    source:
+      url: https://www.aninews.in/news/national/general-news/k9-vajra-howitzer-regiment-inducted-in-eastern-ladakh-army-chief20211002153211/
+      title: "K9-Vajra howitzer regiment inducted in Eastern Ladakh: Army chief"
+      publisher: ANI
+      date: 2021-10-02
+      retrieved: 2026-11-22
+  - summary: A deputy battery commander in a conscript K9 battalion said his crews had reached a level he was truly satisfied with, while there was still room to improve. He noted that finding suitable artillery manoeuvre areas was hard, but the unit still provided fire support to the infantry.
+    quote: There is always room for improvement, but I can confidently say that we are at a very high level right now
+    speaker: Deputy battery commander (Second Lieutenant), 25th Self-Propelled Howitzer Battalion, Estonian Division
+    context: Exercise Spring Storm, supporting the 2nd Infantry Brigade. Article published by the Estonian Defence Forces.
+    sentiment: positive
+    topics:
+      - training
+      - mobility
+    source:
+      url: https://mil.ee/en/uudised/estonian-divisions-artillery-supports-the-2nd-infantry-brigade-in-exercise-spring-storm/
+      title: Estonian Division's Artillery supports the 2nd Infantry Brigade in exercise Spring Storm
+      publisher: Estonian Defence Forces (mil.ee)
+      date: 2025
+      retrieved: 2026-11-22
+note: Search was cut short by a tool-use limit, so Polish, Finnish, Australian, Turkish, Korean and Egyptian user accounts were not checked. All five items cover earlier K9 variants rather than the K9A1 itself, and four are positive accounts published by the armies themselves or drawn from their material; none are critical first-hand reports.

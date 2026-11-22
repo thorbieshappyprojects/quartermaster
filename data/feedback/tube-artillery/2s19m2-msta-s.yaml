@@ -1,0 +1,75 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: 2s19m2-msta-s
+items:
+  - summary: A Msta-SM2 battery commander said his crews hit platoon strongpoints and armoured vehicles that spotters found on video, and fight enemy artillery with help from radar. He described using different 152 mm shell and fuze types depending on the target. The report says the batteries change firing positions and cover dozens of times a day.
+    speaker: Russian Msta-SM2 battery commander (call sign "Kama"), Western Military District
+    context: Ukraine, January 2023. Russian MoD-supplied video and comments published by state-aligned media
+    sentiment: positive
+    topics:
+      - firepower
+      - mobility
+      - sensors
+    source:
+      url: https://iz.ru/1453992/2023-01-13/komandir-batarei-sau-msta-sm2-obiasnil-vazhnost-artillerii-v-zone-svo
+      title: Командир батареи САУ «Мста-СМ2» объяснил важность артиллерии в зоне СВО
+      publisher: Izvestia
+      date: 2023-01-13
+      retrieved: 2026-11-22
+  - summary: A Msta-SM2 gun commander described his crew's routine. When target coordinates arrive, they go to the gun, remove the camouflage, drive out to a firing position, aim and fire. The report was about a counter-battery mission against a Grad rocket launcher.
+    quote: Как приходит точка, расчет приходит к орудию, размаскировывается, выезжает на точку огневую, откуда работаем, наводится на цель и работает
+    speaker: Russian Msta-SM2 gun commander (call sign "Buran"), Zapad group of forces
+    context: Ukraine, June 2024. Comments in a Russian MoD-sourced TV report; only the search excerpt could be read, because the full page did not load
+    sentiment: positive
+    topics:
+      - mobility
+      - training
+    source:
+      url: https://ren.tv/news/v-rossii/1229014-raschet-gaubitsy-msta-sm2-unichtozhil-ukrainskuiu-rszo-grad-na-okraine-iampolia
+      title: Расчет гаубицы "Мста-СМ2" уничтожил украинскую РСЗО "Град" на окраине Ямполя
+      publisher: REN TV
+      date: 2024-06-10
+      retrieved: 2026-11-22
+  - summary: A Msta-S crew member said they do this kind of mission almost every day. The job is to roll into position without being seen, hit the target with the first shot, then get back under cover. This shows the shoot-and-scoot routine that counter-battery threats force on crews.
+    quote: Задача выкатиться незаметно на позиции, поразить цель с первого выстрела, а затем уйти в тень.
+    speaker: Russian 2S19 Msta-S crew member (earlier family variant)
+    context: Kursk region fighting, around 2024–25. Comments in Russian MoD-supplied footage reported by tabloid media; the date is estimated from the search listing
+    sentiment: positive
+    topics:
+      - mobility
+      - protection
+      - firepower
+    source:
+      url: https://www.kp.ru/daily/27658/5042816/
+      title: "«Бить точно, уходить в тень быстро»: Расчет 152-мм САУ 2С19 «Мста-С» уничтожили в Курской области позиции боевиков ВСУ"
+      publisher: Komsomolskaya Pravda (KP.ru)
+      date: 2025
+      retrieved: 2026-11-22
+  - summary: Members of a Russian Msta-S crew said they fire a lot, almost around the clock, and called their team cohesive. A senior gunner said they had no difficulties with the vehicle and praised it highly. The quote below is Izvestia's machine translation.
+    quote: I can tell from the car that this is the ultimate aerobatics of our equipment
+    speaker: Russian Msta-S senior gunner, gun commander and loader (earlier family variant)
+    context: Donbas, November 2025. Russian MoD-arranged interviews republished by Izvestia's English service
+    sentiment: positive
+    topics:
+      - reliability
+      - firepower
+      - training
+    source:
+      url: https://en.iz.ru/en/1995245/2025-11-23/msta-s-crew-destroyed-support-and-mortar-crew-armed-forces-ukraine-area-its
+      title: The Msta-S crew destroyed the support and mortar crew of the Armed Forces of Ukraine in the area of its
+      publisher: Izvestia (English)
+      date: 2025-11-23
+      retrieved: 2026-11-22
+  - summary: Gunners of Ukraine's 25th Airborne Brigade use a Msta-S that Russian forces left behind, firing against Russian attacks near Pokrovsk. The crew said they have to keep moving all the time but are holding their ground.
+    speaker: Ukrainian artillery crew, 25th Airborne Brigade (captured 2S19 Msta-S, earlier family variant)
+    context: Pokrovsk front, June 2025. Video report; only the article's summary text could be read
+    sentiment: mixed
+    topics:
+      - mobility
+      - logistics
+    source:
+      url: https://www.rferl.org/a/ukraine-pokrovsk-defense-artillery-russia-invader-motorcycle-trophy-intelligence/33454625.html
+      title: Ukrainian Artillery Unit On Pokrovsk Front Uses Captured Russian Guns On Russians
+      publisher: RadioFreeEurope/RadioLiberty
+      date: 2025-06-26
+      retrieved: 2026-11-22
+note: Almost all first-hand comments are from Russian MoD-curated state media (positive, little detail, nothing on protection or maintenance); independent Western or Ukrainian crew reporting is scarce, and I hit the search limit before checking more Ukrainian sources.

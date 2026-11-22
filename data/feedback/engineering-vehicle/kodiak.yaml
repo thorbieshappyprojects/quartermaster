@@ -1,0 +1,17 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: kodiak
+items:
+  - summary: In 2017, about a year after entering Dutch service, the Kodiak was banned from driving, even on public roads. Its electronics also failed because of software problems, and its hydraulics weren't up to the heavy work. By September 2018 the Dutch Army said these problems were fixed and the vehicle was fully usable, with Kodiaks ready for NATO's high-readiness force in 2019.
+    speaker: Royal Netherlands Army engineers (as reported by the press; no individual crew member quoted)
+    context: Nederlands Dagblad report (13 Sept 2018) on Dutch service problems, republished by the Dutch engineers' regimental association
+    sentiment: mixed
+    topics:
+      - reliability
+      - maintenance
+    source:
+      url: https://regimentgenietroepen.nl/nieuws/2018-09-13-kodiak-kan-aan-de-bak
+      title: Kodiak kan aan de bak
+      publisher: Regiment Genietroepen (republishing Nederlands Dagblad)
+      date: 2018-09-13
+      retrieved: 2026-11-22
+note: "Very little first-hand crew reporting turned up: the one item is Dutch press about service problems rather than direct crew voices, two related Dutch articles (a 2017 one on the driving ban and one built around a quote calling the Kodiak a 'pocket knife') couldn't be opened to confirm who was speaking, and German coverage so far is about procurement and trials, not crew opinions."

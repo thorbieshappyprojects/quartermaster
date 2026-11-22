@@ -1,0 +1,60 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: euro-puls
+items:
+  - summary: Dutch artillery battalion commanders said the long range of PULS lets their own artillery stay further back, out of the enemy's effective range. They also said its open architecture lets them fire munitions from several suppliers, including European ones, which they saw as an advantage over MLRS and HIMARS.
+    quote: De PULS is een nieuw platform aan het begin van zijn ontwikkeling, waardoor het een investering in de toekomst is.
+    speaker: Dutch Army artillery lieutenant-colonels (commander of 11 Afdeling Rijdende Artillerie and fellow battalion-level officers)
+    context: Militaire Spectator interview at Oldebroek after 11 Afdeling Rijdende Artillerie was re-formed in July 2025. This is about the Dutch PULS, an earlier member of the same family (Tatra interim / Scania Gryphus), not the German EuroPULS on Iveco.
+    sentiment: positive
+    topics:
+      - firepower
+      - logistics
+    source:
+      url: https://militairespectator.nl/artikelen/de-lange-arm-die-de-vijand-kan-slijten
+      title: "'De lange arm die de vijand kan slijten'"
+      publisher: Militaire Spectator
+      date: 2025-11-14
+      retrieved: 2026-11-22
+  - summary: A Dutch artillery officer said the system only works well with an up-to-date command-and-control system that gets sensor data to the launchers quickly. He named this as an area that still needs work, possibly with AI support.
+    quote: De PULS staat of valt met een up-to-date command & controlsysteem
+    speaker: Dutch Army artillery lieutenant-colonel
+    context: Same November 2025 Militaire Spectator interview. Dutch PULS (earlier family variant), before the operational PULS battery joins in January 2026.
+    sentiment: mixed
+    topics:
+      - sensors
+      - ergonomics
+    source:
+      url: https://militairespectator.nl/artikelen/de-lange-arm-die-de-vijand-kan-slijten
+      title: "'De lange arm die de vijand kan slijten'"
+      publisher: Militaire Spectator
+      date: 2025-11-14
+      retrieved: 2026-11-22
+  - summary: The Dutch PULS project manager said the first live-fire exercise at the Afsluitdijk in July 2025 went without problems and gave very good early results. He added that the four interim Tatra-based launchers were already in heavy use by the training battery.
+    quote: Het is allemaal probleemloos verlopen.
+    speaker: Dutch Army lieutenant-colonel, PULS project manager (COMMIT), not a crew member
+    context: Ministry magazine interview after the first Dutch PULS live firing in July 2025. This was the interim Tatra configuration, an earlier family variant.
+    sentiment: positive
+    topics:
+      - reliability
+      - training
+    source:
+      url: https://magazines.defensie.nl/materieelgezien/2025/07/update-over-de-puls
+      title: Update over de PULS
+      publisher: Materieelgezien (Dutch Ministry of Defence)
+      date: 2025-09-16
+      retrieved: 2026-11-22
+  - summary: A Dutch artillery officer pointed out that each launcher needs only two crew, but the system relies on a long support chain behind it. He said this means recruiting more people, building new infrastructure at 't Harde, and adding combat service support.
+    quote: behalve 2 mensen op 1 lanceersysteem, heb je een hele keten aan ondersteuning nodig
+    speaker: Dutch Army artillery major, deputy project lead for fire support
+    context: Army magazine feature shortly after the 2023 Dutch PULS purchase, before the systems arrived. These are planning views from the user side, not field experience.
+    sentiment: mixed
+    topics:
+      - logistics
+      - training
+    source:
+      url: https://magazines.defensie.nl/landmacht/2023/05/07_puls
+      title: ImPULS voor artillerie
+      publisher: Landmacht (Dutch Ministry of Defence)
+      date: 2023-06-06
+      retrieved: 2026-11-22
+note: I found no first-hand user accounts of the German EuroPULS/MARS 3 on the Iveco chassis, or of Bulgarian or Slovenian systems, before my search budget ran out; all items are Dutch officers talking about earlier PULS variants, partly from the project office and before full delivery.

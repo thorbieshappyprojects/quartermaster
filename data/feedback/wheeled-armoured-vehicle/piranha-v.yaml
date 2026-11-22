@@ -1,0 +1,76 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: piranha-v
+items:
+  - summary: Danish Royal Life Guards vehicle commanders said spare parts and maintenance were their biggest problem with the Piranha 5. They said vehicles sat idle for long periods because too few mechanics were certified to work on them under the warranty, and parts were missing or slow to arrive. They also described brake problems and cases where the weapon fired without a command, which they linked to radio interference.
+    quote: Delene kan enten ikke bestilles, eller også er der lang leveringstid på dem
+    speaker: Danish Army Piranha 5 vehicle commander (Royal Life Guards, mechanised infantry company)
+    context: Interview at Garderkasernen Høvelte, published by the HKKF soldiers' union, April 2022, about three years after Piranha 5 deliveries began
+    sentiment: negative
+    topics:
+      - maintenance
+      - reliability
+      - logistics
+    source:
+      url: https://www.hkkf.dk/nyheder/2022/april/piranha-5-soldaternes-stoerste-hovedpine-er-vedligeholdelse-og-reservedele/
+      title: "Piranha 5: Soldaternes største hovedpine er vedligeholdelse og reservedele"
+      publisher: HKKF (Danish soldiers' union)
+      date: 2022-04-04
+      retrieved: 2026-11-22
+  - summary: Crews said the tall vehicle had no vehicle camera system at the time, which left a large blind zone around it. They said this caused damage when reversing and put people on foot at risk. A former Piranha 3 commander added that moving the commander's station to the middle, next to the weapon, gave the gunner a narrower arc of fire than the older layout.
+    quote: Han har en kæmpe dødzone, hvor han intet kan se
+    speaker: Danish Army former Piranha 3 vehicle commander, Royal Life Guards
+    context: Same HKKF interview, April 2022; Denmark later ordered camera systems for the Piranha fleet
+    sentiment: negative
+    topics:
+      - sensors
+      - ergonomics
+    source:
+      url: https://www.hkkf.dk/nyheder/2022/april/piranha-5-soldaternes-stoerste-hovedpine-er-vedligeholdelse-og-reservedele/
+      title: "Piranha 5: Soldaternes største hovedpine er vedligeholdelse og reservedele"
+      publisher: HKKF (Danish soldiers' union)
+      date: 2022-04-04
+      retrieved: 2026-11-22
+  - summary: Crews said the Piranha 5 is now about the size of a tank but carries only a 12.7 mm machine gun, so it is easy to spot and cannot fight enemy vehicles. They expected the planned Spike LR2 anti-tank missile to help.
+    quote: Vi er rigtig store, vi er rigtig nemme at se, og vi er relativt nemme at slå ihjel.
+    speaker: Danish Army Piranha 5 vehicle commander (Royal Life Guards)
+    context: Same HKKF interview, April 2022, describing the APC configuration before anti-tank missiles were added
+    sentiment: negative
+    topics:
+      - firepower
+      - protection
+    source:
+      url: https://www.hkkf.dk/nyheder/2022/april/piranha-5-soldaternes-stoerste-hovedpine-er-vedligeholdelse-og-reservedele/
+      title: "Piranha 5: Soldaternes største hovedpine er vedligeholdelse og reservedele"
+      publisher: HKKF (Danish soldiers' union)
+      date: 2022-04-04
+      retrieved: 2026-11-22
+  - summary: Despite their complaints, the soldiers agreed the Piranha 5 drives superbly and is clearly better than the Piranha 3. They praised the bigger tyres, the adjustable ride height, fast reversing, better mine protection with footrests that protect against blast from below, and more comfortable seats with headrests and safer harnesses.
+    quote: Helt overordnet er 5’eren bedre. Det kan der ikke være nogen tvivl om.
+    speaker: Danish Army Piranha 5 vehicle commander (Royal Life Guards)
+    context: Same HKKF interview, April 2022, comparing it with the earlier Piranha IIIH (same family)
+    sentiment: positive
+    topics:
+      - mobility
+      - protection
+      - ergonomics
+    source:
+      url: https://www.hkkf.dk/nyheder/2022/april/piranha-5-soldaternes-stoerste-hovedpine-er-vedligeholdelse-og-reservedele/
+      title: "Piranha 5: Soldaternes største hovedpine er vedligeholdelse og reservedele"
+      publisher: HKKF (Danish soldiers' union)
+      date: 2022-04-04
+      retrieved: 2026-11-22
+  - summary: A Spanish Legion captain in the trial unit for the VCR 8x8 Dragón (the Spanish Piranha V derivative) said testing checks mobility, range, protection and communications, and that the vehicle moves better over rough ground than what the unit had before. Unit officers called the move to a vehicle like this a change of paradigm. They said drivers need a specific military licence and that training courses started early.
+    quote: El vehículo tiene una alta movilidad táctica, una capacidad todoterreno y una movilidad superior a la que teníamos anteriormente
+    speaker: Spanish Army captain, BRILEG (Spanish Legion brigade), trial unit for the Dragón's operational evaluation
+    context: Operational evaluation (EVAO) at Viator, Almería, after deliveries began; official Spanish Army blog, 2026
+    sentiment: positive
+    topics:
+      - mobility
+      - training
+    source:
+      url: https://ejercitotierra.blog/2026/07/26/nuevas-incorporaciones-del-8x8-dragon/
+      title: NUEVAS INCORPORACIONES DEL 8X8 «DRAGÓN»
+      publisher: Blog oficial del Ejército de Tierra de España
+      date: 2026-07-26
+      retrieved: 2026-11-22
+note: The search tool hit its usage limit partway through, so I didn't search for German or Dutch users. Four of the five items come from one Danish union interview (HKKF, 2022), split by topic, and the fifth is an official Spanish Army blog post, so it is not independent reporting. The Romanian coverage I found described firing trials but did not quote the soldiers, and the Spanish parliamentary criticism of the Dragón came from a politician rather than users, so I left both out.

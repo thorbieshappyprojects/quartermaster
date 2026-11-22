@@ -1,0 +1,60 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: cv90-mkiv
+items:
+  - summary: In a video posted by their brigade, Ukrainian soldiers credited the CV90's armour, speed and 40 mm gun, and said it kept running after as many as five FPV drone hits. One crew member gave its reliability 9 out of 10 and said most faults are minor ones, such as road wheels, hoses and tubes.
+    quote: Of course, it's metal—it will break down eventually. But a nine is about right.
+    speaker: Ukrainian CV90 crew member, 21st Separate Mechanized Brigade (Ukraine)
+    context: Video posted by the brigade on social media and reported by UNITED24 Media, October 2025. This is the earlier CV9040 variant donated by Sweden, not the Mk IV.
+    sentiment: positive
+    topics:
+      - protection
+      - reliability
+      - firepower
+    source:
+      url: https://united24media.com/latest-news/why-ukraines-21st-brigade-calls-the-swedish-cv90-a-beast-survivability-speed-and-suppressive-fire-12849
+      title: "Why Ukraine's 21st Brigade Calls the Swedish CV90 a \"Beast\": Survivability, Speed and Suppressive Fire"
+      publisher: UNITED24 Media
+      date: 2025-10-27
+      retrieved: 2026-11-22
+  - summary: Ukrainian soldiers praised the CV90's Barracuda thermal camouflage and its survival after hits from loitering munitions, FPV drones and 120 mm rounds, and said its comfort compares well with other vehicles. Commanders said it carries too little ready ammunition (three 8-round clips), but they liked the quick reload.
+    quote: gray, padded cold car
+    speaker: Ukrainian CV90 crews and vehicle commanders (Ukraine)
+    context: Feedback from the front line, taken from social media and video, compiled by Army Recognition in February 2024. This is the earlier CV9040 variant, not the Mk IV.
+    sentiment: mixed
+    topics:
+      - protection
+      - firepower
+      - ergonomics
+    source:
+      url: https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/ukrainian-soldiers-rank-swedish-cv9040-ifvs-top-among-allied-combat-vehicle-donations
+      title: Ukrainian Soldiers Rank Swedish CV9040 IFVs Top Among Allied Combat Vehicle Donations
+      publisher: Army Recognition
+      date: 2024-02-29
+      retrieved: 2026-11-22
+  - summary: The 21st Brigade, after more than two and a half years of fighting in Swedish CV90s, said the vehicles had survived heavy shelling and kept their crews alive through many battles. The brigade's own video features a company commander, a sergeant-instructor and a driver-mechanic giving their views.
+    speaker: Ukrainian 21st Separate Mechanized Brigade, including a company commander and a driver-mechanic (Ukraine)
+    context: Video posted on the brigade's social media page and reported by ArmyInform, the Ukrainian Ministry of Defence news agency, September 2025. Earlier CV9040 variant.
+    sentiment: positive
+    topics:
+      - protection
+      - reliability
+    source:
+      url: https://armyinform.com.ua/en/2025/09/24/made-in-sweden-tested-in-ukraine-how-the-cv90-ifv-earned-its-most-valuable-quality-certificate/
+      title: '"Made in Sweden, Tested in Ukraine": How the CV90 IFV earned its most valuable quality certificate'
+      publisher: ArmyInform
+      date: 2025-09-24
+      retrieved: 2026-11-22
+  - summary: Infantry fighting vehicle instructors from the Czech 72nd Mechanised Battalion tested mock-ups of the Czech CV90 MkIV, both command and combat versions, at Hägglunds in Örnsköldsvik to check how easy the crew stations are to use. The battalion commander stressed the value of instructors seeing for themselves where equipment and controls are placed, and the army's development chief confirmed the design met requirements.
+    speaker: Commander of the Czech 72nd Mechanised Battalion and battalion IFV instructors (Czechia)
+    context: Second Czech user visit to BAE Systems Hägglunds to review mock-ups before deliveries planned for 2026. This concerns the CV9030 MkIV itself.
+    sentiment: positive
+    topics:
+      - ergonomics
+      - training
+    source:
+      url: https://www.czdefence.com/article/experience-with-cv90-vehicles-from-the-ukrainian-battlefield-perfection-in-practice
+      title: "Experience with CV90 vehicles from the Ukrainian battlefield: perfection in practice"
+      publisher: CZ DEFENCE
+      date: 2024
+      retrieved: 2026-11-22
+note: Nearly all first-hand user feedback comes from Ukrainian crews of the earlier CV9040, mostly brigade videos reported by media. The only Mk IV item is an ergonomics review by Czech instructors, and I found no crew reports yet from Czech or Slovak units operating the Mk IV.

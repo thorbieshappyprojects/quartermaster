@@ -1,0 +1,32 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: homar-k
+items:
+  - summary: After passing theory and practical exams set by Korean instructors, Homar-K crews of the 1st Mazurian Artillery Brigade began training on their own. The training is now part of their regular programme. Crews drill Topaz-guided fire missions and timed loading and unloading of rocket pods, and practise in different seasons to see how the system behaves in winter and summer conditions.
+    quote: inaczej wygląda praca teraz, zimą, a inaczej latem, kiedy są wysokie temperatury
+    speaker: Polish Army press officer of the 16th Mechanised Division, speaking for the brigade's launcher crews
+    context: Training at Węgorzewo without live firing, a few months after the brigade received its first four launchers in August 2024
+    sentiment: positive
+    topics:
+      - training
+      - ergonomics
+    source:
+      url: https://polska-zbrojna.pl/home/articleshow/43284?t=Homar-K-bez-tajemnic
+      title: Homar-K bez tajemnic
+      publisher: Polska Zbrojna (Wojskowy Instytut Wydawniczy, Polish Ministry of National Defence)
+      date: "2025"
+      retrieved: 2026-11-22
+  - summary: The head of the Rocket and Artillery Forces directorate in the Polish Army called Homar-K a field-proven system and said linking it to the Topaz fire control network made it work well with the rest of the force. He also said key support vehicles had not yet been bought, and that Poland still needed ammunition stocks and its own capacity to maintain the launchers in peace and war.
+    speaker: Head of the Rocket and Artillery Forces Directorate, Polish Land Forces Inspectorate (colonel, public official)
+    context: Interview with Defence24 in April 2026, with at least 108 complete Homar-K systems in service
+    sentiment: mixed
+    topics:
+      - maintenance
+      - logistics
+      - sensors
+    source:
+      url: https://defence24.pl/sily-zbrojne/wojsko-docenia-wyrzutnie-homar-jakie-nastepne-kroki
+      title: Wojsko docenia wyrzutnie Homar. Jakie następne kroki?
+      publisher: Defence24
+      date: 2026-04-21
+      retrieved: 2026-11-22
+note: "Only two items: I ran out of tool calls before I could open other likely sources, including the Polska Zbrojna report on the first live firing at Ustka (December 2024), a Defence24 piece on more launchers for the 23rd Artillery Regiment, Defence24 training-centre stories and reports on Polish crews training in Korea. Some of these may hold crew or commander comments; I left them out because I didn't confirm their content. What I did check comes from official spokespeople or senior officers, not individual crew members."

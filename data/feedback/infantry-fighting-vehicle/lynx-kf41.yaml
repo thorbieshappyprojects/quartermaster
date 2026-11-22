@@ -1,0 +1,59 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: lynx-kf41
+items:
+  - summary: A serving Hungarian officer said Lynx drivers had confirmed the vehicle's road and off-road speeds in practice, and that soldiers found it easy to learn. He named spare-parts supply, logistics, and building a new doctrine and training system as the main challenges. He also said troops who were used to patrol and checkpoint duties on the wheeled BTR-80 had to relearn mechanised warfare.
+    quote: they have had to relearn the art of mechanised warfare
+    speaker: Serving Hungarian Defence Forces officer (30th Mechanised Brigade programme)
+    context: Conference talk at the Defence iQ International Armoured Vehicles (IAV) conference, Farnborough, January 2025, after the 2024 driver and turret training
+    sentiment: mixed
+    topics:
+      - training
+      - logistics
+      - mobility
+    source:
+      url: https://www.calibredefence.co.uk/iav-2025-hungarys-lynx-ifv-programme/
+      title: "IAV 2025: Hungary's Lynx IFV programme"
+      publisher: Calibre Defence
+      date: 2025-01-21
+      retrieved: 2026-11-22
+  - summary: According to EDR, Hungarian soldiers testing the first vehicles raised several problems that Rheinmetall fixed. They asked for emergency-opening systems on the rear roof hatch and rear ramp and for heating improvements. They also reported vibration; it was measured within health limits, but work continued to reduce it so infantry stay fit after long rides.
+    speaker: Hungarian soldiers in the initial test phase (reported by a senior Hungarian Land Forces speaker and EDR)
+    context: Initial testing and fielding of German-built Lynx vehicles in Hungary, reported at IAV 2025
+    sentiment: mixed
+    topics:
+      - ergonomics
+      - protection
+    source:
+      url: https://www.edrmagazine.eu/iav-2025-first-hungarian-land-forces-battalion-equipped-with-lynx-ifvs-closes-to-its-ioc
+      title: IAV 2025 – First Hungarian Land Forces battalion equipped with Lynx IFVs closes to its IOC
+      publisher: EDR Magazine
+      date: 2025
+      retrieved: 2026-11-22
+  - summary: A senior Hungarian Land Forces officer said troops see the Lynx as a digital, sensor-heavy system far ahead of the BMP-1 and BTR-80. He said automatic target detection and tracking suit younger soldiers, and that the vehicle is simple enough for ordinary infantry to use. He added that each vehicle was covering more than 500 km a month and that simulators were coming to reduce wear and save ammunition.
+    quote: Our soldiers define it as a vehicle built around a computer
+    speaker: Senior Hungarian Land Forces officer
+    context: IAV 2025 presentation as the 1st Grenadier Battalion neared initial operational capability
+    sentiment: positive
+    topics:
+      - sensors
+      - ergonomics
+      - training
+    source:
+      url: https://www.edrmagazine.eu/iav-2025-first-hungarian-land-forces-battalion-equipped-with-lynx-ifvs-closes-to-its-ioc
+      title: IAV 2025 – First Hungarian Land Forces battalion equipped with Lynx IFVs closes to its IOC
+      publisher: EDR Magazine
+      date: 2025
+      retrieved: 2026-11-22
+  - summary: In a NATO video about the vehicle, a Hungarian Lynx commander and his crew said the vehicle gives them protection and voiced pride in serving with it within NATO. The gunner talked about the close bonds formed inside the crew.
+    quote: Our infantry fighting vehicle ensures our protection.
+    speaker: Hungarian Lynx vehicle commander (staff sergeant) and crew
+    context: NATO video report filmed inside a Hungarian Lynx KF41 with commander, gunner and driver, April 2026; this is an official alliance PR product
+    sentiment: positive
+    topics:
+      - protection
+    source:
+      url: https://www.nato.int/en/multimedia/multimedia/videos/2026/04/15/the-hungarian-lynx
+      title: The Hungarian Lynx
+      publisher: NATO
+      date: 2026-04-15
+      retrieved: 2026-11-22

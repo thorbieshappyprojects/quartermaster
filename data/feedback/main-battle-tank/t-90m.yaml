@@ -1,0 +1,74 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: t-90m
+items:
+  - summary: T-90M crews in a Central Military District tank formation, retrained from early T-72s, said the new tank is a big step up. They praised the much better fire-control system, the fully electronic systems and a voice assistant that warns them when the vehicle overheats. The footage came from the Russian MoD and was reported by Izvestia.
+    quote: По сравнению с Т-72 система управления огнем стала лучше, я бы сказал, даже гораздо лучше.
+    speaker: Russian T-90M crew member (Central Military District)
+    context: Russian MoD footage of crews training together as units behind the front in Ukraine, published January 2023. Their earlier tanks were first-model T-72s.
+    sentiment: positive
+    topics:
+      - firepower
+      - ergonomics
+      - training
+    source:
+      url: https://iz.ru/1451028/2023-01-06/ekipazhi-tankov-t-90m-proryv-rasskazali-o-preimushchestvakh-novoi-tekhniki
+      title: Экипажи танков Т-90М «Прорыв» рассказали о преимуществах новой техники
+      publisher: Izvestia
+      date: 2023-01-06
+      retrieved: 2026-11-22
+  - summary: A tank commander (call sign "Turist") had moved his crew from the T-72 "Ural" to the T-90M about a year before. He told Russian MoD television that the newer tank is better balanced across its controls, armament and electronics.
+    speaker: Russian tank commander (call sign "Turist")
+    context: Zvezda TV report from the Vremivka salient in Ukraine, August 2023
+    sentiment: positive
+    topics:
+      - firepower
+      - ergonomics
+      - sensors
+    source:
+      url: https://tvzvezda.ru/news/2023814659-e2Lys.html
+      title: Экипаж танка Т-90М «Прорыв» тремя выстрелами сорвал попытку наступления боевиков
+      publisher: Zvezda (Russian MoD TV)
+      date: 2023-08-14
+      retrieved: 2026-11-22
+  - summary: A tank platoon commander said his T-90M was hit by four anti-tank guided missiles and was not destroyed, and that the tank and crew went back into combat after heavy damage. He also described a T-90 (exact variant not given) surviving a roadside bomb, with the crew member hurt by the jolt rather than the blast. These claims come from TASS and have not been independently verified.
+    quote: The tank remained intact
+    speaker: Russian tank platoon commander (call sign "Chizh")
+    context: Avdiivka direction, Ukraine. TASS interview reported by EurAsian Times in 2024.
+    sentiment: positive
+    topics:
+      - protection
+    source:
+      url: https://www.eurasiantimes.com/russian-tank-commander-claims-t-90m/
+      title: Stuck By 4 ATGMs, Russian T0-90 Tank 'Easily Survives' Missile Strikes; "Chizh" Heaps Praises On Proryv
+      publisher: EurAsian Times
+      date: 2024
+      retrieved: 2026-11-22
+  - summary: A gunner-operator who switched over from the T-80 said the T-90M's thermal sight, target lock and rangefinder work better. He added that the commander's backup fire controls and wider all-round view give the crew much better visibility.
+    quote: The sight is different, unlike the "eighty", the all-round view is larger. Visibility is much better
+    speaker: Russian tank gunner-operator, Center group of forces
+    context: Izvestia interview in the combat zone in Ukraine about retraining from the T-80 to the T-90M, September 2025
+    sentiment: positive
+    topics:
+      - sensors
+      - firepower
+      - ergonomics
+    source:
+      url: https://en.iz.ru/en/1948398/2025-09-04/servicemen-talked-about-advantages-t-90m-breakthrough-tank
+      title: The servicemen talked about the advantages of the T-90M "Breakthrough" tank
+      publisher: Izvestia
+      date: 2025-09-04
+      retrieved: 2026-11-22
+  - summary: A crew from the 228th Guards Motor Rifle Regiment (90th Guards Tank Division) described a heavy "Baba Yaga" drone attack that set their T-90M on fire. According to the report, they fired ten rounds from the burning tank and then drove it off the battlefield. The interview was given to the Russian MoD.
+    quote: На танк была сброшена так называемая Баба-яга.
+    speaker: Russian T-90M crew member, 90th Guards Tank Division
+    context: Interview with the Russian MoD about combat with the Center group of forces in Ukraine, reported by Ridus (publication date not shown)
+    sentiment: positive
+    topics:
+      - protection
+    source:
+      url: https://www.ridus.ru/komandir-dmitriev-rasskazal-o-podvige-ekipazha-tanka-t-90m-940939.html
+      title: Командир Дмитриев рассказал о подвиге экипажа танка Т-90М
+      publisher: Ridus
+      date: unknown
+      retrieved: 2026-11-22
+note: All five items are Russian crews speaking through Russian state or MoD channels, so they are positive and unverified; my searches were cut short by a tool limit, and they turned up no credible critical first-hand accounts (for example from Ukrainian crews testing captured T-90Ms).

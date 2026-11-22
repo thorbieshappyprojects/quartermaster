@@ -1,0 +1,73 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: stryker
+items:
+  - summary: In a side-by-side trial at Aberdeen Test Center, US soldiers found the DVH A1's drivetrain and engine better than the older Double V-Hull's. They said it climbed steep grades with less strain and rode better off-road, but it was slower off the line and louder outside.
+    quote: Soldiers noted the ICVV-A1 improved drivetrain easily negotiated steep grades with decreased engine load
+    speaker: US Army test soldiers (trial unit), United States
+    context: Side-by-side developmental test of the DVH and DVH A1 infantry carriers at Aberdeen Test Center, March 2016, reported in the DOT&E FY2017 annual report
+    sentiment: mixed
+    topics:
+      - mobility
+      - ergonomics
+    source:
+      url: https://www.dote.osd.mil/Portals/97/pub/reports/FY2017/army/2017strykerdvha1ecp.pdf?ver=2019-08-19-113850-710
+      title: Stryker Double V-Hull A1 (DVH A1) Engineering Change Proposal (ECP)
+      publisher: Director, Operational Test and Evaluation (DOT&E)
+      date: 2018
+      retrieved: 2026-11-22
+  - summary: In the operational test, the unit using DVH A1 vehicles completed 11 of 12 battalion-support missions. A survey found that 84% of its soldiers and leaders felt the vehicle helped them accomplish the mission.
+    speaker: Soldiers and leaders of the US Army operational test unit (2nd Bn, 1st Infantry Regt, 2nd Stryker BCT), United States
+    context: Operational test results cited when DVH A1 fielding began with 2nd Brigade, 4th Infantry Division at Fort Carson, 2020
+    sentiment: positive
+    topics:
+      - mobility
+      - protection
+    source:
+      url: https://taskandpurpose.com/news/army-stryker-dvha1-fielding/
+      title: The Army's up-armored Strykers are almost ready for a fight
+      publisher: Task & Purpose
+      date: 2020
+      retrieved: 2026-11-22
+  - summary: Soldiers from Ukraine's 81st Airmobile Brigade said the Stryker's armour and ceramic plating held up against heavy machine-gun fire and even 30mm rounds. A driver praised its off-road traction, its ride and the tire inflation system, which kept it moving on a flat tire.
+    quote: It hasn't failed us. Even with a flat tire, it keeps going — the tire inflation system works great.
+    speaker: Ukrainian driver-mechanic, 81st Separate Airmobile Brigade
+    context: Interview as the brigade's Stryker unit moved to the eastern front after the Kursk operation, April 2025 (variant not specified)
+    sentiment: positive
+    topics:
+      - protection
+      - mobility
+      - reliability
+    source:
+      url: https://euromaidanpress.com/2025/04/10/ukrainian-paratroopers-deploy-battle-tested-stryker-apcs-to-eastern-front-after-kursk-success/
+      title: Ukrainian paratroopers deploy battle-tested Stryker APCs to eastern front after Kursk success
+      publisher: Euromaidan Press
+      date: 2025-04-10
+      retrieved: 2026-11-22
+  - summary: A Ukrainian Stryker driver said his vehicle was hit during an assault early in the Kursk operation. Its armour saved the crew and the troops in the back, and no one was killed, though some had light wounds.
+    speaker: Ukrainian Stryker driver, Air Assault Forces
+    context: Interview posted on the Air Assault Forces' official YouTube channel and reported by Militarnyi; describes the 2024 Kursk incursion (variant not specified)
+    sentiment: positive
+    topics:
+      - protection
+    source:
+      url: https://militarnyi.com/en/news/stryker-armor-saves-ukrainian-paratroopers-during-assault-in-kursk-oblast/
+      title: Stryker Armor Saves Ukrainian Paratroopers During Assault in Kursk Oblast
+      publisher: Militarnyi
+      date: 2026
+      retrieved: 2026-11-22
+  - summary: A gunner from the 80th Air Assault Brigade who had moved over from Soviet-era BTRs liked controlling the remote weapon station from inside the vehicle, saying it lets him aim faster. An officer said the station also protects crews, and an 82nd Brigade instructor praised the Stryker's speed in reverse.
+    quote: Once you get the hang of it, you can aim at the target much faster.
+    speaker: Ukrainian Stryker gunner, 80th Air Assault Brigade
+    context: Brigade press-service training video and Ukrainian armed forces interviews, reported by Defense Express about a year after the Strykers arrived (likely the earlier flat-bottom M1126)
+    sentiment: positive
+    topics:
+      - firepower
+      - ergonomics
+      - training
+    source:
+      url: https://en.defence-ua.com/weapon_and_tech/like_in_a_videogame_says_the_ukrainian_gunner_operating_american_stryker_ifv-10107.html
+      title: '"Like in a Videogame," Says the Ukrainian Gunner Operating American Stryker IFV'
+      publisher: Defense Express
+      date: 2024
+      retrieved: 2026-11-22
+note: The only feedback specific to the DVH A1 is from the 2016-2018 US Army trials; the Ukrainian accounts concern Strykers whose variant isn't stated, two dates (Militarnyi, Defense Express) are only approximate, and I found nothing from the Thai, North Macedonian, Bulgarian or Argentine users before my search limit ran out.

@@ -1,0 +1,75 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: caesar-mkii
+items:
+  - summary: A Ukrainian CAESAR gun commander says the gun is accurate at ranges up to about 40 km and is now used mostly against personnel and drone launch sites. He also says drone activity strongly limits how freely the crew can move, and he prefers CAESAR to the Soviet Akatsiya he crewed before.
+    quote: I liked the new self-propelled howitzer immediately. It is more effective than the Akatsiya.
+    speaker: Ukrainian CAESAR gun commander (senior sergeant, 148th Artillery Brigade)
+    context: Ukrinform interview, 2026; Ukrainian-service CAESAR (earlier Mk I variant, not Mk II)
+    sentiment: positive
+    topics:
+      - firepower
+      - sensors
+      - mobility
+    source:
+      url: https://www.ukrinform.net/rubric-ato/4148713-caesar-gun-commander-names-its-priority-targets-on-front-line.html
+      title: CAESAR gun commander names its priority targets on front line
+      publisher: Ukrinform
+      date: 2026
+      retrieved: 2026-11-22
+  - summary: A senior artillery sergeant calls CAESAR the most effective artillery system he has operated. He compares it with the systems he used before and recalls the gun firing up to 130 shells in daylight hours.
+    quote: The CAESAR self-propelled howitzer is much better to work with.
+    speaker: Ukrainian artillery battery senior sergeant (148th Artillery Brigade, Air Assault Forces)
+    context: Ukrinform interview, 2026; Ukrainian-service CAESAR (earlier Mk I variant)
+    sentiment: positive
+    topics:
+      - firepower
+      - ergonomics
+    source:
+      url: https://www.ukrinform.net/rubric-ato/4177208-we-were-impressed-by-the-caesar-selfpropelled-howitzer-artilleryman-chaika-says.html
+      title: We were impressed by the CAESAR self-propelled howitzer, artilleryman Chaika says
+      publisher: Ukrinform
+      date: 2026
+      retrieved: 2026-11-22
+  - summary: A Ukrainian artillery major describes CAESAR as one of the best self-propelled guns Ukraine has, praising its range, accuracy and mobility. He wishes Ukraine had received more of them earlier in the war.
+    quote: CAESAR is now one of the best self-propelled systems in service with the Armed Forces of Ukraine
+    speaker: Ukrainian artillery major (self-propelled artillery battalion, 148th Artillery Brigade)
+    context: Ukrinform interview as reported by Euromaidan Press, August 2026; earlier Mk I variant
+    sentiment: positive
+    topics:
+      - firepower
+      - mobility
+    source:
+      url: https://euromaidanpress.com/2026/08/17/ukrainian-commander-says-one-french-howitzer-could-have-changed-the-wars-early-months-if-thered-been-more-of-it/
+      title: Ukrainian commander says one French howitzer could have changed the war's early months, if there'd been more of it
+      publisher: Euromaidan Press
+      date: 2026-08-17
+      retrieved: 2026-11-22
+  - summary: Soon after the first CAESARs arrived in Donbas, a Ukrainian soldier said the system was easy to use. He said the biggest problem was the language barrier, because the equipment's interfaces were in English.
+    quote: It's foreign equipment, everything is in English.
+    speaker: Ukrainian artillery soldier
+    context: RFE/RL report from Donbas, June 2022, shortly after the first deliveries; earlier Mk I variant
+    sentiment: mixed
+    topics:
+      - training
+      - ergonomics
+    source:
+      url: https://www.rferl.org/a/ukraine-artillery-french-caesar-howitzer-donbas-russia/31892607.html
+      title: Ukrainian Army Uses New Caesar Long-Range Howitzer Supplied By France
+      publisher: RFE/RL
+      date: 2022-06
+      retrieved: 2026-11-22
+  - summary: The commander of France's 68e RAA says he is satisfied with the regiment's Caesar guns. The regiment is reorganising so that the guns wait concealed between fire missions and rely on mobility to survive drone threats; he says firing from dug-in positions should stay an exception.
+    quote: The essence of the Caesar is to provide survivability through mobility
+    speaker: French artillery regiment commander (colonel, 68e RAA)
+    context: Defense News report on French Army counter-drone reorganisation, September 2026; the article does not say whether these are Mk I or Mk II guns
+    sentiment: positive
+    topics:
+      - protection
+      - mobility
+    source:
+      url: https://www.defensenews.com/global/2026/09/29/french-artillery-regiment-reorganizes-guns-to-survive-drone-threats/
+      title: French artillery regiment reorganizes guns to survive drone threats
+      publisher: Defense News
+      date: 2026-09-29
+      retrieved: 2026-11-22
+note: I found no first-hand user accounts of the Mk II itself, so all items cover earlier CAESAR variants, mostly from Ukrainian crews; one is from a French regiment commander whose guns aren't identified as Mk I or Mk II. The two Ukrinform publication dates are known only to the year (2026), and the RFE/RL date only to the month.

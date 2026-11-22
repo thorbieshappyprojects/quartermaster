@@ -1,0 +1,73 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: tornado-s
+items:
+  - summary: A Tornado-S battery commander in Russia's "West" group of forces says the main gain over the original Smerch is that it can hit point targets instead of only covering areas. He credits the added automated guidance and fire-control system for this. He lists drone control posts, bridges and pontoon crossings as typical targets.
+    quote: Из-за добавления автоматизированной системы наведения и управления огнем мы можем попадать "копейка в копейку". Точность тут феноменальная
+    speaker: Russian rocket artillery battery commander (call sign only)
+    context: Interview filmed in the Kharkiv region during the war in Ukraine, October 2026. Russian MoD footage aired on state broadcaster Zvezda.
+    sentiment: positive
+    topics:
+      - firepower
+      - sensors
+    source:
+      url: https://tvzvezda.ru/news/20261026339-Aw2HV.html
+      title: Командир батареи объяснил снайперскую точность расчета РСЗО «Торнадо-С»
+      publisher: TV Zvezda (Russian MoD broadcaster)
+      date: 2026-10-26
+      retrieved: 2026-11-22
+  - summary: A battery commander in the "North" group of forces says firing at whole areas no longer makes sense because Ukrainian forces keep moving, so the fully automated Tornado-S is now used for precision strikes with guided rockets. A launcher chief in the same unit calls it the most powerful rocket launcher his unit has, and a deputy chief stresses keeping time at the firing position as short as possible.
+    quote: Работать по гектарам сейчас просто неактуально. Противник постоянно перемещается.
+    speaker: Russian rocket artillery battery commander (captain, call sign only), plus launcher crew members
+    context: Field report by a correspondent of the Leningrad Military District newspaper "Na strazhe Rodiny", republished April 2026.
+    sentiment: positive
+    topics:
+      - firepower
+      - mobility
+      - training
+    source:
+      url: https://spbdnevnik.ru/news/2026-04-14/rabotat-po-gektaram-seychas-neaktualno-komandir-batarei-tornado-s-rasskazal-o-tochechnykh-udarakh-po-pozitsiyam-vsu
+      title: "«Работать по гектарам сейчас неактуально»: командир батареи «Торнадо-С» рассказал о точечных ударах по позициям ВСУ"
+      publisher: Peterburgsky Dnevnik (from military district newspaper Na strazhe Rodiny)
+      date: 2026-04-14
+      retrieved: 2026-11-22
+  - summary: A Tornado-S launcher chief says the vehicle's automated control system lets the crew aim the launcher much faster and more accurately than before.
+    quote: На "Торнадо-С" есть АСУ - автоматизированная система управления, что позволяет намного быстрее и точнее наводить машину
+    speaker: Russian Tornado-S launcher chief (first name only)
+    context: Russian MoD combat footage from the war in Ukraine, May 2023, reported by Zvezda.
+    sentiment: positive
+    topics:
+      - sensors
+      - ergonomics
+    source:
+      url: https://tvzvezda.ru/news/2023519856-2qq5n.html
+      title: Расчет РСЗО «Торнадо-С» показал, как уничтожает националистов в зоне спецоперации
+      publisher: TV Zvezda (Russian MoD broadcaster)
+      date: 2023-05-19
+      retrieved: 2026-11-22
+  - summary: A crew commander describing the first reported combat use of rockets that are each given their own aim point says accuracy went up many times over, because each rocket can now be sent to a specific spot.
+    quote: Точность увеличилась в разы, потому что теперь есть возможность направить каждый снаряд в конкретную точку
+    speaker: Russian Tornado-S crew commander
+    context: Russian MoD video released November 2022, reported by Rossiyskaya Gazeta.
+    sentiment: positive
+    topics:
+      - firepower
+    source:
+      url: https://rg.ru/2022/11/21/minoborony-tornado-s-primenili-snariady-individualnogo-navedeniia-v-zone-specoperacii.html
+      title: 'Минобороны: "Торнадо-С" применили снаряды индивидуального наведения в зоне спецоперации'
+      publisher: Rossiyskaya Gazeta
+      date: 2022-11-21
+      retrieved: 2026-11-22
+  - summary: "Earlier variant (9K58 Smerch): a crew commander said crews get a few minutes to prepare and fire, then about two minutes to pack up and leave the position. This shows how much speed matters to survival."
+    speaker: Russian Smerch crew commander
+    context: Smerch, the predecessor system. Russian MoD footage from Ukraine, June 2022, reported by Regnum.
+    sentiment: mixed
+    topics:
+      - mobility
+      - protection
+    source:
+      url: https://regnum.ru/news/3617328
+      title: Минобороны России показало кадры работы РСЗО «Смерч» ВС РФ на Украине
+      publisher: IA Regnum
+      date: 2022
+      retrieved: 2026-11-22
+note: All items come from Russian MoD footage or state-aligned outlets, so they are curated and uniformly favourable. I found no independent crew interviews or trial reports. Items 4 and 5 rest only on search-result excerpts (the tool limit stopped me opening those pages), and the Smerch item's date is approximate.

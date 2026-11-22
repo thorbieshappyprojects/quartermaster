@@ -1,0 +1,67 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: dingo-2
+items:
+  - summary: A German paratrooper squad leader described his first firefight near Isa Khel in March 2010. When the order came to pull back, his squad first caught its breath under the cover of the Dingo vehicles, and he remembered great relief that no one in his group had been hurt. The article does not name the Dingo variant, so it may be an earlier one.
+    quote: "Da war das erste Gefühl: Ich hab’s überlebt, meine Gruppe hat überlebt, keiner ist verletzt."
+    speaker: German Army paratrooper squad leader (Gruppenführer)
+    context: Account of the March 2010 fighting near Isa Khel, Kunduz, Afghanistan, in Y – Das Magazin der Bundeswehr special issue (11/2016). Dingo family; variant not stated.
+    sentiment: positive
+    topics:
+      - protection
+    source:
+      url: https://www.bundeswehr.de/resource/blob/4880204/3c02c620dbece0d86d2afbc5c1092095/y-magazin-spezial-tod-verwundung-2016-data.pdf
+      title: Y – Das Magazin der Bundeswehr, Spezial 11/2016
+      publisher: Bundeswehr (Y – Das Magazin der Bundeswehr)
+      date: 2016-11
+      retrieved: 2026-11-22
+  - summary: A German senior NCO (the magazine changed his name) said his unit was often fired on from villages, and that bullet holes in their Dingo or Fuchs vehicles were often only found after patrols. He also described an RPG that narrowly missed the last Dingo at night, which left the crew confused and briefly thinking it was an IED.
+    quote: ein paar Löcher im Dingo oder Fuchs. Vieles merkte man gar nicht sofort.
+    speaker: German Army paratrooper senior NCO (Hauptfeldwebel; name changed by the publication)
+    context: Interview about a deployment in Afghanistan, in Y – Das Magazin der Bundeswehr special issue (11/2016). Dingo family; variant not stated.
+    sentiment: positive
+    topics:
+      - protection
+    source:
+      url: https://www.bundeswehr.de/resource/blob/4880204/3c02c620dbece0d86d2afbc5c1092095/y-magazin-spezial-tod-verwundung-2016-data.pdf
+      title: Y – Das Magazin der Bundeswehr, Spezial 11/2016
+      publisher: Bundeswehr (Y – Das Magazin der Bundeswehr)
+      date: 2016-11
+      retrieved: 2026-11-22
+  - summary: The head of the Bundeswehr Joint Operations Command briefed the press on a 2010 suicide attack near Pol-e-Khumri. He said steel balls packed into the attacker's vest went through the doors and windows of two Dingos. The number of wounded rose to 14, but all the injuries turned out lighter than first reported.
+    speaker: Lt Gen Rainer Glatz, Commander of the Bundeswehr Joint Operations Command, Germany (public official)
+    context: Press conference with the German defence minister after the 7 October 2010 attack in Baghlan province, Afghanistan, reported by Augen geradeaus! Dingo family; variant not stated.
+    sentiment: negative
+    topics:
+      - protection
+    source:
+      url: https://augengeradeaus.net/2010/10/rc-n-watch-durch-die-dingo-tur/
+      title: "RC N Watch: Durch die Dingo-Tür"
+      publisher: Augen geradeaus! (T. Wiegold)
+      date: 2010-10-08
+      retrieved: 2026-11-22
+  - summary: The Belgian Ministry of Defence said the eight soldiers in a Dingo II that hit a pressure-triggered IED in Mali survived only because of the vehicle's protection. Three had light wounds. The vehicle was destroyed, and the charge was later estimated at about 30 kg. After a short hospital stay, all the soldiers asked to stay with the mission.
+    speaker: Belgian Ministry of Defence (operator), statement and press conference
+    context: IED strike on the lead vehicle of a MINUSMA convoy from Tessit to Gao, Mali, on 1 January 2020, reported by Augen geradeaus!
+    sentiment: positive
+    topics:
+      - protection
+    source:
+      url: https://augengeradeaus.net/2020/01/ied-anschlag-auf-belgischen-dingo-in-mali-die-bilder/
+      title: "IED-Anschlag auf belgischen Dingo in Mali: Die Bilder (Nachtrag: Details)"
+      publisher: Augen geradeaus! (T. Wiegold)
+      date: 2020-01-13
+      retrieved: 2026-11-22
+  - summary: An Austrian enthusiast site summarises the Bundeswehr's KFOR troop trials with the Dingo 1. The Unimog base first struggled with the extra weight and the vehicle tended to tip, and two rollovers while swerving off unpaved road edges led to changes in the suspension tuning. The occupants had only minor injuries. The site says Austrian experience in Afghanistan in 2005 matched the German findings.
+    speaker: German KFOR trial units and Austrian ISAF contingent (as summarised by a secondary site)
+    context: Dingo 1 troop trials in Kosovo, about 2000–2002, and the Austrian Dingo 2 deployment to Afghanistan in 2005. This is a second-hand summary, not a direct interview.
+    sentiment: mixed
+    topics:
+      - mobility
+      - protection
+    source:
+      url: https://doppeladler.com/oebh/dingo.htm
+      title: Allschutz-Transportfahrzeug Dingo 2
+      publisher: Doppeladler.com
+      date: unknown
+      retrieved: 2026-11-22
+note: All five items come from Germany's Afghanistan years (mostly the Dingo 1 or an unnamed variant) and Belgium's Dingo II in Mali; I found no first-hand accounts that name the Dingo 2 A4.1 or come from Ukrainian, Czech, Norwegian or Luxembourg crews, and my searches were cut short by a tool limit, so the Ukrainian side and parliamentary (Wehrbeauftragter) reports were not checked.

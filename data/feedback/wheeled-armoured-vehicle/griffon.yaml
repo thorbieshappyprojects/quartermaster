@@ -1,0 +1,69 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: griffon
+items:
+  - summary: Two senior corporals who were experienced VBCI drivers tested the Griffon early on and wrote about it in the French infantry magazine Fantassins. Defence blog Zone Militaire reported that the vehicle made a very good first impression on them.
+    speaker: French Army infantry vehicle drivers (corporals-chief, former VBCI drivers)
+    context: Early user trials after the first Griffons were delivered in 2019; their account was published in Fantassins and summarised by Zone Militaire
+    sentiment: positive
+    topics:
+      - mobility
+      - ergonomics
+    source:
+      url: https://www.opex360.com/2019/12/09/scorpion-le-vehicule-blinde-griffon-a-fait-une-tres-bonne-impression-aupres-de-ses-premiers-utilisateurs/
+      title: "SCORPION : Le véhicule blindé Griffon a fait une très bonne impression auprès de ses premiers utilisateurs"
+      publisher: Zone Militaire (opex360.com)
+      date: 2019-12-09
+      retrieved: 2026-11-22
+  - summary: A junior soldier training on the Griffon said the cabin felt very different from older vehicles, especially in how much space it offers.
+    quote: l'intérieur change beaucoup, l'espace aussi.
+    speaker: French Army private first class (soldat de 1re classe)
+    context: Training course on the new vehicle during the Griffon's early introduction into service
+    sentiment: positive
+    topics:
+      - ergonomics
+      - training
+    source:
+      url: https://www.milinfo.org/article-attribution-du-marche-engin-blinde-multi-roles-scorpion-a-nexter-rtd-et-thales-125415753.html
+      title: 'Véhicules&matériels : le VBMR "Griffon"'
+      publisher: Milinfo
+      date: unknown
+      retrieved: 2026-11-22
+  - summary: Zone Militaire reported that all the early lessons-learned reports on the Griffon had been very positive after testing in Africa. Users especially noted how easy it is to handle, even though it weighs 24.5 tonnes and is very large.
+    speaker: French Army units testing the Griffon (lessons-learned reports, as reported by the outlet)
+    context: First tests in African conditions (Djibouti) in 2020, before the vehicle was deployed to Mali
+    sentiment: positive
+    topics:
+      - mobility
+    source:
+      url: https://www.opex360.com/2020/09/25/armee-de-terre-le-nouveau-blinde-griffon-a-decouvert-lafrique/
+      title: "Armée de Terre : Le nouveau blindé Griffon a découvert l'Afrique"
+      publisher: Zone Militaire (opex360.com)
+      date: 2020-09-25
+      retrieved: 2026-11-22
+  - summary: Before his battlegroup's Griffons deployed to Mali, the commanding officer said there would inevitably be small things to fix or repair. He added that the vehicle had been tested intensively since it entered service. This summary is based on how Ouest-France reported his remarks.
+    speaker: French commanding officer of the 3e RIMa / desert battlegroup (GTD) Korrigan
+    context: Before the battlegroup's 2021 Operation Barkhane deployment in Mali, the first operational use of the Griffon
+    sentiment: mixed
+    topics:
+      - reliability
+      - maintenance
+    source:
+      url: https://www.ouest-france.fr/monde/mali/mali-le-groupement-tactique-korrigan-va-entrer-dans-la-legende-au-sahel-b72a1788-1c56-11ec-8571-c38f4674d541
+      title: Mali. Le groupement tactique Korrigan va entrer dans la légende au Sahel
+      publisher: Ouest-France
+      date: 2021
+      retrieved: 2026-11-22
+  - summary: Zone Militaire reported that the Griffon cost about 2.4 times as much to maintain as the VAB it replaces, at least for now. It also said the lessons learned from its use in the Sahel showed a clear operational gain over the VAB.
+    speaker: French Army lessons-learned reports from the Sahel and maintenance cost data, as reported in parliamentary-budget coverage
+    context: Review of Griffon support costs in October 2022, after its use on Operation Barkhane
+    sentiment: mixed
+    topics:
+      - cost
+      - maintenance
+    source:
+      url: https://www.opex360.com/2022/10/25/pour-le-moment-le-cout-dentretien-des-blindes-griffon-est-24-fois-plus-eleve-que-celui-des-vab/
+      title: Pour le moment, le coût d'entretien des blindés Griffon est 2,4 fois plus élevé que celui des VAB
+      publisher: Zone Militaire (opex360.com)
+      date: 2022-10-25
+      retrieved: 2026-11-22
+note: I hit the tool limit before I could open any of these articles, so every item is based only on search-result snippets and some of the voices are paraphrased by the outlets; Milinfo's publication date and the exact day of the Ouest-France article are not confirmed; I also saw one more French piece (Lignes de défense, 'Les marsouins de Vannes plébiscitent leurs blindés Griffon') that I couldn't check; I found nothing first-hand from Belgian or Luxembourg users.

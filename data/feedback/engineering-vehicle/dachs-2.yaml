@@ -1,0 +1,18 @@
+# User feedback researched 2026-11-22. Summaries in own words; quotes are short excerpts with their source.
+id: dachs-2
+items:
+  - summary: In Canadian coverage of the new Leopard 2-based armoured engineer vehicle, a Canadian Army source compared it with the Badger it replaced. They said the new vehicle digs and bulldozes much faster, which suggests crews found the Leopard 1-based Badger limited in earthmoving speed compared with the newer platform.
+    quote: The dozing rate is far greater than that of the old Badger and the digging rate with the excavator is also far greater.
+    speaker: Canadian Army engineer (exact role not confirmed from the excerpt available)
+    context: Canadian Army comparing the outgoing Badger AEV with its Leopard 2 AEV replacement, around 2018
+    sentiment: mixed
+    topics:
+      - mobility
+      - sensors
+    source:
+      url: https://www.espritdecorps.ca/army-articles/new-leopard-2-armoured-engineer-vehicle-is-the-natural-evolution
+      title: New Leopard 2 Armoured Engineer Vehicle Is 'The Natural Evolution'
+      publisher: Esprit de Corps
+      date: 2018
+      retrieved: 2026-11-22
+note: "Only one usable item: the tool limit ran out before any pages could be opened, so this rests on a search-result excerpt and the speaker's role and exact date are unconfirmed. The 'sensors' tag is a loose fit, as the item is really about earthmoving and excavator performance. Bundeswehr articles, Canadian lessons-learned material from Afghanistan and the Ukraine delivery news found in search showed no clear crew statements in their excerpts."
