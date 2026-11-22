@@ -1,0 +1,25 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "ah-64e-apache"
+items:
+  - summary: "South Carolina Army National Guard AH-64E crews flying the V6 software used the radar, electro-optical sensors, Link 16, missiles, guided rockets and the 30 mm cannon against target drones. The Army's new-equipment training lead reported 13 kills in 14 engagements, and a standardisation pilot said Link 16 let the Apache act as a mobile air-defence platform."
+    quote: "With Link 16 integration, it demonstrated it can operate as a true mobile air defense platform"
+    speaker: "US Army state standardization pilot and Apache new-equipment training team manager (United States)"
+    context: "Live-fire counter-drone exercise Operation Flyswatter at MCAS New River, North Carolina, reported November 2025"
+    sentiment: "positive"
+    topics: ["sensors", "firepower"]
+    source: { url: "https://www.twz.com/air/u-s-army-ah-64e-apaches-counter-drone-capability-rapidly-matures", title: "U.S. Army AH-64E Apache's Counter-Drone Capability Rapidly Matures", publisher: "The War Zone", date: "2025-11-30", retrieved: "2026-11-22" }
+  - summary: "AH-64E crews of the 2-159th Attack Battalion shot down target drones with the 30 mm cannon over Grafenwoehr, cued by a ground radar, with one crew downing all four drones on a single flight. The crews said jet-powered Shahed variants are much faster than the Apache and therefore out of reach, and that training rounds made the task harder than a combat load would."
+    quote: "It's really the speed that's a factor for us,"
+    speaker: "US Army Apache battalion master gunner (United States)"
+    context: "Counter-drone exercise Skyfall II in Germany, October 2026; the article draws on the Army's DVIDS account and New York Times reporting"
+    sentiment: "mixed"
+    topics: ["firepower", "mobility"]
+    source: { url: "https://dronexl.co/2026/10/26/army-apaches-shahed-drones-skyfall-ii-germany/", title: "Army Apaches Shoot Down Drones in Skyfall II Exercise in Germany", publisher: "DroneXL", date: "2026-10-26", retrieved: "2026-11-22" }
+  - summary: "Two former US Army Apache pilots, each with about ten years on the type, judged the UAE footage of Apaches downing Iranian drones authentic and praised the crews' skill. One stressed that the 30 mm cannon was built for ground targets and fires slowly, so such engagements depend on ground-attack style tactics."
+    quote: "It is not designed for air-to-air engagements."
+    speaker: "Former US Army AH-64 pilots (United States)"
+    context: "Task & Purpose interview, March 2026, about AH-64 counter-drone engagements; the pilots flew earlier Apache models and commented on another operator's AH-64s"
+    sentiment: "mixed"
+    topics: ["firepower", "training"]
+    source: { url: "https://taskandpurpose.com/tech-tactics/us-apache-pilots-drones/", title: "US Apache pilots explain how helicopters are shooting down Iranian drones", publisher: "Task & Purpose", date: "2026-03-11", retrieved: "2026-11-22" }
+note: "Coverage is mostly about the new counter-drone role in US Army exercises; US Army and British Army pages with pilot comments could not be opened (network errors), and UK, Indian, Polish and Australian crew voices were not checked further."

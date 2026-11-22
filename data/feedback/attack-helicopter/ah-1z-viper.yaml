@@ -1,0 +1,11 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "ah-1z-viper"
+items:
+  - summary: "The commanding officer of HMLA-267 said the Viper's biggest gain over the AH-1W Super Cobra is its sensors, which let crews see three to four times farther and identify targets better. His squadron was taking the AH-1Z on its first forward deployment to the Asia-Pacific region."
+    quote: "The biggest difference in capability between the AH-1Z and the AH-1W is our ability to see three to four times farther out"
+    speaker: "Commanding officer, Marine Light Attack Helicopter Squadron 267 (United States)"
+    context: "HMLA-267 deployment to Okinawa, November 2016; US Marine Corps release on DVIDS"
+    sentiment: "positive"
+    topics: ["sensors"]
+    source: { url: "https://www.dvidshub.net/news/215499/stingers-move-hmla-267-deploys-okinawa", title: "Stingers on the move: HMLA-267 deploys to Okinawa", publisher: "DVIDS (US Marine Corps)", date: "2016-11-22", retrieved: "2026-11-22" }
+note: "Only one first-hand item could be verified: Marine Corps pages with further pilot comments could not be opened (network errors), and the session's search budget ran out before Czech, Bahraini or Nigerian user sources were checked."
