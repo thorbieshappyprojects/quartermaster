@@ -1,0 +1,44 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: f-16-block-70
+items:
+  - summary: The commander of Slovakia's F-16 squadron said the F-16 Block 70 gives capabilities the MiG-29 never could, pointing to its modern radar, self-protection and new weapons. He said full pilot training, including day and night air refuelling, moved Slovak training into a different league.
+    speaker: Commander of the Slovak Air Force F-16 squadron (Slovakia)
+    context: Arrival of the first Slovak F-16 Block 70 jets, July 2024 (Slovak-language report)
+    sentiment: positive
+    topics:
+      - sensors
+      - training
+    source:
+      url: https://sita.sk/lietadla-mig-29-a-f-16-sa-podla-velitela-slovenskej-letky-nedaju-porovnavat-videofoto/
+      title: Lietadlá MiG-29 a F-16 sa podľa veliteľa slovenskej letky nedajú porovnávať
+      publisher: SITA
+      date: 2024-07-23
+      retrieved: 2026-11-22
+  - summary: In the first interview the Ukrainian Air Force released with one of its F-16 pilots, he said more than 80 percent of launched missiles hit their targets, mostly drones and cruise missiles. He added that the jets cannot get close enough to destroy Russian bombers launching glide bombs.
+    quote: Almost every missile hits its target
+    speaker: Ukrainian Air Force F-16 pilot (Ukraine)
+    context: Earlier variant (donated F-16AM/BM MLU, not Block 70). Interview released by the Ukrainian Air Force, March 2025
+    sentiment: mixed
+    topics:
+      - firepower
+    source:
+      url: https://www.kyivpost.com/post/49663
+      title: ‘Almost Every Missile Hits Its Target’ – Air Force Releases First Interview With F-16 Pilot
+      publisher: Kyiv Post
+      date: 2025-03-27
+      retrieved: 2026-11-22
+  - summary: A Ukrainian F-16 pilot said the tactics taught in Western training were based on partners' past wars and did not fit the war against Russia, so crews developed their own methods, including flying low to avoid surface-to-air missiles.
+    quote: The tactics we were taught were not entirely suitable for the war we are fighting.
+    speaker: Ukrainian Air Force F-16 pilot (Ukraine)
+    context: Earlier variant (donated F-16AM/BM MLU, not Block 70). Video released by the Ukrainian Air Force, around January 2026
+    sentiment: mixed
+    topics:
+      - training
+      - protection
+    source:
+      url: https://www.kyivpost.com/amp/post/67505
+      title: Ukrainian F-16 Pilots Rewrite Tactics as Western Training Falls Short at Front
+      publisher: Kyiv Post
+      date: "2026"
+      retrieved: 2026-11-22
+note: Little first-hand reporting on the Block 70 itself (one Slovak commander); two items cover combat use of earlier F-16 variants in Ukraine; Taiwanese, Bulgarian and Bahraini user voices were not found.

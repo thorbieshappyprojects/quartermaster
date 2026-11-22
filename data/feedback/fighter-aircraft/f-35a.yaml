@@ -1,0 +1,59 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: f-35a
+items:
+  - summary: At the F-35A's first Red Flag exercise, the commander of the 34th Fighter Squadron said the biggest takeaway was much greater situational awareness from sensor fusion and data links. The jets kept a mission-capable rate above 90 percent over the two weeks.
+    quote: makes us exponentially more survivable
+    speaker: Commander, 34th Fighter Squadron, US Air Force (United States)
+    context: Red Flag 17-1, Nellis AFB, early 2017
+    sentiment: positive
+    topics:
+      - sensors
+      - protection
+      - reliability
+    source:
+      url: https://www.airandspaceforces.com/F-35As-Score-High-Marks-in-First-Red-Flag
+      title: F-35As Score High Marks in First Red Flag
+      publisher: Air & Space Forces Magazine
+      date: 2017-02-14
+      retrieved: 2026-11-22
+  - summary: "A 2016 survey of 31 experienced US Air Force F-35A pilots found sensor fusion was not yet fully optimised: most pilots complained of 'ghosts', several displayed contacts for the same threat."
+    speaker: US Air Force F-35A pilots, survey group (United States)
+    context: Early operational testing period, 2016; findings seen in the search result summary of the article
+    sentiment: mixed
+    topics:
+      - sensors
+    source:
+      url: https://www.dailysignal.com/2016/08/05/9-insights-on-the-f-35a-from-31-experienced-fighter-pilots/
+      title: 9 Insights on the F-35A From 31 Experienced Fighter Pilots
+      publisher: The Daily Signal
+      date: 2016-08-05
+      retrieved: 2026-11-22
+  - summary: Users of the ALIS logistics system at all five F-35 sites GAO visited said the electronic parts records were often wrong, so the system could flag a jet for grounding even when personnel knew the parts were safe, forcing manual workarounds.
+    quote: electronic records of F-35 parts in ALIS are frequently incorrect, corrupt, or missing
+    speaker: F-35 maintainers and ALIS users at US sites, as reported by GAO (United States)
+    context: GAO testimony on F-35 sustainment, 2020
+    sentiment: negative
+    topics:
+      - maintenance
+      - logistics
+    source:
+      url: https://gao.gov/products/gao-20-665t
+      title: "F-35 Sustainment: DOD Needs to Address Key Uncertainties as It Re-Designs the Aircraft's Logistics System"
+      publisher: US Government Accountability Office
+      date: 2020-07-22
+      retrieved: 2026-11-22
+  - summary: F-35 maintainers told GAO they mostly learned to fix the jet on the job and often depend on contractor staff, with one group saying it had so little technical data that it did not fully understand the aircraft.
+    quote: they do not fully understand the aircraft or how to troubleshoot common problems
+    speaker: US military F-35 maintainers, as reported by GAO (United States)
+    context: GAO report on contractor-led F-35 maintenance, 2023
+    sentiment: negative
+    topics:
+      - maintenance
+      - training
+    source:
+      url: https://www.militarytimes.com/air/2023/09/22/gao-blasts-contractor-led-f-35-maintenance-as-costly-slow
+      title: GAO blasts contractor-led F-35 maintenance as costly, slow
+      publisher: Military Times
+      date: 2023-09-22
+      retrieved: 2026-11-22
+note: US pilot and maintainer voices only (pilots praise situational awareness, maintainers criticise data and support); no European or Israeli operator interviews were found, and manufacturer test-pilot pieces were left out.

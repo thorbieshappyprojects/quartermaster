@@ -1,0 +1,33 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: rafale-f4
+items:
+  - summary: A former French Navy Rafale M pilot who flew combat over northern Iraq in 2016 praised the jet's responsiveness, omnirole flexibility, radar and electronic warfare suite. He said the engines never give enough power and the cabin is very noisy, mainly from the environmental control system.
+    quote: The worst thing would be the noise. Pretty noisy aircraft.
+    speaker: Former French Navy Rafale M pilot (France)
+    context: Earlier standard (Rafale M before F4). Carrier operations and combat over Iraq, 2016
+    sentiment: mixed
+    topics:
+      - ergonomics
+      - sensors
+      - mobility
+    source:
+      url: https://hushkit.net/2019/11/11/flying-fighting-the-dassault-rafale-interview-with-a-rafale-combat-veteran/
+      title: "Flying & fighting in the Dassault Rafale: Interview with a Rafale combat veteran"
+      publisher: Hush-Kit
+      date: 2019-11-11
+      retrieved: 2026-11-22
+  - summary: A former French Air Force Rafale pilot said the twin engines let the jet regain energy quickly after hard turns, and that it can switch between air-to-ground and air-to-air missions in flight without losing the prepared data.
+    quote: You lose thrust when you pull a turn but with the Rafale you regain it really fast.
+    speaker: Former French Air Force Rafale pilot (France)
+    context: Earlier standards (before F4); explainer article with pilot comments, 2022
+    sentiment: positive
+    topics:
+      - mobility
+      - ergonomics
+    source:
+      url: https://www.popsci.com/military/french-rafale-aircraft-explained/
+      title: The Rafale fighter jet is a warplane with a ‘French touch’
+      publisher: Popular Science
+      date: 2022-03-07
+      retrieved: 2026-11-22
+note: No first-hand crew feedback on the F4 standard was found; both items are from pilots of earlier Rafale standards, and Indian, Greek and Egyptian user voices were not checked.

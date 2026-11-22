@@ -1,0 +1,16 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: j-20
+items:
+  - summary: State media (PLA Daily) reported that a junior J-20 pilot with about 100 hours on type claimed 17 simulated kills without being hit in a training exercise; SCMP relayed the claim, which cannot be checked independently.
+    speaker: Junior PLA Air Force J-20 pilot, as reported by state media (China)
+    context: State-media claim (PLA Daily) relayed by the South China Morning Post amid Taiwan tensions; details seen in the search result summary only
+    sentiment: positive
+    topics:
+      - training
+    source:
+      url: https://www.scmp.com/news/china/military/article/3101662/china-air-force-plays-j-20-stealth-strength-taiwan-tensions
+      title: "(exact title not seen) SCMP article on the J-20 and Taiwan tensions"
+      publisher: South China Morning Post
+      date: unknown
+      retrieved: 2026-11-22
+note: No independent first-hand user reporting exists; the only item is a state-media claim relayed by an independent outlet, and other pilot interviews found came straight from Chinese state media and were left out.

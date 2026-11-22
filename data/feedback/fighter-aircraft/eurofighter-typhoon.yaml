@@ -1,0 +1,46 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: eurofighter-typhoon
+items:
+  - summary: An RAF Typhoon FGR4 pilot named the jet's specific excess power and its carefree, limiter-protected handling as its best features, and the helmet-mounted symbology, which lets him cue the targeting pod by looking at a target, as his favourite system. His main complaint was how fast the jet burns fuel in reheat.
+    quote: The best thing about the Typhoon is it’s Specific Excess Power (SEP)
+    speaker: RAF Typhoon FGR4 pilot (United Kingdom)
+    context: Hush-Kit 'Ask the pilot' interview, 2018
+    sentiment: mixed
+    topics:
+      - mobility
+      - sensors
+    source:
+      url: https://hushkit.net/2018/03/30/ask-the-pilot-raf-eurofighter-typhoon-fgr4/
+      title: "Ask the pilot: RAF Eurofighter Typhoon FGR4"
+      publisher: Hush-Kit
+      date: 2018-03-30
+      retrieved: 2026-11-22
+  - summary: A former RAF Typhoon squadron commander who led his squadron against ISIS said the jets held up very well over a five-month deployment with more than 300 strikes, and that the weapon load let the jet take on any mission. He named the Litening targeting pod as the main limitation, because other systems gave clearer imagery.
+    quote: The jets held up superbly, and over the five months we conducted well over three hundred strikes.
+    speaker: Former RAF Typhoon squadron commander (United Kingdom)
+    context: Interview about the 2015 deployment over Iraq and Syria (Operation Shader)
+    sentiment: positive
+    topics:
+      - reliability
+      - firepower
+      - sensors
+    source:
+      url: https://hushkit.net/2021/12/29/i-took-the-typhoon-to-war-interview-with-wing-commander-raf-mike-sutton/
+      title: "I took the Typhoon to war: Interview with RAF Wing Commander Mike Sutton"
+      publisher: Hush-Kit
+      date: 2021-12-29
+      retrieved: 2026-11-22
+  - summary: The commander of an RAF Typhoon squadron on NATO air policing in Estonia said the squadron scrambled more often there than at home because Russian aircraft were much closer, and that constant training makes the quick reaction alert routine.
+    quote: It's just a step up from business as usual, really, because it's the same thing we train for all the time.
+    speaker: Officer commanding an RAF Typhoon squadron (United Kingdom)
+    context: NATO Baltic Air Policing deployment at Ämari, Estonia, 2023
+    sentiment: positive
+    topics:
+      - training
+    source:
+      url: https://www.forcesnews.com/services/raf/how-raf-typhoon-pilots-defend-skies-near-russia
+      title: RAF intercepts 50 Russian aircraft – about one every three days – on longest Nato policing deployment yet
+      publisher: Forces News
+      date: 2023-08-02
+      retrieved: 2026-11-22
+note: Good first-hand coverage from RAF pilots and commanders (Typhoon FGR4, mixed tranches); no German, Italian or Spanish crew voices and no maintainer accounts were found in the searches made.

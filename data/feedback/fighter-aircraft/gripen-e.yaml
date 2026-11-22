@@ -1,0 +1,32 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: gripen-e
+items:
+  - summary: A Swedish Air Force pilot of the earlier Gripen C/D praised its carefree handling, uncluttered cockpit and quick turnarounds of about 30 minutes, recalling no missions lost to aircraft failure over Libya. He criticised the refuelling-probe position and the lack of a missile approach warner.
+    quote: I would've liked to have a Missile Approach Warner (MAW) in the C/D.
+    speaker: Swedish Air Force Gripen C/D pilot (Sweden)
+    context: Earlier variant (Gripen C/D). Interview including the 2011 Libya deployment
+    sentiment: mixed
+    topics:
+      - mobility
+      - maintenance
+      - ergonomics
+    source:
+      url: https://hushkit.net/2019/04/15/flying-fighting-in-the-gripen-interview-with-a-swedish-air-force-pilot
+      title: "Flying & Fighting in the Gripen: Interview with a Swedish Air Force pilot"
+      publisher: Hush-Kit
+      date: 2019-04-15
+      retrieved: 2026-11-22
+  - summary: The commander of Brazil's 1st Air Defence Group said the F-39E's fused sensor picture helps pilots decide, and that simulator training at home made pilots feel familiar with an unknown area on the type's first international deployment.
+    speaker: Commander, 1st Air Defence Group, Brazilian Air Force (Brazil)
+    context: Exercise SALITRE 2026 in Antofagasta, Chile, the F-39E's first deployment abroad (Portuguese-language report)
+    sentiment: positive
+    topics:
+      - sensors
+      - training
+    source:
+      url: https://olhardigital.com.br/2026/07/14/carros-e-tecnologia/caca-gripen-da-fab-encara-seu-primeiro-desafio-fora-do-pais/
+      title: Caça Gripen da FAB encara seu primeiro desafio fora do país
+      publisher: Olhar Digital
+      date: 2026-07-14
+      retrieved: 2026-11-22
+note: Few independent first-hand Gripen E reports; one Brazilian commander, one manufacturer test pilot, and one Gripen C/D pilot; most other pilot material found was published by the manufacturer and left out.

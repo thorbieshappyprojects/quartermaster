@@ -1,0 +1,17 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: su-35s
+items:
+  - summary: A Russian Su-35 pilot said the air-superiority fighter was flown mainly on strike missions against Ukrainian air-defence radars with anti-radiation missiles in the first weeks of the full-scale invasion, and that ground fire was heavy early on; claims in the same piece about Ukrainian losses are propaganda and left out.
+    speaker: Russian Aerospace Forces Su-35 pilot, as reported by state media (Russia)
+    context: "State-media claim: Russian Ministry of Defence video relayed by Rossiyskaya Gazeta, spring 2022"
+    sentiment: mixed
+    topics:
+      - firepower
+      - protection
+    source:
+      url: https://rg.ru/2022/04/04/letchik-rasskazal-o-netradicionnom-primenenii-su-35-v-hode-specoperacii.html
+      title: Летчик рассказал о нетрадиционном применении Су-35 в ходе спецоперации
+      publisher: Rossiyskaya Gazeta
+      date: 2022-04-04
+      retrieved: 2026-11-22
+note: No independent first-hand user reporting was found; the only item is a Russian state-media account, and available independent analysis comes from opponents and analysts rather than users.
