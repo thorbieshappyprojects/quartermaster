@@ -10,6 +10,7 @@ import { MatchPage } from './ui/Match.tsx';
 import { MapPage } from './ui/MapPage.tsx';
 import { SettingsPage } from './ui/Settings.tsx';
 import { DesignPage } from './ui/DesignPage.tsx';
+import { ComparePage } from './ui/Compare.tsx';
 
 const NAV = [
   { hash: '', label: 'Cards', ico: '🂠' },
@@ -55,6 +56,8 @@ export function App() {
           <MatchPage />
         ) : page === 'map' ? (
           <MapPage id={id} />
+        ) : page === 'compare' ? (
+          <ComparePage />
         ) : page === 'design' ? (
           <DesignPage />
         ) : page === 'settings' ? (

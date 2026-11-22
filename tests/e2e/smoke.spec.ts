@@ -51,3 +51,20 @@ test('browse, flip a card, play a full duel and a flashcard session', async ({ p
   await expect(page.getByText(/Duels: 1 played/)).toBeVisible();
   expect(errors).toEqual([]);
 });
+
+test('compare two cards side by side', async ({ page }) => {
+  await page.goto('/');
+  if (await page.getByTestId('empty-deck').isVisible()) return;
+  await page.getByTestId('open-compare').click();
+  const picker = page.getByTestId('compare-picker');
+  await picker.getByRole('button').nth(0).click();
+  await picker.getByRole('button').nth(1).click();
+  await page.getByTestId('compare-go').click();
+  const table = page.getByTestId('compare-table');
+  await expect(table).toBeVisible();
+  await expect(table.locator('thead th')).toHaveCount(3);
+  // From a card: add to compare
+  await page.goto('/#/card/leopard-2a8');
+  await page.getByTestId('compare-toggle').click();
+  await expect(page.getByTestId('compare-toggle')).toHaveAttribute('aria-pressed', 'true');
+});

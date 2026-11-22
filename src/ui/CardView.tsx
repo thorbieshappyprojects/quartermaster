@@ -7,6 +7,7 @@ import { OperatorMap } from './OperatorMap.tsx';
 import { go } from './router.ts';
 import { CardFrame } from './CardFrame.tsx';
 import { PhotoView } from './PhotoView.tsx';
+import { compareHash, compareIds, MAX_COMPARE, toggleCompare } from './Compare.tsx';
 
 export const FACES = ['Identity', 'Specs', 'Service', 'Business', 'Field', 'Sources'] as const;
 const SENTIMENT: Record<string, string> = { positive: 'positive', mixed: 'mixed', negative: 'critical' };
@@ -335,6 +336,20 @@ export function CardPage({ id }: { id: string }) {
       <div class="spread">
         <a href="#/">← Cards</a>
         <span class="row">
+          <button
+            class={`btn${compareIds.value.includes(card.id) ? ' primary' : ''}`}
+            aria-pressed={compareIds.value.includes(card.id)}
+            disabled={!compareIds.value.includes(card.id) && compareIds.value.length >= MAX_COMPARE}
+            onClick={() => toggleCompare(card.id)}
+            data-testid="compare-toggle"
+          >
+            {compareIds.value.includes(card.id) ? '✓ Compare' : '+ Compare'}
+          </button>
+          {compareIds.value.length >= 2 && (
+            <a class="btn" href={compareHash()}>
+              Compare {compareIds.value.length}
+            </a>
+          )}
           <a class="btn" href={`#/card/${prev.id}`} aria-label="Previous card">↑ Prev</a>
           <a class="btn" href={`#/card/${next.id}`} aria-label="Next card">Next ↓</a>
         </span>

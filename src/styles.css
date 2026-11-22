@@ -177,6 +177,21 @@ input[type='search'], select {
 .kv dt { color: var(--muted); }
 .kv dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
 
+/* compare */
+.compare-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.compare { border-collapse: separate; border-spacing: 0; width: 100%; min-width: calc(6.5rem + var(--cols, 2) * 7.5rem); font-variant-numeric: tabular-nums; font-size: 0.9rem; }
+.compare th, .compare td { padding: 7px 8px; border-bottom: 1px solid var(--line); text-align: right; vertical-align: top; }
+.compare thead th { vertical-align: bottom; text-align: left; position: relative; min-width: 7.5rem; }
+.compare .rowhead { position: sticky; left: 0; z-index: 1; background: var(--surface); text-align: left; font-weight: 500; color: var(--muted); min-width: 6.5rem; max-width: 8rem; box-shadow: 1px 0 0 var(--line); }
+.compare td.best { color: var(--win); font-weight: 700; background: color-mix(in srgb, var(--win) 12%, transparent); }
+.compare-card { display: flex; flex-direction: column; gap: 2px; text-decoration: none; color: inherit; }
+.compare-card .sil-window { padding: 4% 6%; }
+.code-sm { font-size: 0.7rem; font-weight: 800; color: var(--muted); }
+.btn-x { position: absolute; top: 4px; right: 4px; border: 0; background: var(--surface-2); color: var(--muted); border-radius: 999px; width: 26px; height: 26px; cursor: pointer; }
+.compare-bar { position: sticky; bottom: 76px; display: flex; gap: 8px; align-items: center; justify-content: flex-end; padding: 10px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+.compare-bar span { margin-right: auto; color: var(--muted); }
+@media (min-width: 760px) { .compare-bar { bottom: 12px; } }
+
 /* photos */
 .photo { margin: 0 0 4px; }
 .photo-frame { position: relative; border-radius: 10px; overflow: hidden; background: var(--surface-2); aspect-ratio: 3 / 2; }
