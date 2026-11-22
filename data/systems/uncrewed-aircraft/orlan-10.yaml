@@ -1,0 +1,75 @@
+id: orlan-10
+category: uncrewed-aircraft
+name: Orlan-10
+variant_note: Baseline Russian military Orlan-10 reconnaissance/EW configuration (export version Orlan-10E)
+family: Orlan
+aliases: [Орлан-10, Orlan-10E]
+manufacturer: { name: Special Technology Center (STC) }
+production_sites:
+  - { place: Saint Petersburg, country: RU, source: s3 }
+origin: RU
+role: Small catapult-launched tactical UAV for reconnaissance, artillery fire adjustment and electronic warfare such as GSM jamming.
+memorable_fact: { text: "In 2024 its chief designer said STC was building more than a thousand Orlan-10s a year, three to four times its 2021 output.", source: s1 }
+status: in_production
+in_service_since:
+  value: 2010
+  source: s8
+  confidence: low
+  note: "Base system. ALSSA (US joint centre) says it entered Russian Army service in 2010. Airforce Technology says production began in 2010. Other secondary sources give 2011, so the year is uncertain."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public total for the whole production run. In February 2024 STC's chief designer told TASS (s1) that it builds over 1,000 Orlan-10s a year. A pre-2022 cumulative figure appears only on Wikipedia and was not checked against the original source."
+combat_use: { text: "Used by Russian forces in the Syrian civil war and widely in the war in Ukraine. In May 2022 the Russian MoD showed strike-capable versions in use there.", source: s3 }
+specs:
+  endurance: { value: 16, source: s1, confidence: medium, note: "16 h flight duration, as given in TASS and Army Recognition descriptions." }
+  max_takeoff_weight:
+    value: 16.5
+    source: s3
+    confidence: low
+    range: { min: 14, max: 18 }
+    note: "Reported figures differ: 14 kg take-off weight (TASS, s1), 16.5 kg maximum take-off weight (Airforce Technology, s3), up to 18 kg (RBC, s12). 16.5 kg is shown because it is the only figure labelled maximum take-off weight. No manufacturer figure was found."
+  payload:
+    value: 5
+    source: s1
+    confidence: medium
+    range: { min: 5, max: 6 }
+    note: "5 kg per TASS (s1). Military Factory (s13) gives 6 kg."
+  service_ceiling: { value: 5000, source: s1, confidence: medium, note: "5,000 m practical ceiling, consistent across TASS, Army Recognition and Airforce Technology." }
+  max_speed: { value: 150, source: s1, confidence: medium, note: "TASS gives a cruising speed of 90-150 km/h. Airforce Technology (s3) gives 150 km/h maximum." }
+  wingspan: { value: 3.1, source: s3, confidence: medium }
+operators:
+  - { country: RU, force: Armed Forces (Ground Forces), state: in_service, quantity: null, source: s2 }
+  - { country: KZ, force: Armed Forces, state: in_service, quantity: null, source: s4 }
+  - { country: UZ, force: Armed Forces, state: in_service, quantity: null, source: s4 }
+  - { country: MM, force: Tatmadaw, state: in_service, quantity: null, source: s10 }
+  - { country: KG, force: State Committee for National Security, state: in_service, quantity: 6, source: s14 }
+cost:
+  value: 100000
+  currency: USD
+  price_year: 2023
+  basis: unit_price
+  source: s11
+  confidence: low
+  range: { min: 87000, max: 120000 }
+  note: "Not a contract figure. US$100,000 per drone is a Ukrainian General Staff figure (May 2023, s11). The range is RUSI's estimated production cost per Orlan-10 (s7). No official Russian unit price or per-unit contract value is public."
+contracts:
+  - { customer: Kazakhstan, year: 2021, quantity: null, value: null, currency: null, note: "Russia's FSVTS said Orlan-10E systems were delivered to Kazakhstan in 2021.", source: s4 }
+  - { customer: Uzbekistan, year: 2021, quantity: null, value: null, currency: null, note: "Russia's FSVTS said Orlan-10E systems were delivered to Uzbekistan in 2021.", source: s4 }
+  - { customer: Export customers (via Rosoboronexport), year: 2021, quantity: 50, value: null, currency: null, note: "Rosoboronexport said it had sold over 50 Orlan-10E drones in total. Customers were not named officially.", source: s9 }
+  - { customer: Kyrgyzstan, year: 2021, quantity: 6, value: null, currency: null, note: "Reported order for 6 Orlan-10E. Found only through Wikipedia; the original Russian trade-press article could not be retrieved.", source: s14 }
+peers: [scaneagle, bayraktar-tb2]
+sources:
+  - { id: s1, url: "https://tass.com/defense/1746679", title: "Russia increases output of Orlan drones several times", publisher: TASS, retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.armyrecognition.com/archives/archives-aerospace-defense/aerospace-defense-2019/new-orlan-10-drones-come-into-service-with-russian-military-base-in-tajikistan", title: "New Orlan-10 drones come into service with Russian military base in Tajikistan", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.airforce-technology.com/projects/orlan-10-unmanned-aerial-vehicle-uav/", title: "Orlan-10 unmanned aerial vehicle (UAV) profile", publisher: Airforce Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://tass.com/defense/1357001", title: "Russia delivers combat aircraft, missile systems to Kazakhstan and Uzbekistan this year", publisher: TASS, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.rusi.org/explore-our-research/publications/special-resources/orlan-complex-tracking-supply-chains-russias-most-successful-uav/interactive-summary", title: "The Orlan Complex: Tracking the Supply Chains of Russia's Most Successful UAV - Interactive Summary", publisher: Royal United Services Institute, retrieved: 2026-11-22, kind: reference }
+  - { id: s8, url: "https://www.alssa.mil/News/Article/3170285/the-use-of-emerging-disruptive-technologies-by-the-russian-armed-forces-in-the/", title: "The Use of Emerging Disruptive Technologies by the Russian Armed Forces in the Ukrainian War", publisher: Air Land Sea Space Application (ALSSA) Center, retrieved: 2026-11-22, kind: government }
+  - { id: s9, url: "https://defensemirror.com/news/30865/Russia_Sold_50_Orlan_10E_Drones_to_International_Customers", title: "Russia Sold 50 Orlan-10E Drones to International Customers", publisher: Defense Mirror, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.eurasiantimes.com/will-russia-be-next-drone-super-power-as-it-starts-exporting-orlan-10e-drones-to-myanmar/", title: "Will Russia Be The Next Drone Super-Power As It Starts Exporting Orlan-10E Drones To Myanmar?", publisher: The EurAsian Times, retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://www.pravda.com.ua/eng/news/2023/05/16/7402408/", title: "Night attack on Ukraine cost Russia at least US$120 million", publisher: Ukrainska Pravda, retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://www.rbc.ru/base/01/08/2025/6888905a9a79476de7d49e53", title: "«Орлан‑10» — российский разведывательный БПЛА с ТТХ, модификациями и задачами", publisher: RBC, retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://www.militaryfactory.com/aircraft/detail.php?aircraft_id=1877", title: "STC Orlan-10 Intelligence-Surveillance-Reconnaissance (ISR) Unmanned Aerial Vehicle (UAV)", publisher: Military Factory, retrieved: 2026-11-22, kind: reference }
+  - { id: s14, url: "https://en.wikipedia.org/wiki/STC_Orlan-10", title: "STC Orlan-10", publisher: Wikipedia, retrieved: 2026-11-22, kind: other }

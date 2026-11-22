@@ -1,0 +1,124 @@
+# Indicators: scripts/research/indicators/uncrewed-aircraft.yaml. Category card researched 2026-11-22.
+id: uncrewed-aircraft
+name: Uncrewed aircraft (MALE and tactical)
+domain: Unmanned systems
+wave: 2
+indicators:
+  - id: endurance
+    label: Endurance
+    unit: h
+    trump: higher_wins
+    decimals: 1
+  - id: max_takeoff_weight
+    label: Max. take-off weight
+    unit: kg
+    trump: higher_wins
+  - id: payload
+    label: Payload
+    unit: kg
+    trump: higher_wins
+  - id: service_ceiling
+    label: Service ceiling
+    unit: m
+    trump: higher_wins
+  - id: max_speed
+    label: Max. speed
+    unit: km/h
+    trump: higher_wins
+  - id: wingspan
+    label: Wingspan
+    unit: m
+    trump: higher_wins
+    decimals: 1
+category_card:
+  summary: Uncrewed aircraft in this category are remotely piloted or partly autonomous fixed-wing and rotary systems. They range from medium-altitude long-endurance (MALE) platforms such as the MQ-9 Reaper, Bayraktar TB2 and Wing Loong II down to tactical systems operated at brigade level and below. They are mainly used for intelligence, surveillance, target acquisition and reconnaissance (ISTAR) and for precision strike. MALE types trade higher cost for endurance, sensor quality and payload, while tactical types give up range and endurance for low cost and availability directly to frontline units.
+  purpose:
+    - text: In the Russia-Ukraine war, both sides have used MALE uncrewed aircraft for ISTAR and strike missions. CEPA assesses that Ukraine has used its systems more extensively and more effectively than Russia.
+      source: s1
+    - text: Typical MALE tasks include spotting and illuminating targets for artillery, long-range maritime ISR, attacking logistics and time-critical targets, and battle damage assessment.
+      source: s1
+    - text: Tactical drones act as artillery spotters, identifying targets and adjusting fire by feeding data into digital battle networks such as Ukraine's Kropyva and Russia's Strelets.
+      source: s4
+  strengths:
+    - text: Medium and large uncrewed aircraft combine advanced sensors, strike capability, endurance, range and payload. The addition of long-range precision munitions is opening up new roles for them.
+      source: s1
+    - text: Compared with crewed aircraft, remotely piloted systems give commanders long time on station with less risk to personnel.
+      source: s2
+    - text: Cheap small uncrewed aircraft have given Ukrainian units down to platoon level persistent tactical ISR. This has improved situational awareness, coordination between units and artillery accuracy.
+      source: s1
+  weaknesses:
+    - text: The current generation of MALE uncrewed aircraft has proven vulnerable when operated within range of ground-based air defence. It is not yet clear how far this threat can be reduced.
+      source: s6
+    - text: The Bayraktar TB2's low speed and large size left it vulnerable to dense air defence and electronic warfare in Ukraine. The Australian Army Research Centre reports that it disappeared from Ukrainian skies from September 2023.
+      source: s5
+    - text: MALE uncrewed aircraft have suffered losses even in semi-permissive settings. TB2 and Wing Loong aircraft had high attrition in Syria and Libya, and Italian and US MQ-9s were downed over Libya between 2019 and 2022.
+      source: s1
+    - text: Remotely piloted systems rely on data links, satellite links and GPS, all of which can be targeted by electronic warfare. Their persistent radio transmissions can also reveal their location to enemy signals reconnaissance.
+      source: s2
+  counters:
+    - text: Surface-to-air missile systems, even those of non-state actors, can threaten MALE aircraft. A growing number of US MQ-9s have been shot down by the Houthis over Yemen since October 2023.
+      source: s7
+    - text: Electronic warfare, such as jamming and spoofing, has been very effective against drones on both sides of the Russia-Ukraine war.
+      source: s3
+    - text: Adversaries can attack other parts of the system instead of the aircraft. Targets include ground control stations, satellite ground segments, personnel, software and microelectronics supply chains, through kinetic, electronic or cyber means.
+      source: s2
+    - text: Air-defence analyses drawing on the Ukraine war recommend making electronic attack available at all echelons. They describe it as the most efficient protection against the threat from uncrewed aircraft.
+      source: s8
+  trends:
+    - text: Russia and Ukraine have moved away from small fleets of costly multi-role drones towards mass production of cheap, expendable designs. A CSIS panellist estimated that in 2024 Ukraine used about 1.5 million and Russia up to 4 million uncrewed aircraft.
+      source: s3
+    - text: To get around jamming, developers are adding AI-based autonomous navigation and automatic target recognition. They are also fielding fibre-optic-controlled drones, which Russia was the first to use at scale.
+      source: s3
+    - text: In Ukraine, MALE drones have largely been confined to surveillance missions such as over the Black Sea. One-way attack drones and loitering munitions such as Lancet and Shahed have taken over much of the tactical strike role.
+      source: s4
+    - text: First-person-view (FPV) and one-way attack drones have become ubiquitous in the Ukraine war. New classes such as drone interceptors are being fielded against Shahed-type attacks.
+      source: s6
+sources:
+  - id: s1
+    url: https://cepa.org/comprehensive-reports/an-urgent-matter-of-drones/
+    title: "An Urgent Matter of Drones: Lessons for NATO from Ukraine"
+    publisher: Center for European Policy Analysis (CEPA)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s2
+    url: https://www.japcc.org/white-papers/remotely-piloted-aircraft-systems-in-contested-environments/
+    title: "Remotely Piloted Aircraft Systems in Contested Environments: A Vulnerability Analysis"
+    publisher: Joint Air Power Competence Centre (JAPCC)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s3
+    url: https://www.csis.org/analysis/russia-ukraine-drone-war-innovation-frontlines-and-beyond
+    title: "The Russia-Ukraine Drone War: Innovation on the Frontlines and Beyond"
+    publisher: Center for Strategic and International Studies (CSIS)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s4
+    url: https://www.hudson.org/missile-defense/impact-drones-battlefield-lessons-russian-ukraine-war-french-perspective-tsiporah-fried
+    title: "The Impact of Drones on the Battlefield: Lessons of the Russia-Ukraine War from a French Perspective"
+    publisher: Hudson Institute
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s5
+    url: https://researchcentre.army.gov.au/library/land-power-forum/how-are-drones-changing-modern-warfare
+    title: How are Drones Changing Modern Warfare? Lessons Learnt from the War in Ukraine
+    publisher: Australian Army Research Centre
+    retrieved: 2026-11-22
+    kind: government
+  - id: s6
+    url: https://www.iiss.org/globalassets/media-library---content--migration/files/publications---free-files/strategic-dossier/uavs-2026/iiss_ch-3-uavs-isr-deterrence-and-war_032026.pdf
+    title: "UAVs: ISR, Deterrence and War (Strategic Dossier), Chapter 3"
+    publisher: International Institute for Strategic Studies (IISS)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s7
+    url: https://www.twz.com/news-features/what-air-defenses-do-the-houthis-in-yemen-actually-have
+    title: What Air Defenses Do The Houthis In Yemen Actually Have?
+    publisher: The War Zone (TWZ)
+    retrieved: 2026-11-22
+    kind: press
+  - id: s8
+    url: https://iamd-coe.org/wp-content/uploads/2024/02/The-Evolving-UAS-Threat-Lessons-from-the-Russian-Ukrainian-War-Since-2022-on-Future-Air-Defence-Challenges-and-Requirements.pdf
+    title: "The Evolving UAS Threat: Lessons from the Russian-Ukrainian War Since 2022 on Future Air Defence Challenges and Requirements"
+    publisher: NATO Integrated Air and Missile Defence Centre of Excellence (IAMD COE)
+    retrieved: 2026-11-22
+    kind: reference

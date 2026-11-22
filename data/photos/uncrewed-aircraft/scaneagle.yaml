@@ -1,0 +1,35 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: scaneagle
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:2021-12-20_ScanEagle_002.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/2021-12-20_ScanEagle_002.jpg/1280px-2021-12-20_ScanEagle_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: 2021-12-20 ScanEagle 002.jpg
+    caption: ScanEagle drone of the Philippine Navy on static display at Camp General Emilio Aguinaldo, Quezon City, 2021.
+    shows: same_family
+    licence: Public domain
+    author: AFP Radio DWDD
+    credit: https://www.facebook.com/dwdd1134/posts/3243771649200642
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Aeronave_ScanEagle_(52199779467).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Aeronave_ScanEagle_%2852199779467%29.jpg/1280px-Aeronave_ScanEagle_%2852199779467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Aeronave ScanEagle (52199779467).jpg
+    caption: ScanEagle aircraft at the activation of the Brazilian 1st Remotely Piloted Aircraft Squadron, 2022.
+    shows: same_family
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    author: Marinha do Brasil
+    credit: Aeronave ScanEagle
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:ScanEagle_UAV_catapult_launcher_2005-04-16.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/ScanEagle_UAV_catapult_launcher_2005-04-16.jpg/1280px-ScanEagle_UAV_catapult_launcher_2005-04-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: ScanEagle UAV catapult launcher 2005-04-16.jpg
+    caption: ScanEagle UAV on its catapult launcher before launch at Al Asad, Iraq, 2005.
+    shows: same_family
+    licence: Public domain
+    author: Gunnery Sergeant Shannon Arledge of the 2nd Marine Aircraft Wing
+    credit: http://www.usmc.mil/marinelink/image1.nsf/Lookup/2005417115454 [1]
+    priority: A
+    retrieved: 2026-11-22
+note: "None of the files is identified as the current 2026 catalogue configuration, so all picks are marked same_family. Excluded: #14 and #15, which are unrelated; #10, which shows the control vehicle rather than the aircraft; #2 and #3, whose descriptions don't clearly say the aircraft is in frame."

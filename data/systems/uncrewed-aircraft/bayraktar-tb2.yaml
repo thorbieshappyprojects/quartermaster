@@ -1,0 +1,50 @@
+id: bayraktar-tb2
+category: uncrewed-aircraft
+name: Bayraktar TB2
+variant_note: Baseline TB2 as listed on Baykar's spec sheet (versions TB2-A to TB2-D)
+family: Bayraktar
+aliases: ["TB2", "Bayraktar TB2 SİHA"]
+manufacturer: { name: Baykar }
+origin: TR
+role: Medium-altitude long-endurance uncrewed aircraft for intelligence, surveillance and reconnaissance, and for precision strike with small guided munitions.
+memorable_fact: { text: "In April 2025 Baykar said the TB2 was the first armed UAV to recover from a spin on its own, after it had already flown an autonomous barrel roll in 2024.", source: s3 }
+status: in_production
+in_service_since: { value: 2014, source: s2, confidence: high, note: "Year the base system entered Turkish Armed Forces service, according to Baykar. Baykar says it was armed the following year." }
+units_built: { value: 580, source: s4, confidence: medium, note: "Whole TB2 family (500 armed and 80 unarmed ISR aircraft) as of the 500th armed TB2 rollout in June 2023. This is a lower bound. Higher totals appear only on secondary sites with no primary source, so they are not used. Baykar has stated a production rate of 250 TB2 a year (s11)." }
+combat_use: { text: "Baykar says the TB2 has been used in combat in Nagorno-Karabakh, Libya, Syria and Ukraine.", source: s1 }
+specs:
+  endurance: { value: 18, source: s1, confidence: high, range: { min: 18, max: 20 }, note: "Baykar's spec table says '18+ hours'. The headline on the same page says '20+ hours in air'. The displayed value is the spec-table figure. Baykar also gives a flight record of 27 h 3 min, which is a record and not a standard endurance figure." }
+  max_takeoff_weight: { value: 700, source: s1, confidence: high }
+  payload: { value: 150, source: s1, confidence: high }
+  service_ceiling: { value: 6096, source: s1, confidence: high, range: { min: 6096, max: 6706 }, note: "Spec table gives a service ceiling of 20,000 ft (6096 m). The headline on the same page gives a maximum altitude of 22,000 ft (6706 m). Operational altitude is 16,000 ft (4877 m)." }
+  max_speed: { value: 203.7, source: s1, confidence: high, note: "Converted from 110 KTAS, the top of the range Baykar quotes (90-110 KTAS)." }
+  wingspan: { value: 12, source: s1, confidence: high }
+operators:
+  - { country: TR, force: "Army, Navy, Gendarmerie", state: in_service, quantity: null, source: s8 }
+  - { country: UA, force: Navy, state: in_service, quantity: null, source: s10 }
+  - { country: PL, force: Armed Forces, state: in_service, quantity: 24, source: s5 }
+  - { country: QA, force: Armed Forces, state: in_service, quantity: 6, source: s6 }
+  - { country: MA, force: Royal Armed Forces, state: in_service, quantity: 13, source: s8 }
+  - { country: KW, force: Ministry of Defense, state: ordered, quantity: null, source: s7 }
+  - { country: RO, force: Armed Forces, state: in_service, quantity: null, source: s9 }
+  - { country: HR, force: Armed Forces, state: in_service, quantity: null, source: s9 }
+  - { country: AL, force: Armed Forces, state: in_service, quantity: null, source: s9 }
+cost: { value: 11.25, currency: USD, price_year: 2021, basis: contract_per_unit, source: s5, confidence: medium, note: "Value in millions of USD. Calculated as Poland's USD 270 million contract for 24 TB2 divided by 24. The contract was signed in 2021 and the last aircraft were delivered in May 2024. The figure includes ground segment and support. Shephard, working from the same contract, gives a gross unit cost of USD 11.17 million and a flyaway cost of USD 8.94 million (s8). Ukraine's 2019 contract works out to USD 11.5 million per aircraft including munitions (s6)." }
+contracts:
+  - { customer: "Ukraine", year: 2019, quantity: 6, value: 69000000, currency: USD, note: "Includes munitions for the armed version.", source: s6 }
+  - { customer: "Poland / Armed Forces", year: 2021, quantity: 24, value: 270000000, currency: USD, note: "Final delivery in May 2024.", source: s5 }
+  - { customer: "Morocco / Royal Armed Forces", year: 2021, quantity: 13, value: 70000000, currency: USD, note: "Signed in April 2021 for MAD 626 million.", source: s8 }
+  - { customer: "Kuwait / Ministry of Defense", year: 2023, quantity: null, value: 370000000, currency: USD, note: "Announced 18 January 2023. Number of aircraft not disclosed.", source: s7 }
+peers: [wing-loong-ii, mq-9a-reaper, heron-tp]
+sources:
+  - { id: s1, url: "https://baykartech.com/en/uav/bayraktar-tb2/", title: "BAYKAR Technology | Bayraktar TB2", publisher: Baykar, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://baykartech.com/en/press/turkiyes-first-indigenous-ucav-bayraktar-tb2-exceeds-1-million-flight-hours/", title: "Türkiye's first indigenous UCAV Bayraktar TB2 exceeds 1 million flight hours", publisher: Baykar, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://baykartech.com/en/press/bayraktar-tb2-breaks-new-ground-once-again/", title: "BAYRAKTAR TB2 BREAKS NEW GROUND ONCE AGAIN", publisher: Baykar, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://turdef.com/article/baykar-produces-the-500th-bayraktar-tb-2-armed-uav", title: "Baykar Produces the 500th Bayraktar TB2 Armed UAV", publisher: TURDEF, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.defensenews.com/unmanned/2024/05/17/poland-receives-final-tb2-drone-delivery-from-turkeys-baykar/", title: "Poland receives final TB2 drone delivery from Turkey's Baykar", publisher: Defense News, retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.defensenews.com/unmanned/2019/01/14/turkish-firm-to-sell-drones-to-ukraine-in-69-million-deal/", title: "Turkish firm to sell drones to Ukraine in $69 million deal", publisher: Defense News, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.defensenews.com/unmanned/2023/01/20/turkish-company-baykar-wins-370-million-drone-contract-from-kuwait/", title: "Turkish company Baykar wins $370 million drone contract from Kuwait", publisher: Defense News, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://plus.shephardmedia.com/detail/bayraktar-tactical-uas/", title: "Bayraktar TB2 - Shephard Defence Insight", publisher: Shephard Media, retrieved: 2026-11-22, kind: reference }
+  - { id: s9, url: "https://euro-sd.com/2025/07/articles/45450/key-programmes-bolster-turkiyes-defence-export-boom/", title: "Key programmes bolster Türkiye's defence-export boom", publisher: European Security & Defence, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://breakingdefense.com/2022/02/ukraines-turkish-made-drones-face-off-against-advanced-russian-military/", title: "Ukraine's Turkish-made drones face off against advanced Russian military", publisher: Breaking Defense, retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://www.atlanticcouncil.org/content-series/ac-turkey-defense-journal/interview-with-haluk-bayraktar/", title: "Q&A with Haluk Bayraktar", publisher: Atlantic Council, retrieved: 2026-11-22, kind: other }

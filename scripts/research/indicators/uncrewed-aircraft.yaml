@@ -1,0 +1,11 @@
+id: uncrewed-aircraft
+name: Uncrewed aircraft (MALE and tactical)
+domain: Unmanned systems
+wave: 2
+indicators:
+  - { id: endurance, label: Endurance, unit: h, trump: higher_wins, decimals: 1 }
+  - { id: max_takeoff_weight, label: Max. take-off weight, unit: kg, trump: higher_wins }
+  - { id: payload, label: Payload, unit: kg, trump: higher_wins }
+  - { id: service_ceiling, label: Service ceiling, unit: m, trump: higher_wins }
+  - { id: max_speed, label: Max. speed, unit: km/h, trump: higher_wins }
+  - { id: wingspan, label: Wingspan, unit: m, trump: higher_wins, decimals: 1 }

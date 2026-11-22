@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: bayraktar-tb2
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:PAF_Bayraktar_TB2_at_Radom-2023.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/e/eb/PAF_Bayraktar_TB2_at_Radom-2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: PAF Bayraktar TB2 at Radom-2023.jpg
+    caption: Polish Air Force Bayraktar TB2, registration 2809, on static display at Radom Air Show, 2023.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:PAF_Bayraktar_TB2_at_NATO_Days_2023.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/e/ed/PAF_Bayraktar_TB2_at_NATO_Days_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: PAF Bayraktar TB2 at NATO Days 2023.jpg
+    caption: Polish Air Force Bayraktar TB2, registration 2809, on static display at NATO Days Ostrava, 2023.
+    shows: exact_variant
+    licence: CC BY-SA 3.0 de
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Bayraktar_TB2_Ground.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bayraktar_TB2_Ground.jpg/1280px-Bayraktar_TB2_Ground.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Bayraktar TB2 Ground.jpg
+    caption: Bayraktar TB2 unmanned aerial vehicle on the ground, 2016.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Bayhaluk
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "I picked three real photos that show the TB2 airframe itself. I skipped the user maps (#3, #4, #6, #7, #8), the information board (#5) and the cafe (#12), and the other Baykar types: Akıncı (#11, #15) and Kızılelma (#14, #16). I also left out #13 because it centres on a Kemankeş munition rather than the aircraft. #1, a runway photo, is a possible alternative; it has a wide crop and minimal description."

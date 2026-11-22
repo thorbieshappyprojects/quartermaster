@@ -1,5 +1,5 @@
 {
-  "spentUsd": 101.1646,
+  "spentUsd": 106.3106,
   "entries": [
     {
       "date": "2026-11-21",
@@ -1943,6 +1943,110 @@
       "usd": 0.0207,
       "input": 3451,
       "output": 346,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "uncrewed-aircraft/_category",
+      "usd": 0.4495,
+      "input": 248402,
+      "output": 7274,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "uncrewed-aircraft/bayraktar-tb2",
+      "usd": 0.5439,
+      "input": 221797,
+      "output": 9211,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "uncrewed-aircraft/mq-9a-reaper",
+      "usd": 0.9257,
+      "input": 788173,
+      "output": 15666,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "uncrewed-aircraft/heron-tp",
+      "usd": 0.4787,
+      "input": 127114,
+      "output": 8622,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "uncrewed-aircraft/wing-loong-ii",
+      "usd": 0.8847,
+      "input": 479323,
+      "output": 18188,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "uncrewed-aircraft/orlan-10",
+      "usd": 0.7798,
+      "input": 478530,
+      "output": 11581,
+      "searches": 13
+    },
+    {
+      "date": "2026-11-22",
+      "item": "uncrewed-aircraft/scaneagle",
+      "usd": 0.9817,
+      "input": 703138,
+      "output": 18353,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/bayraktar-tb2",
+      "usd": 0.0161,
+      "input": 2288,
+      "output": 346,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/heron-tp",
+      "usd": 0.0177,
+      "input": 3117,
+      "output": 261,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/mq-9a-reaper",
+      "usd": 0.0156,
+      "input": 2668,
+      "output": 245,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/orlan-10",
+      "usd": 0.0189,
+      "input": 3449,
+      "output": 254,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/scaneagle",
+      "usd": 0.0173,
+      "input": 2803,
+      "output": 305,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/wing-loong-ii",
+      "usd": 0.0164,
+      "input": 2909,
+      "output": 237,
       "searches": 0
     }
   ]

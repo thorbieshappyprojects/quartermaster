@@ -1,0 +1,40 @@
+id: heron-tp
+category: uncrewed-aircraft
+name: Heron TP
+variant_note: Baseline Heron TP / Eitan as listed in the IAI catalogue (2026 brochure)
+family: Heron
+aliases: [Eitan, Heron 2, German Heron TP]
+manufacturer: { name: Israel Aerospace Industries (IAI) }
+origin: IL
+role: Turboprop medium-altitude long-endurance (MALE) uncrewed aircraft for surveillance and reconnaissance; armed configuration available.
+memorable_fact: { text: "When Germany's parliament approved leasing five Heron TPs in 2018, it put the Bundeswehr on track for its first-ever combat-capable drone, at first without weapons.", source: s4 }
+status: in_service
+in_service_since: { value: 2010, source: s2, confidence: medium, note: "Year of first service of the base system: the Eitan (Heron TP) was reported operational with the Israeli Air Force in February 2010." }
+units_built: { value: null, source: null, confidence: null, note: "No public production total found." }
+specs:
+  endurance: { value: 30, source: s1, confidence: high, range: { min: 30, max: 35 }, note: "IAI brochure states '> 30 hr' (displayed). Defense Industry Daily reports 'over 35 hours'. Both are lower bounds." }
+  max_takeoff_weight: { value: 5670, source: s1, confidence: high }
+  payload: { value: 2700, source: s1, confidence: high, note: "IAI states 'up to 2,700 kg' payload weight." }
+  service_ceiling: { value: 13716, source: s1, confidence: high, note: "IAI states '> 45,000 ft', converted to m; this is a lower bound." }
+  max_speed: { value: 407, source: s1, confidence: high, note: "IAI states 220 KTAS; converted to km/h (407.4) and rounded." }
+  wingspan: { value: 26, source: s1, confidence: high }
+operators:
+  - { country: IL, force: Air Force, state: in_service, quantity: null, source: s2 }
+  - { country: DE, force: Air Force, state: in_service, quantity: 5, source: s3 }
+  - { country: DE, force: Air Force, state: ordered, quantity: 3, source: s7 }
+  - { country: IN, force: Army, state: in_service, quantity: 4, source: s6 }
+cost: { value: 50000000, currency: USD, price_year: 2021, basis: contract_per_unit, source: s5, confidence: low, note: "Indian Army emergency lease of four Heron TPs for about USD 200 million (3 years, with an option for 2 more) divided by 4. This is a lease that includes services, not a purchase price." }
+contracts:
+  - { customer: Germany / Bundeswehr, year: 2018, quantity: 5, value: 1000000000, currency: USD, note: "Lease of five Heron TPs approved by parliament in June 2018. Airbus is prime contractor for operation and support; the value is the approximate ('roughly $1 billion') programme spending authorisation reported before approval.", source: s4 }
+  - { customer: India / Army, year: 2021, quantity: 4, value: 200000000, currency: USD, note: "Emergency-procurement lease, about USD 200 million, 3 years with an option to extend by 2 years.", source: s5 }
+  - { customer: Germany / Air Force, year: 2025, quantity: 3, value: null, currency: null, note: "Planned purchase of three more German Heron TPs, in addition to the five leased ones.", source: s7 }
+peers: [mq-9a-reaper, wing-loong-ii]
+sources:
+  - { id: s1, url: "https://www.iai.co.il/wp-content/uploads/2026/04/MALAT-HERON_TP-_1.26.pdf", title: "HERON TP - Multi-Role Male UAS", publisher: Israel Aerospace Industries, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://defenceweb.co.za/aerospace/aerospace-aerospace/eitan-uav-joins-israeli-air-force/", title: "Eitan UAV joins Israeli Air Force", publisher: defenceWeb, retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.defensenews.com/unmanned/2018/06/14/german-lawmakers-approve-drone-deal-with-israel/", title: "German lawmakers approve drone deal with Israel", publisher: Defense News, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.defensenews.com/unmanned/2018/05/31/berlin-nears-its-first-ever-combat-drone-minus-the-weapons/", title: "Berlin nears its first-ever combat drone", publisher: Defense News, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.shephardmedia.com/news/uv-online/premium-heron-tps-swoop-indian-lease/", title: "Heron TPs swoop into Indian lease", publisher: Shephard Media, retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.shephardmedia.com/news/uv-online/iai-deepens-indian-ties-with-elcom-to-support-uav-fleets/", title: "IAI deepens Indian ties with Elcom to support UAV fleets", publisher: Shephard Media, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.hartpunkt.de/luftwaffe-beschafft-drei-weitere-drohnen-des-typs-german-heron-tp/", title: "Luftwaffe beschafft drei weitere Drohnen des Typs German Heron TP", publisher: hartpunkt, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.defenseindustrydaily.com/israel-sells-heron-uavs-to-india-01476/", title: "Israel Sells Heron UAVs to India, Leases to Germany Imminent, Signs contract with Vietnam", publisher: Defense Industry Daily, retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,60 @@
+id: wing-loong-ii
+category: uncrewed-aircraft
+name: Wing Loong II
+variant_note: Export-standard Wing Loong II airframe; the PLAAF operates a domestic version
+family: Wing Loong
+aliases: [Wing Loong 2, Pterodactyl II, WL-2, GJ-2]
+manufacturer: { name: Aviation Industry Corporation of China (AVIC) – Chengdu Aircraft Design and Research Institute / AVIC UAS }
+production_sites:
+  - { place: Chengdu, country: CN, source: s5 }
+origin: CN
+role: Medium-altitude long-endurance uncrewed aircraft for reconnaissance and precision strike, carrying weapons on six underwing hardpoints.
+memorable_fact: { text: "When it first flew in February 2017, its chief designer called the Wing Loong II China's equivalent of the US MQ-9 Reaper.", source: s3 }
+status: in_production
+in_service_since: { value: 2018, source: s4, confidence: medium, note: "Year the Wing Loong II entered PLA Air Force service (reported November 2018). First flight was in February 2017 (s3)." }
+units_built: { value: 50, source: s5, confidence: medium, note: "Lower bound: in January 2021 AVIC announced it had delivered the 50th Wing Loong II. No later total is public." }
+combat_use: { text: "A BBC investigation found that a UAE-controlled Wing Loong II fired the Blue Arrow 7 missile in the January 2020 strike on a military academy in Tripoli, Libya, which killed 26 cadets.", source: s9 }
+specs:
+  endurance: { value: 31, source: s7, confidence: medium, range: { min: 20, max: 32 }, note: "Value shown is the Nigerian Air Force figure: 31 h in ISR mode, 26 h in strike role. AVIC was reported as listing 20 h (s2, s3). Army Recognition gives 32 h (s1)." }
+  max_takeoff_weight: { value: 4200, source: s2, confidence: medium, note: "4,200 kg as stated by AVIC and reported by FlightGlobal. Army Recognition gives the same figure (s1)." }
+  payload: { value: 480, source: s1, confidence: low, range: { min: 400, max: 480 }, note: "480 kg of external stores on six hardpoints (up to 12 guided bombs or missiles). The same source also gives 400 kg as maximum payload, and The Diplomat gives 400 kg (s6)." }
+  service_ceiling: { value: 9000, source: s2, confidence: medium, range: { min: 9000, max: 9900 }, note: "9,000 m maximum altitude as listed by AVIC (s2). Xinhua, via UPI, gives more than 29,500 ft (s3). Army Recognition gives 9,900 m (s1)." }
+  max_speed: { value: 370, source: s1, confidence: medium, range: { min: 340, max: 370 }, note: "370 km/h per Army Recognition. Xinhua, via UPI, gave 'about 211 mph' (~340 km/h) (s3)." }
+  wingspan: { value: 20.5, source: s1, confidence: medium, range: { min: 20.0, max: 20.5 }, note: "20.5 m per Army Recognition and The Diplomat (s4). UPI gives 65.6 ft (20.0 m) (s3). A 14 m figure in FlightGlobal (s2) appears to be an error and is not used." }
+operators:
+  - { country: CN, force: PLA Air Force, state: in_service, quantity: null, source: s4 }
+  - { country: CN, force: China Coast Guard, state: in_service, quantity: null, source: s1 }
+  - { country: AE, force: Air Force, state: in_service, quantity: null, source: s10 }
+  - { country: SA, force: Armed Forces, state: in_service, quantity: null, source: s11 }
+  - { country: PK, force: Air Force, state: in_service, quantity: null, source: s11 }
+  - { country: NG, force: Air Force, state: in_service, quantity: null, source: s8 }
+  - { country: MA, force: Royal Armed Forces, state: in_service, quantity: null, source: s12 }
+  - { country: DZ, force: Armed Forces, state: in_service, quantity: null, source: s13 }
+cost:
+  value: null
+  currency: null
+  price_year: null
+  basis: null
+  source: null
+  confidence: null
+  note: "No contract value or manufacturer unit price is public. The only figure found is an unattributed press estimate of about USD 1-2 million per unit, repeated by The Diplomat in 2018. It is not used because no single value is supported."
+contracts:
+  - { customer: Pakistan / Air Force, year: 2018, quantity: 48, value: null, currency: null, note: "Agreement for AVIC and Pakistan Aeronautical Complex to co-produce 48 Wing Loong II; value not disclosed.", source: s6 }
+  - { customer: Nigeria / Air Force, year: 2020, quantity: 8, value: null, currency: null, note: "Eight ordered; the first two were delivered on 11 November 2020. The year shown is the first delivery, as the order date was not published.", source: s8 }
+  - { customer: Algeria, year: 2021, quantity: 24, value: null, currency: null, note: "24 ordered in September 2021; deliveries were delayed and the first batch was seen in 2022.", source: s13 }
+  - { customer: United Arab Emirates, year: 2017, quantity: 15, value: null, currency: null, note: "Arms registry seen by the BBC lists 15 Wing Loong drones and 350 Blue Arrow 7 missiles bought in 2017. The variant is not specified.", source: s9 }
+peers: [mq-9a-reaper, bayraktar-tb2, heron-tp]
+sources:
+  - { id: s1, url: "https://www.armyrecognition.com/military-products/army/unmanned-systems/unmanned-aerial-vehicles/wing-loong-ii-2-uav-male-armed-drone-data-pictures-video-11906174", title: "Wing Loong 2 UAV MALE", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.flightglobal.com/singapore-avic-displays-wing-loong-i-ii-models-in-show-debuts/126951.article", title: "SINGAPORE: AVIC displays Wing Loong I, II models in show debuts", publisher: FlightGlobal, retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.upi.com/Defense-News/2017/02/28/Chinese-drone-Wing-Loong-II-conducts-maiden-flight/2881488295445/", title: "Chinese drone Wing-Loong II conducts maiden flight", publisher: UPI, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://thediplomat.com/2018/11/strike-capable-wing-loong-ii-drone-enters-service-with-chinas-plaaf/", title: "Strike-Capable Wing Loong II Drone Enters Service With China's PLAAF", publisher: The Diplomat, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.armyrecognition.com/archives/archives-aerospace-defense/aerospace-defense-2021/chinese-avic-company-delivers-50th-wing-loong-ii-male-drone", title: "Chinese AVIC company delivers 50th Wing Loong II MALE drone", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://thediplomat.com/2018/10/china-pakistan-to-co-produce-48-strike-capable-wing-loong-ii-drones/", title: "China, Pakistan to Co-Produce 48 Strike-Capable Wing Loong II Drones", publisher: The Diplomat, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.janes.com/defence-intelligence-insights/defence-news/nigeria-receives-wing-loong-ii-uavs-from-china", title: "Nigeria receives Wing Loong II UAVs from China", publisher: Janes, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.scramble.nl/military-news/wing-loong-ii-delivered-to-nigeria", title: "Wing Loong II delivered to Nigeria", publisher: Scramble, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.middleeasteye.net/news/uae-libya-war-drone-strike", title: "UAE involved in drone strike that killed 26 Libyan cadets: Report", publisher: Middle East Eye, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://thediplomat.com/2018/01/is-the-uae-secretly-buying-chinese-killer-drones/", title: "Is the UAE Secretly Buying Chinese Killer Drones?", publisher: The Diplomat, retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://www.eurasiantimes.com/iran-downs-chinese-wing-loong-ii-over-shiraz/", title: "Iran Downs Chinese Wing Loong II Over Shiraz: OSINT Debunks MQ-9 Claim, Points to Saudi/UAE Role", publisher: The EurAsian Times, retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://www.atalayar.com/en/articulo/politics/morocco-starts-using-chinese-drones-in-laayoune/20231002122114191742.html", title: "Morocco starts using Chinese drones in Laayoune", publisher: Atalayar, retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://en.hespress.com/66569-algeria-tests-chinese-wing-loong-ii-drones-as-morocco-eyes-similar-deal.html", title: "Algeria tests Chinese Wing Loong II drones as Morocco eyes similar deal", publisher: Hespress English, retrieved: 2026-11-22, kind: press }

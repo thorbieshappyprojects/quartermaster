@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: wing-loong-ii
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Wing_Loong_II_side_view.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Wing_Loong_II_side_view.jpg/1280px-Wing_Loong_II_side_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Wing Loong II side view.jpg
+    caption: Side view of a Wing Loong II unmanned aerial vehicle at the Dubai Air Show, 2017.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Mztourist
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:%D0%A3%D0%B4%D0%B0%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%91%D0%9F%D0%9B%D0%90_Wing_Loong_II_-_%D0%9C%D0%90%D0%9A%D0%A1-2017_02.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%D0%A3%D0%B4%D0%B0%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%91%D0%9F%D0%9B%D0%90_Wing_Loong_II_-_%D0%9C%D0%90%D0%9A%D0%A1-2017_02.jpg/1280px-%D0%A3%D0%B4%D0%B0%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%91%D0%9F%D0%9B%D0%90_Wing_Loong_II_-_%D0%9C%D0%90%D0%9A%D0%A1-2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Ударный китайский БПЛА Wing Loong II - МАКС-2017 02.jpg
+    caption: Chinese Wing Loong II strike UAV on display at the MAKS-2017 air show.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Vitaly V. Kuzmin
+    credit: http://www.vitalykuzmin.net/Military/MAKS-2017-StaticDisplaysPart2
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:2025-02-26_PLA_GJ-2_(Chengdu_Wing_Loong_2).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/2025-02-26_PLA_GJ-2_%28Chengdu_Wing_Loong_2%29.jpg/1280px-2025-02-26_PLA_GJ-2_%28Chengdu_Wing_Loong_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: 2025-02-26 PLA GJ-2 (Chengdu Wing Loong 2).jpg
+    caption: PLA GJ-2 drone, the domestic version of the Wing Loong II, 2025.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Japan Ministry of Defense / Japan Air Self Defense Force
+    credit: https://www.mod.go.jp/js/pdf/2025/p20250226_01.pdf
+    priority: A
+    retrieved: 2026-11-22
+note: "Excluded restaurant food photos, Pterodactyl Ascender ultralights, and generic Wing Loong (I) images. #2 and #4 are also valid alternates."

@@ -1,0 +1,97 @@
+id: mq-9a-reaper
+category: uncrewed-aircraft
+name: "MQ-9A Reaper Block 5"
+variant_note: "Block 5 configuration, standard wing (no Extended Range kit)"
+family: "MQ-9 Reaper / Predator B"
+aliases: ["Predator B", "MQ-9 Reaper", "Reaper"]
+manufacturer: { name: "General Atomics Aeronautical Systems, Inc. (GA-ASI)" }
+origin: US
+role: "Medium-altitude, long-endurance remotely piloted aircraft for intelligence, surveillance and reconnaissance and for precision strike."
+memorable_fact: { text: "The US Air Force and Royal Air Force named the MQ-9A 'Reaper', but the name is now widely used for any armed Predator B.", source: s1 }
+status: in_production
+in_service_since:
+  value: 2007
+  source: s3
+  confidence: high
+  note: "Year of the base system, not of Block 5: the US Air Force fact sheet gives initial operating capability as October 2007. The RAF also put Reaper into service in October 2007 (s7)."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No exact total from a manufacturer or government source was found. The only public figures were a lower bound for US Air Force deliveries (more than 300 by 2021) and an unsourced Wikipedia total, so no value is recorded."
+combat_use: { text: "From 2007 the RAF flew Reaper on combat operations in Afghanistan, then over Iraq and Syria against Daesh (Operation Shader). Across 18 years of service the RAF fleet logged more than 173,000 flying hours.", source: s7 }
+specs:
+  endurance:
+    value: 26
+    source: s2
+    confidence: high
+    range: { min: 26, max: 27 }
+    note: "26 h is from the GA-ASI Block 5 data sheet. The GA-ASI product page says 'over 27 hours' (s1) and NAVAIR gives 27 h (s4). The data sheet lists 34 h with Extended Range fuel pods and 40+ h with the Extended Range big-wing kit."
+  max_takeoff_weight:
+    value: 4763
+    source: s2
+    confidence: high
+    range: { min: 4760, max: 4763 }
+    note: "Original figure 10,500 lb (4,763 kg) on the GA-ASI data sheet and NAVAIR page (s4). The US Air Force fact sheet rounds 10,500 lb to 4,760 kg (s3). The Extended Range big-wing kit raises this to 5,307 kg."
+  payload:
+    value: 2087
+    source: s2
+    confidence: high
+    range: { min: 1701, max: 2087 }
+    note: "Sum of the Block 5 data sheet figures: 850 lb (386 kg) internal plus 3,750 lb (1,701 kg) external. The US Air Force fact sheet gives 3,750 lb (1,701 kg) (s3). NAVAIR lists 386 kg internal plus 1,361 kg external (s4)."
+  service_ceiling:
+    value: 13716
+    source: s2
+    confidence: medium
+    range: { min: 13716, max: 15240 }
+    note: "Block 5 data sheet gives 45,000 ft (13,716 m). The US Air Force fact sheet (s3), NAVAIR (s4) and the GA-ASI product page (s1) give up to 50,000 ft (15,240 m). The French Air and Space Force gives 14,000 m (s6). The Block 5 manufacturer figure is displayed."
+  max_speed:
+    value: 444
+    source: s2
+    confidence: high
+    note: "Converted from 240 KTAS (444.5 km/h). The US Air Force gives a cruise speed of about 200 kt (s3)."
+  wingspan:
+    value: 20.1
+    source: s3
+    confidence: high
+    range: { min: 20, max: 20.1 }
+    note: "66 ft. The US Air Force (s3) and French Air and Space Force (s6) give 20.1 m. The GA-ASI data sheet rounds to 20 m. The Extended Range big-wing kit gives 79 ft (24 m) (s2)."
+operators:
+  - { country: US, force: "Air Force", state: in_service, quantity: 135, source: s8, note: "Operational fleet reported in trade press in 2026, after Block 1 aircraft began to be retired; the Air Force had more than 300 in 2021." }
+  - { country: US, force: "Marine Corps", state: in_service, quantity: null, source: s5, note: "Block 5 Extended Range; final aircraft delivered June 2025." }
+  - { country: US, force: "Department of Homeland Security (Customs and Border Protection)", state: in_service, quantity: null, source: s1, note: "Unarmed Predator B; listed by GA-ASI as a customer." }
+  - { country: GB, force: "Royal Air Force", state: retired, quantity: null, source: s7, note: "Retired in 2025 after 18 years; replaced by the MQ-9B Protector." }
+  - { country: FR, force: "Air and Space Force", state: in_service, quantity: null, source: s6, note: "Operated to the Block 5 Extended Range standard since 19 December 2024." }
+  - { country: IT, force: "Air Force", state: in_service, quantity: 5, source: s13, note: "Five original aircraft in inventory in 2024, being upgraded to Block 5." }
+  - { country: IT, force: "Air Force", state: ordered, quantity: 2, source: s14, note: "Two new Block 5 aircraft ordered September 2026." }
+  - { country: ES, force: "Air and Space Force", state: in_service, quantity: null, source: s10, note: "Four aircraft delivered by November 2020 under the 2015 Foreign Military Sale; two more ordered in 2019 (s12). Current fleet total not confirmed." }
+  - { country: NL, force: "Air and Space Force", state: in_service, quantity: 8, source: s9, note: "Total order after the 2023 increase from four to eight aircraft." }
+cost:
+  value: 14125000
+  currency: USD
+  price_year: 2021
+  basis: contract_per_unit
+  source: s4
+  confidence: medium
+  note: "Not a single contract. NAVAIR gives a FY2021 unit cost of USD 56.5 million for a system of four aircraft with sensors, a ground control station and a satellite link; divided by four, this is about USD 14.1 million per aircraft including a share of ground equipment. The 2015 US Air Force fact sheet gives USD 64.2 million (FY2006 dollars) for a comparable four-aircraft system (s3)."
+contracts:
+  - { customer: "Spain / Air and Space Force", year: 2015, quantity: 4, value: 243000000, currency: USD, note: "Estimated value of the Foreign Military Sale approved by the US State Department, including equipment, parts and logistics support; deliveries completed November 2020.", source: s11 }
+  - { customer: "Spain / Air and Space Force", year: 2019, quantity: 2, value: 34000000, currency: USD, note: "Two Block 5 aircraft bought through Foreign Military Sales, with associated equipment.", source: s12 }
+  - { customer: "Italy / Air Force", year: 2024, quantity: 6, value: 738000000, currency: USD, note: "Estimated value of the Foreign Military Sale package approved in August 2024 for up to six Block 5 aircraft and support. Two new aircraft were ordered in September 2026.", source: s14 }
+  - { customer: "Netherlands / Air and Space Force", year: 2023, quantity: 4, value: null, currency: null, note: "Order raised from four to eight aircraft through Foreign Military Sales.", source: s9 }
+peers: [heron-tp, wing-loong-ii, bayraktar-tb2]
+sources:
+  - { id: s1, url: "https://www.ga-asi.com/remotely-piloted-aircraft/mq-9a", title: "MQ-9A Reaper (Predator B)", publisher: "General Atomics Aeronautical Systems Inc.", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.ga-asi.com/images/products/aircraft_systems/pdf/2509_MQ-9A-BLK-5_E.pdf", title: "MQ-9A Block 5 Remotely Piloted Aircraft data sheet", publisher: "General Atomics Aeronautical Systems Inc.", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.afsoc.af.mil/About-Us/Fact-Sheets/Display/Article/2547323/mq-9-reaper/", title: "MQ-9 Reaper fact sheet", publisher: "US Air Force, Air Force Special Operations Command", retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.navair.navy.mil/product/MQ-9A-Reaper", title: "MQ-9A Reaper", publisher: "Naval Air Systems Command (NAVAIR)", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.navair.navy.mil/news/US-Marine-Corps-receives-final-MQ-9A-Reaper-concluding-rapid-delivery-effort/Thu-06052025-1205", title: "U.S. Marine Corps receives final MQ-9A Reaper, concluding rapid delivery effort", publisher: "Naval Air Systems Command (NAVAIR)", retrieved: 2026-11-22, kind: government }
+  - { id: s6, url: "https://www.defense.gouv.fr/air/nos-aeronefs/nos-drones/mq-9-reaper", title: "MQ-9 Reaper", publisher: "Ministère des Armées (Armée de l'Air et de l'Espace)", retrieved: 2026-11-22, kind: government }
+  - { id: s7, url: "https://www.raf.mod.uk/news/articles/raf-reaper-makes-final-flight/", title: "RAF Reaper Makes Final Flight", publisher: "Royal Air Force", retrieved: 2026-11-22, kind: government }
+  - { id: s8, url: "https://www.sandboxx.us/news/air-forces-mq-9-reaper-fleet-has-dwindled-so-the-service-is-looking-to-quickly-fill-the-gaps/", title: "Air Force's MQ-9 Reaper fleet has dwindled, and the service is now looking to quickly fill the gaps", publisher: "Sandboxx News", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.ga-asi.com/netherlands-increases-order-of-mq-9a-from-ga-asi", title: "Netherlands Increases Order of MQ-9A from GA-ASI", publisher: "General Atomics Aeronautical Systems Inc.", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s10, url: "https://www.ga.com/ga-asi-delivers-final-mq-9a-block-5-rpa-to-spain", title: "GA-ASI Delivers Final MQ-9A Block 5 RPA to Spain", publisher: "General Atomics", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s11, url: "https://www.defensenews.com/pentagon/2015/10/06/state-department-oks-spain-buying-mq-9-reaper-drones/", title: "State Department OKs Spain Buying MQ-9 Reaper Drones", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://www.flightglobal.com/civil-uavs/spain-buys-two-mq-9-block-5-reaper-drones/132079.article", title: "Spain buys two MQ-9 Block 5 Reaper drones", publisher: "FlightGlobal", retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://euro-sd.com/2024/08/major-news/39878/italy-cleared-for-more-mq-9s/", title: "US State Department clears Italy to buy more MQ-9 Reaper UAVs", publisher: "European Security & Defence", retrieved: 2026-11-22, kind: press }
+  - { id: s14, url: "https://www.airforce-technology.com/news/italy-mq-9a-order/", title: "Italian Air Force orders two MQ-9A Block 5 Reaper drones", publisher: "Airforce Technology", retrieved: 2026-11-22, kind: press }

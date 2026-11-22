@@ -1,0 +1,55 @@
+id: scaneagle
+category: uncrewed-aircraft
+name: ScanEagle
+variant_note: Current Insitu catalogue configuration (2026 product page)
+family: ScanEagle
+aliases: [MQ-27A, MQ-27B, MQ-27 ScanEagle]
+manufacturer: { name: "Insitu (Boeing subsidiary)" }
+origin: US
+role: "Small, catapult- or VTOL-launched long-endurance fixed-wing UAS for land and shipborne intelligence, surveillance, reconnaissance and targeting."
+memorable_fact: { text: "ScanEagle was developed from Insitu's SeaScan, a commercial drone first built to help fishermen spot tuna; it is recovered by catching a hanging rope with a wingtip hook.", source: s6 }
+status: in_production
+in_service_since: { value: 2004, source: s8, confidence: high, note: "Base system: US Marine Corps first deployed ScanEagle in July 2004; US Navy service followed in 2005 (s2). The current catalogue configuration has no separately published service-entry date." }
+units_built: { value: 1400, source: s4, confidence: medium, note: "Whole family, all versions. Insitu said in May 2012 that it had produced 1,400 ScanEagle aircraft; no newer public total was found, so the current total is higher." }
+combat_use: { text: "Used by US Marine Corps and US Navy units in Iraq (from 2004) and Afghanistan, and in maritime operations in the Arabian Sea; the US supplied ScanEagles to Ukraine from 2022 to help with artillery targeting.", source: s2 }
+specs:
+  endurance: { value: 18, source: s1, confidence: high, range: { min: 18, max: 20 }, note: "Insitu states 18 h ('18+ hours'). The US Navy fact file gives '20+ hrs' for the older, lighter Navy configuration (s2)." }
+  max_takeoff_weight: { value: 28, source: s1, confidence: high, range: { min: 22, max: 28 }, note: "Insitu: 62 lb / 28 kg. The US Navy fact file gives 48.5 lb (22.0 kg) for the earlier configuration (s2)." }
+  payload: { value: 8, source: s1, confidence: high, note: "Original figure 17 lb / 8 kg maximum payload weight." }
+  service_ceiling: { value: 5950, source: s1, confidence: high, range: { min: 5950, max: 6035 }, note: "Insitu: 19,500 ft / 5,950 m. The US Navy fact file gives 19,800 ft (about 6,035 m) (s2)." }
+  max_speed: { value: 148, source: s1, confidence: high, note: "Converted from 80 knots (41.2 m/s) = 148.2 km/h. The US Navy fact file also gives 80 kt as the top of its 47-80 kt range (s2)." }
+  wingspan: { value: 3.1, source: s1, confidence: high, range: { min: 3.05, max: 3.1 }, note: "Insitu: 10.2 ft / 3.1 m. The US Navy fact file gives a rounded 10 ft (3.05 m) (s2)." }
+operators:
+  - { country: US, force: Navy, state: in_service, quantity: null, source: s2 }
+  - { country: US, force: Marine Corps, state: in_service, quantity: null, source: s3 }
+  - { country: AU, force: Navy, state: in_service, quantity: null, source: s11 }
+  - { country: IT, force: Navy, state: in_service, quantity: null, source: s6 }
+  - { country: BR, force: Navy, state: in_service, quantity: null, source: s14 }
+  - { country: LB, force: Air Force, state: in_service, quantity: 6, source: s12 }
+  - { country: MY, force: Navy, state: in_service, quantity: null, source: s15 }
+  - { country: ID, force: Unspecified, state: ordered, quantity: 8, source: s5 }
+  - { country: PH, force: Unspecified, state: ordered, quantity: 8, source: s5 }
+  - { country: VN, force: Unspecified, state: ordered, quantity: 6, source: s5 }
+  - { country: UA, force: Armed Forces, state: in_service, quantity: 15, source: s7 }
+  - { country: NL, force: Army, state: retired, quantity: 7, source: s10 }
+cost: { value: 1410000, currency: USD, price_year: 2019, basis: contract_per_unit, source: s5, confidence: medium, range: { min: 875000, max: 1410000 }, note: "USD 47.9 million FMS contract (announced 31 May 2019) for 34 ScanEagle air vehicles for Malaysia, Indonesia, the Philippines and Vietnam, divided by 34 (about USD 1.41 million). The source does not say what else the contract covers. The low end of the range comes from Insitu/Army Recognition: a full four-aircraft system cost an estimated USD 3.2 million in 2006 and USD 3.5 million in 2013 (s6), or about USD 0.8-0.9 million per aircraft on a different basis." }
+contracts:
+  - { customer: US Marine Corps, year: 2004, quantity: 16, value: null, currency: null, note: "Two mobile ScanEagle deployment units of eight ScanEagle A air vehicles each, contracted July 2004.", source: s3 }
+  - { customer: "Malaysia, Indonesia, Philippines, Vietnam (US FMS)", year: 2019, quantity: 34, value: 47900000, currency: USD, note: "Split 12 / 8 / 8 / 6 air vehicles respectively.", source: s5 }
+  - { customer: "Ukraine (US security assistance)", year: 2022, quantity: 15, value: null, currency: null, note: "Part of the USD 775 million aid package of August 2022; no separate ScanEagle value published.", source: s7 }
+  - { customer: "Italy / Navy", year: 2025, quantity: 2, value: 19500000, currency: EUR, note: "Two complete ScanEagle systems (not individual aircraft) for FREMM-class frigates, authorised 1 April 2025 via an FMS purchase order; total estimated acquisition cost.", source: s6 }
+peers: [orlan-10, bayraktar-tb2]
+sources:
+  - { id: s1, url: "https://www.insitu.com/products/scaneagle", title: "ScanEagle - Insitu", publisher: "Insitu", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2160330/close-range-uas/", title: "Close Range UAS > United States Navy > Display-FactFiles", publisher: "United States Navy", retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.designation-systems.net/dusrm/app2/q-27.html", title: "Boeing/Insitu MQ-27 ScanEagle", publisher: "Designation-Systems.net (Andreas Parsch)", retrieved: 2026-11-22, kind: reference }
+  - { id: s4, url: "https://www.suasnews.com/2012/05/scaneagle-unmanned-aircraft-system-exceeds-600000-flight-hours/", title: "ScanEagle Unmanned Aircraft System Exceeds 600,000 Flight Hours", publisher: "sUAS News", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.defensenews.com/unmanned/2019/06/05/these-us-partners-in-the-asia-pacific-are-to-receive-scaneagle-drones/", title: "These US partners in the Asia-Pacific are to receive ScanEagle drones", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.insitu.com/news/italian-navy-to-equip-fremm-class-frigates-with-scaneagle", title: "Italian Navy to equip FREMM-class frigates with US-made ScanEagle UAVs to enhance intelligence mission capabilities.", publisher: "Insitu (republishing Army Recognition)", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s7, url: "https://www.defensenews.com/pentagon/2022/08/19/seek-and-destroy-new-us-aid-to-ukraine-targets-russian-artillery/", title: "'Seek and destroy': New US aid to Ukraine targets Russian artillery", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.2ndmaw.marines.mil/News/Article-View/Article/522492/scaneagle-patrols-iraqvmu-2-deploys-unmanned-system/", title: "ScanEagle patrols Iraq: VMU-2 deploys unmanned system", publisher: "2nd Marine Aircraft Wing, US Marine Corps", retrieved: 2026-11-22, kind: government }
+  - { id: s10, url: "https://www.nmm.nl/nl/collectie/deelcollecties-en-publicaties/eyes-on-target-de-scaneagle-komt-naar-het-nmm/", title: "Eyes on Target! De ScanEagle is gearriveerd", publisher: "Nationaal Militair Museum (Netherlands)", retrieved: 2026-11-22, kind: government }
+  - { id: s11, url: "https://maritime-executive.com/article/pictures-royal-australian-navy-s-scaneagle", title: "Pictures: Royal Australian Navy's ScanEagle", publisher: "The Maritime Executive", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://thedefensepost.com/2019/04/04/lebanon-scan-eagle-drone-us/", title: "Lebanon receives 6 Scan Eagle drone systems from US", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s14, url: "https://www.insitu.com/news/brazilian-navy-deploys-scaneagle-and-npa-babitonga-in-exercise", title: "Brazilian Navy deploys 'ScanEagle' and NPA 'Babitonga' in exercise", publisher: "Insitu", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s15, url: "https://hoodtechvision.com/company/news/article/united-states-delivers-six-scaneagle-uavs-unmanned-aerial-vehicles-to-malaysian-navy/", title: "United States delivers six ScanEagle UAVs Unmanned Aerial Vehicles to Malaysian Navy", publisher: "Hood Tech Vision", retrieved: 2026-11-22, kind: other }
