@@ -1,0 +1,83 @@
+id: bm-30-smerch
+category: rocket-artillery
+name: "9A52-2 Smerch"
+variant_note: "9A52-2 launcher on MAZ-543M chassis (Smerch-M standard, upgraded 1998-99)"
+family: "9K58 Smerch"
+aliases: ["BM-30 Smerch", "9K58 Smerch", "9A52-2 Smerch-M", "BM-30M", "MRL 280mm M1983"]
+manufacturer: { name: "NPO Splav" }
+production_sites:
+  - { place: "Tula", country: RU, source: s3 }
+  - { place: "Perm", country: RU, source: s8 }
+origin: RU
+role: "Heavy 300 mm self-propelled 12-tube multiple rocket launcher for long-range fire against troop concentrations, artillery, command posts and depots."
+memorable_fact: { text: "One launcher fires all 12 rockets in 38 seconds, and a salvo with cluster-warhead rockets covers about 672,000 square metres.", source: s5 }
+status: in_service
+in_service_since:
+  value: 1989
+  source: s1
+  confidence: medium
+  range: { min: 1988, max: 1989 }
+  note: "Year of first service of the base 9K58 system, not of the 9A52-2 upgrade. FAS gives 1989 as the date of introduction; Army Technology and FAS (9K58 page) say it entered Russian Army service in 1988. The 9A52-2 combat vehicle was upgraded in 1998-99 (s5)."
+units_built: { value: null, source: null, confidence: null, note: "No public production total found for the 9A52/9A52-2 family." }
+combat_use: { text: "Used in Chechnya, Syria, Ukraine (including the war since 2022) and the 2020 Nagorno-Karabakh war, where Armenia and Azerbaijan both fired Smerch rockets.", source: s6 }
+specs:
+  rockets_per_launcher: { value: 12, source: s5, confidence: medium, note: "Twelve 300 mm launch tubes; same figure in s1 and s4." }
+  max_range:
+    value: 120
+    source: s6
+    confidence: medium
+    range: { min: 90, max: 120 }
+    note: "120 km with the 9M542 rocket (GLONASS-guided, per s3 and s6), also given as the 9A52-2 firing range by Army Technology (s3). The export catalogue (s5) lists 70/90 km for the standard 9M55/9M528 flight-corrected rockets. Tornado-S family rockets with longer range are not counted here."
+  reload_time:
+    value: 20
+    source: s5
+    confidence: medium
+    range: { min: 20, max: 36 }
+    note: "Catalogue: launcher loading 'up to 20' min using the 9T234-2 transloader; Army Recognition (s6) also gives about 20 min. FAS (s1) and Army Technology (s3) give 36 min as the minimum reload time."
+  combat_weight: { value: 43.7, source: s5, confidence: medium, note: "Catalogue gives 43,700 kg; FAS (s1) and Army Recognition (s4) also give 43.7 t." }
+  crew:
+    value: 3
+    source: s5
+    confidence: medium
+    range: { min: 3, max: 4 }
+    note: "Catalogue and Army Recognition (s4) give 3 for the upgraded 9A52-2. FAS (s1) and Army Technology (s3) give 4."
+operators:
+  - { country: RU, force: "Ground Forces", state: in_service, quantity: 50, source: s11 }
+  - { country: UA, force: "Ground Forces", state: in_service, quantity: 40, source: s11 }
+  - { country: BY, force: "Army", state: in_service, quantity: 36, source: s11 }
+  - { country: AZ, force: "Army", state: in_service, quantity: 50, source: s11 }
+  - { country: AM, force: "Army", state: in_service, quantity: 6, source: s11 }
+  - { country: KZ, force: "Army", state: in_service, quantity: 6, source: s11 }
+  - { country: TM, force: "Army", state: in_service, quantity: 6, source: s11 }
+  - { country: IN, force: "Army", state: in_service, quantity: 42, source: s11 }
+  - { country: KW, force: "Army", state: in_service, quantity: 27, source: s1 }
+  - { country: DZ, force: "Land Forces", state: in_service, quantity: 18, source: s11 }
+  - { country: AE, force: "Army", state: in_service, quantity: 6, source: s11 }
+  - { country: VE, force: "Army", state: in_service, quantity: 12, source: s11 }
+  - { country: SY, force: "Army", state: in_service, quantity: null, source: s11 }
+  - { country: LY, force: "Libyan National Army", state: in_service, quantity: null, source: s13 }
+cost:
+  value: 11842105
+  currency: USD
+  price_year: 2005
+  basis: contract_per_unit
+  source: s9
+  confidence: low
+  note: "India contract signed December 2005: USD 450 million for 38 Smerch systems (450,000,000 / 38). The 38 'systems' may include support vehicles. The order was for the 9A52-2T Tatra-chassis export version and the value likely includes support and spares. Business Standard also reports total deliveries of USD 750 million including the option contract."
+contracts:
+  - { customer: "India / Army", year: 2005, quantity: 38, value: 450000000, currency: USD, note: "9A52-2T on Tatra T816 chassis; launchers built by Motovilikha Plants; first deliveries 2007.", source: s9 }
+  - { customer: "India / Army", year: 2007, quantity: 24, value: null, currency: null, note: "Second batch of 9A52-2T (option contract).", source: s10 }
+peers: [tornado-s, phl-16, m270a2-mlrs, astros-ii]
+sources:
+  - { id: s1, url: "https://man.fas.org/dod-101/sys/land/row/9a52.htm", title: "9A52-2 BM-30 Smerch 300-mm Multiple Rocket Launcher", publisher: "Federation of American Scientists", retrieved: 2026-11-22, kind: reference }
+  - { id: s2, url: "https://man.fas.org/dod-101/sys/land/row/9k58.htm", title: "9K58 Smerch", publisher: "Federation of American Scientists", retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://www.army-technology.com/projects/smerch/", title: "BM-30 Smerch Multiple Launch Rocket System Specs", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/multiple-launch-rocket-systems/9a52-2-bm-30-russia-uk", title: "9A52-2 Smerch-M", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://issuu.com/dellvzla/docs/book-52484/s/13416909", title: "9K58 SMERCH Multiple Rocket System (export catalogue text)", publisher: "Issuu (reproduced Russian export catalogue)", retrieved: 2026-11-22, kind: other }
+  - { id: s6, url: "https://armyrecognition.com/news/army-news/army-news-2024/russia-modernizes-smerch-and-tornado-s-300mm-rocket-launchers-to-match-iskander-m-ballistic-missile-capabilities", title: "Russia modernizes Smerch and Tornado-S 300mm rocket launchers to match Iskander-M ballistic missile capabilities", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://euro-sd.com/2023/03/articles/30058/lessons-learned-from-ukraine-rocket-artillery-on-the-modern-battlefield/", title: "Lessons Learned From Ukraine: Rocket Artillery On The Modern Battlefield", publisher: "European Security & Defence", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.globalsecurity.org/military/world/russia/motovilikha.htm", title: "Motovilikha Plants - Perm Cannon Plants", publisher: "GlobalSecurity.org", retrieved: 2026-11-22, kind: reference }
+  - { id: s9, url: "https://www.business-standard.com/article/economy-policy/russia-to-begin-deliveries-of-smerch-rocket-systems-107041301007_1.html", title: "Russia to begin deliveries of Smerch rocket systems", publisher: "Business Standard (Press Trust of India)", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/multiple-launch-rocket-systems/9a52-2t-russia-uk", title: "9A52-2T", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://en.wikipedia.org/wiki/BM-30_Smerch", title: "BM-30 Smerch", publisher: "Wikipedia (citing IISS Military Balance 2024/2025 and SIPRI)", retrieved: 2026-11-22, kind: reference }
+  - { id: s13, url: "https://united24media.com/latest-news/russian-weapons-in-libiya-smerch-mlrs-and-tor-air-defenses-parade-in-benghazi-8729", title: "Russian Weapons in Libya: Smerch MLRS and Tor Air Defenses Parade in Benghazi", publisher: "UNITED24 Media", retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: bm-21-grad
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:BM-21_Grad_(2).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/BM-21_Grad_%282%29.jpg/1280px-BM-21_Grad_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: BM-21 Grad (2).jpg
+    caption: BM-21 Grad multiple rocket launcher on a Ural-375D chassis.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Vitaly V. Kuzmin
+    credit: http://vitalykuzmin.net/?q=node/156
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Ural-375D_with_BM-21_Grad_in_Angola_(433).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Ural-375D_with_BM-21_Grad_in_Angola_%28433%29.jpg/1280px-Ural-375D_with_BM-21_Grad_in_Angola_%28433%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Ural-375D with BM-21 Grad in Angola (433).jpg
+    caption: BM-21 Grad on a Ural-375D truck with Angolan military and UNAVEM II observers in Angola, 1990s.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Fotoafdrukken Koninklijke Landmacht
+    credit: https://beeldbank.nimh.nl/foto-s/detail/6b0ba914-eb18-11df-a391-13966e870614/media/f9273a88-8792-487d-f6fb-f9cdbf18b811?mode=detail&amp;view=horizontal&amp;q=1992&amp;rows=1&amp;page=334&amp;fq%5B%5D=
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Russian_BM-21_Grad_in_Saint_Petersburg.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Russian_BM-21_Grad_in_Saint_Petersburg.JPG/1280px-Russian_BM-21_Grad_in_Saint_Petersburg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Russian BM-21 Grad in Saint Petersburg.JPG
+    caption: Russian BM-21 Grad on a Ural-4320 chassis (2B17) in Saint Petersburg before the Victory Parade, 2009.
+    shows: same_family
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Robert Wray
+    credit: This image, which was originally posted to Picasa Web Albums , was reviewed on 9 May 2011 by the administrator or reviewer Tm , who confirmed that it was available on Picasa Web Albums under the above
+    priority: A
+    retrieved: 2026-11-22
+note: "#2 and #7 show the original Ural-375D variant. #8's description refers to anti-aircraft guns despite its title, so it was left out. #1 is the later Ural-4320 version."

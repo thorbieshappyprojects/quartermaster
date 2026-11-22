@@ -1,0 +1,48 @@
+id: bm-27-uragan
+category: rocket-artillery
+name: BM-27 Uragan (9P140)
+variant_note: Soviet-era 9P140 launcher on ZIL-135LM 8x8 chassis, part of the 9K57 complex
+family: Uragan
+aliases: [9K57 Uragan, 9P140 Uragan, M1977, Hurricane]
+manufacturer: { name: Splav (Tula); launcher vehicle built by Motovilikha Plants }
+production_sites:
+  - { place: Perm, country: RU, source: s3 }
+origin: SU
+role: Truck-mounted 16-tube 220 mm multiple rocket launcher for area fire and remote mine-laying at ranges up to about 35 km.
+memorable_fact: { text: "Western intelligence first saw the system in 1977, which is why NATO initially called it the MRL M1977.", source: s1 }
+status: in_service
+in_service_since: { value: 1975, source: s2, confidence: low, range: { min: 1975, max: 1977 }, note: "Base 9K57 system. Army Recognition says development was completed in 1975. FAS gives 1977 as the date of introduction, the year it was first seen in the West. Showing the earlier, Soviet-side date." }
+units_built: { value: null, source: null, confidence: null, note: "No reliable public production total found." }
+combat_use: { text: "Russian Uragan units have carried out strikes on Ukrainian positions during the Russo-Ukrainian war, according to Russian MoD statements reported by TASS.", source: s7 }
+specs:
+  rockets_per_launcher: { value: 16, source: s1, confidence: medium, note: "220 mm; 2 rows of 6 tubes and 1 row of 4." }
+  max_range: { value: 35, source: s1, confidence: medium, range: { min: 35, max: 40 }, note: "No guided rocket exists for the base 9P140. Value is the maximum range of the unguided 9M27F (35,000 m). FAS also cites an estimate of 35-40 km; vpk.name gives 35.8 km (s6)." }
+  reload_time: { value: 20, source: s1, confidence: medium, range: { min: 15, max: 20 }, note: "FAS gives 15-20 min. Army Recognition says up to 20 min, or under 15 min with the 9T452 transloader (s2). Showing the upper figure." }
+  combat_weight: { value: 20, source: s1, confidence: medium, note: "FAS 20.0 t; Army Recognition 20,000 kg loaded, 15,100 kg empty (s2)." }
+  crew: { value: 4, source: s1, confidence: medium, range: { min: 4, max: 6 }, note: "FAS, Army Recognition (s2) and vpk.name (s6) give 4. Army Technology (s4) and Wikipedia give 6." }
+operators:
+  - { country: RU, force: Army, state: in_service, quantity: 218, source: s5 }
+  - { country: BY, force: Army, state: in_service, quantity: 36, source: s5 }
+  - { country: UA, force: Army, state: in_service, quantity: 35, source: s5 }
+  - { country: TM, force: Army, state: in_service, quantity: 60, source: s5 }
+  - { country: UZ, force: Army, state: in_service, quantity: 48, source: s5 }
+  - { country: MD, force: Army, state: in_service, quantity: 11, source: s5 }
+  - { country: KG, force: Army, state: in_service, quantity: 6, source: s5 }
+  - { country: ER, force: Army, state: in_service, quantity: 9, source: s5 }
+  - { country: GN, force: Army, state: in_service, quantity: 3, source: s5 }
+  - { country: SY, force: Army, state: in_service, quantity: null, source: s5 }
+  - { country: KZ, force: Army, state: retired, quantity: null, source: s5 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public unit price or contract value found." }
+contracts:
+  - { customer: Yemen, year: 1994, quantity: 13, value: null, currency: null, note: "Army Technology says Splav delivered 13; Wikipedia, citing SIPRI, records 7 received from Moldova in 1994.", source: s4 }
+  - { customer: Eritrea, year: 2007, quantity: 9, value: null, currency: null, note: "Delivery by Splav.", source: s4 }
+  - { customer: Syria, year: 1987, quantity: 36, value: null, currency: null, note: "Delivered from the USSR in 1987-88; SIPRI figure as cited on Wikipedia.", source: s5 }
+peers: [bm-21-grad, bm-30-smerch, m270a2-mlrs, astros-ii]
+sources:
+  - { id: s1, url: "https://man.fas.org/dod-101/sys/land/row/9p140.htm", title: "9P140 220-mm Multiple Rocket Launcher", publisher: Federation of American Scientists, retrieved: 2026-11-22, kind: reference }
+  - { id: s2, url: "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/multiple-launch-rocket-systems/bm-279p140-uragan-russia-uk", title: "BM-27 9P140 Uragan 9K57", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "http://www.army-guide.com/eng/product1808.html", title: "RS30 9K57 Uragan (Multiple rocket launcher)", publisher: Army Guide, retrieved: 2026-11-22, kind: reference }
+  - { id: s4, url: "https://www.army-technology.com/projects/uragan/", title: "Uragan 9K57 Multiple Launch Rocket System, Russia", publisher: Army Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://en.wikipedia.org/wiki/BM-27_Uragan", title: "BM-27 Uragan", publisher: Wikipedia, retrieved: 2026-11-22, kind: other }
+  - { id: s6, url: "https://vpk.name/library/f/uragan.html", title: "Реактивная система залпового огня (РСЗО) 9К57 \"Ураган\"", publisher: VPK.name, retrieved: 2026-11-22, kind: reference }
+  - { id: s7, url: "https://tass.com/defense/1916197", title: "Russian Uragan MLRS hits Ukrainian troops, weapons in DPR", publisher: TASS, retrieved: 2026-11-22, kind: press }

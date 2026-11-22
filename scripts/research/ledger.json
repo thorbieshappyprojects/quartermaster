@@ -1,5 +1,5 @@
 {
-  "spentUsd": 83.7718,
+  "spentUsd": 85.8804,
   "entries": [
     {
       "date": "2026-11-21",
@@ -1607,6 +1607,54 @@
       "usd": 0.0236,
       "input": 4425,
       "output": 296,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "rocket-artillery/bm-21-grad",
+      "usd": 0.6812,
+      "input": 516237,
+      "output": 10456,
+      "searches": 10
+    },
+    {
+      "date": "2026-11-22",
+      "item": "rocket-artillery/bm-27-uragan",
+      "usd": 0.5798,
+      "input": 271652,
+      "output": 9281,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "rocket-artillery/bm-30-smerch",
+      "usd": 0.798,
+      "input": 602864,
+      "output": 12009,
+      "searches": 13
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/bm-21-grad",
+      "usd": 0.0146,
+      "input": 2329,
+      "output": 262,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/bm-27-uragan",
+      "usd": 0.0196,
+      "input": 3380,
+      "output": 306,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/bm-30-smerch",
+      "usd": 0.0154,
+      "input": 2283,
+      "output": 313,
       "searches": 0
     }
   ]

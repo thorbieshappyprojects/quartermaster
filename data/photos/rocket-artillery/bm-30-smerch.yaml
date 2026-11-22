@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: bm-30-smerch
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:BM-30_Smerch_ARMY-2018.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/a/ae/BM-30_Smerch_ARMY-2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: BM-30 Smerch ARMY-2018.jpg
+    caption: 9A52-2 Smerch launcher with a 9T234-2 transporter-loader at the ARMY-2018 forum, Alabino, Russia, 2018.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:BM-30_Smerch,_2010.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/b/b6/BM-30_Smerch%2C_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: BM-30 Smerch, 2010.jpg
+    caption: Russian BM-30 Smerch during the Victory Day parade, 2010.
+    shows: same_family
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Aleksey Toritsyn
+    credit: Victory_Day_09_05_2010_Tech
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:BM-30_Smerch-5173.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/BM-30_Smerch-5173.JPG/1280px-BM-30_Smerch-5173.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: BM-30 Smerch-5173.JPG
+    caption: 9A52 launcher of the 9K58 Smerch system at the Technical Museum in Togliatti, 2010.
+    shows: same_family
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: ShinePhantom
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "Only #6 explicitly identifies the 9A52-2 as a main subject. In #7 the 9A52-2 appears only in the background, so it was not picked. The Kuwaiti firing photo (#5) has a description that refers to HIMARS-type systems, so it was excluded as a doubtful match. Ammunition-only and rocket-only images were also excluded."
