@@ -1,0 +1,58 @@
+id: uh-60m-black-hawk
+category: transport-helicopter
+name: UH-60M Black Hawk
+variant_note: "UH-60M utility version; the HH-60M medical evacuation version is built alongside it"
+family: "H-60 Black Hawk"
+aliases: ["S-70 Black Hawk"]
+manufacturer: { name: "Sikorsky (Lockheed Martin)" }
+origin: US
+role: "Medium twin-engine utility helicopter for air assault, troop transport, cargo lift and medical evacuation."
+memorable_fact: { text: "Sikorsky's 5,000th Hawk-family helicopter, delivered in January 2023, was a US Army UH-60M Black Hawk.", source: s2 }
+status: in_production
+in_service_since:
+  value: 2008
+  source: s1
+  confidence: medium
+  note: "UH-60M: first unit equipped in February 2008, first flight 17 September 2003 (s1)."
+units_built:
+  value: 5000
+  source: s2
+  confidence: medium
+  note: "Whole Hawk family, all variants and services, as of January 2023 (s2). The US Army had 931 UH-60M and 346 HH-60M in January 2025 (s1)."
+combat_use:
+  text: "The UH-60M deployed to Iraq in 2008, the year it entered service."
+  source: s1
+specs:
+  troops: { value: 11, source: s1, confidence: medium, note: "Standard US Army air-assault load of 11 fully equipped soldiers. Other configurations seat up to 12 (s1)." }
+  external_load: { value: 4.1, source: s1, confidence: medium, note: "Cargo hook rated at 9,000 lb (4,082 kg). Practical lift is lower at higher temperature and altitude (s1)." }
+  max_takeoff_weight: { value: 10.0, source: s1, confidence: medium, note: "Maximum take-off weight 22,000 lb (9,979 kg) (s1)." }
+  max_speed: { value: 280, source: s1, confidence: medium, note: "Maximum cruise speed 151 kt (280 km/h); maximum continuous airspeed 156 kt (289 km/h) (s1)." }
+  range: { value: 511, source: s1, confidence: medium, note: "276 nmi (511 km) on internal fuel with no reserve (s1)." }
+operators:
+  - { country: US, force: "US Army", state: in_service, quantity: 931, source: s1 }
+  - { country: AU, force: "Australian Army", state: in_service, quantity: null, source: s1 }
+  - { country: AT, force: "Austrian Air Force", state: in_service, quantity: null, source: s1 }
+  - { country: SE, force: "Swedish Air Force", state: in_service, quantity: null, source: s1 }
+  - { country: LT, force: "Lithuanian Air Force", state: in_service, quantity: null, source: s1 }
+  - { country: LV, force: "Latvian Air Force", state: in_service, quantity: null, source: s1 }
+  - { country: HR, force: "Croatian Air Force", state: in_service, quantity: null, source: s1 }
+  - { country: SK, force: "Slovak Air Force", state: in_service, quantity: null, source: s1 }
+  - { country: GR, force: "Hellenic Army", state: in_service, quantity: null, source: s1 }
+  - { country: TW, force: "Taiwan armed forces", state: in_service, quantity: null, source: s1 }
+  - { country: AE, force: "UAE armed forces", state: in_service, quantity: null, source: s1 }
+  - { country: MX, force: "Mexican armed forces", state: in_service, quantity: null, source: s1 }
+cost:
+  value: 19166667
+  currency: USD
+  price_year: 2022
+  basis: contract_per_unit
+  source: s3
+  confidence: medium
+  note: "Tenth multi-year contract (June 2022): about USD 2.3 billion for a baseline of 120 H-60M (UH-60M and HH-60M), about USD 19.2M each. Options for up to 255 aircraft would bring it to USD 4.4 billion."
+contracts:
+  - { customer: "US Army (and FMS customers)", year: 2022, quantity: 120, value: 2300000000, currency: USD, note: "Multi-year contract X, deliveries July 2022-2027; options for up to 255 aircraft worth USD 4.4 billion in total.", source: s3 }
+peers: [nh90-tth, aw149, mi-17v-5]
+sources:
+  - { id: s1, url: "https://www.armyrecognition.com/military-products/air/helicopters/transport-helicopters/uh-60m-black-hawk", title: "UH-60M Black Hawk", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://news.lockheedmartin.com/2023-01-20-Sikorsky-Delivers-5,000th-Hawk,-Highlights-Versatility-and-Future-of-Iconic-Helicopter", title: "Sikorsky Delivers 5,000th Hawk, Highlights Versatility and Future of Iconic Helicopter", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://news.lockheedmartin.com/2022-06-27-United-States-Army-and-Sikorsky-Strengthen-Army-Aviation-Fleet-with-10th-H-60-Black-Hawk-Helicopter-Contract", title: "United States Army and Sikorsky Strengthen Army Aviation Fleet with 10th H-60 Black Hawk Helicopter Contract", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }

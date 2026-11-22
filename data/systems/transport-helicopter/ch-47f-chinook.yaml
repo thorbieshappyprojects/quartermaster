@@ -1,0 +1,79 @@
+id: ch-47f-chinook
+category: transport-helicopter
+name: CH-47F Chinook
+variant_note: "CH-47F (Block I baseline). Block II figures from Boeing are given in the notes."
+family: "CH-47 Chinook"
+aliases: ["H-47 Chinook", "CH-47F Block II"]
+manufacturer: { name: "Boeing" }
+production_sites:
+  - { place: "Ridley Township (Philadelphia), Pennsylvania", country: US, source: s3 }
+origin: US
+role: "Tandem-rotor heavy-lift helicopter that carries troops, artillery, vehicles and supplies inside the cabin or on up to three cargo hooks."
+memorable_fact: { text: "The Chinook has flown in combat since Vietnam in 1965. An MH-47 special operations version took part in the May 2011 raid that killed Osama bin Laden.", source: s6 }
+status: in_production
+in_service_since:
+  value: 1965
+  source: s6
+  confidence: medium
+  note: "Base system: Chinooks entered operational service in Vietnam in 1965 (s6). Boeing completed the first production CH-47F in August 2006 (s3)."
+units_built:
+  value: 500
+  source: s7
+  confidence: medium
+  note: "CH-47F only: the 500th F model, new-build and remanufactured, was delivered in January 2020 (s7). No newer total was found."
+combat_use:
+  text: "CH-47F units deployed to Iraq and Afghanistan by 2010. Earlier Chinook versions flew in Vietnam, the Falklands, Iraq and Afghanistan."
+  source: s3
+specs:
+  troops:
+    value: 33
+    source: s2
+    confidence: high
+    range: { min: 33, max: 52 }
+    note: "US Army: 33 troops plus 3 crew (s2). Singapore MINDEF: up to 52 troops depending on the mission (s5). The Army figure is shown."
+  external_load:
+    value: 11.8
+    source: s2
+    confidence: high
+    range: { min: 11.8, max: 12.7 }
+    note: "US Army: 26,000 lb on the centre hook, 17,000 lb on the forward and aft hooks, 25,000 lb in tandem (s2). Singapore MINDEF: up to 12,700 kg underslung (s5)."
+  max_takeoff_weight:
+    value: 22.7
+    source: s5
+    confidence: high
+    range: { min: 22.7, max: 24.5 }
+    note: "CH-47F: 22,680 kg per Singapore MINDEF (s5), 50,000 lb per the US Army. Block II: 54,000 lb (24,494 kg) per Boeing (s1)."
+  max_speed:
+    value: 302
+    source: s1
+    confidence: high
+    note: "Boeing: maximum speed 302 km/h (170 KTAS), cruise 291 km/h (s1). MINDEF gives 170 kt (s5)."
+  range:
+    value: 741
+    source: s5
+    confidence: medium
+    note: "MINDEF: range greater than 400 nm, about 741 km; a lower bound with the fuel configuration not stated (s5). Boeing gives a mission radius of 306 km (s1)."
+operators:
+  - { country: US, force: "US Army", state: in_service, quantity: null, source: s3 }
+  - { country: NL, force: "Royal Netherlands Air Force", state: in_service, quantity: 20, source: s1 }
+  - { country: SG, force: "Republic of Singapore Air Force", state: in_service, quantity: null, source: s5 }
+  - { country: DE, force: "German Air Force", state: ordered, quantity: 60, source: s4 }
+cost:
+  value: 116333333
+  currency: EUR
+  price_year: 2023
+  basis: contract_per_unit
+  source: s4
+  confidence: medium
+  note: "In July 2023 the German budget committee approved EUR 6.98 billion for 60 CH-47F Block II in extended-range configuration, about EUR 116.3M per helicopter. The figure includes mission equipment, spares, training, transport and support."
+contracts:
+  - { customer: "Germany (Bundeswehr)", year: 2023, quantity: 60, value: 6980000000, currency: EUR, note: "Budget approval for a Foreign Military Sales (FMS) purchase of 60 CH-47F Block II (extended range), including equipment, spares, training and support.", source: s4 }
+peers: [ch-53k, mi-17v-5]
+sources:
+  - { id: s1, url: "https://www.boeing.com/defense/military-rotorcraft/h-47-chinook", title: "H-47 Chinook: Heavy-lift dominance, mission ready", publisher: "Boeing", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.army.mil/article/137584/ch_47_chinook_helicopter", title: "CH-47 Chinook Helicopter", publisher: "US Army", retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://boeing.mediaroom.com/2010-07-21-Boeing-Celebrates-Production-of-100th-CH-47F-Chinook", title: "Boeing Celebrates Production of 100th CH-47F Chinook", publisher: "Boeing", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.janes.com/defence-intelligence-insights/defence-news/defence/germany-approves-budget-for-chinook-buy", title: "Germany approves budget for Chinook buy", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.mindef.gov.sg/news-and-events/latest-releases/11apr24_fs/", title: "Fact Sheet: RSAF's CH-47F Heavy Lift Helicopter", publisher: "Ministry of Defence Singapore", retrieved: 2026-11-22, kind: government }
+  - { id: s6, url: "https://thedefensepost.com/2026/07/27/ch-47-chinook-guide/", title: "CH-47 Chinook: The Heavy-Lift Helicopter That Keeps Armies Moving", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.c4defence.com/en/boeing-delivered-500th-ch-47f/", title: "Boeing delivered 500th CH-47F", publisher: "C4 Defence", retrieved: 2026-11-22, kind: press }

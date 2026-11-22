@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Airbus H145M technical data maximum take-off weight 3,800 kg sling load troops range speed (search budget exhausted, not performed)",
+    "H145M Bundeswehr LUH SOF first delivery 2015 in service Laupheim H145M first military deliveries"
+  ],
+  "urlsSeen": [
+    "https://www.airbus.com/en/products-services/helicopters/military-helicopters/h145m",
+    "https://www.airbus.com/en/products-services/helicopters/military-helicopters/h145m/h145m-technical-information",
+    "https://en.wikipedia.org/wiki/Airbus_Helicopters_H145M",
+    "https://www.airbus.com/en/newsroom/press-releases/2023-12-airbus-helicopters-and-german-armed-forces-sign-largest-h145m",
+    "https://defence-industry.eu/germany-orders-20-more-airbus-h145m-helicopters-lifting-total-fleet-commitment-to-82-units/",
+    "https://www.thejournal.ie/irish-air-corps-to-receive-four-new-helicopters-6582452-Dec2024/",
+    "https://www.aerotime.aero/articles/airbus-helicopters-delivers-first-h145m-to-belgium-as-fleet-order-grows-to-20",
+    "https://aviationnews.eu/news/2015/12/airbus-helicopters-delivers-the-first-two-h145m-to-the-german-armed-forces/"
+  ]
+}

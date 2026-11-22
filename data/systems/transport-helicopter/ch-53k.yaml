@@ -1,0 +1,55 @@
+id: ch-53k
+category: transport-helicopter
+name: CH-53K King Stallion
+variant_note: "US Marine Corps production standard. Figures from the 2024 Sikorsky brochure (NAVAIR public release)."
+family: "CH-53 Sea Stallion"
+aliases: ["King Stallion"]
+manufacturer: { name: "Sikorsky (Lockheed Martin)" }
+origin: US
+role: "Three-engine heavy-lift helicopter for ship- and land-based transport of troops, vehicles and cargo, inside the cabin or slung underneath."
+memorable_fact: { text: "The CH-53K can lift 36,000 lb (16.3 t) on a single hook. In hot and high conditions it carries twice the payload of the helicopters it replaces.", source: s1 }
+status: in_production
+in_service_since:
+  value: 2022
+  source: s2
+  confidence: high
+  note: "The US Marine Corps declared initial operational capability (IOC) in April 2022. The first aircraft was delivered in May 2018 (s2)."
+units_built: { value: null, source: null, confidence: null, note: "No public cumulative delivery total was found." }
+specs:
+  troops:
+    value: 30
+    source: s1
+    confidence: high
+    note: "34 crashworthy seats: 2 pilots, 2 crew and 30 troops (s1). The brochure also mentions a 32-seat troop configuration."
+  external_load:
+    value: 16.3
+    source: s1
+    confidence: high
+    note: "Centre single-point hook rated at 36,000 lb (16,329 kg); forward and aft hooks 25,200 lb each (s1)."
+  max_takeoff_weight:
+    value: 39.9
+    source: s1
+    confidence: high
+    note: "Maximum design gross weight 88,000 lb (39,916 kg), used with an external load. With an internal load the maximum is 74,000 lb (33,565 kg) (s1)."
+  max_speed: { value: null, source: null, confidence: null, note: "No published maximum speed was found. Naval Technology gives a cruise speed of 315 km/h (s2); other press gives 261 km/h." }
+  range: { value: null, source: null, confidence: null, note: "Only a mission radius was found: 203 km carrying 12,247 kg in maritime conditions (s2). Internal fuel is 2,225 US gal (s1)." }
+operators:
+  - { country: US, force: "US Marine Corps", state: in_service, quantity: null, source: s2 }
+  - { country: IL, force: "Israeli Air Force", state: ordered, quantity: 12, source: s3 }
+cost:
+  value: 109595960
+  currency: USD
+  price_year: 2025
+  basis: contract_per_unit
+  source: s2
+  confidence: medium
+  note: "September 2025 US Navy contract: USD 10.85 billion for up to 99 CH-53K over five years, about USD 109.6M each. The August 2023 award of USD 2.7 billion for 35 aircraft works out to about USD 77M each."
+contracts:
+  - { customer: "US Navy (for the US Marine Corps)", year: 2025, quantity: 99, value: 10850000000, currency: USD, note: "Up to 99 helicopters over five years, for delivery 2029-2034.", source: s2 }
+  - { customer: "US Navy (US Marine Corps and Israel)", year: 2023, quantity: 35, value: 2700000000, currency: USD, note: "Includes 8 aircraft for Israel.", source: s2 }
+  - { customer: "Israel", year: 2022, quantity: 12, value: null, currency: null, note: "Israel's first 12 CH-53K, ordered through Foreign Military Sales (FMS).", source: s3 }
+peers: [ch-47f-chinook]
+sources:
+  - { id: s1, url: "https://sustainability.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/ch53k/9218_CH-53K_Brochure_%202024_web.pdf", title: "CH-53K - The Only Heavy Lift Solution (brochure, revised July 2024)", publisher: "Sikorsky, a Lockheed Martin company", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.naval-technology.com/projects/ch-53k-king-stallion/", title: "CH-53K King Stallion", publisher: "Naval Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://lockheedmartin.com/en-us/news/features/2022/israel-purchases-its-first-12-ch-53k-helicopters.html", title: "Israel Purchases its First 12 CH-53K Helicopters", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }

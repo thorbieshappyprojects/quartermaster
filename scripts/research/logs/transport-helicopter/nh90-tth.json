@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Airbus NH90 TTH specifications max take-off weight troops range speed",
+    "NHIndustries NH90 fleet delivered helicopters total countries flight hours 2025 milestone",
+    "NH90 TTH contract signed helicopters value million euros 2023 OR 2024 OR 2025 Spain OR Germany OR Qatar OR Netherlands",
+    "NH90 TTH unit cost million euros per helicopter contract"
+  ],
+  "urlsSeen": [
+    "https://www.airbus.com/en/products-services/helicopters/military-helicopters/nh90/nh90-technical-information",
+    "https://helicopters.leonardo.com/-/nh90",
+    "https://www.bundeswehr.de/en/organization/equipment/armaments-projects/nato-helicopter-90-nh90-",
+    "https://airbus.com/en/products-services/helicopters/military-helicopters/nh90",
+    "https://www.airbus.com/en/newsroom/press-releases/2025-12-greece-signs-nh90-follow-on-support-contract",
+    "https://www.janes.com/defence-intelligence-insights/defence-news/defence/nhindustries-delivers-500th-nh90-helicopter",
+    "https://www.army-technology.com/projects/nh90-tactical-transport-helicopter/"
+  ]
+}

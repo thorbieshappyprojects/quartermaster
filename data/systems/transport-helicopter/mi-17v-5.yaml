@@ -1,0 +1,53 @@
+id: mi-17v-5
+category: transport-helicopter
+name: Mi-17V-5
+variant_note: "Export version of the Mi-8MTV-5, with a rear loading ramp; Rosoboronexport catalogue figures"
+family: "Mi-8/Mi-17"
+aliases: ["Mi-8MTV-5", "Hip"]
+manufacturer: { name: "Kazan Helicopters (Russian Helicopters)" }
+production_sites:
+  - { place: "Kazan", country: RU, source: s2 }
+origin: RU
+role: "Medium twin-engine military transport helicopter for troops, cargo inside the cabin or on a sling, and casualty evacuation; it can also be armed."
+memorable_fact: { text: "The Mi-17V-5 can unload 36 troops in 15 seconds.", source: s2 }
+status: in_production
+in_service_since: { value: null, source: null, confidence: null, note: "No verified service-entry year. The first production Mi-17V-5 flew in August 1999, the year series production began (s2). India brought its first batch into service on 17 February 2012 (s4)." }
+units_built:
+  value: 11000
+  source: s3
+  confidence: low
+  note: "Whole Mi-8/Mi-17 family, all versions (s3). No Mi-17V-5-only total was found."
+specs:
+  troops: { value: 36, source: s1, confidence: medium, note: "Up to 36 troops in the cargo cabin (s1, s2)." }
+  external_load: { value: 4.0, source: s1, confidence: medium, note: "External sling load 4,000 kg (s1). Some trade press gives 4,500 kg." }
+  max_takeoff_weight: { value: 13.0, source: s1, confidence: medium, range: { min: 11.0, max: 13.0 }, note: "Maximum take-off weight 13,000 kg (s1). Army Recognition gives a take-off weight range of 11,000-13,000 kg (s2)." }
+  max_speed: { value: 250, source: s1, confidence: medium, range: { min: 230, max: 250 }, note: "Maximum speed 250 km/h (s1). Army Recognition gives 230-250 km/h (s2)." }
+  range: { value: 675, source: s1, confidence: medium, note: "Range on internal (main) fuel tanks 675 km (s1, s2). Other references give 495-650 km." }
+operators:
+  - { country: RU, force: "Russian Aerospace Forces", state: in_service, quantity: null, source: s2 }
+  - { country: IN, force: "Indian Air Force", state: in_service, quantity: null, source: s4 }
+  - { country: CN, force: "PLA", state: in_service, quantity: null, source: s2 }
+  - { country: CO, force: "Colombian armed forces", state: in_service, quantity: null, source: s2 }
+  - { country: VE, force: "Venezuelan armed forces", state: in_service, quantity: null, source: s2 }
+  - { country: TH, force: "Royal Thai Army", state: in_service, quantity: null, source: s2 }
+  - { country: ID, force: "Indonesian armed forces", state: in_service, quantity: null, source: s2 }
+  - { country: PK, force: "Pakistan armed forces", state: in_service, quantity: null, source: s2 }
+  - { country: LK, force: "Sri Lanka Air Force", state: in_service, quantity: null, source: s2 }
+cost:
+  value: 18309859
+  currency: USD
+  price_year: 2012
+  basis: contract_per_unit
+  source: s5
+  confidence: low
+  note: "India-Russia deal of 24 December 2012: USD 1.3 billion for 71 Mi-17 helicopters, about USD 18.3M each (AP via s5). The report says only 'Mi-17'; the 71 are reported elsewhere as Mi-17V-5. The 2008 deal for 80 was also about USD 1.3 billion (s4)."
+contracts:
+  - { customer: "India (Indian Air Force)", year: 2008, quantity: 80, value: 1300000000, currency: USD, note: "First batch, entering service from February 2012.", source: s4 }
+  - { customer: "India (Indian Air Force)", year: 2012, quantity: 71, value: 1300000000, currency: USD, note: "Signed 24 December 2012.", source: s5 }
+peers: [uh-60m-black-hawk, nh90-tth, ch-47f-chinook]
+sources:
+  - { id: s1, url: "https://roe.ru/en/production/aerospace-forces/helicopters/military-transport-assault-transport-and-multipurpose-helicopters/mi-17v-5/", title: "Mi-17V-5", publisher: "Rosoboronexport", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://armyrecognition.com/military-products/air/helicopters/transport-helicopters/mi-8mtv-5-mi-17-v5", title: "Mi-8MTV-5 / Mi-17V5", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://armyrecognition.com/military-products/air/helicopters/transport-helicopters/mi-17", title: "Mi-17", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.armyrecognition.com/archives/archives-aerospace-defense/aerospace-defense-2012/russian-made-transport-helicopter-mi-17v5-enters-service-with-indian-air-force-1702121", title: "Russian-made transport helicopter Mi-17V5 enters service with Indian Air Force", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.philstar.com/world/2012/12/24/889876/russia-india-sign-weapons-deals-worth-billions", title: "Russia, India sign weapons deals worth billions", publisher: "The Philippine Star (Associated Press)", retrieved: 2026-11-22, kind: press }

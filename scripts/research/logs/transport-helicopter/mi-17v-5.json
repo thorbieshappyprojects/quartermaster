@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Mi-17V-5 Russian Helicopters specifications maximum take-off weight 13,000 kg external sling load 4,000 kg troops 36 range (search budget exhausted, not performed)",
+    "Mi-17V-5 specifications maximum take-off weight 13,000 kg sling load 4,000 kg 36 troops range 580 km",
+    "India signs contract 71 Mi-17V-5 helicopters $1.3 billion December 2012 Rosoboronexport"
+  ],
+  "urlsSeen": [
+    "https://roe.ru/en/production/aerospace-forces/helicopters/military-transport-assault-transport-and-multipurpose-helicopters/mi-17v-5/",
+    "https://armyrecognition.com/military-products/air/helicopters/transport-helicopters/mi-8mtv-5-mi-17-v5",
+    "https://armyrecognition.com/military-products/air/helicopters/transport-helicopters/mi-17",
+    "https://en.wikipedia.org/wiki/Mil_Mi-17",
+    "https://en.wikipedia.org/wiki/Mil_Mi-8",
+    "https://www.armyrecognition.com/archives/archives-aerospace-defense/aerospace-defense-2012/russian-made-transport-helicopter-mi-17v5-enters-service-with-indian-air-force-1702121",
+    "https://www.philstar.com/world/2012/12/24/889876/russia-india-sign-weapons-deals-worth-billions",
+    "https://www.airforce-technology.com/?p=4785"
+  ]
+}

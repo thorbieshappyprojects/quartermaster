@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Boeing CH-47F Chinook specifications max gross weight speed troops external load",
+    "CH-47F Chinook \"33 troops\" OR \"troops\" army fact file sling load 26,000 lb",
+    "Germany CH-47F Chinook 60 helicopters contract value billion Boeing 2023 Bundeswehr",
+    "Boeing Chinook \"more than 1,200\" OR \"over 1,200\" built delivered CH-47 Ridley Park",
+    "Boeing delivers 500th CH-47F Chinook",
+    "CH-47F Chinook range km internal fuel armyrecognition",
+    "\"CH-47F\" range \"nautical miles\" internal fuel army fact sheet OR DSCA OR \"Boeing\""
+  ],
+  "urlsSeen": [
+    "https://www.boeing.com/defense/military-rotorcraft/h-47-chinook",
+    "https://www.army.mil/article/137584/ch_47_chinook_helicopter",
+    "https://man.fas.org/dod-101/sys/land/wsh2012/54.pdf",
+    "https://thedefensepost.com/2026/07/27/ch-47-chinook-guide/",
+    "https://www.janes.com/defence-intelligence-insights/defence-news/defence/germany-approves-budget-for-chinook-buy",
+    "https://flightglobal.com/helicopters/german-lawmakers-approve-85-billion-ch-47-buy/154021.article",
+    "https://aviationweek.com/sites/default/files/2020-07/CH-47F_4page.pdf",
+    "https://www.c4defence.com/en/boeing-delivered-500th-ch-47f/",
+    "https://boeing.mediaroom.com/2010-07-21-Boeing-Celebrates-Production-of-100th-CH-47F-Chinook",
+    "https://aerocorner.com/aircraft/boeing-ch-47f-chinook/",
+    "https://armyrecognition.com/military-products/air/helicopters/transport-helicopters/ch-47f-chinook",
+    "https://www.mindef.gov.sg/news-and-events/latest-releases/11apr24_fs/"
+  ]
+}

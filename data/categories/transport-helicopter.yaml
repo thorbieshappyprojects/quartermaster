@@ -1,0 +1,57 @@
+# Category card researched 2026-11-22 in a Claude Code session (web search).
+id: transport-helicopter
+name: Transport and utility helicopters
+domain: Air mobility
+wave: 3
+indicators:
+  - { id: troops, label: Troops carried, unit: "", trump: higher_wins }
+  - { id: external_load, label: Max. external (sling) load, unit: t, trump: higher_wins, decimals: 1 }
+  - { id: max_takeoff_weight, label: Max. take-off weight, unit: t, trump: higher_wins, decimals: 1 }
+  - { id: max_speed, label: Max. speed, unit: km/h, trump: higher_wins }
+  - { id: range, label: Range (internal fuel), unit: km, trump: higher_wins }
+category_card:
+  summary: "Transport and utility helicopters carry troops, cargo and casualties by air, inside the cabin or slung under the fuselage. They range from light twin-engine utility types of about 4 t to heavy-lift helicopters of more than 30 t, and need no runway."
+  purpose:
+    - text: "Air manoeuvre moves ground forces by air to gain an advantage. Because it is not held up by terrain, RUSI argues it lets a commander actively change the shape of the battlefield."
+      source: s2
+    - text: "Helicopters are used for airlift, humanitarian aid, maritime resupply, surveillance and air assault, and for raids and other special forces operations."
+      source: s1
+    - text: "In Ukraine, the helicopters Ukraine still has are flown on resupply, evacuation and attack missions."
+      source: s4
+  strengths:
+    - text: "Helicopters combine speed, flexibility and independence from terrain, and they do not need runways."
+      source: s1
+    - text: "Heavy-lift helicopters can move more troops and heavier materiel in fewer sorties, which matters when only a short gap in enemy defences is available."
+      source: s2
+    - text: "RUSI notes that successful air manoeuvre operations have been flown against effective modern air defences with simple Mi-8/17 helicopters. Serviceability and availability matter more than how sophisticated the airframe is."
+      source: s2
+  weaknesses:
+    - text: "Helicopters depend on control of the air, at least locally and for a limited time, and that control has to be created by other forces first."
+      source: s1
+    - text: "Losing a heavy-lift helicopter loses more troops and equipment at once than losing a medium-lift aircraft."
+      source: s2
+    - text: "Flying far to avoid threats reduces how much a helicopter can carry under its fuselage and makes forward refuelling points necessary."
+      source: s2
+  counters:
+    - text: "Man-portable air defence missiles (MANPADS) caused most of the losses among the 34 Russian helicopters flying into the Hostomel air assault in 2022, which lost about 17% of its aircraft."
+      source: s1
+    - text: "Fighter radars that can see low-flying targets below them, and surface-to-air missiles that dive onto their target from above, weaken the old protection of flying low and using terrain as cover."
+      source: s2
+    - text: "Counter-drone systems are filling the battlefield with passive sensors tuned to detect rotors. Units at every level now carry weapons that can endanger helicopters."
+      source: s2
+    - text: "Dense ground-based air defences have made crewed flight over the battlefield in Ukraine very difficult, pushing helicopters back from the front line."
+      source: s3
+  trends:
+    - text: "RUSI recommends launching drones and other 'launched effects' together with the helicopter force, to find and suppress pop-up air defence threats during insertion."
+      source: s2
+    - text: "Drones are proposed for continuously resupplying inserted troops. A drone carrying about 180 kg is expected to reach only about 15–20 km."
+      source: s2
+    - text: "Military planners are rethinking helicopter tactics after the failed Russian landing at Hostomel, including teaming helicopters with drones."
+      source: s3
+    - text: "US analysts drawing lessons from Ukraine call for continued investment in the Future Vertical Lift programme to keep an edge in Army aviation."
+      source: s4
+sources:
+  - { id: s1, url: "https://www.rusi.org/explore-our-research/publications/commentary/helicopters-remain-vital-part-joint-force", title: "Helicopters Remain a Vital Part of the Joint-Force", publisher: "RUSI", retrieved: 2026-11-22, kind: reference }
+  - { id: s2, url: "https://static.rusi.org/air-manoeuvre-forces-in-european-large-scale-combat-operations-final.pdf", title: "Air Manoeuvre Forces in European Large-Scale Combat Operations (Watling, Tollast, Reynolds, January 2026)", publisher: "RUSI", retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://www.militarytimes.com/news/your-military/2024/07/19/drone-warfare-in-ukraine-prompts-fresh-thinking-in-helicopter-tactics/", title: "Drone warfare in Ukraine prompts fresh thinking in helicopter tactics", publisher: "Military Times", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.thedefensepost.com/2023/03/23/us-combat-helicopter-operations/", title: "What Ukraine Teaches the US About Combat Helicopter Operations", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Sikorsky CH-53K King Stallion specifications external load 36,000 lb max gross weight troops",
+    "CH-53K King Stallion speed knots range nautical miles fact file navy.mil unit cost",
+    "Israel CH-53K contract 12 helicopters $2 billion signed Sikorsky; CH-53K maximum speed knots"
+  ],
+  "urlsSeen": [
+    "https://sustainability.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/ch53k/9218_CH-53K_Brochure_%202024_web.pdf",
+    "https://www.navair.navy.mil/product/CH-53K-King-Stallion",
+    "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166581/ch-53k-king-stallion/",
+    "https://www.naval-technology.com/projects/ch-53k-king-stallion/",
+    "https://lockheedmartin.com/en-us/news/features/2022/israel-purchases-its-first-12-ch-53k-helicopters.html",
+    "https://news.usni.org/2022/01/05/israel-signs-deal-to-buy-ch-53k-heavy-lift-helicopters",
+    "https://www.militarytimes.com/air/2023/08/24/us-navy-awards-sikorsky-27-billion-for-35-ch-53k-helicopters/"
+  ]
+}

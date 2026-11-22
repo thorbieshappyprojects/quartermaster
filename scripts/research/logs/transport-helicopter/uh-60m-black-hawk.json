@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "UH-60M Black Hawk specifications Lockheed Sikorsky max gross weight troops external load cruise speed range",
+    "Army awards Sikorsky multiyear contract UH-60M Black Hawk 120 helicopters $2.3 billion 2022",
+    "Sikorsky \"Black Hawk\" helicopters delivered worldwide \"more than 5,000\" OR \"over 4,000\" countries Lockheed Martin"
+  ],
+  "urlsSeen": [
+    "https://www.armyrecognition.com/military-products/air/helicopters/transport-helicopters/uh-60m-black-hawk",
+    "https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/black-hawk/26-09010_UH-60M_Brochure_10.6.26.pdf",
+    "https://lockheedmartin.com/en-us/products/sikorsky-uh-60m-black-hawk-helicopter.html",
+    "https://news.lockheedmartin.com/2022-06-27-United-States-Army-and-Sikorsky-Strengthen-Army-Aviation-Fleet-with-10th-H-60-Black-Hawk-Helicopter-Contract",
+    "https://news.lockheedmartin.com/2023-01-20-Sikorsky-Delivers-5,000th-Hawk,-Highlights-Versatility-and-Future-of-Iconic-Helicopter",
+    "https://www.army.mil/article/257955/army_signs_multiyear_production_contract_for_black_hawk_helicopters"
+  ]
+}

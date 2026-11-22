@@ -1,0 +1,56 @@
+id: h145m
+category: transport-helicopter
+name: H145M
+variant_note: "Military H145 with Arriel 2E engines; Airbus basic-aircraft figures"
+family: "H145 (EC145)"
+aliases: ["LUH SOF", "LKH"]
+manufacturer: { name: "Airbus Helicopters" }
+production_sites:
+  - { place: "Donauwörth", country: DE, source: s5 }
+origin: DE
+role: "Light twin-engine military utility helicopter for transport, special forces support, training, reconnaissance and light attack missions."
+memorable_fact: { text: "Germany's December 2023 order for up to 82 H145M was the largest H145M contract to date.", source: s3 }
+status: in_production
+in_service_since:
+  value: 2015
+  source: s4
+  confidence: medium
+  note: "First two H145M (LUH SOF) delivered to German Army special forces at Laupheim on 8 December 2015, from an order of 15 (s4)."
+units_built: { value: null, source: null, confidence: null, note: "No H145M-only production total was found. Airbus figures cover the whole H145 family." }
+specs:
+  troops: { value: 10, source: s1, confidence: medium, note: "Airbus: maximum seating 2+10, i.e. 2 crew and 10 passengers (s1). No separate troop figure is published." }
+  external_load: { value: 1.6, source: s1, confidence: high, note: "Sling capacity 1,600 kg (s1)." }
+  max_takeoff_weight: { value: 3.8, source: s1, confidence: high, note: "3,800 kg, also with an external load (s1)." }
+  max_speed: { value: 241, source: s1, confidence: high, note: "Fast cruise speed at maximum take-off weight (s1). No separate maximum speed was found." }
+  range: { value: 637, source: s1, confidence: high, note: "Maximum range with standard fuel tanks; endurance 3 h 30 min (s1)." }
+operators:
+  - { country: DE, force: "German Army and Air Force", state: in_service, quantity: null, source: s6 }
+  - { country: HU, force: "Hungarian Defence Forces", state: in_service, quantity: null, source: s3 }
+  - { country: RS, force: "Serbian Armed Forces", state: in_service, quantity: null, source: s3 }
+  - { country: TH, force: "Royal Thai Navy", state: in_service, quantity: null, source: s3 }
+  - { country: LU, force: "Luxembourg Army", state: in_service, quantity: null, source: s3 }
+  - { country: BE, force: "Belgian armed forces", state: in_service, quantity: 20, source: s5 }
+  - { country: EC, force: "Ecuadorian armed forces", state: in_service, quantity: null, source: s5 }
+  - { country: HN, force: "Honduran armed forces", state: in_service, quantity: null, source: s5 }
+  - { country: CY, force: "Cyprus National Guard", state: ordered, quantity: 6, source: s3 }
+  - { country: IE, force: "Irish Air Corps", state: ordered, quantity: 4, source: s2 }
+cost:
+  value: 22925000
+  currency: EUR
+  price_year: 2024
+  basis: contract_per_unit
+  source: s2
+  confidence: low
+  note: "Irish contract of December 2024 with Airbus Helicopters UK: EUR 91.7 million excluding VAT for 4 H145M, about EUR 22.9M each. The report does not say whether training or support are included."
+contracts:
+  - { customer: "Germany (Bundeswehr)", year: 2023, quantity: 62, value: null, currency: null, note: "62 firm plus 20 options, including seven years of support. The options were exercised in December 2025, bringing the total to 82 (72 Army, 10 Air Force special forces).", source: s3 }
+  - { customer: "Ireland (Air Corps)", year: 2024, quantity: 4, value: 91700000, currency: EUR, note: "Excluding VAT; deliveries expected from Q1 2027.", source: s2 }
+  - { customer: "Germany (Bundeswehr special forces)", year: 2013, quantity: 15, value: null, currency: null, note: "LUH SOF launch order; deliveries 2015-2017.", source: s4 }
+peers: [aw149]
+sources:
+  - { id: s1, url: "https://www.airbus.com/en/products-services/helicopters/military-helicopters/h145m/h145m-technical-information", title: "H145M technical information", publisher: "Airbus", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.thejournal.ie/irish-air-corps-to-receive-four-new-helicopters-6582452-Dec2024/", title: "Irish Air Corps to receive four new helicopters", publisher: "TheJournal.ie", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.airbus.com/en/newsroom/press-releases/2023-12-airbus-helicopters-and-german-armed-forces-sign-largest-h145m", title: "Airbus Helicopters and German Armed Forces sign largest H145M contract", publisher: "Airbus", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://aviationnews.eu/news/2015/12/airbus-helicopters-delivers-the-first-two-h145m-to-the-german-armed-forces/", title: "Airbus Helicopters delivers the first two H145M to the German Armed Forces", publisher: "Aviation News", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.aerotime.aero/articles/airbus-helicopters-delivers-first-h145m-to-belgium-as-fleet-order-grows-to-20", title: "Airbus Helicopters delivers first H145M to Belgium as fleet order grows to 20", publisher: "AeroTime", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://defence-industry.eu/germany-orders-20-more-airbus-h145m-helicopters-lifting-total-fleet-commitment-to-82-units/", title: "Germany orders 20 more Airbus H145M helicopters, lifting total fleet commitment to 82 units", publisher: "Defence Industry Europe", retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "RUSI helicopters Ukraine war lessons transport helicopters survivability air assault"
+  ],
+  "urlsSeen": [
+    "https://www.rusi.org/explore-our-research/publications/commentary/helicopters-remain-vital-part-joint-force",
+    "https://static.rusi.org/air-manoeuvre-forces-in-european-large-scale-combat-operations-final.pdf",
+    "https://aviationweek.com/defense/budget-policy-operations/opinion-end-air-assault",
+    "https://www.militarytimes.com/?p=138340",
+    "https://www.militarytimes.com/news/your-military/2024/07/19/drone-warfare-in-ukraine-prompts-fresh-thinking-in-helicopter-tactics/",
+    "https://www.thedefensepost.com/2023/03/23/us-combat-helicopter-operations/",
+    "https://www.shephardmedia.com/news/air-warfare/ukraine-lessons-is-bringing-an-attack-helicopter-to-a-missile-fight-too-dangerous/"
+  ]
+}

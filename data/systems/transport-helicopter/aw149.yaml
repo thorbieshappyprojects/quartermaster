@@ -1,0 +1,44 @@
+id: aw149
+category: transport-helicopter
+name: AW149
+variant_note: "Military medium twin with GE CT7-2E1 engines; Leonardo figures"
+manufacturer: { name: "Leonardo Helicopters" }
+production_sites:
+  - { place: "Świdnik", country: PL, source: s3 }
+origin: IT
+role: "Medium twin-engine military helicopter for troop transport, combat support, command and reconnaissance, medical evacuation and search and rescue."
+memorable_fact: { text: "The UK chose the AW149 in 2026 as its New Medium Helicopter, to replace several older types with a single aircraft type.", source: s4 }
+status: in_production
+in_service_since: { value: null, source: null, confidence: null, note: "No service-entry date was found. Italian military certification came in July 2014 (s5); Poland's deliveries began in 2023 (s3)." }
+units_built: { value: null, source: null, confidence: null, note: "No public production total was found." }
+specs:
+  troops: { value: 16, source: s1, confidence: high, note: "Leonardo: up to 16 heavily equipped or 19 lightly equipped troops (s1)." }
+  external_load: { value: 2.7, source: s5, confidence: medium, note: "Cargo hook kit rated at 2,720 kg (6,000 lb) (s5). Leonardo's page gives no hook figure." }
+  max_takeoff_weight: { value: 8.6, source: s1, confidence: high, note: "Maximum gross weight 8,600 kg (s1)." }
+  max_speed: { value: 294, source: s1, confidence: high, note: "Maximum cruise speed at 5,000 ft, ISA, 8,300 kg (s1). No separate maximum speed is published." }
+  range: { value: 1009, source: s1, confidence: medium, range: { min: 913, max: 1009 }, note: "With CT7-2E1 engines, standard, under-floor and internal auxiliary tanks, no reserve: 1,009 km. With Safran Aneto-1K engines: 913 km (s1)." }
+operators:
+  - { country: PL, force: "Polish Land Forces", state: in_service, quantity: 32, source: s3 }
+  - { country: EG, force: "Egyptian armed forces", state: in_service, quantity: 24, source: s6 }
+  - { country: TH, force: "Royal Thai Army", state: in_service, quantity: 5, source: s7 }
+  - { country: GB, force: "UK Armed Forces", state: ordered, quantity: 23, source: s4 }
+cost:
+  value: 54687500
+  currency: EUR
+  price_year: 2022
+  basis: contract_per_unit
+  source: s3
+  confidence: medium
+  note: "Polish order of 2022: an estimated EUR 1.75 billion for 32 helicopters, about EUR 54.7M each. The Egyptian order of 2019 (EUR 871 million for 24) works out to about EUR 36.3M each."
+contracts:
+  - { customer: "Poland (25th Air Cavalry Brigade)", year: 2022, quantity: 32, value: 1750000000, currency: EUR, note: "Estimated value; deliveries 2023-2029, built at PZL-Świdnik.", source: s3 }
+  - { customer: "Egypt", year: 2019, quantity: 24, value: 871000000, currency: EUR, note: "Five delivered by January 2021.", source: s6 }
+  - { customer: "United Kingdom", year: 2026, quantity: 23, value: null, currency: null, note: "New Medium Helicopter programme; built at Yeovil.", source: s4 }
+peers: [nh90-tth, uh-60m-black-hawk, h145m]
+sources:
+  - { id: s1, url: "https://helicopters.leonardo.com/-/aw149", title: "AW149 - Military Helicopters", publisher: "Leonardo", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://thedefensepost.com/2024/06/06/leonardo-aw149-helicopter-production-poland/", title: "Leonardo opens AW149 helicopter production line in Poland", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://ukdefencejournal.org.uk/britain-orders-23-new-aw149-helicopters/", title: "Britain orders 23 new AW149 helicopters", publisher: "UK Defence Journal", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.airforce-technology.com/projects/aw149-helicopter/", title: "AW149 Helicopter", publisher: "Airforce Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.flightglobal.com/helicopters/egyptian-aw149-fleet-grows-with-late-2020-deliveries/142001.article", title: "Egyptian AW149 fleet grows with late-2020 deliveries", publisher: "FlightGlobal", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.shephardmedia.com/news/defence-helicopter/thai-army-puts-faith-leonardo/", title: "Thai army puts faith in Leonardo", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
