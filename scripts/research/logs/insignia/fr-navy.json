@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Commons API, no Anthropic API)",
+  "queries": [
+    "search categories: rank insignia French Navy",
+    "category: Military rank insignia of the French Navy",
+    "imageinfo: selected Grade * files, Galon de Mousse.png, Chevron matelot breveté.png, Grade Quartier maitre 2eme classe.svg",
+    "imageinfo: Grade Quartier maitre 1ere classe.svg, Grade Enseigne de vaisseau 2eme/1ere classe.svg"
+  ],
+  "matched": 20,
+  "unmatched": [
+    "fr-navy-matelot-brevete"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Commons API, no Anthropic API)",
+  "queries": [
+    "search categories: Bundeswehr rank insignia",
+    "search categories: rank insignia of the German Army",
+    "category: SVG military rank insignia of the Army (Bundeswehr) by scheme",
+    "category: SVG military rank insignia of the Army (Bundeswehr) (dress uniform)",
+    "category: SVG military rank insignia of the Army (Bundeswehr) (blank)",
+    "category: SVG military rank insignia of the Army (Bundeswehr) (black)",
+    "category: SVG military rank insignia of the Army (Bundeswehr) (white on olive)",
+    "imageinfo: selected HD H files",
+    "thumbnail check: HD H 33a Oberfähnrich HFlg.svg / LD B 33a Oberfähnrich.svg / MDS 13 Obergefreiter 30 L.svg thumbnails fail to render on Commons (HTTP 500 / failing image); left out"
+  ],
+  "matched": 28,
+  "unmatched": [
+    "de-army-oberfaehnrich"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Commons API, no Anthropic API)",
+  "queries": [
+    "search categories: rank insignia French Air Force",
+    "search categories: Armée de l'air et de l'espace insignia",
+    "category: Military rank insignia of the French Air and Space Force",
+    "imageinfo: selected French Air Force-* files",
+    "imageinfo: French Air Force-aviateur.svg, French Air Force-aviateur de première classe.svg"
+  ],
+  "matched": 20,
+  "unmatched": []
+}

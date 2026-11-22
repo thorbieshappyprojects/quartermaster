@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Commons API, no Anthropic API)",
+  "queries": [
+    "search categories: Bundeswehr rank insignia",
+    "category: SVG military rank insignia of the Navy (Bundeswehr) by scheme",
+    "category: SVG military rank insignia of the Navy (Bundeswehr) (blue)",
+    "category: SVG military rank insignia of the Navy (Bundeswehr) (dress uniform shoulders)",
+    "category: SVG military rank insignia of the Navy (Bundeswehr) (dress uniform arms)",
+    "imageinfo: selected MDS files",
+    "thumbnail check: HD H 33a Oberfähnrich HFlg.svg / LD B 33a Oberfähnrich.svg / MDS 13 Obergefreiter 30 L.svg thumbnails fail to render on Commons (HTTP 500 / failing image); left out"
+  ],
+  "matched": 28,
+  "unmatched": [
+    "de-navy-obergefreiter"
+  ]
+}

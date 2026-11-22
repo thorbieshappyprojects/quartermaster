@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Commons API, no Anthropic API)",
+  "queries": [
+    "search categories: rank insignia French Army",
+    "search categories: insignia Armée de terre grade",
+    "category: SVG military rank insignia of the French Army",
+    "category: Military rank insignia of the French Army",
+    "imageinfo: selected TERRE files",
+    "imageinfo: TERRE INF OR1 SDT1.png, OR4 CC1.png, OR6 SCH BM2.png (ranks added to the rank file during the session)"
+  ],
+  "matched": 22,
+  "unmatched": []
+}
