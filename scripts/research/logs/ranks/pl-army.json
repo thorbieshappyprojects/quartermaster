@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "stopnie wojskowe ustawa o obronie Ojczyzny art. 2 korpus podoficerów \"starszy plutonowy\" szeregowy kapral",
+    "\"starszy szeregowy specjalista\" kod NATO OR-3 OR-2",
+    "\"starszy szeregowy specjalista\" NATO \"OR-\" stopień",
+    "Polish Armed Forces military ranks English translation official \"starszy kapral\" \"senior corporal\" gov.pl",
+    "decyzja MON kody NATO stopni wojskowych STANAG 2116 OR-4 \"starszy kapral\" plutonowy"
+  ],
+  "urlsSeen": [
+    "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf",
+    "https://api.sejm.gov.pl/eli/acts/DU/2025/825/text.pdf",
+    "https://api.sejm.gov.pl/eli/acts/DU/2025/825",
+    "https://www.inforlex.pl/download/akty_pdf,U23,2017,40,139.pdf",
+    "https://lexlege.pl/obrona-ojczyzny/art-135/",
+    "https://www.gov.pl/attachment/7a57c563-cdcf-4119-8353-93f6b0db7042",
+    "https://en.wikipedia.org/wiki/Polish_Armed_Forces_rank_insignia",
+    "https://dziennikurzedowy.mon.gov.pl/DUM_MON/2017/139/akt.pdf (did not resolve)"
+  ]
+}

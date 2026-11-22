@@ -1,0 +1,37 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: us-navy
+country: US
+branch: navy
+force: United States Navy
+force_en: United States Navy
+note: Titles and NATO codes follow the US column of NATO APersP-01 (STANAG 2116, Ed. A V3); warrant officers W-1..W-5 are coded WO-1..WO-5 as in its US note. Enlisted grades are formally "rates". Command, Fleet and Force Master Chief are positions held by master chief petty officers and are not listed. Fleet Admiral (five-star, wartime only) is not listed; APersP-01 gives no US OF-10. Midshipmen are not a rank grade and are not listed.
+ranks:
+  - { id: us-navy-seaman-recruit, name: Seaman Recruit, name_en: Seaman Recruit, abbreviation: SR, code: OR-1, group: enlisted, note: "Pay grade E-1.", source: s2 }
+  - { id: us-navy-seaman-apprentice, name: Seaman Apprentice, name_en: Seaman Apprentice, abbreviation: SA, code: OR-2, group: enlisted, note: "Pay grade E-2.", source: s2 }
+  - { id: us-navy-seaman, name: Seaman, name_en: Seaman, abbreviation: SN, code: OR-3, group: enlisted, note: "Pay grade E-3.", source: s2 }
+  - { id: us-navy-petty-officer-third-class, name: Petty Officer Third Class, name_en: Petty Officer Third Class, abbreviation: PO3, code: OR-4, group: nco, note: "Pay grade E-4.", source: s2 }
+  - { id: us-navy-petty-officer-second-class, name: Petty Officer Second Class, name_en: Petty Officer Second Class, abbreviation: PO2, code: OR-5, group: nco, note: "Pay grade E-5.", source: s2 }
+  - { id: us-navy-petty-officer-first-class, name: Petty Officer First Class, name_en: Petty Officer First Class, abbreviation: PO1, code: OR-6, group: nco, note: "Pay grade E-6.", source: s2 }
+  - { id: us-navy-chief-petty-officer, name: Chief Petty Officer, name_en: Chief Petty Officer, abbreviation: CPO, code: OR-7, group: nco, note: "Pay grade E-7.", source: s2 }
+  - { id: us-navy-senior-chief-petty-officer, name: Senior Chief Petty Officer, name_en: Senior Chief Petty Officer, abbreviation: SCPO, code: OR-8, group: nco, note: "Pay grade E-8.", source: s2 }
+  - { id: us-navy-master-chief-petty-officer, name: Master Chief Petty Officer, name_en: Master Chief Petty Officer, abbreviation: MCPO, code: OR-9, group: nco, note: "Pay grade E-9.", source: s2 }
+  - { id: us-navy-master-chief-petty-officer-of-the-navy, name: Master Chief Petty Officer of the Navy, name_en: Master Chief Petty Officer of the Navy, abbreviation: MCPON, code: OR-9, group: nco, role: Senior enlisted leader of the Navy, note: "Held by one sailor; APersP-01 notes it cannot be considered for NATO position coding.", source: s1 }
+  - { id: us-navy-warrant-officer-1, name: Warrant Officer 1, name_en: Warrant Officer 1, code: WO-1, group: warrant, note: "Pay grade W-1; reintroduced in 2018 for cyber warrant officers (NAVADMIN 140/18) and since 2021 also for air vehicle pilots. APersP-01 Ed. A V3 still lists the Navy W-1 as no longer used.", source: s3 }
+  - { id: us-navy-chief-warrant-officer-2, name: Chief Warrant Officer 2, name_en: Chief Warrant Officer 2, code: WO-2, group: warrant, note: "Pay grade W-2.", source: s1 }
+  - { id: us-navy-chief-warrant-officer-3, name: Chief Warrant Officer 3, name_en: Chief Warrant Officer 3, code: WO-3, group: warrant, note: "Pay grade W-3.", source: s1 }
+  - { id: us-navy-chief-warrant-officer-4, name: Chief Warrant Officer 4, name_en: Chief Warrant Officer 4, code: WO-4, group: warrant, note: "Pay grade W-4.", source: s1 }
+  - { id: us-navy-chief-warrant-officer-5, name: Chief Warrant Officer 5, name_en: Chief Warrant Officer 5, code: WO-5, group: warrant, note: "Pay grade W-5.", source: s1 }
+  - { id: us-navy-ensign, name: Ensign, name_en: Ensign, code: OF-1, group: officer, note: "Pay grade O-1.", source: s1 }
+  - { id: us-navy-lieutenant-junior-grade, name: Lieutenant Junior Grade, name_en: Lieutenant Junior Grade, code: OF-1, group: officer, note: "Pay grade O-2.", source: s1 }
+  - { id: us-navy-lieutenant, name: Lieutenant, name_en: Lieutenant, code: OF-2, group: officer, note: "Pay grade O-3.", source: s1 }
+  - { id: us-navy-lieutenant-commander, name: Lieutenant Commander, name_en: Lieutenant Commander, code: OF-3, group: officer, note: "Pay grade O-4.", source: s1 }
+  - { id: us-navy-commander, name: Commander, name_en: Commander, code: OF-4, group: officer, note: "Pay grade O-5.", source: s1 }
+  - { id: us-navy-captain, name: Captain, name_en: Captain, code: OF-5, group: officer, note: "Pay grade O-6.", source: s1 }
+  - { id: us-navy-rear-admiral-lower-half, name: Rear Admiral (lower half), name_en: Rear Admiral (lower half), code: OF-6, group: general_flag, note: "Pay grade O-7.", source: s1 }
+  - { id: us-navy-rear-admiral-upper-half, name: Rear Admiral (upper half), name_en: Rear Admiral (upper half), code: OF-7, group: general_flag, note: "Pay grade O-8; usually just 'Rear Admiral'.", source: s1 }
+  - { id: us-navy-vice-admiral, name: Vice Admiral, name_en: Vice Admiral, code: OF-8, group: general_flag, note: "Pay grade O-9.", source: s1 }
+  - { id: us-navy-admiral, name: Admiral, name_en: Admiral, code: OF-9, group: general_flag, note: "Pay grade O-10.", source: s1 }
+sources:
+  - { id: s1, url: "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf", title: "APersP-01 NATO Codes for Grades of Military Personnel, Edition A Version 3 (Annexes B and E, USA)", publisher: NATO Standardization Office, retrieved: 2026-11-22, kind: government, note: "Third-party copy of the NATO standard that implements STANAG 2116." }
+  - { id: s2, url: "https://www.studyguides.af.mil/Portals/15/documents/rank_ribbons/Enlisted%20Rank%20Insignia%20of%20the%20United%20States%20Armed%20Forces.pdf", title: Enlisted Rank Insignia of the United States Armed Forces, publisher: U.S. Air Force (Air Force Studyguides), retrieved: 2026-11-22, kind: government, note: "Navy columns; content read through web search excerpts (.mil hosts did not resolve from this session)." }
+  - { id: s3, url: "https://www.mynavyhr.navy.mil/Portals/55/Career/OCM/Active/LDOCWO/LDO_CWO%20GUIDEBOOK_JANUARY_2024.pdf", title: "The Limited Duty Officer, Chief Warrant Officer and Warrant Officer Guidebook (January 2024)", publisher: "MyNavy HR, U.S. Navy", retrieved: 2026-11-22, kind: government, note: "Content read through web search excerpts." }

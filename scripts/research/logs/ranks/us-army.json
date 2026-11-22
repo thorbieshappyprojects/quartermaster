@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "army.mil ranks enlisted warrant officer officer pay grade abbreviation",
+    "U.S. Army Ranks enlisted Private PV1 PV2 PFC SPC CPL SGT SSG SFC MSG 1SG SGM CSM SMA",
+    "army.mil/ranks Warrant Officer 1 WO1 Chief Warrant Officer CW5 Second Lieutenant 2LT Brigadier General BG General GEN",
+    "AR 600-20 table 1-1 rank grade abbreviation 2LT 1LT CPT MAJ LTC COL BG MG LTG GEN pay grade O-1",
+    "AR 600-20 table 1-1 enlisted PV1 PV2 PFC SPC CPL SGT SSG SFC MSG 1SG SGM CSM SMA warrant WO1 CW2 CW5",
+    "goarmy.com army ranks enlisted officer warrant officer"
+  ],
+  "urlsSeen": [
+    "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf",
+    "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46266-AR_600-20-000-WEB-1.pdf",
+    "https://api.army.mil/e2/c/downloads/399376.pdf",
+    "https://recruiting.army.mil/Portals/15/WORC_SlideDeck_12JUN24b.pdf",
+    "https://www.goarmy.com/about/ranks-and-insignia/ranks.html (404)",
+    "https://www.defense.gov/Resources/Insignia/ (403)",
+    "https://www.army.mil/ranks/ (did not resolve)",
+    "https://www.mirecc.va.gov/docs/visn6/7_us_military_ranks.pdf"
+  ]
+}

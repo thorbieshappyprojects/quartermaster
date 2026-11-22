@@ -1,0 +1,35 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: pl-navy
+country: PL
+branch: navy
+force: Marynarka Wojenna
+force_en: Polish Navy
+note: Rank names follow Art. 135(3) of the Homeland Defence Act (consolidated text Dz.U. 2025 poz. 825). NATO codes follow the Polish column of NATO APersP-01 (STANAG 2116, Ed. A V3), which has no Polish OR-7 and no OF-D. English names are the official translations set by Decision No. 133/MON (2017). "Podchorąży" (officer cadet at a military university) is a title used with the holder's rank, not a rank, and is not listed.
+ranks:
+  - { id: pl-navy-marynarz, name: Marynarz, name_en: Seaman Recruit, code: OR-1, group: enlisted, source: s2 }
+  - { id: pl-navy-starszy-marynarz, name: Starszy marynarz, name_en: Seaman, code: OR-1, group: enlisted, note: "APersP-01 places it at OR-1 together with marynarz.", source: s2 }
+  - { id: pl-navy-starszy-marynarz-specjalista, name: Starszy marynarz specjalista, name_en: Senior seaman specialist, code: OR-1, approximate: true, group: enlisted, note: "Introduced by the 2022 Homeland Defence Act as the senior enlisted rank; not in APersP-01 Ed. A V3 and no official English name found (literal translation). Placed with the other enlisted ranks at OR-1, below mat (OR-2).", source: s1 }
+  - { id: pl-navy-mat, name: Mat, name_en: Petty Officer 3rd Class, code: OR-2, group: nco, note: "Junior NCO (podoficer młodszy) under Polish law, although APersP-01 codes it OR-2.", source: s2 }
+  - { id: pl-navy-starszy-mat, name: Starszy mat, name_en: Petty Officer 2nd Class, code: OR-3, group: nco, note: "APersP-01 Ed. A V3 gives OR-3; some references give OR-4.", source: s2 }
+  - { id: pl-navy-bosmanmat, name: Bosmanmat, name_en: Petty Officer 1st Class, code: OR-3, group: nco, source: s2 }
+  - { id: pl-navy-bosman, name: Bosman, name_en: Chief Petty Officer, code: OR-4, group: nco, source: s2 }
+  - { id: pl-navy-starszy-bosman, name: Starszy bosman, name_en: Senior Chief Petty Officer, code: OR-5, group: nco, source: s2 }
+  - { id: pl-navy-mlodszy-chorazy-marynarki, name: Młodszy chorąży marynarki, name_en: Junior Warrant Officer, code: OR-6, group: nco, note: "Highest junior NCO rank; chorąży ranks are NCOs in Poland, not a separate warrant officer category.", source: s2 }
+  - { id: pl-navy-chorazy-marynarki, name: Chorąży marynarki, name_en: Warrant Officer, code: OR-8, group: nco, note: "Senior NCO (podoficer starszy).", source: s2 }
+  - { id: pl-navy-starszy-chorazy-marynarki, name: Starszy chorąży marynarki, name_en: Senior Warrant Officer, code: OR-9, group: nco, source: s2 }
+  - { id: pl-navy-starszy-chorazy-sztabowy-marynarki, name: Starszy chorąży sztabowy marynarki, name_en: Senior Staff Warrant Officer, code: OR-9, group: nco, note: "Highest NCO rank.", source: s2 }
+  - { id: pl-navy-podporucznik-marynarki, name: Podporucznik marynarki, name_en: Ensign, code: OF-1, group: officer, source: s2 }
+  - { id: pl-navy-porucznik-marynarki, name: Porucznik marynarki, name_en: Sub-Lieutenant, code: OF-1, group: officer, source: s2 }
+  - { id: pl-navy-kapitan-marynarki, name: Kapitan marynarki, name_en: Lieutenant, code: OF-2, group: officer, source: s2 }
+  - { id: pl-navy-komandor-podporucznik, name: Komandor podporucznik, name_en: Lieutenant Commander, code: OF-3, group: officer, source: s2 }
+  - { id: pl-navy-komandor-porucznik, name: Komandor porucznik, name_en: Commander, code: OF-4, group: officer, source: s2 }
+  - { id: pl-navy-komandor, name: Komandor, name_en: Captain (N), code: OF-5, group: officer, source: s2 }
+  - { id: pl-navy-kontradmiral, name: Kontradmirał, name_en: Rear-Admiral, code: OF-6, group: general_flag, source: s2 }
+  - { id: pl-navy-wiceadmiral, name: Wiceadmirał, name_en: Vice-Admiral, code: OF-7, group: general_flag, source: s2 }
+  - { id: pl-navy-admiral-floty, name: Admirał floty, name_en: Fleet Admiral, code: OF-8, group: general_flag, note: "Ranks below admirał, unlike the English 'fleet admiral'.", source: s2 }
+  - { id: pl-navy-admiral, name: Admirał, name_en: Admiral, code: OF-9, group: general_flag, source: s2 }
+  - { id: pl-navy-marszalek-polski, name: Marszałek Polski, name_en: Marshal of Poland, code: OF-10, group: general_flag, note: "The highest military rank under Art. 135(4) of the Homeland Defence Act, common to all services; APersP-01 lists it at OF-10 in the Navy table.", source: s3 }
+sources:
+  - { id: s1, url: "https://api.sejm.gov.pl/eli/acts/DU/2025/825/text.pdf", title: "Obwieszczenie Marszałka Sejmu w sprawie ogłoszenia jednolitego tekstu ustawy o obronie Ojczyzny (Dz.U. 2025 poz. 825), Art. 135", publisher: Sejm Rzeczypospolitej Polskiej, retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf", title: "APersP-01 NATO Codes for Grades of Military Personnel, Edition A Version 3 (Annexes B and E, POL)", publisher: NATO Standardization Office, retrieved: 2026-11-22, kind: government, note: "Third-party copy of the NATO standard that implements STANAG 2116." }
+  - { id: s3, url: "https://www.inforlex.pl/download/akty_pdf,U23,2017,40,139.pdf", title: "Decyzja Nr 133/MON w sprawie tłumaczenia na język angielski nazw stopni wojskowych (Dz.Urz. MON 2017 poz. 139)", publisher: Ministerstwo Obrony Narodowej, retrieved: 2026-11-22, kind: government, note: "Third-party copy of the Official Journal of the Ministry of National Defence; English rank names used on ID cards." }

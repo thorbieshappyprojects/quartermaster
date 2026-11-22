@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Navy ranks Seaman Recruit SR Seaman Apprentice SA Seaman SN Petty Officer Third Class PO3 Chief Petty Officer CPO Master Chief MCPO MCPON Chief Warrant Officer CWO2 Ensign ENS RDML",
+    "\"Rank Insignia of the United States Armed Forces\" enlisted Navy Coast Guard SR SA SN PO3 PO2 PO1 CPO SCPO MCPO MCPON",
+    "Navy \"Warrant Officer 1\" W-1 reestablished cyber warrant officer 784X first WO1"
+  ],
+  "urlsSeen": [
+    "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf",
+    "https://www.studyguides.af.mil/Portals/15/documents/rank_ribbons/Enlisted%20Rank%20Insignia%20of%20the%20United%20States%20Armed%20Forces.pdf",
+    "https://www.mynavyhr.navy.mil/Portals/55/Career/OCM/Active/LDOCWO/LDO_CWO%20GUIDEBOOK_JANUARY_2024.pdf",
+    "https://www.mynavyhr.navy.mil/Portals/55/Career/OCM/Active/LDOCWO/LDO_CWO%20GUIDEBOOK_CHAPTER_1_JUNE_2023.pdf",
+    "https://www.af.mil/Portals/1/documents/airman_archive/The%20Book%202009.pdf",
+    "https://www.navy.mil/Resources/Navy-Ranks/ (did not resolve)",
+    "https://www.defense.gov/Resources/Insignia/ (403)",
+    "https://www.army.mil/ranks/ (did not resolve)",
+    "https://www.mirecc.va.gov/docs/visn6/7_us_military_ranks.pdf"
+  ]
+}

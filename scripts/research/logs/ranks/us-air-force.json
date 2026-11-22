@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Air Force warrant officer reintroduced first class graduates Warrant Officer 1 cyber IT af.mil",
+    "Air Force warrant officer grades WO1 CW2 CW3 CW4 CW5 rank insignia Department of the Air Force",
+    "Air Force enlisted ranks Airman Basic AB Amn A1C SrA SSgt TSgt MSgt SMSgt CMSgt CMSAF first sergeant command chief",
+    "Air Force officer ranks Second Lieutenant 2nd Lt First Lieutenant Captain Capt Major Maj Lieutenant Colonel Lt Col Colonel Col Brigadier General Brig Gen General"
+  ],
+  "urlsSeen": [
+    "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf",
+    "https://www.af.mil/About-Us/The-Book/Enlisted-Ranks/",
+    "https://www.afrc.af.mil/Portals/87/documents/PDC/afh36-2618.pdf",
+    "https://www.studyguides.af.mil/Portals/15/documents/rank_ribbons/Officer%20Rank%20Insignia%20of%20the%20United%20States%20Armed%20Forces.pdf",
+    "https://static.e-publishing.af.mil/production/1/af_a1/publication/afgm2026-36-2033/afgm2026-36-2033.pdf",
+    "https://www.af.mil/News/Article-Display/Article/3987738/first-air-force-warrant-officers-graduate-prepare-to-enter-force/",
+    "https://www.scott.af.mil/News/Article/4032317/scott-welcomes-its-first-usaf-warrant-officers-in-66-years/",
+    "https://www.airforce.com/ranks (404)",
+    "https://www.defense.gov/Resources/Insignia/ (403)",
+    "https://www.army.mil/ranks/ (did not resolve)",
+    "https://www.mirecc.va.gov/docs/visn6/7_us_military_ranks.pdf"
+  ]
+}

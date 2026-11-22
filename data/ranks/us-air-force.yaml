@@ -1,0 +1,38 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: us-air-force
+country: US
+branch: air_force
+force: United States Air Force
+force_en: United States Air Force
+note: NATO codes follow the US column of NATO APersP-01 (STANAG 2116, Ed. A V3). That edition predates the return of Air Force warrant officers (first class graduated December 2024); their grades W-1..W-5 are coded WO-1..WO-5 as for the other US services. First Sergeant and Command Chief Master Sergeant are duty positions held by master, senior master or chief master sergeants and are not listed. General of the Air Force (five-star, wartime only) is not listed; APersP-01 gives no US OF-10.
+ranks:
+  - { id: us-air-force-airman-basic, name: Airman Basic, name_en: Airman Basic, abbreviation: AB, code: OR-1, group: enlisted, note: "Pay grade E-1.", source: s2 }
+  - { id: us-air-force-airman, name: Airman, name_en: Airman, abbreviation: Amn, code: OR-2, group: enlisted, note: "Pay grade E-2.", source: s2 }
+  - { id: us-air-force-airman-first-class, name: Airman First Class, name_en: Airman First Class, abbreviation: A1C, code: OR-3, group: enlisted, note: "Pay grade E-3.", source: s2 }
+  - { id: us-air-force-senior-airman, name: Senior Airman, name_en: Senior Airman, abbreviation: SrA, code: OR-4, group: enlisted, note: "Pay grade E-4, the last junior enlisted tier rank.", source: s2 }
+  - { id: us-air-force-staff-sergeant, name: Staff Sergeant, name_en: Staff Sergeant, abbreviation: SSgt, code: OR-5, group: nco, note: "Pay grade E-5.", source: s2 }
+  - { id: us-air-force-technical-sergeant, name: Technical Sergeant, name_en: Technical Sergeant, abbreviation: TSgt, code: OR-6, group: nco, note: "Pay grade E-6.", source: s2 }
+  - { id: us-air-force-master-sergeant, name: Master Sergeant, name_en: Master Sergeant, abbreviation: MSgt, code: OR-7, group: nco, note: "Pay grade E-7, first senior NCO rank.", source: s2 }
+  - { id: us-air-force-senior-master-sergeant, name: Senior Master Sergeant, name_en: Senior Master Sergeant, abbreviation: SMSgt, code: OR-8, group: nco, note: "Pay grade E-8.", source: s2 }
+  - { id: us-air-force-chief-master-sergeant, name: Chief Master Sergeant, name_en: Chief Master Sergeant, abbreviation: CMSgt, code: OR-9, group: nco, note: "Pay grade E-9.", source: s2 }
+  - { id: us-air-force-chief-master-sergeant-of-the-air-force, name: Chief Master Sergeant of the Air Force, name_en: Chief Master Sergeant of the Air Force, abbreviation: CMSAF, code: OR-9, group: nco, role: Highest enlisted leader of the Air Force, note: "A distinctive rank and duty position held by one airman; APersP-01 notes it cannot be considered for NATO position coding.", source: s1 }
+  - { id: us-air-force-warrant-officer-1, name: Warrant Officer 1, name_en: Warrant Officer 1, abbreviation: WO1, code: WO-1, approximate: true, group: warrant, note: "Pay grade W-1, appointed by warrant; reintroduced 2024 for cyber and IT specialties. Not in APersP-01 Ed. A V3, which lists no Air Force warrant officers.", source: s4 }
+  - { id: us-air-force-chief-warrant-officer-2, name: Chief Warrant Officer 2, name_en: Chief Warrant Officer 2, abbreviation: CW2, code: WO-2, approximate: true, group: warrant, note: "Pay grade W-2; chief warrant officers (W-2 to W-5) are appointed by commission.", source: s4 }
+  - { id: us-air-force-chief-warrant-officer-3, name: Chief Warrant Officer 3, name_en: Chief Warrant Officer 3, abbreviation: CW3, code: WO-3, approximate: true, group: warrant, note: "Pay grade W-3.", source: s4 }
+  - { id: us-air-force-chief-warrant-officer-4, name: Chief Warrant Officer 4, name_en: Chief Warrant Officer 4, abbreviation: CW4, code: WO-4, approximate: true, group: warrant, note: "Pay grade W-4.", source: s4 }
+  - { id: us-air-force-chief-warrant-officer-5, name: Chief Warrant Officer 5, name_en: Chief Warrant Officer 5, abbreviation: CW5, code: WO-5, approximate: true, group: warrant, note: "Pay grade W-5.", source: s4 }
+  - { id: us-air-force-second-lieutenant, name: Second Lieutenant, name_en: Second Lieutenant, abbreviation: 2d Lt, code: OF-1, group: officer, note: "Pay grade O-1.", source: s3 }
+  - { id: us-air-force-first-lieutenant, name: First Lieutenant, name_en: First Lieutenant, abbreviation: 1st Lt, code: OF-1, group: officer, note: "Pay grade O-2.", source: s3 }
+  - { id: us-air-force-captain, name: Captain, name_en: Captain, abbreviation: Capt, code: OF-2, group: officer, note: "Pay grade O-3.", source: s3 }
+  - { id: us-air-force-major, name: Major, name_en: Major, abbreviation: Maj, code: OF-3, group: officer, note: "Pay grade O-4.", source: s3 }
+  - { id: us-air-force-lieutenant-colonel, name: Lieutenant Colonel, name_en: Lieutenant Colonel, abbreviation: Lt Col, code: OF-4, group: officer, note: "Pay grade O-5.", source: s3 }
+  - { id: us-air-force-colonel, name: Colonel, name_en: Colonel, abbreviation: Col, code: OF-5, group: officer, note: "Pay grade O-6.", source: s3 }
+  - { id: us-air-force-brigadier-general, name: Brigadier General, name_en: Brigadier General, abbreviation: Brig Gen, code: OF-6, group: general_flag, note: "Pay grade O-7.", source: s3 }
+  - { id: us-air-force-major-general, name: Major General, name_en: Major General, abbreviation: Maj Gen, code: OF-7, group: general_flag, note: "Pay grade O-8.", source: s3 }
+  - { id: us-air-force-lieutenant-general, name: Lieutenant General, name_en: Lieutenant General, abbreviation: Lt Gen, code: OF-8, group: general_flag, note: "Pay grade O-9.", source: s3 }
+  - { id: us-air-force-general, name: General, name_en: General, abbreviation: Gen, code: OF-9, group: general_flag, note: "Pay grade O-10.", source: s3 }
+sources:
+  - { id: s1, url: "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf", title: "APersP-01 NATO Codes for Grades of Military Personnel, Edition A Version 3 (Annexes C and F, USA)", publisher: NATO Standardization Office, retrieved: 2026-11-22, kind: government, note: "Third-party copy of the NATO standard that implements STANAG 2116." }
+  - { id: s2, url: "https://www.af.mil/About-Us/The-Book/Enlisted-Ranks/", title: Enlisted Ranks (The Book), publisher: U.S. Air Force, retrieved: 2026-11-22, kind: government, note: "With Air Force Handbook 36-2618 (The Enlisted Force Structure) for tiers and abbreviations; af.mil did not resolve from this session, content read through web search excerpts." }
+  - { id: s3, url: "https://www.studyguides.af.mil/Portals/15/documents/rank_ribbons/Officer%20Rank%20Insignia%20of%20the%20United%20States%20Armed%20Forces.pdf", title: Officer Rank Insignia of the United States Armed Forces, publisher: U.S. Air Force (Air Force Studyguides), retrieved: 2026-11-22, kind: government, note: "Content read through web search excerpts." }
+  - { id: s4, url: "https://static.e-publishing.af.mil/production/1/af_a1/publication/afgm2026-36-2033/afgm2026-36-2033.pdf", title: "AFGM 2026-36-2033 (warrant officer appointments, W-1/WO1 through W-5/CW5)", publisher: Department of the Air Force, retrieved: 2026-11-22, kind: government, note: "Content read through web search excerpts; first class of reintroduced warrant officers graduated 6 Dec 2024 (af.mil news)." }
