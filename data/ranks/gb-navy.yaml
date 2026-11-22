@@ -1,0 +1,26 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: gb-navy
+country: GB
+branch: navy
+force: Royal Navy
+force_en: Royal Navy
+note: "Names and NATO codes from the King's Regulations for the Royal Navy (October 2025): the order of rates in article 0361 and Table 3-1, whose code column applies to the Royal Navy. name_en repeats the English rank name. The older APersP-01 (2022) still lists no Royal Navy OR-8 and a Junior Rating at OR-1; the newer national regulations are followed. Admiral of the Fleet (OF-10) is left out: APersP-01 lists it as applicable in wartime only. Royal Marines (part of the Naval Service) use army-style ranks and are not listed."
+ranks:
+  - { id: gb-navy-able-rating, name: Able Rating, name_en: Able Rating, code: OR-2, group: enlisted, note: "Entry rate.", source: s1 }
+  - { id: gb-navy-leading-rating, name: Leading Rating, name_en: Leading Rating, code: OR-4, group: nco, note: "Table 3-1 calls it Leading Hand.", source: s1 }
+  - { id: gb-navy-petty-officer, name: Petty Officer, name_en: Petty Officer, code: OR-6, group: nco, source: s1 }
+  - { id: gb-navy-chief-petty-officer, name: Chief Petty Officer, name_en: Chief Petty Officer, code: OR-7, group: nco, source: s1 }
+  - { id: gb-navy-warrant-officer-2, name: Warrant Officer 2, name_en: Warrant Officer 2, code: OR-8, group: warrant, note: "Table 3-1 writes Warrant Officer, Class 2.", source: s1 }
+  - { id: gb-navy-warrant-officer-1, name: Warrant Officer 1, name_en: Warrant Officer 1, code: OR-9, group: warrant, note: "Highest rate of the ratings.", source: s1 }
+  - { id: gb-navy-midshipman, name: Midshipman, name_en: Midshipman, code: OF-1, group: officer_cadet, note: "A subordinate officer under the King's Regulations; graded OF-1 in Table 3-1.", source: s1 }
+  - { id: gb-navy-sub-lieutenant, name: Sub-Lieutenant, name_en: Sub-Lieutenant, code: OF-1, group: officer, source: s1 }
+  - { id: gb-navy-lieutenant, name: Lieutenant, name_en: Lieutenant, code: OF-2, group: officer, source: s1 }
+  - { id: gb-navy-lieutenant-commander, name: Lieutenant-Commander, name_en: Lieutenant-Commander, code: OF-3, group: officer, source: s1 }
+  - { id: gb-navy-commander, name: Commander, name_en: Commander, code: OF-4, group: officer, source: s1 }
+  - { id: gb-navy-captain, name: Captain, name_en: Captain, code: OF-5, group: officer, source: s1 }
+  - { id: gb-navy-commodore, name: Commodore, name_en: Commodore, code: OF-6, group: general_flag, source: s1 }
+  - { id: gb-navy-rear-admiral, name: Rear-Admiral, name_en: Rear-Admiral, code: OF-7, group: general_flag, source: s1 }
+  - { id: gb-navy-vice-admiral, name: Vice-Admiral, name_en: Vice-Admiral, code: OF-8, group: general_flag, source: s1 }
+  - { id: gb-navy-admiral, name: Admiral, name_en: Admiral, code: OF-9, group: general_flag, note: "Highest rank held in active service.", source: s1 }
+sources:
+  - { id: s1, url: "https://sccd.royalnavy.mod.uk/-/media/rnweb/footer-pages-documents-and-images/brd_2.pdf", title: "The King's Regulations for the Royal Navy (BRd 2), October 2025 Version 1, article 0361 and Table 3-1", publisher: Royal Navy, retrieved: 2026-11-22, kind: government, note: "Read from the Internet Archive snapshot of 3 November 2026; the live site refuses automated requests." }

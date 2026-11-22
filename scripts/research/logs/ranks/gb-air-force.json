@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "army.mod.uk ranks British Army private lance corporal warrant officer class 1 field marshal",
+    "gov.uk armed forces ranks table OF OR NATO codes Royal Navy Army RAF equivalent ranks Air Specialist Warrant Officer Class 2",
+    "\"Key to rank codes\" 2024 OR 2025 tri-service pension codes gov.uk",
+    "raf.mod.uk ranks Air Recruit Air Specialist Class 1 Class 2 Corporal Sergeant Flight Sergeant",
+    "RAF \"Air Recruit\" \"Air Specialist (Class 2)\" rank titles change 2022 announcement",
+    "\"Air Specialist\" \"Senior Aircraftman\" renamed RAF 2022 rank titles inclusive \"Air Recruit\" site:raf.mod.uk OR site:gov.uk OR site:forcesnews.com"
+  ],
+  "urlsSeen": [
+    "https://www.raf.mod.uk/our-organisation/raf-ranks/ (HTTP 403; read via http://web.archive.org/web/20261107234729/...)",
+    "https://recruitment.raf.mod.uk/career-progression (HTTP 403; read via http://web.archive.org/web/20260731215534/...)",
+    "https://sccd.royalnavy.mod.uk/-/media/rnweb/footer-pages-documents-and-images/brd_2.pdf (via http://web.archive.org/web/20261103195325/...)",
+    "https://www.legislation.gov.uk/ukpga/2006/52/notes/annex/2",
+    "https://assets.publishing.service.gov.uk/media/6a7d8b1a24cc3b8ca3fd98c8/Key_to_rank_codes_April_2026.ods",
+    "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf",
+    "https://en.wikipedia.org/wiki/Air_specialist (pointer only)",
+    "https://forum.aircadetcentral.net/t/new-air-force-ranks/10822 (not used)"
+  ]
+}

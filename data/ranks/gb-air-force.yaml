@@ -1,0 +1,34 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: gb-air-force
+country: GB
+branch: air_force
+force: Royal Air Force
+force_en: Royal Air Force
+note: "Rank names follow the RAF's ranks page and recruitment site; name_en repeats the English rank name. NATO codes come from Table 3-1 (corresponding ranks of the three services) of the King's Regulations for the Royal Navy, October 2025. That table still uses the RAF's older junior titles, so the codes of the current junior ranks are marked approximate. The RAF has no OR-8 rank. Marshal of the Royal Air Force (OF-10) is left out: APersP-01 lists it as applicable in wartime only. Sergeant Aircrew and Flight Sergeant Aircrew are aircrew forms of Sergeant and Flight Sergeant and are not listed separately."
+ranks:
+  - { id: gb-air-force-air-recruit, name: Air Recruit, name_en: Air Recruit, abbreviation: AR, code: OR-1, approximate: true, group: enlisted, note: "Entry rank. No NATO code published for this title; placed at OR-1, the code the King's Regulations table gives the lowest RAF rank (Aircraftman/woman).", source: s2 }
+  - { id: gb-air-force-air-specialist-class-2, name: Air Specialist (Class 2), name_en: Air Specialist (Class 2), abbreviation: AS2, code: OR-2, approximate: true, group: enlisted, note: "No NATO code published for this title; the RAF ranks between Aircraftman and Corporal in the King's Regulations table are all OR-2.", source: s2 }
+  - { id: gb-air-force-air-specialist-class-1, name: Air Specialist (Class 1), name_en: Air Specialist (Class 1), abbreviation: AS1, code: OR-2, approximate: true, group: enlisted, note: "No NATO code published for this title; the RAF ranks between Aircraftman and Corporal in the King's Regulations table are all OR-2.", source: s2 }
+  - { id: gb-air-force-air-specialist-class-1-technician, name: Air Specialist (Class 1) Technician, name_en: Air Specialist (Class 1) Technician, abbreviation: AS1(T), code: OR-2, approximate: true, group: enlisted, note: "Technical roles only. No NATO code published for this title; placed at OR-2 like the other ranks below Corporal.", source: s2 }
+  - { id: gb-air-force-lance-corporal, name: Lance Corporal, name_en: Lance Corporal, code: OR-3, approximate: true, group: nco, note: "RAF Regiment gunners only. Not in the King's Regulations table; OR-3 as for the Army's Lance Corporal.", source: s1 }
+  - { id: gb-air-force-corporal, name: Corporal, name_en: Corporal, code: OR-4, group: nco, source: s3 }
+  - { id: gb-air-force-sergeant, name: Sergeant, name_en: Sergeant, code: OR-6, group: nco, note: "APersP-01 lists Sergeant at OR-5 and OR-6; the King's Regulations and the MOD pension key give OR-6.", source: s3 }
+  - { id: gb-air-force-chief-technician, name: Chief Technician, name_en: Chief Technician, code: OR-7, group: nco, note: "Technical trades only; ranks below Flight Sergeant.", source: s3 }
+  - { id: gb-air-force-flight-sergeant, name: Flight Sergeant, name_en: Flight Sergeant, code: OR-7, group: nco, source: s3 }
+  - { id: gb-air-force-warrant-officer, name: Warrant Officer, name_en: Warrant Officer, code: OR-9, group: warrant, note: "Most senior non-commissioned rank.", source: s3 }
+  - { id: gb-air-force-master-aircrew, name: Master Aircrew, name_en: Master Aircrew, code: OR-9, group: warrant, note: "Non-commissioned aircrew equivalent of Warrant Officer (Master Engineer, Master Signaller, Master Air Electronics Operator, Master Air Loadmaster).", source: s3 }
+  - { id: gb-air-force-acting-pilot-officer, name: Acting Pilot Officer, name_en: Acting Pilot Officer, code: OF-1, group: officer, note: "Junior to Second Lieutenant; not shown on the RAF ranks page.", source: s3 }
+  - { id: gb-air-force-pilot-officer, name: Pilot Officer, name_en: Pilot Officer, code: OF-1, group: officer, source: s3 }
+  - { id: gb-air-force-flying-officer, name: Flying Officer, name_en: Flying Officer, code: OF-1, group: officer, source: s3 }
+  - { id: gb-air-force-flight-lieutenant, name: Flight Lieutenant, name_en: Flight Lieutenant, code: OF-2, group: officer, source: s3 }
+  - { id: gb-air-force-squadron-leader, name: Squadron Leader, name_en: Squadron Leader, code: OF-3, group: officer, source: s3 }
+  - { id: gb-air-force-wing-commander, name: Wing Commander, name_en: Wing Commander, code: OF-4, group: officer, source: s3 }
+  - { id: gb-air-force-group-captain, name: Group Captain, name_en: Group Captain, code: OF-5, group: officer, source: s3 }
+  - { id: gb-air-force-air-commodore, name: Air Commodore, name_en: Air Commodore, code: OF-6, group: general_flag, source: s3 }
+  - { id: gb-air-force-air-vice-marshal, name: Air Vice-Marshal, name_en: Air Vice-Marshal, code: OF-7, group: general_flag, source: s3 }
+  - { id: gb-air-force-air-marshal, name: Air Marshal, name_en: Air Marshal, code: OF-8, group: general_flag, source: s3 }
+  - { id: gb-air-force-air-chief-marshal, name: Air Chief Marshal, name_en: Air Chief Marshal, code: OF-9, group: general_flag, note: "Highest rank held in active service.", source: s3 }
+sources:
+  - { id: s1, url: "https://www.raf.mod.uk/our-organisation/raf-ranks/", title: RAF Ranks, publisher: Royal Air Force, retrieved: 2026-11-22, kind: government, note: "Read from the Internet Archive snapshot of 7 November 2026; the live site refuses automated requests." }
+  - { id: s2, url: "https://recruitment.raf.mod.uk/career-progression", title: Career progression, publisher: Royal Air Force, retrieved: 2026-11-22, kind: government, note: "Read from the Internet Archive snapshot of 31 July 2026." }
+  - { id: s3, url: "https://sccd.royalnavy.mod.uk/-/media/rnweb/footer-pages-documents-and-images/brd_2.pdf", title: "The King's Regulations for the Royal Navy (BRd 2), October 2025 Version 1, Table 3-1", publisher: Royal Navy, retrieved: 2026-11-22, kind: government, note: "Read from the Internet Archive snapshot of 3 November 2026." }

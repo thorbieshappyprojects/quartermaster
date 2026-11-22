@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "defensie.nl rangen en onderscheidingstekens landmacht soldaat korporaal sergeant adjudant vaandrig"
+  ],
+  "urlsSeen": [
+    "https://www.defensie.nl/onderwerpen/r/rangen-van-de-krijgsmacht",
+    "https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/2f459937-a4b2-4da2-9a3f-bb3acd9ee7fa",
+    "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf",
+    "https://www.defensie.nl/binaries/defensie/documenten/richtlijnen/2019/03/26/tenuevoorschriften-luchtmacht/BA+20190326+Handboek+Tenuen_tenue+clsk.pdf (not opened)"
+  ]
+}

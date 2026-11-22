@@ -1,0 +1,28 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: nl-navy
+country: NL
+branch: navy
+force: Koninklijke Marine
+force_en: Royal Netherlands Navy
+note: "Fleet ranks. Names and order follow the Ministry of Defence rank brochure; NATO codes follow the NLD column of NATO APersP-01 (STANAG 2116, Ed. A V3, June 2022). English names are usual equivalents, not official titles. Where APersP-01 spreads one rank over two codes, the lower code is used and the rank note says so. The Korps Mariniers (marines) is part of the navy but uses army-style ranks with the suffix 'der mariniers' (e.g. marinier der 1e klasse, kapitein der mariniers); they are not listed separately. Officer cadets (adelborsten) are not shown in the brochure or APersP-01 and are left out."
+ranks:
+  - { id: nl-navy-matroos-der-3e-klasse, name: Matroos der 3e klasse, name_en: Seaman 3rd class, code: OR-1, group: enlisted, source: s2 }
+  - { id: nl-navy-matroos-der-2e-klasse, name: Matroos der 2e klasse, name_en: Seaman 2nd class, code: OR-2, group: enlisted, note: "APersP-01 places 2nd and 1st class together at OR-2; order from the brochure.", source: s1 }
+  - { id: nl-navy-matroos-der-1e-klasse, name: Matroos der 1e klasse, name_en: Seaman 1st class, code: OR-2, group: enlisted, note: "APersP-01 places 2nd and 1st class together at OR-2; order from the brochure.", source: s1 }
+  - { id: nl-navy-korporaal, name: Korporaal, name_en: Corporal, code: OR-3, group: nco, note: "APersP-01 spreads it over OR-3 and OR-4. In the navy a korporaal counts as an onderofficier (brochure); addressed as kwartiermeester in the nautical service.", source: s2 }
+  - { id: nl-navy-sergeant, name: Sergeant, name_en: Petty officer, code: OR-5, group: nco, note: "APersP-01 spreads it over OR-5 and OR-6. Addressed as bootsman in the nautical service.", source: s2 }
+  - { id: nl-navy-sergeant-majoor, name: Sergeant-majoor, name_en: Chief petty officer, code: OR-7, group: nco, note: "Addressed as schipper in the nautical service.", source: s2 }
+  - { id: nl-navy-adjudant-onderofficier, name: Adjudant-onderofficier, name_en: Warrant officer, code: OR-8, group: nco, note: "APersP-01 spreads it over OR-8 and OR-9. Addressed as opperschipper in the nautical service.", source: s2 }
+  - { id: nl-navy-luitenant-ter-zee-der-3e-klasse, name: Luitenant-ter-zee der 3e klasse, name_en: Ensign, code: OF-1, group: officer, note: "Literally 'lieutenant at sea, 3rd class'.", source: s2 }
+  - { id: nl-navy-luitenant-ter-zee-der-2e-klasse, name: Luitenant-ter-zee der 2e klasse, name_en: Sub-lieutenant, code: OF-1, group: officer, note: "APersP-01 lists the junior category at OF-1.", source: s2 }
+  - { id: nl-navy-luitenant-ter-zee-der-2e-klasse-oudste-categorie, name: Luitenant-ter-zee der 2e klasse oudste categorie, name_en: Lieutenant, code: OF-2, group: officer, note: "Senior category of the 2nd class.", source: s2 }
+  - { id: nl-navy-luitenant-ter-zee-der-1e-klasse, name: Luitenant-ter-zee der 1e klasse, name_en: Lieutenant commander, code: OF-3, group: officer, source: s2 }
+  - { id: nl-navy-kapitein-luitenant-ter-zee, name: Kapitein-luitenant-ter-zee, name_en: Commander, code: OF-4, group: officer, note: "Addressed as overste.", source: s2 }
+  - { id: nl-navy-kapitein-ter-zee, name: Kapitein-ter-zee, name_en: Captain, code: OF-5, group: officer, note: "Addressed as kolonel.", source: s2 }
+  - { id: nl-navy-commandeur, name: Commandeur, name_en: Commodore, code: OF-6, group: general_flag, source: s2 }
+  - { id: nl-navy-schout-bij-nacht, name: Schout-bij-nacht, name_en: Rear admiral, code: OF-7, group: general_flag, source: s2 }
+  - { id: nl-navy-vice-admiraal, name: Vice-admiraal, name_en: Vice admiral, code: OF-8, group: general_flag, source: s2 }
+  - { id: nl-navy-luitenant-admiraal, name: Luitenant-admiraal, name_en: Admiral, code: OF-9, group: general_flag, note: "Highest rank; APersP-01 lists no Dutch OF-10.", source: s2 }
+sources:
+  - { id: s1, url: "https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/2f459937-a4b2-4da2-9a3f-bb3acd9ee7fa", title: De rangonderscheidingstekens van de krijgsmacht, publisher: Ministerie van Defensie, retrieved: 2026-11-22, kind: government, note: "Brochure (April 2016) linked from the current defensie.nl page 'Rangen van de krijgsmacht'; rank names and forms of address read from it." }
+  - { id: s2, url: "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf", title: "APersP-01 NATO Codes for Grades of Military Personnel, Edition A Version 3 (Annexes B and E, NLD)", publisher: NATO Standardization Office, retrieved: 2026-11-22, kind: government, note: "Third-party copy of the NATO standard that implements STANAG 2116." }

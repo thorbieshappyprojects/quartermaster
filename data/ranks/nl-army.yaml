@@ -1,0 +1,31 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: nl-army
+country: NL
+branch: army
+force: Koninklijke Landmacht
+force_en: Royal Netherlands Army
+note: "Rank names and order follow the Ministry of Defence rank brochure; NATO codes follow the NLD column of NATO APersP-01 (STANAG 2116, Ed. A V3, June 2022). English names are usual equivalents, not official titles. Where APersP-01 spreads one rank over two codes, the lower code is used and the rank note says so."
+ranks:
+  - { id: nl-army-soldaat-der-3e-klasse, name: Soldaat der 3e klasse, name_en: Private 3rd class, code: OR-1, group: enlisted, note: "Depending on arm or regiment a soldier may be addressed as grenadier, jager, fuselier, huzaar, kanonnier etc.", source: s2 }
+  - { id: nl-army-soldaat-der-2e-klasse, name: Soldaat der 2e klasse, name_en: Private 2nd class, code: OR-2, group: enlisted, note: "APersP-01 places 2nd and 1st class together at OR-2; order from the brochure.", source: s1 }
+  - { id: nl-army-soldaat-der-1e-klasse, name: Soldaat der 1e klasse, name_en: Private 1st class, code: OR-2, group: enlisted, note: "APersP-01 places 2nd and 1st class together at OR-2; order from the brochure.", source: s1 }
+  - { id: nl-army-korporaal, name: Korporaal, name_en: Corporal, code: OR-3, group: enlisted, source: s2 }
+  - { id: nl-army-korporaal-der-1e-klasse, name: Korporaal der 1e klasse, name_en: Corporal 1st class, code: OR-4, group: enlisted, source: s2 }
+  - { id: nl-army-sergeant, name: Sergeant, name_en: Sergeant, code: OR-5, group: nco, note: "Called wachtmeester in the armoured cavalry and artillery.", source: s2 }
+  - { id: nl-army-sergeant-der-1e-klasse, name: Sergeant der 1e klasse, name_en: Sergeant 1st class, code: OR-6, group: nco, note: "Called wachtmeester der 1e klasse in the armoured cavalry and artillery.", source: s2 }
+  - { id: nl-army-sergeant-majoor, name: Sergeant-majoor, name_en: Sergeant major, code: OR-7, group: nco, note: "Called opperwachtmeester in the armoured cavalry and artillery.", source: s2 }
+  - { id: nl-army-adjudant-onderofficier, name: Adjudant-onderofficier, name_en: Warrant officer, code: OR-8, group: nco, note: "APersP-01 gives OR-8, and OR-9 after three years' seniority. Highest onderofficier rank; addressed as adjudant.", source: s2 }
+  - { id: nl-army-vaandrig, name: Vaandrig, name_en: Officer candidate, code: OF-1, group: officer_cadet, note: "Officer candidate who fills OF-1 posts with officers' prerogatives (APersP-01). Called kornet in the armoured cavalry and artillery.", source: s2 }
+  - { id: nl-army-tweede-luitenant, name: Tweede luitenant, name_en: Second lieutenant, code: OF-1, group: officer, source: s2 }
+  - { id: nl-army-eerste-luitenant, name: Eerste luitenant, name_en: First lieutenant, code: OF-1, group: officer, source: s2 }
+  - { id: nl-army-kapitein, name: Kapitein, name_en: Captain, code: OF-2, group: officer, note: "Called ritmeester in the armoured cavalry.", source: s2 }
+  - { id: nl-army-majoor, name: Majoor, name_en: Major, code: OF-3, group: officer, source: s2 }
+  - { id: nl-army-luitenant-kolonel, name: Luitenant-kolonel, name_en: Lieutenant colonel, code: OF-4, group: officer, note: "Addressed as overste.", source: s2 }
+  - { id: nl-army-kolonel, name: Kolonel, name_en: Colonel, code: OF-5, group: officer, source: s2 }
+  - { id: nl-army-brigadegeneraal, name: Brigadegeneraal, name_en: Brigadier general, code: OF-6, group: general_flag, source: s2 }
+  - { id: nl-army-generaal-majoor, name: Generaal-majoor, name_en: Major general, code: OF-7, group: general_flag, source: s2 }
+  - { id: nl-army-luitenant-generaal, name: Luitenant-generaal, name_en: Lieutenant general, code: OF-8, group: general_flag, source: s2 }
+  - { id: nl-army-generaal, name: Generaal, name_en: General, code: OF-9, group: general_flag, note: "Highest rank; APersP-01 lists no Dutch OF-10.", source: s2 }
+sources:
+  - { id: s1, url: "https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/2f459937-a4b2-4da2-9a3f-bb3acd9ee7fa", title: De rangonderscheidingstekens van de krijgsmacht, publisher: Ministerie van Defensie, retrieved: 2026-11-22, kind: government, note: "Brochure (April 2016) linked from the current defensie.nl page 'Rangen van de krijgsmacht'; rank names read from its insignia charts." }
+  - { id: s2, url: "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf", title: "APersP-01 NATO Codes for Grades of Military Personnel, Edition A Version 3 (Annexes A and D, NLD)", publisher: NATO Standardization Office, retrieved: 2026-11-22, kind: government, note: "Third-party copy of the NATO standard that implements STANAG 2116." }

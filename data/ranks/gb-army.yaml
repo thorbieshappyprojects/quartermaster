@@ -1,0 +1,31 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: gb-army
+country: GB
+branch: army
+force: British Army
+force_en: British Army
+note: "Rank names and order follow the British Army's ranks page; name_en repeats the English rank name. NATO codes come from Table 3-1 (corresponding ranks of the three services) of the King's Regulations for the Royal Navy, October 2025, unless a rank note says otherwise. Field Marshal (OF-10) is left out: the Army describes it as an honorary rank, last given to a serving officer in 1994. Royal Marines use army-style ranks within the Naval Service and are not listed here."
+ranks:
+  - { id: gb-army-private, name: Private, name_en: Private, code: OR-1, group: enlisted, note: "APersP-01 gives OR-1 for Class 4 and OR-2 for Classes 1-3; the King's Regulations table spans OR-1 and OR-2. Titled Trooper, Gunner, Sapper, Signalman, Guardsman, Fusilier, Rifleman, Ranger, Craftsman etc. depending on corps or regiment.", source: s4 }
+  - { id: gb-army-lance-corporal, name: Lance Corporal, name_en: Lance Corporal, code: OR-3, group: nco, note: "Lance Bombardier in the Royal Artillery.", source: s2 }
+  - { id: gb-army-corporal, name: Corporal, name_en: Corporal, code: OR-4, group: nco, note: "Bombardier in the Royal Artillery.", source: s2 }
+  - { id: gb-army-sergeant, name: Sergeant, name_en: Sergeant, code: OR-6, group: nco, note: "The MOD key to rank codes gives OR-6. APersP-01 lists Sergeant at OR-5 and at OR-6 after three years' seniority, and the UK may post sergeants or corporals to OR-5 posts. Corporal of Horse in the Household Cavalry.", source: s3 }
+  - { id: gb-army-staff-sergeant, name: Staff Sergeant, name_en: Staff Sergeant, code: OR-7, group: nco, note: "Colour Sergeant in the infantry and the Royal Marines; Staff Corporal in the Household Cavalry.", source: s2 }
+  - { id: gb-army-warrant-officer-class-2, name: Warrant Officer Class 2, name_en: Warrant Officer Class 2, code: OR-8, group: warrant, note: "Receives a royal warrant; usually appointed Company, Squadron or Battery Sergeant Major.", source: s2 }
+  - { id: gb-army-warrant-officer-class-1, name: Warrant Officer Class 1, name_en: Warrant Officer Class 1, code: OR-9, group: warrant, note: "Most senior soldier rank; the Regimental Sergeant Major holds it.", source: s2 }
+  - { id: gb-army-officer-cadet, name: Officer Cadet, name_en: Officer Cadet, code: OF-D, approximate: true, group: officer_cadet, role: "Held during initial officer training at the Royal Military Academy Sandhurst or in a University Officers' Training Corps.", note: "Not graded in the King's Regulations table or APersP-01; placed at OF-D by position.", source: s1 }
+  - { id: gb-army-second-lieutenant, name: Second Lieutenant, name_en: Second Lieutenant, code: OF-1, group: officer, source: s2 }
+  - { id: gb-army-lieutenant, name: Lieutenant, name_en: Lieutenant, code: OF-1, group: officer, source: s2 }
+  - { id: gb-army-captain, name: Captain, name_en: Captain, code: OF-2, group: officer, source: s2 }
+  - { id: gb-army-major, name: Major, name_en: Major, code: OF-3, group: officer, source: s2 }
+  - { id: gb-army-lieutenant-colonel, name: Lieutenant Colonel, name_en: Lieutenant Colonel, code: OF-4, group: officer, source: s2 }
+  - { id: gb-army-colonel, name: Colonel, name_en: Colonel, code: OF-5, group: officer, source: s2 }
+  - { id: gb-army-brigadier, name: Brigadier, name_en: Brigadier, code: OF-6, group: general_flag, note: "The British Army does not class Brigadier as a general officer rank; grouped here by its NATO code.", source: s2 }
+  - { id: gb-army-major-general, name: Major General, name_en: Major General, code: OF-7, group: general_flag, source: s2 }
+  - { id: gb-army-lieutenant-general, name: Lieutenant General, name_en: Lieutenant General, code: OF-8, group: general_flag, source: s2 }
+  - { id: gb-army-general, name: General, name_en: General, code: OF-9, group: general_flag, note: "Highest rank held in active service.", source: s2 }
+sources:
+  - { id: s1, url: "https://www.army.mod.uk/learn-and-explore/ranks/", title: Ranks, publisher: British Army, retrieved: 2026-11-22, kind: government, note: "Read from the Internet Archive snapshot of 1 November 2026; the live site refuses automated requests." }
+  - { id: s2, url: "https://sccd.royalnavy.mod.uk/-/media/rnweb/footer-pages-documents-and-images/brd_2.pdf", title: "The King's Regulations for the Royal Navy (BRd 2), October 2025 Version 1, Table 3-1", publisher: Royal Navy, retrieved: 2026-11-22, kind: government, note: "Read from the Internet Archive snapshot of 3 November 2026." }
+  - { id: s3, url: "https://assets.publishing.service.gov.uk/media/6a7d8b1a24cc3b8ca3fd98c8/Key_to_rank_codes_April_2026.ods", title: Key to rank codes April 2026 (tri-service pension codes), publisher: Ministry of Defence, retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf", title: "APersP-01 NATO Codes for Grades of Military Personnel, Edition A Version 3 (Annex D, GBR)", publisher: NATO Standardization Office, retrieved: 2026-11-22, kind: government, note: "Third-party copy of the NATO standard that implements STANAG 2116." }
