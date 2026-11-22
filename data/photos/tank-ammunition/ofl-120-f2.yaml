@@ -1,0 +1,15 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: ofl-120-f2
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Obus-fl%C3%A8che_fran%C3%A7ais_OFL_120_F1_horizontal.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Obus-fl%C3%A8che_fran%C3%A7ais_OFL_120_F1_horizontal.jpg/1280px-Obus-fl%C3%A8che_fran%C3%A7ais_OFL_120_F1_horizontal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Obus-flèche français OFL 120 F1 horizontal.jpg
+    caption: French OFL 120 F1 APFSDS projectile.
+    shows: same_family
+    licence: CC BY-SA 3.0
+    licence_url: http://creativecommons.org/licenses/by-sa/3.0/
+    author: David Monniaux
+    credit: "Own work This file was derived from: Wssm2m.jpg :"
+    priority: A
+    retrieved: 2026-11-22
+note: No photo of the OFL 120 F2 found; the OFL 120 F1 is its predecessor in the same family. Cropped duplicates of the same file and the OFL 105 F1 were skipped.

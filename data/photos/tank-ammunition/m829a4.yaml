@@ -1,0 +1,14 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: m829a4
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:120mm_M829A2_APFSDS-T.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/e/e0/120mm_M829A2_APFSDS-T.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: 120mm M829A2 APFSDS-T.jpg
+    caption: Cutaway 120 mm M829A2 APFSDS-T round.
+    shows: same_family
+    licence: Public domain
+    author: US Army
+    credit: http://www.inetres.com/gp/military/cv/weapon/M256.html
+    priority: A
+    retrieved: 2026-11-22
+note: No photo of the M829A4 found; the M829A2 cutaway is an earlier variant of the same family. Excluded the M829A3 cross-section drawing and low-resolution files.

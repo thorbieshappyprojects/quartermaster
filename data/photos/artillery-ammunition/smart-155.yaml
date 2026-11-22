@@ -1,0 +1,26 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: smart-155
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:SMArt_155_SubMunition_for_Artillery_2_cutaway_(cropped).jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/0/0c/SMArt_155_SubMunition_for_Artillery_2_cutaway_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: SMArt 155 SubMunition for Artillery 2 cutaway (cropped).jpg
+    caption: Cutaway of the SMArt 155 artillery round showing its submunitions.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: M.begenat
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:GIWS_SMArt_155_cutaway_Klietz_2025.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/9/94/GIWS_SMArt_155_cutaway_Klietz_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: GIWS SMArt 155 cutaway Klietz 2025.jpg
+    caption: Cutaway SMArt 155 submunition with its parachute on display at the Klietz training area open day, 2025.
+    shows: exact_variant
+    licence: CC BY-SA 3.0 de
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded the parachute product image on a white background, an annotated Russian diagram, the operators map and low-resolution files.

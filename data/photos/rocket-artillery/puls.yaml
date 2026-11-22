@@ -1,4 +1,37 @@
-# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
 id: puls
-photos: []
-note: "No candidate shows the PULS launcher: the files depict lynx animals, the village of Puls in Schleswig-Holstein, Stolpersteine, a Pioneer UAV, hang gliders and 1956 archaeology photos of Lahav, Israel."
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:PULS_MLRS_Landmacht_1.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/PULS_MLRS_Landmacht_1.jpg/1280px-PULS_MLRS_Landmacht_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: PULS MLRS Landmacht 1.jpg
+    caption: Royal Netherlands Army PULS launcher in travel configuration, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Ministerie van Defensie
+    credit: www.defensie.nl
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:PULS_MLRS_Landmacht_2.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/PULS_MLRS_Landmacht_2.jpg/1280px-PULS_MLRS_Landmacht_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: PULS MLRS Landmacht 2.jpg
+    caption: Royal Netherlands Army PULS launcher with its two pods raised, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Ministerie van Defensie
+    credit: www.defensie.nl
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:PULS_Dutch_Army.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/e/ea/PULS_Dutch_Army.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: PULS Dutch Army.jpg
+    caption: PULS launchers of the Royal Netherlands Army, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Unknown author Unknown author
+    credit: https://magazines.defensie.nl/landmacht/2024/05/05_versterking-vuursteun
+    priority: A
+    retrieved: 2026-11-22
+note: Picked Dutch Ministry of Defence photos. Excluded the Danish PULS cut-out image, the Euro-PULS demonstrators (different configuration with a JFS-M mock-up), the Lynx LAR-160 and lynx animals.

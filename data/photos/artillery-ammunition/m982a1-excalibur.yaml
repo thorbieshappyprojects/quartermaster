@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: m982a1-excalibur
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:M982_Excalibur_right_side_view_in_RTX_booth_of_JA2024_at_Tokyo_Big_Sight_October_19,_2024.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/M982_Excalibur_right_side_view_in_RTX_booth_of_JA2024_at_Tokyo_Big_Sight_October_19%2C_2024.jpg/1280px-M982_Excalibur_right_side_view_in_RTX_booth_of_JA2024_at_Tokyo_Big_Sight_October_19%2C_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: M982 Excalibur right side view in RTX booth of JA2024 at Tokyo Big Sight October 19, 2024.jpg
+    caption: M982 Excalibur guided projectile on display at the Japan Aerospace 2024 exhibition in Tokyo.
+    shows: same_family
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Hunini
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:GPS-geleide_155_mm_precisiegranaat_Excalibur.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/9/90/GPS-geleide_155_mm_precisiegranaat_Excalibur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: GPS-geleide 155 mm precisiegranaat Excalibur.jpg
+    caption: Excalibur GPS-guided 155 mm projectile during a Dutch firing test with the PzH 2000NL in Älvdalen, Sweden, 2018.
+    shows: same_family
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Ministerie van Defensie
+    credit: https://magazines.defensie.nl/defensiekrant/2021/03/01_zwaar-geschut_03
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:USMC-110718-M-RE261-001.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/USMC-110718-M-RE261-001.jpg/1280px-USMC-110718-M-RE261-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: USMC-110718-M-RE261-001.jpg
+    caption: US Marines ramming an XM982 Excalibur projectile during a fire mission in Helmand, Afghanistan, 2011.
+    shows: same_family
+    licence: Public domain
+    author: Sgt. Earnest J. Barnes
+    credit: "This image was released by the United States Marine Corps with the ID 110718-M-RE261-001 (next) . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still "
+    priority: A
+    retrieved: 2026-11-22
+note: Files name the M982/Excalibur without the increment; the 2018 and 2024 photos post-date the switch to Increment Ib production and are marked exact_variant, the 2011 XM982 photo same_family. Excluded the product-overview GIF and low-resolution files. No file names the M982A1 increment, so all photos are marked as the same family.

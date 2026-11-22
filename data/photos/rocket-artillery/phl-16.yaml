@@ -1,4 +1,26 @@
-# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
 id: phl-16
-photos: []
-note: "Neither candidate shows the PHL-16 (PCH191): #1 is a laptop motherboard and #2 is a fish anatomy figure where 'PCH' means posterior ceratohyal."
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:PHL16_2025_V-J_Parade_CNS.png
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/PHL16_2025_V-J_Parade_CNS.png/1280px-PHL16_2025_V-J_Parade_CNS.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: PHL16 2025 V-J Parade CNS.png
+    caption: PHL-16 rocket launchers in the V-J Day parade in Beijing, 2025.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: 中国新闻社
+    credit: "YouTube : https://www.youtube.com/watch?v=kwL8YkYxKrA – View/save archived versions on archive.org"
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:PHL16TBM_2025_V-J_Parade_CNS.png
+    image_url: https://upload.wikimedia.org/wikipedia/commons/b/bc/PHL16TBM_2025_V-J_Parade_CNS.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: PHL16TBM 2025 V-J Parade CNS.png
+    caption: PHL-16 launchers carrying tactical ballistic missiles in the V-J Day parade, 2025.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: 中国新闻社
+    credit: https://www.youtube.com/watch?v=boDMmQtUtdM
+    priority: A
+    retrieved: 2026-11-22
+note: Both files are stills from China News Service parade video; other results for the designations were unrelated.

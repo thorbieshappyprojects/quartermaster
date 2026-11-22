@@ -1,0 +1,15 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: 3bm42-mango
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:125_%D0%BC%D0%BC_APFSDS_shells_BM44-2,_BM44_%26_BM66_Army-2022_2022-08-20_2478.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/125_%D0%BC%D0%BC_APFSDS_shells_BM44-2%2C_BM44_%26_BM66_Army-2022_2022-08-20_2478.jpg/1280px-125_%D0%BC%D0%BC_APFSDS_shells_BM44-2%2C_BM44_%26_BM66_Army-2022_2022-08-20_2478.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: 125 мм APFSDS shells BM44-2, BM44 & BM66 Army-2022 2022-08-20 2478.jpg
+    caption: 125 mm APFSDS rounds BM44-2, BM44 (3VBM17 with the 3BM42 projectile) and BM66 on display at Army-2022.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Mike1979 Russia
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: The Army-2022 photo shows the BM44 round (3VBM17 with 3BM42). The 2010 Mango cutaway and the Iranian BM-42-type photo are below 640 px wide; BM-15 files show a different projectile.

@@ -1,0 +1,34 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: m795
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:11th_Marine_Regiment_Desert_Fire_Exercise_130423-M-VH365-119.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/11th_Marine_Regiment_Desert_Fire_Exercise_130423-M-VH365-119.jpg/1280px-11th_Marine_Regiment_Desert_Fire_Exercise_130423-M-VH365-119.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: 11th Marine Regiment Desert Fire Exercise 130423-M-VH365-119.jpg
+    caption: M795 high-explosive rounds staged next to an M777 howitzer during a US Marine Corps exercise, 2013.
+    shows: exact_variant
+    licence: Public domain
+    author: Lance Cpl. Sean Searfus
+    credit: https://www.dvidshub.net/image/926264
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:%27Kings_of_Battle%27_drop_Steel_Rain_140724-M-AR450-022.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/%27Kings_of_Battle%27_drop_Steel_Rain_140724-M-AR450-022.jpg/1280px-%27Kings_of_Battle%27_drop_Steel_Rain_140724-M-AR450-022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: "'Kings of Battle' drop Steel Rain 140724-M-AR450-022.jpg"
+    caption: US Marine preparing to load an M795 projectile into an M777 howitzer during RIMPAC 2014.
+    shows: exact_variant
+    licence: Public domain
+    author: Lance Cpl. Wesley Timm
+    credit: https://www.dvidshub.net/image/1466082
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:%27Kings_of_Battle%27_drop_Steel_Rain_140724-M-AR450-009.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/%27Kings_of_Battle%27_drop_Steel_Rain_140724-M-AR450-009.jpg/1280px-%27Kings_of_Battle%27_drop_Steel_Rain_140724-M-AR450-009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: "'Kings of Battle' drop Steel Rain 140724-M-AR450-009.jpg"
+    caption: M795 projectiles staged for a fire mission during RIMPAC 2014 at Pohakuloa Training Area.
+    shows: exact_variant
+    licence: Public domain
+    author: Lance Cpl. Wesley Timm
+    credit: https://www.dvidshub.net/image/1466069
+    priority: A
+    retrieved: 2026-11-22
+note: Picked US Marine Corps photos whose descriptions name the M795. Excluded Russian-annotated diagrams and comparison graphics (M107/M795/M483A1, M795 & M795 IM, TNT vs IMX-101 cutaway).
