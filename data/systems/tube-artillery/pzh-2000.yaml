@@ -1,0 +1,100 @@
+id: pzh-2000
+category: tube-artillery
+name: "PzH 2000 A4"
+variant_note: "New-build A4 production standard (Germany, Ukraine); performance values are KNDS/Bundeswehr catalogue figures for the PzH 2000 family"
+family: "PzH 2000"
+aliases: ["Panzerhaubitze 2000", "PzH 2000 A4"]
+manufacturer: { name: "KNDS Deutschland (formerly Krauss-Maffei Wegmann)" }
+production_sites:
+  - { place: "Munich", country: DE, source: s3 }
+  - { place: "Unterlüß", country: DE, source: s8 }
+origin: DE
+role: "Tracked, armoured 155 mm/L52 self-propelled howitzer with automatic projectile loading, providing indirect fire support to mechanised forces."
+memorable_fact: { text: "The PzH 2000 can fire up to five rounds at different elevations so that all of them hit the target at the same time (MRSI).", source: s2 }
+status: in_production
+in_service_since:
+  value: 1998
+  source: s11
+  confidence: medium
+  note: "Base system: the Bundeswehr received its first PzH 2000 in 1998 (s11). The A4 variant was rolled out in November 2025 (s3, s7). Deliveries to the Bundeswehr were planned from May 2026 (s3) and reportedly began then (s12, single secondary source)."
+units_built:
+  value: 400
+  source: s2
+  confidence: medium
+  range: { min: 360, max: 400 }
+  note: "Whole PzH 2000 family, all versions. The current KNDS brochure (s2) says 'around 400' manufactured and delivered. The KNDS product page (s1) says 'more than 360'. The higher, more recent manufacturer figure is shown."
+combat_use:
+  text: "Used in combat by the Netherlands and Germany in Afghanistan from September 2006, and by Ukraine against Russian forces since 2022."
+  source: s2
+specs:
+  calibre: { value: 155, source: s1, confidence: high }
+  barrel_length: { value: 52, source: s1, confidence: high, note: "155 mm/L52 barrel, JBMOU-compatible." }
+  max_range_standard:
+    value: 30
+    source: s4
+    confidence: high
+    note: "Bundeswehr figure for the standard ammunition it has in service. KNDS gives no separate figure for standard HE rounds."
+  max_range_extended:
+    value: 54
+    source: s1
+    confidence: high
+    range: { min: 40, max: 54 }
+    note: "KNDS: 40 km with base-bleed and up to 54 km with V-LAP (rocket-assisted); longer ranges possible with e.g. Vulcano or Excalibur (s1). Bundeswehr: 40 km with extended-range ammunition (s4). The manufacturer's maximum for an extended-range round is shown."
+  rate_of_fire:
+    value: 10
+    source: s1
+    confidence: high
+    note: "KNDS: up to 10 rounds per minute; burst of 3 rounds in 10 seconds."
+  into_action_time:
+    value: 25
+    source: s2
+    confidence: high
+    note: "KNDS: ready to fire within 25 s of reaching the firing position; can move off 15 s after the fire mission ends."
+  combat_weight:
+    value: 57
+    source: s1
+    confidence: high
+    note: "57 t, stated by both KNDS (s1) and the Bundeswehr (s4). No separate A4 weight has been published."
+  crew:
+    value: 5
+    source: s4
+    confidence: high
+    range: { min: 3, max: 5 }
+    note: "Bundeswehr: normally a crew of five; three are enough when ammunition handling is automated (s4). KNDS: '3 + 2 (backup)' (s1)."
+operators:
+  - { country: DE, force: "Army (Heer)", state: in_service, quantity: null, source: s9 }
+  - { country: IT, force: Army, state: in_service, quantity: null, source: s3 }
+  - { country: NL, force: "Royal Netherlands Army", state: in_service, quantity: null, source: s3 }
+  - { country: GR, force: Army, state: in_service, quantity: null, source: s3 }
+  - { country: HR, force: Army, state: in_service, quantity: null, source: s3 }
+  - { country: HU, force: Army, state: in_service, quantity: null, source: s3 }
+  - { country: LT, force: "Land Forces", state: in_service, quantity: null, source: s3 }
+  - { country: QA, force: "Land Forces", state: in_service, quantity: null, source: s3 }
+  - { country: UA, force: "Ground Forces", state: in_service, quantity: null, source: s6 }
+cost:
+  value: 18400000
+  currency: EUR
+  price_year: 2023
+  basis: contract_per_unit
+  source: s5
+  confidence: medium
+  note: "BAAINBw first call-off under the March 2023 framework contract with KNDS Deutschland: 10 PzH 2000 for about EUR 184 million (s5), about EUR 18.4M per gun. The total includes removal of obsolete components. The full framework of 28 guns for EUR 470.2 million (s10) works out to about EUR 16.8M each."
+contracts:
+  - { customer: "Germany (Bundeswehr)", year: 2023, quantity: 10, value: 184000000, currency: EUR, note: "First call-off under the BAAINBw framework contract, replacing guns given to Ukraine.", source: s5 }
+  - { customer: "Germany (Bundeswehr)", year: 2023, quantity: 28, value: 470200000, currency: EUR, note: "Framework contract with KNDS Deutschland for up to 28 PzH 2000 A4 (10 firm plus 18 options). A further 12 were approved in May 2023, making 22 on order.", source: s10 }
+  - { customer: "KNDS Deutschland (for the Bundeswehr)", year: 2024, quantity: 22, value: 135000000, currency: EUR, note: "Rheinmetall subcontract for 22 L52 gun systems and 22 chassis; final integration at Unterlüß.", source: s8 }
+  - { customer: "Ukraine (German-funded)", year: 2024, quantity: 18, value: null, currency: null, note: "Announced February 2024: 18 more PzH 2000 from industry, for delivery in 2026-2027.", source: s9 }
+peers: [k9a2-thunder, m109a7-paladin, as90, krab]
+sources:
+  - { id: s1, url: "https://knds.com/en/products/systems/pzh-2000", title: "PzH 2000 | KNDS Group", publisher: "KNDS", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://knds.com/media/KNDS_B_Ansicht_Pz_H2000_EN_b4171b8641.pdf", title: "PzH 2000 - Combat Proven Artillery Superiority (brochure)", publisher: "KNDS Deutschland", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://knds.com/media/20251119_Press_Release_Roll_out_of_the_KNDS_LEOPARD_2_A8_and_Pz_H_2000_Systems_2eedebab45.pdf", title: "Roll-out of the KNDS LEOPARD 2A8 and PzH 2000 Systems", publisher: "KNDS Deutschland", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/panzerhaubitze-2000", title: "Ausrüstung und Technik: Die Panzerhaubitze 2000", publisher: "Bundeswehr", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.presseportal.de/pm/147341/5475787", title: "Bundeswehr erhält neue Panzerhaubitzen 2000", publisher: "BAAINBw (via presseportal)", retrieved: 2026-11-22, kind: government }
+  - { id: s6, url: "https://www.edrmagazine.eu/knds-deutschland-where-does-the-pzh-2000-go", title: "KNDS Deutschland, where does the PzH 2000 go?", publisher: "EDR Magazine", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://esut.de/2025/11/meldungen/65474/erster-leopard-2-a8-und-neue-pzh-2000-oeffentlich-vorgestellt/", title: "Erster Leopard 2 A8 und neue PzH 2000 öffentlich vorgestellt", publisher: "ES&T (Europäische Sicherheit & Technik)", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.rheinmetall.com/en/media/news-watch/news/2024/04/2024-04-02-rheinmetall-contracted-for-undercarriages-and-weapon-systems-for-pzh-2000", title: "Rheinmetall is contracted to manufacture 22 undercarriages and weapon systems for self-propelled howitzers PzH 2000", publisher: "Rheinmetall", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s9, url: "https://euro-sd.com/2024/04/major-news/37346/rheinmetall-pzh-2000-order/", title: "Guns and chassis for 22 PzH 2000 SPHs for the Bundeswehr ordered from Rheinmetall", publisher: "European Security & Defence", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://suv.report/beschaffungsvorhaben-des-heeres/", title: "Beschaffungsvorhaben des Heeres", publisher: "Sicherheit & Verteidigung (suv.report)", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://www.handelsblatt.com/politik/international/pzh-2000-was-die-panzerhaubitze-2000-kostet-05/100205748.html", title: "PzH 2000: Was die Panzerhaubitze 2000 kostet", publisher: "Handelsblatt", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://www.boerse-express.com/news/articles/knds-aktie-pzh-2000-a4-ab-mai-2026-an-bundeswehr-903404", title: "KNDS Aktie: PzH 2000 A4 ab Mai 2026 an Bundeswehr", publisher: "Börse Express", retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,86 @@
+id: rch-155
+category: tube-artillery
+name: "RCH 155 (Boxer 8x8)"
+variant_note: "Boxer 8x8-based production configuration ordered by Ukraine, Germany and the UK"
+family: "Boxer"
+aliases: ["Remote Controlled Howitzer 155 mm", "Boxer RCH 155", "RCH155"]
+manufacturer: { name: "KNDS Deutschland" }
+production_sites:
+  - { place: "Kassel", country: DE, source: s3 }
+origin: DE
+role: "Wheeled 155 mm self-propelled howitzer combining an unmanned, fully automated Artillery Gun Module with the Boxer 8x8 armoured chassis."
+memorable_fact: { text: "Its unmanned turret means only two soldiers, a commander and a driver, crew the vehicle, and it can fire while on the move.", source: s2 }
+status: in_production
+in_service_since:
+  value: 2026
+  source: s4
+  confidence: medium
+  note: "Year of first operational service of this variant, with Ukraine. The first system was formally handed over on 13 January 2025 in Kassel (s3) but remained in Germany for training; German Aid to Ukraine confirmed delivery to Ukrainian forces in September 2026."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public production total; the number of guns delivered to Ukraine is undisclosed (s5)."
+combat_use: { text: "Delivered to Ukrainian forces in 2026; in July 2026 a KNDS Deutschland adviser described the system as combat proven, without giving details of its use.", source: s6 }
+specs:
+  calibre: { value: 155, source: s1, confidence: high }
+  barrel_length: { value: 52, source: s1, confidence: high, note: "155 mm/L52 JBMoU-compatible gun, the same gun used on the PzH 2000." }
+  max_range_standard:
+    value: 40
+    source: s1
+    confidence: high
+    range: { min: 30, max: 40 }
+    note: "KNDS states up to 40 km with a base-bleed round; Army Recognition (s5) gives about 30 km with conventional ammunition. The manufacturer figure is displayed."
+  max_range_extended:
+    value: 54
+    source: s1
+    confidence: high
+    range: { min: 54, max: 70 }
+    note: "KNDS states up to 54 km with V-LAP and says longer ranges are possible with VULCANO/Excalibur without giving a figure; Army Recognition (s5) reports up to 70 km with Vulcano. The manufacturer figure is displayed."
+  rate_of_fire:
+    value: 8
+    source: s1
+    confidence: high
+    range: { min: 8, max: 9 }
+    note: "KNDS states more than 8 rounds/min; Army Recognition (s10) states up to 9 rounds in one minute."
+  into_action_time:
+    value: 20
+    source: s10
+    confidence: medium
+    note: "Reported as ready to fire the first round in less than 20 s from the road position, and out of action in less than 10 s."
+  combat_weight:
+    value: 40
+    source: s1
+    confidence: high
+    range: { min: 39, max: 40 }
+    note: "KNDS currently states less than 40.0 t; earlier and press figures give less than 39 t (s5). The manufacturer's upper bound is displayed."
+  crew: { value: 2, source: s1, confidence: high, note: "Commander and driver in an armoured crew compartment; the gun module is unmanned." }
+operators:
+  - { country: UA, force: "Armed Forces of Ukraine", state: in_service, quantity: 54, source: s4, note: "54 ordered in three batches of 18 (funded by Germany); number delivered so far is undisclosed." }
+  - { country: DE, force: "Army (Heer)", state: ordered, quantity: 84, source: s2, note: "First call-off under a framework agreement for up to 500 systems; deliveries 2027-2029." }
+  - { country: GB, force: "British Army", state: ordered, quantity: 72, source: s7 }
+  - { country: QA, force: "Qatar Armed Forces", state: ordered, quantity: null, source: s9, note: "German government approved the sale in the first half of 2024; quantity not public." }
+cost:
+  value: 14300000
+  currency: EUR
+  price_year: 2025
+  basis: contract_per_unit
+  source: s2
+  confidence: medium
+  note: "German Bundeswehr order of 19 December 2025 via ARTEC: about EUR 1.2 billion for 84 wheeled howitzers including training equipment, service and logistic support (1.2 billion / 84 = about EUR 14.3 million). Not a flyaway unit price."
+contracts:
+  - { customer: "Ukraine (funded by Germany)", year: 2022, quantity: 54, value: 890000000, currency: EUR, note: "First batch of 18 approved in September 2022; later raised to 54 in three batches of 18; reported total German expenditure EUR 890 million.", source: s5 }
+  - { customer: "Germany / Bundeswehr", year: 2025, quantity: 84, value: 1200000000, currency: EUR, note: "Ordered from ARTEC (KNDS Deutschland/Rheinmetall JV) under a framework agreement for up to 500 systems; includes training equipment, service and logistics; deliveries 2027-2029.", source: s2 }
+  - { customer: "United Kingdom / British Army", year: 2026, quantity: 72, value: 1000000000, currency: GBP, note: "About GBP 1 billion deal announced in May 2026 to replace the AS90 capability; value reported as approximate.", source: s8 }
+peers: [archer, caesar-mkii, pzh-2000]
+sources:
+  - { id: s1, url: "https://knds.com/en/products/systems/rch-155", title: "RCH 155 | KNDS Group", publisher: "KNDS", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.rheinmetall.com/en/media/news-watch/news/2025/12/2025-12-19-major-order-for-rch155-wheeled-howitzer", title: "Major order for RCH155 wheeled howitzer: Rheinmetall to supply weapon systems and other components", publisher: "Rheinmetall AG", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.joint-forces.com/defence-equipment-news/79108-handover-of-first-rch-155-howitzer-to-ukraine", title: "Handover of First RCH 155 Howitzer to Ukraine", publisher: "Joint-Forces.com (reproducing German MoD press release of 13 January 2025)", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://deaidua.org/news/2026/09/05/rch-155-state-of-the-art-artillery-system-arrived-in-ukraine/", title: "RCH 155: State-of-the-art artillery system arrived in Ukraine", publisher: "German Aid to Ukraine (GAU)", retrieved: 2026-11-22, kind: other }
+  - { id: s5, url: "https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/rch-155-howitzer-ukraine-delivery-specs-germany", title: "Germany delivers first RCH 155 howitzers to Ukraine to strike Russian forces after long delays", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://militarnyi.com/en/news/latest-rch-155-self-propelled-howitzer-already-combat-proven-in-ukraine-knds-advisor-says/", title: "Latest RCH 155 Self-Propelled Howitzer Already \"Combat Proven\" in Ukraine, KNDS Advisor Says", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.gov.uk/government/news/next-generation-remote-controlled-artillery-systems-to-transform-british-army", title: "Next-generation remote controlled artillery systems to transform British Army", publisher: "UK Ministry of Defence (GOV.UK)", retrieved: 2026-11-22, kind: government }
+  - { id: s8, url: "https://www.shephardmedia.com/news/landwarfareintl/uk-finally-signs-a-135-billion-deal-for-british-army-howitzers-but-much-fewer-than-expected/", title: "UK finally signs $1.35 billion British Army howitzer deal but with scaled-back numbers", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://militarnyi.com/en/news/qatar-swaps-12-pzh-2000-for-german-rch-155-ukraine-to-receive-spgs/", title: "Qatar Swaps 12 PzH 2000 for German RCH 155, Ukraine to Receive SPGs", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/self-propelled-howitzers/rch-155-agm", title: "RCH 155 AGM", publisher: "Army Recognition", retrieved: 2026-11-22, kind: reference }

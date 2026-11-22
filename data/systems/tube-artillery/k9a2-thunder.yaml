@@ -1,0 +1,104 @@
+id: k9a2-thunder
+category: tube-artillery
+name: "K9A1 Thunder"
+variant_note: "K9A1 standard (current production/service); K9A2 still in development, RoK Army fielding planned 2027"
+family: "K9 Thunder"
+aliases: ["K9 Thunder", "K9A1EGY", "K9 Vajra-T", "AS9 Huntsman", "T-155 Firtina"]
+manufacturer: { name: "Hanwha Aerospace" }
+production_sites:
+  - { place: "Changwon", country: KR, source: s7 }
+  - { place: "Geelong", country: AU, source: s4 }
+origin: KR
+role: "Tracked 155 mm/52-calibre self-propelled howitzer that provides long-range indirect fire support to armoured and mechanised formations."
+memorable_fact: { text: "Hanwha says the K9 is the most widely operated self-propelled howitzer in its class, with units delivered to ten countries on four continents.", source: s5 }
+status: in_production
+in_service_since:
+  value: 2018
+  source: s3
+  confidence: medium
+  note: "Year the K9A1 variant entered RoK Army service; the base K9 entered service in 1999 (same source). The K9A2 is not yet in service: development is due to finish in 2027, with serial-production contracts to follow (s2)."
+units_built:
+  value: 1800
+  source: s12
+  confidence: low
+  note: "Whole K9 family including licence/derivative versions, reported as '1,800+ delivered'. Army Recognition (s4) gives 'over 1,800 systems contracted'. No separate public figure for the K9A1, which in Korea is largely a conversion of existing K9s."
+combat_use:
+  text: "The base K9 returned fire during the North Korean bombardment of Yeonpyeong Island in November 2010; no confirmed combat use of the K9A1 as of 2026."
+  source: s13
+specs:
+  calibre: { value: 155, source: s1, confidence: high }
+  barrel_length: { value: 52, source: s1, confidence: high }
+  max_range_standard:
+    value: 30
+    range: { min: 30, max: 40 }
+    source: s4
+    confidence: medium
+    note: "Army Recognition: 30 km with standard HE projectile. Hanwha (s1, s5) states '40 km+' / 'more than 40 kilometers' without specifying the projectile; 30 km shown for standard round."
+  max_range_extended:
+    value: 40
+    source: s4
+    confidence: medium
+    note: "With rocket-assisted projectile per Army Recognition; consistent with Hanwha's '40 km+' (s1). Higher figures for special base-bleed/RAP rounds are not confirmed by manufacturer sources."
+  rate_of_fire:
+    value: 8
+    range: { min: 6, max: 8 }
+    source: s1
+    confidence: high
+    note: "Hanwha: maximum 6-8 rds/min for 3 minutes; burst 3 rounds in <15 s; sustained 2-3 rds/min for 1 hour. K9A2 (in development) is stated at 9-10 rds/min."
+  into_action_time:
+    value: 30
+    range: { min: 30, max: 60 }
+    source: s4
+    confidence: medium
+    note: "First round within 30 s at emplacement and within 60 s from movement after receiving a fire command."
+  combat_weight:
+    value: 47
+    range: { min: 46.3, max: 47 }
+    source: s10
+    confidence: medium
+    note: "47 t quoted for the K9A1; 46.3 t quoted for the original K9 by army-technology.com (s15)."
+  crew:
+    value: 5
+    source: s11
+    confidence: medium
+    note: "Commander, driver, gunner, loader and communications specialist. K9A2 (in development) reduces crew to 3 (s1)."
+operators:
+  - { country: KR, force: "Army", state: in_service, quantity: null, source: s3 }
+  - { country: TR, force: "Land Forces", state: in_service, quantity: null, source: s5 }
+  - { country: PL, force: "Land Forces", state: in_service, quantity: null, source: s8 }
+  - { country: NO, force: "Army", state: in_service, quantity: null, source: s8 }
+  - { country: FI, force: "Army", state: in_service, quantity: null, source: s5 }
+  - { country: EE, force: "Defence Forces", state: in_service, quantity: 36, source: s9 }
+  - { country: AU, force: "Army", state: in_service, quantity: null, source: s8 }
+  - { country: IN, force: "Army", state: in_service, quantity: null, source: s4 }
+  - { country: EG, force: "Army", state: in_service, quantity: null, source: s10 }
+  - { country: RO, force: "Land Forces", state: ordered, quantity: 54, source: s6 }
+cost:
+  value: 4875000
+  currency: EUR
+  price_year: 2026
+  basis: contract_per_unit
+  source: s5
+  confidence: medium
+  note: "Finland follow-on contract (April 2026): about EUR 546 million for 112 K9 with associated spare parts, deliveries from 2028; 546,000,000 / 112. The build standard of these units is not stated."
+contracts:
+  - { customer: "Finland / Ministry of Defence", year: 2026, quantity: 112, value: 546000000, currency: EUR, note: "Follow-on K9 order including spare parts; deliveries to the Finnish Army from 2028. Value stated as approximate.", source: s5 }
+  - { customer: "Romania / Ministry of National Defence", year: 2024, quantity: 54, value: 1000000000, currency: USD, note: "Signed 9 July 2024; 'nearly $1 billion' package also covering 36 K10 ammunition resupply vehicles and ammunition; first delivery due early 2027, mostly built in Romania.", source: s6 }
+  - { customer: "South Korea / DAPA", year: 2023, quantity: null, value: null, currency: null, note: "K9A2 development contract awarded late 2023; development due to complete 2027. The overall K9A2 programme was approved in 2022 at about USD 1.73 billion (s14).", source: s2 }
+peers: [pzh-2000, krab, m109a7-paladin, 2s19m2-msta-s]
+sources:
+  - { id: s1, url: "https://hanwhadefenseusa.com/land-systems", title: "Land systems: readiness at speed and scale", publisher: "Hanwha Defense USA", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.janes.com/osint-insights/defence-news/land/hanwha-conducts-k9a2-field-trials", title: "Hanwha conducts K9A2 field trials", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.janes.com/defence-intelligence-insights/defence-news/land/south-korea-to-upgrade-k9a1-howitzers", title: "South Korea to upgrade K9A1 howitzers", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/self-propelled-howitzers/k9-thunder-south-korea-uk/", title: "K9 Thunder 155mm tracked self-propelled armored howitzer - South Korea", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.hanwha.com/newsroom/news/press-releases/hanwha-aerospace-secures-follow-on-k9-howitzer-contract-with-finland.do", title: "Hanwha Aerospace secures follow-on K9 howitzer contract with Finland", publisher: "Hanwha", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s6, url: "https://www.hanwha.com/newsroom/news/press-releases/hanwha-further-expands-global-defense-market-presence-with-nearly-1b-k9-k10-deal-with-romania.do", title: "Hanwha Aerospace inks deal to supply K9 howitzers to Romania", publisher: "Hanwha", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s7, url: "https://org-www.hanwha.com/newsroom/news/press-releases/hanwha-aerospace-hosts-us-armys-senior-acquisition-leadership-at-defense-production-sites.do", title: "Hanwha Aerospace hosts U.S. Army's senior acquisition leadership at defense production sites", publisher: "Hanwha", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s8, url: "https://www.armyrecognition.com/news/army-news/2026/hanwha-k9-thunder-vtol-drone-fire-direction-system", title: "Hanwha Aerospace to combine targeting drones with K9 howitzers to direct artillery strikes", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.zona-militar.com/en/2025/11/29/south-koreas-hanwha-delivers-a-new-batch-of-k9-thunder-self-propelled-howitzers-to-the-estonian-defence-forces/", title: "South Korea's Hanwha delivers a new batch of K9 Thunder self-propelled howitzers to the Estonian Defence Forces", publisher: "Zona Militar", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://nationalinterest.org/blog/buzz/egypts-first-k9a1-howitzers-have-arrived-from-south-korea-ps-120425", title: "Egypt's First K9A1 Howitzers Have Arrived from South Korea", publisher: "The National Interest", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2023/vietnamese-army-interested-in-south-korean-made-hanwha-k9a1-self-propelled-howitzer", title: "Vietnamese army interested in South Korean-made Hanwha K9A1 Self-propelled Howitzer", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://envantermedya.com/en/what-is-k9-thunder-self-propelled-howitzer-explained/", title: "What is the K9 Thunder? South Korea's Self-Propelled Howitzer That Became NATO's Favorite, Explained", publisher: "Envanter Medya", retrieved: 2026-11-22, kind: other }
+  - { id: s13, url: "https://en.wikipedia.org/wiki/K9_Thunder", title: "K9 Thunder", publisher: "Wikipedia", retrieved: 2026-11-22, kind: reference }
+  - { id: s14, url: "https://www.janes.com/defence-intelligence-insights/defence-news/defence/south-korea-approves-funding-for-k9a2-sph", title: "South Korea approves funding for K9A2 SPH", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s15, url: "https://www.army-technology.com/projects/thunderselfpropelled/", title: "K9 Thunder Self-Propelled Howitzer", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,41 @@
+id: pcl-181
+category: tube-artillery
+name: PCL-181
+variant_note: PLA PCL-181 baseline; export SH15 figures used where noted
+aliases: [SH15, SH-15, PLC-181]
+manufacturer: { name: "NORINCO (China North Industries Group Corporation Limited)" }
+origin: CN
+role: Truck-mounted 155 mm/52 self-propelled howitzer on a 6x6 chassis providing long-range indirect fire for PLA group army artillery units.
+memorable_fact: { text: "At roughly 22-25 t, the PCL-181/SH15 is reported to be light enough that a single Y-20 transport aircraft can carry two of them.", source: s8 }
+status: in_service
+in_service_since: { value: 2019, source: s5, confidence: medium, range: { min: 2018, max: 2020 }, note: "Base system (PLA PCL-181), reported officially adopted by the PLA in early 2019; Army Recognition (s9) gives adoption between 2018 and 2020. Public debut at the 1 October 2019 National Day parade." }
+units_built: { value: 600, source: s10, confidence: low, note: "Minimum figure only: Forecast International reports about 600 units deployed by the PLA in 2024. Export units (Pakistan, Ethiopia) are not included. No public total production figure was found." }
+combat_use: { text: "No confirmed combat use as of 2026. Pakistan was reported in 2025 to have deployed several dozen SH15s about 80 km from the Indian border near the Line of Control.", source: s9 }
+specs:
+  calibre: { value: 155, source: s4, confidence: high }
+  barrel_length: { value: 52, source: s2, confidence: medium, note: "155 mm/52 calibre ordnance; reported as identical to the PLZ-05 barrel." }
+  max_range_standard: { value: 40, source: s6, confidence: low, range: { min: 20, max: 40 }, note: "Reporting is inconsistent. GlobalSecurity gives 40 km with conventional rounds; Army Recognition (s7) gives 20 km with standard ammunition; DSA reports about 30 km without naming the round. No manufacturer figure for an unassisted standard round was found; 40 km is displayed because it is the only figure explicitly tied to conventional rounds." }
+  max_range_extended: { value: 53, source: s2, confidence: medium, range: { min: 50, max: 72 }, note: "Displayed: 53 km as quoted by NORINCO in Janes (2023). NORINCO quoted 50 km with the HE ERFB-BB-RA projectile in 2018 (s3). GlobalSecurity (s6) reports up to 72 km with a rocket-assisted shell, but no other source confirms this." }
+  rate_of_fire: { value: 6, source: s3, confidence: medium, range: { min: 4, max: 6 }, note: "NORINCO quotes a maximum rate of fire of 4-6 rds/min (SH15 export marketing)." }
+  into_action_time: { value: 60, source: s8, confidence: low, note: "Army Recognition states the rear stabilising spades take about one minute to deploy. This is not a full manufacturer-stated time into action." }
+  combat_weight: { value: 25, source: s1, confidence: medium, range: { min: 22, max: 25 }, note: "25 t reported by CCTV/Global Times via Army Recognition. Other reports give a maximum of 22 t (s7) or 22-25 t (s8)." }
+  crew: { value: 6, source: s4, confidence: medium, range: { min: 5, max: 6 }, note: "6 per Australian Army DATE reference and Defense Magazine (s5). Army Recognition 2018 (s7) gives a crew of five for the SH15." }
+operators:
+  - { country: CN, force: "People's Liberation Army Ground Force", state: in_service, quantity: 600, source: s10, note: "About 600 deployed by 2024 per Forecast International. Entered service with the Eastern Theater Command among other units (s1)." }
+  - { country: PK, force: Army, state: in_service, quantity: 236, source: s9, note: "Quantity is the 2019 contract for 236 units, not a confirmed delivered total. Forecast International cites about 300 units. A second batch of 56 was delivered by 2023 (s2)." }
+  - { country: ET, force: "Ethiopian National Defense Force", state: in_service, quantity: 32, source: s8, note: "Export SH15; 32 units reported." }
+cost: { value: 2100000, currency: USD, price_year: 2019, basis: unit_price, source: s10, confidence: low, note: "Forecast International: discounted per-unit price of a single SH15 based on the 2019 Pakistani export order. Not an official manufacturer or government figure." }
+contracts:
+  - { customer: "Pakistan / Army", year: 2019, quantity: 236, value: null, currency: null, note: "SH15 export order for 236 units, reported as signed in 2019. Contract value not public. Reportedly includes technology transfer for local production.", source: s9 }
+peers: [caesar-mkii, archer, rch-155]
+sources:
+  - { id: s1, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2020/chinese-pcl-181-self-propelled-howitzer-enters-eastern-theater-command-service", title: "Chinese PCL-181 self-propelled howitzer enters in service with army of China", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.janes.com/osint-insights/defence-news/defence/chinas-norinco-delivers-sh-15-howitzers-to-pakistan", title: "China's Norinco delivers SH-15 howitzers to Pakistan", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.janes.com/osint-insights/defence-news/norinco-marketing-sh-15-155-mm-artillery-system-for-export", title: "NORINCO marketing SH-15 155 mm artillery system for export", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://date.army.gov.au/equipment/pcl-181", title: "PCL-181", publisher: "Australian Army (DATE)", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.defensemagazine.com/article/chinese-155-mm-plc-181-wheeled-self-propelled-howitzer-shows-export-success", title: "Chinese 155 mm PLC-181 wheeled self-propelled howitzer shows export success", publisher: "Defense Magazine", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.globalsecurity.org/military/world/china/pcl-181.htm", title: "PCL-181 155mm self-propelled howitzer", publisher: "GlobalSecurity.org", retrieved: 2026-11-22, kind: reference }
+  - { id: s7, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2018/airshow-china-2018-new-sh15-155mm-8x8-self-propelled-howitzer", title: "AirShow China 2018: New SH15 155mm 6x6 self-propelled howitzer", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2023/ethiopian-army-has-now-put-chinese-sh-15-155mm-self-propelled-howitzers-into-service", title: "Ethiopian Army has now put Chinese SH-15 155mm self-propelled howitzers into service", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://armyrecognition.com/news/army-news/2025/pakistan-deploys-chinese-sh-15-155mm-howitzers-near-india-border-against-a-backdrop-of-regional-tensions", title: "Pakistan Deploys Chinese SH-15 155mm howitzers Near India Border Against a Backdrop of Regional Tensions", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://dsm.forecastinternational.com/2025/01/31/briefer-peoples-liberation-army-self-propelled-howitzers/", title: "BRIEFER: People's Liberation Army Self-Propelled Howitzers", publisher: "Forecast International", retrieved: 2026-11-22, kind: reference }

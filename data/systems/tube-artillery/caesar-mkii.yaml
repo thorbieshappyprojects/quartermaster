@@ -1,0 +1,88 @@
+id: caesar-mkii
+category: tube-artillery
+name: CAESAR 6x6 Mk II
+variant_note: New-build 6x6 Mk II (French Army 109-unit standard and export batches) per KNDS data sheet 06/2024
+family: CAESAR
+aliases: [CAESAR MkII, CAESAR Mk2, CAESAR 6x6 Mark II, CAESAR NG, CAESAr Mk II]
+manufacturer: { name: KNDS France (formerly Nexter Systems) }
+production_sites:
+  - { place: Roanne, country: FR, source: s6 }
+  - { place: Limoges, country: FR, source: s4 }
+origin: FR
+role: Truck-mounted 155 mm/52-calibre self-propelled howitzer with an armoured cab, giving mobile long-range indirect fire support at brigade and division level.
+memorable_fact: { text: "The Mk II's new 460 hp engine has more than twice the power of the Mk I's 215 hp, which offsets the weight of its better-protected cab.", source: s3 }
+status: in_production
+in_service_since:
+  value: 2008
+  source: s3
+  confidence: high
+  note: "This is the year the base CAESAR 6x6 system entered French service. For the Mk II, KNDS scheduled the first delivery for 2026 (s3). A June 2026 report said French Mk II guns had been seen in Estonia, but the French Army issued a correction: those guns were upgraded Mk Is (s11). No public source confirms a Mk II in service by 2026-11-22."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public production count for the Mk II was found. Firm orders found total 215: France 109, Lithuania 48, Belgium 28, Croatia 18 and Slovenia 12."
+combat_use: { text: "No confirmed combat use of the Mk II as of 2026. The earlier CAESAR 6x6 (Mk I) has been used in combat in the Sahel, Iraq and Ukraine.", source: s10 }
+specs:
+  calibre: { value: 155, source: s1, confidence: high }
+  barrel_length: { value: 52, source: s1, confidence: high }
+  max_range_standard:
+    value: 40
+    source: s1
+    confidence: high
+    note: "Uses an ERFB base-bleed round. KNDS gives a range of 4.5 to 40 km."
+  max_range_extended:
+    value: 55
+    source: s1
+    confidence: high
+    range: { min: 46, max: 70 }
+    note: "55 km is for a rocket-assisted round. Ranges for guided rounds differ between KNDS documents. For Excalibur, the 06/2024 data sheet gives 46 km (s2) and the current product page gives 50 km (s1). The product page also gives 70 km for VULCANO (s1). The value shown is for a conventional extended-range round, not a guided one."
+  rate_of_fire: { value: 6, source: s1, confidence: high }
+  into_action_time:
+    value: 45
+    source: s2
+    confidence: high
+    note: "KNDS states less than 45 s, so this is an upper bound. Time out of action is less than 40 s."
+  combat_weight:
+    value: 26.7
+    source: s1
+    confidence: high
+    note: "KNDS states less than 26.7 t, so this is an upper bound. The Mk II is heavier than the Mk I because of its armoured cab and new chassis."
+  crew:
+    value: 5
+    source: s1
+    confidence: high
+    range: { min: 3, max: 5 }
+    note: "The KNDS product page gives a standard crew of 5, with a minimum of 3. The data sheet gives 3-5 (s2)."
+operators:
+  - { country: FR, force: Army, state: ordered, quantity: 109, source: s3 }
+  - { country: LT, force: Land Forces, state: ordered, quantity: 48, source: s5 }
+  - { country: BE, force: Land Component, state: ordered, quantity: 28, source: s8 }
+  - { country: HR, force: Army, state: ordered, quantity: 18, source: s6 }
+  - { country: SI, force: Slovenian Armed Forces, state: ordered, quantity: 12, source: s7 }
+cost:
+  value: 3210000
+  currency: EUR
+  price_year: 2023
+  basis: contract_per_unit
+  source: s4
+  confidence: medium
+  note: "French DGA contract notified on 30 Dec 2023: about EUR 350 million for 109 Mk II guns, about EUR 3.21 million each. The price includes the first two years of support. Contract values were not published by the manufacturer or ministry and come from trade press."
+contracts:
+  - { customer: France (DGA / Army), year: 2023, quantity: 109, value: 350000000, currency: EUR, note: "Notified 30 Dec 2023 and announced by KNDS in Jan 2024. Deliveries planned for 2026-2030. Includes two years of support. Value is approximate, as reported by trade press.", source: s4 }
+  - { customer: Lithuania (Ministry of National Defence), year: 2025, quantity: 30, value: 252000000, currency: EUR, note: "Second batch, adding to 18 ordered in 2022, for 48 in total. Deliveries from 2027. Includes a EUR 12 million KNDS investment in a maintenance workshop in Lithuania.", source: s5 }
+  - { customer: Belgium (Land Component), year: 2022, quantity: 9, value: null, currency: null, note: "DGA ordered the guns for Belgium under a government-to-government agreement. This was the first batch; Belgium's Mk II order total was later reported as 28.", source: s9 }
+  - { customer: Slovenia (Ministry of Defence), year: 2025, quantity: 12, value: 110000000, currency: EUR, note: "First 12 of 18 planned guns, bought through a multinational framework managed by France. Value includes VAT, reconnaissance systems and the ATLAS artillery information system.", source: s7 }
+peers: [archer, rch-155, pcl-181]
+sources:
+  - { id: s1, url: "https://knds.com/en/products/systems/caesar-mk-2", title: "CAESAR®MK2 | KNDS Group", publisher: KNDS, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://media.knds.com/uploads/KRV_109_CAESAR_6_X6_MK_2_EN_BAT_BDEF_55e90936b3.pdf", title: "CAESAR 6X6 MK II Wheeled light self-propelled gun (KRV-109-EN-06/2024)", publisher: KNDS France, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://knds.com/en/press-releases/the-french-mod-orders-109-caesar-mk-ii-from-nexter-a-company-of-knds", title: "The French MOD orders 109 CAESAR MkII from Nexter, a company of KNDS", publisher: KNDS, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://forcesoperations.com/109-caesar-neufs-pour-entamer-un-nouveau-chapitre-de-lartillerie-francaise/", title: "109 CAESAR neufs pour entamer un nouveau chapitre de l'artillerie française", publisher: Forces Operations Blog (FOB), retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://forcesoperations.com/la-lituanie-reprend-du-caesar-mk-ii/", title: "La Lituanie reprend du CAESAR Mk II", publisher: Forces Operations Blog (FOB), retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.defaiya.com/news/Defense%20News/Europe/2025/12/09/croatia-orders-18-caesar-6x6-mkii-and-15-serval-armored-vehicles", title: "Croatia Orders 18 CAESAR® 6x6 MkII and 15 Serval Armored Vehicles", publisher: Defaiya, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://sloveniatimes.com/43831/slovenia-buys-french-made-howitzers", title: "Slovenia buys French-made howitzers", publisher: The Slovenia Times, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.janes.com/osint-insights/defence-news/weapons/future-artillery-2024-caesar-mk-ii-sph-to-be-unveiled-at-eurosatory", title: "Future Artillery 2024: CAESAR Mk II SPH to be unveiled at Eurosatory", publisher: Janes, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://breakingdefense.com/2022/06/belgium-lithuania-to-buy-french-made-caesar-artillery-system/", title: "Belgium, Lithuania to buy French-made Caesar artillery system", publisher: Breaking Defense, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://knds.com/media/K2_V_001_CAESAR_6_X6_EN_BAT_BDEF_91a6b0aeb4.pdf", title: "CAESAR® 6X6 Long-range proven", publisher: KNDS, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s11, url: "https://meta-defense.fr/2026/06/02/caesar-mark-ii-deploiement-estonie/", title: "Les premiers CAESAR Mark II de l'Armée de terre française dévoilés lors de l'exercice Spring Storm en Estonie.", publisher: Meta-Defense, retrieved: 2026-11-22, kind: press }

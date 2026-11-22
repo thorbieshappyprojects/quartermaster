@@ -1,0 +1,90 @@
+id: 2s19m2-msta-s
+category: tube-artillery
+name: "2S19M2 Msta-S"
+variant_note: "New-build 2S19M2 with 2A64M2 gun and ASUNO-M fire control"
+family: "2S19 Msta"
+aliases: ["Msta-SM2", "Msta-SM", "2S19M2"]
+manufacturer: { name: "Uraltransmash (Uralvagonzavod, Rostec)" }
+production_sites:
+  - { place: Yekaterinburg, country: RU, source: s4 }
+origin: RU
+role: "Tracked 152 mm self-propelled howitzer for indirect fire against personnel, weapons and materiel at division level."
+memorable_fact: { text: "The 2S19M2 has a burst mode: it fires five rounds at one target in quick succession, then leaves its firing position.", source: s5 }
+status: in_production
+in_service_since:
+  value: 2013
+  source: s2
+  confidence: medium
+  note: "Year of first service of the 2S19M2 variant (first vehicles to a Southern Military District brigade, June 2013; s1 also states 2013). Base 2S19 entered Soviet service in 1989. Shephard (s6) states series production since 2012. Status in_production is based on 2023 deliveries of new 2S19M2s (s10) and later press reports of new 2S19M2s at the front (s9). No source seen confirms production in 2026."
+units_built:
+  value: 180
+  source: s6
+  confidence: low
+  note: "2S19M2 only. Shephard Defence Insight estimate, published before a 31 May batch ordered under the 2019-2021 state defence plan (article date not confirmed, c. 2021). Not a cumulative figure for 2026; no official total found."
+combat_use:
+  text: "Used by Russia in the war against Ukraine. In July 2024 Army Recognition, citing open sources, reported 47 Russian 2S19M2s destroyed or damaged and 15 captured by Ukraine."
+  source: s8
+specs:
+  calibre:
+    value: 152
+    source: s3
+    confidence: high
+    note: "Nominal 152 mm; actual bore 152.4 mm (2A64M2 gun)."
+  barrel_length:
+    value: 47
+    source: s3
+    confidence: medium
+    range: { min: 47, max: 48 }
+    note: "GlobalSecurity's variant table gives 47 calibres for the 2S19M2; its base 2S19 spec sheet gives 48. 47 shown because it is the variant-specific figure."
+  max_range_standard:
+    value: 24.7
+    source: s3
+    confidence: medium
+    range: { min: 24.7, max: 25 }
+    note: "24.7 km with the standard HE-FRAG round (OF-45), given for the base 2S19 with the same 47-calibre barrel. Army Recognition (s1) gives about 25 km. No variant-specific official figure found."
+  max_range_extended:
+    value: 29
+    source: s3
+    confidence: medium
+    range: { min: 28.9, max: 29 }
+    note: "29 km with OF-61 (described as base bleed in s3; GlobalSecurity's variant table also lists 29 km for the 2S19M2). Army Recognition (s1) gives 28.9 km and calls it rocket-assisted, so the projectile type is reported inconsistently."
+  rate_of_fire:
+    value: 10
+    source: s5
+    confidence: high
+    note: "Aimed rate of fire of 10 rds/min, stated by the Uraltransmash CEO as quoted by TASS. Also given in s1, s6 and s10. The base 2S19 fires 7-8 rds/min."
+  into_action_time:
+    value: 120
+    source: s3
+    confidence: low
+    range: { min: 60, max: 120 }
+    note: "Source gives emplacement time of 1-2 min (60-120 s) for the base 2S19; upper bound shown. No 2S19M2-specific figure found."
+  combat_weight:
+    value: 43.24
+    source: s1
+    confidence: medium
+    note: "2S19M2 combat mass; GlobalSecurity's variant table (s3) gives the same figure. Base 2S19 is 42 t."
+  crew:
+    value: 5
+    source: s1
+    confidence: medium
+operators:
+  - { country: RU, force: "Ground Forces", state: in_service, quantity: null, source: s7 }
+  - { country: UA, force: "Armed Forces (captured vehicles)", state: in_service, quantity: null, source: s8, note: "Captured Russian vehicles; one used by the 95th Air Assault Brigade (July 2024). Open sources count 15 captured; not an official inventory figure." }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public unit price or contract value found." }
+contracts:
+  - { customer: "Russia / Ministry of Defence", year: 2020, quantity: 36, value: null, currency: null, note: "Planned 2020 deliveries of 2S19M2 announced by the Ministry of Defence; this is a delivery plan, not a published contract value.", source: s7 }
+  - { customer: "Russia / Ministry of Defence", year: 2021, quantity: null, value: null, currency: null, note: "Batch delivered on 31 May under the 2019-2021 state defence plan; quantity not disclosed. Year is approximate (article date not confirmed).", source: s6 }
+  - { customer: "Russia / Ministry of Defence", year: 2023, quantity: null, value: null, currency: null, note: "Final 2023 state defence order batch of 2S19M1 and 2S19M2 delivered by Rostec; quantity not disclosed.", source: s10 }
+peers: [m109a7-paladin, k9a2-thunder, as90, pzh-2000]
+sources:
+  - { id: s1, url: "https://www.armyrecognition.com/archives/archives-land-defense/2015/russia-s-advanced-2s19m2-self-propelled-howitzer-highlighted-at-rae-2015-21009154", title: "Russia's advanced 2S19M2 self-propelled howitzer highlighted at RAE 2015", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2013/russian-army-28-june-2013-news-uk", title: "Firsts modernized self-propelled artillery howitzer 2S19M2 enter in service Russian army", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.globalsecurity.org/military/world/russia/2s19-specs.htm", title: "2S19 MSTA-S 152-mm Self-Propelled Howitzer - Specifications", publisher: "GlobalSecurity.org", retrieved: 2026-11-22, kind: reference }
+  - { id: s4, url: "https://www.globalsecurity.org/military/world/russia/2s19.htm", title: "2S19 MSTA-S 152-mm Self-Propelled Howitzer", publisher: "GlobalSecurity.org", retrieved: 2026-11-22, kind: reference }
+  - { id: s5, url: "https://tass.com/defense/1359801", title: "Defense firm delivers latest Msta-S self-propelled howitzers to Russian troops", publisher: "TASS", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.shephardmedia.com/news/landwarfareintl/additional-enhanced-msta-s-howitzers-roll-assembly/", title: "Additional enhanced Msta-S howitzers roll off the assembly line", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2020/russian-southern-district-receives-msta-sm-self-propelled-howitzers", title: "Russian Southern district receives Msta-SM self-propelled howitzers", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/ukrainian-forces-strike-russian-positions-with-captured-2s19m2-self-propelled-howitzer", title: "Ukrainian Forces Strike Russian Positions with Captured 2S19M2 Self-Propelled Howitzer", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://defence-blog.com/russia-equips-new-2s19m2-howitzers-with-cages-and-ew-gear/", title: "Russia equips new 2S19M2 howitzers with cages and EW gear", publisher: "Defence Blog", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://defensemirror.com/news/35733/Russian_Troops_Receive_Modernized_Msta_S_Howitzers", title: "Russian Troops Receive Modernized Msta-S Howitzers", publisher: "Defense Mirror", retrieved: 2026-11-22, kind: press }

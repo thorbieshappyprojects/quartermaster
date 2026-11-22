@@ -1,5 +1,5 @@
 {
-  "spentUsd": 28.0846,
+  "spentUsd": 38.146,
   "entries": [
     {
       "date": "2026-11-21",
@@ -264,6 +264,94 @@
       "input": 545634,
       "output": 12771,
       "searches": 13
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/_category",
+      "usd": 0.5086,
+      "input": 239308,
+      "output": 8338,
+      "searches": 10
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/pzh-2000",
+      "usd": 1.2024,
+      "input": 1146391,
+      "output": 14324,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/caesar-mkii",
+      "usd": 0.8501,
+      "input": 811512,
+      "output": 12592,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/k9a2-thunder",
+      "usd": 1.0924,
+      "input": 855392,
+      "output": 21012,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/m109a7-paladin",
+      "usd": 0.9686,
+      "input": 723274,
+      "output": 17270,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/archer",
+      "usd": 0.7585,
+      "input": 505576,
+      "output": 12457,
+      "searches": 10
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/as90",
+      "usd": 0.6956,
+      "input": 397075,
+      "output": 9282,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/krab",
+      "usd": 1.2581,
+      "input": 1385199,
+      "output": 19728,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/2s19m2-msta-s",
+      "usd": 0.7606,
+      "input": 639825,
+      "output": 13102,
+      "searches": 11
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/rch-155",
+      "usd": 1.3481,
+      "input": 1285133,
+      "output": 11331,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/pcl-181",
+      "usd": 0.6184,
+      "input": 263639,
+      "output": 12407,
+      "searches": 15
     }
   ]
 }

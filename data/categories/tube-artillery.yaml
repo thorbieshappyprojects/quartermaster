@@ -1,0 +1,136 @@
+# Indicators: scripts/research/indicators/tube-artillery.yaml. Category card researched 2026-11-22.
+id: tube-artillery
+name: Tube artillery
+domain: Land fires
+wave: 1
+indicators:
+  - id: calibre
+    label: Calibre
+    unit: mm
+    trump: higher_wins
+  - id: barrel_length
+    label: Barrel length
+    unit: calibres
+    trump: higher_wins
+  - id: max_range_standard
+    label: Max. range (standard round)
+    unit: km
+    trump: higher_wins
+    decimals: 1
+  - id: max_range_extended
+    label: Max. range (extended-range round)
+    unit: km
+    trump: higher_wins
+    decimals: 1
+  - id: rate_of_fire
+    label: Max. rate of fire
+    unit: rounds/min
+    trump: higher_wins
+  - id: into_action_time
+    label: Time into action
+    unit: s
+    trump: lower_wins
+  - id: combat_weight
+    label: Combat weight
+    unit: t
+    trump: lower_wins
+    decimals: 1
+    description: Lighter is easier to move; a playful convention.
+  - id: crew
+    label: Crew
+    unit: ""
+    trump: lower_wins
+category_card:
+  summary: Tube artillery covers guns and howitzers that fire projectiles from a barrel, mostly at targets out of the crew's line of sight. The guns may be towed or self-propelled on tracked or wheeled vehicles, and in current service they are typically 105 mm to 155 mm calibre in NATO armies and 122 mm to 152 mm in Russian and post-Soviet armies.
+  purpose:
+    - text: US Army doctrine says field artillery, including cannon artillery, is there to suppress, neutralize or destroy the enemy and to coordinate all fire support assets within an operation.
+      source: s1
+    - text: Doctrine also calls for massing artillery fire to break the momentum of an enemy attack, to open a gap at the point of assault, and to hit enemy long-range artillery before it can fire its preparatory bombardment.
+      source: s1
+    - text: In Russian doctrine artillery is the main source of killing power in both the close and deep battle. RUSI judges it central to Russia's ability to hold back Ukrainian forces.
+      source: s2
+  strengths:
+    - text: A Ukrainian artillery commander says artillery can hit targets that drones cannot reach because of electronic jamming, and that fog, wind and snow do not stop it.
+      source: s5
+    - text: Artillery can deliver a large 'weight of fire' (volume of shells) over an area within minutes. Analysts note that single precision munitions may not be destructive enough to defeat a target on their own.
+      source: s2
+    - text: "Towed guns such as the M777 are light enough to be carried by aircraft and quick to learn: Ukrainian crews became proficient in about five days. The M777 reaches beyond 20 km with standard rounds and about 30 km with extended-range shells."
+      source: s3
+    - text: Current 155 mm self-propelled designs with longer 52-calibre barrels are quoted at about 40 km with base-bleed rounds and around 50 km with the guided Excalibur shell, at up to 8–10 rounds per minute.
+      source: s4
+  weaknesses:
+    - text: Accuracy depends on weather data, a surveyed gun position and calibrated guns and ammunition. Unguided shells scatter in a cigar-shaped pattern, so hitting a single small target such as one gun takes a large number of rounds.
+      source: s2
+    - text: Barrel heat and wear limit sustained fire to roughly 1–3 rounds per minute after the opening minutes of a fire mission. Massing enough fire therefore requires enough guns and enough ammunition.
+      source: s2
+    - text: Towed guns must be hitched and unhitched, so they take longer to move and are priority targets. More than 50 of about 190 M777s supplied to Ukraine are reported destroyed, and about a third of Ukraine's artillery is said to be under repair at any one time.
+      source: s3
+    - text: Longer barrels that extend range can wear out quickly. Excessive wear on the 58-calibre barrel after relatively few rounds contributed to the US Army ending its Extended Range Cannon Artillery (ERCA) prototype effort in April 2024.
+      source: s4
+  counters:
+    - text: Counter-battery fire cued by artillery-locating radar and drones together can be fast and accurate. RUSI reports Russian targeting cycles as short as about three minutes when this works.
+      source: s2
+    - text: Loitering munitions such as Russia's Lancet are used against dispersed guns, though their destructive effect is often reported as insufficient and crews can sometimes scatter before impact.
+      source: s2
+    - text: Weapon-locating radars track incoming rounds back to the firing gun, and anti-radiation missiles can destroy those radars to 'blind' counter-battery fire. Armoured turrets give limited protection against drones and loitering munitions.
+      source: s6
+    - text: Guns, command posts and supply points left in fixed positions during long operations become steadily more vulnerable to local counter-strikes.
+      source: s8
+  trends:
+    - text: "RUSI-linked analysis describes the 'death of the gun line': guns fire dispersed and individually rather than as fixed six- or eight-gun batteries, and 'shoot and scoot' (firing then moving quickly) is seen as essential to survival."
+      source: s3
+    - text: Armies are moving from towed to self-propelled artillery, both tracked and wheeled, with more automation. One example is the US Army's Self-Propelled Howitzer Modernization programme; some candidate systems need a crew of only two.
+      source: s4
+    - text: In Ukraine, drones have overtaken guns as the main source of fires along the front. Artillery is increasingly grouped with drone units, and anti-drone teams clear the sky of enemy reconnaissance drones before guns deploy.
+      source: s5
+    - text: Ukraine has used rapid digital sharing of targeting data in combat, passing it from surveillance drones and human observers straight to artillery batteries.
+      source: s7
+sources:
+  - id: s1
+    url: https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf
+    title: FM 3-09 Fire Support and Field Artillery Operations (April 2020)
+    publisher: Headquarters, Department of the Army (US) - copy hosted by Revista de Artilharia
+    retrieved: 2026-11-22
+    kind: government
+  - id: s2
+    url: https://www.rusi.org/explore-our-research/publications/commentary/russias-artillery-war-ukraine-challenges-and-innovations
+    title: "Russia's Artillery War in Ukraine: Challenges and Innovations"
+    publisher: Royal United Services Institute (RUSI)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s3
+    url: https://euro-sd.com/2024/03/articles/36968/towed-artillery-and-dismounted-mortar-use-in-ukraine/
+    title: Towed artillery and dismounted mortar use in Ukraine
+    publisher: European Security & Defence (ESD)
+    retrieved: 2026-11-22
+    kind: press
+  - id: s4
+    url: https://euro-sd.com/2025/10/articles/exclusive/47218/the-us-armys-search-for-new-self-propelled-artillery-a-long-haul-for-long-guns/
+    title: "The US Army's search for new self-propelled artillery: A long haul for long guns"
+    publisher: European Security & Defence (ESD)
+    retrieved: 2026-11-22
+    kind: press
+  - id: s5
+    url: https://www.twz.com/news-features/the-evolving-role-of-ukraines-artillery-in-the-age-of-drones
+    title: The Evolving Role Of Ukraine's Artillery In The Age Of Drones
+    publisher: The War Zone (TWZ)
+    retrieved: 2026-11-22
+    kind: press
+  - id: s6
+    url: https://thedefensepost.com/2024/12/11/ukraine-war-modern-artillery-needs/
+    title: "Evolving Artillery Needs: What Ukraine's Frontline Reveals About Modern Indirect Fires"
+    publisher: The Defense Post
+    retrieved: 2026-11-22
+    kind: press
+  - id: s7
+    url: https://breakingdefense.com/2023/12/high-tech-trench-warfare-5-hard-won-lessons-learned-for-the-us-from-ukraine/
+    title: "High-tech trench warfare: 5 hard-won lessons-learned for the US from Ukraine"
+    publisher: Breaking Defense
+    retrieved: 2026-11-22
+    kind: press
+  - id: s8
+    url: https://mwi.westpoint.edu/glass-cannons-from-grozny-to-mariupol-what-should-the-us-military-learn-from-russias-use-of-artillery-in-protracted-urban-sieges/
+    title: "Glass Cannons from Grozny to Mariupol: What Should the US Military Learn from Russia's Use of Artillery in Protracted Urban Sieges?"
+    publisher: Modern War Institute at West Point
+    retrieved: 2026-11-22
+    kind: reference

@@ -1,0 +1,84 @@
+id: archer
+category: tube-artillery
+name: "Archer 8x8 (RMMV HX2)"
+variant_note: "Archer gun system on Rheinmetall MAN HX2 8x8 truck; Swedish 2023 order"
+family: "Archer (FH77 BW L52)"
+aliases: ["FH77 BW L52", "Artillerisystem 08", "ARCHER Mobile Howitzer 8x8", "Archer 6x6 (earlier Volvo A30D-based version)"]
+manufacturer: { name: "BAE Systems Bofors" }
+origin: SE
+role: "Wheeled 155 mm self-propelled howitzer with a remotely operated, automatically loaded gun on a truck chassis with an armoured cab, built for rapid shoot-and-scoot fire support."
+memorable_fact: { text: "Archer can fire six rounds, displace and drive 500 m in under two minutes while the crew stays inside the armoured cabin.", source: s1 }
+status: in_production
+in_service_since:
+  value: 2026
+  source: s4
+  confidence: medium
+  note: "Year of first service of the 8x8 variant: FMV handed the first four Archer 8x8 to the Swedish Armed Forces (Bergslagen Artillery Regiment) on 26 August 2026, with remaining deliveries planned by 2030. The base Archer 6x6 on the Volvo articulated hauler was fielded with the Swedish Army in 2016 (s1)."
+units_built:
+  value: 48
+  source: s10
+  confidence: medium
+  note: "Family figure: the 48 series-production Archer 6x6 delivered to FMV (production completed in 2022). Excludes demonstrators and the new 8x8 production; at least four Archer 8x8 had been handed to the Swedish Armed Forces by August 2026 (s4)."
+combat_use: { text: "Used by Ukrainian forces against Russia, starting with the eight Archer 6x6 systems donated by Sweden.", source: s9 }
+specs:
+  calibre: { value: 155, source: s2, confidence: high }
+  barrel_length: { value: 52, source: s2, confidence: high }
+  max_range_standard: { value: 30, source: s2, confidence: high, note: "HE round, per the manufacturer's 8x8 technical data." }
+  max_range_extended:
+    value: 40
+    source: s2
+    confidence: high
+    note: "HEER (high-explosive extended-range) round. The same data sheet gives 50 km with the M982 Excalibur guided round and 35 km with BONUS. The UK MoD gives 50 km 'using extended range ammunition' (s6)."
+  rate_of_fire:
+    value: 8
+    source: s2
+    confidence: medium
+    range: { min: 8, max: 9 }
+    note: "8x8 brochure: 'up to 8 rounds/minute'; burst 3 rounds/20 s; intensive 21 rounds/3 min; continuous 54 rounds/35 min. BAE's product web page states up to 9 rounds/minute (s1). Displayed value taken from the brochure's technical data."
+  into_action_time:
+    value: 20
+    source: s2
+    confidence: high
+    note: "Manufacturer gives 'approx. 20 sec' into action and the same out of action. The BAE web page separately states less than 30 s from receiving a call for fire to firing the first round (s1)."
+  combat_weight:
+    value: 38
+    source: s2
+    confidence: high
+    note: "Manufacturer gives 38,000 kg for the 8x8 version. The 6x6 Volvo-based version is listed at 34,000 kg in BAE's 6x6 brochure (s3)."
+  crew:
+    value: 3
+    source: s2
+    confidence: high
+    note: "8x8 brochure: 3 crew. BAE's 6x6 brochure lists 1-4 crew members for the 6x6 (s3); the UK MoD says 3-4 (s6)."
+operators:
+  - { country: SE, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: SE, force: Army, state: ordered, quantity: 48, source: s5 }
+  - { country: GB, force: Army, state: in_service, quantity: 14, source: s6 }
+  - { country: UA, force: Ground Forces, state: in_service, quantity: 8, source: s7 }
+  - { country: UA, force: Ground Forces, state: ordered, quantity: 18, source: s7 }
+  - { country: UA, force: Ground Forces, state: ordered, quantity: 18, source: s8 }
+cost:
+  value: 104166667
+  currency: SEK
+  price_year: 2023
+  basis: contract_per_unit
+  source: s5
+  confidence: medium
+  note: "Swedish FMV contract of September 2023 for 48 Archer 8x8, reported at SEK 5 billion (about USD 447 million at the time); SEK 5,000,000,000 / 48. Exact contract scope (support, spares, training) not stated in the source."
+contracts:
+  - { customer: "Sweden (FMV / Swedish Army)", year: 2023, quantity: 48, value: 5000000000, currency: SEK, note: "48 Archer 8x8 on RMMV HX2; first deliveries to the armed forces in August 2026, completion planned by 2030 (s4).", source: s5 }
+  - { customer: "United Kingdom (British Army)", year: 2023, quantity: 14, value: null, currency: null, note: "Ex-Swedish Archer 6x6 bought as an interim replacement for the 32 AS90 donated to Ukraine; value not published.", source: s6 }
+  - { customer: "Sweden (FMV) for Ukraine", year: 2025, quantity: 18, value: null, currency: null, note: "Part of Sweden's 18th aid package (about SEK 3 billion, which also covers five Arthur radars); Archer deliveries from 2026.", source: s7 }
+  - { customer: "Sweden for Ukraine", year: 2025, quantity: 18, value: null, currency: null, note: "Further 18 Archer announced in September 2025 as part of a later Swedish aid package.", source: s8 }
+peers: [rch-155, caesar-mkii, pcl-181]
+sources:
+  - { id: s1, url: "https://www.baesystems.com/en-ca/product/archer", title: "ARCHER Wheeled Artillery System & Mobile Howitzer", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.baesystems.com/dam/jcr:e7b855a1-b9cb-4f52-896a-91dae5da58f5/ARCHER%20Brochure_MAN_6page_2025_NEUTRAL_lowres.pdf", title: "ARCHER Mobile Howitzer 8x8 brochure", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.baesystems.com/dam/jcr:2f6ba326-1c5a-4263-9eeb-1731a8f8dae4/ARCHER%20Brochure_6x6_6page_2025_lowres.pdf", title: "ARCHER Mobile Howitzer 6x6 brochure", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.janes.com/defence-intelligence-insights/defence-news/land/sweden-receives-first-four-archer-8x8-sphs", title: "Sweden receives first four Archer 8x8 SPHs", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://janes.com/defence-news/land-forces/latest/dsei-2023-sweden-orders-48-more-archer-sphs-as-it-delivers-others-to-uk", title: "DSEI 2023: Sweden orders 48 more Archer SPHs as it delivers others to UK", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.gov.uk/government/news/british-army-announces-new-artillery-deal-with-sweden", title: "British Army announces new artillery deal with Sweden", publisher: "UK Ministry of Defence (GOV.UK)", retrieved: 2026-11-22, kind: government }
+  - { id: s7, url: "https://defence-industry.eu/sweden-signs-contract-with-bae-systems-bofors-to-supply-archer-howitzers-and-arthur-radars-to-ukraine/", title: "Sweden signs contract with BAE Systems Bofors to supply Archer howitzers and Arthur radars to Ukraine", publisher: "Defence Industry Europe", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://thedefensepost.com/2025/09/16/sweden-archer-donation-ukraine/", title: "Sweden Announces 18 Additional Archer Howitzers for Ukraine", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.kyivpost.com/analysis/26428", title: "Analysis: Sweden's Archer Artillery System is in Action in Ukraine", publisher: "Kyiv Post", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.army-technology.com/news/fmv-archer-system-bae/", title: "FMV receives 48th and last Archer artillery system from BAE Systems", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }

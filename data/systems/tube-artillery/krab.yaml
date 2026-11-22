@@ -1,0 +1,47 @@
+id: krab
+category: tube-artillery
+name: AHS Krab
+variant_note: Serial Krab on licence-built K9-derived (PK9) chassis, incl. upgraded 2025-26 deliveries
+family: Krab
+aliases: [Krab, SH Krab, "155 mm sh Krab"]
+manufacturer: { name: "Huta Stalowa Wola S.A. (PGZ)" }
+production_sites:
+  - { place: Stalowa Wola, country: PL, source: s4 }
+origin: PL
+role: 155 mm/52-calibre tracked self-propelled gun-howitzer providing brigade- and division-level fire support within the Regina battalion fire module.
+memorable_fact: { text: "The Krab combines a South Korean K9 Thunder-derived chassis with a turret derived from the British AS-90M Braveheart.", source: s4 }
+status: in_production
+in_service_since: { value: 2016, source: s11, confidence: low, note: "Year the first serial Krab on the K9-derived chassis left the HSW plant (28 April 2016). Earlier pre-series guns (2008-2012) used the UPG-NG chassis. Upgraded-configuration guns were delivered from 2025-26; exact first-delivery date not found." }
+units_built: { value: null, source: null, confidence: null, note: "No public total found. Armament Agency (2023): 80 delivered to Polish forces, incl. 24 pre-series (s5); 54 for Ukraine delivered by Dec 2024 (s8); deliveries to Poland resumed in 2025 (34 planned for 2025, 32 for 2026, 24 for 2027)." }
+combat_use: { text: "Used by Ukraine against the Russian invasion since 2022; guns from the first donated batch reportedly saw combat near Sievierodonetsk.", source: s6 }
+specs:
+  calibre: { value: 155, source: s1, confidence: high }
+  barrel_length: { value: 52, source: s1, confidence: high }
+  max_range_standard: { value: 30, source: s2, confidence: high, note: "Government: up to 30 km with standard projectiles." }
+  max_range_extended: { value: 40, source: s2, confidence: high, note: "Government: up to 40 km with base-bleed (gas-generator) projectiles; manufacturer data sheet (s1) also gives 40 km maximum range; trade press (s7) says modern long-range ammunition can exceed 40 km." }
+  rate_of_fire: { value: 6, source: s1, confidence: high, note: "Intensive fire: 6 rounds/min for 3 min. Burst: 3 rounds in 10 s. Sustained: 2 rounds/min. MRSI: up to 3 rounds." }
+  into_action_time: { value: 30, source: s1, confidence: high, note: "Manufacturer: approximately 30 s to go from travelling to firing position; leaving the firing position takes at most 30 s." }
+  combat_weight: { value: 48, source: s1, confidence: high, note: "Manufacturer: 48,000 kg." }
+  crew: { value: 5, source: s1, confidence: high, note: "Manufacturer gives crew as 4+1." }
+operators:
+  - { country: PL, force: Army, state: in_service, quantity: null, source: s3 }
+  - { country: UA, force: Army, state: in_service, quantity: null, source: s9 }
+cost: { value: 93750000, currency: PLN, price_year: 2024, basis: contract_per_unit, source: s7, confidence: medium, note: "Contract of 23 Dec 2024 (~PLN 9 bn) divided by 96 Krabs. Also covers command, staff and ammunition vehicles, repair workshops, training and logistics." }
+contracts:
+  - { customer: Poland / Army, year: 2016, quantity: 96, value: 4649000000, currency: PLN, note: "Four Regina battalion fire modules incl. support vehicles; gross value. A Dec 2020 annex added 2 guns.", source: s10 }
+  - { customer: Ukraine / Armed Forces, year: 2022, quantity: 54, value: 2700000000, currency: PLN, note: "Commercial sale, separate from 18 guns donated from Polish stock. Deliveries completed Dec 2024. Some reports give 56 units.", source: s6 }
+  - { customer: Poland / Army, year: 2024, quantity: 96, value: 9000000000, currency: PLN, note: "Executive contract under the Dec 2023 framework agreement for 152 guns. Four modules incl. support vehicles, training and logistics; deliveries through 2029.", source: s7 }
+  - { customer: Poland / Army, year: 2026, quantity: 96, value: 7900000000, currency: PLN, note: "Signed 30 May 2026 under the EU SAFE loan programme; four further Regina modules; approximate net value.", source: s8 }
+peers: [k9a2-thunder, pzh-2000, as90, m109a7-paladin]
+sources:
+  - { id: s1, url: "https://www.hsw.pl/wp-content/uploads/2021/08/krab.pdf", title: "155 mm samobieżna haubica na podwoziu gąsienicowym - KRAB (data sheet)", publisher: Huta Stalowa Wola S.A., retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.gov.pl/web/aktywa-panstwowe/huta-stalowa-wola-z-kontraktem-na-96-armatohaubic-krab", title: "Huta Stalowa Wola z kontraktem na 96 armatohaubic Krab", publisher: Ministerstwo Aktywów Państwowych (gov.pl), retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.gov.pl/web/obrona-narodowa/haubice-krab", title: "Armatohaubice KRAB", publisher: Ministerstwo Obrony Narodowej (gov.pl), retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://thedefensepost.com/2022/06/09/poland-self-propelled-howitzers-ukraine/", title: "Poland to Deliver Self-Propelled Howitzers to Ukraine", publisher: The Defense Post, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://defence24.pl/sily-zbrojne/ile-krabow-otrzymaly-sily-zbrojne-wojsko-przedstawia-harmonogram-dostaw", title: "Ile Krabów otrzymały Siły Zbrojne? Wojsko przedstawia harmonogram dostaw", publisher: Defence24, retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://defence24.com/armed-forces/land-forces/krab-howitzers-spotted-in-ukraine-engaging-the-targets-photos", title: "Krab Howitzers Spotted in Ukraine - Engaging the Targets [PHOTOS]", publisher: Defence24, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://milmag.pl/en/another-contract-for-96-ahs-krab/", title: "Another contract for 96 AHS Krab", publisher: MILMAG, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://milmag.pl/en/suppliers-selected-for-components-of-polish-krab-self-propelled-howitzers/", title: "Suppliers selected for components of Polish Krab self-propelled howitzers", publisher: MILMAG, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://defence24.pl/sily-zbrojne/wiecej-zmodyfikowanych-krabow-w-wojsku-kolejna-dostawa-z-hsw", title: "Więcej zmodyfikowanych Krabów w wojsku. Kolejna dostawa z HSW", publisher: Defence24, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://dziennikzbrojny.pl/aktualnosci/news,1,12111,aktualnosci-z-polski,kolejne-kraby-dla-wojska-polskiego", title: "Kolejne Kraby dla Wojska Polskiego", publisher: DziennikZbrojny.pl, retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://mezha.ua/en/2022/05/31/the-55-mm-ahs-krab/", title: "The 55-mm AHS Krab SpGH, a Polish version of the AS-90, for the Armed Forces", publisher: Mezha, retrieved: 2026-11-22, kind: press }

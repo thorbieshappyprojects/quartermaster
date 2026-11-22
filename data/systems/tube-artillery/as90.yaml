@@ -1,0 +1,85 @@
+id: as90
+category: tube-artillery
+name: "AS90 (155 mm L39)"
+variant_note: "Standard 155 mm/39-calibre production configuration; British Army batch of 179"
+family: "AS90"
+aliases: ["AS-90", "Artillery System 90", "AS90 Braveheart (52-calibre development)"]
+manufacturer: { name: "Vickers Shipbuilding and Engineering Ltd (VSEL), now BAE Systems" }
+production_sites:
+  - { place: "Barrow-in-Furness", country: GB, source: s1 }
+origin: GB
+role: "Tracked 155 mm self-propelled howitzer providing indirect fire support to armoured formations."
+memorable_fact: { text: "Its automated loading system lets the AS90 fire a three-round burst in under ten seconds.", source: s1 }
+status: in_service
+in_service_since:
+  value: 1993
+  source: s1
+  confidence: medium
+  range: { min: 1992, max: 1993 }
+  note: "Base system (British Army). Army Technology says it entered service in 1992 and was first operational in 1993. FAS says it was first delivered in 1993. Displayed value is the first operational year. Production has ended; the British Army no longer operates it (s2), and the remaining operator is Ukraine."
+units_built:
+  value: 179
+  source: s1
+  confidence: medium
+  note: "Whole AS90 family, all built for the British Army (also stated in s2)."
+combat_use:
+  text: "Used by the British Army in the 2003 Iraq war, and used by Ukrainian forces against Russia since UK donations began in 2023."
+  source: s2
+specs:
+  calibre: { value: 155, source: s1, confidence: medium }
+  barrel_length:
+    value: 39
+    source: s7
+    confidence: medium
+    note: "In-service guns are 155 mm/L39 (MoD data for 2021, reported by ESD). A 52-calibre barrel (Braveheart) is listed by s1 as a stretch option."
+  max_range_standard:
+    value: 24.7
+    source: s1
+    confidence: medium
+    note: "Conventional (unassisted) ammunition with the 39-calibre barrel; same figure in s4 and s5."
+  max_range_extended:
+    value: 30
+    source: s1
+    confidence: medium
+    note: "Assisted/extended-range rounds with the 39-calibre barrel. s1 lists 40 km for the 52-calibre barrel, which is not the in-service configuration."
+  rate_of_fire:
+    value: 6
+    source: s1
+    confidence: medium
+    note: "Intense rate: 6 rounds a minute for 3 minutes. Burst rate is 3 rounds in 10 seconds; sustained rate is 2 rounds a minute."
+  into_action_time: { value: null, source: null, confidence: null }
+  combat_weight:
+    value: 45
+    source: s5
+    confidence: low
+    range: { min: 42, max: 45 }
+    note: "Army Recognition gives 45,000 kg; Army Technology (s1) gives 42,000 kg. No manufacturer or government figure found. The higher, more widely quoted figure is displayed."
+  crew:
+    value: 5
+    source: s4
+    confidence: medium
+    range: { min: 4, max: 5 }
+    note: "FAS and Army Recognition (s5) give 5; Army Technology (s1) gives four or five."
+operators:
+  - { country: GB, force: "British Army", state: retired, quantity: 179, source: s2 }
+  - { country: UA, force: "Armed Forces of Ukraine", state: in_service, quantity: null, source: s3 }
+cost:
+  value: null
+  currency: null
+  price_year: null
+  basis: null
+  source: null
+  confidence: null
+  note: "No stated unit price or per-unit contract value found in manufacturer, government or reputable trade-press sources."
+contracts:
+  - { customer: "Ukraine (UK government donation)", year: 2023, quantity: 32, value: null, currency: null, note: "Initial donation of 32 guns from UK stocks; not a commercial contract.", source: s2 }
+  - { customer: "Ukraine (UK government donation)", year: 2024, quantity: 16, value: null, currency: null, note: "Additional donation: 10 delivered and 6 more to follow, exceeding a pledge of 12 within 100 days. A FOIA release reported by Militarnyi (s3) says 99 AS90s in total were transferred.", source: s6 }
+peers: [krab, m109a7-paladin, k9a2-thunder, pzh-2000]
+sources:
+  - { id: s1, url: "https://www.army-technology.com/projects/as90/", title: "AS90 Braveheart 155mm Self-Propelled Howitzer - Army Technology", publisher: "Army Technology (GlobalData)", retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.army-technology.com/news/revealed-british-army-no-longer-operates-as90-artillery/", title: "Exclusive: British Army no longer operates AS90 artillery - Army Technology", publisher: "Army Technology (GlobalData)", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://militarnyi.com/en/news/foia-document-uk-confirms-transfer-of-all-as-90-howitzers-to-ukraine/", title: "FOIA Document: UK Confirms Transfer of All AS-90 Howitzers to Ukraine", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://man.fas.org/dod-101/sys/land/row/as90.htm", title: "AS 90 155mm - Self Propelled Howitzer", publisher: "Federation of American Scientists", retrieved: 2026-11-22, kind: reference }
+  - { id: s5, url: "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/self-propelled-howitzers/as90-braveheart-155mm", title: "AS90 Braveheart 155mm", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.army-technology.com/news/uk-picks-up-the-pace-with-as90-howitzer-delivery-to-ukraine/", title: "UK picks up the pace with AS90 howitzer delivery to Ukraine - Army Technology", publisher: "Army Technology (GlobalData)", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://euro-sd.com/2022/09/articles/27156/the-british-army-artillery-renaissance-british-army-artillery/", title: "The British Army Artillery Renaissance", publisher: "European Security & Defence (ESD)", retrieved: 2026-11-22, kind: press }

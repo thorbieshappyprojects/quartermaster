@@ -1,0 +1,90 @@
+id: m109a7-paladin
+category: tube-artillery
+name: "M109A7 Paladin"
+variant_note: "M109A7 howitzer of the PIM set (M109A7 + M992A3), current US Army production standard"
+family: "M109"
+aliases: ["Paladin Integrated Management (PIM)", "M109A7 SPH"]
+manufacturer: { name: "BAE Systems" }
+production_sites:
+  - { place: "York, Pennsylvania", country: US, source: s8 }
+  - { place: "Elgin, Oklahoma", country: US, source: s8 }
+  - { place: "Anniston Army Depot, Alabama", country: US, source: s8 }
+origin: US
+role: "Tracked 155 mm self-propelled howitzer providing indirect fire support to US Army Armored Brigade Combat Teams, fielded with the M992A3 ammunition carrier."
+memorable_fact: { text: "The M109A7 chassis uses the same power pack, drive train, track and suspension components as the Bradley Fighting Vehicle.", source: s2 }
+status: in_production
+in_service_since:
+  value: 2018
+  source: s3
+  confidence: high
+  note: "First Unit Equipped with this variant (M109A7) in August 2018, per the Army's Selected Acquisition Report. The first low-rate production M109A7 was handed to the Army in April 2014 (s14). The year the base M109 family entered service is not given here."
+units_built:
+  value: 178
+  range: { min: 178, max: 300 }
+  source: s4
+  confidence: medium
+  note: "M109A7/M992A3 sets (this variant) delivered as of the December 2021 SAR: 2 development + 176 procurement, out of a planned 689 sets. Production has continued since. No newer public total was found. Army Technology (s15) says the 300th set was delivered in 2021, but its '133 LRIP + 216 FRP sets' appear to count single vehicles (the SAR tracks contract deliveries by vehicle). The government figure is shown."
+specs:
+  calibre: { value: 155, source: s3, confidence: high }
+  barrel_length: { value: 39, source: s3, confidence: high, note: "M284/M284A2 cannon on M182A1 mount (s2)" }
+  max_range_standard:
+    value: 24
+    source: s6
+    confidence: medium
+    note: "Unassisted projectile. The Army field manual gives the same 24 km for the same M284 cannon on the M109A6 (s5)."
+  max_range_extended:
+    value: 30
+    source: s5
+    confidence: medium
+    note: "Rocket-assisted projectile (RAP), as given for the M284 cannon on the M109A6. BAE states the M109A7 range as 'in excess of 30km' (s2). No sourced range for an Excalibur/extended-range round was found."
+  rate_of_fire:
+    value: 4
+    range: { min: 4, max: 8 }
+    source: s5
+    confidence: medium
+    note: "Army field manual (M109A6, same cannon): maximum 4 rds/min for 3 minutes; sustained 1 rd/min. Army Technology gives up to 8 rds/min for the M109A6 (s7). The government figure is shown."
+  into_action_time:
+    value: 60
+    source: s2
+    confidence: high
+    note: "From the move: receive the mission, compute firing data, emplace, point the gun and fire within 60 s. When already emplaced, BAE says under 30 s (s11)."
+  combat_weight:
+    value: 38.1
+    range: { min: 35.4, max: 38.1 }
+    source: s2
+    confidence: high
+    note: "BAE datasheet: 84,000 lb (38,101 kg). Army Recognition lists 35,380 kg (s6). The manufacturer figure is shown."
+  crew: { value: 4, source: s2, confidence: high }
+operators:
+  - { country: US, force: "Army (incl. Army National Guard)", state: in_service, quantity: null, source: s1 }
+  - { country: TW, force: "Army", state: ordered, quantity: 60, source: s13, note: "US FMS notification December 2025; deliveries reportedly not before 2030" }
+cost:
+  value: 11825000
+  currency: USD
+  price_year: 2026
+  basis: contract_per_unit
+  source: s10
+  confidence: medium
+  note: "January 2026 US Army contract: USD 473 million for 40 sets = USD 11.825 million per set. Each set is one M109A7 plus one M992A3 ammunition carrier, so this is not a price for the howitzer alone."
+contracts:
+  - { customer: "US Army", year: 2017, quantity: 48, value: 413700000, currency: USD, note: "Final low-rate production lot (48 howitzers + 48 M992A3) with full-rate options for 60 sets/year; up to about USD 1.7 bn if all options are exercised", source: s9 }
+  - { customer: "US Army", year: 2024, quantity: null, value: 579000000, currency: USD, note: "3 July 2024 award for M109A7 and M992A3 production", source: s12 }
+  - { customer: "US Army", year: 2026, quantity: 40, value: 473000000, currency: USD, note: "January 2026 award for 40 sets (M109A7 + M992A3); a further USD 535 million award followed in June 2026 (s11)", source: s10 }
+  - { customer: "Taiwan (TECRO) / Army", year: 2025, quantity: 60, value: 4030000000, currency: USD, note: "Foreign Military Sale notified December 2025: 60 M109A7, 60 ammunition carriers, 13 recovery vehicles and over 4,000 precision-guidance kits", source: s13 }
+peers: [pzh-2000, k9a2-thunder, krab, 2s19m2-msta-s]
+sources:
+  - { id: s1, url: "https://www.baesystems.com/en-us/product/m109a7", title: "M109A7", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.baesystems.com/dam/jcr:891d545e-5925-442e-a4b1-65172af2647d/DIGITAL_BAE_Print_USL_Landscape_Green%20M109A7_PIM.pdf", title: "M109A7 Self-Propelled Howitzer datasheet", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2018_SARS/19-F-1098_DOC_18_Army_PIM_SAR_Dec_2018_REDACTED.pdf", title: "Paladin Integrated Management (PIM) Selected Acquisition Report, December 2018", publisher: "US Department of Defense", retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2021_SARS/22-F-0762_PIM_SAR_2021.pdf", title: "Self-Propelled Howitzer Paladin Integrated Management (PIM) Selected Acquisition Report 2021", publisher: "US Department of Defense", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.bits.de/NRANEU/others/amd-us-archive/fm3-09.70(00).pdf", title: "FM 3-09.70 Tactics, Techniques and Procedures for M109A6 Howitzer (Paladin) Operations", publisher: "US Army (archived copy, BITS)", retrieved: 2026-11-22, kind: government }
+  - { id: s6, url: "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/self-propelled-howitzers/m109a7-155mm-self-propelled-howitzer-technical-data-sheet-specifications-information-description-int?highlight=WyJtMTA5IiwiZGF0YSJd", title: "M109A7 SPH Paladin 155mm tracked self-propelled howitzer", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.army-technology.com/projects/paladin/", title: "Paladin M109A6 155mm Artillery System", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.baesystems.com/en-us/article/-245-3-million-u-s--army-contract-to-continue-m109a7-production", title: "BAE Systems Receives $245.3 Million U.S. Army Contract to Continue M109A7 Production", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s9, url: "https://www.defensenews.com/land/2017/12/21/us-army-awards-bae-contract-to-build-full-rate-production-howitzers/", title: "US Army awards BAE contract to build full-rate production howitzers", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.govconwire.com/articles/bae-systems-army-m109a7-paladin-howitzer", title: "BAE Systems Secures $473M Army Contract for M109A7 Paladin Howitzers", publisher: "GovCon Wire", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://www.aol.com/articles/bae-systems-awarded-contract-continued-140000000.html", title: "BAE Systems awarded contract for continued production of M109A7 Paladin Self-Propelled Howitzers", publisher: "BAE Systems (PR Newswire release via AOL)", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s12, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/bae-systems-to-produce-more-m109a7-paladin-howitzers-and-m992a3-resupply-vehicles-for-the-us-army", title: "BAE Systems to produce more M109A7 Paladin howitzers and M992A3 resupply vehicles for the US Army", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://tsm.schar.gmu.edu/taiwan-arms-sale-backlog-may-2026-update/", title: "Taiwan Arms Sale Backlog, May 2026 Update", publisher: "Taiwan Security Monitor, George Mason University", retrieved: 2026-11-22, kind: reference }
+  - { id: s14, url: "https://www.army.mil/article/146200/Army_accepts_delivery_of_first_M109A7___/", title: "Army accepts delivery of first M109A7 Self-Propelled Howitzer system", publisher: "US Army", retrieved: 2026-11-22, kind: government }
+  - { id: s15, url: "https://www.army-technology.com/projects/paladin-m109a7-155mm-artillery-system/", title: "Paladin M109A7 155mm Artillery System, United States of America", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
