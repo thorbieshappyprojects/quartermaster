@@ -289,6 +289,9 @@ export function validate(data: LoadedData): ValidationResult {
       if (p === card.id) issues.push({ level: 'error', file, path: `peers[${i}]`, message: 'a system cannot be its own peer' });
       else if (!systems.has(p)) issues.push({ level: 'error', file, path: `peers[${i}]`, message: `peer '${p}' does not exist` });
     });
+    card.fired_by?.forEach((p, i) => {
+      if (!systems.has(p)) issues.push({ level: 'error', file, path: `fired_by[${i}]`, message: `platform '${p}' does not exist` });
+    });
     card.sources.forEach((src, i) => {
       if (!ctx.used.has(src.id)) issues.push({ level: 'warning', file, path: `sources[${i}]`, message: `source '${src.id}' is never referenced` });
     });

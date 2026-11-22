@@ -114,6 +114,8 @@ export interface SystemCard {
   cost: Cost;
   contracts?: Contract[];
   peers: string[];
+  /** Ammunition only: platform cards that fire this round. */
+  fired_by?: string[];
   silhouette?: string;
   sources: Source[];
 }

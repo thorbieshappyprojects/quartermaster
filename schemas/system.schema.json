@@ -84,6 +84,11 @@
       }
     },
     "peers": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/slug" } },
+    "fired_by": {
+      "description": "Ammunition cards only: ids of platform cards that fire this round (the fires relation, stored on the round)",
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/slug" }
+    },
     "silhouette": { "type": "string", "description": "File name in public/silhouettes/" },
     "sources": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/source" } }
   }

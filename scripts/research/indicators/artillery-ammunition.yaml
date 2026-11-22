@@ -1,0 +1,9 @@
+id: artillery-ammunition
+name: 155 mm artillery ammunition
+domain: Ammunition
+wave: 2
+indicators:
+  - { id: max_range, label: Max. range, unit: km, trump: higher_wins, decimals: 1, description: From a 52-calibre gun where stated (say which gun in note). }
+  - { id: projectile_weight, label: Projectile weight, unit: kg, trump: higher_wins, decimals: 1 }
+  - { id: explosive_fill, label: Explosive fill, unit: kg, trump: higher_wins, decimals: 1 }
+  - { id: accuracy_cep, label: Accuracy (CEP), unit: m, trump: lower_wins, description: Circular error probable; guided rounds only. }

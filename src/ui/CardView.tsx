@@ -86,6 +86,9 @@ export function SourceList({ refs, local }: { refs: Map<string, string[]>; local
 export function SystemCardView({ card, onPrev, onNext }: { card: CompiledSystem; onPrev?: () => void; onNext?: () => void }) {
   const cat = categoriesById.get(card.category);
   const peers = [...peersOf(card, deck.systems)].map((id) => systemsById.get(id)).filter(Boolean) as CompiledSystem[];
+  // fires relation, stored on the round: show it on the round and on every platform that fires it.
+  const firedBy = (card.fired_by ?? []).map((id) => systemsById.get(id)).filter(Boolean) as CompiledSystem[];
+  const fires = deck.systems.filter((s) => s.fired_by?.includes(card.id));
   const maker = card.manufacturer.benchmark_slug ? deck.manufacturers.find((m) => m.slug === card.manufacturer.benchmark_slug) : undefined;
   const confCounts = Object.values(card.specs).reduce<Record<string, number>>((acc, v) => ((acc[v.confidence ?? 'empty'] = (acc[v.confidence ?? 'empty'] ?? 0) + 1), acc), {});
 
@@ -221,6 +224,20 @@ export function SystemCardView({ card, onPrev, onNext }: { card: CompiledSystem;
               {maker && <span class="muted small"> — context available</span>}
             </p>
             {maker && <ManufacturerContext m={maker} />}
+            {[['Fired by', firedBy], ['Ammunition', fires]].map(([label, list]) =>
+              (list as CompiledSystem[]).length ? (
+                <>
+                  <h3>{label as string}</h3>
+                  <div class="row">
+                    {(list as CompiledSystem[]).map((p) => (
+                      <a class="chip" href={`#/card/${p.id}`}>
+                        {p.name}
+                      </a>
+                    ))}
+                  </div>
+                </>
+              ) : null,
+            )}
             {peers.length > 0 && (
               <>
                 <h3>Direct peers</h3>

@@ -4,6 +4,7 @@ import { deck, categoriesById } from '../data/deck.ts';
 import { flag, countryName } from '../game/countries.ts';
 import { CategoryFilter } from './CategoryFilter.tsx';
 import { Silhouette } from './Silhouette.tsx';
+import { Thumb } from './Thumb.tsx';
 
 const filter = signal('');
 const query = signal('');
@@ -43,7 +44,7 @@ export function Browser() {
         ))}
         {systems.map((s) => (
           <a class="tile" href={`#/card/${s.id}`}>
-            <Silhouette card={s} label={s.name} />
+            <Thumb card={s} label={s.name} />
             <span class="name">{s.name}</span>
             <span class="muted small">
               {flag(s.origin)} {countryName(s.origin)} · {categoriesById.get(s.category)?.name}

@@ -113,3 +113,11 @@ fighter-aircraft:
   - { id: gripen-e, name: Gripen E }
   - { id: su-35s, name: Su-35S }
   - { id: j-20, name: J-20 }
+# Wave 2 ammunition (M8)
+artillery-ammunition:
+  - { id: m795, name: M795 high-explosive round }
+  - { id: m982a1-excalibur, name: M982A1 Excalibur }
+  - { id: vulcano-155, name: Vulcano 155 GLR }
+  - { id: smart-155, name: SMArt 155 }
+  - { id: bonus, name: BONUS sensor-fuzed round }
+  - { id: dm121, name: Rheinmetall DM121 extended-range round }

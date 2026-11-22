@@ -5,7 +5,7 @@ import { cardCode, categoriesById, deck, systemsById } from '../data/deck.ts';
 import { formatMoney, formatValue } from '../game/cards.ts';
 import { countryName, flag } from '../game/countries.ts';
 import { CategoryFilter } from './CategoryFilter.tsx';
-import { Silhouette } from './Silhouette.tsx';
+import { Thumb } from './Thumb.tsx';
 import { route, go } from './router.ts';
 
 export const MAX_COMPARE = 4;
@@ -100,7 +100,7 @@ export function ComparePage() {
               {cards.map((c) => (
                 <th scope="col">
                   <a href={`#/card/${c.id}`} class="compare-card">
-                    <Silhouette card={c} label={c.name} />
+                    <Thumb card={c} label={c.name} />
                     <span class="code-sm">{cardCode(c)}</span>
                     <strong>{c.name}</strong>
                     <span class="muted small">
@@ -156,7 +156,7 @@ function Picker({ onDone }: { onDone: () => void }) {
           const on = ids.includes(s.id);
           return (
             <button class={`btn${on ? ' sel' : ''}`} aria-pressed={on} disabled={!on && ids.length >= MAX_COMPARE} onClick={() => toggleCompare(s.id)}>
-              <Silhouette card={s} label={s.name} />
+              <Thumb card={s} label={s.name} />
               <strong>{s.name}</strong>
               <span class="muted small">{cardCode(s)} · {categoriesById.get(s.category)?.name}</span>
             </button>

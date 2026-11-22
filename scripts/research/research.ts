@@ -69,6 +69,9 @@ Hard rules - follow them exactly:
 - Use short source ids: s1, s2, ...
 Output: after researching, reply with exactly one fenced \`\`\`yaml block containing the complete file and nothing after it.`;
 
+/** Platform ids for the ammunition fires relation (tube artillery cards). */
+const platforms = () => loadData('data').systems.map((f) => f.data as { id: string; category: string }).filter((c) => c.category === 'tube-artillery').map((c) => c.id);
+
 function systemPrompt(cat: { id: string; indicators: { id: string; label: string; unit: string; derived?: unknown; description?: string }[] }, target: Target, all: Target[]) {
   const stored = cat.indicators.filter((i) => !i.derived);
   return `Research the "${target.name}" for category "${cat.id}".
@@ -98,7 +101,7 @@ operators:
 cost: { value: <number or null>, currency: <ISO 4217 or null>, price_year: <year or null>, basis: unit_price|contract_per_unit|null, source: <sX or null>, confidence: <or null>, note: <which contract> }
 contracts:                                             # optional, the 1-4 most significant
   - { customer: <country/force>, year: <int>, quantity: <int|null>, value: <number|null>, currency: <ISO|null>, note: <...>, source: sX }
-peers: [ <2-4 ids of the closest direct competitors, ONLY from this list: ${all.filter((t) => t.id !== target.id).map((t) => t.id).join(', ')}> ]
+peers: [ <2-4 ids of the closest direct competitors, ONLY from this list: ${all.filter((t) => t.id !== target.id).map((t) => t.id).join(', ')}> ]${cat.id.endsWith('ammunition') ? `\nfired_by: [ <ids of platforms from this list that are documented to fire this round: ${platforms().join(', ')}> ]` : ''}
 sources:
   - { id: s1, url: <exact URL>, title: <page title>, publisher: <organisation>, retrieved: ${today}, kind: manufacturer|government|reference|press|other }
 
