@@ -1,0 +1,13 @@
+id: aa-army
+country: DE
+branch: army
+force: Testheer
+force_en: Test Army
+ranks:
+  - { id: aa-army-soldat, name: Soldat, name_en: Private, code: OR-1, group: enlisted, source: s1 }
+  - { id: aa-army-gefreiter, name: Gefreiter, name_en: Lance corporal, code: OR-2, group: enlisted, source: s1 }
+  - { id: aa-army-feldwebel, name: Feldwebel, name_en: Sergeant first class, code: OR-6, group: nco, source: s1 }
+  - { id: aa-army-leutnant, name: Leutnant, name_en: Second lieutenant, code: OF-1, group: officer, role: platoon leader, source: s1 }
+  - { id: aa-army-oberleutnant, name: Oberleutnant, name_en: First lieutenant, code: OF-1, group: officer, source: s1 }
+sources:
+  - { id: s1, url: "https://example.org/ranks", title: Test ranks, publisher: Test, retrieved: 2026-11-21, kind: government }

@@ -1,0 +1,11 @@
+id: zz-army
+country: DE
+branch: army
+force: Kaputt
+force_en: Broken Army
+nato_graded: false
+ranks:
+  - { id: zz-army-leutnant, name: Leutnant, name_en: Second lieutenant, code: OF-1, group: officer, approximate: true, source: s1 }
+  - { id: zz-army-gefreiter, name: Gefreiter, name_en: Lance corporal, code: OR-2, group: enlisted, source: s2 }
+sources:
+  - { id: s1, url: "https://example.org/ranks", title: Test ranks, publisher: Test, retrieved: 2026-11-21 }

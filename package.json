@@ -19,7 +19,9 @@
     "deploy": "zsh scripts/deploy.sh",
     "fetch:fx": "tsx scripts/fetch-fx.ts",
     "research:photos": "tsx scripts/research/photos.ts",
-    "research:feedback": "tsx scripts/research/feedback.ts"
+    "research:feedback": "tsx scripts/research/feedback.ts",
+    "research:ranks": "tsx scripts/research/ranks.ts",
+    "research:insignia": "tsx scripts/research/insignia.ts"
   },
   "dependencies": {
     "@preact/signals": "^2.11.4",

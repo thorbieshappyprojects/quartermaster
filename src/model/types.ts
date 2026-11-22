@@ -179,12 +179,44 @@ export interface Manufacturer {
   [key: string]: unknown;
 }
 
+export type Branch = 'army' | 'air_force' | 'navy';
+export type RankGroup = 'enlisted' | 'nco' | 'warrant' | 'officer_cadet' | 'officer' | 'general_flag';
+
+export interface Rank {
+  id: string;
+  name: string;
+  name_en: string;
+  abbreviation?: string;
+  /** NATO rank code (STANAG 2116), e.g. OF-1; approximate for countries outside the scheme. */
+  code: string;
+  approximate?: boolean;
+  group: RankGroup;
+  role?: string;
+  note?: string;
+  source: string;
+  /** Openly licensed insignia image (compiled from data/insignia). */
+  insignia?: Photo;
+}
+
+export interface RankForce {
+  id: string;
+  country: string;
+  branch: Branch;
+  force: string;
+  force_en: string;
+  nato_graded?: boolean;
+  note?: string;
+  ranks: Rank[];
+  sources: Source[];
+}
+
 export interface Deck {
   generated: string;
   categories: Category[];
   systems: CompiledSystem[];
   sharedSources: Source[];
   manufacturers: Manufacturer[];
+  ranks: RankForce[];
   /** Source of the exchange rates used for EUR conversion, if any. */
   fxSource?: Source;
 }

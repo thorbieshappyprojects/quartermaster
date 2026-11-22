@@ -6,7 +6,8 @@ import addFormats from 'ajv-formats';
 import type { Category, Cost, Source, SourcedNumber, SourcedText, SystemCard } from '../../src/model/types.ts';
 import { fileStem, parentDir, type LoadedData } from './load.ts';
 import { toEur } from './compile.ts';
-import type { FxTable } from '../../src/model/types.ts';
+import { codeRank } from '../../src/game/ranks.ts';
+import type { FxTable, RankForce } from '../../src/model/types.ts';
 
 export type Level = 'error' | 'warning' | 'gap';
 
@@ -20,7 +21,7 @@ export interface Issue {
 const schemaDir = join(dirname(fileURLToPath(import.meta.url)), '../../schemas');
 const readSchema = (name: string) => JSON.parse(readFileSync(join(schemaDir, name), 'utf8'));
 
-let compiled: { category: ValidateFunction; system: ValidateFunction; source: ValidateFunction } | null = null;
+let compiled: { category: ValidateFunction; system: ValidateFunction; source: ValidateFunction; ranks: ValidateFunction } | null = null;
 function schemas() {
   if (compiled) return compiled;
   const ajv = new Ajv2020({ allErrors: true, strict: true });
@@ -30,6 +31,7 @@ function schemas() {
     category: ajv.compile(readSchema('category.schema.json')),
     system: ajv.compile(readSchema('system.schema.json')),
     source: ajv.compile(readSchema('source.schema.json')),
+    ranks: ajv.compile(readSchema('ranks.schema.json')),
   };
   return compiled;
 }
@@ -292,6 +294,8 @@ export function validate(data: LoadedData): ValidationResult {
     });
   }
 
+  checkRanks(data, issues);
+
   const errors = issues.filter((i) => i.level === 'error');
   return { issues, errors, ok: errors.length === 0 };
 }
@@ -299,4 +303,40 @@ export function validate(data: LoadedData): ValidationResult {
 export function formatIssue(i: Issue): string {
   const where = i.path ? `${i.file} → ${i.path}` : i.file;
   return `${i.level.toUpperCase().padEnd(7)} ${where}: ${i.message}`;
+}
+
+function checkRanks(data: LoadedData, issues: Issue[]) {
+  const s = schemas();
+  const ids = new Map<string, string>();
+  for (const f of data.ranks) {
+    if (!s.ranks(f.data)) {
+      issues.push(...schemaIssues(f.file, s.ranks.errors));
+      const d = f.data as Partial<RankForce>;
+      if (!Array.isArray(d?.ranks) || !Array.isArray(d?.sources)) continue;
+    }
+    const r = f.data as RankForce;
+    if (r.id !== fileStem(f.file)) issues.push({ level: 'error', file: f.file, path: 'id', message: `id '${r.id}' must match the file name '${fileStem(f.file)}'` });
+    checkSources(f.file, r.sources, issues);
+    const local = new Set(r.sources.map((x) => x.id));
+    const used = new Set<string>();
+    let prev = -1;
+    r.ranks.forEach((k, i) => {
+      if (ids.has(k.id)) issues.push({ level: 'error', file: f.file, path: `ranks[${i}].id`, message: `rank id '${k.id}' is also used in ${ids.get(k.id)}` });
+      ids.set(k.id, f.file);
+      if (!local.has(k.source)) issues.push({ level: 'error', file: f.file, path: `ranks[${i}].source`, message: `unknown source '${k.source}'` });
+      used.add(k.source);
+      const c = codeRank(k.code);
+      if (c < prev) issues.push({ level: 'error', file: f.file, path: `ranks[${i}].code`, message: `ranks must be listed most junior first ('${k.code}' after a more senior code)` });
+      prev = Math.max(prev, c);
+      if (r.nato_graded === false && !k.approximate)
+        issues.push({ level: 'error', file: f.file, path: `ranks[${i}].approximate`, message: 'country is outside the NATO scheme: mark the code approximate' });
+    });
+    r.sources.forEach((x, i) => {
+      if (!used.has(x.id)) issues.push({ level: 'warning', file: f.file, path: `sources[${i}]`, message: `source '${x.id}' is never referenced` });
+    });
+  }
+  for (const f of data.insignia) {
+    for (const id of Object.keys((f.data as { insignia?: Record<string, unknown> }).insignia ?? {}))
+      if (!ids.has(id)) issues.push({ level: 'warning', file: f.file, path: `insignia.${id}`, message: `no rank with id '${id}'` });
+  }
 }

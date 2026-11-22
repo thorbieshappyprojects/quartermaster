@@ -9,6 +9,7 @@ import type {
   FeedbackItem,
   Photo,
   FxTable,
+  RankForce,
   Manufacturer,
   Source,
   SystemCard,
@@ -64,6 +65,8 @@ export function toEur(cost: Cost, fx: FxTable | undefined): EurCost | undefined 
   return { value: Math.round(cost.value / rate), rate, year: cost.price_year, ...(annual ? {} : { partial: partial!.months }) };
 }
 
+const BRANCH_ORDER = ['army', 'air_force', 'navy'];
+
 export function compileDeck(data: LoadedData, generated = new Date().toISOString()): Deck {
   const categories = data.categories.map((f) => f.data as Category).sort((a, b) => a.wave - b.wave || a.name.localeCompare(b.name));
   const byId = new Map(categories.map((c) => [c.id, c]));
@@ -83,5 +86,10 @@ export function compileDeck(data: LoadedData, generated = new Date().toISOString
     .sort((a, b) => a.name.localeCompare(b.name));
   const sharedSources = data.sources.flatMap((f) => (f.data as { sources: Source[] }).sources);
   const manufacturers = data.manufacturers.map((f) => f.data as Manufacturer);
-  return { generated, categories, systems, sharedSources, manufacturers, fxSource: fx?.source };
+  const insignia = new Map(data.insignia.flatMap((f) => Object.entries((f.data as { insignia?: Record<string, Photo> }).insignia ?? {})));
+  const ranks = data.ranks
+    .map((f) => f.data as RankForce)
+    .map((r) => ({ ...r, ranks: r.ranks.map((k) => ({ ...k, insignia: insignia.get(k.id) })) }))
+    .sort((a, b) => a.country.localeCompare(b.country) || BRANCH_ORDER.indexOf(a.branch) - BRANCH_ORDER.indexOf(b.branch));
+  return { generated, categories, systems, sharedSources, manufacturers, ranks, fxSource: fx?.source };
 }

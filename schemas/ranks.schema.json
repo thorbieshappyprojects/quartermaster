@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quartermaster.local/schemas/ranks.schema.json",
+  "title": "Ranks of one armed service (data/ranks/<country>-<branch>.yaml)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "country", "branch", "force", "force_en", "ranks", "sources"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/slug" },
+    "country": { "$ref": "common.schema.json#/$defs/country" },
+    "branch": { "enum": ["army", "air_force", "navy"] },
+    "force": { "type": "string", "minLength": 1, "description": "Name of the service in the original language" },
+    "force_en": { "type": "string", "minLength": 1 },
+    "nato_graded": { "type": "boolean", "description": "false: the country is not graded in the NATO scheme, every code is an approximate equivalent" },
+    "note": { "type": "string" },
+    "ranks": {
+      "description": "Most junior first",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "name_en", "code", "group", "source"],
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/slug" },
+          "name": { "type": "string", "minLength": 1, "description": "Original language" },
+          "name_en": { "type": "string", "minLength": 1, "description": "English translation or usual equivalent" },
+          "abbreviation": { "type": "string" },
+          "code": { "type": "string", "pattern": "^(OR-[1-9]|WO-[1-5]|OF-(D|[1-9]|10))$" },
+          "approximate": { "type": "boolean" },
+          "group": { "enum": ["enlisted", "nco", "warrant", "officer_cadet", "officer", "general_flag"] },
+          "role": { "type": "string", "maxLength": 160, "description": "Typical role or command level" },
+          "note": { "type": "string" },
+          "source": { "$ref": "common.schema.json#/$defs/sourceRef" }
+        }
+      }
+    },
+    "sources": { "type": "array", "minItems": 1, "items": { "$ref": "common.schema.json#/$defs/source" } }
+  }
+}

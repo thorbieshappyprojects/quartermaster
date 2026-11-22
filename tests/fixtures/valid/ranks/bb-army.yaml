@@ -1,0 +1,13 @@
+id: bb-army
+country: FR
+branch: army
+force: Armée test
+force_en: Test French Army
+ranks:
+  - { id: bb-army-soldat-2, name: Soldat de 2e classe, name_en: Private, code: OR-1, group: enlisted, source: s1 }
+  - { id: bb-army-caporal, name: Caporal, name_en: Lance corporal, code: OR-2, group: enlisted, source: s1 }
+  - { id: bb-army-adjudant, name: Adjudant, name_en: Sergeant first class, code: OR-6, group: nco, source: s1 }
+  - { id: bb-army-sous-lieutenant, name: Sous-lieutenant, name_en: Second lieutenant, code: OF-1, group: officer, role: platoon leader, source: s1 }
+  - { id: bb-army-lieutenant, name: Lieutenant, name_en: First lieutenant, code: OF-1, group: officer, source: s1 }
+sources:
+  - { id: s1, url: "https://example.org/ranks", title: Test ranks, publisher: Test, retrieved: 2026-11-21, kind: government }
