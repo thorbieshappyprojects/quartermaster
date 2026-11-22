@@ -1,5 +1,5 @@
 {
-  "spentUsd": 47.3356,
+  "spentUsd": 55.3809,
   "entries": [
     {
       "date": "2026-11-21",
@@ -432,6 +432,78 @@
       "input": 812785,
       "output": 12233,
       "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "engineering-vehicle/_category",
+      "usd": 0.5825,
+      "input": 442057,
+      "output": 9495,
+      "searches": 11
+    },
+    {
+      "date": "2026-11-22",
+      "item": "engineering-vehicle/leguan",
+      "usd": 0.7917,
+      "input": 404816,
+      "output": 13743,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "engineering-vehicle/kodiak",
+      "usd": 0.7927,
+      "input": 778351,
+      "output": 10664,
+      "searches": 11
+    },
+    {
+      "date": "2026-11-22",
+      "item": "engineering-vehicle/bergepanzer-3-buffel",
+      "usd": 1.7051,
+      "input": 2129211,
+      "output": 17858,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "engineering-vehicle/m88a2-hercules",
+      "usd": 0.9615,
+      "input": 856268,
+      "output": 15695,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "engineering-vehicle/m1074-joint-assault-bridge",
+      "usd": 0.7175,
+      "input": 509803,
+      "output": 11877,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "engineering-vehicle/m1150-abv",
+      "usd": 0.7073,
+      "input": 499464,
+      "output": 11707,
+      "searches": 14
+    },
+    {
+      "date": "2026-11-22",
+      "item": "engineering-vehicle/dachs-2",
+      "usd": 1.1554,
+      "input": 763905,
+      "output": 16832,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "engineering-vehicle/k1-avlb",
+      "usd": 0.6316,
+      "input": 297449,
+      "output": 7282,
+      "searches": 14
     }
   ]
 }

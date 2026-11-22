@@ -1,0 +1,154 @@
+# Indicators: scripts/research/indicators/engineering-vehicle.yaml. Category card researched 2026-11-22.
+id: engineering-vehicle
+name: Bridging, recovery and engineering vehicles
+domain: Land support
+wave: 1
+indicators:
+  - id: bridge_span
+    label: Bridge span
+    unit: m
+    trump: higher_wins
+    decimals: 1
+    description: Bridge layers only.
+  - id: lift_capacity
+    label: Crane lift capacity
+    unit: t
+    trump: higher_wins
+    decimals: 1
+    description: Recovery and engineer vehicles only.
+  - id: load_class
+    label: Load class (MLC)
+    unit: MLC
+    trump: higher_wins
+  - id: deployment_time
+    label: Bridge laying time
+    unit: min
+    trump: lower_wins
+    decimals: 1
+  - id: combat_weight
+    label: Combat weight
+    unit: t
+    trump: higher_wins
+    decimals: 1
+  - id: crew
+    label: Crew
+    unit: ""
+    trump: lower_wins
+category_card:
+  summary: "Bridging, recovery and engineering vehicles are specialised, usually armoured, platforms that keep friendly forces moving: they include combat engineer and breaching vehicles fitted with mine ploughs, dozer blades or mine-clearing line charges; armoured vehicle-launched bridges and bridging systems; and armoured repair and recovery vehicles. They are often built on main battle tank or infantry fighting vehicle chassis and are operated by engineer and maintenance units to support combat units rather than to fight directly."
+  purpose:
+    - text: Armoured engineer vehicles such as the British Army's Trojan are used to breach minefields and open routes through complex obstacles so that tanks and other vehicles of a battlegroup can pass safely.
+      source: s10
+    - text: Bridge-laying vehicles such as Titan launch military bridges over wet and dry gaps so that forces can cross obstacles and stay mobile.
+      source: s9
+    - text: Armoured recovery vehicles tow and repair damaged armoured vehicles under battlefield conditions, which matters because modern armoured vehicles are often damaged rather than destroyed.
+      source: s5
+  strengths:
+    - text: Heavy engineer vehicles can be protected to main battle tank standard; Titan and Trojan use the same type of armour as the Challenger 2 and share its chassis, giving a common heavy fleet.
+      source: s9
+    - text: Against prepared defences, the ability to breach obstacles and cross gaps can decide whether an offensive gets far enough for its logistics, fires and reserves to matter at all.
+      source: s2
+    - text: Modern bridge-layers can work from difficult banks and terrain, launch bridges in tandem, bridge over urban obstacles and carry a mine plough, so one platform can do several mobility tasks.
+      source: s9
+    - text: Recovering and repairing damaged vehicles helps armoured units stay ready for operations; Ukraine has even converted captured Russian T-62 tanks into recovery vehicles to meet demand.
+      source: s5
+  weaknesses:
+    - text: Breaching vehicles are usually small fleets of 'prestige' assets; in Ukraine's 2023 offensive one corps had only 10 demining vehicles, which overheated during sustained ploughing, and usually only the lead vehicle in each breach had a mine plough.
+      source: s12
+    - text: Assault breacher vehicles are high-value targets, which puts their crews at greater risk.
+      source: s8
+    - text: Bridging operations are carried out in exposed positions without overhead cover, and US Army analysis warns of a possible large shortfall of tactical bridging assets for a large-scale war.
+      source: s1
+    - text: Recovery crews are especially exposed when they leave the vehicle to attach shackles and tow bars, and in Ukraine recovery work is often found and targeted within minutes.
+      source: s4
+  counters:
+    - text: FPV drones, non-line-of-sight anti-tank guided missiles and drone-designated artillery can be fired from concealed positions, which undermines traditional tank overwatch and makes a mission kill against engineering vehicles highly likely.
+      source: s12
+    - text: In the failed Russian crossing of the Siverskyi Donets in May 2022, Ukrainian drones spotted the bridging effort and directed artillery fire onto it because the crossing lacked air and missile defence and area security.
+      source: s3
+    - text: Defenders adapt their obstacles to wear down breaching equipment; Russian engineers stacked anti-tank mines on top of each other to defeat Ukrainian mine rollers and laid belts with four or more rows of mines covered by artillery.
+      source: s1
+    - text: Analysis cited by ESD recommends training manoeuvre units to target enemy engineer and minelaying assets before they can lay minefields, reducing the need for deep, observed breaches.
+      source: s6
+  trends:
+    - text: RUSI argues that engineering units need more vehicles that are simpler and less flexible, so that numbers can grow affordably, and that mission modules mounted on other armoured vehicles should be prioritised.
+      source: s12
+    - text: "Unmanned breaching is being tested: the US Army planned a live trial in October 2025 in which a 12-ton unmanned ground vehicle from DARPA's RACER programme towed and fired a mine-clearing line charge, and it has contracted remote-operation kits for the Assault Breacher Vehicle."
+      source: s7
+    - text: Recovery vehicles are being upgraded based on Ukraine combat experience; Russia's modernised BREM-80, delivered in 2026, adds anti-drone protection and a towing coupling that crews can attach without leaving the armour.
+      source: s4
+    - text: Western armies are giving renewed attention to contested wet-gap crossing, where small drones and satellites make deception and protection of the crossing force essential.
+      source: s11
+sources:
+  - id: s1
+    url: https://home.army.mil/wood/contact/publications/engr_mag/Engineer-Lessons-Learned-from-the-War-in-Ukraine
+    title: Engineer Lessons Learned from the War in Ukraine
+    publisher: U.S. Army Engineer School, Engineer magazine (Fort Leonard Wood)
+    retrieved: 2026-11-22
+    kind: government
+  - id: s2
+    url: https://warontherocks.com/the-campaign-ends-at-the-breach-lessons-from-ukraine-on-why-armies-fail/
+    title: "The Campaign Ends at the Breach: Lessons from Ukraine on Why Armies Fail"
+    publisher: War on the Rocks
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s3
+    url: https://home.army.mil/wood/contact/publications/ppb/Failure-to-Consider-Protection-in-Large-Scale-Combat-Operations-the-Siverskyi-Donets-River-Crossing
+    title: "Failure to Consider Protection in Large-Scale Combat Operations: The Siverskyi Donets River Crossing"
+    publisher: U.S. Army, Fort Leonard Wood professional bulletin
+    retrieved: 2026-11-22
+    kind: government
+  - id: s4
+    url: https://www.armyrecognition.com/news/army-news/2026/russia-sends-upgraded-brem-80-recovery-vehicles-with-anti-drone-protection-to-ukraine-front
+    title: Russia Sends Upgraded BREM-80 Recovery Vehicles with Anti-Drone Protection to Ukraine Front
+    publisher: Army Recognition
+    retrieved: 2026-11-22
+    kind: press
+  - id: s5
+    url: https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/ukraine-may-have-lost-its-sole-swedish-bgbv-90-armored-recovery-vehicle-in-a-russian-drone-strike
+    title: Ukraine may have lost its sole Swedish Bgbv 90 armored recovery vehicle in a Russian drone strike
+    publisher: Army Recognition
+    retrieved: 2026-11-22
+    kind: press
+  - id: s6
+    url: https://euro-sd.com/2026/01/articles/armament/48487/solving-the-counter-mobility-problem-of-minefields/
+    title: Solving the counter-mobility problem of minefields
+    publisher: European Security & Defence (ESD)
+    retrieved: 2026-11-22
+    kind: press
+  - id: s7
+    url: https://armyrecognition.com/news/army-news/2025/us-army-to-test-new-racer-robot-breacher-in-first-live-autonomous-mine-clearing-drill
+    title: US Army to test new Racer robot breacher in first live autonomous mine-clearing drill
+    publisher: Army Recognition
+    retrieved: 2026-11-22
+    kind: press
+  - id: s8
+    url: https://www.defensenews.com/opinion/2025/02/04/how-autonomous-tech-can-make-combat-engineering-safer/
+    title: How autonomous tech can make combat engineering safer
+    publisher: Defense News
+    retrieved: 2026-11-22
+    kind: press
+  - id: s9
+    url: https://www.rheinmetall.com/en/products/tracked-vehicles/tracked-armoured-vehicles/titan
+    title: Titan - Armoured Engineer Vehicle
+    publisher: Rheinmetall
+    retrieved: 2026-11-22
+    kind: manufacturer
+  - id: s10
+    url: https://www.army-technology.com/projects/trojan-armoured-engineer-vehicle-united-kingdom/
+    title: Trojan Armoured Engineer Vehicle, United Kingdom
+    publisher: Army Technology
+    retrieved: 2026-11-22
+    kind: press
+  - id: s11
+    url: https://www.ausa.org/publications/bridging-through-time-river-crossing-world-war-ii-wet-gap-crossing-today-and-future
+    title: "Bridging through Time: From River Crossing in World War II to Wet-Gap Crossing Today and in the Future"
+    publisher: Association of the United States Army (AUSA)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s12
+    url: https://static.rusi.org/lessons-learned-ukraine-offensive-2022-23.pdf
+    title: Preliminary Lessons from Ukraine's Offensive Operations, 2022-23
+    publisher: Royal United Services Institute (RUSI)
+    retrieved: 2026-11-22
+    kind: reference

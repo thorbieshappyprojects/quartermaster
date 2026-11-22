@@ -1,0 +1,45 @@
+id: dachs-2
+category: engineering-vehicle
+name: Pionierpanzer 2 Dachs
+variant_note: Bundeswehr PiPz 2 (2A1) standard, Leopard 1 chassis
+family: Leopard 1
+aliases: [Pionierpanzer 2A1 Dachs, PiPz 2 Dachs, Dachs AEV, Badger AEV (Canada)]
+manufacturer: { name: "MaK System Gesellschaft (Maschinenbau Kiel), now Rheinmetall Landsysteme" }
+production_sites:
+  - { place: Kiel, country: DE, source: s5 }
+origin: DE
+role: Tracked armoured engineer vehicle on a Leopard 1 chassis used for earthmoving, excavation, obstacle construction and removal, lifting and vehicle recovery.
+memorable_fact: { text: "When prepared for it, the Dachs can drive under water at depths of up to 4 m.", source: s1 }
+status: in_service
+in_service_since: { value: 1989, source: s3, confidence: medium, note: "Year of this variant. The first series vehicle was handed over on 13 April 1989." }
+units_built: { value: 140, source: s3, confidence: medium, note: "German Army vehicles, converted from 104 Bergepanzer 2 and 36 Pionierpanzer 1 rather than built new; s4 gives the same figure. Not included: 9 Badger built for Canada (s5)." }
+combat_use: { text: "Germany began handing Dachs vehicles to Ukraine in March 2023 (first three reported) during the Russian invasion. No specific combat actions are publicly documented in the sources found.", source: s10 }
+specs:
+  bridge_span: { value: null, source: null, confidence: null }
+  lift_capacity: { value: 7.8, source: s1, confidence: high, note: "Maximum lift of the telescopic excavator arm. At 5.43 m reach the payload is 5.1 t; at 7.92 m it is 2.6 t (same source)." }
+  load_class: { value: null, source: null, confidence: null }
+  deployment_time: { value: null, source: null, confidence: null }
+  combat_weight: { value: 43, source: s1, confidence: high, range: { min: 43, max: 44 }, note: "The Bundeswehr equipment page (s1) gives 43 t and is the displayed value. A Bundeswehr article on wading training (s2) gives 44 t." }
+  crew: { value: 3, source: s1, confidence: high }
+operators:
+  - { country: DE, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: CA, force: Army, state: retired, quantity: null, source: s7 }
+  - { country: CL, force: Army, state: in_service, quantity: null, source: s8 }
+  - { country: UA, force: Armed Forces, state: in_service, quantity: null, source: s9 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public per-unit price with a price year was found. The German programme total (190 million DM for 140 vehicles, see contracts) has no stated price year, so no per-unit cost is given." }
+contracts:
+  - { customer: Germany (Bundeswehr), year: null, quantity: 140, value: 190000000, currency: DEM, note: "Conversion programme with MaK as prime contractor; production from 1988, original delivery target 1990. The contract year is not stated in the source.", source: s4 }
+  - { customer: Canada (Army), year: 1990, quantity: 9, value: null, currency: null, note: "Badger AEV on the Leopard 1 chassis, built by MaK in Kiel.", source: s6 }
+  - { customer: Ukraine, year: 2023, quantity: 12, value: null, currency: null, note: "Donated from Bundeswehr stocks, not purchased. The German government's support list (May 2025) shows 12 Dachs with spare parts; the first 3 were reported handed over in March 2023 (s10). How many of the 12 were delivered was not verified.", source: s9 }
+peers: [kodiak, m1150-abv, bergepanzer-3-buffel]
+sources:
+  - { id: s1, url: "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/pionierpanzer-dachs", title: "Ausrüstung und Technik: Der Pionierpanzer Dachs", publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://www.bundeswehr.de/en/organization/equipment/news/military-engineers-train-on-the-dachs-aev-in-the-tank-wading-pit-at-wtd-52-4506972", title: "Military engineers train on the Dachs AEV in the tank wading pit at WTD 52", publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "http://tank-masters.de/?page_id=5271", title: "BW – Pionierpanzer 2 Dachs", publisher: Tank-Masters, retrieved: 2026-11-22, kind: other }
+  - { id: s4, url: "https://bundeswehr-lexikon.de/pionierpanzer-dachs/", title: "Pionierpanzer Dachs - Bundeswehr Lexikon", publisher: Bundeswehr Lexikon, retrieved: 2026-11-22, kind: other }
+  - { id: s5, url: "http://www.army-guide.com/eng/product3489.html", title: "Leopard C1 (Main battle tank)", publisher: Army Guide, retrieved: 2026-11-22, kind: reference }
+  - { id: s6, url: "https://tankhistoria.com/cold-war/leopard-c2/", title: "Canada's Leopard C1 and C2 Main Battle Tanks", publisher: Tank Historia, retrieved: 2026-11-22, kind: other }
+  - { id: s7, url: "https://thecanadianencyclopedia.ca/en/article/leopard-2-tank", title: "Leopard 2 Tank", publisher: The Canadian Encyclopedia, retrieved: 2026-11-22, kind: reference }
+  - { id: s8, url: "https://www.infodefensa.com/texto-diario/mostrar/5789678/ingenieros-mecanizados-ejercito-chile-refuerzan-alistamiento-dachs-entrenamiento-arica", title: "Los ingenieros mecanizados del Ejército de Chile amplían su alistamiento con el Dachs en entrenamiento en Arica", publisher: Infodefensa, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://augengeradeaus.net/wp-content/uploads/2025/05/20250506_BuRe_Mil_Unterstuetzung_Ukraine.pdf", title: "Diese Waffen und militärische Ausrüstung liefert Deutschland an die Ukraine (Stand Mai 2025)", publisher: "Presse- und Informationsamt der Bundesregierung (hosted by Augen geradeaus!)", retrieved: 2026-11-22, kind: government }
+  - { id: s10, url: "https://www.dbwv.de/aktuelle-themen/newsbeitrag/deutsche-leopard-panzer-in-der-ukraine-eingetroffen", title: "Deutsche Leopard-Panzer in der Ukraine eingetroffen", publisher: Deutscher BundeswehrVerband, retrieved: 2026-11-22, kind: press }

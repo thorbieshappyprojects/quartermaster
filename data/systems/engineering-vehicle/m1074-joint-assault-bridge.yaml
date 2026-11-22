@@ -1,0 +1,76 @@
+id: m1074-joint-assault-bridge
+category: engineering-vehicle
+name: "M1074 JAB"
+variant_note: "Full-rate production configuration launching the MLC 115 Heavy Assault Scissor Bridge"
+family: "M1 Abrams"
+aliases: ["Joint Assault Bridge", "JAB", "Joint Assault Bridge System", "JABS"]
+manufacturer: { name: "Leonardo DRS (DRS Sustainment Systems Inc.)" }
+production_sites:
+  - { place: "West Plains", country: US, source: s10 }
+  - { place: "Anniston", country: US, source: s7 }
+origin: US
+role: "Armoured vehicle-launched bridge on an M1A1 Abrams hull that launches and recovers a scissor bridge so armoured brigades can cross wet or dry gaps."
+memorable_fact: { text: "The JAB puts a hydraulic bridge launcher on an M1A1 Abrams tank hull with heavier M1A2 suspension. It replaces the M104 Wolverine and the older M48/M60-based AVLB.", source: s2 }
+status: in_production
+in_service_since:
+  value: 2016
+  source: s11
+  confidence: low
+  note: "Year of first service of the M1074 base system as given by Wikipedia (no primary source found). Low-rate production at Anniston Army Depot started in FY2016 with 10 vehicles (s7). Full-rate production was approved in FY2021 (DOT&E FY2022 report, s9). DOT&E judged the JAB operationally effective and suitable (s8)."
+units_built:
+  value: 100
+  source: s3
+  confidence: high
+  note: "Lower bound: Leonardo DRS reported delivering the 100th JAB to the US Army (reported as February 2024). Army budget data reported by Army Recognition list 116 vehicles procured before FY2024, 26 in FY2024 and 28 in FY2025 (s5). In 2025 the Army cut the procurement objective from 297 to 213 systems (s6)."
+specs:
+  bridge_span:
+    value: 18.3
+    source: s2
+    confidence: high
+    note: "Manufacturer's figure for the length of the scissor bridge (60 ft). Army Recognition cites an Army modernization paper saying the JAB spans an 11 m gap in about three minutes (s5)."
+  lift_capacity: { value: null, source: null, confidence: null }
+  load_class:
+    value: 115
+    source: s2
+    confidence: high
+    range: { min: 85, max: 115 }
+    note: "Leonardo DRS spec sheet: Heavy Assault Scissor Bridge MLC 115 (MLC 120 with caution). An Army sources-sought notice (s6) and the Leonardo DRS 100th-unit release (s3) also give MLC 115. The Leonardo DRS product page still says MLC 85 AVLB (s1), and Wikipedia says MLC 95. The manufacturer's spec-sheet figure is displayed."
+  deployment_time:
+    value: 3
+    source: s2
+    confidence: high
+    range: { min: 3, max: 5 }
+    note: "Manufacturer gives 3-5 min for launch in primary mode (retrieval 6-10 min). The lower bound is displayed because an Army paper cited by Army Recognition (s5) also gives about three minutes."
+  combat_weight:
+    value: null
+    source: null
+    confidence: null
+    note: "No manufacturer or government figure found. A Wikipedia-derived wiki gives 62.3 t (68.7 short tons), which was not used."
+  crew: { value: null, source: null, confidence: null }
+operators:
+  - { country: US, force: "Army", state: in_service, quantity: null, source: s5 }
+  - { country: RO, force: "Land Forces", state: ordered, quantity: null, source: s4 }
+cost:
+  value: 2249000
+  currency: USD
+  price_year: 2026
+  basis: contract_per_unit
+  source: s5
+  confidence: medium
+  note: "Contract modification announced 31 March 2026 to DRS Sustainment Systems: USD 44.98 million for 20 JAB systems including spares, completion March 2027 (44.98M / 20). Army Recognition says the FY2026 budget lists a unit contractor cost of about USD 2.2 million and a gross weapon-system cost of USD 124.95 million for the 20-vehicle buy."
+contracts:
+  - { customer: "US Army", year: 2026, quantity: 20, value: 44980000, currency: USD, note: "Contract modification for production and spares through March 2027, in line with the FY2026 procurement plan.", source: s5 }
+  - { customer: "US Army and Romania (FMS)", year: 2024, quantity: null, value: 49000000, currency: USD, note: "Contract worth more than USD 49 million for additional JAB systems for the US Army and Romania under Foreign Military Sales. Quantity not disclosed.", source: s4 }
+peers: [leguan, k1-avlb]
+sources:
+  - { id: s1, url: "https://www.leonardodrs.com/what-we-do/products-and-services/joint-assault-bridge-jab/", title: "Joint Assault Bridge (JAB)", publisher: "Leonardo DRS", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://cdn.leonardodrs.com/uploads/wp-content/uploads/2025/03/JAB.pdf", title: "Platform Integration – JAB (product sheet)", publisher: "Leonardo DRS", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.leonardodrs.com/news/feature-stories/leonardo-drs-hits-joint-assault-bridge-milestone-100th-unit-delivered-to-u-s-army/", title: "Leonardo DRS Hits Joint Assault Bridge Milestone, 100th Unit Delivered to U.S. Army", publisher: "Leonardo DRS", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.leonardodrs.com/news/in-the-news/leonardo-drs-to-produce-bridging-vehicles-for-us-romania/", title: "Leonardo DRS to Produce Bridging Vehicles for US, Romania", publisher: "Leonardo DRS", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s5, url: "https://www.armyrecognition.com/news/army-news/2026/u-s-army-expands-m1-abrams-tanks-breach-capability-with-20-m1074-joint-assault-bridges", title: "U.S. Army Expands M1 Abrams Tanks Breach Capability with 20 M1074 Joint Assault Bridges", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://sam.gov/workspace/contract/opp/2b8d782be6bb4ac09ced0694c5d5f5eb/view", title: "Joint Assault Bridge (JAB) Sources Sought for Reduced Requirement", publisher: "US Army TACOM via SAM.gov", retrieved: 2026-11-22, kind: government }
+  - { id: s7, url: "https://www.army.mil/article/196328/anad_assists_with_jab", title: "ANAD assists with JAB", publisher: "U.S. Army", retrieved: 2026-11-22, kind: government }
+  - { id: s8, url: "https://www.dote.osd.mil/Portals/97/pub/reports/FY2021/army/2021jab.pdf?ver=qbd6Z4F9j73cmraTeW_ExA%3D%3D", title: "Joint Assault Bridge (JAB) – FY2021 Annual Report", publisher: "Director, Operational Test and Evaluation (DOT&E)", retrieved: 2026-11-22, kind: government }
+  - { id: s9, url: "https://www.dote.osd.mil/Portals/97/pub/reports/FY2022/army/2022jab.pdf?ver=3Zvg3u4Cyo4xkJE3lNaTtg%3D%3D", title: "Joint Assault Bridge (JAB) – FY2022 Annual Report", publisher: "Director, Operational Test and Evaluation (DOT&E)", retrieved: 2026-11-22, kind: government }
+  - { id: s10, url: "https://www.leonardodrs.com/locations/land-systems-west-plains-mo/", title: "West Plains, MO", publisher: "Leonardo DRS", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s11, url: "https://en.wikipedia.org/wiki/M1074_Joint_Assault_Bridge_System", title: "M1074 Joint Assault Bridge System", publisher: "Wikipedia", retrieved: 2026-11-22, kind: reference }

@@ -1,0 +1,59 @@
+id: m88a2-hercules
+category: engineering-vehicle
+name: "M88A2 HERCULES"
+variant_note: "Current US Army model; the planned M88A3 successor was cancelled in July 2025"
+family: "M88"
+aliases: ["HERCULES", "Heavy Equipment Recovery Combat Utility Lift and Evacuation System", "M88A1E1 Improved Recovery Vehicle"]
+manufacturer: { name: "BAE Systems (Land & Armaments)" }
+production_sites:
+  - { place: "York, Pennsylvania", country: US, source: s4 }
+  - { place: "Anniston, Alabama", country: US, source: s4 }
+  - { place: "Aiken, South Carolina", country: US, source: s4 }
+origin: US
+role: "Tracked armoured recovery vehicle that tows, winches and lifts disabled or mired heavy combat vehicles, chiefly Abrams-class tanks, on the battlefield."
+memorable_fact: { text: "The M88A1 needed two vehicles to tow an Abrams safely; in August 1998 the M88A2 was approved to tow an Abrams or another 70-ton combat vehicle on its own.", source: s3 }
+status: in_service
+in_service_since: { value: 1997, source: s3, confidence: medium, note: "Year this variant entered service. First M88A2s went to 1st Cavalry Division, Fort Hood, on 11 Jul 1997. The base M88 entered service in 1961." }
+units_built: { value: 914, source: s4, confidence: medium, note: "Total US Army procured quantity of M88A2 after the October 2019 contract (most were M88A1 hulls rebuilt to A2 standard). Excludes later US contracts and foreign sales. ESD (s7) reported about 900 in the US Army inventory in 2023." }
+combat_use: { text: "Eight M88A2s sent to Ukraine in 2023 were used to evacuate armoured vehicles; trade press reports two destroyed and one captured and used by Russian forces.", source: s10 }
+specs:
+  bridge_span: { value: null, source: null, confidence: null, note: "Not applicable (recovery vehicle)." }
+  lift_capacity: { value: 31.8, source: s3, confidence: medium, note: "Boom rated at 35 tons (assumed US short tons, about 31.75 t). The same 35-ton figure appears in s6 (with spade down) and s7." }
+  load_class: { value: null, source: null, confidence: null }
+  deployment_time: { value: null, source: null, confidence: null, note: "Not applicable (recovery vehicle)." }
+  combat_weight: { value: 63.5, source: s5, confidence: medium, note: "s5 gives 63,500 kg. FAS (s3) gives a fully loaded weight of 70 tons, which is about 63.5 t if read as US short tons." }
+  crew: { value: 3, source: s3, confidence: medium, note: "Reduced from the M88A1's crew of four; s12 also gives three (commander, operator, mechanic)." }
+operators:
+  - { country: US, force: Army, state: in_service, quantity: null, source: s7 }
+  - { country: PL, force: Land Forces, state: in_service, quantity: 38, source: s11 }
+  - { country: UA, force: Armed Forces, state: in_service, quantity: 8, source: s10 }
+  - { country: IQ, force: Army, state: in_service, quantity: null, source: s8 }
+  - { country: KW, force: Land Force, state: in_service, quantity: null, source: s14 }
+  - { country: TW, force: Army, state: ordered, quantity: 14, source: s15 }
+  - { country: AU, force: Army, state: ordered, quantity: 6, source: s13 }
+  - { country: MA, force: Royal Armed Forces, state: ordered, quantity: 25, source: s16 }
+  - { country: EG, force: Army, state: ordered, quantity: null, source: s12 }
+cost: { value: 3449000, currency: USD, price_year: 2019, basis: contract_per_unit, source: s4, confidence: medium, note: "US Army October 2019 contract: USD 148.3 million to rebuild 43 M88A1 hulls as M88A2 (148.3 / 43, rounded). The July 2015 contract (USD 110.4 million for 36, s9) works out to about USD 3.07 million each." }
+contracts:
+  - { customer: "US Army", year: 2019, quantity: 43, value: 148300000, currency: USD, note: "M88A1-to-M88A2 conversions; brought total procured to 914; deliveries from February 2021.", source: s4 }
+  - { customer: "US Army", year: 2015, quantity: 36, value: 110400000, currency: USD, note: "M88A2 production contract announced July 2015.", source: s9 }
+  - { customer: "US Army", year: 2023, quantity: null, value: 74600000, currency: USD, note: "Undefinitised production contract announced September 2023; completion estimated June 2025.", source: s7 }
+  - { customer: "Iraq / Army", year: 2012, quantity: 8, value: 31800000, currency: USD, note: "Foreign military sale contract; Iraq had already received 16 M88A2s.", source: s8 }
+peers: [bergepanzer-3-buffel, kodiak]
+sources:
+  - { id: s1, url: "https://www.dote.osd.mil/Portals/97/pub/reports/FY2025/army/2025hercules.pdf?ver=-0uJ7zMS2enYOMiP4Y9RnQ%3D%3D", title: "HERCULES M88 Upgrade Recapitalization (M88A3) - FY2025 Annual Report", publisher: "Director, Operational Test and Evaluation (US DoD)", retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://www.yahoo.com/news/articles/old-tank-recovery-vehicles-life-174930708.html", title: "Old tank recovery vehicles get new life as M88A3 is nixed", publisher: "Yahoo News", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://man.fas.org/dod-101/sys/land/m88a1e1.htm", title: "M88 Hercules Recovery Vehicle", publisher: "Federation of American Scientists", retrieved: 2026-11-22, kind: reference }
+  - { id: s4, url: "https://www.baesystems.com/en/article/u-s--army-awards-contract-to-upgrade-43-m88a1-heavy-lift-vehicles", title: "U.S. Army awards BAE Systems $148.3 million contract for M88A2 HERCULES armored recovery vehicles", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s5, url: "https://thedefensepost.com/2025/05/05/poland-hercules-armored-recovery/", title: "BAE Systems, PGZ to Maintain Polish HERCULES Armored Recovery Fleet", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.militaryaerospace.com/sensors/article/14279618/vetronics-armored-recovery-vehicles-armored-combat-vehicles", title: "BAE Systems to build additional armored recovery vehicles and vetronics to recover armored combat vehicles", publisher: "Military & Aerospace Electronics", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://euro-sd.com/2023/09/news/33808/us-army-awards-bae-systems-contract-for-more-m88a2-arvs/", title: "US Army Awards BAE Systems Contract for More M88A2 ARVs", publisher: "European Security & Defence", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.baesystems.com/en-us/article/bae-systems-building-recovery-vehicles-for-iraq", title: "BAE Systems Building Recovery Vehicles for Iraq", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s9, url: "https://www.militaryaerospace.com/power/article/16714242/bae-systems-to-build-36-recovery-m88a2-armored-combat-vehicles-in-1104-million-contract", title: "BAE Systems to build 36 recovery M88A2 armored combat vehicles in $110.4 million contract", publisher: "Military & Aerospace Electronics", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/ukraine-russia-conflict/russia-captures-us-m88a2-recovery-vehicle-and-deploys-it-against-ukrainian-forces", title: "Russia Captures US M88A2 Recovery Vehicle and Deploys It Against Ukrainian Forces", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://militarnyi.com/en/news/military-of-ukraine-received-m88a2-hercules-arv/", title: "Military of Ukraine received M88A2 Hercules ARV", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://defenceredefined.com.cy/poland-procurement-of-first-3-m88a2-hercules-armored-recovery-vehicles-from-bae-systems/", title: "Poland | Procurement of first 3 M88A2 HERCULES armored recovery vehicles from BAE Systems", publisher: "Defence Redefined", retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://www.dsca.mil/press-media/major-arms-sales/australia-m88a2-hercules-heavy-recovery-vehicles", title: "Australia – M88A2 Hercules Heavy Recovery Vehicles", publisher: "Defense Security Cooperation Agency", retrieved: 2026-11-22, kind: government }
+  - { id: s14, url: "https://media.defense.gov/2024/Dec/11/2003606463/-1/-1/0/KUWAIT_19-52.PDF", title: "Kuwait – M88A2 Recovery Vehicles and Related Equipment and Support (Transmittal No. 19-52)", publisher: "Defense Security Cooperation Agency", retrieved: 2026-11-22, kind: government }
+  - { id: s15, url: "https://media.defense.gov/2024/Dec/18/2003615455/-1/-1/0/TECRO_19-22_0.PDF", title: "TECRO – M1A2T Abrams Tanks and Related Equipment and Support (Transmittal No. 19-22)", publisher: "Defense Security Cooperation Agency", retrieved: 2026-11-22, kind: government }
+  - { id: s16, url: "https://www.shephardmedia.com/news/landwarfareintl/morocco-requests-25-m88a2-hercules-us/", title: "Morocco requests 25 M88A2 HERCULES from US", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,56 @@
+id: bergepanzer-3-buffel
+category: engineering-vehicle
+name: "Bergepanzer 3 A2 Büffel"
+variant_note: "BPz3 A2 new-build ordered by the Bundeswehr in 2026; specs not published for A2 are from the baseline BPz3/A1 (see notes)"
+family: "Leopard 2"
+aliases: ["BPz3", "Büffel", "Buffalo ARV", "ARV 3 Buffalo", "Bergepanzer 3 A1", "Bergingstank 600 kN Buffel", "Bgbv 120", "Leopard 2 ARV"]
+manufacturer: { name: "Rheinmetall Landsysteme GmbH (Rheinmetall AG)" }
+origin: DE
+role: "Tracked armoured recovery vehicle on a Leopard 2 chassis for recovering, towing and lifting heavy combat vehicles and supporting field repairs."
+memorable_fact: { text: "Its main winch pulls 35 t on its own and can move 70 to 105 t with double or triple pulley rigging.", source: s2 }
+status: in_production
+in_service_since: { value: 1992, source: s2, confidence: high, note: "Base system: Krupp MaK handed over the first BPz3 vehicles to the German and Dutch armies on 4 August 1992. First A2 deliveries are planned for December 2027 (s1)." }
+units_built: { value: 200, source: s2, confidence: medium, note: "Lower bound for the whole BPz3 family: Rheinmetall (2022) says 'more than 200' series vehicles, plus about as many recovery kits for other tank hulls. Does not include the 23 A2 ordered in 2026." }
+combat_use: { text: "Germany handed over two BPz3 Büffel to Ukraine in March 2023 to support donated Leopard 2 tanks in the Russia-Ukraine war. Detailed combat reports were not verified in the sources used.", source: s12 }
+specs:
+  bridge_span: { value: null, source: null, confidence: null, note: "Not applicable (recovery vehicle, not a bridge layer)." }
+  lift_capacity: { value: 32, source: s5, confidence: medium, range: { min: 30, max: 32 }, note: "32 t crane reported for the A2 variant. Rheinmetall (s2) and the Bundeswehr (s4) give 30 t for the baseline BPz3." }
+  load_class: { value: 72, source: s3, confidence: medium, range: { min: 60, max: 72 }, note: "Vehicle's own class: MLC 60 for the original BPz3, changed to MLC 72 after the A1 changes raised maximum weight to 64.5 t (Rheinmetall brochure). No separate A2 figure published. The 'MLC 80' in A2 reporting refers to the class of vehicles it can recover, not its own class." }
+  deployment_time: { value: null, source: null, confidence: null, note: "Not applicable (bridge-laying time)." }
+  combat_weight: { value: 55.3, source: s4, confidence: medium, range: { min: 54, max: 64.5 }, note: "55.3 t is the Bundeswehr figure for the baseline BPz3. Rheinmetall gives a maximum of 64.5 t for the up-armoured A1 (s3); some trade press gives 54 t. No official A2 combat weight has been published (the A2 has add-on armour)." }
+  crew: { value: 3, source: s2, confidence: high, note: "Driver, commander and mechanic." }
+operators:
+  - { country: DE, force: "Army (Heer)", state: in_service, quantity: null, source: s4, note: "75 built for the Bundeswehr in 1992-1997 per de.wikipedia (s13); current fleet size not stated by the Bundeswehr." }
+  - { country: DE, force: "Army (Heer)", state: ordered, quantity: 23, source: s1, note: "Bergepanzer 3 A2 replacement order, deliveries December 2027 to June 2029." }
+  - { country: NL, force: "Royal Netherlands Army", state: in_service, quantity: 25, source: s6, note: "Fleet being upgraded in two phases (4 + 21 vehicles)." }
+  - { country: CA, force: "Canadian Army", state: in_service, quantity: 11, source: s9, note: "12 converted; one donated to Ukraine in 2023." }
+  - { country: HU, force: "Hungarian Defence Forces", state: in_service, quantity: 9, source: s8, note: "Nine ordered; first delivered 15 October (Janes)." }
+  - { country: UA, force: "Ground Forces", state: in_service, quantity: 2, source: s1, note: "Two BPz3 from Germany; Canada also donated one Leopard 2-based ARV in 2023 (s9)." }
+  - { country: CZ, force: "Army of the Czech Republic", state: in_service, quantity: null, source: s11, note: "One Büffel from the 2024 Ringtausch (tank exchange) contract; de.wikipedia also reports one received in 2022." }
+  - { country: GR, force: "Hellenic Army", state: in_service, quantity: 12, source: s13, note: "Quantity per de.wikipedia only; low confidence." }
+  - { country: ID, force: "Army (Kostrad)", state: in_service, quantity: 4, source: s13, note: "Quantity per de.wikipedia (citing IISS Military Balance 2023); low confidence." }
+  - { country: SE, force: "Swedish Army", state: in_service, quantity: 14, source: s13, note: "Designated Bgbv 120; quantity per de.wikipedia; low confidence." }
+  - { country: CH, force: "Swiss Army", state: in_service, quantity: 25, source: s13, note: "Quantity per de.wikipedia only; low confidence." }
+  - { country: SG, force: "Singapore Army", state: in_service, quantity: 12, source: s13, note: "Quantity per de.wikipedia (citing IISS Military Balance 2023); low confidence." }
+  - { country: ES, force: "Spanish Army", state: in_service, quantity: 16, source: s13, note: "Quantity per de.wikipedia only; low confidence." }
+cost: { value: 15650000, currency: EUR, price_year: 2026, basis: contract_per_unit, source: s5, confidence: low, note: "Bundeswehr 2026 order for 23 BPz3 A2: about EUR 360 million including accessories and spare parts, as reported by hartpunkt from informed sources (360 / 23 ≈ 15.65 million). Rheinmetall (s1) only states an order value in the 'mid three-digit million-euro range'." }
+contracts:
+  - { customer: "Germany / Bundeswehr", year: 2026, quantity: 23, value: 360000000, currency: EUR, note: "BPz3 A2 replacements for vehicles transferred to Ukraine; value as reported by hartpunkt; Rheinmetall states 'mid three-digit million euro'; deliveries Dec 2027 to Jun 2029.", source: s5 }
+  - { customer: "Netherlands / Royal Netherlands Army", year: 2019, quantity: 25, value: null, currency: null, note: "Upgrade of the existing fleet (phase 1: 4 vehicles; phase 2: 21), extending service life to 2040.", source: s6 }
+  - { customer: "Hungary / Hungarian Defence Forces", year: 2020, quantity: 9, value: null, currency: null, note: "Part of the Lynx package; built in Germany. Year per de.wikipedia (s13).", source: s7 }
+  - { customer: "Canada / Canadian Army", year: 2011, quantity: 8, value: 40000000, currency: EUR, note: "Initial order for Leopard 2A4-based ARV conversions; quantity per Canadian Defence Review (s9), which reports 4 more added in 2012.", source: s10 }
+peers: [m88a2-hercules, kodiak, dachs-2]
+sources:
+  - { id: s1, url: "https://www.rheinmetall.com/en/media/news-watch/news/2026/06/2026-06-23-rheinmetall-delivers-armoured-recovery-vehicles-for-bundeswehr", title: "Bundeswehr orders in the mid three-digit million-euro range at Rheinmetall", publisher: "Rheinmetall AG", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.rheinmetall.com/en/media/stories/2022/30-years-bergepanzer-3-bueffel", title: "30 years Bergepanzer 3 Büffel", publisher: "Rheinmetall AG", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Vehicle-Systems/B334e1122-brochure-30-years-Buffalo-ARV.pdf", title: "30 Years Bergepanzer 3 Büffel (Buffalo) Armoured Recovery Vehicle", publisher: "Rheinmetall Landsysteme GmbH", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/bergepanzer-3-bueffel", title: "Ausrüstung und Technik: Der Bergepanzer 3 Büffel", publisher: "Bundeswehr", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.hartpunkt.de/rheinmetall-liefert-23-bergepanzer-3-a2-bueffel-an-die-bundeswehr/", title: "Rheinmetall liefert 23 Bergepanzer 3 A2 Büffel an die Bundeswehr", publisher: "hartpunkt", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.army-technology.com/news/rheinmetall-bergepanzer-3-buffel-arvs/", title: "Rheinmetall to modernise Dutch military's Bergepanzer 3 Büffel ARVs", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.rheinmetall.com/en/company/subsidiaries/rheinmetall-hungary-zrt", title: "Rheinmetall Hungary Zrt.", publisher: "Rheinmetall AG", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s8, url: "https://www.janes.com/osint-insights/defence-news/land/hungary-receives-first-lynx-and-buffel-and-another-pzh-2000", title: "Hungary receives first Lynx and Büffel and another PzH 2000", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://canadiandefencereview.com/armoured-recovery-vehicle/", title: "Armoured Recovery Vehicle", publisher: "Canadian Defence Review", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.pressebox.com/presscorner/firma/rheinmetall-ag/meldung/boxid/472115/iframe/2713", title: "Rheinmetall receives €40 million order from Canada for Büffel/Buffalo armoured recovery vehicles", publisher: "Rheinmetall AG (via Pressebox)", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s11, url: "https://euro-sd.com/2024/08/major-news/39816/ringtausch-with-czechs/", title: "Rheinmetall to supply Leopard 2A4s to Czechs as Prague forwards heavy equipment to Ukraine", publisher: "European Security & Defence", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://www.handelsblatt.com/politik/deutschland/verteidigung-bundeswehr-bestellt-neue-bergepanzer-bueffel-bei-rheinmetall/100153123.html", title: "Verteidigung: Bundeswehr bestellt neue Bergepanzer „Büffel“ bei Rheinmetall", publisher: "Handelsblatt", retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://de.wikipedia.org/wiki/Bergepanzer_B%C3%BCffel", title: "Bergepanzer Büffel", publisher: "Wikipedia (German)", retrieved: 2026-11-22, kind: reference }

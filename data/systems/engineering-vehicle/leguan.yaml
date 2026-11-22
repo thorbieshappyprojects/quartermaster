@@ -1,0 +1,91 @@
+id: leguan
+category: engineering-vehicle
+name: "Leguan Leopard 2"
+variant_note: "Leguan laying system on Leopard 2 tank chassis with one 26 m or two 14 m MLC 80 bridges"
+family: "Leguan"
+aliases: ["Panzerschnellbrücke Leguan", "Gefechtsfeldbrücke (GFB)", "Brückenlegepanzer Leguan", "Leopard 2L (Finland)", "Leopard 2A8 Leguan (Lithuania)"]
+manufacturer: { name: "KNDS Deutschland" }
+origin: DE
+role: "Tracked armoured bridge layer that carries, lays and recovers one 26 m or two 14 m MLC 80 bridges so heavy forces can cross gaps such as rivers and ditches."
+memorable_fact: { text: "Leguan pushes its bridge out horizontally instead of unfolding it upward like a scissor bridge, so the crossing is harder for an enemy to spot and fire on.", source: s2 }
+status: in_production
+in_service_since:
+  value: 2004
+  source: s6
+  confidence: medium
+  range: { min: 2004, max: 2005 }
+  note: "Year the Leopard 2 version first entered service, in Finland as the Leopard 2L. The Finnish Defence Forces say these vehicles have been acquired since 2004 (s6). Trade press gives first-batch deliveries as 2005-08 (s7). The Bundeswehr says Leguan has reached its units since 2019 (s2). German Wikipedia says the first battalion was equipped in December 2018 (s13). Earlier Leguan versions on other chassis are not counted here."
+units_built:
+  value: 250
+  source: s5
+  confidence: low
+  note: "Whole family, all tracked chassis types (including Leopard 1, M60, PT-91 and M1-based versions). Trade press quotes KNDS as saying it has supplied 'almost 250' tracked plus 45 wheeled Leguan systems to about 22 users (s5). 250 is the rounded figure as stated, not an exact count. No public total exists for the Leopard 2 version alone."
+specs:
+  bridge_span:
+    value: 26
+    source: s1
+    confidence: high
+    note: "Length of the long bridge. The vehicle can carry two 14 m bridges instead. The 26 m bridge crosses gaps of about 24-25 m (25 m per s4 and s6; 24 m per s13). Overlapping a 26 m and a 14 m bridge crosses up to 35 m (s2)."
+  lift_capacity: { value: null, source: null, confidence: null }
+  load_class:
+    value: 80
+    source: s1
+    confidence: high
+    note: "Load class of the bridges. Trade press gives MLC 80 as about 72 t (s5). The Bundeswehr says the bridges carry more than 70 t, and up to 90 t in exceptional cases (s2). KNDS lists the vehicle's own weight class as MLC 70 (s1)."
+  deployment_time:
+    value: 5
+    source: s2
+    confidence: medium
+    range: { min: 5, max: 6 }
+    note: "The Bundeswehr gives 5 min to lay a crossing and 7 min to recover it (s2). Lithuania's MoD gives under six minutes for the 25 m span (s4). An older KMW-sourced article gives 6 min for the 26 m bridge (s14). The government figure is shown."
+  combat_weight:
+    value: 64.5
+    source: s2
+    confidence: high
+    range: { min: 63.5, max: 64.5 }
+    note: "64.5 t is the Bundeswehr figure for its Leguan. The Finnish Leopard 2L (Leopard 2A4 chassis) weighs 63.5 t with bridge (s6)."
+  crew:
+    value: 2
+    source: s2
+    confidence: high
+    note: "Bundeswehr: operated by two people. Laying can be controlled electronically by one person (s14)."
+operators:
+  - { country: DE, force: Army, state: in_service, quantity: 31, source: s9 }
+  - { country: NL, force: Army, state: in_service, quantity: 8, source: s13 }
+  - { country: CH, force: Army, state: in_service, quantity: 12, source: s13 }
+  - { country: SE, force: Army, state: in_service, quantity: 6, source: s13 }
+  - { country: NO, force: Army, state: in_service, quantity: 6, source: s12 }
+  - { country: DK, force: Army, state: in_service, quantity: 7, source: s11 }
+  - { country: FI, force: Army, state: in_service, quantity: 10, source: s13 }
+  - { country: FI, force: Army, state: ordered, quantity: 6, source: s7 }
+  - { country: SG, force: Army, state: in_service, quantity: 10, source: s13 }
+  - { country: LT, force: Army, state: ordered, quantity: 12, source: s3 }
+cost:
+  value: 17500000
+  currency: EUR
+  price_year: 2026
+  basis: contract_per_unit
+  source: s3
+  confidence: medium
+  note: "Lithuania, January 2026: about EUR 210 million for 12 Leguan Leopard 2 vehicles = EUR 17.5 million each. The price covers two 14 m and one 26 m bridge per vehicle, plus training, special tools and spare parts. Lithuania's MoD states the chassis is the Leopard 2A8 (s4). No unit price has been published."
+contracts:
+  - { customer: "Germany / Bundeswehr", year: 2016, quantity: 7, value: 88000000, currency: EUR, note: "First batch, signed October 2016 by BAAINBw and KMW. Each system has a converted Leopard 2, one 26 m and two 14 m bridges, and a semitrailer; bought jointly with the Netherlands.", source: s8 }
+  - { customer: "Germany / Bundeswehr", year: 2020, quantity: 24, value: 330000000, currency: EUR, note: "Second batch, deliveries 2023-2028 (s15), to replace Biber completely. EUR 330 million is the Defence Ministry figure (s9). KMW gave about EUR 280 million (s10).", source: s9 }
+  - { customer: "Lithuania / Armed Forces", year: 2026, quantity: 12, value: 210000000, currency: EUR, note: "Leopard 2 chassis (2A8 per Lithuanian MoD); includes bridges and support package (training, tools, spares).", source: s3 }
+peers: [m1074-joint-assault-bridge, k1-avlb]
+sources:
+  - { id: s1, url: "https://knds.com/en/products/systems/bridges/leguan", title: "LEGUAN | KNDS Group", publisher: "KNDS", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/brueckenlegepanzer-leguan", title: "Ausrüstung und Technik: Der Brückenlegepanzer Leguan", publisher: "Bundeswehr", retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://knds.com/en/press-releases/knds-to-equip-lithuania-with-leguan-bridge-layers", title: "KNDS to Equip Lithuania with LEGUAN Bridge Layers", publisher: "KNDS", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://kam.lt/en/lithuania-is-buying-bridge-layer-system-to-support-tank-and-other-tactical-equipment/", title: "Lithuania procures bridge layer system to support tank and other tactical equipment", publisher: "Ministry of National Defence of Lithuania", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.overtdefense.com/2026/01/22/belgian-mod-awards-e80m-contract-to-knds-for-leguan-bridge-systems/", title: "Belgian MoD Awards €80M Contract to KNDS for LEGUAN Bridge Systems", publisher: "Overt Defense", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://puolustusvoimat.fi/en/equipment/-/cat/asset/view/id/403", title: "Armoured Bridge Layer Leopard 2L", publisher: "Finnish Defence Forces", retrieved: 2026-11-22, kind: government }
+  - { id: s7, url: "https://www.shephardmedia.com/news/landwarfareintl/finland-orders-third-batch-of-leopard-bridge-vehicles/", title: "Finland orders third batch of Leopard bridge vehicles", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://hardthoehenkurier.de/leguan-brueckenleger-fuer-die-deutsche-bundeswehr/", title: "LEGUAN-Brückenleger für die deutsche Bundeswehr", publisher: "Hardthöhenkurier", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.bmvg.de/de/aktuelles/brueckenleger-bis-lenkrakete-bundestag-billigt-beschaffungen-273900", title: "Von Brückenleger bis Lenkrakete: Bundestag billigt Beschaffungen", publisher: "Bundesministerium der Verteidigung", retrieved: 2026-11-22, kind: government }
+  - { id: s10, url: "https://www.blauer-bund.de/bundeswehr-erhaelt-weitere-brueckenleger-leguan/", title: "Bundeswehr erhält weitere Brückenleger LEGUAN", publisher: "Blauer Bund", retrieved: 2026-11-22, kind: other }
+  - { id: s11, url: "https://soldat-und-technik.de/2025/02/mobilitaet/42233/brueckenlege-leguan/", title: "Brückenlegepanzer Leguan Leopard 2 an das dänische Pionierregiment übergeben", publisher: "Soldat & Technik", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2021/kmw-rolls-out-first-norwegian-leopard-2-leguan-bridge-layer", title: "KMW rolls out first Norwegian Leopard 2 Leguan bridge layer", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://de.wikipedia.org/wiki/Panzerschnellbr%C3%BCcke_Leguan", title: "Panzerschnellbrücke Leguan", publisher: "Wikipedia (German)", retrieved: 2026-11-22, kind: reference }
+  - { id: s14, url: "https://www.army-guide.com/eng/article/article_1250.html", title: "Army Guide - LEGUAN - now also with two 14-metre bridges", publisher: "Army Guide", retrieved: 2026-11-22, kind: reference }
+  - { id: s15, url: "https://esut.de/2020/08/meldungen/22096/liefervertrag-fuer-weitere-leguan-brueckenlegesysteme/", title: "Liefervertrag für weitere Leguan-Brückenlegesysteme", publisher: "Europäische Sicherheit & Technik", retrieved: 2026-11-22, kind: press }

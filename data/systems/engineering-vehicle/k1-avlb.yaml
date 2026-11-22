@@ -1,0 +1,35 @@
+id: k1-avlb
+category: engineering-vehicle
+name: K1 AVLB
+variant_note: Hyundai Rotem catalogue configuration with MLC 66 scissor-type bridge
+family: K1
+aliases: ["K1 교량전차", "K-1 AVLB", "K1 Armored Vehicle Launched Bridge"]
+manufacturer: { name: Hyundai Rotem (originally Hyundai Precision & Industry; bridge system designed with Vickers Defence Systems) }
+production_sites:
+  - { place: Changwon, country: KR, source: s6 }
+origin: KR
+role: Tracked armoured vehicle-launched bridge on the K1 tank chassis that carries, lays and recovers a 22 m scissor-type assault bridge.
+memorable_fact: { text: "Its scissor bridge was designed by Vickers in Newcastle and resembles the British No 8 tank bridge used on the Chieftain bridgelayer.", source: s4 }
+status: in_service
+in_service_since: { value: 1995, source: s2, confidence: medium, range: { min: 1993, max: 1995 }, note: "Year of this variant. Hyundai Rotem dates the K1 AVLB roll-out ceremony to 19 Oct 1995 and development to 1992. Some secondary sources give a first issue in 1993. GlobalSecurity says it was deployed in the mid-1990s." }
+units_built: { value: 56, source: s5, confidence: low, note: "K1 AVLB only. Military Today says 56 were delivered to the ROK Army. Army Guide (Jane's-derived text, s4) gives 56 as the total South Korean requirement. No manufacturer or government figure was found." }
+specs:
+  bridge_span: { value: 22, source: s1, confidence: high, note: "Overall bridge length per manufacturer. Effective gap span is 20.5 m depending on bank conditions (s3, s4)." }
+  lift_capacity: { value: null, source: null, confidence: null }
+  load_class: { value: 66, source: s1, confidence: high, note: "MLC 66, given as a 60 t through-load; durability over 8,000 crossings at MLC 66." }
+  deployment_time: { value: 3, source: s1, confidence: high, range: { min: 3, max: 5 }, note: "Manufacturer: 3 min to lay, 10 min to recover. GlobalSecurity (s3) gives 3-5 min to lay. Manufacturer figure displayed." }
+  combat_weight: { value: 53.7, source: s1, confidence: high, range: { min: 49.6, max: 54.7 }, note: "Manufacturer gives 53.7 t. GlobalSecurity (s3) gives 54.7 t. Army Guide (s4) gives a total weight of 49.6 t. Manufacturer figure displayed." }
+  crew: { value: 2, source: s1, confidence: high }
+operators:
+  - { country: KR, force: Army, state: in_service, quantity: 56, source: s5 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public unit or programme price found. The 1993 Vickers subcontract (GBP 23 million) covered only bridges and launching mechanisms, not complete vehicles." }
+contracts:
+  - { customer: "KR Army (subcontract from Hyundai Precision & Industry to Vickers Defence Systems)", year: 1993, quantity: null, value: 23000000, currency: GBP, note: "Covers 8 bridges and 41 launching mechanisms made in the UK and fitted to K1 AVLB chassis by Hyundai. The remaining bridges and launchers were built in Korea under technology transfer.", source: s4 }
+peers: [leguan, m1074-joint-assault-bridge]
+sources:
+  - { id: s1, url: "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productNm=K1+AVLB", title: "K1 AVLB | Hyundai Rotem", publisher: Hyundai Rotem, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.hyundai-rotem.co.kr/en/company/history/content.do", title: "History", publisher: Hyundai Rotem, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.globalsecurity.org/military/world/rok/k1-avlb.htm", title: "K1 AVLB", publisher: GlobalSecurity.org, retrieved: 2026-11-22, kind: reference }
+  - { id: s4, url: "http://army-guide.com/eng/product.php?prodID=1164&printmode=1", title: "Army Guide - K1, Main battle tank", publisher: Army Guide, retrieved: 2026-11-22, kind: reference }
+  - { id: s5, url: "https://www.militarytoday.com/engineering/k1_avlb.htm", title: "K1 AVLB - Armored bridgelayer", publisher: Military Today, retrieved: 2026-11-22, kind: reference }
+  - { id: s6, url: "https://www.army-technology.com/projects/k1/", title: "K1/A1 - Main Battle Tank from South Korea Developed by Rotem - Army Technology", publisher: Army Technology, retrieved: 2026-11-22, kind: press }

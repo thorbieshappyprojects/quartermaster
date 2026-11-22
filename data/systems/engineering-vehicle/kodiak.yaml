@@ -1,0 +1,75 @@
+id: kodiak
+category: engineering-vehicle
+name: "Pionierpanzer 3 Kodiak"
+variant_note: "AEV3 Kodiak basic/engineer version as ordered by the Bundeswehr (44 vehicles, 2021 contract); export vehicles noted where relevant"
+family: "Leopard 2"
+aliases: ["AEV3 Kodiak", "AEV 3 Kodiak", "PiPz 3 Kodiak", "Ingenjörbandvagn 120", "L2-AEV"]
+manufacturer: { name: "Rheinmetall Landsysteme GmbH" }
+origin: DE
+role: "Armoured engineer vehicle on a Leopard 2 chassis, used to build and break obstacles, dig, doze, clear mines (optional plough) and help with disaster relief."
+memorable_fact: { text: "Its excavator arm is mounted in the middle of the vehicle's front and can move about 200 cubic metres of heavy soil per hour without the vehicle moving.", source: s4 }
+status: in_production
+in_service_since:
+  value: 2011
+  source: s5
+  confidence: medium
+  note: "Base system: the first Swiss vehicles (December 2011) and the first Swedish AEV 3 S (November 2011) were delivered that year. The German PiPz 3 is not yet in service: two pre-series test vehicles were handed over at the end of August 2026 for official trials (s6)."
+units_built:
+  value: 42
+  source: s5
+  confidence: medium
+  note: "Export vehicles: Switzerland 12, Netherlands 10, Sweden 6, Singapore 14. Rheinmetall says 'more than forty' are in service (s2). Not counted: the 2 German pre-series vehicles handed over in August 2026 or the rest of the 44-vehicle German order."
+specs:
+  bridge_span: { value: null, source: null, confidence: null }
+  lift_capacity:
+    value: 3.5
+    source: s3
+    confidence: high
+    note: "Excavator lifting capacity: up to 3.5 t at maximum reach (manufacturer technical data). There is no separate crane."
+  load_class:
+    value: 80
+    range: { min: 70, max: 80 }
+    source: s3
+    confidence: high
+    note: "The Bundeswehr brochure gives combat weight as MLC80. The Rheinmetall product page (s1) and Army Technology (s5) say MLC70. MLC80 is shown because it is the manufacturer figure for the Bundeswehr variant."
+  deployment_time: { value: null, source: null, confidence: null }
+  combat_weight:
+    value: 62
+    range: { min: 55, max: 62 }
+    source: s8
+    confidence: low
+    note: "Rheinmetall publishes only a load class (MLC70/80), not a weight in tonnes. Press figures disagree: 'about 62 tons' (s8) and 55 t (s5). The higher figure is shown because it is closer to the MLC70-80 class."
+  crew:
+    value: 3
+    range: { min: 2, max: 3 }
+    source: s2
+    confidence: high
+    note: "Rheinmetall says three crew for the Bundeswehr configuration (s2). The general brochure says two or three crew (s3)."
+operators:
+  - { country: CH, force: "Swiss Army", state: in_service, quantity: 12, source: s5 }
+  - { country: SE, force: "Swedish Army", state: in_service, quantity: 6, source: s5 }
+  - { country: NL, force: "Royal Netherlands Army", state: in_service, quantity: 10, source: s8, note: "MoD letter of 22 Oct 2026 plans replacement; replacement type not yet chosen" }
+  - { country: SG, force: "Singapore Army", state: in_service, quantity: 14, source: s5 }
+  - { country: DE, force: "German Army (Bundeswehr)", state: ordered, quantity: 44, source: s7, note: "Two pre-series test vehicles handed over August 2026 for trials" }
+cost:
+  value: 6.7
+  currency: EUR
+  price_year: 2021
+  basis: contract_per_unit
+  source: s2
+  confidence: high
+  note: "Value in millions of EUR: the 2021 BAAINBw contract (about €295 million gross for 44 vehicles) divided by 44 = about €6.7 million per vehicle. The contract also covers training, documentation, test equipment, spare parts and special tools. It does not include the Leopard 2A4 hulls, which the Bundeswehr supplies itself (s6)."
+contracts:
+  - { customer: "Switzerland / Swiss Army", year: 2007, quantity: 12, value: 95000000, currency: CHF, note: "Built on Leopard 2 (Pz 87) hulls from Swiss Army stocks, delivered by RUAG", source: s5 }
+  - { customer: "Netherlands and Sweden (joint order)", year: 2008, quantity: 16, value: 100000000, currency: EUR, note: "Joint order: 10 for the Netherlands, 6 for Sweden; value is for both together", source: s5 }
+  - { customer: "Germany / Bundeswehr (BAAINBw)", year: 2021, quantity: 44, value: 295000000, currency: EUR, note: "Gross value including training and logistics support; delivery originally to be complete by 2029", source: s2 }
+peers: [dachs-2, m1150-abv]
+sources:
+  - { id: s1, url: "https://www.rheinmetall.com/en/products/tracked-armoured-vehicles/armoured-engineer-vehicle-kodiak", title: "Kodiak – Armoured engineer vehicle", publisher: "Rheinmetall AG", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.rheinmetall.com/en/media/news-watch/news/2021/2021-05-12_rheinmetall-kodiak-to-be-the-bundeswehr-s-new-combat-engineer-vehicle", title: "Rheinmetall Kodiak to be the Bundeswehr's new combat engineer vehicle", publisher: "Rheinmetall AG", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Vehicle-Systems/B056e0625-Kodiak-AEV3-armoured-engineer-vehicle-of%20the-Bundeswehr.pdf", title: "AEV3 Kodiak – The armoured engineer vehicle of the Bundeswehr (brochure)", publisher: "Rheinmetall Landsysteme GmbH", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.rheinmetall.com/en/media/news-watch/news/2020/2020-06-24_tried-and-true-the-rheinmetall-kodiak", title: "Tried and true: the Rheinmetall Kodiak", publisher: "Rheinmetall AG", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s5, url: "https://www.army-technology.com/projects/kodiak-vehicle/", title: "Kodiak Armoured Engineer Vehicle (AEV3)", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.hartpunkt.de/pionierpanzer-3-kodiak-geht-ohne-natter-in-die-bundeswehr-erprobung/", title: "Pionierpanzer 3 Kodiak geht ohne Natter in die Bundeswehr-Erprobung", publisher: "hartpunkt", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://militarnyi.com/en/news/bundeswehr-begins-testing-pionierpanzer-3-kodiak-without-planned-natter-weapon-station/", title: "Bundeswehr Begins Testing Pionierpanzer 3 Kodiak Without Planned Natter Weapon Station", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://militarnyi.com/en/news/dutch-army-plans-to-replace-kodiak-engineer-vehicles-after-just-12-years-in-service/", title: "Dutch Army Plans to Replace Kodiak Engineer Vehicles After Just 12 Years in Service", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,44 @@
+id: m1150-abv
+category: engineering-vehicle
+name: M1150 ABV
+variant_note: M1150 production standard on overhauled M1A1 Abrams hull (US Army / export)
+family: M1 Abrams
+aliases: [ABV, Assault Breacher Vehicle]
+manufacturer: { name: Anniston Army Depot (U.S. Army) }
+production_sites:
+  - { place: Anniston, country: US, source: s4 }
+origin: US
+role: Tracked combat engineer vehicle on an M1A1 Abrams hull that breaches minefields and obstacles using line charges and an interchangeable mine plow or dozer blade.
+memorable_fact: { text: "It carries two line-charge systems, takes either a full-width mine plow or a combat dozer blade, and automatically marks the cleared lane behind it.", source: s3 }
+status: in_service
+in_service_since: { value: 2008, source: s1, confidence: high, note: "Base M1150 system; the U.S. Army article of July 2008 reports the first ABV shipped to the Marines and fielding beginning that month. Wikipedia gives 2009/2010; first combat use was December 2009 (s2)." }
+units_built: { value: 239, source: s5, confidence: low, range: { min: 232, max: 239 }, note: "Whole M1150 family. Army Recognition states 239 produced, but its own breakdown (45 USMC + 187 Army) sums to 232. USMC ordered 52 (s2); U.S. Army Acquisition Objective is 201 and Army Procurement Objective 192 (s3). Export builds (e.g. Poland, delivery 2029) are not confirmed as included." }
+combat_use: { text: "First used in combat by U.S. Marines in Afghanistan in December 2009 (Operation Cobra's Anger) and later in Operation Moshtarak in 2010; Ukrainian vehicles have been used against Russian forces, with at least two lost in 2024.", source: s5 }
+specs:
+  bridge_span: { value: null, source: null, confidence: null, note: "Not applicable (not a bridge layer)." }
+  lift_capacity: { value: null, source: null, confidence: null, note: "No crane; no public lift figure found." }
+  load_class: { value: null, source: null, confidence: null }
+  deployment_time: { value: null, source: null, confidence: null, note: "Not applicable (not a bridge layer)." }
+  combat_weight: { value: 72, source: s5, confidence: low, note: "Source states '72-ton' without specifying metric tonnes or US short tons (72 short tons would be about 65.3 t); value shown as published. No manufacturer or government figure found." }
+  crew: { value: 2, source: s5, confidence: medium, note: "Commander and driver." }
+operators:
+  - { country: US, force: Army, state: in_service, quantity: 149, source: s6 }
+  - { country: US, force: Marine Corps, state: retired, quantity: null, source: s5 }
+  - { country: AU, force: Army, state: in_service, quantity: 29, source: s6 }
+  - { country: UA, force: Armed Forces of Ukraine, state: in_service, quantity: null, source: s5 }
+  - { country: PL, force: Land Forces, state: ordered, quantity: 25, source: s5 }
+  - { country: BH, force: Royal Bahrain Defence Force, state: ordered, quantity: 8, source: s5 }
+  - { country: RO, force: Land Forces, state: evaluating, quantity: 4, source: s5, note: "Reported as approved for sale; firm order not confirmed in sources seen." }
+cost: { value: 4600000, currency: USD, price_year: 2025, basis: contract_per_unit, source: s5, confidence: medium, note: "Poland's July 2025 annex to its January 2023 Letter of Offer and Acceptance (LOA): about USD 115 million net for 25 M1150 including logistics support, training and spares (115M / 25). Wikipedia lists a unit cost of USD 14 million (FY2009) from a secondary database; not used because the underlying source was not verified." }
+contracts:
+  - { customer: US Marine Corps, year: 2007, quantity: 52, value: null, currency: null, note: "Full-rate production at Anniston Army Depot began November 2007; initial order of 28, total of 52 ordered by the Marines.", source: s2 }
+  - { customer: Australia / Army, year: 2021, quantity: 29, value: null, currency: null, note: "U.S. State Department approval April 2021 as part of an Abrams-family package; value not broken out per vehicle.", source: s6 }
+  - { customer: Poland / Land Forces, year: 2025, quantity: 25, value: 115000000, currency: USD, note: "Annex signed 31 July 2025 to January 2023 LOA; includes logistics, training and spares; delivery scheduled 2029.", source: s5 }
+peers: [kodiak, dachs-2]
+sources:
+  - { id: s1, url: "https://www.army.mil/article/10792/anniston_builds_new_mine_plowing_vehicle_for_the_marine_corps", title: "Anniston builds new mine-plowing vehicle for the Marine Corps", publisher: U.S. Army, retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://www.army.mil/article/74809/anniston_completes_first_abv_production_run_for_marines", title: "Anniston completes first ABV production run for Marines", publisher: U.S. Army, retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.asafm.army.mil/Portals/72/Documents/BudgetMaterial/2025/Base%20Budget/Procurement/Procurement-of-Weapons-and-Tracked-Combat-Vehicles.pdf", title: "Procurement of Weapons and Tracked Combat Vehicles (FY 2025 President's Budget)", publisher: U.S. Army ASA(FM&C), retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.asafm.army.mil/Portals/72/Documents/BudgetMaterial/2024/Base%20Budget/Procurement/Procurement%20of%20Weapons%20and%20Tracked%20Combat%20Vehicles.pdf", title: "Procurement of Weapons and Tracked Combat Vehicles (FY 2024 Budget Estimates)", publisher: U.S. Army ASA(FM&C), retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://armyrecognition.com/news/army-news/2025/polish-army-strengthens-breaching-capabilities-with-purchase-of-25-us-made-m1150-assault-breacher-vehicles", title: "Polish Army strengthens breaching capabilities with purchase of 25 US-made M1150 Assault Breacher Vehicles", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://en.wikipedia.org/wiki/M1150_assault_breacher_vehicle", title: "M1150 assault breacher vehicle", publisher: Wikipedia, retrieved: 2026-11-22, kind: reference }
