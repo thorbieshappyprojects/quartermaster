@@ -1,0 +1,39 @@
+id: cv90-mkiii
+category: infantry-fighting-vehicle
+name: CV9035NL
+variant_note: Dutch CV90 Mk III as built (2008–2011 deliveries), before the 2021 mid-life upgrade
+family: CV90
+aliases: ["CV90 Mk III", "CV9035 Mk III", "CV 9035NL Mk-III"]
+manufacturer: { name: BAE Systems Hägglunds }
+origin: SE
+role: Tracked infantry fighting vehicle with a 35 mm cannon that carries an infantry section and supports it in combat.
+memorable_fact: { text: "In 2014 Estonia bought 44 second-hand Dutch CV9035NLs, a deal its defence ministry called the country's biggest arms deal.", source: s6 }
+status: in_service
+in_service_since: { value: 2008, source: s1, confidence: medium, note: "First service of this variant: entered Dutch Army service in December 2008. The CV90 family entered service in 1993." }
+units_built: { value: 193, source: s7, confidence: medium, note: "CV9035NL only: the Netherlands ordered 193 in total (infantry and command/control configurations). Army Technology describes the contract as 184 combat plus 8 instruction vehicles (192). Other Mk III versions (Danish CV9035DK, Norwegian Mk IIIb) are not included." }
+combat_use: { text: "No confirmed combat use of the CV9035NL as of 2026. Trade reporting states Dutch CV90s were not used in Afghanistan, unlike Danish, Norwegian and Swedish CV90s.", source: s7 }
+specs:
+  combat_weight: { value: 32, range: { min: 31.75, max: 32 }, source: s3, confidence: medium, note: "32 t gross combat weight for the Mk III, with stretch potential to 35 t (s3). 31.75 t is given for the Danish CV9035DK (s5) and for the CV9035NL including a 1.5 t add-on armour kit (s4). The 32 t figure is shown." }
+  main_armament_calibre: { value: 35, source: s1, confidence: medium, note: "Bushmaster III 35/50 cannon" }
+  dismounts: { value: 7, source: s2, confidence: high, note: "3 crew plus 7 fully equipped infantry (Dutch MoD)" }
+  engine_power: { value: 810, range: { min: 755, max: 810 }, source: s4, confidence: low, note: "Scania DI-16 V8 diesel, 810 hp in Dutch vehicles (s4). 755 hp is given for the Danish CV9035DK (s5), and 550–810 hp across the whole CV90 family (s1). The Dutch figure is shown." }
+  top_speed: { value: 70, source: s1, confidence: medium, note: "70 km/h is the CV90 family figure (s1). The same value is given for the CV9035NL on road (s4)." }
+  range: { value: 500, range: { min: 320, max: 500 }, source: s4, confidence: low, note: "'Over 500 km' for the CV9035NL (s4). 500 km for the CV9035DK (s5). Army Technology gives 320 km as a general CV90 family figure (s1). The 500 km figure is shown." }
+operators:
+  - { country: NL, force: Royal Netherlands Army, state: in_service, quantity: 122, source: s8, note: "122 vehicles in the mid-life upgrade, with deliveries until 2027. The total fleet in service is not separately confirmed." }
+  - { country: EE, force: Estonian Defence Forces, state: in_service, quantity: 44, source: s6, note: "Ex-Dutch vehicles bought in 2014; delivery completed in 2019 (s1)" }
+cost: { value: 4070000, currency: EUR, price_year: 2004, basis: contract_per_unit, source: s7, confidence: medium, note: "Dutch December 2004 contract with BAE Systems Hägglunds: EUR 749 million for 184 vehicles (about EUR 4.07 million each). Includes training and spares." }
+contracts:
+  - { customer: Netherlands / Royal Netherlands Army, year: 2004, quantity: 184, value: 749000000, currency: EUR, note: "Original production contract. Army Technology adds 8 instruction vehicles. Total Dutch order later reported as 193.", source: s7 }
+  - { customer: Estonia / Estonian Defence Forces, year: 2014, quantity: 44, value: 113000000, currency: EUR, note: "Used CV9035NLs bought from the Netherlands government. The value also covers support vehicles based on the Leopard 1. Cabinet authority was EUR 138 million including maintenance tools, training, spares and ammunition.", source: s6 }
+  - { customer: Netherlands / Royal Netherlands Army, year: 2021, quantity: 122, value: 500000000, currency: USD, note: "Mid-life upgrade with a new turret, with an option for 19 more vehicles. Defense News puts the full programme at more than EUR 660 million.", source: s1 }
+peers: [ascod-2, k21, m2a4-bradley, lynx-kf41]
+sources:
+  - { id: s1, url: "https://www.army-technology.com/projects/cv90/", title: "CV90 Armoured Combat Vehicle - Army Technology", publisher: Army Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.defensie.nl/onderwerpen/m/materieel/voertuigen/combat-vehicle-90", title: "CV90-infanteriegevechtsvoertuig", publisher: Ministerie van Defensie (Netherlands), retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.dutchdefencepress.com/cv9035-mk-iii-looks-ahead-for-the-netherlands/", title: "CV9035 Mk-III looks 'AHEAD' for the Netherlands", publisher: Dutch Defence Press, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://weaponsystems.net/system/85-CV+9035", title: "CV 9035", publisher: Weaponsystems.net, retrieved: 2026-11-22, kind: reference }
+  - { id: s5, url: "https://www.armyvehicles.dk/cv9035.htm", title: "CV9035 DK - Danish Army Vehicles Homepage", publisher: Danish Army Vehicles Homepage, retrieved: 2026-11-22, kind: other }
+  - { id: s6, url: "https://www.kaitseministeerium.ee/en/news/defence-minister-mikser-signs-estonias-biggest-arms-deal", title: "Defence Minister Mikser signs Estonia's biggest arms deal", publisher: Ministry of Defence of Estonia, retrieved: 2026-11-22, kind: government }
+  - { id: s7, url: "https://www.defenseindustrydaily.com/estonia-acquires-cv90-ifvs-from-netherlands-in-biggest-acquisition-ever-029019/", title: "Estonia Acquires CV90 IFVs from Netherlands in Biggest Procurement Ever", publisher: Defense Industry Daily, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.defensenews.com/global/europe/2024/06/12/netherlands-to-supply-first-dutch-built-cv90-ifvs-to-ukraine-in-2026/", title: "Netherlands to supply first Dutch-built CV90 IFVs to Ukraine in 2026", publisher: Defense News, retrieved: 2026-11-22, kind: press }

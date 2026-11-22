@@ -1,0 +1,35 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: bmp-2
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:BMP-2_military_parade_rehearsal.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/BMP-2_military_parade_rehearsal.jpg/1280px-BMP-2_military_parade_rehearsal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: BMP-2 military parade rehearsal.jpg
+    caption: Russian BMP-2 during a military parade rehearsal in Yekaterinburg, 2009.
+    shows: exact_variant
+    licence: Public domain
+    author: Фальшивомонетчик (original picture) SuperTank17 (crop)
+    credit: Crop of File:Rep parad4.jpg
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Slovak_BVP-2.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Slovak_BVP-2.jpg/1280px-Slovak_BVP-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Slovak BVP-2.jpg
+    caption: Slovak BVP-2 during a Slovak-US live fire exercise, 2015.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Army Europe
+    credit: https://www.flickr.com/photos/usarmyeurope_images/20872348073/
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:UA_60th_Mechanized_Brigade_BMP-2_IFV.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/UA_60th_Mechanized_Brigade_BMP-2_IFV.jpg/1280px-UA_60th_Mechanized_Brigade_BMP-2_IFV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: UA 60th Mechanized Brigade BMP-2 IFV.jpg
+    caption: BMP-2 infantry fighting vehicle of the Ukrainian 60th Mechanized Brigade, 2023.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Unknown author Unknown author
+    credit: https://www.facebook.com/photo/?fbid=2354460628056052&amp;set=pcb.2354462634722518
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded the shopping mall, protein and diagram files, the operators map, BMP-1 images, the turret close-up, the vehicles on transporters, and the monument; the rest were not needed.

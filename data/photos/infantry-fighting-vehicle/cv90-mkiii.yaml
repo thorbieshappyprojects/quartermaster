@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: cv90-mkiii
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Dutch_Army_-_CV9035NL_Mk_III_(1).jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/3/33/Dutch_Army_-_CV9035NL_Mk_III_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Dutch Army - CV9035NL Mk III (1).jpg
+    caption: Dutch Army CV9035NL Mk III during an exercise at Leusderheide, September 2018.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Unknown author Unknown author
+    credit: https://www.defensie.nl/onderwerpen/materieel/voertuigen/combat-vehicle-90
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:CV9035.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/CV9035.JPG/1280px-CV9035.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: CV9035.JPG
+    caption: Dutch CV9035 infantry fighting vehicle, 2008.
+    shows: exact_variant
+    licence: Public domain
+    author: Bert Wickenhagen
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Dutch_Army_-_CV9035NL_Mk_III_(7).jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/7/7b/Dutch_Army_-_CV9035NL_Mk_III_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Dutch Army - CV9035NL Mk III (7).jpg
+    caption: Dutch Army CV9035NL Mk III in a defensive position during exercise Peacock Supremacy in Klietz, Germany, February 2018.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Unknown author Unknown author
+    credit: https://www.defensie.nl/onderwerpen/materieel/voertuigen/combat-vehicle-90
+    priority: A
+    retrieved: 2026-11-22
+note: "Excluded #19 because it shows the upgraded Mk IIIC, and excluded the other-nation and Mk IV files. #18 (Lithuania, 2024) was skipped because its upgrade status is uncertain."

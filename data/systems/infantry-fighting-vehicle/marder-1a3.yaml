@@ -1,0 +1,49 @@
+id: marder-1a3
+category: infantry-fighting-vehicle
+name: Marder 1A3
+variant_note: 1989-1998 upgrade of Marder 1A1/A2 hulls with add-on armour; Bundeswehr ex-stock vehicles later refurbished for export/aid
+family: Marder 1
+aliases: [SPz Marder 1A3, Schützenpanzer Marder 1A3]
+manufacturer: { name: Rheinmetall Landsysteme (1A3 conversion by Thyssen-Henschel) }
+production_sites:
+  - { place: Kassel, country: DE, source: s4 }
+  - { place: Kiel, country: DE, source: s4 }
+  - { place: Unterlüß, country: DE, source: s3 }
+origin: DE
+role: Tracked infantry fighting vehicle with a two-man turret and 20 mm cannon, carrying a six-soldier squad for mechanised infantry (Panzergrenadier) units.
+memorable_fact: { text: "No Marder 1A3 was built new: about 2,100 Marder 1A1/A2 vehicles from the 1970s were rebuilt to 1A3 standard starting in 1988, with the first handed back to the German Army on 17 November 1989.", source: s1 }
+status: in_service
+in_service_since: { value: 1989, source: s2, confidence: high, note: "Year the 1A3 variant entered Bundeswehr service. The base Marder 1 entered service in May 1971 (s4)." }
+units_built: { value: 2097, source: s5, confidence: medium, note: "Number of vehicles upgraded to 1A3 standard, 1989-1998. The 1988 contract covered 2,100 (s1). Total Marder 1 production was 2,136 vehicles, 1971-1975 (s4)." }
+combat_use: { text: "Used by Ukraine against Russia since 2023, including the Ukrainian incursion into Russia's Kursk region in August 2024.", source: s8 }
+specs:
+  combat_weight: { value: 33.5, source: s1, confidence: medium, range: { min: 33.5, max: 35 }, note: "Army Recognition and Army Technology (s5) give 33.5 t. Defense Update (s6) gives about 35 t. Displaying 33.5 t because two references agree on it." }
+  main_armament_calibre: { value: 20, source: s2, confidence: high, note: "Rheinmetall MK 20 Rh 202 autocannon (s1)." }
+  dismounts: { value: 6, source: s2, confidence: high, note: "Bundeswehr gives the crew as 3+6." }
+  engine_power: { value: 600, source: s2, confidence: high, note: "Bundeswehr gives 441 kW / 600 PS (metric horsepower). MTU MB 833 Ea-500 diesel (s1)." }
+  top_speed: { value: 65, source: s2, confidence: high }
+  range: { value: 500, source: s1, confidence: medium }
+operators:
+  - { country: DE, force: Army, state: in_service, quantity: null, source: s2 }
+  - { country: UA, force: Armed Forces of Ukraine, state: in_service, quantity: 140, source: s1 }
+  - { country: GR, force: Hellenic Army, state: in_service, quantity: 40, source: s7 }
+  - { country: CL, force: Army, state: in_service, quantity: null, source: s9 }
+  - { country: ID, force: Army, state: in_service, quantity: 42, source: s9 }
+  - { country: JO, force: Royal Jordanian Army, state: in_service, quantity: 50, source: s6 }
+cost: { value: 680000, currency: EUR, price_year: 2017, basis: contract_per_unit, source: s6, confidence: medium, note: "German government contract with Rheinmetall to refurbish 25 surplus Bundeswehr Marder 1A3 for Jordan: EUR 17 million / 25 = EUR 0.68 million each. This is a rebuild price, not the price of a new vehicle." }
+contracts:
+  - { customer: Germany / Army, year: 1988, quantity: 2100, value: null, currency: null, note: "Thyssen-Henschel contract to upgrade Marder 1A1/A2 to 1A3 at a rate of 220 vehicles per year.", source: s1 }
+  - { customer: Jordan (financed by Germany), year: 2017, quantity: 25, value: 17000000, currency: EUR, note: "Second batch of upgraded ex-Bundeswehr Marder 1A3, delivered in 2018. A first batch was delivered in 2017.", source: s6 }
+  - { customer: Greece (German Ringtausch exchange), year: 2022, quantity: 40, value: null, currency: null, note: "Refurbished Marder 1A3 supplied by Rheinmetall. In return Greece sent the same number of BMP-1A1 Ost to Ukraine.", source: s7 }
+  - { customer: Ukraine (financed by Germany), year: 2024, quantity: 20, value: null, currency: null, note: "Order booked March 2024, delivered September 2024. Value stated only as 'mid double-digit million euro'. These vehicles have added laser rangefinders.", source: s3 }
+peers: [bmp-2, m2a4-bradley, cv90-mkiii]
+sources:
+  - { id: s1, url: "https://www.armyrecognition.com/military-products/army/infantry-fighting-vehicles/tracked-vehicles/marder-1a3-ifv-tracked-armoured-infantry-fighting-vehicle-technical-data-sheet-specifications-pictures-video-10312164", title: "Marder 1A3 IFV", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder", title: "Schützenpanzer Marder", publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.rheinmetall.com/en/media/news-watch/news/2024/10/2024-10-25-rheinmetall-supplies-further-marder-combat-vehicles-to-ukraine", title: "Delivery of further Marder combat vehicles to Ukraine", publisher: Rheinmetall AG, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://warhistory.org/article/spz-marder", title: "SPz Marder", publisher: WarHistory.org, retrieved: 2026-11-22, kind: other }
+  - { id: s5, url: "https://www.army-technology.com/projects/marder-infantry-fighting-vehicles-ifvs-germany/", title: "Marder Infantry Fighting Vehicles (IFVs), Germany", publisher: Army Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://defense-update.com/20171214_jordan_marders.html", title: "Jordan to Receive 25 Modernized Marder IFVs from Germany", publisher: Defense Update, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://deaidua.org/news/2023/12/07/german-ringtausch-programme/", title: "Successful but controversial — The German Ringtausch programme", publisher: Defence Industry Europe / DEAIDUA, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.ukrinform.net/rubric-ato/3896802-paratroopers-post-video-showing-marder-ifv-in-action-in-kursk-region.html", title: "Paratroopers post video showing Marder IFV in action in Kursk region", publisher: Ukrinform, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://turdef.com/article/chile-considers-modernisation-for-marder-ifv-with-turkiye", title: "Chile Considers Modernisation for Marder IFV with Turkiye", publisher: Turkish Defence News (TURDEF), retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,67 @@
+id: bmp-2
+category: infantry-fighting-vehicle
+name: BMP-2
+variant_note: Baseline BMP-2 (Soviet/Russian production standard, incl. licence-built BVP-2 and Sarath)
+family: BMP
+aliases: [Sarath, BMP-II, BVP-2, BWP-2, BMP-M-1981]
+manufacturer: { name: Kurganmashzavod }
+production_sites:
+  - { place: Kurgan, country: RU, source: s2 }
+  - { place: Medak, country: IN, source: s3 }
+  - { place: Dubnica nad Vahom, country: SK, source: s2 }
+origin: SU
+role: Amphibious tracked infantry fighting vehicle with a two-man turret, a 30 mm cannon and an anti-tank missile launcher; carries a squad of seven infantry.
+memorable_fact: { text: "Its 30 mm 2A42 cannon can elevate to +74 degrees, high enough to engage helicopters.", source: s2 }
+status: in_service
+in_service_since:
+  value: 1980
+  range: { min: 1977, max: 1980 }
+  source: s1
+  confidence: medium
+  note: "Year the base BMP-2 entered Soviet/Russian service according to Army Recognition, which also notes its deployment in Afghanistan. Forecast International (2007) says production deliveries began and the vehicle entered service in early 1977. The displayed value is 1980."
+units_built:
+  value: 33939
+  source: s2
+  confidence: low
+  note: "Forecast International estimate for the whole BMP-2 family through 2006: Kurganmashzavod 32,009, India (OFB) 1,476 and ZTS Dubnica 454. In 2020, TASS, via Army Recognition, put Indian licence production at about 2,500, so the true total is likely higher."
+combat_use: { text: "Used by both Russian and Ukrainian forces in the war in Ukraine since 2022. According to Oryx data cited by Forbes, documented Russian losses of BMP-series vehicles exceeded 700 by August 2022.", source: s5 }
+specs:
+  combat_weight: { value: 14.3, range: { min: 14.29, max: 14.49 }, source: s1, confidence: medium, note: "Army Recognition gives 14,300 kg. Forecast International gives 14.29 t for the basic vehicle and 14.49 t for the Improved BMP-2." }
+  main_armament_calibre: { value: 30, source: s1, confidence: medium, note: "30 mm 2A42 stabilised automatic cannon; Forecast International gives the same figure." }
+  dismounts: { value: 7, source: s1, confidence: medium, note: "Crew of 3 plus 7 infantry; Forecast International also gives 7." }
+  engine_power: { value: 300, range: { min: 285, max: 300 }, source: s2, confidence: medium, note: "UTD-20 diesel: 300 hp (223.8 kW) per Forecast International. Army Recognition gives 285/300 hp. The Indian MoD gives 285 hp for Indian-built BMP-2/2K, but 300 hp is shown because it is the rating for the base Soviet/Russian vehicle." }
+  top_speed: { value: 65, source: s3, confidence: high, note: "Indian MoD figure for BMP-2/2K. Army Recognition and Forecast International also give 65 km/h on road." }
+  range: { value: 600, range: { min: 550, max: 600 }, source: s1, confidence: low, note: "Army Recognition gives 550 to 600 km; Forecast International gives 577 km on paved road. No manufacturer figure was found, so the upper Army Recognition value is shown." }
+operators:
+  - { country: RU, force: Ground Forces, state: in_service, quantity: null, source: s1 }
+  - { country: IN, force: Army, state: in_service, quantity: null, source: s4 }
+  - { country: UA, force: Ground Forces, state: in_service, quantity: null, source: s5 }
+  - { country: BY, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: DZ, force: Army, state: in_service, quantity: null, source: s6 }
+  - { country: FI, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: CZ, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: SK, force: Ground Forces, state: in_service, quantity: null, source: s1 }
+  - { country: KZ, force: Ground Forces, state: in_service, quantity: null, source: s1 }
+  - { country: AZ, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: IR, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: ML, force: Armed Forces, state: in_service, quantity: null, source: s1 }
+cost:
+  value: 70100000
+  currency: INR
+  price_year: 2020
+  basis: contract_per_unit
+  source: s3
+  confidence: high
+  note: "Indian MoD indent of 2 June 2020 on the Ordnance Factory Board for 156 upgraded BMP-2/2K made at Ordnance Factory Medak, about Rs 1,094 crore in total (about Rs 7.01 crore per vehicle). Forecast International (s2) gave a 2007 unit price of US$404,000 for new Russian-production BMP-2 and US$398,000 for the Indian Sarath."
+contracts:
+  - { customer: India / Army, year: 2020, quantity: 156, value: 10940000000, currency: INR, note: "Indent for upgraded BMP-2/2K from OFB (Ordnance Factory Medak); deliveries planned to finish by 2023.", source: s3 }
+  - { customer: India, year: 1985, quantity: null, value: null, currency: null, note: "Licence-production agreement signed February 1985; first Indian-built (Sarath) vehicles delivered August 1987.", source: s2 }
+  - { customer: Russia / Ministry of Defence, year: 2017, quantity: 540, value: null, currency: null, note: "Ten-year contract with KBP to upgrade BMP-2 and BMD-2 vehicles to the Berezhok standard (BMP-2M); the 540 total covers both types.", source: s6 }
+peers: [marder-1a3, m2a4-bradley, bmp-3]
+sources:
+  - { id: s1, url: "https://www.armyrecognition.com/military-products/army/infantry-fighting-vehicles/tracked-vehicles/bmp-2-russia-uk", title: "BMP-2 IFV", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.forecastinternational.com/archive/disp_pdf.cfm?DACH_RECNO=453", title: "BMP-2 - Archived 7/2008", publisher: "Forecast International", retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1628743", title: "Make in India gets a big boost; MoD places indent for supply of 156 upgraded BMP Infantry Combat Vehicles of value Rs 1,094 Cr on OFB", publisher: "Press Information Bureau, Ministry of Defence (India)", retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2020/india-manufactured-around-2500-bmp-2-ifv-under-russian-license", title: "India manufactured around 2,500 BMP-2 IFVs under Russian license", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.forbes.com/sites/sebastienroblin/2022/08/31/russia-mulls-restarting-production-of-older-fighting-vehicles-to-replace-ukraine-losses/", title: "Russia Mulls Restarting Production Of Older Fighting Vehicles To Replace Ukraine Losses", publisher: "Forbes", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.army-technology.com/projects/bmp-2m-infantry-fighting-vehicle/", title: "BMP-2M Berezhok IFV: Armament and Upgrade Specs", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }

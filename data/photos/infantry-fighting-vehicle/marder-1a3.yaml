@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: marder-1a3
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Marder_1A3.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Marder_1A3.jpg/1280px-Marder_1A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Marder 1A3.jpg
+    caption: German Army Marder 1A3 infantry fighting vehicle at the Army information exercise in Munster, 2010, with a Fuchs transport vehicle in the background.
+    shows: exact_variant
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    author: Bundeswehr-Fotos
+    credit: originally posted to Flickr as Informationslehrübung Heer
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Marder_1A3_1.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/6/6a/Marder_1A3_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Marder 1A3 1.jpg
+    caption: German Army Marder 1A3 seen from the right front at an open day in Bad Salzungen, 2016.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Marder_1A3_-_Ej%C3%A9rcito_de_Chile.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/9/9c/Marder_1A3_-_Ej%C3%A9rcito_de_Chile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Marder 1A3 - Ejército de Chile.jpg
+    caption: Chilean Army Marder 1A3 vehicles during training in the desert near Antofagasta, 2021.
+    shows: exact_variant
+    licence: CC BY 3.0 cl
+    licence_url: https://creativecommons.org/licenses/by/3.0/cl/deed.en
+    author: Ejército de Chile
+    credit: https://twitter.com/Ejercito_Chile/status/1377593854942191616
+    priority: A
+    retrieved: 2026-11-22
+note: "Detail, interior and museum close-ups were excluded, as were unrelated items: the WWII Marder I, a person named Marder and an operators map. Other variants were left out because exact Marder 1A3 photos are available."

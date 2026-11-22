@@ -1,5 +1,5 @@
 {
-  "spentUsd": 76.1988,
+  "spentUsd": 78.5579,
   "entries": [
     {
       "date": "2026-11-21",
@@ -1463,6 +1463,54 @@
       "usd": 0.0174,
       "input": 3009,
       "output": 266,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "infantry-fighting-vehicle/bmp-2",
+      "usd": 0.9219,
+      "input": 675733,
+      "output": 16195,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "infantry-fighting-vehicle/cv90-mkiii",
+      "usd": 0.7845,
+      "input": 635779,
+      "output": 10730,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "infantry-fighting-vehicle/marder-1a3",
+      "usd": 0.5982,
+      "input": 432842,
+      "output": 9552,
+      "searches": 10
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/bmp-2",
+      "usd": 0.0174,
+      "input": 3129,
+      "output": 245,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/cv90-mkiii",
+      "usd": 0.0172,
+      "input": 3002,
+      "output": 260,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/marder-1a3",
+      "usd": 0.0199,
+      "input": 3600,
+      "output": 276,
       "searches": 0
     }
   ]
