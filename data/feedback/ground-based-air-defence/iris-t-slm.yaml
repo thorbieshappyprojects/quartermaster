@@ -1,0 +1,36 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "iris-t-slm"
+items:
+  - summary: "An officer responsible for the radar of a Ukrainian IRIS-T unit says the digital radar runs around the clock, tracks dozens of targets and shares data with neighbouring units, and is especially useful against low-flying drones and cruise missiles. Because it never stops, he says even minor faults cannot be tolerated."
+    quote: "We cannot allow even the slightest malfunction."
+    speaker: "Radar officer, IRIS-T air defence unit (Ukraine)"
+    context: "ArmyInform profile of an IRIS-T crew operating a few kilometres from the front, March 2026"
+    sentiment: "positive"
+    topics: ["sensors", "maintenance"]
+    source: { url: "https://armyinform.com.ua/en/2026/03/17/our-unit-has-already-destroyed-more-than-150-targets-officer-oleksandr-on-operating-the-iris-t-system/", title: "Our unit has already destroyed more than 150 targets: officer Oleksandr on operating the IRIS-T system", publisher: "ArmyInform (Ukrainian Ministry of Defence)", date: "2026-03-17", retrieved: 2026-11-22 }
+  - summary: "The commander of a Ukrainian IRIS-T division credits combat readiness to disciplined service routines and equipment care, after the unit kept working through a period of severe frost. His chief operator says crews have only minutes to bring all systems up when an alert comes."
+    quote: "clear organisation of service and responsible maintenance of equipment"
+    speaker: "IRIS-T division commander and chief operator (Ukraine)"
+    context: "ArmyInform report on an IRIS-T unit on combat duty in winter, February 2026"
+    sentiment: "positive"
+    topics: ["maintenance", "reliability"]
+    source: { url: "https://armyinform.com.ua/en/2026/02/16/there-are-only-a-few-minutes-for-all-systems-to-start-working-iris-t-air-defence-commander-on-combat-duty/", title: "There are only a few minutes for all systems to start working: IRIS-T air defence commander on combat duty", publisher: "ArmyInform (Ukrainian Ministry of Defence)", date: "2026-02-16", retrieved: 2026-11-22 }
+  - summary: "A launch battery in Ukraine's Western Air Command used all eight missiles of one IRIS-T SLM launcher to destroy eight cruise missiles in about 30 seconds. The battery, which previously operated the Buk-M1, said the system exceeded its expectations in intense engagements."
+    speaker: "Launch battery commander, anti-aircraft missile brigade, Western Air Command (Ukraine)"
+    context: "Ukrainian Air Force report on a cruise-missile attack on critical infrastructure, June 2025"
+    sentiment: "positive"
+    topics: ["firepower"]
+    source: { url: "https://united24media.com/latest-news/ukrainian-iris-t-air-defense-system-downs-record-number-of-missiles-in-just-30-seconds-8951", title: "Ukrainian IRIS-T air defense system downs record number of missiles in just 30 seconds", publisher: "United24 Media", date: "2025-06-07", retrieved: 2026-11-22 }
+  - summary: "Soldiers of a Ukrainian IRIS-T unit that destroyed 15 cruise missiles in one attack praised the system's precision, quick reaction and ease of use in combat; they also described one interceptor bringing down two missiles flying side by side."
+    speaker: "IRIS-T crew members (Ukraine)"
+    context: "Interview published 14 March 2025, summarised by Army Recognition"
+    sentiment: "positive"
+    topics: ["firepower", "ergonomics", "reliability"]
+    source: { url: "https://armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/ukrainian-soldiers-praise-german-iris-t-air-defense-system-after-destroying-15-russian-missiles-in-one-attack", title: "Ukrainian soldiers praise German IRIS-T air defense system after destroying 15 Russian missiles in one attack", publisher: "Army Recognition", date: "2025-03-16", retrieved: 2026-11-22 }
+  - summary: "According to an internal Bundeswehr report on Ukrainian experience with German equipment, users find IRIS-T very effective, but its missiles are too expensive and not available in the numbers needed."
+    speaker: "Ukrainian users, as summarised in an internal Bundeswehr lecture report (Germany)"
+    context: "Der Spiegel report on a January 2025 Bundeswehr lecture, relayed by Euromaidan Press, April 2025"
+    sentiment: "mixed"
+    topics: ["cost", "logistics"]
+    source: { url: "https://euromaidanpress.com/2025/04/12/gepard-flak-tank-praised-as-most-reliable-german-weapon-in-ukraine/", title: "Gepard flak tank praised as most reliable German weapon in Ukraine", publisher: "Euromaidan Press", date: "2025-04-12", retrieved: 2026-11-22 }
+note: "All items come from Ukrainian service, mostly via Ukrainian MoD media (ArmyInform, Air Force statements), so kill figures are unverified claims; no feedback found from other operators."

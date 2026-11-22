@@ -1,0 +1,24 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "nasams"
+items:
+  - summary: "A Ukrainian NASAMS battery commander says the system handles everything from Shahed drones to cruise missiles but is not meant for ballistic missiles; he names mobility, being able to move launchers during attacks, as its main advantage. A young officer in the unit is responsible for keeping it ready to switch to full readiness quickly."
+    speaker: "NASAMS battery commander and maintenance officer (Ukraine)"
+    context: "Ukrainian military feature on a NASAMS unit credited with over 300 targets, November 2026 (configuration in Ukrainian service not stated)"
+    sentiment: "positive"
+    topics: ["mobility", "firepower", "maintenance"]
+    source: { url: "https://united24media.com/war-in-ukraine/ukraine-reveals-nasams-air-defense-system-that-has-shot-down-over-300-russian-aerial-targets-24162", title: "Ukraine reveals NASAMS air defense system that has shot down over 300 Russian aerial targets", publisher: "United24 Media", date: "2026-11-07", retrieved: 2026-11-22 }
+  - summary: "A Ukrainian NASAMS unit reported destroying 11 cruise missiles in under two minutes during a massed strike, and its officer claimed a reload speed faster than other countries' crews achieve."
+    quote: "We probably broke all records of other countries for reload speed"
+    speaker: "Lieutenant colonel, NASAMS unit, Ukrainian Air Force (Ukraine)"
+    context: "Ukrainian Air Force video about a NASAMS crew, April 2025"
+    sentiment: "positive"
+    topics: ["firepower", "logistics", "training"]
+    source: { url: "https://kyivindependent.com/nasams-downs-11-russian-cruise-missiles-in-less-than-2-minutes-air-force-says", title: "NASAMS downs 11 Russian cruise missiles in less than 2 minutes, Air Force says", publisher: "Kyiv Independent", date: "2025-04-27", retrieved: 2026-11-22 }
+  - summary: "The Ukrainian Air Force's head of communications said missile shortages leave launchers partly empty, giving NASAMS as the example, and that air defence still has to repel attacks with whatever is loaded."
+    quote: "For example, there is a NASAMS system, but instead of six missiles in the launcher, there are only two."
+    speaker: "Head of communications, Ukrainian Air Force (Ukraine)"
+    context: "Interview with RBC Ukraine after a winter of heavy Russian strikes, relayed February 2026"
+    sentiment: "negative"
+    topics: ["logistics"]
+    source: { url: "https://kyivindependent.com/sometimes-air-defenses-are-empty-but-attacks-must-be-repelled-ukraines-air-force-says-2", title: "'Instead of 6 missiles, there are only 2' — Ukraine's Air Force reveals dire air defense shortage", publisher: "Kyiv Independent", date: "2026-02-02", retrieved: 2026-11-22 }
+note: "Feedback comes from Ukrainian service only, via Air Force statements and Ukrainian media; the NASAMS configuration in Ukraine is not stated, and no first-hand reports from other operators were found."

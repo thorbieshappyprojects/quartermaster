@@ -1,0 +1,16 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "samp-t-ng"
+items:
+  - summary: "French air force air defence personnel say a MAMBA section can be run by about 20 operators, with the engagement module choosing which tracks to fire on under higher command. They stress that the system is not meant to shoot at every threat it could reach, and that vertical launch lets it engage from any direction."
+    speaker: "Ground-based air defence squadron leader and operators, French Air and Space Force (France)"
+    context: "Earlier SAMP/T (MAMBA), not the NG version. Interviews during Bastille Day rehearsals, paraphrased by Army Recognition, August 2026"
+    sentiment: "positive"
+    topics: ["training", "firepower", "cost"]
+    source: { url: "https://www.armyrecognition.com/news/defense-web-tv/frances-samp-t-mamba-at-the-core-of-layered-air-defence-against-missiles-and-drones", title: "France's SAMP/T MAMBA at the core of layered air defence against missiles and drones", publisher: "Army Recognition", date: "2026-08-11", retrieved: 2026-11-22 }
+  - summary: "The Ukrainian Air Force spokesman said the SAMP/T systems in Ukraine had not yet been used against ballistic missiles, and that whether they can intercept them depends on the system's specifications and radar performance."
+    speaker: "Spokesman, Ukrainian Air Force (Ukraine)"
+    context: "Earlier SAMP/T version in Ukrainian service; seen only as a search result summary of the article"
+    sentiment: "mixed"
+    topics: ["sensors"]
+    source: { url: "https://english.nv.ua/nation/ihnat-comments-on-samp-t-ability-to-intercept-missiles-50611278.html", title: "Air Force spokesman comments on whether SAMP/T can intercept ballistic missiles", publisher: "NV (New Voice of Ukraine)", date: "unknown", retrieved: 2026-11-22 }
+note: "No user feedback on the NG version exists yet (first deliveries to Italy in 2026); both items concern the earlier SAMP/T, and Danish or Italian NG operators have not been reported."

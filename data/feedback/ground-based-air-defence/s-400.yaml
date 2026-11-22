@@ -1,0 +1,11 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "s-400"
+items:
+  - summary: "India's air chief said Indian Air Force S-400 units shot down five Pakistani fighters and one large surveillance aircraft at about 300 km during the May 2025 conflict, and called it the longest surface-to-air kill on record. Pakistan disputes the claims and they have not been independently verified."
+    quote: "This is the largest-ever recorded surface-to-air kill that we can talk about."
+    speaker: "Chief of the Air Staff, Indian Air Force (India)"
+    context: "Public lecture in Bengaluru about Operation Sindoor, August 2025"
+    sentiment: "positive"
+    topics: ["firepower", "sensors"]
+    source: { url: "https://www.tribuneindia.com/news/india/downed-5-pak-jets-using-s-400s-large-spy-plane-shot-300-km-away-iaf-chief", title: "Downed 5 Pak jets using S-400s, large spy plane shot 300 km away: IAF Chief", publisher: "The Tribune", date: "2025-08-10", retrieved: 2026-11-22 }
+note: "Only one credible user statement found (Indian Air Force leadership, claims unverified); no Russian crew feedback from independent outlets was found, and Russian state-media accounts were left out."

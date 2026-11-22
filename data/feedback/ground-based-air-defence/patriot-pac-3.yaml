@@ -1,0 +1,31 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "patriot-pac-3"
+items:
+  - summary: "The Ukrainian operator credited with the first Kinzhal intercept over Kyiv says US simulator training prepared him for his first combat shift, but real engagements leave far less time to decide. He runs the engagement control station, has seconds to engage after an alert, and notes that very fast or very high targets can be out of reach."
+    quote: "In actual combat, you have far less time to decide and fire."
+    speaker: "Patriot engagement control station operator (Ukraine)"
+    context: "Hromadske interview about the May 2023 Kinzhal intercept and later combat duty, April 2025; missile variant used not stated"
+    sentiment: "mixed"
+    topics: ["training", "sensors"]
+    source: { url: "https://hromadske.ua/en/viyskovi/242195-10-seconds-to-destroy-a-missile-conversation-with-it-specialist-who-downed-very-first-russian-kinzhal-missile-over-kyiv", title: "10 seconds to destroy a missile: conversation with IT specialist who downed very first Russian Kinzhal missile over Kyiv", publisher: "Hromadske", date: "2025-04-17", retrieved: 2026-11-22 }
+  - summary: "A Ukrainian Patriot battalion commander says his unit has destroyed nearly 250 targets, more than 140 of them ballistic missiles. He says experience with Soviet-era systems let his crews learn the Patriot in about three to four weeks, and that Russian claims of destroying the unit have repeatedly been wrong."
+    quote: "To date, we have destroyed nearly 250 targets using the Patriot system, more than 140 of which were ballistic missiles."
+    speaker: "Patriot battalion commander (Ukraine)"
+    context: "Ukrainian Air Force statement, January 2026; figures are the unit's own claims"
+    sentiment: "positive"
+    topics: ["firepower", "training"]
+    source: { url: "https://united24media.com/latest-news/just-one-american-patriot-system-has-already-taken-down-140-russian-ballistic-missiles-15392", title: "Just one American Patriot system has already taken down 140 Russian ballistic missiles", publisher: "United24 Media", date: "2026-01-28", retrieved: 2026-11-22 }
+  - summary: "Ukrainian Patriot commanders describe moving away from the tactics taught in the US: firing one interceptor per ballistic missile instead of two or more, setting batteries to manual to avoid wasting missiles on cheap drones, and relocating after firing. One commander says rationing makes every decision weigh heavily."
+    quote: "Emotionally, at the beginning, it was not easy because you realize the cost of every decision and every action."
+    speaker: "Patriot unit commanders (Ukraine)"
+    context: "New York Times report on Ukraine's adapted air defence, republished by the Boston Globe, July 2026"
+    sentiment: "mixed"
+    topics: ["logistics", "training"]
+    source: { url: "https://www.bostonglobe.com/2026/07/06/world/ukraine-remade-air-defense-russia-has-changed-its-attacks/", title: "Ukraine remade its air defense. Russia has changed its attacks.", publisher: "The Boston Globe (from The New York Times)", date: "2026-07-06", retrieved: 2026-11-22 }
+  - summary: "An internal Bundeswehr report on Ukrainian experience with German-donated equipment says users rate the Patriot as excellent but poorly suited to wartime deployment, because of ageing carrier trucks and spare parts that are no longer available."
+    speaker: "Ukrainian users, as summarised in an internal Bundeswehr lecture report (Germany)"
+    context: "German-donated Patriot batteries; Der Spiegel report on a January 2025 Bundeswehr lecture, relayed by Euromaidan Press, April 2025"
+    sentiment: "mixed"
+    topics: ["maintenance", "mobility"]
+    source: { url: "https://euromaidanpress.com/2025/04/12/gepard-flak-tank-praised-as-most-reliable-german-weapon-in-ukraine/", title: "Gepard flak tank praised as most reliable German weapon in Ukraine", publisher: "Euromaidan Press", date: "2025-04-12", retrieved: 2026-11-22 }
+note: "Good Ukrainian user coverage of the Patriot system, though reports rarely say whether PAC-3 MSE or older missiles were fired; claims of kill totals are unverified, and no first-hand reports from other operators were found."

@@ -1,0 +1,38 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "gepard"
+items:
+  - summary: "A Gepard crew commander from Ukraine's 1021st Anti-Aircraft Artillery Regiment ranks the gun above every other anti-drone weapon he knows. His crews have needed as few as two or three rounds per drone, and 11 rounds for their first kill at about 3 km; he credits crew experience and training as much as the vehicle."
+    quote: "This is a very powerful, mobile, and highly effective weapon"
+    speaker: "Gepard crew commander, 1021st Anti-Aircraft Artillery Regiment (Ukraine)"
+    context: "Army TV report on Gepard crews defending against Shahed drones, relayed by Espreso, March 2025"
+    sentiment: "positive"
+    topics: ["firepower", "mobility", "training"]
+    source: { url: "https://global.espreso.tv/russia-ukraine-war-how-many-shots-does-it-take-for-gepard-to-down-shahed-and-what-is-best-weapon-against-drones", title: "How many shots does it take for Gepard to down Shahed and what is best weapon against drones", publisher: "Espreso Global", date: "2025-03-03", retrieved: 2026-11-22 }
+  - summary: "A Ukrainian Gepard crew shot down 17 attack drones in a single night over the Khmelnytskyi region. Its commander describes drones arriving in waves with only seconds between targets, leaving time just to report each kill over the radio."
+    quote: "I only had time to report over the radio: 'Target destroyed.'"
+    speaker: "Gepard crew commander, junior sergeant (Ukraine)"
+    context: "Large Russian drone strike on Khmelnytskyi region, reported by Ukraine's Western Air Command, June 2026"
+    sentiment: "positive"
+    topics: ["firepower"]
+    source: { url: "https://united24media.com/war-in-ukraine/russian-drones-came-one-after-another-ukraines-gepard-crew-shot-down-17-19881", title: "Russian drones came one after another: Ukraine's Gepard crew shot down 17", publisher: "United24 Media", date: "2026-06-16", retrieved: 2026-11-22 }
+  - summary: "A Gepard crew member said the 1970s design still works very well, and his crew had downed four drones and two missiles at the time of the visit. The crew commander's main request to allies was more ammunition."
+    quote: "The German equipment works, and works very well, except for the fact that it is 1973."
+    speaker: "Gepard crew member and crew commander (Ukraine)"
+    context: "Global News visit to a Gepard crew in Ukraine, June 2023"
+    sentiment: "mixed"
+    topics: ["reliability", "logistics"]
+    source: { url: "https://globalnews.ca/news/9777749/ukraine-gepard-anti-aircraft-tank", title: "How Ukraine's 'dragon' is fanning calls for more air defence systems", publisher: "Global News", date: "2023-06-19", retrieved: 2026-11-22 }
+  - summary: "An internal Bundeswehr report on how Ukrainian troops rate German equipment singled out the Gepard as the most successful German system, while several other donated systems drew complaints about spare parts and maintenance."
+    quote: "the most popular, effective, and reliable"
+    speaker: "Ukrainian users, as summarised in an internal Bundeswehr lecture report (Germany)"
+    context: "Der Spiegel report on a January 2025 Bundeswehr lecture, relayed by the Kyiv Independent, April 2025"
+    sentiment: "positive"
+    topics: ["reliability"]
+    source: { url: "https://kyivindependent.com/ukrainian-troops-face-issues-with-german-weapons-spiegel-reports/", title: "Ukrainian troops face issues with German weapons, Spiegel reports", publisher: "Kyiv Independent", date: "2025-04-11", retrieved: 2026-11-22 }
+  - summary: "Ukrainian Gepard operators explained in a video interview that the crew receives target tracks from the wider air defence network, moves to intercept, and often needs only a few bursts per Shahed; they also change firing positions several times a day."
+    speaker: "Gepard gunner (Ukraine)"
+    context: "Video interview with Ukrainian operators, paraphrased by Defense Express, September 2023"
+    sentiment: "positive"
+    topics: ["firepower", "sensors"]
+    source: { url: "https://en.defence-ua.com/news/how_gepard_spaag_takes_down_shahed_drones_and_why_its_so_effective_in_doing_so_ukrainian_operators_explain-8093.html", title: "How Gepard SPAAG Takes Down Shahed Drones and Why It's So Effective in Doing So, Ukrainian Operators Explain", publisher: "Defense Express", date: "2023-09-29", retrieved: 2026-11-22 }
+note: "Good first-hand coverage from Ukrainian crews (mostly via Ukrainian military media and defence outlets), almost all of it about drone defence; little user comment on maintenance beyond the Bundeswehr report."
