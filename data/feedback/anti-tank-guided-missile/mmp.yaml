@@ -1,0 +1,11 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "mmp"
+items:
+  - summary: "A French Army sergeant whose team used the MMP on its first combat deployment in Mali said the firing post doubles as a strong day and night observation sight, with a fusion mode that picks out people hidden behind bushes or trees. He added that switching the missile between anti-personnel and infrastructure modes takes only a menu selection."
+    quote: "The MMP is an exceptional weapon system for day and night observation."
+    speaker: "French Army sergeant, MMP team leader, Picardie battle group (France)"
+    context: "First operational deployment of the MMP during Operation Barkhane, Three Borders region of Mali, December 2018; the team had trained at the infantry school in Draguignan"
+    sentiment: "positive"
+    topics: ["sensors", "ergonomics"]
+    source: { url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2019/barkhane-first-operational-deployment-of-the-new-medium-range-missile", title: "Barkhane: first operational deployment of the new Medium Range Missile", publisher: "Army Recognition", date: "2019-01-16", retrieved: "2026-11-22" }
+note: "Only one first-hand user account found (French troops in Mali, 2018); delivery of MMP to Ukraine is contested in reporting and I found no Ukrainian, Belgian or Swedish user accounts."

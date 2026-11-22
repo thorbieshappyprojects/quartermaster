@@ -1,0 +1,18 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "scaneagle"
+items:
+  - summary: "The chief of staff of the I Marine Expeditionary Force said ScanEagle's day and night cameras, able to tell whether individuals carried weapons, gave Marines a real advantage in the Fallujah offensive. Marine officials added that the small, hard-to-see aircraft flew low and only one was lost to enemy fire in weeks of surveillance."
+    quote: "This was a true advantage for us during the operation"
+    speaker: "Chief of staff, I Marine Expeditionary Force (United States)"
+    context: "Operation Al Fajr, Fallujah, Iraq, late 2004; early ScanEagle flown with contractor support; American Forces Press Service report, January 2005"
+    sentiment: "positive"
+    topics: ["sensors", "protection"]
+    source: { url: "https://www.dvidshub.net/news/printable/536281", title: "ScanEagle Proves Worth in Fallujah Fight", publisher: "DVIDS (American Forces Press Service)", date: "2005-01-11", retrieved: "2026-11-22" }
+  - summary: "A US Navy ScanEagle mission commander and forward ground operator in Afghanistan said the job involves far more than flying the aircraft, and that the hardest part was communications and support from rear echelons. He urged industry to listen to the people operating the system in the field."
+    quote: "I think the biggest challenge we face is communications and support from the rear."
+    speaker: "US Navy ScanEagle mission commander (United States)"
+    context: "Deployment at Camp Bastion, Afghanistan; SIGNAL Magazine (AFCEA), July 2011; earlier ScanEagle configuration"
+    sentiment: "mixed"
+    topics: ["logistics", "training"]
+    source: { url: "https://www.afcea.org/signal-media/international/military-elite-fly-high-afghanistan", title: "Military Elite Fly High in Afghanistan", publisher: "SIGNAL Magazine (AFCEA)", date: "2011-07-01", retrieved: "2026-11-22" }
+note: "Both items are older US accounts (Iraq 2004, Afghanistan 2011) on earlier ScanEagle configurations; the web search limit was reached before Ukrainian, Australian or other operators' reporting could be checked."
