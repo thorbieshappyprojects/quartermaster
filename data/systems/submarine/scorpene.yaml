@@ -1,0 +1,49 @@
+id: scorpene
+category: submarine
+name: "Scorpène"
+variant_note: "Specs from the builder's Scorpène Evolved datasheet; boats in service (CM-2000, Kalvari, Riachuelo) differ in length and displacement"
+family: "Scorpène"
+aliases: ["Kalvari class", "Riachuelo class", "Scorpène Evolved"]
+manufacturer: { name: "Naval Group" }
+production_sites:
+  - { place: "PT PAL shipyard (Indonesia)", country: ID, source: s1 }
+origin: FR
+role: "Export conventional diesel-electric submarine for anti-submarine and anti-surface warfare, intelligence gathering and special operations."
+memorable_fact: { text: "The Scorpène Evolved ordered by Indonesia runs entirely on lithium-ion batteries instead of lead-acid cells.", source: s1 }
+status: in_production
+in_service_since: { value: null, source: null, confidence: null, note: "No primary source found for the first commissioning (Chile)." }
+units_built:
+  value: 14
+  source: s1
+  confidence: medium
+  note: "Export boats in service or under construction before the Indonesian order: Chile 2, Malaysia 2, India 6, Brazil 4. Brazil's last boat was not yet commissioned, so commissioned boats are fewer than 14."
+specs:
+  displacement_submerged:
+    value: null
+    source: null
+    confidence: null
+    note: "Naval Group gives only a surfaced displacement of 1,600-2,000 t for the Scorpène Evolved."
+  length:
+    value: 72
+    source: s1
+    confidence: high
+    note: "Scorpène Evolved; earlier export boats are shorter."
+  max_speed_submerged:
+    value: 20
+    source: s1
+    confidence: high
+    note: "Builder states '>20 knots'."
+  torpedo_tubes: { value: 6, source: s1, confidence: high, note: "18 weapons carried." }
+  crew: { value: 31, source: s1, confidence: high }
+operators:
+  - { country: CL, force: "Chilean Navy", state: in_service, quantity: 2, source: s1 }
+  - { country: MY, force: "Royal Malaysian Navy", state: in_service, quantity: 2, source: s1 }
+  - { country: IN, force: "Indian Navy", state: in_service, quantity: 6, source: s1, note: "Kalvari class." }
+  - { country: BR, force: "Brazilian Navy", state: in_service, quantity: 4, source: s1, note: "Riachuelo class (S-BR, lengthened); four boats in service or under construction." }
+  - { country: ID, force: "Indonesian Navy", state: ordered, quantity: 2, source: s1, note: "Scorpène Evolved Full LiB, to be built locally by PT PAL." }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "Contract values not disclosed by the builder; no primary source found." }
+contracts:
+  - { customer: "Indonesia", year: 2024, quantity: 2, value: null, currency: null, note: "Two Scorpène Evolved Full LiB built in Indonesia with technology transfer; value not disclosed.", source: s1 }
+peers: [type-212a, project-636-3]
+sources:
+  - { id: s1, url: "https://www.naval-group.com/en/naval-group-and-pt-pal-have-signed-contract-indonesia-2-locally-built-scorpener-evolved-full-lib", title: "Naval Group and PT PAL have signed a contract with Indonesia for 2 locally built Scorpène Evolved Full LiB", publisher: "Naval Group", retrieved: 2026-11-22, kind: manufacturer }

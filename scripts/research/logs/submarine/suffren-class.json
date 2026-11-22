@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Naval Group Suffren class Barracuda SSN specifications displacement 5,300 tonnes length 99 m crew 65 torpedo tubes",
+    "Suffren class \"four\" 533 mm torpedo tubes speed knots French Navy Duguay-Trouin Tourville De Grasse delivered 2026",
+    "programme Barracuda coût total milliards euros six sous-marins Suffren coût unitaire Cour des comptes",
+    "Barracuda Suffren programme cost \"billion\" euros per submarine"
+  ],
+  "urlsSeen": [
+    "https://www.naval-group.com/en/actualites/naval-group-delivers-suffren-french-defence-procurement-agency-dga",
+    "https://armyrecognition.com/news/navy-news/2026/french-navy-receives-de-grasse-barracuda-nuclear-attack-submarine-for-asw-and-strike-missions",
+    "https://thedefensepost.com/2026/10/20/france-barracuda-submarine-3/amp/",
+    "https://www.defensenews.com/global/europe/2019/07/12/france-launches-first-barracuda-class-nuclear-attack-sub/",
+    "https://www.overtdefense.com/2022/06/06/next-generation-french-nuclear-attack-submarine-suffren-enters-service",
+    "https://seaforces.org/marint/French-Navy/Submarine/Barracuda-Suffren-class.htm"
+  ]
+}

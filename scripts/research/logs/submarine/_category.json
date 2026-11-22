@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "CRS RL32418 roles missions SSN (fetched)",
+    "RUSI Yasen-M future Russian submarine forces (fetched)",
+    "SBU underwater drone Project 636.3 Novorossiysk (fetched)"
+  ],
+  "urlsSeen": [
+    "https://www.everycrsreport.com/files/2025-03-28_RL32418_ec330071d7f47f6b98abf0539ae8f60fa9dff09c.html",
+    "https://www.rusi.org/explore-our-research/publications/rusi-defence-systems/yasen-m-and-future-russian-submarine-forces",
+    "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a",
+    "https://www.gov.uk/government/publications/uk-royal-navy-submarines/types-of-uk-royal-navy-submarine",
+    "https://euromaidanpress.com/2025/12/15/for-first-time-ukraines-advanced-underwater-drones-sink-400-million-russian-submarine-that-terrorized-ukrainian-cities/",
+    "https://tass.com/defense/1465805",
+    "https://www.defensenews.com/global/europe/2019/07/12/france-launches-first-barracuda-class-nuclear-attack-sub/",
+    "https://www.naval-group.com/en/naval-group-and-pt-pal-have-signed-contract-indonesia-2-locally-built-scorpener-evolved-full-lib"
+  ]
+}

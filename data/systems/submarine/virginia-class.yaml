@@ -1,0 +1,61 @@
+id: virginia-class
+category: submarine
+name: "Virginia class (SSN-774)"
+variant_note: "Specs for the baseline boat without the Virginia Payload Module (Blocks I-IV); VPM boats are 140.5 m and about 10,200 tons"
+family: "Virginia class"
+aliases: ["SSN-774 class"]
+manufacturer: { name: "General Dynamics Electric Boat and HII Newport News Shipbuilding" }
+production_sites:
+  - { place: "Groton, Connecticut", country: US, source: s1 }
+  - { place: "Quonset Point, Rhode Island", country: US, source: s1 }
+  - { place: "Newport News, Virginia", country: US, source: s1 }
+origin: US
+role: "Nuclear-powered attack submarine for anti-submarine and anti-surface warfare, covert surveillance, special forces support and land attack with Tomahawk missiles."
+memorable_fact: { text: "Later boats get the Virginia Payload Module, an extra 84-foot hull section with four large tubes for up to 28 more Tomahawk missiles.", source: s1 }
+status: in_production
+in_service_since:
+  value: 2004
+  source: s1
+  confidence: high
+  note: "First boat of the class entered service in October 2004."
+units_built:
+  value: 26
+  source: s3
+  confidence: high
+  note: "Boats commissioned: USS Idaho (SSN 799), commissioned 25 April 2026, is the 26th Virginia-class submarine. 40 boats had been procured through FY2024 (s1)."
+specs:
+  displacement_submerged:
+    value: 7925
+    source: s1
+    confidence: high
+    note: "About 7,800 (long) tons submerged, about 7,925 metric tonnes; boats with the Virginia Payload Module displace about 10,200 tons."
+  length:
+    value: 114.9
+    source: s1
+    confidence: high
+    note: "377 ft baseline; VPM boats are 461 ft (140.5 m)."
+  max_speed_submerged:
+    value: 25
+    source: s2
+    confidence: medium
+    note: "Officially given as '25+ knots'; the exact maximum is not published."
+  torpedo_tubes: { value: 4, source: s1, confidence: high, note: "Four 21-inch tubes; plus vertical launch tubes for Tomahawk missiles." }
+  crew: { value: 132, source: s2, confidence: high, note: "15 officers and 117 enlisted." }
+operators:
+  - { country: US, force: "US Navy", state: in_service, quantity: 26, source: s3 }
+  - { country: AU, force: "Royal Australian Navy", state: ordered, quantity: 3, source: s1, note: "Planned AUKUS sale of three boats (option for two more); first transfers planned from FY2032." }
+cost:
+  value: 4500000000
+  currency: USD
+  price_year: 2025
+  basis: unit_price
+  source: s1
+  confidence: medium
+  note: "CRS estimate of about USD 4.5 billion per boat for VPM-equipped boats procured at two per year. The single FY2025 boat was requested at USD 5,759.5 million, of which about USD 1 billion is for materials for future boats."
+contracts:
+  - { customer: "United States (US Navy)", year: 2024, quantity: 2, value: 9400000000, currency: USD, note: "FY2024 procurement of two boats: USD 9.4 billion appropriated, with a further USD 1.95 billion in cost growth reported.", source: s1 }
+peers: [astute-class, suffren-class, yasen-m]
+sources:
+  - { id: s1, url: "https://www.everycrsreport.com/files/2025-03-28_RL32418_ec330071d7f47f6b98abf0539ae8f60fa9dff09c.html", title: "Navy Virginia-Class Submarine Program and AUKUS Submarine (Pillar 1) Project: Background and Issues for Congress (RL32418)", publisher: "Congressional Research Service (via EveryCRSReport)", retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://asa.gov.au/sites/default/files/documents/2024-10/SSNVirginiaClass-Factsheet.pdf", title: "SSN Virginia Class Factsheet", publisher: "Australian Submarine Agency", retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.navalnews.com/naval-news/2026/04/u-s-navy-commissions-26th-virginia-class-submarine-uss-idaho-ssn-799/", title: "U.S. Navy Commissions 26th Virginia-class Submarine - USS Idaho (SSN 799)", publisher: "Naval News", retrieved: 2026-11-22, kind: press }

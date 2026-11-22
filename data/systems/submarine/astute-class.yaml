@@ -1,0 +1,56 @@
+id: astute-class
+category: submarine
+name: "Astute class"
+family: "Astute class"
+manufacturer: { name: "BAE Systems" }
+production_sites:
+  - { place: "Barrow-in-Furness", country: GB, source: s5 }
+origin: GB
+role: "Nuclear-powered attack submarine for anti-submarine and anti-surface warfare, intelligence gathering, protection of the nuclear deterrent and land attack with Tomahawk missiles."
+memorable_fact: { text: "Astute was the first Royal Navy submarine to use high-definition video instead of a traditional optical periscope.", source: s1 }
+status: in_production
+in_service_since:
+  value: 2010
+  source: s2
+  confidence: high
+  note: "Lead boat HMS Astute was commissioned on 27 August 2010."
+units_built:
+  value: 5
+  source: s1
+  confidence: high
+  range: { min: 5, max: 6 }
+  note: "Boats in service: Astute, Ambush, Artful, Audacious and Anson. The sixth boat, Agamemnon, began sea trials in September 2026 with delivery targeted for the end of 2026 (s5); the seventh, Achilles, is under construction. Seven boats planned."
+specs:
+  displacement_submerged:
+    value: 7400
+    source: s1
+    confidence: high
+    note: "UK government gives 7,400 tonnes without saying surfaced or submerged; the 2010 commissioning release describes it as 7,400 tonnes of seawater (s2)."
+  length: { value: 97, source: s1, confidence: high }
+  max_speed_submerged:
+    value: null
+    source: null
+    confidence: null
+    note: "Top speed is classified; the MOD states only 'in excess of 20 knots' (s2)."
+  torpedo_tubes: { value: 6, source: s4, confidence: high, note: "Six 21-inch tubes with room for up to 38 Spearfish torpedoes and Tomahawk missiles." }
+  crew: { value: 98, source: s3, confidence: high }
+operators:
+  - { country: GB, force: "Royal Navy", state: in_service, quantity: 5, source: s1 }
+cost:
+  value: 1400000000
+  currency: GBP
+  price_year: 2017
+  basis: contract_per_unit
+  source: s6
+  confidence: medium
+  note: "April 2017 contract of GBP 1.4 billion with BAE Systems for the sixth boat, Agamemnon. Earlier boats' long-lead items were funded separately, so the full cost per boat may be higher."
+contracts:
+  - { customer: "United Kingdom (Royal Navy)", year: 2017, quantity: 1, value: 1400000000, currency: GBP, note: "Contract for boat 6, Agamemnon.", source: s6 }
+peers: [virginia-class, suffren-class, yasen-m]
+sources:
+  - { id: s1, url: "https://www.gov.uk/government/publications/uk-royal-navy-submarines/types-of-uk-royal-navy-submarine", title: "Types of UK Royal Navy submarine", publisher: "UK Government (Ministry of Defence)", retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://www.gov.uk/government/news/uks-most-powerful-submarine-joins-the-navy", title: "UK's most powerful submarine joins the Navy", publisher: "UK Ministry of Defence", retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.baesystems.com/en/product/astute-class-submarines", title: "Astute class submarines", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.royalnavy.mod.uk/organisation/units-and-squadrons/astute-class/hms-audacious", title: "HMS Audacious", publisher: "Royal Navy", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.navalnews.com/naval-news/2026/09/hms-agamemnon-departs-barrow-sea-trials/", title: "Royal Navy's 6th Astute-Class SSN HMS Agamemnon Begins Sea Trials", publisher: "Naval News", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://gov.uk/government/news/14-billion-deal-for-royal-navys-new-attack-submarine", title: "£1.4 billion deal for Royal Navy's new attack submarine", publisher: "UK Ministry of Defence", retrieved: 2026-11-22, kind: government }

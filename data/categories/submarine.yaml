@@ -1,0 +1,99 @@
+# Category card researched 2026-11-22 in a Claude Code session (web search).
+id: submarine
+name: Submarines
+domain: Naval
+wave: 3
+indicators:
+  - { id: displacement_submerged, label: Displacement (submerged), unit: t, trump: higher_wins }
+  - { id: length, label: Length, unit: m, trump: higher_wins, decimals: 1 }
+  - { id: max_speed_submerged, label: Max. speed (submerged), unit: kn, trump: higher_wins }
+  - { id: torpedo_tubes, label: Torpedo tubes, unit: "", trump: higher_wins }
+  - { id: crew, label: Crew, unit: "", trump: lower_wins, description: Fewer crew means more automation; a playful convention. }
+category_card:
+  summary: "Submarines are warships that operate submerged, relying on concealment rather than armour for survival. Nuclear-powered attack submarines (SSNs) can stay submerged for months, while conventional diesel-electric boats (SSKs), some with air-independent propulsion, are smaller, cheaper and mostly used closer to home waters."
+  purpose:
+    - text: "US congressional analysts describe attack submarines as general-purpose boats used for covert intelligence, surveillance and reconnaissance and for anti-submarine warfare, valued for their ability to evade an opponent's anti-access/area-denial forces."
+      source: s1
+    - text: "Attack submarines also protect high-value forces: the French Navy plans to use its new SSNs to escort its ballistic-missile submarines and to protect its aircraft carrier."
+      source: s7
+    - text: "Submarines are increasingly long-range strike platforms. Russian Black Sea Fleet diesel-electric boats armed with Kalibr cruise missiles took part in operations in Syria and in the war against Ukraine."
+      source: s6
+  strengths:
+    - text: "Stealth: US analysts credit the acoustic superiority of US nuclear-powered submarines with a large asymmetric advantage, because a submarine that cannot be found is hard to counter."
+      source: s1
+    - text: "Nuclear-powered boats can circumnavigate the globe submerged and make their own oxygen and drinking water, so endurance is limited mainly by food."
+      source: s4
+    - text: "Fuel-cell air-independent propulsion lets conventional boats such as the German Type 212A stay submerged far longer than purely diesel-electric boats, with very low magnetic and acoustic signatures."
+      source: s3
+  weaknesses:
+    - text: "Submarines are expensive and slow to build: a US Virginia-class boat with the payload module costs about USD 4.5 billion, and US production has been held to about 1.2 boats per year since 2022 instead of the planned two."
+      source: s1
+    - text: "Maintenance backlogs reduce availability: the number of US SSNs waiting for or in maintenance rose from 11 in FY2012 to 16, substantially cutting the number ready at any moment."
+      source: s1
+    - text: "Long-range strike from submarines depends on outside targeting data. RUSI judges that Russia lacks the satellite and patrol-aircraft 'system of systems' needed to complete the kill chain consistently."
+      source: s2
+  counters:
+    - text: "Anti-submarine barriers at choke points (such as the gap between Greenland, Iceland and the UK) are a classic counter, but RUSI notes that long-range missiles fired from the High North reduce their value and push the problem to forward positions."
+      source: s2
+    - text: "Boats are vulnerable in port: Ukraine's SBU said in December 2025 that underwater drones had hit a Russian Project 636.3 submarine at Novorossiysk (claim not independently confirmed)."
+      source: s5
+    - text: "Heavyweight torpedoes from other submarines are the main threat underwater; Russia's Yasen-M carries six 324 mm launchers that fire decoys to divert incoming torpedoes."
+      source: s2
+  trends:
+    - text: "Nuclear-powered submarines are spreading to new operators: under AUKUS the United States plans to sell Australia three to five Virginia-class boats."
+      source: s1
+    - text: "Attack submarines carry more missiles: the US Virginia Payload Module adds an 84-foot mid-body section with four large-diameter launch tubes for up to 28 more Tomahawk missiles."
+      source: s1
+    - text: "Russian attack submarines are shifting from hunter-killer roles towards long-range strike with cruise missiles, including the hypersonic Zircon."
+      source: s2
+    - text: "Conventional submarines are moving to lithium-ion batteries; Naval Group's Scorpène Evolved ordered by Indonesia in 2024 uses a full lithium-ion battery configuration."
+      source: s8
+sources:
+  - id: s1
+    url: https://www.everycrsreport.com/files/2025-03-28_RL32418_ec330071d7f47f6b98abf0539ae8f60fa9dff09c.html
+    title: "Navy Virginia-Class Submarine Program and AUKUS Submarine (Pillar 1) Project: Background and Issues for Congress (RL32418, March 2025)"
+    publisher: Congressional Research Service (via EveryCRSReport)
+    retrieved: 2026-11-22
+    kind: government
+  - id: s2
+    url: https://www.rusi.org/explore-our-research/publications/rusi-defence-systems/yasen-m-and-future-russian-submarine-forces
+    title: The Yasen-M and the Future of Russian Submarine Forces
+    publisher: Royal United Services Institute (RUSI)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s3
+    url: https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a
+    title: U-Boot Klasse 212 A
+    publisher: Bundeswehr
+    retrieved: 2026-11-22
+    kind: government
+  - id: s4
+    url: https://www.gov.uk/government/publications/uk-royal-navy-submarines/types-of-uk-royal-navy-submarine
+    title: Types of UK Royal Navy submarine
+    publisher: UK Government (Ministry of Defence)
+    retrieved: 2026-11-22
+    kind: government
+  - id: s5
+    url: https://euromaidanpress.com/2025/12/15/for-first-time-ukraines-advanced-underwater-drones-sink-400-million-russian-submarine-that-terrorized-ukrainian-cities/
+    title: "For first time, Ukraine's advanced underwater drones sink $400 million Russian submarine"
+    publisher: Euromaidan Press
+    retrieved: 2026-11-22
+    kind: press
+  - id: s6
+    url: https://tass.com/defense/1465805
+    title: Shipbuilders to build a series of Project 636.3 submarines for Russia's Northern Fleet
+    publisher: TASS
+    retrieved: 2026-11-22
+    kind: press
+  - id: s7
+    url: https://www.defensenews.com/global/europe/2019/07/12/france-launches-first-barracuda-class-nuclear-attack-sub/
+    title: France launches first Barracuda-class nuclear attack sub
+    publisher: Defense News
+    retrieved: 2026-11-22
+    kind: press
+  - id: s8
+    url: https://www.naval-group.com/en/naval-group-and-pt-pal-have-signed-contract-indonesia-2-locally-built-scorpener-evolved-full-lib
+    title: Naval Group and PT PAL have signed a contract with Indonesia for 2 locally built Scorpène Evolved Full LiB
+    publisher: Naval Group
+    retrieved: 2026-11-22
+    kind: manufacturer

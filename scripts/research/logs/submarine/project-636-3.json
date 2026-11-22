@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "(search budget exhausted; direct fetches only)"
+  ],
+  "urlsSeen": [
+    "https://en.wikipedia.org/wiki/Kilo-class_submarine",
+    "https://www.kommersant.ru/doc/7797057",
+    "https://tass.com/defense/1465805",
+    "https://euromaidanpress.com/2025/12/15/for-first-time-ukraines-advanced-underwater-drones-sink-400-million-russian-submarine-that-terrorized-ukrainian-cities/"
+  ]
+}

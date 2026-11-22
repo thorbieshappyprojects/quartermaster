@@ -1,0 +1,57 @@
+id: suffren-class
+category: submarine
+name: "Suffren class"
+family: "Barracuda"
+aliases: ["Barracuda class"]
+manufacturer: { name: "Naval Group" }
+production_sites:
+  - { place: "Cherbourg", country: FR, source: s4 }
+  - { place: "Nantes-Indret", country: FR, source: s1 }
+origin: FR
+role: "Nuclear-powered attack submarine for anti-submarine and anti-surface warfare, escort of strategic submarines and the carrier group, special forces and land attack with cruise missiles."
+memorable_fact: { text: "With its naval cruise missiles the Suffren class gives the French Navy a submarine-launched deep-strike capability for the first time.", source: s1 }
+status: in_production
+in_service_since:
+  value: 2022
+  source: s5
+  confidence: medium
+  note: "Lead boat Suffren was delivered in November 2020 (s1) and entered active service in June 2022."
+units_built:
+  value: 4
+  source: s2
+  confidence: high
+  note: "Boats delivered to the French Navy: Suffren, Duguay-Trouin, Tourville and De Grasse (delivered June 2026); whether De Grasse has been formally commissioned was not confirmed. Six boats planned; the fifth, Rubis, was rolled out in October 2026 (s3)."
+specs:
+  displacement_submerged:
+    value: 5200
+    source: s1
+    confidence: high
+    range: { min: 5200, max: 5300 }
+    note: "Naval Group: about 4,600 t surfaced and 5,200 t submerged. Some reference sites give 5,300 t submerged."
+  length: { value: 99, source: s1, confidence: high }
+  max_speed_submerged:
+    value: 25
+    source: s3
+    confidence: medium
+    note: "Trade press figure; the builder does not publish a maximum speed."
+  torpedo_tubes: { value: 4, source: s2, confidence: medium, note: "Four 533 mm tubes for F21 torpedoes, SM39 Exocet and MdCN cruise missiles; up to 24 weapons." }
+  crew: { value: 65, source: s1, confidence: high, note: "65 crew plus special forces." }
+operators:
+  - { country: FR, force: "French Navy (Marine nationale)", state: in_service, quantity: 4, source: s2 }
+cost:
+  value: 1516666667
+  currency: EUR
+  price_year: 2019
+  basis: contract_per_unit
+  source: s4
+  confidence: medium
+  note: "Programme cost of EUR 9.1 billion for six boats excluding maintenance, as reported in July 2019, divided by six. The fixed-price contract covers all acquisition costs."
+contracts:
+  - { customer: "France (DGA)", year: null, quantity: 6, value: 9100000000, currency: EUR, note: "Whole Barracuda programme as reported in 2019, excluding maintenance.", source: s4 }
+peers: [virginia-class, astute-class, yasen-m]
+sources:
+  - { id: s1, url: "https://www.naval-group.com/en/actualites/naval-group-delivers-suffren-french-defence-procurement-agency-dga", title: "Naval Group delivers the Suffren to the French Defence Procurement Agency (DGA)", publisher: "Naval Group", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://armyrecognition.com/news/navy-news/2026/french-navy-receives-de-grasse-barracuda-nuclear-attack-submarine-for-asw-and-strike-missions", title: "French Navy receives De Grasse Barracuda nuclear attack submarine for ASW and strike missions", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://thedefensepost.com/2026/10/20/france-barracuda-submarine-3/amp/", title: "France rolls out fifth Barracuda-class submarine Rubis", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.defensenews.com/global/europe/2019/07/12/france-launches-first-barracuda-class-nuclear-attack-sub/", title: "France launches first Barracuda-class nuclear attack sub", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.overtdefense.com/2022/06/06/next-generation-french-nuclear-attack-submarine-suffren-enters-service", title: "Next-Generation French Nuclear Attack Submarine Suffren Enters Service", publisher: "Overt Defense", retrieved: 2026-11-22, kind: press }

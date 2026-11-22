@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "(search budget exhausted; direct fetches only)"
+  ],
+  "urlsSeen": [
+    "https://www.naval-group.com/en/naval-group-and-pt-pal-have-signed-contract-indonesia-2-locally-built-scorpener-evolved-full-lib",
+    "https://www.naval-group.com/en/submarines",
+    "https://en.wikipedia.org/wiki/Scorpène-class_submarine",
+    "https://en.wikipedia.org/wiki/Kalvari-class_submarine_(2015)"
+  ]
+}

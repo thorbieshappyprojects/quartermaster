@@ -1,0 +1,40 @@
+id: project-636-3
+category: submarine
+name: "Project 636.3 Varshavyanka"
+family: "Kilo"
+aliases: ["Improved Kilo", "Improved Kilo II", "Varshavyanka"]
+manufacturer: { name: "Admiralty Shipyards (United Shipbuilding Corporation)" }
+production_sites:
+  - { place: "Saint Petersburg", country: RU, source: s2 }
+origin: RU
+role: "Conventional diesel-electric submarine for anti-submarine and anti-surface warfare and land attack with Kalibr cruise missiles launched from its torpedo tubes."
+memorable_fact: { text: "It can fire Kalibr-PL cruise missiles from its torpedo tubes while submerged.", source: s1 }
+status: in_service
+in_service_since: { value: null, source: null, confidence: null, note: "First Russian Navy boat (Black Sea Fleet) entered service in the mid-2010s; no primary source with the exact date found." }
+units_built:
+  value: 12
+  source: s2
+  confidence: medium
+  note: "Boats commissioned into the Russian Navy: six for the Black Sea Fleet (s1) and six for the Pacific Fleet, the last of which, Yakutsk, was handed over on 11 June 2025. Excludes export Project 636 variants."
+combat_use:
+  text: "Black Sea Fleet boats took part in Russian operations in Syria and have been used in the war against Ukraine since 2022."
+  source: s1
+specs:
+  displacement_submerged:
+    value: 3900
+    source: s1
+    confidence: medium
+    range: { min: 3900, max: 3950 }
+    note: "TASS: 'over 3,900 tonnes'; a reference work gives 3,950 t (s3)."
+  length: { value: 74, source: s1, confidence: medium, note: "Reference works give 73.8 m (s3)." }
+  max_speed_submerged: { value: 20, source: s3, confidence: low, note: "Reference-work figure; no official figure found." }
+  torpedo_tubes: { value: 6, source: s3, confidence: low, note: "Six 533 mm tubes, also used for Kalibr missiles." }
+  crew: { value: 52, source: s3, confidence: low }
+operators:
+  - { country: RU, force: "Russian Navy", state: in_service, quantity: 12, source: s2, note: "Black Sea and Pacific Fleets; several Black Sea boats have been reported damaged in Ukrainian strikes." }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public contract or unit price found for the Russian Navy boats." }
+peers: [scorpene, type-212a]
+sources:
+  - { id: s1, url: "https://tass.com/defense/1465805", title: "Shipbuilders to build a series of Project 636.3 submarines for Russia's Northern Fleet", publisher: "TASS", retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.kommersant.ru/doc/7797057", title: "На Адмиралтейских верфях состоялась церемония передачи ВМФ подлодки «Якутск»", publisher: "Kommersant", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://en.wikipedia.org/wiki/Kilo-class_submarine", title: "Kilo-class submarine", publisher: "Wikipedia", retrieved: 2026-11-22, kind: other }

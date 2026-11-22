@@ -1,0 +1,53 @@
+id: type-212a
+category: submarine
+name: "Type 212A"
+variant_note: "German batch values; second-batch boats are slightly longer"
+family: "Type 212"
+aliases: ["U-Boot Klasse 212 A", "Todaro class"]
+manufacturer: { name: "thyssenkrupp Marine Systems (HDW) with Fincantieri" }
+production_sites:
+  - { place: "Kiel", country: DE, source: s3 }
+  - { place: "Emden", country: DE, source: s3 }
+  - { place: "Muggiano (La Spezia)", country: IT, source: s3 }
+origin: DE
+role: "Conventional submarine with fuel-cell air-independent propulsion for anti-submarine and anti-surface warfare, reconnaissance and inserting combat divers."
+memorable_fact: { text: "The boats run on hydrogen and oxygen fuel cells whose only waste product is pure water.", source: s1 }
+status: in_service
+in_service_since:
+  value: 2005
+  source: s1
+  confidence: high
+  note: "First German boats U 31 and U 32 were commissioned on 19 October 2005."
+units_built:
+  value: 10
+  source: s3
+  confidence: high
+  note: "Boats commissioned: six for the German Navy (U 31 to U 36, 2005-2016, s1) and four Todaro-class boats for the Italian Navy built by Fincantieri. The follow-on Type 212CD is a separate design."
+specs:
+  displacement_submerged: { value: 1830, source: s1, confidence: high, note: "1,450 t surfaced." }
+  length:
+    value: 56.0
+    source: s1
+    confidence: high
+    note: "German first batch; second-batch boats are given as 57.2 m (s2)."
+  max_speed_submerged:
+    value: 20
+    source: s2
+    confidence: low
+    note: "Reference-site figure; the Bundeswehr does not publish a top speed."
+  torpedo_tubes: { value: 6, source: s1, confidence: high, note: "Six tubes for the DM2A4 heavyweight torpedo." }
+  crew:
+    value: 28
+    source: s1
+    confidence: high
+    range: { min: 27, max: 28 }
+    note: "Bundeswehr: 28; a reference site gives 27 including 5 officers (s2)."
+operators:
+  - { country: DE, force: "German Navy (Deutsche Marine)", state: in_service, quantity: 6, source: s1 }
+  - { country: IT, force: "Italian Navy (Marina Militare)", state: in_service, quantity: 4, source: s3, note: "Todaro class." }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public per-boat price found." }
+peers: [scorpene, project-636-3]
+sources:
+  - { id: s1, url: "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a", title: "U-Boot Klasse 212 A", publisher: "Bundeswehr", retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://seaforces.org/marint/German-Navy/Submarine/Type-212A-class.htm", title: "Type 212A class submarine - German Navy", publisher: "Seaforces Online", retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://www.twz.com/a-deep-dive-into-germanys-submarine-force", title: "A Deep Dive Into Germany's Submarine Force", publisher: "The War Zone (TWZ)", retrieved: 2026-11-22, kind: press }

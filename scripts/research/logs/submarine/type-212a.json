@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Type 212A submarine Bundeswehr U-Boot Klasse 212A Länge Verdrängung Besatzung Torpedorohre Geschwindigkeit"
+  ],
+  "urlsSeen": [
+    "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a",
+    "https://seaforces.org/marint/German-Navy/Submarine/Type-212A-class.htm",
+    "https://www.twz.com/a-deep-dive-into-germanys-submarine-force",
+    "https://www.tkmsgroup.com/en/hdw-class-212a.html",
+    "https://www.forsvaret.no/aktuelt-og-presse/presse/pressemeldinger/havnebesok-i-oslo-understreker-det-viktige-tysk-norske-samarbeidet/factsheet_212A_submarine_engl.pdf"
+  ]
+}

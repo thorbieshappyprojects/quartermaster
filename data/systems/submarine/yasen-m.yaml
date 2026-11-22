@@ -1,0 +1,62 @@
+id: yasen-m
+category: submarine
+name: "Yasen-M (Project 885M)"
+family: "Yasen"
+aliases: ["Project 885M", "Severodvinsk class"]
+manufacturer: { name: "Sevmash (United Shipbuilding Corporation)" }
+production_sites:
+  - { place: "Severodvinsk", country: RU, source: s1 }
+origin: RU
+role: "Nuclear-powered cruise-missile attack submarine for anti-submarine and anti-surface warfare and long-range strike against sea and land targets."
+memorable_fact: { text: "Each of its vertical launch cells holds either five Kalibr or four Oniks cruise missiles.", source: s3 }
+status: in_production
+in_service_since:
+  value: 2021
+  source: s5
+  confidence: low
+  note: "Lead Yasen-M boat Kazan was commissioned in May 2021 (reference work; primary MoD/TASS notices are cited there)."
+units_built:
+  value: 4
+  source: s1
+  confidence: medium
+  note: "Yasen-M boats commissioned: Kazan plus three serial boats (Novosibirsk, Krasnoyarsk, Arkhangelsk; Arkhangelsk in December 2024). Perm was expected to enter service in late 2026 (s2). Excludes the original Project 885 boat Severodvinsk."
+specs:
+  displacement_submerged:
+    value: 13800
+    source: s5
+    confidence: low
+    note: "Reference-work figure for the class; no official figure found."
+  length: { value: 130, source: s2, confidence: medium, note: "About 9 m shorter than the original Project 885 boat (s3)." }
+  max_speed_submerged:
+    value: 35
+    source: s2
+    confidence: low
+    range: { min: 30, max: 35 }
+    note: "Trade press gives 35 knots; reference works give 30-35 knots. No official figure."
+  torpedo_tubes:
+    value: 10
+    source: s3
+    confidence: medium
+    range: { min: 8, max: 10 }
+    note: "RUSI: ten 533 mm tubes; some reference works give eight."
+  crew: { value: 64, source: s2, confidence: medium }
+operators:
+  - { country: RU, force: "Russian Navy", state: in_service, quantity: 4, source: s1 }
+cost:
+  value: 41000000000
+  currency: RUB
+  price_year: 2011
+  basis: contract_per_unit
+  source: s4
+  confidence: medium
+  note: "November 2011 contract with United Shipbuilding Corporation for four Yasen-M boats: RUB 164 billion, about RUB 41 billion each. The lead boat Kazan was contracted separately for RUB 47 billion."
+contracts:
+  - { customer: "Russia (Ministry of Defence)", year: 2011, quantity: 4, value: 164000000000, currency: RUB, note: "Four serial Project 885M boats.", source: s4 }
+  - { customer: "Russia (Ministry of Defence)", year: 2011, quantity: 1, value: 47000000000, currency: RUB, note: "Lead boat Kazan, contract with Sevmash.", source: s4 }
+peers: [virginia-class, astute-class, suffren-class]
+sources:
+  - { id: s1, url: "https://tass.com/defense/1894379", title: "Project 885M latest nuclear-powered submarine Arkhangelsk joins Russian Navy", publisher: "TASS", retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.bairdmaritime.com/security/naval/naval-submersibles/russian-navys-newest-cruise-missile-submarine-floated-out", title: "Russian Navy's newest cruise missile submarine floated out", publisher: "Baird Maritime", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.rusi.org/explore-our-research/publications/rusi-defence-systems/yasen-m-and-future-russian-submarine-forces", title: "The Yasen-M and the Future of Russian Submarine Forces", publisher: "Royal United Services Institute (RUSI)", retrieved: 2026-11-22, kind: reference }
+  - { id: s4, url: "https://www.kommersant.ru/doc/1812512", title: "На что потратят 280 миллиардов", publisher: "Kommersant", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://en.wikipedia.org/wiki/Yasen-class_submarine", title: "Yasen-class submarine", publisher: "Wikipedia", retrieved: 2026-11-22, kind: other }

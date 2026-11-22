@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "(search budget exhausted; direct fetches only)"
+  ],
+  "urlsSeen": [
+    "https://en.wikipedia.org/wiki/Yasen-class_submarine",
+    "https://tass.com/defense/1894379",
+    "https://www.bairdmaritime.com/security/naval/naval-submersibles/russian-navys-newest-cruise-missile-submarine-floated-out",
+    "https://www.rusi.org/explore-our-research/publications/rusi-defence-systems/yasen-m-and-future-russian-submarine-forces",
+    "https://www.kommersant.ru/doc/1812512"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Astute class submarine Royal Navy displacement 7,400 tonnes length 97 metres crew torpedo tubes Barrow",
+    "HMS Agamemnon Astute commissioned 2025 sixth boat sea trials 2026",
+    "Astute class \"six\" torpedo tubes \"38 weapons\" speed knots Royal Navy Spearfish Tomahawk",
+    "Astute class submarine cost per boat £ billion boat 7 contract BAE Systems Agincourt Achilles £1.4 billion"
+  ],
+  "urlsSeen": [
+    "https://www.gov.uk/government/publications/uk-royal-navy-submarines/types-of-uk-royal-navy-submarine",
+    "https://www.baesystems.com/en/product/astute-class-submarines",
+    "https://www.royalnavy.mod.uk/equipment/submarine/astute-class",
+    "https://www.royalnavy.mod.uk/organisation/units-and-squadrons/astute-class/hms-audacious",
+    "https://www.gov.uk/government/news/uks-most-powerful-submarine-joins-the-navy",
+    "https://gov.uk/government/news/14-billion-deal-for-royal-navys-new-attack-submarine",
+    "https://www.navalnews.com/naval-news/2026/09/hms-agamemnon-departs-barrow-sea-trials/",
+    "https://www.seaforces.org/marint/Royal-Navy/Submarine/Astute-class.htm"
+  ]
+}

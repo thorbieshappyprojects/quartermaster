@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Virginia class submarine fact file navy.mil displacement length crew speed",
+    "\"Virginia class\" \"General Characteristics\" \"Displacement\" \"Crew\" \"Speed: 25+ knots\" attack submarine fact file",
+    "Virginia class SSN factsheet \"4 torpedo tubes\" \"7,800 tons\" crew 132 Australian Submarine Agency",
+    "CRS Virginia class submarine procurement cost per boat FY2025 billion two boats \"Electric Boat\" \"Newport News\" commissioned",
+    "Virginia-class submarine commissioned 2026 USS Idaho SSN-799 commissioning",
+    "\"27th Virginia-class\" submarine commissioned"
+  ],
+  "urlsSeen": [
+    "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169558/attack-submarines-ssn/",
+    "https://asa.gov.au/sites/default/files/documents/2024-10/SSNVirginiaClass-Factsheet.pdf",
+    "https://submarinesuppliers.org/programs/ssn-ssgn/virginia-class/",
+    "https://www.congress.gov/crs_external_products/RL/PDF/RL32418/RL32418.295.pdf",
+    "https://www.everycrsreport.com/files/2025-03-28_RL32418_ec330071d7f47f6b98abf0539ae8f60fa9dff09c.html",
+    "https://www.navalnews.com/naval-news/2026/04/u-s-navy-commissions-26th-virginia-class-submarine-uss-idaho-ssn-799/",
+    "https://www.navy.mil/Press-Office/News-Stories/display-news/Article/4471041/navy-commissions-submarine-uss-idaho/"
+  ]
+}
