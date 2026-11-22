@@ -1,0 +1,49 @@
+id: m777
+category: tube-artillery
+name: M777A2
+variant_note: "M777 with Digital Fire Control System and Excalibur-capable software (A2 standard)"
+family: "M777 / LW155"
+aliases: ["LW155", "Lightweight 155mm Howitzer", "Ultralightweight Field Howitzer (UFH)", "M777 ULH", "Triple Seven"]
+manufacturer: { name: "BAE Systems" }
+production_sites:
+  - { place: "Hattiesburg, Mississippi", country: US, source: s3 }
+  - { place: "Sheffield", country: GB, source: s8 }
+origin: GB
+role: "Air-portable 155 mm/39-calibre towed howitzer that fires direct, reinforcing and general support missions for light, Stryker and Marine forces."
+memorable_fact: { text: "Heavy use of titanium made the M777 about 3,175 kg lighter than the M198 howitzer it replaced.", source: s2 }
+status: in_service
+in_service_since: { value: 2005, source: s4, confidence: medium, note: "Base M777: the program office reports initial operational capability in December 2005. The M777A2 upgrade received full material release in July 2007 (s2)." }
+units_built: { value: 1200, source: s1, confidence: medium, range: { min: 1200, max: 1250 }, note: "Whole M777 family. BAE says total orders exceed 1,200, so this counts orders, not confirmed deliveries. Army Technology (s2) describes a fleet of more than 1,250." }
+combat_use: { text: "Used by Canada in Afghanistan from 2006 and by US forces in Afghanistan from 2007 and Iraq from 2008. Used by Ukraine since April 2022 after deliveries from the US, Canada and Australia.", source: s2 }
+specs:
+  calibre: { value: 155, source: s1, confidence: high }
+  barrel_length: { value: 39, source: s1, confidence: high }
+  max_range_standard: { value: 24.7, source: s2, confidence: medium, range: { min: 24.1, max: 24.7 }, note: "Unassisted projectile. The USMC program office (s4) gives 15 miles (about 24.1 km). The 24.7 km figure is the more precise one." }
+  max_range_extended: { value: 40, source: s2, confidence: medium, range: { min: 30, max: 40 }, note: "40 km with the M982 Excalibur guided extended-range projectile. Rocket-assisted projectiles reach 30 km (s2), given by the program office as 19 miles (s4)." }
+  rate_of_fire: { value: 4, source: s4, confidence: medium, range: { min: 4, max: 5 }, note: "Government (USMC PEO Land Systems) figure shown: 4 rounds/min maximum, 2 rounds/min sustained. Army Technology (s2) gives up to 5 rounds/min under intense firing conditions." }
+  into_action_time: { value: 180, source: s4, confidence: medium, range: { min: 60, max: 180 }, note: "The program office gives emplacement and displacement times as both under three minutes (180 s used as the upper bound). A 2005 press report (s9) says under one minute with the digital fire control system." }
+  combat_weight: { value: 4.2, source: s3, confidence: medium, range: { min: 3.745, max: 4.2 }, note: "Reported as less than 4,200 kg. Army Technology (s2) gives a production weight of 3,745 kg. Original figures are in kg." }
+  crew: { value: 8, source: s2, confidence: medium, range: { min: 5, max: 8 }, note: "Normally operated by 8, but can fire with a reduced detachment of 5 (s2). Army Recognition cites a crew of 5." }
+operators:
+  - { country: US, force: Army, state: in_service, quantity: null, source: s3 }
+  - { country: US, force: Marine Corps, state: in_service, quantity: null, source: s3 }
+  - { country: CA, force: Army, state: in_service, quantity: null, source: s2 }
+  - { country: AU, force: Army, state: in_service, quantity: null, source: s2 }
+  - { country: IN, force: Army, state: in_service, quantity: 145, source: s6 }
+  - { country: UA, force: Armed Forces, state: in_service, quantity: null, source: s7 }
+cost: { value: 3740000, currency: USD, price_year: 2017, basis: contract_per_unit, source: s5, confidence: medium, note: "US DoD contract with BAE Systems for 145 M777s for India under Foreign Military Sales: USD 542 million / 145 = about USD 3.74 million per gun. The government-to-government agreement was USD 737 million (s6), about USD 5.08 million per gun including FMS-related items." }
+contracts:
+  - { customer: "United States (Army/Marine Corps)", year: 2005, quantity: 495, value: null, currency: null, note: "Full-rate production contract awarded April 2005.", source: s2 }
+  - { customer: "India (Army)", year: 2016, quantity: 145, value: 737000000, currency: USD, note: "Foreign Military Sales agreement signed 30 Nov 2016. BAE planned to supply 25 guns directly and assemble 120 with Mahindra in India. The related DoD contract with BAE was USD 542 million.", source: s6 }
+  - { customer: "United States (Army)", year: 2025, quantity: null, value: 162000000, currency: USD, note: "Contract for major titanium structures to restart M777 production. It followed a USD 50 million undefinitised contract action from Dec 2023/Jan 2024. Deliveries are due from 2026.", source: s8 }
+peers: [caesar-mkii, m109a6-paladin, archer]
+sources:
+  - { id: s1, url: "https://www.baesystems.com/en-us/product/m777", title: "M777 Lightweight Towed 155mm Howitzer", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.army-technology.com/projects/ufh/", title: "M777 155mm Ultralightweight Field Howitzer, US", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.globalsecurity.org/military/systems/ground/lw155a2.htm", title: "M777A2 155mm towed howitzer", publisher: "GlobalSecurity.org", retrieved: 2026-11-22, kind: reference }
+  - { id: s4, url: "https://www.defensemedianetwork.com/stories/lightweight-155-mm-howitzer-2/", title: "Lightweight 155mm Howitzer (USMC PEO Land Systems Programs 2011-2012)", publisher: "Defense Media Network", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.baesystems.com/en-uk/article/bae-systems-receives--542-million-contract-for-india-m777-howitzers", title: "BAE Systems receives $542 million contract for India M777 Howitzers", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s6, url: "https://www.defensenews.com/breaking-news/2016/11/30/india-signs-737m-ultralight-howitzer-contract/", title: "India Signs $737M Ultralight Howitzer Contract", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://asc.army.mil/web/news-its-all-in-the-deliv-ery/", title: "IT'S ALL IN THE DELIV-ERY", publisher: "U.S. Army Acquisition Support Center (USAASC)", retrieved: 2026-11-22, kind: government }
+  - { id: s8, url: "https://thedefensepost.com/2025/04/17/us-army-m777-howitzer/", title: "US Army Revives M777 Howitzer Production With $162M BAE Contract", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://newatlas.com/the-cannon-of-the-21st-century-the-howitzer-m777/4903/", title: "The cannon of the 21st century - the Howitzer M777", publisher: "New Atlas", retrieved: 2026-11-22, kind: press }

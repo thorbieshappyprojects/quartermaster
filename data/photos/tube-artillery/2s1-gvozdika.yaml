@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: 2s1-gvozdika
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:2S1_Gvozdika,_AHM,_2024-04-28,_Left_full.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/2S1_Gvozdika%2C_AHM%2C_2024-04-28%2C_Left_full.jpg/1280px-2S1_Gvozdika%2C_AHM%2C_2024-04-28%2C_Left_full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: 2S1 Gvozdika, AHM, 2024-04-28, Left full.jpg
+    caption: Left side view of a 2S1 Gvozdika on display at the American Heritage Museum, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Joshbaumgartner
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Ukr_2s1_gvozdika_training.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Ukr_2s1_gvozdika_training.jpg/1280px-Ukr_2s1_gvozdika_training.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Ukr 2s1 gvozdika training.jpg
+    caption: Ukrainian 2S1 Gvozdika during training with Operational Command West.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Operational Command West
+    credit: https://www.facebook.com/operationalcommandwest/photos
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:2S1_Gvozdika.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/2S1_Gvozdika.jpg/1280px-2S1_Gvozdika.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: 2S1 Gvozdika.jpg
+    caption: 2S1 Gvozdika 122 mm self-propelled howitzer at the Artillery Museum in Saint Petersburg, 2007.
+    shows: exact_variant
+    licence: Public domain
+    author: One half 3544
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "Serbian photos (#11, #12) show a modernized variant, so they were not picked. Interior and detail shots were skipped in favour of whole-vehicle views."

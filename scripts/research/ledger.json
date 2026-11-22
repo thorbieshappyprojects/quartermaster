@@ -1,5 +1,5 @@
 {
-  "spentUsd": 81.2225,
+  "spentUsd": 83.7718,
   "entries": [
     {
       "date": "2026-11-21",
@@ -1559,6 +1559,54 @@
       "usd": 0.0172,
       "input": 3278,
       "output": 202,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/m777",
+      "usd": 0.7957,
+      "input": 489542,
+      "output": 13348,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/2s1-gvozdika",
+      "usd": 0.7234,
+      "input": 382429,
+      "output": 15687,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "tube-artillery/m109a6-paladin",
+      "usd": 0.9712,
+      "input": 663842,
+      "output": 18931,
+      "searches": 17
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/2s1-gvozdika",
+      "usd": 0.0135,
+      "input": 2179,
+      "output": 241,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/m109a6-paladin",
+      "usd": 0.0219,
+      "input": 3909,
+      "output": 313,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/m777",
+      "usd": 0.0236,
+      "input": 4425,
+      "output": 296,
       "searches": 0
     }
   ]

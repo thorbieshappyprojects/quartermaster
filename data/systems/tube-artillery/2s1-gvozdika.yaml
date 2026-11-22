@@ -1,0 +1,76 @@
+id: 2s1-gvozdika
+category: tube-artillery
+name: 2S1 Gvozdika
+variant_note: Baseline Soviet-production 2S1 with 122 mm 2A31 howitzer
+family: 2S1 Gvozdika
+aliases: [M1974, SAU-122, SP-74, PSH 74]
+manufacturer: { name: Kharkiv Tractor Plant (KhTZ) }
+production_sites:
+  - { place: Kharkiv, country: UA, source: s5 }
+  - { place: Stalowa Wola, country: PL, source: s5 }
+origin: SU  # Soviet Union (ISO 3166-1 transitionally reserved code); developed in Kharkiv, then Ukrainian SSR
+role: Amphibious tracked 122 mm self-propelled howitzer providing indirect and direct fire support to motorised rifle and tank units.
+memorable_fact: { text: "The 2S1 was the first serially produced amphibious tracked self-propelled howitzer; in water it is propelled by its tracks.", source: s3 }
+status: in_service
+in_service_since:
+  value: 1971
+  source: s3
+  confidence: medium
+  range: { min: 1971, max: 1974 }
+  note: "Year of first service of the base system. Army Recognition and the Ukrainian defence university page (s4) give 1971; US threat data (s1) gives 1974 as date of introduction, the year it was first seen in public. Production ended in 1991."
+units_built:
+  value: 10000
+  source: s3
+  confidence: low
+  note: "Whole 2S1 family, including licence production in Poland and Bulgaria. Sources say 'over 10,000', so this is a lower bound (also stated by s5)."
+combat_use:
+  text: "Used extensively by Russian forces in the Russo-Ukrainian War; Ukrainian forces have reported destroying Russian 2S1s with drone-directed strikes as recently as October 2026."
+  source: s12
+specs:
+  calibre: { value: 122, source: s1, confidence: medium }
+  barrel_length: { value: 36, source: s1, confidence: medium, note: "2A31 howitzer, derived from the towed D-30; same figure in s2." }
+  max_range_standard:
+    value: 15.3
+    source: s1
+    confidence: medium
+    range: { min: 15.2, max: 15.3 }
+    note: "Original figure 15,300 m with Frag-HE (s1, s2, s5). Army Recognition (s3) and Ukrainian defence university page (s4) give 15.2 km; US-government-derived threat data figure displayed."
+  max_range_extended: { value: 21.9, source: s1, confidence: medium, note: "Original figure 21,900 m with 122 mm rocket-assisted Frag-HE (3OF-56); same in s3 and s5." }
+  rate_of_fire: { value: 5, source: s1, confidence: medium, note: "Burst rate; normal 4 rpm, sustained 1-2 rpm (s1). Analysis citing the technical manual gives 4-5 rpm maximum aimed direct fire (s6)." }
+  into_action_time: { value: 120, source: s1, confidence: medium, note: "Original figure: emplacement time 2 min; displacement time 1 min (s1, s2)." }
+  combat_weight:
+    value: 15.7
+    source: s1
+    confidence: medium
+    range: { min: 15.7, max: 16 }
+    note: "15.7 t in s1, s2, s4 and s5; 16 t cited in some secondary references (s10)."
+  crew: { value: 4, source: s1, confidence: medium, note: "Vehicle crew of 4; full section of 6 includes 2 in the ammunition carrier (s1)." }
+operators:
+  - { country: RU, force: "Ground Forces", state: in_service, quantity: 130, source: s10, note: "As of 2024, attributed to IISS Military Balance 2024; about 1,800 more estimated in storage; additional vehicles with other formations not quantified." }
+  - { country: RU, force: "Naval Infantry", state: in_service, quantity: 85, source: s10, note: "As of 2024, attributed to IISS Military Balance 2024." }
+  - { country: UA, force: "Ground Forces, Marines and Air Assault Forces", state: in_service, quantity: 125, source: s10, note: "'125+' as of 2024 (IISS via Wikipedia); has received further vehicles from Poland, Denmark and other donors (s3, s7)." }
+  - { country: PL, force: "Army", state: in_service, quantity: 206, source: s10, note: "As of 2024, attributed to IISS Military Balance 2024." }
+  - { country: DZ, force: "Army", state: in_service, quantity: 140, source: s10, note: "As of 2024, attributed to IISS Military Balance 2024." }
+  - { country: BY, force: "Army", state: in_service, quantity: 125, source: s10, note: "As of 2024, attributed to IISS Military Balance 2024." }
+  - { country: FI, force: "Army", state: in_service, quantity: 74, source: s8, note: "74 ex-East German vehicles bought in the early 1990s (s8); IISS 2024 via s10 also lists 74; trade press reports possible transfers to Ukraine." }
+  - { country: AZ, force: "Army", state: in_service, quantity: 68, source: s10, note: "As of 2024, attributed to IISS Military Balance 2024." }
+  - { country: RS, force: "Army", state: in_service, quantity: 67, source: s10, note: "As of 2024, attributed to IISS Military Balance 2024." }
+  - { country: BG, force: "Army", state: in_service, quantity: 48, source: s10, note: "As of 2024, attributed to IISS Military Balance 2024." }
+  - { country: CZ, force: "Army", state: retired, quantity: null, source: s11, note: "Former Czech Army vehicles of Polish production were overhauled by Excalibur Army for export to Ukraine." }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public unit price or per-unit contract value found." }
+contracts:
+  - { customer: Ukraine, year: 2023, quantity: 22, value: null, currency: null, note: "Polish sale of 22 2S1s to Ukraine, as reported to the UN Register of Conventional Arms; value not disclosed.", source: s7 }
+  - { customer: Ukraine, year: 2025, quantity: null, value: null, currency: null, note: "Danish Ministry of Defence added 2S1 to its donation list in January 2025; quantity and origin not disclosed.", source: s3 }
+peers: [2s19m2-msta-s, m109a6-paladin, as90]
+sources:
+  - { id: s1, url: "https://man.fas.org/dod-101/sys/land/row/2s1.htm", title: "2S1 M-1974 122-mm Self-Propelled Howitzer", publisher: Federation of American Scientists, retrieved: 2026-11-22, kind: reference }
+  - { id: s2, url: "https://www.globalsecurity.org/military/world/russia/2s1-specs.htm", title: "2S1 M-1974 122-mm Self-Propelled Howitzer", publisher: GlobalSecurity.org, retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/exclusive-denmark-strengthens-ukraines-artillery-with-a-discreet-delivery-of-2s1-gvozdika-self-propelled-howitzers", title: "Exclusive: Denmark strengthens Ukraine's artillery with a discreet delivery of 2S1 Gvozdika self-propelled howitzers", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://nuou.org.ua/en/122-2s1-gvozdika.html", title: "122 mm self-propelled howitzer Gvozdika", publisher: National Defence University of Ukraine, retrieved: 2026-11-22, kind: reference }
+  - { id: s5, url: "https://weaponsystems.net/system/725-2S1+Gvozdika", title: "2S1 Gvozdika", publisher: WeaponSystems.net, retrieved: 2026-11-22, kind: reference }
+  - { id: s6, url: "https://thesovietarmourblog.blogspot.com/2019/09/2s1-gvozdika.html", title: "Tankograd: 2S1 Gvozdika", publisher: Tankograd (The Soviet Armour Blog), retrieved: 2026-11-22, kind: other }
+  - { id: s7, url: "https://en.defence-ua.com/weapon_and_tech/2s1_gvozdika_in_polish_camo_spotted_in_service_with_ukrainian_forces_it_seems_soviet_artillery_is_still_easier_to_find_on_sale-11828.html", title: "2S1 Gvozdika in Polish Camo Spotted in Service With Ukrainian Forces: It Seems Soviet Artillery is Still Easier to Find on Sale", publisher: Defense Express, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://en.defence-ua.com/news/ukraine_receives_2s1_gvozdika_self_propelled_howitzers_in_mysterious_camouflage_potentially_supplied_by_finland-11672.html", title: "Ukraine Receives 2S1 Gvozdika Self-Propelled Howitzers in Mysterious Camouflage, Potentially Supplied by Finland", publisher: Defense Express, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://en.wikipedia.org/wiki/2S1_Gvozdika", title: "2S1 Gvozdika", publisher: Wikipedia, retrieved: 2026-11-22, kind: reference }
+  - { id: s11, url: "https://defence-blog.com/ukraine-receive-122-mm-2s1-self-propelled-howitzers-poland/", title: "Ukraine to receive 122 mm 2S1 self-propelled howitzers from Poland", publisher: Defence Blog, retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://en.defence-ua.com/news/russian_2s1_gvozdika_howitzer_destroyed_after_ukrainian_drone_spots_firing_position_video-19995.html", title: "russian 2S1 Gvozdika Howitzer Destroyed after Ukrainian Drone Spots Firing Position (Video)", publisher: Defense Express, retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,34 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: m777
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Marines_Shooting_the_M777_Howitzer_130421-M-TP573-020.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Marines_Shooting_the_M777_Howitzer_130421-M-TP573-020.jpg/1280px-Marines_Shooting_the_M777_Howitzer_130421-M-TP573-020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Marines Shooting the M777 Howitzer 130421-M-TP573-020.jpg
+    caption: U.S. Marines of 3rd Battalion, 11th Marines load an M777A2 lightweight howitzer at Twentynine Palms, California, 2013.
+    shows: exact_variant
+    licence: Public domain
+    author: Lance Cpl. James Mast
+    credit: https://www.dvidshub.net/image/914967
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:MRF-D_Marines_fire_ADF_rounds_(8029381).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/MRF-D_Marines_fire_ADF_rounds_%288029381%29.jpg/1280px-MRF-D_Marines_fire_ADF_rounds_%288029381%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: MRF-D Marines fire ADF rounds (8029381).jpg
+    caption: Australian Army soldiers of 8/12 Regiment prepare to fire M777A2 howitzers at Mount Bundey Training Area, Australia, 2023.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Marine Corps photo by Cpl. Gabriel Antwiler
+    credit: This image was released by the United States Marine Corps with the ID 230904-M-RK059-1066 (next) . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:U_S_Marines_and_Australian_Army_soldiers_participate_in_dry-fire_drills_(7727149).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/U_S_Marines_and_Australian_Army_soldiers_participate_in_dry-fire_drills_%287727149%29.jpg/1280px-U_S_Marines_and_Australian_Army_soldiers_participate_in_dry-fire_drills_%287727149%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: U S Marines and Australian Army soldiers participate in dry-fire drills (7727149).jpg
+    caption: U.S. Marines conduct dry fire drills on an M777A2 howitzer at Robertson Barracks, Darwin, 2023.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Marines MRF-D by Lance Cpl. Brayden Daniel
+    credit: This image was released by the United States Marine Corps with the ID 230406-M-RA094-1158 (next) . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still
+    priority: A
+    retrieved: 2026-11-22
+note: "Picked the candidates whose descriptions explicitly name the M777A2 and that have high resolution. #17 also shows an M777A2 but is lower resolution. #11 is unrelated."
