@@ -1,0 +1,53 @@
+id: btr-80
+category: wheeled-armoured-vehicle
+name: BTR-80
+variant_note: "Base 8x8 APC (GAZ-5903) with BPU-1 turret (14.5 mm KPVT + 7.62 mm PKT); excludes BTR-80A/80S and BTR-82 derivatives"
+family: BTR-80
+aliases: [GAZ-5903]
+manufacturer: { name: "Arzamas Machine-Building Plant (AMZ), Military Industrial Company (VPK)" }
+production_sites:
+  - { place: Arzamas, country: RU, source: s6 }
+origin: RU
+role: "Amphibious 8x8 wheeled armoured personnel carrier that carries a motor rifle squad and gives it fire support with a turret-mounted heavy machine gun."
+memorable_fact: { text: "After experience in Afghanistan, the BTR-80's turret gun was given +60° elevation, compared with +30° on the BTR-60PB and BTR-70, so it could engage targets on mountainsides and high buildings.", source: s4 }
+status: in_service
+in_service_since: { value: 1984, source: s3, confidence: low, range: { min: 1984, max: 1986 }, note: "Year the base system entered service. Army Recognition says it entered Russian service in 1984, and FAS gives 1984 as the date of introduction. Lenta.ru (s6) dates the start of series production to 1984. WarHistory (s11) gives 1986 for introduction into Soviet service. 1984 is shown because two sources give it." }
+units_built: { value: 5192, source: s5, confidence: medium, note: "Base BTR-80 only, per Forecast International. The same report lists 1,166 BTR-80A and 1,739 BTR-82/82A built separately. Forecast International also reports that production of the original BTR-80 ended in 2007." }
+combat_use: { text: "First used in the Soviet–Afghan War. Later used in the Chechen wars, the 2008 South Ossetia war, the Iraqi insurgency and the war in Donbas, among other conflicts.", source: s11 }
+specs:
+  combat_weight: { value: 13.6, source: s1, confidence: high, note: "Army Technology (s2) gives 13,600 kg +3%." }
+  payload: { value: null, source: null, confidence: null }
+  seats: { value: 10, source: s2, confidence: medium, note: "3 crew (commander, driver, gunner) + 7 troops. The FAS specification table (s4) also totals 10, but splits it as 2 crew + 8 troops." }
+  engine_power: { value: 260, source: s2, confidence: medium, range: { min: 240, max: 260 }, note: "KamAZ-7403 V8 diesel, 260 hp. Army Recognition (s3) says some vehicles use the YaMZ-238M2 diesel, which develops 240 hp. 260 hp is shown because it is the original engine." }
+  top_speed: { value: 80, source: s2, confidence: medium, range: { min: 80, max: 90 }, note: "Most sources give 80 km/h on paved road (s2, s4 text, s3 text, s6). The FAS specification table gives 85 km/h and the Army Recognition data table gives 90 km/h. 80 km/h is shown because it is the most consistently reported figure." }
+  range: { value: 600, source: s2, confidence: medium, note: "Road range. Army Technology gives 200–500 km on unpaved roads, and Army Recognition (s3) gives 480 km cross-country." }
+operators:
+  - { country: RU, force: Ground Forces, state: in_service, quantity: null, source: s7 }
+  - { country: UA, force: Ground Forces, state: in_service, quantity: null, source: s2 }
+  - { country: HU, force: Hungarian Defence Forces, state: in_service, quantity: null, source: s8 }
+  - { country: BD, force: Army, state: in_service, quantity: null, source: s10 }
+  - { country: TR, force: Gendarmerie, state: in_service, quantity: null, source: s3 }
+  - { country: KZ, force: Army, state: in_service, quantity: null, source: s3 }
+  - { country: BY, force: Army, state: in_service, quantity: null, source: s3 }
+  - { country: TM, force: Army, state: in_service, quantity: null, source: s12 }
+  - { country: MK, force: Army, state: in_service, quantity: null, source: s3 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No reliable public per-unit price for the base BTR-80 was found. Forum figures and prices for other variants (BTR-80A, BTR-80-UM) were not used." }
+contracts:
+  - { customer: "Hungary / Hungarian Defence Forces", year: 1996, quantity: 555, value: null, currency: null, note: "Delivered 1996–1999 as compensation for Russian state debt; no cash value given.", source: s8 }
+  - { customer: "Turkey / Gendarmerie", year: 1993, quantity: 174, value: null, currency: null, note: "SIPRI register lists 174 ex-Russian Army BTR-80s for the Gendarmerie, delivered 1993–95. A related USD 75m deal also covered 20 Mi-17 helicopters and 52 BTR-80s, so no per-unit price can be derived.", source: s9 }
+  - { customer: "Iraq / Ministry of Defence", year: 2005, quantity: 98, value: null, currency: null, note: "Contract with Bumar (Poland) for 98 reconditioned ex-Hungarian Army BTR-80s; first vehicles delivered September 2006.", source: s2 }
+  - { customer: "Russia / Army", year: 2006, quantity: 100, value: null, currency: null, note: "Russian Army order for 100 vehicles in 2006, as reported by Army Technology.", source: s2 }
+peers: [btr-82a, stryker, pandur-ii]
+sources:
+  - { id: s1, url: "https://www.roe.ru/en/production/land-forces/armored-combat-vehicles/bronetransporter-btr-80/", title: "BTR-80 Armoured Personnel Carrier", publisher: "Rosoboronexport", retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://www.army-technology.com/projects/btr80/", title: "BTR-80 Armoured Personnel Carrier: Russian 8x8 Specs", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.armyrecognition.com/military-products/army/armoured-personnel-carriers/wheeled-vehicles/btr-80-russia-uk", title: "BTR-80", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://man.fas.org/dod-101/sys/land/row/btr-80.htm", title: "BTR-80 Armored Personnel Carrier", publisher: "Federation of American Scientists", retrieved: 2026-11-22, kind: reference }
+  - { id: s5, url: "https://www.forecastinternational.com/archive/disp_pdf.cfm?DACH_RECNO=1566", title: "ARCHIVED REPORT BTR-80/BTR-82", publisher: "Forecast International", retrieved: 2026-11-22, kind: reference }
+  - { id: s6, url: "https://lenta.ru/news/2009/11/04/btr/", title: "Производство новых БТР в Арзамасе начнется в 2010 году", publisher: "Lenta.ru", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2020/russian-army-operates-over-20-000-btr-80-btr-82-apcs", title: "Russian army operates over 20,000 BTR-80, BTR-82 APCs", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/serbia-purchases-26-btr-80a-infantry-fighting-vehicles-from-hungary", title: "Serbia purchases 26 BTR-80A infantry fighting vehicles from Hungary", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.sipri.org/sites/default/files/files/books/SIPRI99Chu/SIPRI99ChuAp3.pdf", title: "Russia and Asia: The Emerging Security Agenda (Appendix: transfers of major conventional weapons by Russia to Asian countries, 1992–98)", publisher: "SIPRI", retrieved: 2026-11-22, kind: reference }
+  - { id: s10, url: "https://www.shephardmedia.com/news/landwarfareintl/bangladesh-receives-final-btr-80-apcs/", title: "Bangladesh receives final BTR-80 APCs", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://warhistory.org/article/btr-80", title: "BTR-80 - WarHistory.org", publisher: "WarHistory.org", retrieved: 2026-11-22, kind: other }
+  - { id: s12, url: "https://armyrecognition.com/news/army-news/2019/turkmenistan-upgrades-btr-80-apc", title: "Turkmenistan upgrades BTR-80 APC", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }

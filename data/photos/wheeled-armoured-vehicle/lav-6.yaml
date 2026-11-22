@@ -1,0 +1,15 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: lav-6
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:LAV-6_ISC.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/b/bb/LAV-6_ISC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: LAV-6 ISC.jpg
+    caption: LAV 6.0 Infantry Section Carrier of the Canadian Army, 2020.
+    shows: exact_variant
+    licence: CC0
+    licence_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    author: Owerlord18
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "Only #1 clearly shows the LAV 6 ISC; its description is inaccurate (it is a Canadian LAV III upgrade, not a US Army LAV), so the caption relies on the file title. #21 is a USMC LAV-25 from a related but distinct branch, so it was not used. #8 (VBL), #14, #15 and #17 do not clearly identify the system. The remaining files are unrelated."

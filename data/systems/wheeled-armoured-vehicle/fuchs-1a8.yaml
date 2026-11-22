@@ -1,0 +1,44 @@
+id: fuchs-1a8
+category: wheeled-armoured-vehicle
+name: "TPz Fuchs 1A8"
+variant_note: "Bundeswehr TPz 1 Fuchs upgraded to the mine/IED-protected 1A8 standard (APC, command, ambulance, EOD, NBC sub-variants)"
+family: "TPz Fuchs"
+aliases: ["Fuchs/Fox 1A8", "Transportpanzer 1 Fuchs A8", "TPz 1A8"]
+manufacturer: { name: "Rheinmetall" }
+production_sites:
+  - { place: "Kassel", country: DE, source: s4 }
+origin: DE
+role: "6x6 wheeled armoured transport vehicle used as a troop carrier and as a carrier for command, ambulance, EOD, electronic warfare and NBC reconnaissance equipment."
+memorable_fact: { text: "In the 1A8 upgrade all crew seats are blast-attenuating and are not attached to the vehicle floor, to reduce injuries from mine and IED blasts.", source: s5 }
+status: in_service
+in_service_since: { value: 2008, source: s4, confidence: medium, note: "Year of first service of the 1A8 upgrade: the first vehicle of a 21-vehicle urgent-requirement batch with improved mine/IED protection was presented in Kassel on 20 March 2008, with the rest due by June 2008. That source does not use the name 1A8. The base TPz Fuchs has been in Bundeswehr service since 1979 (s3)." }
+units_built: { value: 272, source: s3, confidence: high, note: "Rheinmetall says 272 Bundeswehr Fuchs vehicles were to be upgraded to the 1A8 standard by the end of 2020; these are conversions, not new builds. In 2021 five more NBC vehicles were ordered upgraded to 1A8A7 (s6). Rheinmetall gives over 1,400 units built for the whole Fuchs family (s3)." }
+combat_use: { text: "Rheinmetall says the Fuchs has played an important role in German international missions in Afghanistan and Mali. No public source found that details combat use specific to the 1A8.", source: s3 }
+specs:
+  combat_weight: { value: 23.5, source: s1, confidence: high, range: { min: 22.5, max: 23.5 }, note: "The Bundeswehr gives a combat weight of up to 23.5 t, and 23.5 t permissible gross weight for the 1A8A7 ABC (s2). Auto Bild reported a maximum of 22.5 t for the 1A8 in 2012 (s10). The government figure is displayed." }
+  payload: { value: 3, source: s1, confidence: medium, note: "3 t from the Bundeswehr general Fuchs page. The NBC reconnaissance version 1A8A7 ABC is listed with 1.35 t (s2)." }
+  seats: { value: 10, source: s1, confidence: medium, note: "The Bundeswehr general Fuchs page gives a crew of ten persons ('Zehn Personen Besatzung'); not stated specifically for the 1A8. Specialist variants carry fewer people (e.g. the NBC version has a four-person crew, s2)." }
+  engine_power: { value: 320, source: s1, confidence: high, note: "Originally given as 235 kW / 320 PS (metric hp)." }
+  top_speed: { value: 105, source: s1, confidence: high }
+  range: { value: 800, source: s1, confidence: medium, note: "'Fahrbereich 800 Kilometer' from the Bundeswehr general Fuchs page; not stated specifically for the 1A8." }
+operators:
+  - { country: DE, force: "Bundeswehr (Army, Joint Support Service, Cyber and Information Domain Service)", state: in_service, quantity: 272, source: s3 }
+  - { country: "NO", force: "Norwegian Armed Forces", state: in_service, quantity: null, source: s9 }
+cost: { value: 1110000, currency: EUR, price_year: 2017, basis: contract_per_unit, source: s5, confidence: medium, note: "Bundeswehr contract (reported January 2017) worth EUR 100 million to upgrade 90 more Fuchs to 1A8 (APC, command post, EOD, with an option for JFSCT vehicles), deliveries 2017-2020: EUR 100m / 90 is about EUR 1.11m per vehicle. This is the cost of upgrading an existing vehicle, not a new-build price. Price year is taken as 2017, when the award was reported." }
+contracts:
+  - { customer: "Germany / Bundeswehr", year: 2008, quantity: 21, value: null, currency: null, note: "Urgent operational requirement: 21 Fuchs fitted with improved mine/IED protection (the first 1A8-standard batch), delivered March-June 2008.", source: s4 }
+  - { customer: "Germany / Bundeswehr", year: 2013, quantity: 25, value: 47500000, currency: USD, note: "Contract to upgrade 25 German Army Fuchs to the 1A8 configuration (May 2013).", source: s7 }
+  - { customer: "Germany / Bundeswehr", year: 2013, quantity: 7, value: 37000000, currency: EUR, note: "Seven Fuchs 1A8-based vehicles configured for EOD / roadside-bomb detection (KAI system).", source: s8 }
+  - { customer: "Germany / Bundeswehr", year: 2017, quantity: 90, value: 100000000, currency: EUR, note: "90 more Fuchs upgraded to 1A8; deliveries 2017-2020 (award reported January 2017).", source: s5 }
+peers: [pandur-ii, btr-80, piranha-v]
+sources:
+  - { id: s1, url: "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/transportpanzer-fuchs", title: "Transportpanzer Fuchs", publisher: "Bundeswehr", retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/transportpanzer-fuchs-abc", title: "Ausrüstung und Technik: Der Transportpanzer Fuchs 1A8A7 ABC", publisher: "Bundeswehr", retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.rheinmetall.com/en/media/news-watch/news/2020/2020-04-28_fit-at-forty", title: "Fit at forty", publisher: "Rheinmetall", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "http://www.army-guide.com/eng/article/article_1003.html", title: "First Fuchs Transport Vehicle with Improved Mine and IED Protection Handed Over to the Troops", publisher: "Army Guide (via defense-aerospace.com)", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.defensemirror.com/news/18362/Rheinmetall_To_Deliver_Fuchs_1A8_Vehicles_To_Germany_In_2017", title: "Rheinmetall To Deliver Fuchs 1A8 Vehicles To Germany In 2017", publisher: "Defense Mirror", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.rheinmetall.com/en/media/news-watch/news/2021/2021-09-21_bundeswehr-awards-rheinmetall-contract-to-modernize-fuchs-fox-armoured-nbc-reconnaissance-vehicle", title: "Bundeswehr awards Rheinmetall contract to modernize Fuchs/Fox armoured NBC reconnaissance vehicle", publisher: "Rheinmetall", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s7, url: "https://www.forecastinternational.com/archive/disp_pdf.cfm?DACH_RECNO=1685", title: "TPz Fuchs/M93A1 Fox", publisher: "Forecast International", retrieved: 2026-11-22, kind: reference }
+  - { id: s8, url: "https://www.wire-tradefair.com/cgi-bin/md_wiretube/lib/pub/tt.cgi?oid=11752&lang=2&ticket=g_u_e_s_t", title: "Rheinmetall to supply the Bundeswehr with seven Fuchs/Fox armoured vehicles", publisher: "wire Tradefair Düsseldorf (Rheinmetall press release)", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.army-technology.com/news/rheinmetall-upgrade-fuchs-fox-reconnaissance-vehicle/", title: "Rheinmetall to upgrade Germany's Fuchs / Fox reconnaissance vehicle", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.autobild.de/artikel/transportpanzer-fuchs-1a8-vorstellung-4217563.html", title: "Transportpanzer Fuchs 1A8: Vorstellung", publisher: "Auto Bild", retrieved: 2026-11-22, kind: press }

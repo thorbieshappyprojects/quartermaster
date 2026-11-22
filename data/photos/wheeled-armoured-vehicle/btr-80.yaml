@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: btr-80
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Moscow_2012_Victory_Day_Parade_Rehearsal,_BTR-80,_Russia.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Moscow_2012_Victory_Day_Parade_Rehearsal%2C_BTR-80%2C_Russia.jpg/1280px-Moscow_2012_Victory_Day_Parade_Rehearsal%2C_BTR-80%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Moscow 2012 Victory Day Parade Rehearsal, BTR-80, Russia.jpg
+    caption: Russian BTR-80 armored personnel carrier during the Moscow Victory Day Parade rehearsal, 2012.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Vyacheslav Argenberg
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Moscow_2012_Victory_Day_Parade_Rehearsal,_BTR-80_APC,_Russia.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Moscow_2012_Victory_Day_Parade_Rehearsal%2C_BTR-80_APC%2C_Russia.jpg/1280px-Moscow_2012_Victory_Day_Parade_Rehearsal%2C_BTR-80_APC%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Moscow 2012 Victory Day Parade Rehearsal, BTR-80 APC, Russia.jpg
+    caption: BTR-80 armored personnel carrier at the Moscow Victory Day Parade rehearsal, 2012.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Vyacheslav Argenberg
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Btr-80_in_Serbia.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Btr-80_in_Serbia.jpg/1280px-Btr-80_in_Serbia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Btr-80 in Serbia.jpg
+    caption: US soldiers inspecting a Russian BTR-80 before a joint patrol in Bosnia, 1996.
+    shows: exact_variant
+    licence: Public domain
+    author: SPC Glenn W. Suggs
+    credit: This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing .
+    priority: A
+    retrieved: 2026-11-22
+note: "Excluded BTR-80A (#4, #8-#10), the TEK variant (#3), and the unrelated 59037A vehicle (#11). The Bangladesh (#2) and Hungarian (#7) photos are lower resolution and were not needed."

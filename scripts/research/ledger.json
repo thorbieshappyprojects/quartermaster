@@ -1,5 +1,5 @@
 {
-  "spentUsd": 78.5579,
+  "spentUsd": 81.2225,
   "entries": [
     {
       "date": "2026-11-21",
@@ -1511,6 +1511,54 @@
       "usd": 0.0199,
       "input": 3600,
       "output": 276,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "wheeled-armoured-vehicle/btr-80",
+      "usd": 1.0559,
+      "input": 876658,
+      "output": 17584,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "wheeled-armoured-vehicle/lav-6",
+      "usd": 0.8221,
+      "input": 726173,
+      "output": 13137,
+      "searches": 10
+    },
+    {
+      "date": "2026-11-22",
+      "item": "wheeled-armoured-vehicle/fuchs-1a8",
+      "usd": 0.7388,
+      "input": 559647,
+      "output": 9658,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/btr-80",
+      "usd": 0.0139,
+      "input": 2074,
+      "output": 279,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/fuchs-1a8",
+      "usd": 0.0167,
+      "input": 2806,
+      "output": 274,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/lav-6",
+      "usd": 0.0172,
+      "input": 3278,
+      "output": 202,
       "searches": 0
     }
   ]

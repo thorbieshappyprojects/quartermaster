@@ -1,0 +1,41 @@
+id: lav-6
+category: wheeled-armoured-vehicle
+name: LAV 6.0 ISC
+variant_note: "Canadian Army Infantry Section Carrier built under the LAV III Upgrade (LAV UP) programme"
+family: LAV
+aliases: ["LAV 6", "LAV VI", "LAV III Upgrade", "LAV UP"]
+manufacturer: { name: "General Dynamics Land Systems-Canada" }
+production_sites:
+  - { place: "London, Ontario", country: CA, source: s4 }
+origin: CA
+role: "8x8 wheeled infantry fighting vehicle with a 25 mm turret, carrying an infantry section. It is the Canadian Army's main infantry vehicle."
+memorable_fact: { text: "The LAV 6.0 is Canada's LAV III rebuilt using lessons from Afghanistan; it first deployed abroad in 2017, to Latvia on Operation REASSURANCE.", source: s1 }
+status: in_service
+in_service_since: { value: 2016, source: s6, confidence: medium, note: "This variant. The first upgraded vehicles were delivered in January 2013, and the Commander of the Canadian Army accepted the upgraded LAV as the deployable fleet in July 2016. The base LAV III entered service in 1999." }
+units_built: { value: 550, source: s4, confidence: high, note: "Number of LAV III vehicles upgraded to LAV 6.0 under the LAV III Upgrade project; the last was delivered in July 2019. The 66 vehicles upgraded under the separate reconnaissance and surveillance (LRSS UP) option and the new-build ACSV derivatives are not counted." }
+combat_use: { text: "No confirmed combat use of the LAV 6.0 infantry section carrier as of 2026. Canada has supplied ACSV derivatives of the LAV 6.0 to Ukraine; in September 2023 it committed 50 of them as military aid.", source: s8 }
+specs:
+  combat_weight: { value: 28.636, source: s2, confidence: high, range: { min: 28.576, max: 28.636 }, note: "Displayed value is the manufacturer's gross vehicle weight rating (28,636 kg). The Canadian Army gives 28,576 kg combat load with add-on armour for the ISC, and 20,638 kg basic weight." }
+  payload: { value: null, source: null, confidence: null }
+  seats: { value: 10, source: s3, confidence: high, note: "Canadian Army figures: 3 crew plus 7 passengers." }
+  engine_power: { value: 450, source: s3, confidence: high, note: "Water-cooled, turbocharged six-cylinder diesel. The manufacturer brochure identifies it as a Caterpillar C9 rated 450 hp (335 kW)." }
+  top_speed: { value: 100, source: s3, confidence: high, range: { min: 100, max: 100 }, note: "Canadian Army gives 100 km/h highway speed. The manufacturer brochure gives '100+ km/h' at gross vehicle weight." }
+  range: { value: 600, source: s3, confidence: high, note: "Highway range. Off-road range is 450 km. The manufacturer brochure also gives 600 km." }
+operators:
+  - { country: CA, force: "Canadian Army", state: in_service, quantity: 550, source: s4 }
+  - { country: UA, force: "Armed Forces of Ukraine", state: in_service, quantity: null, source: s8, note: "Operates ACSV derivatives of the LAV 6.0, not the ISC; 50 committed in September 2023." }
+cost: { value: 1934545, currency: CAD, price_year: 2011, basis: contract_per_unit, source: s5, confidence: medium, note: "October 2011 contract worth C$1.064 billion to upgrade 550 LAV III to LAV 6.0, divided by 550. This is an upgrade of existing hulls, not a new-build price. It excludes the C$404 million amendment of February 2017. The government gives the total project cost as C$1.75 billion excluding taxes (s4)." }
+contracts:
+  - { customer: "Canada / Canadian Army", year: 2011, quantity: 550, value: 1064000000, currency: CAD, note: "Sole-source LAV III Upgrade contract with GDLS-Canada, awarded October 2011.", source: s5 }
+  - { customer: "Canada / Canadian Army", year: 2012, quantity: 66, value: 151000000, currency: CAD, note: "Option exercised in November 2012 to upgrade 66 more LAV III for the LAV Reconnaissance Surveillance System Upgrade project.", source: s6 }
+  - { customer: "Canada / Canadian Army", year: 2017, quantity: 141, value: 404000000, currency: CAD, note: "February 2017 contract amendment to upgrade 141 LAV III to the LAV 6.0 configuration (chassis upgrades for vehicles that had been scheduled for turret upgrades only).", source: s7 }
+peers: [stryker, piranha-v, patria-amv-xp, rosomak]
+sources:
+  - { id: s1, url: "https://www.gdlscanada.com/lav-6-0/", title: "LAV 6.0 - General Dynamics Land Systems Canada", publisher: "General Dynamics Land Systems-Canada", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.gdlscanada.com/wp-content/uploads/2022/08/LAV-6.0.pdf", title: "LAV 6.0 brochure", publisher: "General Dynamics Land Systems-Canada", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.canada.ca/en/army/services/equipment/vehicles/light-armoured-vehicle-upgrade.html", title: "Light Armoured Vehicle (LAV) 6.0 - Canada.ca", publisher: "Canadian Army / Government of Canada", retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/proactive-disclosure/supp-estimates-a-2020-21/other-issues/procurement-land.html", title: "Procurement – Land", publisher: "Department of National Defence (Canada)", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.army-technology.com/projects/light-armoured-vehicle-lav-6-0/", title: "LAV 6.0 light armoured vehicle: overview & specs", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.globalsecurity.org/military/world/canada/lav-6.htm", title: "LAV 6.0 Light Armoured Vehicle", publisher: "GlobalSecurity.org", retrieved: 2026-11-22, kind: reference }
+  - { id: s7, url: "https://www.gd.com/Articles/2017/02/13/general-dynamics-land-systems-canada-increase-protection-and-mobility-canadian-lav-fleet", title: "General Dynamics Land Systems–Canada to Increase Protection and Mobility for Canadian Army's LAV Fleet", publisher: "General Dynamics", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s8, url: "https://kyivindependent.com/canada-ships-first-armored-combat-support-vehicles-to-ukraine/", title: "Canada ships first armored combat support vehicles to Ukraine", publisher: "The Kyiv Independent", retrieved: 2026-11-22, kind: press }
