@@ -1,0 +1,49 @@
+id: tow-2b
+category: anti-tank-guided-missile
+name: "TOW 2B (BGM-71F)"
+variant_note: "Baseline wire-guided BGM-71F top-attack missile; TOW 2B Aero/RF derivatives noted where relevant"
+family: "BGM-71 TOW"
+aliases: ["BGM-71F", "TOW-2B"]
+manufacturer: { name: "Raytheon (RTX); originally Hughes Aircraft" }
+production_sites:
+  - { place: "Tucson", country: US, source: s13 }
+origin: US
+role: "Heavy, tube-launched, optically tracked anti-tank guided missile that attacks armoured vehicles from above, fired from vehicles, helicopters and ground tripods."
+memorable_fact: { text: "TOW 2B does not hit the tank head-on: it flies over the target and fires two downward-pointing tantalum explosively formed penetrators into the thinner roof armour.", source: s2 }
+status: in_production
+in_service_since: { value: 1992, source: s5, confidence: medium, note: "Year this variant (BGM-71F) entered service; development contract September 1987, limited production from 1990. The base TOW system entered service in 1970." }
+units_built: { value: 40000, source: s2, confidence: medium, note: "TOW 2B (BGM-71F) only, reported as 'more than 40,000' delivered since production started in 1991 (article dated 2022). The manufacturer reports more than 725,000 TOW systems delivered across the whole family (s1)." }
+combat_use: { text: "The first operational firing of TOW 2B took place during Operation Iraqi Freedom in 2003.", source: s2 }
+specs:
+  max_range: { value: 3.75, source: s4, confidence: high, note: "3,750 m for the TOW 2B. The extended-range TOW 2B Aero and TOW 2B RF reach 4,500 m (s4, s2)." }
+  min_range: { value: 200, source: s4, confidence: high, note: "Minimum effective range for TOW 2B as given in US Army doctrine. Older TOW variants have a 65 m minimum." }
+  penetration: { value: null, source: null, confidence: null, note: "Top-attack missile with two explosively formed penetrator warheads; no public RHA penetration figure for this variant was found." }
+  missile_weight: { value: 29.0, source: s3, confidence: medium, note: "Converted from 64 lb weight in container. The missile alone weighs 49.8 lb (22.6 kg) according to s3 and has a 22.9 kg launch weight according to s2." }
+  flight_time_max: { value: 21, source: s3, confidence: medium, note: "Time of flight to 3,750 m maximum effective range. s2 says the TOW 2B Aero reaches 4.5 km in only a few seconds more." }
+operators:
+  - { country: US, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: US, force: Marine Corps, state: in_service, quantity: null, source: s2 }
+  - { country: SA, force: Armed Forces, state: ordered, quantity: null, source: s11 }
+  - { country: TW, force: Armed Forces, state: ordered, quantity: null, source: s9 }
+  - { country: KW, force: Armed Forces, state: ordered, quantity: null, source: s2 }
+  - { country: OM, force: Armed Forces, state: ordered, quantity: null, source: s2 }
+cost: { value: 100000, currency: USD, price_year: 2024, basis: unit_price, source: s8, confidence: low, note: "Approximate TOW unit price quoted by Shephard Defence Insight when reporting the 2024 US Army TOW 2B production contracts (USD 676 million total). This is a trade-press estimate, not an official unit price." }
+contracts:
+  - { customer: "United States / Army", year: 2024, quantity: null, value: 676000000, currency: USD, note: "Two TOW 2B production contracts: USD 430 million for FY2023 and USD 246 million for FY2024.", source: s7 }
+  - { customer: "United States / Army", year: 2025, quantity: null, value: 271377812, currency: USD, note: "Full-rate production contract modification that includes the TOW Obsolescence and Safety 2B missile variant; work in Tucson, Arizona, completion expected February 2028.", source: s12 }
+  - { customer: "Taiwan (TECRO)", year: 2025, quantity: 1545, value: 353000000, currency: USD, note: "US approval of a possible Foreign Military Sale of TOW 2B BGM-71F-7-RF missiles (December 2025); value is an 'up to' estimate that includes support.", source: s10 }
+  - { customer: "Saudi Arabia", year: 2024, quantity: 507, value: 440000000, currency: USD, note: "US approval of a possible sale of 507 TOW 2A and 507 TOW 2B missiles; the value covers both types and support.", source: s11 }
+peers: [kornet, spike-lr2, mmp]
+sources:
+  - { id: s1, url: "https://www.rtx.com/raytheon/what-we-do/land/tow-weapon-system", title: "TOW® Weapon System | Raytheon", publisher: "RTX / Raytheon", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.army-technology.com/projects/tow-2-missile/", title: "TOW 2 Wire-Guided Anti-Tank Missile, United States of America", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.globalsecurity.org/military/systems/munitions/tow-characteristics.htm", title: "BGM-71 / M-220 Tube-launched, Optically tracked, Wire-guided missile (TOW)", publisher: "GlobalSecurity.org", retrieved: 2026-11-22, kind: reference }
+  - { id: s4, url: "https://www.benning.army.mil/Infantry/DoctrineSupplement/ATP3-21.8/appendix_g/Munitions/CloseCombatMissileSystems/index.html", title: "Appendix G - Munitions (ATP 3-21.8 doctrine supplement)", publisher: "US Army Maneuver Center of Excellence, Fort Benning", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "http://www.designation-systems.net/dusrm/m-71.html", title: "Raytheon (Hughes) BGM-71 TOW", publisher: "Designation-Systems.net", retrieved: 2026-11-22, kind: reference }
+  - { id: s7, url: "https://thedefensepost.com/2024/10/24/raytheon-tow-missile-us-2/", title: "Raytheon to Produce Latest TOW Anti-Armor Missile for US Army", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.shephardmedia.com/news/landwarfareintl/us-army-orders-more-tow-missiles-from-raytheon-under-676-million-contract/", title: "US Army orders TOW missiles from Raytheon under contracts totalling $676 million", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.dsca.mil/Press-Media/Major-Arms-Sales/Article-Display/Article/4363101/taipei-economic-and-cultural-representative-office-in-the-united-states-tube-la", title: "Taipei Economic and Cultural Representative Office in the United States – Tube-launched, Optically tracked, Wire-guided missile system", publisher: "Defense Security Cooperation Agency", retrieved: 2026-11-22, kind: government }
+  - { id: s10, url: "https://breakingdefense.com/2025/12/us-greenlights-massive-11-billion-military-arms-package-to-taiwan/", title: "US greenlights massive, $11 billion military arms package to Taiwan", publisher: "Breaking Defense", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://thedefensepost.com/2024/10/28/saudi-arabia-tow-missiles/", title: "US Approves Possible Sale of 1,000 TOW Missiles to Saudi Arabia", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://www.investing.com/news/stock-market-news/raytheon-secures-271-million-contract-for-tow-missile-production-93CH-4250122", title: "Raytheon secures $271 million contract for TOW missile production", publisher: "Investing.com", retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://www.militaryaerospace.com/sensors/article/55234585/raytheon-technologies-corp-missile-anti-tank-radio-controlled", title: "Army taps RTX Raytheon for TOW 2B radio-controlled anti-tank missile to counter armor and fortifications", publisher: "Military & Aerospace Electronics", retrieved: 2026-11-22, kind: press }

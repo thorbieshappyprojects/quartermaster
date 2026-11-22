@@ -1,5 +1,5 @@
 {
-  "spentUsd": 101.113,
+  "spentUsd": 101.1646,
   "entries": [
     {
       "date": "2026-11-21",
@@ -1919,6 +1919,30 @@
       "usd": 0.0071,
       "input": 1074,
       "output": 139,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/nlaw",
+      "usd": 0.0123,
+      "input": 1644,
+      "output": 287,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/spike-lr2",
+      "usd": 0.0186,
+      "input": 3389,
+      "output": 254,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/tow-2b",
+      "usd": 0.0207,
+      "input": 3451,
+      "output": 346,
       "searches": 0
     }
   ]

@@ -1,0 +1,91 @@
+id: mmp
+category: anti-tank-guided-missile
+name: Akeron MP
+variant_note: Baseline MMP / Akeron MP land configuration (15 kg missile in tube, 11 kg firing post)
+family: Akeron
+aliases: [MMP, Missile Moyenne Portée, Akeron Moyenne Portée, Medium Range Missile]
+manufacturer: { name: MBDA France }
+production_sites:
+  - { place: Selles-Saint-Denis, country: FR, source: s7 }
+  - { place: Bourges, country: FR, source: s7 }
+origin: FR
+role: Man-portable and vehicle- or boat-mounted guided missile for use against armoured vehicles, fortified structures and personnel at medium range.
+memorable_fact: { text: "The MMP replaced the MILAN anti-tank missile, which the French Army had used since 1974.", source: s4 }
+status: in_production
+in_service_since:
+  value: 2018
+  source: s5
+  confidence: high
+  range: { min: 2017, max: 2018 }
+  note: "Base system (MMP). The French ministry says the missile has been in service with all three services and the special forces since 2018. MBDA says it has been available to French forces since 2017, when the first 50 missiles were delivered for training (s6). Displays the government figure."
+units_built:
+  value: 1000
+  source: s6
+  confidence: high
+  note: "MBDA delivered the 1,000th MMP to the French Ministry of the Armed Forces on 16 Nov 2021. This counts French deliveries only up to that date. No newer public production total was found."
+combat_use: { text: "First deployed and used in combat by the French Army in December 2018 in the Three Borders area of south-eastern Mali (Operation Barkhane); deployed in Iraq from 2019 against ISIS.", source: s5 }
+specs:
+  max_range:
+    value: 4
+    source: s4
+    confidence: high
+    range: { min: 4, max: 5 }
+    note: "French Army and MoD state 4,000 m. MBDA gives '4,000m+' (s2). Defence Review gives 5 km (s8). Displays the government figure."
+  min_range:
+    value: 160
+    source: s4
+    confidence: high
+    range: { min: 150, max: 160 }
+    note: "French Army states 160 m. Army Recognition gives 150 m (s9). Displays the government figure."
+  penetration:
+    value: 1000
+    source: s3
+    confidence: high
+    note: "MBDA states the tandem warhead defeats 1,000 mm RHA; the datasheet says 'more than 1,000mm' and all generations of ERA (s2). MBDA's figure for concrete is 2,000 mm (s3); the French Army page gives 3 m (s4)."
+  missile_weight:
+    value: 15
+    source: s1
+    confidence: high
+    note: "Includes the tube / tactical canister. The firing post weighs 11 kg with tripod and battery."
+  flight_time_max:
+    value: null
+    source: null
+    confidence: null
+    note: "No published flight time found. The French MoD gives a speed of 200 m/s (s5)."
+operators:
+  - { country: FR, force: "Army, Navy, Air and Space Force, Special Forces", state: in_service, quantity: null, source: s5 }
+  - { country: BE, force: Land Component, state: ordered, quantity: 761, source: s10 }
+  - { country: LU, force: Luxembourg Army, state: ordered, quantity: null, source: s11 }
+  - { country: SE, force: Swedish Armed Forces, state: ordered, quantity: null, source: s6 }
+  - { country: EG, force: Navy special forces, state: in_service, quantity: null, source: s12 }
+  - { country: UA, force: Armed Forces of Ukraine, state: in_service, quantity: null, source: s13 }
+  - { country: CY, force: National Guard, state: in_service, quantity: null, source: s8 }
+cost:
+  value: null
+  currency: null
+  price_year: null
+  basis: null
+  source: null
+  confidence: null
+  note: "No public per-unit figure. The French order of 1,300 Akeron MP (Nov 2023) has one combined total (>EUR 300m) shared with 329 Mistral 3 missiles (s7). Luxembourg's EUR 31.5m contract has no published quantity (s11)."
+contracts:
+  - { customer: France (DGA), year: 2013, quantity: 2850, value: null, currency: null, note: "Development and production contract notified to MBDA in December 2013. Target fleet of 2,850 missiles and 400 firing posts. The 2019-2025 programming law set deliveries at 1,950 missiles by 2025 (s5).", source: s15 }
+  - { customer: France (DGA), year: 2023, quantity: 1300, value: null, currency: null, note: "Ordered 23 Nov 2023. First batch of 200 due end-2025. Value only published combined with 329 Mistral 3 (>EUR 300m total).", source: s7 }
+  - { customer: Belgium (MoD), year: 2022, quantity: 761, value: null, currency: null, note: "Includes several dozen firing posts. Value not disclosed. Deliveries planned late 2025 to 2029; intended to replace Spike.", source: s10 }
+  - { customer: Luxembourg (Directorate of Defence), year: 2022, quantity: null, value: 31500000, currency: EUR, note: "Contract awarded July 2022 according to the EU TED platform. Quantity unspecified.", source: s11 }
+peers: [javelin, spike-lr2, kornet]
+sources:
+  - { id: s1, url: "https://www.mbda-systems.com/products/battlefield/akeron-family/akeron-mp", title: "AKERON MP", publisher: MBDA, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.mbda-systems.com/sites/mbda/files/2024-07/2022%20Akeron%20MP%20datasheet.pdf", title: "AKERON MP datasheet (2022)", publisher: MBDA, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.mbda-systems.com/sites/mbda/files/2024-07/AKERON%20MP%20brochure%20-%20WEB.pdf", title: "AKERON MP brochure", publisher: MBDA, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-armes/mmp-missile-moyenne-portee", title: "MMP : Missile Moyenne Portée", publisher: "Armée de Terre / Ministère des Armées", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.defense.gouv.fr/sites/default/files/ministere-armees/Fiche%20LPM%20-%20Missile%20moyenne%20port%C3%A9e%20(MMP).pdf", title: "Fiche LPM - Missile moyenne portée (MMP)", publisher: "Ministère des Armées / État-major des armées", retrieved: 2026-11-22, kind: government }
+  - { id: s6, url: "https://newsroom.mbda-systems.com/livraison-du-1000e-missile-mmp-au-ministere-des-armees-2/", title: "Livraison du 1000e missile MMP au ministère des Armées", publisher: MBDA, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s7, url: "https://www.mbda-systems.com/country-fr/commande-par-la-direction-generale-de-larmement-de-1-300-missiles-akeron-mp-mmp-et-329-missiles", title: "Commande par la direction générale de l'armement de 1 300 missiles Akeron MP (MMP) et 329 missiles Mistral 3 à MBDA", publisher: MBDA, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s8, url: "https://defencereview.gr/en/amina/france-cyprus-and-sweden-signed-a/", title: "France, Cyprus and Sweden signed a framework agreement for the joint procurement of Akeron-MP anti-tank missiles", publisher: Defence Review, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.armyrecognition.com/military-products/army/anti-tank-systems-and-vehicles/anti-tank-guided-missiles/mmp-mbda-medium-range-anti-tank-surface-to-surface-missile-data", title: "Akeron MP MMP MBDA", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://defence-industry.eu/akeron-mp-selected-by-belgian-armed-forces/", title: "Akeron MP selected by Belgian Armed Forces", publisher: Defence Industry Europe, retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://defence-industry.eu/luxembourg-acquires-the-mbda-akeron-mp-missiles/", title: "Luxembourg acquires the MBDA Akeron MP missiles", publisher: Defence Industry Europe, retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://www.janes.com/osint-insights/defence-news/defence/egyptian-naval-special-forces-show-akeron-mp-missile", title: "Egyptian naval special forces show Akeron MP missile", publisher: Janes, retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://defence-industry.eu/ukraine-received-akeron-mp-anti-tank-missiles-from-france/", title: "Ukraine received Akeron MP anti-tank missiles from France", publisher: Defence Industry Europe, retrieved: 2026-11-22, kind: press }
+  - { id: s15, url: "https://theatrum-belli.com/la-dga-notifie-a-mbda-le-programme-du-missile-moyenne-portee-mmp/", title: "La DGA notifie à MBDA le programme du « Missile moyenne portée » (MMP)", publisher: Theatrum Belli, retrieved: 2026-11-22, kind: press }

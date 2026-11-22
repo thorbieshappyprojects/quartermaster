@@ -1,0 +1,54 @@
+id: nlaw
+category: anti-tank-guided-missile
+name: NLAW (RB 57 / MBT LAW)
+variant_note: Standard disposable NLAW (single production configuration, UK service from 2009)
+family: NLAW
+aliases: [MBT LAW, RB 57, Robot 57, Next generation Light Anti-tank Weapon]
+manufacturer: { name: Saab Bofors Dynamics (Saab Dynamics) }
+production_sites:
+  - { place: Belfast, country: GB, source: s4 }
+origin: SE
+role: Single-soldier, disposable, shoulder-launched short-range anti-tank missile with predicted line-of-sight guidance and overfly top attack.
+memorable_fact: { text: "In overfly top-attack mode the missile flies about one metre above the line of sight and fires its warhead down into the tank roof, and this works from as close as 20 m.", source: s1 }
+status: in_production
+in_service_since: { value: 2009, source: s4, confidence: medium, note: "Base system's first year in service, with the British Army (replacing LAW 80). Think Defence also says UK deliveries began in 2009 (s5)." }
+units_built: { value: null, source: null, confidence: null, note: "Reports are inconsistent. One secondary source gives 10,000 built (2022), but press reports say the first UK order alone was 14,000, so no figure is given here." }
+combat_use: { text: "Used by Ukrainian forces against Russian armour since 2022. The UK said in March 2022 that it had delivered 2,000 before the invasion and 1,615 more after it.", source: s10 }
+specs:
+  max_range: { value: 0.8, source: s1, confidence: high, range: { min: 0.8, max: 1.0 }, note: "Saab states a combat range of 20-800 m (shown). Army Recognition (s3) gives a 1,000 m maximum firing range, beyond which the missile self-destructs." }
+  min_range: { value: 20, source: s1, confidence: high, note: "Saab: combat range 20 m - 800 m; top-attack mode works from 20 m." }
+  penetration: { value: 500, source: s2, confidence: high, note: "Manufacturer states 'more than 500 mm' armour penetration; 500 is a lower limit, not an exact figure. Delivered by top attack through the roof." }
+  missile_weight: { value: 12.5, source: s3, confidence: medium, range: { min: 11.6, max: 12.5 }, note: "Complete disposable weapon (missile in launcher). Saab gives only '<13 kg' (s1, s2). Army Recognition states 12.5 kg in text and 11.6 kg in its data table. 12.5 kg is shown because it is consistent with Saab's limit." }
+  flight_time_max: { value: 5.6, source: s14, confidence: low, note: "Maximum flight time before self-destruct, at about 1,000 m, per Wikipedia; no underlying source found. Army-technology (s4) gives under 2 s to 400 m." }
+operators:
+  - { country: GB, force: "British Army, Royal Marines, RAF Regiment", state: in_service, quantity: null, source: s5 }
+  - { country: SE, force: Army, state: in_service, quantity: null, source: s4 }
+  - { country: FI, force: Army, state: in_service, quantity: null, source: s4 }
+  - { country: LU, force: Army, state: in_service, quantity: null, source: s5 }
+  - { country: CH, force: Army, state: in_service, quantity: null, source: s8 }
+  - { country: UA, force: Armed Forces, state: in_service, quantity: null, source: s11 }
+  - { country: ID, force: Army, state: in_service, quantity: null, source: s3 }
+  - { country: MY, force: Army, state: in_service, quantity: null, source: s13 }
+  - { country: FR, force: Army, state: ordered, quantity: null, source: s12 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public contract gives both quantity and value. The UK's December 2022 order (GBP 229 million, about SEK 2.9 billion) covers an undisclosed number described as 'thousands', so a per-unit cost cannot be worked out." }
+contracts:
+  - { customer: United Kingdom and Sweden, year: 2002, quantity: null, value: 4000000000, currency: SEK, note: "Saab selected as preferred supplier for NLAW for the British and Swedish armies; about SEK 4.0 billion including development and series production; subject to final negotiation.", source: s7 }
+  - { customer: Switzerland (armasuisse), year: 2017, quantity: null, value: 1035000000, currency: SEK, note: "Swiss Army order (about USD 121 million), deliveries 2018-2021, under a 2017-2030 framework contract.", source: s8 }
+  - { customer: United Kingdom (MoD), year: 2022, quantity: null, value: 2900000000, currency: SEK, note: "Restocking order with deliveries 2023-2026; reported as GBP 229 million for 'thousands' of weapons assembled in Belfast (s9).", source: s6 }
+  - { customer: Sweden (FMV), year: 2022, quantity: null, value: 900000000, currency: SEK, note: "Order with product deliveries 2024-2026.", source: s6 }
+peers: [javelin, mmp, spike-lr2]
+sources:
+  - { id: s1, url: "https://www.saab.com/products/nlaw", title: "NLAW - Anti-tank weapon", publisher: Saab, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.saab.com/contentassets/13fa21211820475a8fe8275cc732b434/brochure---nlaw.pdf", title: "NLAW The power of precision (brochure)", publisher: Saab, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.armyrecognition.com/military-products/army/anti-tank-systems-and-vehicles/rocket-launcher/nlaw-next-generation-light-anti-tank-missile-weapon-data-fact-sheet", title: "NLAW MBT LAW RB-57", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.army-technology.com/projects/mbt_law/", title: "MBT LAW Light Anti-Tank Weapon", publisher: Army Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.thinkdefence.co.uk/docs/nlaw/", title: "NLAW - Think Defence", publisher: Think Defence, retrieved: 2026-11-22, kind: reference }
+  - { id: s6, url: "https://www.saab.com/newsroom/press-kits/nlaw-presskit", title: "NLAW press kit", publisher: Saab, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s7, url: "https://www.saab.com/newsroom/press-releases/2002/saab-wins-contract-in-great-britain-worth-several-billion-sek", title: "Saab wins contract in Great Britain worth several billion SEK", publisher: Saab, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s8, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2017/saab-lands-121mn-order-from-switzerland-for-nlaw-anti-tank-weapon-systems-22906171", title: "Saab lands $121mn order from Switzerland for NLAW anti-tank weapon systems", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://ukdefencejournal.org.uk/britain-orders-thousands-more-nlaw-anti-tank-weapons/", title: "Britain orders thousands more NLAW anti-tank weapons", publisher: UK Defence Journal, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://historynet.com/nlaw-missile/", title: "NLAW Missile: Ukraine's Primary Tank Buster Fighting Russia", publisher: HistoryNet, retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://gouvernement.lu/en/actualites/toutes_actualites/communiques/2022/02-fevrier/28-bausch-ukraine.html", title: "François Bausch announces military assistance and support measures for Ukraine", publisher: The Luxembourg Government, retrieved: 2026-11-22, kind: government }
+  - { id: s12, url: "https://www.saab.com/newsroom/press-releases/2026/saab-receives-order-for-anti-tank-weapon-nlaw-from-france", title: "Saab receives order for anti-tank weapon NLAW from France", publisher: Saab, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s13, url: "https://www.malaysiandefence.com/nlaw-for-the-army/", title: "NLAW For The Army", publisher: Malaysian Defence, retrieved: 2026-11-22, kind: press }
+  - { id: s14, url: "https://en.wikipedia.org/wiki/Next_generation_Light_Anti-tank_Weapon", title: "NLAW", publisher: Wikipedia, retrieved: 2026-11-22, kind: reference }

@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: spike-lr2
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Spike_LR_2.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Spike_LR_2.jpg/1280px-Spike_LR_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Spike LR 2.jpg
+    caption: Spike LR2 missile on display at the IDET 2019 defence fair in Brno, 2019.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Reise Reise
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Spike-LR_launcher.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/Spike-LR_launcher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Spike-LR launcher.jpg
+    caption: Spike LR2 launcher of the Italian Army, 2023.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Admiralis-generalis-Aladeen
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Sherpa_Light_with_Spike_LR2.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/1/1d/Sherpa_Light_with_Spike_LR2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Sherpa Light with Spike LR2.jpg
+    caption: Sherpa Light tactical vehicle fitted with a Spike LR2 launcher.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Georgie1235
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "Excluded #3 (CV90, no Spike mentioned), #23 (generic Spike, variant unclear) and #24 (Spike ER simulator, a different variant). The rest are unrelated name matches: The Last Spike monument, Gil persons and places, and plants."

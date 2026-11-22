@@ -1,0 +1,93 @@
+id: spike-lr2
+category: anti-tank-guided-missile
+name: Spike LR2
+variant_note: Ground-launched round with tandem HEAT warhead; multipurpose warhead option exists
+family: Spike
+aliases: [Spike LR II, Gil-2, MELLS (German designation, shared with Spike LR)]
+manufacturer: { name: Rafael Advanced Defense Systems }
+origin: IL
+role: Fifth-generation electro-optically guided missile with a fibre-optic link, used against armour, structures and vessels from infantry, vehicles, ships and helicopters.
+memorable_fact: { text: "At the request of the Israel Defense Forces, the LR2 was made lighter than the Spike LR (12.8 kg versus 13.7 kg), and its ground range still grew from 4 km to 5.5 km.", source: s3 }
+status: in_production
+in_service_since:
+  value: 2018
+  source: s5
+  confidence: medium
+  note: "First service of the LR2 variant (the base Spike system is older). In 2018 trade press said the LR2 was 'now entering service' with the IDF. EDR (s3, 2017) expected first deliveries in Q4 2018. ODIN (s6) says the IDF first ordered it in October 2017."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public production figure for the LR2. Trade press gives about 50,000 missiles purchased for the whole Spike family (s12). That is a family purchase figure, not LR2 units built, so it is not used here."
+combat_use: { text: "Israeli forces have reportedly used the Spike missile family in Gaza. No public source reviewed confirms combat use of the LR2 variant specifically.", source: s16 }
+specs:
+  max_range:
+    value: 5.5
+    source: s1
+    confidence: high
+    note: "Ground launch, fibre-optic link. EuroSpike (s2) gives 10 km for launch from a helicopter."
+  min_range:
+    value: null
+    source: null
+    confidence: null
+    note: "Secondary sources give 200 m or 400 m, but neither figure could be traced to a manufacturer or government source."
+  penetration:
+    value: null
+    source: null
+    confidence: null
+    note: "No public figure in mm RHA. The manufacturer and trade press say only that the tandem HEAT warhead penetrates about 30% more than the original Spike LR warhead (s3, s4)."
+  missile_weight:
+    value: 13.4
+    source: s2
+    confidence: medium
+    range: { min: 12.7, max: 13.4 }
+    note: "EuroSpike (Rafael/Diehl/Rheinmetall JV) gives a 'round weight' of 'ca. 13.4 kg', taken as in-tube weight and displayed here. Other figures: 12.8 kg (s3), about 13 kg (s4), 12.7 kg (s6)."
+  flight_time_max:
+    value: null
+    source: null
+    confidence: null
+    note: "Not published. EuroSpike gives a missile speed of about 130-180 m/s (s2); a time is not derived from this because that would be an estimate."
+operators:
+  - { country: IL, force: Israel Defense Forces, state: in_service, quantity: null, source: s6 }
+  - { country: LT, force: Lithuanian Armed Forces, state: in_service, quantity: null, source: s11 }
+  - { country: LV, force: Latvian National Armed Forces, state: in_service, quantity: null, source: s12 }
+  - { country: AU, force: Australian Army, state: ordered, quantity: null, source: s10 }
+  - { country: DE, force: Bundeswehr, state: ordered, quantity: null, source: s9 }
+  - { country: IT, force: Italian Army and Navy marines, state: ordered, quantity: null, source: s8 }
+  - { country: NL, force: Royal Netherlands Army and Marine Corps, state: ordered, quantity: null, source: s13 }
+  - { country: SI, force: Slovenian Armed Forces, state: ordered, quantity: 50, source: s7 }
+  - { country: SK, force: Slovak Armed Forces, state: ordered, quantity: null, source: s4 }
+  - { country: DK, force: Danish Armed Forces, state: ordered, quantity: null, source: s12 }
+  - { country: CH, force: Swiss Armed Forces, state: ordered, quantity: null, source: s14 }
+  - { country: HU, force: Hungarian Defence Forces, state: ordered, quantity: null, source: s15 }
+cost:
+  value: 133400
+  currency: EUR
+  price_year: 2022
+  basis: contract_per_unit
+  source: s7
+  confidence: medium
+  note: "Slovenian MoD contract with EuroSpike (awarded July 2022): EUR 6.67 million for 50 Spike LR2 missiles, about EUR 133,400 per missile. The contract value may include support items."
+contracts:
+  - { customer: Germany / Bundeswehr, year: 2025, quantity: null, value: 2000000000, currency: EUR, note: "About EUR 2 billion framework with EuroSpike, placed through NSPA. Mainly Spike LR2 (MELLS); reports say it also includes ER2, launchers and training equipment.", source: s9 }
+  - { customer: Italy / Army and Navy, year: 2024, quantity: null, value: 143000000, currency: EUR, note: "Direct order with Rafael by TERRARM. Deliveries run until 2030.", source: s8 }
+  - { customer: Australia / Australian Army, year: 2023, quantity: null, value: null, currency: AUD, note: "Spike LR2 for the Boxer combat reconnaissance vehicles, delivered by Varley Rafael Australia. Reported as worth more than AUD 50 million; exact value not published.", source: s10 }
+  - { customer: Slovenia / Slovenian Armed Forces, year: 2022, quantity: 50, value: 6670000, currency: EUR, note: "Sole-bidder award to EuroSpike to restock missiles.", source: s7 }
+peers: [javelin, mmp, tow-2b]
+sources:
+  - { id: s1, url: "https://www.rafael.co.il/wp-content/uploads/2024/11/spike-lr2-missile.pdf", title: "SPIKE LR2 Missile", publisher: Rafael Advanced Defense Systems, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://eurospike.com/system/spike-lr2/", title: "SPIKE LR2", publisher: EuroSpike GmbH, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.edrmagazine.eu/rafael-spike-lr-goes-further", title: "Rafael Spike LR goes further", publisher: EDR Magazine, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.army-technology.com/projects/spike-lr2/", title: "Spike LR2 Anti-Tank Guided Missile (ATGM), Israel", publisher: Army Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.australiandefence.com.au/land/mmp-vs-spike-for-adf", title: "MMP vs Spike for ADF", publisher: Australian Defence Magazine, retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://odin.tradoc.army.mil/mediawiki/index.php?title=Spike_LR_II_Israeli_Anti-Tank_Guided_Missile_(ATGM)&printable=yes", title: "Spike LR II Israeli Anti-Tank Guided Missile (ATGM) - WEG MediaWiki", publisher: US Army TRADOC (ODIN), retrieved: 2026-11-22, kind: government }
+  - { id: s7, url: "https://www.shephardmedia.com/news/landwarfareintl/slovenia-orders-spike-lr2/", title: "Slovenia orders Spike LR2", publisher: Shephard Media, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://militaeraktuell.at/en/rafael-spike-lr2-missiles-for-italy/", title: "Rafael: Spike LR2 missiles for Italy", publisher: Militär Aktuell, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.armyrecognition.com/news/army-news/2025/germany-orders-2b-spike-lr2-anti-tank-missiles-from-eurospike-to-rebuild-stockpiles", title: "Germany Orders €2B Spike LR2 Anti-Tank Missiles from EuroSpike to Rebuild Stockpiles", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://en.globes.co.il/en/article-rafael-signs-australian-spike-missile-deal-1001456166", title: "Rafael signs Australian Spike missile deal", publisher: Globes, retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://www.globalsecurity.org/military/library/news/2026/07/mil-260707-lithuania-mnd01.htm", title: "Spike LR2 missiles reached the Lithuanian Armed Forces' warehouses", publisher: Ministry of National Defence of Lithuania (via GlobalSecurity.org), retrieved: 2026-11-22, kind: government }
+  - { id: s12, url: "https://defence-industry.eu/growing-demand-for-spike-anti-tank-missiles-in-europe/", title: "Growing demand for Spike anti-tank missiles in Europe", publisher: Defence Industry Europe, retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://euro-sd.com/2024/09/major-news/40241/dutch-to-procure-spike-lr2/", title: "Netherlands to procure long-range Spike anti-tank missiles", publisher: European Security & Defence, retrieved: 2026-11-22, kind: press }
+  - { id: s14, url: "https://militaeraktuell.at/schweizer-armee-kauft-spike-lr2-von-eurospike/", title: "Schweizer Armee kauft Spike LR2 von Eurospike", publisher: Militär Aktuell, retrieved: 2026-11-22, kind: press }
+  - { id: s15, url: "https://www.overtdefense.com/2020/08/19/hungary-signs-e2b-deal-with-rheinmetall-for-the-production-of-lynx-ifvs/", title: "Hungary signs €2B deal with Rheinmetall for the production of 218 Lynx IFVs", publisher: Overt Defense, retrieved: 2026-11-22, kind: press }
+  - { id: s16, url: "https://www.ynetnews.com/business/article/b1g1bphgll", title: "Spain scraps $310 million Israeli arms deal amid Gaza war fallout", publisher: Ynetnews, retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: kornet
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:9M133_Kornet.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/9M133_Kornet.JPG/1280px-9M133_Kornet.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: 9M133 Kornet.JPG
+    caption: 9M133 Kornet-E anti-tank guided missile system on display, 2008.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Mike1979 Russia
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Kornet-E_(1).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Kornet-E_%281%29.jpg/1280px-Kornet-E_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Kornet-E (1).jpg
+    caption: Kornet-E anti-tank guided missile system.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Photos by Vitaly Kuzmin
+    credit: http://vitalykuzmin.net/?q=node/232
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Kornet-E_at_Tula_State_Museum_of_Weapons.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Kornet-E_at_Tula_State_Museum_of_Weapons.jpg/1280px-Kornet-E_at_Tula_State_Museum_of_Weapons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Kornet-E at Tula State Museum of Weapons.jpg
+    caption: Kornet-E ATGM system at the Tula State Museum of Weapons, 2013.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Vitaly V. Kuzmin
+    credit: Vitalykuzmin.net
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded Spriggan sculptures (unrelated), Kornet-EM (#10), the Humvee-mounted vehicle variant (#9), and generic Kornet exhibition photos with unclear variant.

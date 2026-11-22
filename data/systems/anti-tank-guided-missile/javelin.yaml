@@ -1,0 +1,95 @@
+id: javelin
+category: anti-tank-guided-missile
+name: "FGM-148F Javelin"
+variant_note: "F-model all-up round (tandem multipurpose warhead) as on the current manufacturer spec card; units_built and operators cover all Javelin models"
+family: "Javelin"
+aliases: ["Javelin", "AAWS-M (Advanced Anti-Tank Weapon System-Medium)"]
+manufacturer: { name: "Javelin Joint Venture (Raytheon / Lockheed Martin)" }
+production_sites:
+  - { place: "Troy, Alabama", country: US, source: s8 }
+  - { place: "Tucson, Arizona", country: US, source: s3 }
+  - { place: "Orlando, Florida", country: US, source: s3 }
+origin: US
+role: "Fire-and-forget anti-tank guided missile with an imaging infrared seeker and top-attack or direct-attack modes. It can be carried by one soldier or mounted on vehicles."
+memorable_fact: { text: "One senior assembler at the Troy, Alabama plant had handled every one of the 50,000 Javelin missiles built there when President Biden visited in 2022.", source: s8 }
+status: in_production
+in_service_since:
+  value: 1996
+  source: s5
+  confidence: high
+  note: "Year of the base system: first unit equipped on 27 June 1996 (3rd Battalion, 75th Ranger Regiment, Fort Benning). The F-model entered initial full-rate production with a January 2019 contract (s6)."
+units_built:
+  value: 55000
+  source: s3
+  confidence: high
+  note: "Manufacturer says 'more than 55,000' missiles of all models were produced as of September 2025, plus more than 12,000 Command Launch Units. No F-model-only total was found."
+combat_use: { text: "The manufacturer stated in 2021 that Javelin had been fired more than 5,000 times in combat operations; Ukraine has used it extensively against Russian armour since 2022 (s4).", source: s2 }
+specs:
+  max_range:
+    value: 4
+    source: s1
+    confidence: high
+    range: { min: 2.5, max: 4 }
+    note: "Manufacturer gives 65 m to 4 km 'in most operational conditions'. CSIS (s9) reports a qualified maximum range of 2,500 m with demonstrated performance to 4,000 m. The manufacturer figure is displayed."
+  min_range:
+    value: 65
+    source: s1
+    confidence: high
+  penetration:
+    value: null
+    source: null
+    confidence: null
+    note: "No manufacturer or government RHA figure found; the manufacturer only says it is effective against all known armour."
+  missile_weight:
+    value: 15.5
+    source: s1
+    confidence: high
+    note: "All-up round 34 lb (15.5 kg) including launch tube; missile alone 25 lb (11.8 kg); CLU 15.4 lb (7.0 kg)."
+  flight_time_max:
+    value: null
+    source: null
+    confidence: null
+    note: "No public figure found for flight time to the 4 km maximum range."
+operators:
+  - { country: US, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: US, force: Marine Corps, state: in_service, quantity: null, source: s1 }
+  - { country: AU, force: Army, state: in_service, quantity: null, source: s10 }
+  - { country: GB, force: British Army, state: in_service, quantity: null, source: s11 }
+  - { country: UA, force: Armed Forces, state: in_service, quantity: null, source: s4 }
+  - { country: BR, force: Armed Forces, state: ordered, quantity: null, source: s3 }
+  - { country: TN, force: Armed Forces, state: ordered, quantity: null, source: s3 }
+  - { country: EE, force: Armed Forces, state: ordered, quantity: null, source: s3 }
+  - { country: BG, force: Armed Forces, state: ordered, quantity: null, source: s3 }
+  - { country: XK, force: Armed Forces, state: ordered, quantity: null, source: s4 }
+  - { country: AL, force: Armed Forces, state: ordered, quantity: null, source: s4 }
+  - { country: LV, force: Armed Forces, state: ordered, quantity: null, source: s4 }
+  - { country: RO, force: Armed Forces, state: ordered, quantity: null, source: s4 }
+  - { country: MA, force: Armed Forces, state: ordered, quantity: null, source: s4 }
+  - { country: TH, force: Armed Forces, state: ordered, quantity: null, source: s4 }
+cost:
+  value: 208543
+  currency: USD
+  price_year: 2027
+  basis: unit_price
+  source: s12
+  confidence: low
+  note: "Planned recurring unit cost for one FGM-148F all-up round in the US Army FY2027 procurement justification. This is reported by a secondary site; the Army document itself was not retrieved. It excludes the Command Launch Unit."
+contracts:
+  - { customer: "US Army", year: 2019, quantity: 2100, value: null, currency: null, note: "First F-model (FGM-148F) production contract, marking initial full-rate production.", source: s6 }
+  - { customer: "US Army", year: 2023, quantity: null, value: 7200000000, currency: USD, note: "Multi-year indefinite-delivery/indefinite-quantity (IDIQ) production contract, May 2023; later yearly orders are placed under it.", source: s13 }
+  - { customer: "US Army", year: 2024, quantity: null, value: 1300000000, currency: USD, note: "FY2024 follow-on order, the largest single-year Javelin order to that date. It includes about 4,000 Javelins to replace stocks sent to Ukraine; the total quantity was not stated.", source: s4 }
+  - { customer: "US Army (incl. FMS for Brazil, Tunisia, Estonia, Bulgaria, Australia)", year: 2025, quantity: null, value: 900500000, currency: USD, note: "FY2025 follow-on order, not-to-exceed value; covers missiles and associated equipment and services.", source: s3 }
+peers: [spike-lr2, mmp, kornet]
+sources:
+  - { id: s1, url: "https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/pc/javelin/24-11303_TM_Javelin_Product_Card_R1_6.pdf", title: "Javelin - The World's Most Versatile Anti-Tank Weapon System", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/pc/javelin/mfc-javelin-pc.pdf", title: "Light, Versatile & Effective Javelin", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://news.lockheedmartin.com/2025-09-03-us-army-awards-the-javelin-joint-venture-875-6m-contract", title: "US Army Awards the Javelin Joint Venture $900.5M Contract", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.defensenews.com/land/2024/08/30/us-army-awards-largest-single-year-javelin-contract-to-date-13b/", title: "US Army awards largest single-year Javelin contract to date: $1.3B", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://history.redstone.army.mil/miss-javelin.html", title: "JAVELIN - Redstone Arsenal Historical Information", publisher: "U.S. Army, Redstone Arsenal", retrieved: 2026-11-22, kind: government }
+  - { id: s6, url: "https://investors.lockheedmartin.com/news-releases/news-release-details/raytheonlockheed-martin-javelin-joint-venture-awarded-contract", title: "Raytheon/Lockheed Martin Javelin Joint Venture Awarded Contract for 2,100 F-Model Missiles, Marking Initial Full-Rate Production", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s8, url: "https://www.lockheedmartin.com/en-us/news/features/2022/president-biden-thanks-lockheed-martin-troy-employees-javelin-facility.html", title: "President Biden Thanks Employees at Javelin Production Facility in Troy, Al.", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s9, url: "https://missilethreat.csis.org/missile/fgm-148-javelin/", title: "FGM-148 Javelin", publisher: "CSIS Missile Defense Project", retrieved: 2026-11-22, kind: reference }
+  - { id: s10, url: "https://www.army.gov.au/equipment/support-weapons/javelin", title: "Javelin", publisher: "Australian Army", retrieved: 2026-11-22, kind: government }
+  - { id: s11, url: "https://www.thinkdefence.co.uk/2022/11/javelin/", title: "Javelin ATGW - Think Defence", publisher: "Think Defence", retrieved: 2026-11-22, kind: other }
+  - { id: s12, url: "https://www.thepricer.org/how-much-does-a-javelin-missile-cost/", title: "How Much Does A Javelin Missile Cost?", publisher: "ThePricer", retrieved: 2026-11-22, kind: other }
+  - { id: s13, url: "https://www.overtdefense.com/2023/05/04/us-army-signs-7-2-billon-javelin-missile-contract/", title: "US Army Signs $7.2 Billon Javelin Missile Contract", publisher: "Overt Defense", retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,117 @@
+# Indicators: scripts/research/indicators/anti-tank-guided-missile.yaml. Category card researched 2026-11-22.
+id: anti-tank-guided-missile
+name: Anti-tank guided missiles
+domain: Missiles
+wave: 2
+indicators:
+  - id: max_range
+    label: Max. range
+    unit: km
+    trump: higher_wins
+    decimals: 1
+  - id: min_range
+    label: Min. range
+    unit: m
+    trump: lower_wins
+  - id: penetration
+    label: Penetration (RHA, behind ERA where stated)
+    unit: mm
+    trump: higher_wins
+  - id: missile_weight
+    label: Missile weight (in tube)
+    unit: kg
+    trump: lower_wins
+    decimals: 1
+  - id: flight_time_max
+    label: Flight time to max. range
+    unit: s
+    trump: lower_wins
+    decimals: 1
+category_card:
+  summary: Anti-tank guided missiles (ATGMs) are precision-guided munitions designed primarily to defeat armoured vehicles, launched by dismounted infantry or from vehicles, helicopters, drones and boats. Guidance ranges from operator-steered wire or laser systems (SACLOS) to fire-and-forget infrared seekers, and most carry unitary or tandem shaped-charge (HEAT) warheads.
+  purpose:
+    - text: ATGMs give infantry, including predominantly light infantry forces, the ability to defeat mechanised forces with much greater firepower, as demonstrated by Ukrainian units against Russian armour in 2022.
+      source: s5
+    - text: Although designed primarily against main battle tanks and other armoured vehicles, ATGMs are also employed against bunkers, soft targets such as fuel and ammunition stores or parked aircraft, and low-flying helicopters.
+      source: s2
+    - text: Massed ATGMs held by defending infantry can blunt an armoured advance, a lesson drawn from the 1973 Yom Kippur War and observed again in Ukraine.
+      source: s3
+  strengths:
+    - text: Modern HEAT warheads are very difficult to stop, with many able to penetrate more than 1,000 mm of solid steel.
+      source: s3
+    - text: Third-generation systems combine lock-on-before-launch ('fire-and-forget'), letting crews relocate immediately after firing, with top-attack trajectories that strike the weaker roof armour of tanks.
+      source: s1
+    - text: ATGMs are small, portable, can be fired from cover and fitted to many platforms from light vehicles to helicopters and unmanned systems, and are comparatively low-cost relative to the armoured vehicles they target.
+      source: s2
+    - text: Western ATGMs supplied to Ukraine, such as Javelin and NLAW, proved valuable despite minimal operator training.
+      source: s3
+  weaknesses:
+    - text: SACLOS guidance exposes the shooter, who must stay in position until impact and remains vulnerable to counterattack.
+      source: s2
+    - text: In Ukraine, ATGM teams with 4-5 km range operating close to enemy lines are frequently detected by reconnaissance drones and engaged by artillery or loitering munitions before they can fire.
+      source: s1
+    - text: Advanced ATGMs are complex and slow to produce; Javelin has a 32-month delivery lead time, so replacing large stocks transferred to Ukraine would take several years.
+      source: s5
+    - text: "Hits do not always yield kills: in Lebanon in 2006 more than 50 Israeli Merkava tanks were hit by ATGMs, of which 21 were penetrated and 10 suffered casualties."
+      source: s3
+  counters:
+    - text: Hard-kill active protection systems such as Trophy detect, track and neutralise incoming ATGMs in flight and report the shooter's location to the crew.
+      source: s7
+    - text: Russian forces reduced the kill probability of several ATGM types beyond about 1,400 m by using anti-thermal materials, altering engine-deck heat plumes and fighting during dawn and dusk thermal crossover.
+      source: s4
+    - text: Combined-arms manoeuvre, rather than tanks advancing alone or in small groups without infantry support, limits the effect of ATGMs.
+      source: s3
+    - text: Improved vehicle survivability measures, such as electric turret drives replacing flammable hydraulics and safer ammunition storage, help tanks survive ATGM hits.
+      source: s3
+  trends:
+    - text: Requirements are moving toward longer stand-off ranges, such as the US CCMS-H goal of 8 km or more in cooperative engagement, partly to remain relevant alongside loitering munitions, which have so far complemented rather than replaced ATGMs.
+      source: s1
+    - text: Missiles are becoming more versatile, with soft-launch for confined spaces, multipurpose or modular warheads and operator-selectable fuzing such as air-burst and delayed impact.
+      source: s1
+    - text: Combat experience in Ukraine has driven remote-controlled launchers to improve crew survivability, while manufacturers develop AI-assisted target acquisition.
+      source: s1
+    - text: Ukraine has exposed a mismatch between the slow acquisition and rapid consumption of precision weapons such as Javelin, prompting calls for allied munitions production capacity above annual need.
+      source: s6
+sources:
+  - id: s1
+    url: https://euro-sd.com/2025/03/articles/42885/modern-atgm-capabilities/
+    title: Modern ATGM capabilities
+    publisher: European Security & Defence (Mittler Report)
+    retrieved: 2026-11-22
+    kind: press
+  - id: s2
+    url: https://euro-sd.com/2024/06/articles/39014/atgm-market-overview/
+    title: ATGM market overview
+    publisher: European Security & Defence (Mittler Report)
+    retrieved: 2026-11-22
+    kind: press
+  - id: s3
+    url: https://euro-sd.com/2023/01/articles/29152/lessons-from-ukraine-armoured-fighting-vehicles/
+    title: "Lessons from Ukraine: Armoured Fighting Vehicles"
+    publisher: European Security & Defence (Mittler Report)
+    retrieved: 2026-11-22
+    kind: press
+  - id: s4
+    url: https://static.rusi.org/403-SR-Russian-Tactics-web-final.pdf
+    title: "Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine"
+    publisher: Royal United Services Institute (RUSI)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s5
+    url: https://www.csis.org/analysis/will-united-states-run-out-javelins-russia-runs-out-tanks
+    title: Will the United States Run Out of Javelins Before Russia Runs Out of Tanks?
+    publisher: Center for Strategic and International Studies (CSIS)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s6
+    url: https://www.csis.org/analysis/saint-javelin-limited-supply
+    title: Saint Javelin of Limited Supply
+    publisher: Center for Strategic and International Studies (CSIS)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s7
+    url: https://www.leonardodrs.com/what-we-do/products-and-services/trophy-active-protection-system-aps/
+    title: TROPHY - Active Protection System and Hostile Fire Detection
+    publisher: Leonardo DRS
+    retrieved: 2026-11-22
+    kind: manufacturer

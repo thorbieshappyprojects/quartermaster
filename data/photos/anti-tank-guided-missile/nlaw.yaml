@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: nlaw
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:NLAW_Kokonaisturvallisuus_2015_01_(cropped).JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/NLAW_Kokonaisturvallisuus_2015_01_%28cropped%29.JPG/1280px-NLAW_Kokonaisturvallisuus_2015_01_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: NLAW Kokonaisturvallisuus 2015 01 (cropped).JPG
+    caption: NLAW anti-tank missile displayed at the Bofors stall at the Comprehensive Security exhibition in Tampere, 2015.
+    shows: exact_variant
+    licence: Public domain
+    author: MKFI
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:UA_soldiers_NLAW_training_02.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/UA_soldiers_NLAW_training_02.jpg/1280px-UA_soldiers_NLAW_training_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: UA soldiers NLAW training 02.jpg
+    caption: Ukrainian Ground Forces soldiers training with UK-donated NLAWs, January 2022.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Ukrainian Ground Forces
+    credit: https://www.facebook.com/UkrainianLandForces/posts/273339361564729
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:NLAW.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/NLAW.jpg/1280px-NLAW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: NLAW.jpg
+    caption: NLAW short-range anti-tank guided missile, 2017.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Swadim
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "Excluded #1 because it is an operator map and #8 because it shows the MBT-70 tank, not this weapon. #7 and #9 are titled RB-57, but their descriptions don't confirm whether they show the NLAW (Swedish Robot 57) or the B-57 aircraft, so they were left out as doubtful."

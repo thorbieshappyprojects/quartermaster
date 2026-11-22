@@ -1,0 +1,56 @@
+id: kornet
+category: anti-tank-guided-missile
+name: "9M133 Kornet (Kornet-E)"
+variant_note: "Baseline 9M133 / export 9M133-1 tandem-HEAT missile with portable 9P163-1 launcher (Kornet-E system), not Kornet-EM"
+family: "Kornet (9K135)"
+aliases: ["AT-14 Spriggan", "Kornet-E", "9K135 Kornet", "9M133-1"]
+manufacturer: { name: "KBP Instrument Design Bureau" }
+production_sites:
+  - { place: "Kovrov", country: RU, source: s3 }
+origin: RU
+role: "Man-portable or vehicle-mounted laser beam-riding heavy anti-tank guided missile system for use against armoured vehicles, fortifications and hovering helicopters."
+memorable_fact: { text: "In 2008, NATO member Turkey chose the Russian Kornet-E over Rafael's Spike, Raytheon's TOW and Denel's Ingwe in an anti-tank missile competition.", source: s7 }
+status: in_production
+in_service_since: { value: 1998, source: s3, confidence: medium, note: "Year the base 9M133 Kornet system entered Russian service; the s6 trade article gives the same year." }
+units_built: { value: 35000, source: s3, confidence: low, note: "Kornet missiles produced by 2009 across the whole family (domestic and export); no newer public figure found." }
+combat_use: { text: "First used in combat during the 2003 invasion of Iraq; later used in the 2006 Lebanon War, the Syrian Civil War and the Russo-Ukrainian War.", source: s6 }
+specs:
+  max_range: { value: 5.5, source: s1, confidence: high, note: "Rosoboronexport gives 100-5,500 m by day and 100-4,500 m at night; KBP gives up to 5,500 m day and night." }
+  min_range: { value: 100, source: s1, confidence: high, note: "Lower limit of the stated 100-5,500 m firing range." }
+  penetration: { value: 1200, source: s2, confidence: high, range: { min: 1000, max: 1200 }, note: "KBP and Rosoboronexport give 1,000-1,200 mm behind ERA for the HEAT warhead; upper value shown. Army Recognition's 1,100-1,300 mm (s5) includes Kornet-EM missiles." }
+  missile_weight: { value: 29.5, source: s1, confidence: high, note: "Rosoboronexport: missile in launch tube 29.5 ± 0.5 kg; several secondary sources round this to 29 kg." }
+  flight_time_max: { value: 30, source: s3, confidence: low, note: "Source says only that the subsonic missile takes 'about half a minute' to reach maximum range; no manufacturer figure found." }
+operators:
+  - { country: RU, force: "Ground Forces", state: in_service, quantity: null, source: s4 }
+  - { country: TR, force: "Land Forces", state: in_service, quantity: null, source: s8 }
+  - { country: GR, force: "Army", state: in_service, quantity: null, source: s5 }
+  - { country: IN, force: "Army", state: in_service, quantity: null, source: s5 }
+  - { country: DZ, force: "Army", state: in_service, quantity: null, source: s5 }
+  - { country: SY, force: "Army", state: in_service, quantity: null, source: s5 }
+  - { country: PK, force: "Army", state: in_service, quantity: null, source: s5 }
+  - { country: SA, force: "Armed Forces", state: in_service, quantity: null, source: s5 }
+  - { country: JO, force: "Armed Forces", state: in_service, quantity: null, source: s12 }
+  - { country: AE, force: "Armed Forces", state: in_service, quantity: null, source: s9 }
+  - { country: BH, force: "Armed Forces", state: in_service, quantity: null, source: s10 }
+  - { country: RS, force: "Army (72nd Special Operations Brigade)", state: in_service, quantity: null, source: s11 }
+cost: { value: 26000, currency: USD, price_year: 2019, basis: unit_price, source: s13, confidence: low, note: "Per-missile price quoted by Zaman al-Wasl (2019), a single secondary source with no manufacturer confirmation. For comparison, Turkey's 2008 contract (USD 70 million for 80 launchers and 800 missiles, s8) works out to about USD 87,500 per missile including launchers; that figure is not shown because it mixes in launcher costs." }
+contracts:
+  - { customer: "Turkey / Land Forces", year: 2008, quantity: 800, value: 70000000, currency: USD, note: "80 Kornet-E launchers and 800 missiles.", source: s8 }
+  - { customer: "United Arab Emirates / Armed Forces", year: 2019, quantity: null, value: 40000000, currency: USD, note: "Kornet-E systems bought from KBP at IDEX 2019; reported as AED 146.92 million (about USD 40 million); quantity not disclosed.", source: s9 }
+  - { customer: "Bahrain", year: 2016, quantity: null, value: null, currency: null, note: "A batch of Kornet-E systems delivered by Rosoboronexport in 2016.", source: s10 }
+  - { customer: "Jordan / Jadara Equipment and Defence Systems", year: 2021, quantity: null, value: null, currency: null, note: "Licensed assembly agreement for 9M133-1 and 9M133F-1 missiles, announced at IDEX 2021; no transfer of production technology.", source: s12 }
+peers: [tow-2b, spike-lr2, mmp]
+sources:
+  - { id: s1, url: "http://roe.ru/en/production/land-forces/missile-systems-multiple-rocket-launchers-mrl-atgm-systems-and-field-artillery-guns/atgm-systems/kornet-e/?theme=theme-green", title: "Kornet-E", publisher: "Rosoboronexport", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "http://www.kbptula.ru/en/productions/antitank-guided-weapon/kornet-e", title: "KBP Instrument Design Bureau - Kornet-E", publisher: "KBP Instrument Design Bureau", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://weaponsystems.net/system/1062-9K135+Kornet", title: "9K135 Kornet", publisher: "Weapon Systems (weaponsystems.net)", retrieved: 2026-11-22, kind: reference }
+  - { id: s4, url: "https://www.army-technology.com/projects/kornet/", title: "Kornet E Anti-Tank Missile - Army Technology", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.armyrecognition.com/military-products/army/anti-tank-systems-and-vehicles/anti-tank-guided-missiles/9m133-kornet-e", title: "AT-14 Spriggan 9M133 Kornet- E Kornet-EM", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.19fortyfive.com/2025/04/russias-kornet-missile-the-tank-killer-ukraine-dreads/", title: "Russia's Kornet Missile: The Tank Killer Ukraine Dreads", publisher: "19FortyFive", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.defenseindustrydaily.com/Turkey-Orders-Russian-Kornet-Anti-Tank-Missiles-05083/", title: "Turkey Orders Russian 'Kornet' Anti-Tank Missiles", publisher: "Defense Industry Daily", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://quwa.org/daily-news/pakistan-ordered-kornet-e-anti-tank-guided-missiles-in-2017-2018/", title: "Pakistan Ordered Kornet-E Anti-Tank Guided Missiles in 2017-2018", publisher: "Quwa", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.globalsecurity.org/military/library/news/2019/02/mil-190217-sputnik01.htm", title: "Abu Dhabi Purchases Russian Anti-Tank Missile Systems - UAE Armed Forces", publisher: "GlobalSecurity.org (Sputnik report)", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2017/russia-to-supply-kornet-e-anti-tank-guided-missile-to-bahrain", title: "Russia to supply Kornet-E anti-tank guided missile to Bahrain", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://www.armyrecognition.com/focus-analysis-conflicts/army/armies-in-the-world/russian-kornet-anti-tank-missile-system-entered-service-with-special-forces-of-serbia", title: "Russian Kornet anti-tank missile system entered service with Special Forces of Serbia", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://www.shephardmedia.com/news/landwarfareintl/idex-2021-kornet-e-set-assembly-jordan/", title: "IDEX 2021: Kornet-E set for assembly in Jordan", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://en.zamanalwsl.net/news/article/44792/", title: "Daily use of Russia's anti-tank missiles costs regime $1.2 mn daily", publisher: "Zaman Al Wasl", retrieved: 2026-11-22, kind: press }
