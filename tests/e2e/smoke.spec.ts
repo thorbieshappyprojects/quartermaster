@@ -68,3 +68,14 @@ test('compare two cards side by side', async ({ page }) => {
   await page.getByTestId('compare-toggle').click();
   await expect(page.getByTestId('compare-toggle')).toHaveAttribute('aria-pressed', 'true');
 });
+
+test('ranks: browse, equivalence table and an order round', async ({ page }) => {
+  await page.goto('/#/ranks');
+  await expect(page.getByTestId('rank-list').locator('li').first()).toBeVisible();
+  await page.goto('/#/ranks/table');
+  await expect(page.getByTestId('rank-table').locator('tbody tr').first()).toBeVisible();
+  await page.goto('/#/ranks/order');
+  const round = page.getByTestId('ranks-order');
+  for (let i = 0; i < 4; i++) await round.locator('.options .btn:not([disabled])').first().click();
+  await expect(round.getByRole('button', { name: 'Next' })).toBeVisible();
+});
