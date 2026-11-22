@@ -1,0 +1,51 @@
+id: m1a1-abrams
+category: main-battle-tank
+name: "M1A1 Abrams"
+variant_note: "M1A1 / M1A1 HA baseline per USMC fact file; later AIM, SA and FEP upgrades differ"
+family: "M1 Abrams"
+aliases: ["Tank, Combat, Full-Tracked, 120 mm Gun, M1A1", "M1A1 Common Tank"]
+manufacturer: { name: "General Dynamics Land Systems" }
+production_sites:
+  - { place: "Lima", country: US, source: s11 }
+  - { place: "Warren", country: US, source: s3 }
+origin: US
+role: "Tracked main battle tank with a four-person crew, a 120 mm smoothbore gun and a gas-turbine engine; the second major production version of the M1 Abrams."
+memorable_fact: { text: "The M1A1 replaced the original M1's 105 mm gun with the 120 mm M256 smoothbore, which is based on a Rheinmetall gun developed in West Germany.", source: s4 }
+status: in_service
+in_service_since: { value: 1985, source: s2, confidence: medium, note: "Year the first M1A1s were delivered to US Army units (August 1985). The base M1 entered service in 1980. The USMC fact file (s1) gives November 1990 as the Marine Corps introduction date." }
+units_built: { value: 4976, source: s3, confidence: low, range: { min: 4796, max: 4976 }, note: "Only new-build M1A1s for the US Army, as stated by Army Recognition. The same source lists 221 more for the USMC and 755 for Egypt, but Defense News (s6) reports Egypt's co-production total reaching 1,130. Other public figures give 4,796 for the US Army. No consistent all-user total was found, so none is shown." }
+combat_use: { text: "M1A1 and M1A1 HA tanks spearheaded the US ground offensive in the 1991 Gulf War, with 1,848 deployed by the US Army and Marine Corps.", source: s2 }
+specs:
+  combat_weight: { value: 61.4, source: s1, confidence: medium, range: { min: 57, max: 62 }, note: "USMC fact file gives 'weight fully armed' as 67.7 short tons (61.4 t). FAS lists 63 short tons (about 57 t) for the M1A1 in one table and 67.6 short tons in another. Army Recognition gives 62,000 kg. The government figure is shown." }
+  gun_calibre: { value: 120, source: s1, confidence: high, note: "M256 smoothbore." }
+  engine_power: { value: 1500, source: s1, confidence: high, note: "AGT-1500 gas turbine, multi-fuel." }
+  top_speed: { value: 67.7, source: s1, confidence: high, range: { min: 66.8, max: 68 }, note: "Governed maximum of 42 mph (67.72 km/h) per USMC fact file. FAS gives 41.5 mph (66.8 km/h) and Army Recognition about 68 km/h." }
+  range: { value: 465, source: s1, confidence: medium, range: { min: 426, max: 465 }, note: "Cruising range of 289 mi (465 km) without the NBC system, or 279 mi (449 km) with it, per USMC fact file. FAS gives 275 mi (443 km) and Army Recognition 426 km." }
+  crew: { value: 4, source: s1, confidence: high, note: "Commander, gunner, loader and driver." }
+operators:
+  - { country: EG, force: "Army", state: in_service, quantity: 1130, source: s6 }
+  - { country: MA, force: "Royal Moroccan Armed Forces", state: in_service, quantity: 222, source: s5 }
+  - { country: IQ, force: "Army", state: in_service, quantity: null, source: s3 }
+  - { country: PL, force: "Land Forces", state: in_service, quantity: 116, source: s8 }
+  - { country: UA, force: "Ground Forces", state: in_service, quantity: null, source: s12 }
+  - { country: AU, force: "Army", state: retired, quantity: 59, source: s9 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "The USMC fact file (s1) gives a unit replacement cost of $4,300,000 but no price year. No reliable public source for the price year was found, so no cost is shown." }
+contracts:
+  - { customer: "Australia / Army", year: 2004, quantity: 59, value: 550000000, currency: AUD, note: "Government-announced project cost of about A$550 million for 59 M1A1 AIM tanks, including support elements. Not a tank-only price.", source: s10 }
+  - { customer: "Poland / Land Forces", year: 2022, quantity: 116, value: 3750000000, currency: USD, note: "DSCA-notified FMS estimate (December 2022), including 12 M88A2, 8 M1110 bridges and other vehicles. Agreement signed 2023 (s8). Tanks are ex-USMC M1A1 FEP; ESD calls them M1A1SA.", source: s7 }
+  - { customer: "Morocco / Royal Moroccan Armed Forces", year: 2015, quantity: 222, value: null, currency: null, note: "Ex-US Army tanks upgraded to M1A1 SA. A further 162 M1A1 were approved in December 2018.", source: s5 }
+  - { customer: "Iraq / Army", year: 2008, quantity: 140, value: null, currency: null, note: "Request for 140 M1A1 upgraded to M1A1M configuration. Final shipment delivered August 2011.", source: s3 }
+peers: [leopard-2a4, t-72b3, t-90m]
+sources:
+  - { id: s1, url: "https://www.gulflink.osd.mil/du/du_refs/n21en080/usmc_factfile_m1a1.html", title: "M1A1 Main Battle Tank", publisher: "U.S. Department of Defense (GulfLINK), reproducing U.S. Marine Corps fact file", retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://man.fas.org/dod-101/sys/land/m1.htm", title: "M1 Abrams Main Battle Tank", publisher: "Federation of American Scientists", retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://www.armyrecognition.com/military-products/army/main-battle-tanks/main-battle-tanks/m1a1-abrams-united-states-uk", title: "M1A1 Abrams", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.pbs.org/wgbh/frontline/wgbh/pages/frontline/gulf/weapons/m1.html", title: "Weapons - M1 Abrams", publisher: "PBS Frontline", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.shephardmedia.com/news/landwarfareintl/idex-2023-us-extends-m1-abrams-tank-support-for-mena-operators/", title: "IDEX 2023: US extends M1 Abrams tank support for MENA operators", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.defensenews.com/home/2015/11/01/as-us-egypt-tensions-thaw-m1a1-abrams-tank-co-production-to-resume/", title: "As US-Egypt Tensions Thaw, M1A1 Abrams Tank Co-Production to Resume", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://euro-sd.com/2022/12/news/28668/us-approves-sale-of-116-ex-us-m1a1sa-abrams-mbts-for-poland/", title: "US Approves Sale of 116 Ex-US M1A1SA Abrams MBTs for Poland", publisher: "European Security & Defence (ESD)", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://defence24.com/armed-forces/polish-mod-comments-on-additional-abrams-tanks", title: "Polish MoD Comments on Additional Abrams Tanks", publisher: "Defence24", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.defensenews.com/global/asia-pacific/2024/10/23/donated-aussie-abrams-tanks-to-receive-baptism-of-fire-in-ukraine/", title: "Donated Aussie Abrams tanks to receive baptism of fire in Ukraine", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/3XVB6%22;src1=sm1", title: "ParlInfo - M1 Abrams chosen as Australian Army's replacement tank.", publisher: "Parliament of Australia", retrieved: 2026-11-22, kind: government }
+  - { id: s11, url: "https://www.militaryaerospace.com/home/article/16720742/general-dynamics-wins-33-million-to-enhance-iraqi-abrams-tank-and-vetronics", title: "General Dynamics wins $33 million to enhance Iraqi Abrams tank and vetronics", publisher: "Military & Aerospace Electronics", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/upgraded-australian-m1a1-abrams-tanks-enter-ukraine-combat-service-against-drone-threats", title: "Upgraded Australian M1A1 Abrams Tanks Enter Ukraine Combat Service Against Drone Threats", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }

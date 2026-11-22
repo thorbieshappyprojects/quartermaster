@@ -1,0 +1,42 @@
+id: t-72b3
+category: main-battle-tank
+name: T-72B3
+variant_note: T-72B3 obr. 2011 baseline (V-84-1 840 hp engine, Kontakt-5 ERA, Sosna-U sight)
+family: T-72
+aliases: ["T-72B3 mod. 2011", "Т-72Б3"]
+manufacturer: { name: Uralvagonzavod }
+production_sites:
+  - { place: Nizhny Tagil, country: RU, source: s9 }
+  - { place: Omsk, country: RU, source: s3 }
+origin: RU
+role: Upgrade of existing T-72B tanks for the Russian Ground Forces. The tank is overhauled and gets a new fire-control system, a thermal gunner's sight and the 2A46M-5 gun.
+memorable_fact: { text: "In 2014, T-72B3 tanks seen in eastern Ukraine, a variant Ukraine did not have, were cited as evidence that the Russian army was directly involved.", source: s7 }
+status: in_production
+in_service_since: { value: 2011, source: s3, confidence: medium, range: { min: 2011, max: 2013 }, note: "First service of this variant. The first batch (at least 10 tanks) reached the 17th Motor Rifle Brigade in October 2011. Several sources give 2013 as the first delivery year. More than 270 tanks had been delivered by the end of 2013 (s2)." }
+units_built: { value: 750, source: s3, confidence: low, note: "Minimum number of T-72B3 obr. 2011 tanks shipped to the Russian forces and for export in 2011–2016, from one author's compilation. Later versions (obr. 2014, obr. 2016/'T-72B3M') are not included. These are upgraded existing hulls, not new-build tanks." }
+combat_use: { text: "Used widely by Russian forces in the war against Ukraine. The IISS assessed that Russia lost about half of its pre-war T-72B3 and T-72B3M fleet.", source: s8 }
+specs:
+  combat_weight: { value: 46, source: s1, confidence: medium, range: { min: 46, max: 46.5 }, note: "Army Recognition gives 46,000 kg. The Ukrainian National Defence University museum page (s9) gives 46.5 t. The displayed value is the trade-press figure for the obr. 2011 baseline." }
+  gun_calibre: { value: 125, source: s1, confidence: medium, note: "125 mm 2A46M-5 smoothbore gun, also stated by s2." }
+  engine_power: { value: 840, source: s2, confidence: medium, note: "Rebuilt V-84-1 diesel, also stated by s1. The obr. 2016 version uses the 1,130 hp V-92S2F." }
+  top_speed: { value: 70, source: s1, confidence: low, note: "Only one source gives this figure. GlobalSecurity (s2) says driving performance stayed at the T-72B level." }
+  range: { value: 500, source: s1, confidence: low, note: "Road cruising range. Only one source gives this figure." }
+  crew: { value: 3, source: s1, confidence: medium, note: "Commander, gunner and driver. The autoloader replaces a fourth crew member." }
+operators:
+  - { country: RU, force: Ground Forces, state: in_service, quantity: null, source: s8 }
+  - { country: BY, force: Army, state: in_service, quantity: null, source: s5 }
+cost: { value: 52000000, currency: RUB, price_year: 2013, basis: unit_price, source: s4, confidence: medium, note: "Reported cost to upgrade one T-72B to T-72B3 at 2013 prices, about 30 million RUB of which was the overhaul. It does not cover a new tank. The 2016 improved-protection version cost 78.9 million RUB per tank." }
+contracts:
+  - { customer: Russia / Ministry of Defence, year: 2012, quantity: null, value: 6000000000, currency: RUB, note: "May 2012 agreement with Uralvagonzavod to launch serial T-72B3 modernisation (about USD 150 million as reported). Number of tanks not stated.", source: s1 }
+  - { customer: Russia / Ministry of Defence, year: 2016, quantity: 150, value: null, currency: RUB, note: "Upgrade of 150 T-72B to 'T-72B3 with improved protection' (obr. 2016) at 78.9 million RUB per tank. 32 tanks, about 2.5 billion RUB, were planned for delivery in 2016.", source: s4 }
+  - { customer: Belarus / Ministry of Defence, year: 2019, quantity: 11, value: null, currency: null, note: "Upgrade of 11 Belarusian T-72B to T-72B3 by Uralvagonzavod. Belarus had already received at least 24 T-72B3 obr. 2016.", source: s5 }
+peers: [t-90m, leopard-2a4, m1a1-abrams]
+sources:
+  - { id: s1, url: "https://www.armyrecognition.com/military-products/army/main-battle-tanks/main-battle-tanks/t-72b3-russia-uk", title: "T-72B3", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.globalsecurity.org/military/world/russia/t-72b3.htm", title: "T-72B3 Medium Tank", publisher: GlobalSecurity.org, retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://www.soldat.ru/news/1307.html", title: "Броня крепка: 10 лет модификации танка Т-72 - танку Т-72Б3.", publisher: Soldat.ru, retrieved: 2026-11-22, kind: other }
+  - { id: s4, url: "https://lenta.ru/news/2016/03/10/t72b3/", title: "«Уралвагонзавод» модернизирует 150 танков Т-72Б российской армии", publisher: Lenta.ru, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.janes.com/defence-intelligence-insights/defence-news/belarus-signs-contract-with-russia-for-additional-t-72b3s", title: "Belarus signs contract with Russia for additional T-72B3s", publisher: Janes, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.martenscentre.eu/wp-content/uploads/2020/06/russian-military-intervention-ukraine_0-1.pdf", title: "Proof of Russian Military Intervention in Ukraine Caught in the Act", publisher: Wilfried Martens Centre for European Studies, retrieved: 2026-11-22, kind: other }
+  - { id: s8, url: "https://odessa-journal.com/public/iiss-russia-lost-about-half-of-its-modern-tanks-in-the-war-against-ukraine", title: "IISS: Russia lost about half of its modern tanks in the war against Ukraine", publisher: Odessa Journal, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://nuou.org.ua/en/t-72-b3mb.html", title: "T-72B3 tank", publisher: National Defence University of Ukraine, retrieved: 2026-11-22, kind: government }

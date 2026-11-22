@@ -1,0 +1,63 @@
+id: leopard-2a4
+category: main-battle-tank
+name: "Leopard 2A4"
+variant_note: "Baseline German Leopard 2A4 production standard (batches 5-8, 1985-1992) with 120 mm L/44 gun"
+family: "Leopard 2"
+aliases: ["Leo 2A4"]
+manufacturer: { name: "Krauss-Maffei (now KNDS Deutschland)" }
+production_sites:
+  - { place: "Munich", country: DE, source: s6 }
+  - { place: "Kiel", country: DE, source: s6 }
+origin: DE
+role: "Tracked main battle tank with a 120 mm smoothbore gun and a four-person crew. It provides armoured mobility and direct-fire combat power."
+memorable_fact: { text: "The 2A4 became the baseline of the Leopard 2 family: practically all older Leopard 2s were upgraded to the 2A4 standard.", source: s5 }
+status: in_service
+in_service_since: { value: 1985, source: s3, confidence: medium, note: "Year of first delivery of this variant. The fifth production batch, the first designated 2A4, was delivered to the Bundeswehr in 1985-1987. The base Leopard 2 system entered service in 1979 (s5)." }
+units_built: { value: 695, source: s4, confidence: low, note: "Tanks built new to the 2A4 standard for Germany in production batches 5-8 (1985-1992). This excludes earlier German tanks upgraded to 2A4 standard and export or licence production. s3 and s6 confirm batch 5 (370) and batch 6 (150)." }
+combat_use: { text: "Used in combat by Ukraine against Russia since June 2023, first during the summer counteroffensive in the Zaporizhzhia region.", source: s7 }
+specs:
+  combat_weight: { value: 55.15, source: s1, confidence: high, range: { min: 55.15, max: 57.2 }, note: "55.15 t is the combat weight given by the Singapore MINDEF. The Canadian Army lists 55,150 kg basic weight and 57,200 kg combat load (s2). The higher figure is shown in range only." }
+  gun_calibre: { value: 120, source: s1, confidence: high, note: "120 mm L/44 smoothbore gun." }
+  engine_power: { value: 1500, source: s1, confidence: high, note: "MTU MB 873 Ka-501 diesel engine." }
+  top_speed: { value: 72, source: s1, confidence: high, range: { min: 68, max: 72 }, note: "Maximum road speed of 72 km/h per Singapore MINDEF. The Canadian Army gives 68 km/h on road (s2). The manufacturer-aligned figure of 72 km/h is displayed." }
+  range: { value: 550, source: s1, confidence: medium, range: { min: 340, max: 550 }, note: "Singapore MINDEF gives a maximum road range of 550 km, and s17 also gives 550 km. The Canadian Army gives 340 km on road (s2). The government sources conflict, so confidence is medium." }
+  crew: { value: 4, source: s1, confidence: high, note: "Commander, gunner, loader and driver. The Canadian Army also lists 4 (s2)." }
+operators:
+  - { country: AT, force: "Austrian Armed Forces (Bundesheer)", state: in_service, quantity: 58, source: s10, note: "58 tanks included in the 2023 KNDS modernisation programme." }
+  - { country: CA, force: "Canadian Army", state: in_service, quantity: 42, source: s11, note: "42 Leopard 2A4 per the Military Balance 2022, cited in s11, before eight were donated to Ukraine. Excludes 20 Leopard 2A4M CAN." }
+  - { country: CL, force: "Chilean Army", state: in_service, quantity: null, source: s9 }
+  - { country: CZ, force: "Czech Army", state: in_service, quantity: 42, source: s12 }
+  - { country: ES, force: "Spanish Army", state: in_service, quantity: 54, source: s17, note: "54 tanks in active service. The remainder are stored or have been transferred." }
+  - { country: FI, force: "Finnish Army", state: in_service, quantity: null, source: s9 }
+  - { country: HU, force: "Hungarian Defence Forces", state: in_service, quantity: 12, source: s12, note: "Used for training." }
+  - { country: ID, force: "Indonesian Army", state: in_service, quantity: 42, source: s13, note: "42 Leopard 2A4 with air conditioning ('Leopard 2+'), plus 61 upgraded Leopard 2 RI." }
+  - { country: PL, force: "Polish Land Forces", state: in_service, quantity: null, source: s12, note: "Poland reports 247 Leopard 2 tanks across the 2A4, 2A5 and 2PL versions combined." }
+  - { country: SG, force: "Singapore Army", state: in_service, quantity: 66, source: s1, note: "66 refurbished tanks were announced for acquisition in December 2006." }
+  - { country: SK, force: "Slovak Land Forces", state: in_service, quantity: 15, source: s15 }
+  - { country: TR, force: "Turkish Land Forces", state: in_service, quantity: 316, source: s16, note: "Figure from the Military Balance 2020, cited in s16. Used in combat in northern Syria in 2016-17. Losses in the al-Bab battle were verified by s8." }
+  - { country: UA, force: "Ukrainian Ground Forces", state: in_service, quantity: null, source: s7 }
+cost: { value: 11500000, currency: EUR, price_year: 2024, basis: contract_per_unit, source: s9, confidence: low, note: "Czech Republic order for 14 refurbished Leopard 2A4 from Rheinmetall (December 2024), about EUR 161 million / 14 = about EUR 11.5 million. These are used tanks, and the contract includes support measures, so this is not a new-build unit price." }
+contracts:
+  - { customer: "Indonesia / Indonesian Army", year: 2012, quantity: 103, value: 216000000, currency: EUR, note: "Rheinmetall contract signed December 2012, in force 2013. Covers 103 overhauled and modernised Leopard 2 tanks (42 2A4-based and 61 upgraded Leopard 2 RI), 42 Marder 1A3, 11 support vehicles, training, logistics and ammunition.", source: s14 }
+  - { customer: "Czech Republic / Czech Army", year: 2024, quantity: 14, value: 161000000, currency: EUR, note: "Approximate value. This order adds to earlier ring-swap deliveries, giving 42 Leopard 2A4 by the end of 2026.", source: s9 }
+  - { customer: "Slovakia / Slovak Land Forces", year: 2022, quantity: 15, value: null, currency: null, note: "German ring-swap agreement: Slovakia received 15 tanks in exchange for 30 BMP-1 given to Ukraine. First tank handed over on 19 December 2022.", source: s15 }
+  - { customer: "Singapore / Singapore Army", year: 2006, quantity: 66, value: null, currency: null, note: "Acquisition of 66 refurbished Leopard 2A4 announced by MINDEF in December 2006.", source: s1 }
+peers: [m1a1-abrams, t-72b3, t-90m]
+sources:
+  - { id: s1, url: "https://www.nas.gov.sg/archivesonline/data/pdfdoc/MINDEF_20081025001/MINDEF_20081025002.pdf", title: "Fact Sheet: Leopard 2A4 Main Battle Tank (25 Oct 2008)", publisher: "Ministry of Defence Singapore (National Archives of Singapore)", retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://army.canada.ca/en/equipment/vehicles/leopard-2a4-tank.page", title: "Leopard 2A4 Tank - Canadian Army", publisher: "Canadian Army", retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.joint-forces.com/features/31130-bundeswehr-leopard-2-mbt-at-40-part-3", title: "Bundeswehr Leopard 2 MBT At 40 ~ Part 3", publisher: "Joint Forces News", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://x.com/JonHawkes275/status/1178974466162020352?lang=en", title: "Jon Hawkes on X: Leopard 2A4 production batches", publisher: "Jon Hawkes (X post)", retrieved: 2026-11-22, kind: other }
+  - { id: s5, url: "https://weaponsystems.net/system/827-Leopard%202A4", title: "Leopard 2A4", publisher: "WeaponSystems.net", retrieved: 2026-11-22, kind: reference }
+  - { id: s6, url: "https://www.armedconflicts.com/topic/view/24510", title: "Leopard 2A4 : Germany (DEU)", publisher: "Armedconflicts.com", retrieved: 2026-11-22, kind: reference }
+  - { id: s7, url: "https://united24media.com/latest-news/ukrainian-leopard-2-tank-eliminates-entire-russian-armored-column-in-donetsk-region-video-5427", title: "Ukrainian Leopard 2 Tank Eliminates Entire Russian Armored Column in Donetsk Region, Video", publisher: "UNITED24 Media", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.bellingcat.com/news/mena/2017/02/12/battle-al-bab-verifying-turkish-military-vehicle-losses/", title: "The Battle for Al-Bab: Verifying Euphrates Shield Vehicle Losses", publisher: "Bellingcat", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/rheinmetall-confirms-order-of-leopard-2a4-tanks-from-czech-republic", title: "Rheinmetall Confirms Order of Leopard 2A4 Tanks from Czech Republic", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2023/austrian-army-modernizes-leopard-2a4-main-battle-tank-in-germany", title: "Austrian Army gets Leopard 2A4 Main Battle Tanks modernized by KNDS", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://www.armyrecognition.com/news/army-news/army-news-2023/canada-s-leopard-2-main-battle-tank-fleet-faces-uncertain-future", title: "Canada's Leopard 2 main battle tank fleet faces uncertain future", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://militaeraktuell.at/en/gallant-cheetah-2026-v4-armored-units-conduct-joint-training/", title: "\"Gallant Cheetah 2026\": V4 Armored Units Conduct Joint Training", publisher: "Militär Aktuell", retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://www.australiandefence.com.au/news/indonesia-s-leopards-arrive", title: "Indonesia's Leopards arrive", publisher: "Australian Defence Magazine", retrieved: 2026-11-22, kind: press }
+  - { id: s14, url: "https://www.army-technology.com/news/newsrheinmetall-supply-vehicles-indonesian-army/", title: "Rheinmetall to supply tracked armoured vehicles to Indonesian Army", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s15, url: "https://www.mod.gov.sk/52335-en/slovensko-si-prevzalo-od-nemecka-prvy-z-15-tankov-leopard-2a4/", title: "Slovakia takes delivery of the first of the 15 Leopard 2A4 Main Battle Tanks from Germany", publisher: "Ministry of Defence of the Slovak Republic", retrieved: 2026-11-22, kind: government }
+  - { id: s16, url: "https://www.armyrecognition.com/focus-analysis-conflicts/army/defence-security-industry-technology/turkey-unveils-new-leopard-2a4-main-battle-tank-upgrade-fitted-with-altay-tank-turret", title: "Turkey unveils new Leopard 2A4 main battle tank upgrade fitted with Altay tank turret", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s17, url: "https://tanks-encyclopedia.com/modern/spain/leopard-2a4-in-spanish-service/", title: "Leopard 2A4 in Spanish Service", publisher: "Tank Encyclopedia", retrieved: 2026-11-22, kind: reference }

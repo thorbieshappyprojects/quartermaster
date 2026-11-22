@@ -1,5 +1,5 @@
 {
-  "spentUsd": 73.5942,
+  "spentUsd": 76.1988,
   "entries": [
     {
       "date": "2026-11-21",
@@ -1416,6 +1416,54 @@
       "input": 168291,
       "output": 4113,
       "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "main-battle-tank/t-72b3",
+      "usd": 0.6944,
+      "input": 403271,
+      "output": 12072,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "main-battle-tank/leopard-2a4",
+      "usd": 1.0098,
+      "input": 458724,
+      "output": 20148,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "main-battle-tank/m1a1-abrams",
+      "usd": 0.8413,
+      "input": 324441,
+      "output": 19464,
+      "searches": 16
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/leopard-2a4",
+      "usd": 0.0186,
+      "input": 3363,
+      "output": 256,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/m1a1-abrams",
+      "usd": 0.0231,
+      "input": 4494,
+      "output": 258,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/t-72b3",
+      "usd": 0.0174,
+      "input": 3009,
+      "output": 266,
+      "searches": 0
     }
   ]
 }

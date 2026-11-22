@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: t-72b3
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:T-72B3_mod._2011_in_Mulino.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/0/05/T-72B3_mod._2011_in_Mulino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: T-72B3 mod. 2011 in Mulino.jpg
+    caption: T-72B3 mod. 2011 during a readiness inspection at the Mulino training ground, Nizhny Novgorod Oblast, 2017.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Ministry of Defence of the Russian Federation
+    credit: http://мультимедиа.минобороны.рф/multimedia/photo/gallery.htm?id=42214@cmsPhotoGallery
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:T-72B3_-_TankBiathlon2013-09.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/T-72B3_-_TankBiathlon2013-09.jpg/1280px-T-72B3_-_TankBiathlon2013-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: T-72B3 - TankBiathlon2013-09.jpg
+    caption: T-72B3 competing in the 2013 Tank Biathlon at Alabino.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Vitaly V. Kuzmin
+    credit: http://vitalykuzmin.net/?q=node/510
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:T-72B3_-_Tankbiathlon15finalp1-05.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/T-72B3_-_Tankbiathlon15finalp1-05.jpg/1280px-T-72B3_-_Tankbiathlon15finalp1-05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: T-72B3 - Tankbiathlon15finalp1-05.jpg
+    caption: Russian team T-72B3 during the 2015 Tank Biathlon final.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Vitaly V. Kuzmin
+    credit: http://vitalykuzmin.net/?q=node/613
+    priority: A
+    retrieved: 2026-11-22
+note: "Picked T-72B3 photos from 2013–2017, which predate the 2016 modification. #11 is explicitly titled mod. 2011. #9 is the 2016 model and was excluded. #10 shows a destroyed tank and was also excluded."

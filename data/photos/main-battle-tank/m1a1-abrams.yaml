@@ -1,0 +1,34 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: m1a1-abrams
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:M1A1_Abrams_arrives_in_Germany_for_Ukraine-6.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/M1A1_Abrams_arrives_in_Germany_for_Ukraine-6.jpg/1280px-M1A1_Abrams_arrives_in_Germany_for_Ukraine-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: M1A1 Abrams arrives in Germany for Ukraine-6.jpg
+    caption: U.S. M1A1 Abrams tank awaiting offloading at Grafenwoehr, Germany, for training Ukrainian forces, 2023.
+    shows: exact_variant
+    licence: Public domain
+    author: Spc. Christian Carrillo
+    credit: https://www.dvidshub.net/image/7818078/m1a1-abrams-tanks-arrival
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Left_front_view_M1A1_Abrams_Main_Battle_Tank_at_U.S._Army_Armor_Center,_USAARMC_DA-SC-94-01698.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Left_front_view_M1A1_Abrams_Main_Battle_Tank_at_U.S._Army_Armor_Center%2C_USAARMC_DA-SC-94-01698.jpg/1280px-Left_front_view_M1A1_Abrams_Main_Battle_Tank_at_U.S._Army_Armor_Center%2C_USAARMC_DA-SC-94-01698.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Left front view M1A1 Abrams Main Battle Tank at U.S. Army Armor Center, USAARMC DA-SC-94-01698.jpg
+    caption: Left front view of an M1A1 Abrams main battle tank at the U.S. Army Armor Center, 1989.
+    shows: exact_variant
+    licence: Public domain
+    author: Mr. Steve Catlin
+    credit: https://catalog.archives.gov/id/6487185
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Firing_Australian_M1A1_Abrams_MBT.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Firing_Australian_M1A1_Abrams_MBT.JPG/1280px-Firing_Australian_M1A1_Abrams_MBT.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Firing Australian M1A1 Abrams MBT.JPG
+    caption: Australian M1A1 Abrams firing during exercise Talisman Sabre 2011.
+    shows: exact_variant
+    licence: Public domain
+    author: Lance Cpl. Garry J. Welch, U.S. Marine Corps
+    credit: "http://www.marines.mil/ ; VIRIN: 110718-M-VX252-119"
+    priority: A
+    retrieved: 2026-11-22
+note: "Excluded the simulator, the maps, the diagram, the 105 mm M1 photo and #16, which mislabels a Bradley. Also left out close-up and crowd display shots."
