@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "FREMM Aquitaine caractéristiques defense.gouv.fr",
+    "Naval Group FREMM specifications Sylver",
+    "FREMM coût unitaire",
+    "FREMM Languedoc Houthi drones Aster",
+    "French FREMM DA Lorraine Sylver A50",
+    "Naval Group Lorient FREMM"
+  ],
+  "urlsSeen": [
+    "https://www.naval-group.com/en/first-sea-trial-fremm-da-lorraine-tenth-and-last-multi-mission-frigate-series",
+    "https://prod-site-internet-minarm-admin.cloud.defense.gouv.fr/sites/default/files/ministere-armees/Fr%C3%A9gate%20multi-missions%20%28FREMM%29%20-%20Multi-missions%20Frigate.pdf",
+    "https://www.assemblee-nationale.fr/dyn/15/questions/QANR5L15QE6766.pdf",
+    "https://www.irsem.fr/storage/file_manager_files/2025/03/bm-157-fremm.pdf",
+    "https://www.navalnews.com/naval-news/2023/12/french-frigate-languedoc-used-aster-15-missiles-against-drones/",
+    "https://www.shephardmedia.com/news/imps-news/inside-frances-frigate-factory/",
+    "https://www.janes.com/defence-intelligence-insights/defence-news/naval-group-delivers-first-fremm-air-defence-frigate-to-french-navy",
+    "https://www.naval-technology.com/projects/fremm/"
+  ]
+}

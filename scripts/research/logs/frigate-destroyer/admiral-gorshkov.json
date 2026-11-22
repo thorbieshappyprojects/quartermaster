@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "(search budget exhausted; direct fetches of sources cited by Wikipedia)"
+  ],
+  "urlsSeen": [
+    "https://en.wikipedia.org/wiki/Admiral_Gorshkov-class_frigate",
+    "https://navaltoday.com/2018/07/31/russia-commissions-lead-project-22350-frigate-admiral-gorshkov/",
+    "https://tass.com/defense/1180703",
+    "https://www.armyrecognition.com/archives/archives-naval-defense/naval-defense-2022/severnaya-verf-to-build-five-more-admiral-gorshkov-class-frigates-for-russia",
+    "https://www.armyrecognition.com/archives/archives-naval-defense/naval-defense-2023/russian-navy-project-22350-admiral-kasatanov-frigate-upgraded-with-zircon-hypersonic-missiles",
+    "https://ria.ru/20231225/tseremoniya-1917948231.html"
+  ]
+}

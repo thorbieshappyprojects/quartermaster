@@ -1,0 +1,46 @@
+id: sejong-the-great
+category: frigate-destroyer
+name: Sejong the Great class
+variant_note: "KDX-III Batch I (three ships), Republic of Korea Navy"
+family: "KDX-III"
+aliases: ["KDX-III", "Sejong-daewang-ham"]
+manufacturer: { name: "Hyundai Heavy Industries and Daewoo Shipbuilding & Marine Engineering (now Hanwha Ocean)" }
+origin: KR
+role: "Aegis guided-missile destroyer for fleet air defence, anti-surface and anti-submarine warfare, and land attack, the largest surface combatant of the ROK Navy."
+memorable_fact: { text: "A Batch I ship carries 128 vertical launch cells: 80 US Mk 41 cells plus 48 cells of the Korean K-VLS.", source: s1 }
+status: in_production
+in_service_since:
+  value: 2008
+  source: s1
+  confidence: medium
+  note: "Lead ship ROKS Sejong the Great (DDG-991) commissioned in 2008 (s1)."
+units_built:
+  value: 3
+  source: s1
+  confidence: medium
+  note: "Batch I ships commissioned 2008, 2010 and 2012 (s1). Later Batch II ships are not counted."
+combat_use:
+  text: "No confirmed combat use as of 2026."
+  source: s1
+specs:
+  displacement:
+    value: 10000
+    source: s1
+    confidence: low
+    range: { min: 10000, max: 11000 }
+    note: "Seaforces gives 10,000 t full load in its data and 11,000 t in its text (s1). No official ROK Navy figure found."
+  length: { value: 166, source: s1, confidence: low }
+  max_speed: { value: 30, source: s1, confidence: low, note: "30+ knots (s1)." }
+  range: { value: 5500, source: s1, confidence: low }
+  vls_cells:
+    value: 128
+    source: s1
+    confidence: medium
+    note: "80 Mk 41 (48 forward, 32 aft) plus 48 K-VLS aft (s1)."
+  crew: { value: 300, source: s1, confidence: low }
+operators:
+  - { country: KR, force: "Republic of Korea Navy", state: in_service, quantity: null, source: s1 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "A figure of USD 923 million per ship circulates (Wikipedia citing Military Today) but its underlying source and price year could not be checked." }
+peers: [arleigh-burke-flight-iia, type-055, type-45]
+sources:
+  - { id: s1, url: "https://www.seaforces.org/marint/Republic-Korea-Navy/Destroyer/Sejong-the-Great-class.htm", title: "KDX-III Sejong the Great class destroyers", publisher: "Seaforces Online", retrieved: 2026-11-22, kind: other }

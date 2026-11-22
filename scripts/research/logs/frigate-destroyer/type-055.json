@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "(search budget exhausted; direct fetches only)"
+  ],
+  "urlsSeen": [
+    "https://chinapower.csis.org/china-naval-modernization/",
+    "https://en.wikipedia.org/wiki/Type_055_destroyer"
+  ]
+}

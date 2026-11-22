@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Type 45 destroyer specifications",
+    "National Audit Office Type 45 programme cost",
+    "HMS Diamond Sea Viper Houthi"
+  ],
+  "urlsSeen": [
+    "https://des.mod.uk/what-we-do/navy-procurement-support/type-45",
+    "https://www.baesystems.com/en/product/destroyers",
+    "https://armyrecognition.com/military-products/navy/destroyers-cruisers/type-45",
+    "https://www.nao.org.uk/reports/providing-anti-air-warfare-capability-the-type-45-destroyer/",
+    "https://www.gov.uk/government/news/royal-navy-warship-shoots-down-houthi-missile"
+  ]
+}

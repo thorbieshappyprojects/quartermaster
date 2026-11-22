@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Fregatte F125 Bundeswehr Daten",
+    "F125 Kosten ARGE F125 Werften",
+    "F125 Rüstungsbericht 2019 Kosten"
+  ],
+  "urlsSeen": [
+    "https://bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/baden-wuerttemberg-klasse-f125-fregatten",
+    "https://www.bmvg.de/resource/blob/161466/688cf41b8379db585b70dfc1487aa714/20191205-download-ruestungsbericht-herbst-2019-data.pdf",
+    "https://armyrecognition.com/news/navy-news/2013/first-of-tkms-built-f-125-class-frigate-baden-wuerttemberg-christened-for-the-german-navy"
+  ]
+}

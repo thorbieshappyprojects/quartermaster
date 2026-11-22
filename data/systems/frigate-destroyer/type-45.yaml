@@ -1,0 +1,79 @@
+id: type-45
+category: frigate-destroyer
+name: Type 45
+variant_note: "Daring-class air-defence destroyer, Royal Navy"
+family: "Type 45 (Daring class)"
+aliases: ["Daring class"]
+manufacturer: { name: "BAE Systems" }
+production_sites:
+  - { place: "Glasgow", country: GB, source: s2 }
+  - { place: "Portsmouth", country: GB, source: s2 }
+origin: GB
+role: "Air-defence destroyer built around the Sea Viper (PAAMS) missile system to protect a naval task group against aircraft and missiles."
+memorable_fact: { text: "BAE Systems describes the Type 45 as 'the largest and most powerful Air Defence Destroyer ever built'.", source: s2 }
+status: in_service
+in_service_since:
+  value: 2009
+  source: s2
+  confidence: high
+  note: "The six ships were commissioned between July 2009 and September 2013 (s2)."
+units_built:
+  value: 6
+  source: s2
+  confidence: high
+  note: "Ships commissioned (s2). The class was originally planned at 12; the programme stopped at six (s5)."
+combat_use:
+  text: "In April 2024 HMS Diamond used Sea Viper to shoot down a Houthi missile fired at a merchant ship in the Gulf of Aden, during Red Sea operations against Houthi attacks."
+  source: s4
+specs:
+  displacement:
+    value: 7350
+    source: s1
+    confidence: medium
+    range: { min: 7350, max: 7500 }
+    note: "Defence Equipment & Support gives 7,350 t (s1), BAE Systems 7,500 t (s2). Neither says full load; higher full-load figures are reported elsewhere but were not verified."
+  length:
+    value: 152.4
+    source: s2
+    confidence: high
+    note: "BAE Systems 152.4 m (s2); DE&S rounds to 152 m (s1)."
+  max_speed:
+    value: 30
+    source: s1
+    confidence: medium
+    range: { min: 27, max: 30 }
+    note: "DE&S: 30 kn (s1); BAE Systems: 27 kn (s2). The government figure is shown."
+  range:
+    value: 7000
+    source: s1
+    confidence: medium
+    note: "DE&S and BAE Systems both give 7,000; DE&S shows the unit as 'm' and BAE as 'miles'. Treated as nautical miles, as on the Royal Navy page; unit uncertain."
+  vls_cells:
+    value: 48
+    source: s3
+    confidence: medium
+    note: "Six eight-cell Sylver A50 launchers for up to 48 Aster 15/30 missiles (s3)."
+  crew:
+    value: 190
+    source: s1
+    confidence: high
+    note: "DE&S: 190 (s1); BAE: approximately 190 (s2); accommodation for up to 235 (s3)."
+operators:
+  - { country: GB, force: "Royal Navy", state: in_service, quantity: 6, source: s2 }
+cost:
+  value: 1076666667
+  currency: GBP
+  price_year: 2009
+  basis: contract_per_unit
+  source: s5
+  confidence: medium
+  note: "NAO (March 2009): forecast procurement cost of GBP 6.46 billion for six ships, about GBP 1.08 billion each. Programme cost including development, not a unit price; 29% above the approved GBP 5 billion."
+contracts:
+  - { customer: "United Kingdom (Royal Navy)", year: null, quantity: 6, value: 6460000000, currency: GBP, note: "Forecast cost of procuring six ships as of the NAO's 2009 report.", source: s5 }
+peers: [arleigh-burke-flight-iia, iver-huitfeldt, type-055]
+sources:
+  - { id: s1, url: "https://des.mod.uk/what-we-do/navy-procurement-support/type-45", title: "Type 45", publisher: "Defence Equipment & Support (UK MoD)", retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://www.baesystems.com/en/product/destroyers", title: "Type 45 destroyers", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://armyrecognition.com/military-products/navy/destroyers-cruisers/type-45", title: "Type 45", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.gov.uk/government/news/royal-navy-warship-shoots-down-houthi-missile", title: "Royal Navy warship shoots down Houthi missile", publisher: "UK Ministry of Defence (GOV.UK)", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.nao.org.uk/reports/providing-anti-air-warfare-capability-the-type-45-destroyer/", title: "Providing Anti-Air Warfare Capability: the Type 45 Destroyer", publisher: "National Audit Office (UK)", retrieved: 2026-11-22, kind: government, note: "Figures as shown in search results for the report; the page itself was not opened." }

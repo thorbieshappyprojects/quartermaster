@@ -1,0 +1,65 @@
+id: iver-huitfeldt
+category: frigate-destroyer
+name: Iver Huitfeldt class
+variant_note: "Three-ship air-defence frigate class, Royal Danish Navy"
+family: "Iver Huitfeldt"
+aliases: ["Iver Huitfeldt-klassen"]
+manufacturer: { name: "Odense Staalskibsværft (Odense Steel Shipyard)" }
+production_sites:
+  - { place: "Odense", country: DK, source: s2 }
+  - { place: "Klaipėda (blocks, Baltija Shipyard)", country: LT, source: s2 }
+  - { place: "Loksa (blocks)", country: EE, source: s2 }
+origin: DK
+role: "Air-defence frigate with SM-2 and ESSM missiles for area air defence of a task group, also used for escort and anti-surface tasks."
+memorable_fact: { text: "Each ship cost about USD 332 million excluding weapons, which a War on the Rocks analysis contrasted with the far costlier US Littoral Combat Ship.", source: s1 }
+status: in_service
+in_service_since:
+  value: 2011
+  source: s4
+  confidence: low
+  note: "Ships commissioned in 2011 according to Wikipedia (s4, pointer); other passages there say the class entered service in 2012-2013. Contract signed 20 December 2006 (s2)."
+units_built:
+  value: 3
+  source: s2
+  confidence: high
+  note: "Contract for three ships (s2): Iver Huitfeldt, Peter Willemoes, Niels Juel."
+combat_use:
+  text: "In March 2024 Iver Huitfeldt shot down four Houthi drones in the Red Sea; its radar locked up after the third, so the last drone was downed with guns."
+  source: s3
+specs:
+  displacement:
+    value: 6600
+    source: s1
+    confidence: medium
+    note: "War on the Rocks: 6,600 tons (s1); Wikipedia gives 6,645 t full load (s4)."
+  length: { value: 138.7, source: s4, confidence: low, note: "Wikipedia (pointer); no primary figure found." }
+  max_speed: { value: 28, source: s1, confidence: medium }
+  range: { value: 9000, source: s1, confidence: medium, note: "9,000 nmi at 15 kn (s1)." }
+  vls_cells:
+    value: 32
+    source: s1
+    confidence: medium
+    note: "32-cell Mk 41 (s1). ESSM launchers (Mk 56, reportedly up to 24 missiles) are not counted; no reliable cell count found."
+  crew:
+    value: 100
+    source: s1
+    confidence: medium
+    note: "100 sailors plus billeting for 65 more (s1); Wikipedia gives 165 total (s4)."
+operators:
+  - { country: DK, force: "Royal Danish Navy", state: in_service, quantity: 3, source: s2 }
+cost:
+  value: 332000000
+  currency: USD
+  price_year: 2013
+  basis: unit_price
+  source: s1
+  confidence: low
+  note: "War on the Rocks (2013): USD 332M per ship excluding weapons; price year not stated, article year used. Danish navy news put the three-ship project at just under DKK 5 billion (s2)."
+contracts:
+  - { customer: "Denmark (Royal Danish Navy)", year: 2006, quantity: 3, value: null, currency: null, note: "Contract with Odense Staalskibsværft signed 20 December 2006; project value given as just under DKK 5 billion.", source: s2 }
+peers: [fremm, f125, type-45]
+sources:
+  - { id: s1, url: "https://warontherocks.com/2013/08/getting-our-moneys-worth-lcs-vs-iver-huitfeldt-class/", title: "Getting Our Money's Worth: LCS vs. Iver Huitfeldt Class", publisher: "War on the Rocks", retrieved: 2026-11-22, kind: reference }
+  - { id: s2, url: "http://www.navalhistory.dk/Danish/SoevaernsNyt/2008/0201_NyeFregatter.htm", title: "Søværnsnyt 2008: Nye fregatter", publisher: "navalhistory.dk", retrieved: 2026-11-22, kind: other }
+  - { id: s3, url: "https://www.dr.dk/nyheder/indland/skibschef-fra-ivar-huitfeldt-fortaeller-hvad-der-skete-i-det-roede-hav", title: "Skibschef fra Iver Huitfeldt fortæller, hvad der skete i Det Røde Hav", publisher: "DR (Danmarks Radio)", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://en.wikipedia.org/wiki/Iver_Huitfeldt-class_frigate", title: "Iver Huitfeldt-class frigate", publisher: "Wikipedia", retrieved: 2026-11-22, kind: reference, note: "Pointer only; underlying Danish sources could not be opened." }

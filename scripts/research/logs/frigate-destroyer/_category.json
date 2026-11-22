@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "CRS DDG-51 report",
+    "CSIS ChinaPower naval modernization",
+    "USS Carney Red Sea Houthi",
+    "HMS Diamond Sea Viper Houthi",
+    "French Navy Aster drones cost",
+    "Constellation frigate VLS cells",
+    "Iver Huitfeldt Red Sea radar"
+  ],
+  "urlsSeen": [
+    "https://www.everycrsreport.com/files/2025-03-21_RL32109_35f3a231085368b47125f89c1e127cf53d66ad58.html",
+    "https://chinapower.csis.org/china-naval-modernization/",
+    "https://www.bmvg.de/resource/blob/161466/688cf41b8379db585b70dfc1487aa714/20191205-download-ruestungsbericht-herbst-2019-data.pdf",
+    "https://www.twz.com/news-features/uss-carney-destroyed-65-houthi-targets-during-its-cruise",
+    "https://www.gov.uk/government/news/royal-navy-warship-shoots-down-houthi-missile",
+    "https://www.twz.com/news-features/does-the-constellation-class-frigate-have-enough-vertical-launch-cells",
+    "https://www.defensenews.com/global/europe/2024/01/11/french-navy-defends-use-of-million-euro-missiles-to-down-houthi-drones/",
+    "https://www.dr.dk/nyheder/indland/skibschef-fra-ivar-huitfeldt-fortaeller-hvad-der-skete-i-det-roede-hav"
+  ]
+}

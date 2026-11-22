@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "(search budget exhausted; direct fetches of sources cited by Wikipedia)"
+  ],
+  "urlsSeen": [
+    "https://en.wikipedia.org/wiki/Iver_Huitfeldt-class_frigate",
+    "https://warontherocks.com/2013/08/getting-our-moneys-worth-lcs-vs-iver-huitfeldt-class/",
+    "http://www.navalhistory.dk/Danish/SoevaernsNyt/2008/0201_NyeFregatter.htm",
+    "https://www.dr.dk/nyheder/indland/skibschef-fra-ivar-huitfeldt-fortaeller-hvad-der-skete-i-det-roede-hav"
+  ]
+}

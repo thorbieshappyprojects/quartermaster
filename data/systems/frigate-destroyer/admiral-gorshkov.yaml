@@ -1,0 +1,64 @@
+id: admiral-gorshkov
+category: frigate-destroyer
+name: Admiral Gorshkov class
+variant_note: "Project 22350 base version (16 UKSK cells), Russian Navy"
+family: "Project 22350"
+aliases: ["Project 22350", "Admiral Gorshkov"]
+manufacturer: { name: "Severnaya Verf (United Shipbuilding Corporation)" }
+production_sites:
+  - { place: "Saint Petersburg", country: RU, source: s3 }
+origin: RU
+role: "Multi-purpose frigate armed with Kalibr, Oniks and Zircon missiles for anti-ship and land-attack strike, with area air defence and anti-submarine capability."
+memorable_fact: { text: "The frigate Admiral Kasatonov was reported in 2023 to carry Zircon hypersonic missiles, credited with a top speed of Mach 9.", source: s4 }
+status: in_production
+in_service_since:
+  value: 2018
+  source: s1
+  confidence: medium
+  note: "Lead ship Admiral Gorshkov commissioned 28 July 2018 in St Petersburg, twelve years after construction began in 2006 (s1)."
+units_built:
+  value: 3
+  source: s5
+  confidence: medium
+  note: "Ships commissioned by December 2023: Admiral Gorshkov (2018, s1), Admiral Kasatonov (s2), Admiral Golovko (flag raised 25 December 2023, s5). Further ships were under construction; later commissionings not verified."
+combat_use:
+  text: "No confirmed combat use as of 2026."
+  source: s4
+specs:
+  displacement:
+    value: 5400
+    source: s4
+    confidence: medium
+    range: { min: 5000, max: 5400 }
+    note: "Army Recognition: 4,550 t standard, 5,400 t full load (s4). TASS and Naval Today give about 5,000 t (s2, s1)."
+  length: { value: 135, source: s2, confidence: medium, note: "TASS (s2) and Naval Today (s1)." }
+  max_speed: { value: 30, source: s2, confidence: medium, note: "TASS: about 30 knots (s2)." }
+  range:
+    value: 4500
+    source: s2
+    confidence: medium
+    range: { min: 4000, max: 4500 }
+    note: "TASS: operating range 4,500 miles (s2); Naval Today: over 4,000 nmi (s1)."
+  vls_cells:
+    value: 16
+    source: s3
+    confidence: medium
+    note: "16 UKSK cells for Kalibr, Oniks and Zircon in the original version; 32 in the upgraded version (s3, s4). Separate Redut air-defence launch cells are not counted because no reliable cell count was found."
+  crew: { value: 200, source: s2, confidence: medium, note: "TASS: a crew of about 200 (s2)." }
+operators:
+  - { country: RU, force: "Russian Navy", state: in_service, quantity: 3, source: s3, note: "Quantity as commissioned by December 2023." }
+cost:
+  value: 250000000
+  currency: USD
+  price_year: 2022
+  basis: unit_price
+  source: s3
+  confidence: low
+  note: "Army Recognition (2022): 'with a cost of $250 million' per frigate; basis and price year not stated, article year used."
+peers: [fremm, type-45, iver-huitfeldt]
+sources:
+  - { id: s1, url: "https://navaltoday.com/2018/07/31/russia-commissions-lead-project-22350-frigate-admiral-gorshkov/", title: "Russia commissions lead Project 22350 frigate Admiral Gorshkov", publisher: "Naval Today", retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://tass.com/defense/1180703", title: "TASS defence news item 1180703: Project 22350 frigate Admiral Kasatonov accepted into service", publisher: "TASS", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.armyrecognition.com/archives/archives-naval-defense/naval-defense-2022/severnaya-verf-to-build-five-more-admiral-gorshkov-class-frigates-for-russia", title: "Severnaya Verf to build five more Admiral Gorshkov class frigates for Russia", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.armyrecognition.com/archives/archives-naval-defense/naval-defense-2023/russian-navy-project-22350-admiral-kasatanov-frigate-upgraded-with-zircon-hypersonic-missiles", title: "Russian Navy Project 22350 Admiral Kasatonov frigate upgraded with Zircon hypersonic missiles", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://ria.ru/20231225/tseremoniya-1917948231.html", title: "Ceremony on the frigate Admiral Golovko (25 December 2023)", publisher: "RIA Novosti", retrieved: 2026-11-22, kind: press }

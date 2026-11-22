@@ -1,0 +1,69 @@
+id: fremm
+category: frigate-destroyer
+name: FREMM DA
+variant_note: "Specs: French FREMM DA air-defence variant (Alsace, Lorraine); ASW variant and Italian FREMM differ"
+family: "FREMM"
+aliases: ["Aquitaine class", "Alsace class", "Frégate multi-missions"]
+manufacturer: { name: "Naval Group" }
+production_sites:
+  - { place: "Lorient", country: FR, source: s6 }
+origin: FR
+role: "Multi-mission frigate for anti-submarine, anti-air and anti-surface warfare; the DA variant adds a larger Aster air-defence fit."
+memorable_fact: { text: "In December 2023 the FREMM Languedoc fired Aster 15 missiles against two drones from Yemen, the first air-defence engagement of a FREMM in combat.", source: s5 }
+status: in_service
+in_service_since:
+  value: 2012
+  source: s4
+  confidence: high
+  note: "Base system: the first French FREMM, Aquitaine, was handed over to the French Navy on 23 November 2012 (s4). The first DA variant, Alsace, was delivered in April 2021 (s7)."
+units_built:
+  value: 10
+  source: s1
+  confidence: high
+  note: "Ships delivered by Naval Group: eight for France (six ASW, two DA), one for Morocco (2014) and one for Egypt (2015) (s1). Italian-built FREMM are not counted."
+combat_use:
+  text: "French FREMM frigates shot down Houthi drones in the Red Sea from December 2023, using Aster 15 missiles."
+  source: s5
+specs:
+  displacement:
+    value: 6000
+    source: s2
+    confidence: medium
+    note: "Naval Group and the French Ministry of the Armed Forces both give 6,000 t (s1, s2); not stated as full load."
+  length: { value: 142, source: s1, confidence: high }
+  max_speed: { value: 27, source: s1, confidence: high, note: "Also 27 kn in the French ministry fact sheet (s2)." }
+  range: { value: 6000, source: s1, confidence: high, note: "6,000 nmi at 15 kn (s1, s2)." }
+  vls_cells:
+    value: 32
+    source: s7
+    confidence: high
+    note: "DA variant: four eight-cell Sylver A50 for up to 32 Aster 15/30 (s7). The ASW variant has an A43/A70 mix instead and can fire MdCN cruise missiles."
+  crew:
+    value: 118
+    source: s1
+    confidence: high
+    note: "Naval Group: 118 plus 14 for the helicopter detachment (DA variant) (s1). The ASW variant was designed for 94 plus 14 (s4)."
+operators:
+  - { country: FR, force: "French Navy (Marine nationale)", state: in_service, quantity: 8, source: s1 }
+  - { country: MA, force: "Royal Moroccan Navy", state: in_service, quantity: 1, source: s1 }
+  - { country: EG, force: "Egyptian Navy", state: in_service, quantity: null, source: s1, note: "One French-built ship (Tahya Misr)." }
+  - { country: IT, force: "Italian Navy", state: in_service, quantity: null, source: s4, note: "Italian-built FREMM variant." }
+cost:
+  value: 810000000
+  currency: EUR
+  price_year: 2005
+  basis: contract_per_unit
+  source: s3
+  confidence: medium
+  note: "Ministry of the Armed Forces (2018 answer to a parliamentary question): programme cost of EUR 6,480 million for 8 ships, at January 2005 economic conditions; about EUR 810 million per ship. Programme cost, not a unit price."
+contracts:
+  - { customer: "France (Marine nationale)", year: 2005, quantity: 8, value: 6480000000, currency: EUR, note: "Programme launched in 2005 for 17 ships, later cut to 8; cost in January 2005 euros.", source: s3 }
+peers: [f125, iver-huitfeldt, admiral-gorshkov]
+sources:
+  - { id: s1, url: "https://www.naval-group.com/en/first-sea-trial-fremm-da-lorraine-tenth-and-last-multi-mission-frigate-series", title: "First sea trial for the FREMM DA Lorraine, the tenth and last of the multi-mission frigate series", publisher: "Naval Group", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://prod-site-internet-minarm-admin.cloud.defense.gouv.fr/sites/default/files/ministere-armees/Fr%C3%A9gate%20multi-missions%20%28FREMM%29%20-%20Multi-missions%20Frigate.pdf", title: "Frégate multi-missions (FREMM) - Multi-missions Frigate (fact sheet)", publisher: "Ministère des Armées", retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.assemblee-nationale.fr/dyn/15/questions/QANR5L15QE6766.pdf", title: "Question écrite n° 6766 - Gâchis du programme d'armement portant sur les frégates Fremm (answer of 31 July 2018)", publisher: "Assemblée nationale", retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.irsem.fr/storage/file_manager_files/2025/03/bm-157-fremm.pdf", title: "Brèves Marines n° 157: FREMM, le navire de demain qui équipe la marine d'aujourd'hui", publisher: "Centre d'études supérieures de la Marine (CESM)", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.navalnews.com/naval-news/2023/12/french-frigate-languedoc-used-aster-15-missiles-against-drones/", title: "French Frigate Languedoc Used Aster 15 Missiles Against Drones", publisher: "Naval News", retrieved: 2026-11-22, kind: press, note: "Content as shown in search results." }
+  - { id: s6, url: "https://www.shephardmedia.com/news/imps-news/inside-frances-frigate-factory/", title: "Inside France's frigate factory", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.janes.com/defence-intelligence-insights/defence-news/naval-group-delivers-first-fremm-air-defence-frigate-to-french-navy", title: "Naval Group delivers first FREMM air-defence frigate to French Navy", publisher: "Janes", retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Arleigh Burke Flight IIA 96 VLS cells displacement range",
+    "CRS Navy DDG-51 destroyer procurement program cost per ship",
+    "Flight IIA DDG-51 restart ship procurement cost",
+    "Destroyers (DDG 51) fact file Flight IIA crew",
+    "USS Carney destroyer Red Sea Houthi"
+  ],
+  "urlsSeen": [
+    "https://www.seaforces.org/usnships/ddg/Arleigh-Burke-class.htm",
+    "https://www.everycrsreport.com/files/2025-03-21_RL32109_35f3a231085368b47125f89c1e127cf53d66ad58.html",
+    "https://www.everycrsreport.com/files/20160310_RL32109_3ee1081e60e525cf99515d8dd59bc34cb72dea62.html",
+    "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169871/destroyers-ddg-51/",
+    "https://www.surfpac.navy.mil/Portals/54/Documents/CNSP/Roadshow/Destroyers-Fact-File.pdf",
+    "https://www.twz.com/news-features/uss-carney-destroyed-65-houthi-targets-during-its-cruise",
+    "https://www.twz.com/news-features/does-the-constellation-class-frigate-have-enough-vertical-launch-cells"
+  ]
+}

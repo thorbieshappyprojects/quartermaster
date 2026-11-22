@@ -1,0 +1,63 @@
+id: f125
+category: frigate-destroyer
+name: F125 Baden-Württemberg class
+variant_note: "Four-ship class, German Navy"
+family: "F125"
+aliases: ["Baden-Württemberg-Klasse", "Fregatte Klasse 125"]
+manufacturer: { name: "ARGE F125 (thyssenkrupp Marine Systems and Fr. Lürssen Werft)" }
+production_sites:
+  - { place: "Hamburg", country: DE, source: s3 }
+  - { place: "Bremen", country: DE, source: s3 }
+origin: DE
+role: "Large frigate for long stabilisation deployments: fire support from sea to land, countering asymmetric threats, task-group command and support of special forces."
+memorable_fact: { text: "An F125 is designed to stay deployed for up to two years with about 5,000 operating hours a year, using eight crews to rotate across four ships.", source: s1 }
+status: in_service
+in_service_since:
+  value: 2019
+  source: s1
+  confidence: high
+  note: "Lead ship F222 Baden-Württemberg commissioned 17 June 2019 (s1, s2)."
+units_built:
+  value: 4
+  source: s1
+  confidence: high
+  note: "Ships commissioned 2019-2022: Baden-Württemberg, Nordrhein-Westfalen, Sachsen-Anhalt, Rheinland-Pfalz (s1)."
+combat_use:
+  text: "No confirmed combat use as of 2026."
+  source: s1
+specs:
+  displacement:
+    value: 7200
+    source: s1
+    confidence: high
+    note: "Bundeswehr: 7,200 t (s1); not stated as full load."
+  length: { value: 149.5, source: s1, confidence: high, note: "Length overall (s1)." }
+  max_speed: { value: 26, source: s1, confidence: high, note: "Bundeswehr: more than 26 knots (s1)." }
+  range: { value: null, source: null, confidence: null, note: "No public official figure found." }
+  vls_cells:
+    value: 0
+    source: s1
+    confidence: medium
+    note: "The Bundeswehr armament list has no vertical launch system: 127 mm gun, 2 Harpoon launchers, 2 RAM launchers, guns and decoys (s1)."
+  crew:
+    value: 126
+    source: s1
+    confidence: high
+    note: "Core crew 126 plus up to 70 additional personnel (s1)."
+operators:
+  - { country: DE, force: "German Navy (Marine)", state: in_service, quantity: 4, source: s1 }
+cost:
+  value: null
+  currency: null
+  price_year: null
+  basis: null
+  source: null
+  confidence: null
+  note: "No per-ship figure is published. The BMVg armaments report (December 2019) gives the overrun (+EUR 1,063 million, +48%) for the four-ship programme; a per-ship value would be own arithmetic, so none is shown."
+contracts:
+  - { customer: "Germany (Bundeswehr)", year: 2007, quantity: 4, value: null, currency: null, note: "Contract for four ships awarded to the ARGE F125 consortium led by thyssenkrupp Marine Systems.", source: s3 }
+peers: [fremm, iver-huitfeldt, type-45]
+sources:
+  - { id: s1, url: "https://bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/baden-wuerttemberg-klasse-f125-fregatten", title: "Baden-Württemberg-Klasse (F125): Fregatten", publisher: "Bundeswehr", retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://www.bmvg.de/resource/blob/161466/688cf41b8379db585b70dfc1487aa714/20191205-download-ruestungsbericht-herbst-2019-data.pdf", title: "Bericht des BMVg zu Rüstungsangelegenheiten, Dezember 2019", publisher: "Bundesministerium der Verteidigung", retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://armyrecognition.com/news/navy-news/2013/first-of-tkms-built-f-125-class-frigate-baden-wuerttemberg-christened-for-the-german-navy", title: "First of TKMS-built F125 class frigate Baden-Württemberg christened for the German Navy", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press, note: "Content as shown in search results." }

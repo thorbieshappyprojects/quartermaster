@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "(search budget exhausted; direct fetches only)"
+  ],
+  "urlsSeen": [
+    "https://en.wikipedia.org/wiki/Sejong_the_Great-class_destroyer",
+    "https://www.seaforces.org/marint/Republic-Korea-Navy/Destroyer/Sejong-the-Great-class.htm"
+  ]
+}

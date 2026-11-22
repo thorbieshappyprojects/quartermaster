@@ -1,0 +1,66 @@
+id: arleigh-burke-flight-iia
+category: frigate-destroyer
+name: Arleigh Burke Flight IIA
+variant_note: "Flight IIA ships (DDG 79-124 and DDG 127), US Navy"
+family: "Arleigh Burke class (DDG-51)"
+aliases: ["DDG-51 Flight IIA"]
+manufacturer: { name: "General Dynamics Bath Iron Works and Huntington Ingalls Industries (Ingalls Shipbuilding)" }
+production_sites:
+  - { place: "Bath, Maine", country: US, source: s1 }
+  - { place: "Pascagoula, Mississippi", country: US, source: s1 }
+origin: US
+role: "Multi-mission guided-missile destroyer with the Aegis combat system, built mainly for fleet air defence and also used for ballistic missile defence, anti-submarine warfare and strike."
+memorable_fact: { text: "The Flight IIA design, first procured in FY1994, added a helicopter hangar that the earlier Arleigh Burke flights lacked.", source: s2 }
+status: in_production
+in_service_since:
+  value: 2000
+  source: s3
+  confidence: medium
+  note: "Flight IIA: lead ship USS Oscar Austin (DDG-79) commissioned in 2000 (s3). The first DDG-51 of the class entered service in 1991 (s1)."
+units_built:
+  value: 47
+  source: s1
+  confidence: high
+  note: "Flight IIA ships procured FY1994-FY2016 (DDGs 79 through 124 and DDG-127), per CRS (s1). Count of ships procured; current production has moved to Flight III."
+combat_use:
+  text: "Arleigh Burke-class destroyers such as USS Carney shot down Houthi cruise missiles, anti-ship ballistic missiles and drones in the Red Sea in 2023-24; Carney is an earlier Flight I ship."
+  source: s4
+specs:
+  displacement:
+    value: 9650
+    source: s3
+    confidence: low
+    range: { min: 8362, max: 9856 }
+    note: "Seaforces gives 9,496 long tons (9,650 t) full load for Flight IIA (s3). The US Navy fact file gives 8,230-9,700 long tons (8,362-9,856 t) across the class, not by flight (s5)."
+  length: { value: 155.3, source: s3, confidence: low, note: "509.5 ft (s3)." }
+  max_speed: { value: 30, source: s5, confidence: high, note: "US Navy: in excess of 30 knots." }
+  range: { value: null, source: null, confidence: null, note: "No public official figure found." }
+  vls_cells:
+    value: 96
+    source: s6
+    confidence: medium
+    note: "TWZ: Flight I and II destroyers have 90 Mk 41 cells, later variants 96 (s6). Seaforces also gives 96 Mk 41 cells (s3)."
+  crew:
+    value: 329
+    source: s5
+    confidence: medium
+    range: { min: 323, max: 329 }
+    note: "US Navy fact file: 329 for Flight IIA (32 officers, 27 CPO, 270 enlisted) (s5). Seaforces lists 323 (s3)."
+operators:
+  - { country: US, force: "US Navy", state: in_service, quantity: null, source: s1 }
+cost:
+  value: 2500000000
+  currency: USD
+  price_year: 2025
+  basis: unit_price
+  source: s1
+  confidence: low
+  note: "CRS (March 2025): DDG-51s 'currently cost about $2.5 billion each to procure'. This is the procurement cost of current production ships, which are Flight III; no recent Flight IIA-specific figure was found."
+peers: [type-055, sejong-the-great, type-45]
+sources:
+  - { id: s1, url: "https://www.everycrsreport.com/files/2025-03-21_RL32109_35f3a231085368b47125f89c1e127cf53d66ad58.html", title: "Navy DDG-51 and DDG-1000 Destroyer Programs: Background and Issues for Congress (RL32109, updated 21 March 2025)", publisher: "Congressional Research Service (via EveryCRSReport)", retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://www.everycrsreport.com/files/20160310_RL32109_3ee1081e60e525cf99515d8dd59bc34cb72dea62.html", title: "Navy DDG-51 and DDG-1000 Destroyer Programs: Background and Issues for Congress (RL32109, March 2016)", publisher: "Congressional Research Service (via EveryCRSReport)", retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.seaforces.org/usnships/ddg/Arleigh-Burke-class.htm", title: "Arleigh Burke class guided missile destroyers", publisher: "Seaforces Online", retrieved: 2026-11-22, kind: other }
+  - { id: s4, url: "https://www.twz.com/news-features/uss-carney-destroyed-65-houthi-targets-during-its-cruise", title: "USS Carney Destroyed 65 Houthi Targets During Its Cruise", publisher: "The War Zone (TWZ)", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169871/destroyers-ddg-51/", title: "Destroyers (DDG 51) - Fact File", publisher: "US Navy", retrieved: 2026-11-22, kind: government, note: "Seen in search results only; the page could not be loaded from the research environment." }
+  - { id: s6, url: "https://www.twz.com/news-features/does-the-constellation-class-frigate-have-enough-vertical-launch-cells", title: "Does The Navy's New Constellation Class Frigate Have Enough Vertical Launch Cells?", publisher: "The War Zone (TWZ)", retrieved: 2026-11-22, kind: press }
