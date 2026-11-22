@@ -1,0 +1,47 @@
+id: dm63a1
+category: tank-ammunition
+name: "DM63A1"
+variant_note: "120 mm APFSDS-T; velocity from the L55 gun"
+family: "DM63"
+aliases: ["120mm x 570 APFSDS DM63A1"]
+manufacturer: { name: "Rheinmetall" }
+production_sites:
+  - { place: "Unterlüß", country: DE, source: s3 }
+origin: DE
+role: "Tungsten kinetic-energy dart round for 120 mm smoothbore tank guns, used against other tanks."
+memorable_fact: { text: "Rheinmetall calls the DM63A1 the world's first temperature-independent high-performance tank round: its performance does not depend on the outside temperature between -46 °C and +63 °C.", source: s1 }
+status: in_service
+in_service_since:
+  value: null
+  source: null
+  confidence: null
+  note: "No first-service year found. Greece received DM63A1 rounds in three lots in 2015 and 2016 (s2)."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public production total found."
+specs:
+  calibre: { value: 120, source: s1, confidence: high }
+  muzzle_velocity: { value: 1720, source: s1, confidence: high, note: "From the L55 gun; 1,650 m/s from the L44 gun (manufacturer)." }
+  round_weight: { value: 21, source: s1, confidence: high, note: "Manufacturer: cartridge weight approx. 21 kg." }
+  max_effective_range: { value: 4, source: s1, confidence: high, note: "Manufacturer: range of engagement up to 4,000 m." }
+operators:
+  - { country: GR, force: Army, state: in_service, quantity: null, source: s2, note: "For the Greek Leopard 2 fleet; delivered 2015-2016." }
+cost:
+  value: null
+  currency: null
+  price_year: null
+  basis: null
+  source: null
+  confidence: null
+  note: "No per-round price found. The 2015 export order (about EUR 39 million) did not state a quantity (s3)."
+contracts:
+  - { customer: "Greece (Army)", year: 2014, quantity: 12000, value: 52000000, currency: EUR, note: "12,000 rounds in total of DM12A2, DM63 and DM63A1, via the German procurement office; Greek partner Hellenic Defence Systems makes DM63A1 components.", source: s2 }
+  - { customer: "Undisclosed international customer", year: 2015, quantity: null, value: 39000000, currency: EUR, note: "Delivery in two lots, 2016-2018.", source: s3 }
+peers: [m829a4, ofl-120-f2, 3bm60-svinets-2]
+fired_by: [leopard-2a4]
+sources:
+  - { id: s1, url: "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Weapon-Ammmunition/B195e0423-Rheinmetall-120mm-system-house.pdf", title: "Rheinmetall – 120mm Smoothbore System House (brochure)", publisher: "Rheinmetall", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.shephardmedia.com/news/landwarfareintl/greece-orders-rheinmetall-leopard-2-tank-ammunitio/", title: "Greece orders Rheinmetall Leopard 2 tank ammunition", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2015/rheinmetall-wins-a-us-43-million-order-for-dm63a1-kinetic-energy-rounds-21108155", title: "Rheinmetall wins a US$ 43 million order for DM63A1 kinetic energy rounds", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }

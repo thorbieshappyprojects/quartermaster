@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Rheinmetall DM11 120mm programmable HE round muzzle velocity weight range",
+    "\"DM11\" 120mm HE Rheinmetall order Bundeswehr Marine Corps Leopard 2 contract",
+    "Marine Corps deactivates last tank battalion 2021 Force Design 2030 Abrams divest"
+  ],
+  "urlsSeen": [
+    "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Weapon-Ammmunition/B195e0423-Rheinmetall-120mm-system-house.pdf",
+    "https://spartanat.com/en/dm11-frische-munition-fuer-den-leopard",
+    "https://www.rheinmetall.com/en/media/news-watch/news/2020/2020-12-17_bundeswehr-awards-rheinmetall-framework-contract-to-supply-tank-ammunition",
+    "https://www.rheinmetall.com/en/media/news-watch/news/2023/7/2023-07-13-rheinmetall-receives-major-order-for-tank-ammunition-from-bundeswehr",
+    "https://www.rheinmetall.com/en/media/news-watch/news/2025/12/2025-12-08-rheinmetall-to-supply-tank-ammunition-to-the-bundeswehr",
+    "https://ndia.dtic.mil/wp-content/uploads/2015/armament/wed17326_Smith.pdf",
+    "https://euro-sd.com/2024/04/articles/37608/armoured-fury-analysing-large-calibre-ammunition-in-the-ukraine-conflict/",
+    "https://www.2ndmardiv.marines.mil/News/Press-Releases/Article/2406045/last-of-2d-tanks-m1a1-abrams-tanks-depart-camp-lejeune/",
+    "https://asiapacificdefencereporter.com/rheinmetall-unveils-new-he-dm11/",
+    "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2013/rheinmetall-ammunition-idex-2013-press-release-24-february-2013-uk"
+  ]
+}

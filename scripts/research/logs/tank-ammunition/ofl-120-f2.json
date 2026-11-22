@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "OFL 120 F2 Nexter KNDS 120mm APFSDS Leclerc muzzle velocity",
+    "\"OFL 120 F2\" depleted uranium Leclerc France GIAT",
+    "Leclerc OFL 120 F1 F2 obus flèche uranium appauvri Assemblée nationale réponse ministre",
+    "Obsarm \"OFL 120 F2\" Giat Industries uranium appauvri munitions antichar Barrillot"
+  ],
+  "urlsSeen": [
+    "https://icbuw.eu/wp-content/uploads/2024/08/DU-Weapons-List.pdf",
+    "https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE7628",
+    "https://en.wikipedia.org/wiki/120%C3%97570mm_NATO",
+    "https://knds.com/en/products/ammunition/120-mm"
+  ]
+}

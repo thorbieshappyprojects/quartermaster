@@ -1,0 +1,32 @@
+id: 3bm42-mango
+category: tank-ammunition
+name: "3BM42 Mango"
+variant_note: "125 mm APFSDS projectile of the 3VBM17 round"
+aliases: ["3VBM17", "Mango"]
+manufacturer: { name: "Russian state industry (Rostec); exported by Rosoboronexport" }
+origin: RU
+role: "Soviet-era kinetic-energy dart round for the 125 mm smoothbore guns of T-72, T-80 and T-90 tanks."
+memorable_fact: { text: "Almost 40 years after it entered service, Rosoboronexport launched production of the Mango round in India in 2024 for Indian T-72 and T-90 tanks.", source: s1 }
+status: in_production
+in_service_since: { value: 1986, source: s1, confidence: medium }
+units_built: { value: null, source: null, confidence: null }
+combat_use: { text: "Ukrainian photos of a captured Russian T-72B3 Mod. 2016 in 2022 showed 3BM42 rounds on board.", source: s3 }
+specs:
+  calibre: { value: 125, source: s2, confidence: high }
+  muzzle_velocity: { value: 1700, source: s1, confidence: medium, note: "Gun not stated." }
+  round_weight: { value: 20.4, source: s1, confidence: medium, note: "Complete round; projectile with sabot 7.05 kg." }
+  max_effective_range: { value: null, source: null, confidence: null }
+operators:
+  - { country: RU, force: Ground Forces, state: in_service, quantity: null, source: s4 }
+  - { country: UA, force: Ground Forces, state: in_service, quantity: null, source: s4 }
+  - { country: IN, force: Army, state: in_service, quantity: null, source: s1, note: "Produced in India for Indian Army T-72 and T-90 tanks." }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null }
+contracts:
+  - { customer: "India", year: 2024, quantity: null, value: null, currency: null, note: "Rosoboronexport set up production of Mango rounds with an Indian defence company (Make in India).", source: s1 }
+peers: [3bm60-svinets-2, m829a4, dm63a1]
+fired_by: [t-72b3]
+sources:
+  - { id: s1, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/russia-launches-production-of-3vbm17-mango-ammunition-in-india", title: "Russia launches production of 3VBM17 Mango ammunition in India", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.shephardmedia.com/news/landwarfareintl/army-2021-rostec-companies-showcase-new-offensive-/", title: "Army-2021: Rostec companies showcase new offensive and defensive ammunition", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.overtdefense.com/2022/09/19/ukrainian-forces-capture-russias-most-advanced-tank", title: "Ukrainian Forces Capture Russia's Most Advanced Tank", publisher: "Overt Defense", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://militarnyi.com/uk/news/rosiya-zastosovuye-ridkisni-boyeprypasy-proty-ukrayinskoyi-bronetehniky/", title: "Russia uses rare ammunition against Ukrainian armour", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }

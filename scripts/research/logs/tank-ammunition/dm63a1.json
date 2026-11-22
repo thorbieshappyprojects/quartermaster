@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Rheinmetall DM63A1 120mm APFSDS muzzle velocity round weight",
+    "\"DM63A1\" Rheinmetall order tank ammunition",
+    "DM63 APFSDS \"m/s\" L55 muzzle velocity Leopard 2A6 tungsten penetrator"
+  ],
+  "urlsSeen": [
+    "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Weapon-Ammmunition/B195e0423-Rheinmetall-120mm-system-house.pdf",
+    "https://www.rheinmetall.com/en/products/weapons-and-munition/weapons-and-ammunition/large-calibre-weapons-and-ammunition",
+    "https://www.shephardmedia.com/news/landwarfareintl/greece-orders-rheinmetall-leopard-2-tank-ammunitio/",
+    "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2015/rheinmetall-wins-a-us-43-million-order-for-dm63a1-kinetic-energy-rounds-21108155",
+    "https://www.shephardmedia.com/news/landwarfareintl/rheinmetall-wins-order-dm63a1-tank-ammo/",
+    "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2013/rheinmetall-ammunition-idex-2013-press-release-24-february-2013-uk",
+    "https://en.wikipedia.org/wiki/120%C3%97570mm_NATO"
+  ]
+}

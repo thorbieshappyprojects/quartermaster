@@ -1,0 +1,57 @@
+# Category card researched 2026-11-22 in a Claude Code session (web search).
+id: tank-ammunition
+name: Tank ammunition
+domain: Ammunition
+wave: 2
+indicators:
+  - { id: calibre, label: Calibre, unit: mm, trump: higher_wins }
+  - { id: muzzle_velocity, label: Muzzle velocity, unit: m/s, trump: higher_wins, description: "From the gun named in the note (e.g. L55)." }
+  - { id: round_weight, label: Complete round weight, unit: kg, trump: lower_wins, decimals: 1, description: Lighter is easier to load; a playful convention. }
+  - { id: max_effective_range, label: Max. effective range, unit: km, trump: higher_wins, decimals: 1 }
+category_card:
+  summary: "Tank ammunition covers the rounds fired by the main guns of battle tanks: mostly 120 mm smoothbore in NATO countries and 125 mm in Russia and China. The two main kinds are kinetic-energy dart rounds (APFSDS) for fighting other tanks and high-explosive rounds, more and more with programmable fuzes, for use against positions, infantry and light vehicles."
+  purpose:
+    - text: Fin-stabilised kinetic-energy rounds are the primary round for tank-on-tank fighting.
+      source: s3
+    - text: "In the war in Ukraine, high-explosive rounds and gun-launched missiles have mattered more than APFSDS. Most tank fire is direct fire against fortified positions, snipers and vehicles."
+      source: s2
+    - text: "A programmable high-explosive round such as the DM11 can detonate on impact against bunkers, with a delay against targets behind cover, or in the air above dug-in infantry and missile teams."
+      source: s1
+  strengths:
+    - text: "The NATO 120 mm interface standard lets one round family be shared: the manufacturer says more than 15 nations use its 120 mm ammunition in Leopard 2 and M1A1/A2 Abrams tanks."
+      source: s1
+    - text: "A programmable round is set by the fire control system after it is loaded, shortly before firing, so the crew can react to a changing target distance or fire on the move."
+      source: s1
+    - text: "Tank rounds are reported to be especially demoralising, because unlike artillery shells they give no warning of their approach."
+      source: s2
+  weaknesses:
+    - text: "Indirect fire from tank guns is of limited value: beyond the T-72's 4,000 m direct-fire range it is relatively ineffective and scatters widely."
+      source: s2
+    - text: "The ammunition itself is a vulnerability. In the T-72 the 22-round carousel has no firewalls, so a penetration that reaches it can cause a cook-off that throws the turret off."
+      source: s3
+    - text: "Newer, longer rounds do not fit older autoloaders: the 3BM60 can only be loaded by modernised T-72B3, T-90M and T-80BVM tanks."
+      source: s7
+    - text: "Programmable rounds need a programming kit in the tank; without it, crews must fall back on a simpler point-detonating round."
+      source: s1
+  counters:
+    - text: "Explosive reactive armour drives the design of new kinetic rounds; the US M829A4 was developed specifically to defeat vehicles with third-generation reactive armour."
+      source: s5
+    - text: "Kinetic rounds also have to overcome multi-layered and composite armour arrays and the cutting and bending forces of double-reactive armour."
+      source: s1
+  trends:
+    - text: "Larger calibres are in development, including a Rheinmetall 130 mm L/51 gun and a Nexter 140 mm gun; the larger rounds would require an autoloader."
+      source: s4
+    - text: "Higher-pressure guns raise muzzle velocity: the DM73 needs the L55A1 gun and reaches 1,780 m/s, against 1,720 m/s for the DM63A1 from the L55."
+      source: s1
+    - text: "Most users rely on tungsten penetrators. The US was a rare user of depleted uranium, and its producer stopped making depleted-uranium tank rounds in 2023 to focus on a programmable multi-purpose round."
+      source: s5
+    - text: "Tanks are also used like artillery: Ukrainian crews practised high-angle fire with their 125 mm guns to extend range, which blurs the line between tanks and artillery."
+      source: s6
+sources:
+  - { id: s1, url: "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Weapon-Ammmunition/B195e0423-Rheinmetall-120mm-system-house.pdf", title: "Rheinmetall – 120mm Smoothbore System House (brochure)", publisher: "Rheinmetall", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://euro-sd.com/2024/04/articles/37608/armoured-fury-analysing-large-calibre-ammunition-in-the-ukraine-conflict/", title: "Armoured fury: analysing large-calibre ammunition in the Ukraine conflict", publisher: "European Security & Defence (ESD)", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://rusi.org/explore-our-research/publications/commentary/technical-reflections-russias-armoured-fighting-vehicles", title: "Technical Reflections on Russia's Armoured Fighting Vehicles", publisher: "Royal United Services Institute (RUSI)", retrieved: 2026-11-22, kind: reference }
+  - { id: s4, url: "https://euro-sd.com/2021/10/articles/exclusive/23971/tank-gun-and-ammo-developments-120mm-and-above/", title: "Tank gun and ammo developments: 120mm and above", publisher: "European Security & Defence (ESD)", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://defence-industry.eu/northrop-grumman-completes-m829a4-ammunition-deliveries-to-the-us-army/", title: "Northrop Grumman completes M829A4 ammunition deliveries to the US Army", publisher: "Defence Industry Europe", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.rusi.org/news-and-comment/in-the-news/anticipating-russian-attack-ukrainian-army-trained-its-tank-crews-fight-artillery", title: "Anticipating a Russian Attack, the Ukrainian Army Trained Its Tank Crews to Fight Like Artillery", publisher: "Royal United Services Institute (RUSI)", retrieved: 2026-11-22, kind: reference }
+  - { id: s7, url: "https://militarnyi.com/uk/news/rosiya-zastosovuye-ridkisni-boyeprypasy-proty-ukrayinskoyi-bronetehniky/", title: "Russia uses rare ammunition against Ukrainian armour", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }

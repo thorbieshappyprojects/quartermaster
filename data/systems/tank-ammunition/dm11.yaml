@@ -1,0 +1,50 @@
+id: dm11
+category: tank-ammunition
+name: "DM11"
+variant_note: "120 mm HE-FRAG-T with three-mode programmable fuze; velocity from the L55 gun"
+aliases: ["120mm x 570 HE Temp DM11", "Multi Purpose (MP) DM11"]
+manufacturer: { name: "Rheinmetall" }
+origin: DE
+role: "Programmable high-explosive tank round that bursts on impact, after a delay or in the air, for use against positions, infantry and light vehicles."
+memorable_fact: { text: "After a 2008 urgent request for a multi-purpose tank round, the US Marine Corps fitted data-link kits to its M1A1 guns so they could fire the German DM11.", source: s4 }
+status: in_production
+in_service_since:
+  value: 2014
+  source: s2
+  confidence: medium
+  note: "First series lot delivered to the Bundeswehr in 2014. The US Marine Corps fielded data-link kits for the DM11 on its M1A1 tanks from 2009-2010 (s4)."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public production total. The 2020 Bundeswehr framework contract covers 19,000 DM11 rounds (s3)."
+combat_use: { text: "Ukraine has received the DM11; it is fired from the L55 gun of the Leopard 2A6 against Russian trenches and emplacements.", source: s5 }
+specs:
+  calibre: { value: 120, source: s1, confidence: high }
+  muzzle_velocity: { value: 1015, source: s1, confidence: high, note: "From the L55 gun; 980 m/s from the L44 gun (manufacturer)." }
+  round_weight: { value: 29, source: s1, confidence: high, note: "Manufacturer: cartridge weight approx. 29 kg." }
+  max_effective_range: { value: 5, source: s1, confidence: high, note: "Manufacturer: effective range extended up to 5,000 m." }
+operators:
+  - { country: DE, force: Army, state: in_service, quantity: null, source: s2 }
+  - { country: US, force: Marine Corps, state: retired, quantity: null, source: s6, note: "Fielded the DM11 on M1A1 tanks (s4); the Marine Corps gave up its tanks in 2020-2021 (s6)." }
+  - { country: UA, force: Ground Forces, state: in_service, quantity: null, source: s5 }
+cost:
+  value: 7600
+  currency: EUR
+  price_year: 2017
+  basis: contract_per_unit
+  source: s2
+  confidence: medium
+  note: "First call-off under a 2017 Bundeswehr framework contract: 5,000 DM11 rounds for about EUR 38 million net (EUR 45 million gross)."
+contracts:
+  - { customer: "Germany (Bundeswehr)", year: 2017, quantity: 5000, value: 38000000, currency: EUR, note: "Net value; deliveries 2017-2018.", source: s2 }
+  - { customer: "Germany (Bundeswehr)", year: 2020, quantity: 19000, value: null, currency: null, note: "Framework contract through 2028 for 203,000 rounds of several types, worth up to EUR 556 million including VAT; 19,000 of them DM11.", source: s3 }
+peers: []
+fired_by: [m1a1-abrams]
+sources:
+  - { id: s1, url: "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Weapon-Ammmunition/B195e0423-Rheinmetall-120mm-system-house.pdf", title: "Rheinmetall – 120mm Smoothbore System House (brochure)", publisher: "Rheinmetall", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://spartanat.com/en/dm11-frische-munition-fuer-den-leopard", title: "DM11: fresh ammunition for the Leopard", publisher: "Spartanat", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.rheinmetall.com/en/media/news-watch/news/2020/2020-12-17_bundeswehr-awards-rheinmetall-framework-contract-to-supply-tank-ammunition", title: "Bundeswehr awards Rheinmetall framework contract to supply tank ammunition", publisher: "Rheinmetall", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://ndia.dtic.mil/wp-content/uploads/2015/armament/wed17326_Smith.pdf", title: "M256 Ammunition DataLink: Development – Testing – Fielding", publisher: "US Army ARDEC / Benet Laboratories (NDIA conference)", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://euro-sd.com/2024/04/articles/37608/armoured-fury-analysing-large-calibre-ammunition-in-the-ukraine-conflict/", title: "Armoured fury: analysing large-calibre ammunition in the Ukraine conflict", publisher: "European Security & Defence (ESD)", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.2ndmardiv.marines.mil/News/Press-Releases/Article/2406045/last-of-2d-tanks-m1a1-abrams-tanks-depart-camp-lejeune/", title: "Last of 2d Tanks' M1A1 Abrams tanks depart Camp Lejeune", publisher: "2nd Marine Division, US Marine Corps", retrieved: 2026-11-22, kind: government }

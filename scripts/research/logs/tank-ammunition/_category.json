@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "RUSI tanks Ukraine lessons tank ammunition indirect fire high explosive analysis"
+  ],
+  "urlsSeen": [
+    "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Weapon-Ammmunition/B195e0423-Rheinmetall-120mm-system-house.pdf",
+    "https://euro-sd.com/2024/04/articles/37608/armoured-fury-analysing-large-calibre-ammunition-in-the-ukraine-conflict/",
+    "https://rusi.org/explore-our-research/publications/commentary/technical-reflections-russias-armoured-fighting-vehicles",
+    "https://euro-sd.com/2021/10/articles/exclusive/23971/tank-gun-and-ammo-developments-120mm-and-above/",
+    "https://defence-industry.eu/northrop-grumman-completes-m829a4-ammunition-deliveries-to-the-us-army/",
+    "https://www.rusi.org/news-and-comment/in-the-news/anticipating-russian-attack-ukrainian-army-trained-its-tank-crews-fight-artillery",
+    "https://militarnyi.com/uk/news/rosiya-zastosovuye-ridkisni-boyeprypasy-proty-ukrayinskoyi-bronetehniky/",
+    "https://euro-sd.com/2023/01/articles/29152/lessons-from-ukraine-armoured-fighting-vehicles"
+  ]
+}

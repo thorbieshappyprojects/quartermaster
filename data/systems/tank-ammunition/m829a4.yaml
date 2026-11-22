@@ -1,0 +1,49 @@
+id: m829a4
+category: tank-ammunition
+name: "M829A4"
+variant_note: "120 mm APFSDS-T with depleted-uranium penetrator; velocity from the M256 (L44) gun"
+family: "M829"
+aliases: ["M829E4", "Advanced Kinetic Energy (AKE) cartridge"]
+manufacturer: { name: "Northrop Grumman (formerly Orbital ATK)" }
+origin: US
+role: "US Army kinetic-energy dart round for the 120 mm gun of the M1A2 SEPv3 Abrams, designed to defeat tanks with modern reactive armour."
+memorable_fact: { text: "When Northrop Grumman finished M829A4 production in December 2023, it also stopped making depleted-uranium ammunition altogether.", source: s2 }
+status: in_service
+in_service_since:
+  value: 2015
+  source: s3
+  confidence: medium
+  note: "Type-classified as M829A4 in October 2015, with the full-rate production decision in December 2015."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public production total found. Production ended in December 2023 (s2)."
+specs:
+  calibre: { value: 120, source: s2, confidence: high }
+  muzzle_velocity: { value: 1650, source: s1, confidence: low, note: "From the 44-calibre M256 gun. Only found in a Wikipedia table citing a US Army PM MAS handbook (2021) that could not be opened." }
+  round_weight: { value: null, source: null, confidence: null, note: "No published figure. The test office says length, weight and centre of gravity are comparable to the M829A3 (s3)." }
+  max_effective_range: { value: null, source: null, confidence: null }
+operators:
+  - { country: US, force: Army, state: in_service, quantity: null, source: s2 }
+cost:
+  value: null
+  currency: null
+  price_year: null
+  basis: null
+  source: null
+  confidence: null
+  note: "No official per-round price found; published contracts give values without quantities."
+contracts:
+  - { customer: "United States (US Army)", year: 2011, quantity: null, value: 77000000, currency: USD, note: "Three-year development and qualification contract awarded to ATK.", source: s4 }
+  - { customer: "United States (US Army)", year: 2015, quantity: null, value: 80000000, currency: USD, note: "First production contract to Orbital ATK, including options for two further production years.", source: s5 }
+  - { customer: "United States (US Army)", year: 2021, quantity: null, value: 63900000, currency: USD, note: "Sole-source award to Northrop Grumman by the Army contracting office at Picatinny.", source: s6 }
+peers: [dm63a1, ofl-120-f2, 3bm60-svinets-2]
+fired_by: [m1a2-sepv3-abrams]
+sources:
+  - { id: s1, url: "https://en.wikipedia.org/wiki/120%C3%97570mm_NATO", title: "120×570mm NATO", publisher: "Wikipedia", retrieved: 2026-11-22, kind: reference }
+  - { id: s2, url: "https://defence-industry.eu/northrop-grumman-completes-m829a4-ammunition-deliveries-to-the-us-army/", title: "Northrop Grumman completes M829A4 ammunition deliveries to the US Army", publisher: "Defence Industry Europe", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.dote.osd.mil/Portals/97/pub/reports/FY2015/army/2015m829a4.pdf", title: "FY2015 Army Programs: M829A4 Advanced Kinetic Energy cartridge", publisher: "Director, Operational Test and Evaluation (US DoD)", retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.shephardmedia.com/news/landwarfareintl/atk-receives-development-contract-for-us/", title: "ATK receives development contract for US Army AKE tank round", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://businesswire.com/news/home/20150720005121/en/Orbital-ATK-Begins-Production-of-Next-Generation-120mm-Tank-Ammunition", title: "Orbital ATK Begins Production of Next Generation 120mm Tank Ammunition", publisher: "Orbital ATK (Business Wire)", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s6, url: "https://www.highergov.com/contract-opportunity/120mm-m829a4-cartrid-w15qkn-22-c-0006-award-w15qkn-22-c-0006-northrop-grumman-systems-corporation-c77ae", title: "120mm M829A4 cartridge, award W15QKN-22-C-0006", publisher: "HigherGov (US federal contract notice)", retrieved: 2026-11-22, kind: government }

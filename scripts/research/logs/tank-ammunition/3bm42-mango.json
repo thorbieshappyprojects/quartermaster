@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "3BM42 Mango 125mm APFSDS 3VBM17 T-72 T-80 muzzle velocity weight",
+    "Rosoboronexport 3VBM17 125mm armour-piercing round catalogue",
+    "Mango 3BM42 rounds T-72B3 Russia Ukraine war tank ammunition captured"
+  ],
+  "urlsSeen": [
+    "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/russia-launches-production-of-3vbm17-mango-ammunition-in-india",
+    "https://www.shephardmedia.com/news/landwarfareintl/army-2021-rostec-companies-showcase-new-offensive-/",
+    "https://www.overtdefense.com/2022/09/19/ukrainian-forces-capture-russias-most-advanced-tank",
+    "https://militarnyi.com/uk/news/rosiya-zastosovuye-ridkisni-boyeprypasy-proty-ukrayinskoyi-bronetehniky/",
+    "https://www1.ru/en/news/2025/02/18/raskryt-polnyi-boekomplekt-novogo-tanka-t-90ms-sest-variantov-porazeniia-na-vybor.html"
+  ]
+}
