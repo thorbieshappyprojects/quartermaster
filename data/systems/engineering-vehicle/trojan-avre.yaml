@@ -1,0 +1,39 @@
+id: trojan-avre
+category: engineering-vehicle
+name: Trojan AVRE
+variant_note: Production standard as delivered under the 2001 Titan/Trojan contract
+family: Challenger 2
+aliases: [Trojan, Trojan AEV, Trojan Armoured Engineer Vehicle, Armoured Vehicle Royal Engineers]
+manufacturer: { name: BAE Systems Land Systems (contract placed with Vickers Defence Systems) }
+origin: GB
+role: Armoured engineer vehicle on a Challenger 2 chassis for opening routes through battlefield obstacles and breaching minefields.
+memorable_fact: { text: "In February 2010 in Helmand, the Royal Engineers used a Trojan's plough on operations in Afghanistan for the first time, and Trojans towed the Python explosive mine-clearing hose, which was also fired for the first time.", source: s7 }
+status: in_service
+in_service_since: { value: 2007, source: s8, confidence: low, note: "Year of first service of the base system (no later variant exists). A 2003 parliamentary answer had forecast entry into service in October 2005 (s2). Defense Update said all 66 Titan/Trojan vehicles were due to be delivered by 2008 (s5)." }
+units_built: { value: 33, source: s4, confidence: medium, note: "Trojan only. The parliamentary answer confirms 33 Trojan ordered alongside 33 Titan bridgelayers (s2)." }
+combat_use: { text: "Deployed to Afghanistan (Helmand) during Operation Moshtarak in February 2010. There it used its mine plough to clear a lane through a suspected IED belt and towed the Python rocket-propelled mine-clearing system.", source: s7 }
+specs:
+  bridge_span: { value: null, source: null, confidence: null, note: "Not a bridge layer. Gap crossing uses fascines." }
+  lift_capacity: { value: null, source: null, confidence: null, note: "No public excavator-arm lift figure found." }
+  load_class: { value: null, source: null, confidence: null }
+  deployment_time: { value: null, source: null, confidence: null, note: "Not applicable (not a bridge layer)." }
+  combat_weight: { value: 62.5, source: s1, confidence: high, note: "British Army states combat weight 62,500 kg. Army Technology gives the same figure (s4)." }
+  crew: { value: 3, source: s6, confidence: high, note: "MoD Desider: crewed by three engineers. Army Technology lists commander, operator and driver (s4)." }
+operators:
+  - { country: GB, force: British Army (Royal Engineers), state: in_service, quantity: 33, source: s2, note: "Quantity is the number ordered. No current fleet figure is published." }
+cost: { value: 3788000, currency: GBP, price_year: 2001, basis: contract_per_unit, source: s3, confidence: low, note: "Contract of more than GBP 250 million placed with Vickers Defence Systems in 2001 for design, development and production of 66 vehicles (33 Trojan + 33 Titan), divided by 66. This mixes two vehicle types and includes development costs. No Trojan-only unit price is published." }
+contracts:
+  - { customer: United Kingdom / British Army, year: 2001, quantity: 33, value: 250000000, currency: GBP, note: "Design, development and production of 33 Trojan and 33 Titan on the Challenger 2 chassis. Value 'more than GBP 250 million' covers all 66 vehicles. Year from s4.", source: s3 }
+  - { customer: United Kingdom / British Army, year: 2025, quantity: null, value: 64500000, currency: GBP, note: "December 2025 transparency notice of intent to direct-award a Titan/Trojan mid-life update (up to 7 years) to Rheinmetall BAE Systems Land. Estimated value, excluding VAT. Contract signature targeted for December 2026 (s10), so this is not a signed contract as of retrieval date.", source: s9 }
+peers: [kodiak, m1150-abv, dachs-2, imr-2m]
+sources:
+  - { id: s1, url: "https://www.army.mod.uk/learn-and-explore/equipment/engineering-equipment/trojan-armoured-vehicle", title: "Trojan Armoured Vehicle", publisher: British Army, retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://hansard.parliament.uk/Lords/2003-03-05/debates/05eb24e9-fc13-46f6-a3f0-3bdfff0ce3d8/TitanAndTrojan", title: "Titan And Trojan - Hansard (House of Lords, 5 March 2003)", publisher: UK Parliament, retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.investegate.co.uk/announcement/rns/rolls-royce-holdings--rr./vickers-contract-/272603", title: "Vickers Contract", publisher: Investegate (Rolls-Royce/Vickers RNS announcement), retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.army-technology.com/projects/trojan-armoured-engineer-vehicle-united-kingdom/", title: "Trojan Armoured Engineer Vehicle, United Kingdom", publisher: Army Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://defense-update.com/20061107_trojan-titan.html", title: "Trojan & Titan - Combat Engineering Vehicles", publisher: Defense Update, retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://assets.publishing.service.gov.uk/media/5a798efbed915d04220695f6/desider_24_AprMay10v2.pdf", title: "Desider, April/May 2010", publisher: UK Ministry of Defence, retrieved: 2026-11-22, kind: government }
+  - { id: s7, url: "https://www.mynewsdesk.com/uk/uk-government/pressreleases/ministry-of-defence-python-snakes-into-action-against-the-taliban-373940", title: "Ministry Of Defence: Python snakes into action against the Taliban", publisher: UK Ministry of Defence (via Mynewsdesk), retrieved: 2026-11-22, kind: government }
+  - { id: s8, url: "https://www.militarytoday.com/engineering/trojan.htm", title: "Trojan AVRE - Combat engineering vehicle", publisher: Military-Today, retrieved: 2026-11-22, kind: reference }
+  - { id: s9, url: "https://ukdefencejournal.org.uk/uk-plans-64-5m-mid-life-upgrade-for-titan-and-trojan/", title: "UK plans £64.5m mid-life upgrade for Titan and Trojan", publisher: UK Defence Journal, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.armyrecognition.com/news/army-news/2026/uk-approves-titan-and-trojan-recovery-vehicle-upgrade-for-british-army-until-2033", title: "UK Approves Titan and Trojan Recovery Vehicle Upgrade for British Army Until 2033", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }

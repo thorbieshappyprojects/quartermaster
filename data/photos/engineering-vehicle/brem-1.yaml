@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: brem-1
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:BREM-1_-_ETIF-2010_(1).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/BREM-1_-_ETIF-2010_%281%29.jpg/1280px-BREM-1_-_ETIF-2010_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: BREM-1 - ETIF-2010 (1).jpg
+    caption: BREM-1 armoured recovery vehicle at the ETIF-2010 exhibition, 2010.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Vitaly V. Kuzmin
+    credit: http://www.vitalykuzmin.net/?q=node/308
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:BREM-1_-_4otbr16122011_13.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/BREM-1_-_4otbr16122011_13.jpg/1280px-BREM-1_-_4otbr16122011_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: BREM-1 - 4otbr16122011 13.jpg
+    caption: BREM-1 of the 4th Kantemirovskaya Tank Division, 2011.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Vitaly V. Kuzmin
+    credit: http://www.vitalykuzmin.net/Military/Exercises-4th-Tank-Brigade/
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:BREM-1_ARV.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/BREM-1_ARV.jpg/1280px-BREM-1_ARV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: BREM-1 ARV.jpg
+    caption: A Russian BREM-1 armoured recovery vehicle, 2010.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Vitaliy Ragulin
+    credit: Репетиция парада.
+    priority: A
+    retrieved: 2026-11-22
+note: "Excluded #14-16, which are described as BREM-1M, and the unrelated files that only match '608' or 'brem'."

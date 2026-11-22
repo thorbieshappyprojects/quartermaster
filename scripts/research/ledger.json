@@ -1,5 +1,5 @@
 {
-  "spentUsd": 85.8804,
+  "spentUsd": 87.8983,
   "entries": [
     {
       "date": "2026-11-21",
@@ -1655,6 +1655,54 @@
       "usd": 0.0154,
       "input": 2283,
       "output": 313,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "engineering-vehicle/brem-1",
+      "usd": 0.6677,
+      "input": 356617,
+      "output": 9603,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "engineering-vehicle/imr-2m",
+      "usd": 0.5817,
+      "input": 288953,
+      "output": 8618,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "engineering-vehicle/trojan-avre",
+      "usd": 0.7216,
+      "input": 577223,
+      "output": 8731,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/brem-1",
+      "usd": 0.0166,
+      "input": 3095,
+      "output": 210,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/imr-2m",
+      "usd": 0.0125,
+      "input": 1938,
+      "output": 235,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/trojan-avre",
+      "usd": 0.0178,
+      "input": 3127,
+      "output": 265,
       "searches": 0
     }
   ]

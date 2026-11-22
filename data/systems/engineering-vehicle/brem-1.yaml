@@ -1,0 +1,58 @@
+id: brem-1
+category: engineering-vehicle
+name: BREM-1
+variant_note: Original T-72A-based production model (Object 608); excludes the modernised BREM-1M
+family: BREM-1
+aliases: ["БРЭМ-1", "Object 608", "Obyekt 608"]
+manufacturer: { name: Uralvagonzavod }
+production_sites:
+  - { place: Nizhny Tagil, country: RU, source: s6 }
+origin: RU
+role: Soviet-designed tracked armoured recovery vehicle on a T-72 chassis for towing, lifting and field repair of damaged tanks and other armoured vehicles.
+memorable_fact: { text: "Its main winch pulls 25 t, and with snatch blocks that rises to 100 t, about four times its own pull.", source: s1 }
+status: in_service
+in_service_since:
+  value: 1975
+  range: { min: 1975, max: 1984 }
+  source: s9
+  confidence: medium
+  note: "Base system: 1975 is the year of formal adoption into Soviet service (trade press). Another reference (s5) gives 1984 as entry into service, which reflects the start of series deliveries."
+units_built:
+  value: 342
+  source: s5
+  confidence: low
+  note: "BREM-1 vehicles delivered up to 1990, per a single secondary reference. Later production and the BREM-1M are not included."
+combat_use:
+  text: "Used by both sides in the Russian invasion of Ukraine, where Oryx has visually documented more than 100 Russian BREM-1 losses. Ukrainian drone units have also reported strikes on Russian BREM-1s fitted with electronic-warfare equipment and anti-drone cages."
+  source: s7
+specs:
+  bridge_span: { value: null, source: null, confidence: null }
+  lift_capacity:
+    value: 12
+    range: { min: 12, max: 19 }
+    source: s3
+    confidence: medium
+    note: "12 t is the commonly quoted crane capacity. Trade press (s1) gives 19 t at 2 m reach and 3 t at the full 4.4 m reach. 12 t is shown because it is the standard rated figure."
+  load_class: { value: null, source: null, confidence: null }
+  deployment_time: { value: null, source: null, confidence: null }
+  combat_weight:
+    value: 41
+    range: { min: 35, max: 41 }
+    source: s2
+    confidence: medium
+    note: "Original figure 41,000 kg. A Jane's-derived reference (s8) gives 35,000 kg; 41 t is shown because most references agree on it."
+  crew: { value: 3, source: s2, confidence: medium }
+operators:
+  - { country: RU, force: Ground Forces, state: in_service, quantity: null, source: s7 }
+  - { country: UA, force: Armed Forces of Ukraine, state: in_service, quantity: null, source: s1 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public unit price or contract value found." }
+peers: [m88a2-hercules, bergepanzer-3-buffel]
+sources:
+  - { id: s1, url: "https://www.armyrecognition.com/news/army-news/2016/ukroboronprom-delivers-another-batch-of-brem-1-recovery-vehicle-to-ukraine-armed-forces-10208161", title: "Ukroboronprom delivers another batch of BREM-1 recovery vehicle to Ukraine armed forces", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.army-guide.com/eng/product1627.html", title: "BREM-1 (Repair and recovery vehicle)", publisher: Army Guide, retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://www.menadefense.net/aircraft-tow-tractor-demonstration-held-at-domodedovo-airport/", title: "Aircraft tow tractor demonstration held at Domodedovo airport - MENADEFENSE", publisher: MENADEFENSE, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.militarytoday.com/engineering/brem1.htm", title: "BREM-1 Armored Recovery Vehicle", publisher: Military-Today, retrieved: 2026-11-22, kind: reference }
+  - { id: s6, url: "http://uralvagonzavod.ru/presscenter/release/1296", title: "Уралвагонзавод завершил 2019 год рекордом!", publisher: Uralvagonzavod, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s7, url: "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html", title: "Attack On Europe: Documenting Russian Equipment Losses During The Russian Invasion Of Ukraine", publisher: Oryx, retrieved: 2026-11-22, kind: other }
+  - { id: s8, url: "https://issuu.com/dellvzla/docs/modern_battle_tanks_and_support_vehicles/s/13416781", title: "T-72 A, G and Ml Series, CIS", publisher: Issuu (Modern Battle Tanks and Support Vehicles), retrieved: 2026-11-22, kind: reference }
+  - { id: s9, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2023/russia-receives-new-batch-of-brem-1m-armored-recovery-vehicles", title: "Russian Defense receives new batch of BREM-1M Armored Recovery Vehicles", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
