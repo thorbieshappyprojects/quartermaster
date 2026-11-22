@@ -1,5 +1,5 @@
 {
-  "spentUsd": 38.146,
+  "spentUsd": 47.3356,
   "entries": [
     {
       "date": "2026-11-21",
@@ -351,6 +351,86 @@
       "usd": 0.6184,
       "input": 263639,
       "output": 12407,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "rocket-artillery/_category",
+      "usd": 0.7478,
+      "input": 686084,
+      "output": 8056,
+      "searches": 14
+    },
+    {
+      "date": "2026-11-22",
+      "item": "rocket-artillery/m142-himars",
+      "usd": 1.349,
+      "input": 1550481,
+      "output": 20335,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "rocket-artillery/m270a2-mlrs",
+      "usd": 0.9563,
+      "input": 723791,
+      "output": 12800,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "rocket-artillery/k239-chunmoo",
+      "usd": 0.8419,
+      "input": 796100,
+      "output": 13860,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "rocket-artillery/puls",
+      "usd": 1.2539,
+      "input": 1531881,
+      "output": 15218,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "rocket-artillery/astros-ii",
+      "usd": 0.8714,
+      "input": 678748,
+      "output": 14346,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "rocket-artillery/tornado-s",
+      "usd": 0.624,
+      "input": 536430,
+      "output": 9155,
+      "searches": 9
+    },
+    {
+      "date": "2026-11-22",
+      "item": "rocket-artillery/phl-16",
+      "usd": 0.673,
+      "input": 438225,
+      "output": 10228,
+      "searches": 13
+    },
+    {
+      "date": "2026-11-22",
+      "item": "rocket-artillery/homar-k",
+      "usd": 1.0161,
+      "input": 483310,
+      "output": 23349,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "rocket-artillery/euro-puls",
+      "usd": 0.8562,
+      "input": 812785,
+      "output": 12233,
       "searches": 15
     }
   ]

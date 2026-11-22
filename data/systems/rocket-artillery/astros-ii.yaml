@@ -1,0 +1,45 @@
+id: astros-ii
+category: rocket-artillery
+name: ASTROS II Mk6
+variant_note: ASTROS 2020 / Mk6 6x6 universal launcher (AV-LMU)
+family: ASTROS
+aliases: [ASTROS 2020, ASTROS Mk6, Artillery Saturation Rocket System, AV-LMU]
+manufacturer: { name: Avibras (now Avibras Aeroco) }
+origin: BR
+role: Wheeled multiple rocket launcher firing modular pods of 127-300 mm rockets and a 300 km tactical cruise missile for area saturation and long-range strike.
+memorable_fact: { text: "Avibras says one ASTROS launcher can fire rockets and missiles of several calibres at targets between 9 and 300 km away.", source: s1 }
+status: in_service
+in_service_since: { value: 2014, source: s2, confidence: medium, note: "Year the Mk6/ASTROS 2020 variant was first delivered (Brazilian Marine Corps April 2014, Brazilian Army June 2014). The base ASTROS II system was first delivered in 1983 (s3)." }
+units_built: { value: 313, range: { min: 130, max: 313 }, source: s2, confidence: low, note: "Total for the ASTROS II family, not the Mk6 alone. 313 is the Forecast International estimate of ASTROS II systems produced through 2023, in the report text. The same report's production table gives 130 ASTROS II plus 26 ASTROS III, so the report is internally inconsistent. Other secondary sources give about 270 built. There is no official Mk6 production total." }
+combat_use: { text: "Saudi Arabia fired ASTROS cluster-munition rockets at Khafji in 1991. Human Rights Watch reported that Brazil-made ASTROS cluster rockets were used in Yemen in December 2016 and attributed the strikes to Saudi forces.", source: s8 }
+specs:
+  rockets_per_launcher: { value: 4, source: s3, confidence: medium, note: "4 x 300 mm SS-60/SS-80 rockets per launcher (largest-calibre rocket). The same launcher carries 32 x 127 mm SS-30 or 16 x 180 mm SS-40 rockets. The tactical cruise missile is not counted." }
+  max_range: { value: 40, source: s7, confidence: medium, note: "40 km for the GPS-guided 180 mm SS-AV-40G rocket announced for the Mk6/ASTROS 2020; this rocket may still be in development. The Avibras Aeroco tactical cruise missile (MTC/AV-TM 300), launched from ASTROS, reaches 300 km (s9) but is not a rocket. Unguided SS-60/SS-80 rockets reach up to 80 km (s3)." }
+  reload_time: { value: 6, range: { min: 5, max: 6 }, source: s10, confidence: low, note: "Pod (container) replacement with the resupply vehicle takes 5-6 minutes according to a single secondary source describing the original ASTROS II. Upper value displayed. There is no official Mk6 figure." }
+  combat_weight: { value: 27, source: s12, confidence: low, note: "27,000 kg for the Mk6, from Wikipedia only (the underlying source could not be checked). The original ASTROS II on a Tectran 6x6 is listed at 10 t (s11)." }
+  crew: { value: 3, range: { min: 3, max: 5 }, source: s11, confidence: low, note: "Several reference sites give a crew of 3 for the launcher vehicle. Forecast International lists 5 (commander, aimer, gunner, driver, assistant) (s2). Reference figures describe the original ASTROS II." }
+operators:
+  - { country: BR, force: Army, state: in_service, quantity: null, source: s5 }
+  - { country: BR, force: Marine Corps, state: in_service, quantity: null, source: s9 }
+  - { country: ID, force: Army, state: in_service, quantity: 63, source: s4 }
+  - { country: MY, force: Army, state: in_service, quantity: 36, source: s7 }
+  - { country: SA, force: Army, state: in_service, quantity: 60, source: s2 }
+  - { country: QA, force: Army, state: in_service, quantity: 4, source: s2 }
+cost: { value: 9722222, currency: USD, price_year: 2012, basis: contract_per_unit, source: s2, confidence: medium, note: "June 2012 Brazilian Ministry of Defense contract: USD 525 million for three ASTROS 2020 batteries (54 launchers), divided by 54. Includes the batteries' support vehicles and components. The November 2012 Indonesian Mk6 contract (about USD 350 million for 36 launchers) gives the same per-launcher figure." }
+contracts:
+  - { customer: Brazil (Ministry of Defense), year: 2011, quantity: null, value: 28000000, currency: USD, note: "Initial ASTROS 2020 development contract. Total programme potential value USD 659 million.", source: s2 }
+  - { customer: Brazil (Ministry of Defense), year: 2012, quantity: 54, value: 525000000, currency: USD, note: "Three ASTROS 2020 batteries (54 launchers).", source: s2 }
+  - { customer: Indonesia (Ministry of Defense), year: 2012, quantity: 36, value: 350000000, currency: USD, note: "Two ASTROS II Mk6 batteries. Contract value is reported as an estimate. A further 27 Mk6 launchers were delivered in June 2020 (s4).", source: s2 }
+peers: [m142-himars, puls, k239-chunmoo, phl-16]
+sources:
+  - { id: s1, url: "https://www.avibras.com.br/site/en/35-nossos-produtos/sistemas-de-defesa/100-astros-2.html", title: "Avibras Indústria Aeroespacial S/A - ASTROS", publisher: Avibras, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.forecastinternational.com/archive/disp_pdf.cfm?DACH_RECNO=1589", title: "ASTROS Multiple Launch Rocket Systems (Ordnance & Munitions Forecast, archived report, August 2024)", publisher: Forecast International, retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://www.army-technology.com/projects/astros/", title: "Astros II Artillery Saturation Rocket System, Brazil - Army Technology", publisher: Army Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2020/indonesian-army-took-delivery-of-mlrs-avibras-astros-ii-mk-6-from-brazil", title: "Indonesian army takes delivery of MLRS Avibras Astros II Mk 6 from Brazil", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://dialogo-americas.com/articles/brazil-modernizes-its-artillery-force-with-new-vehicles/", title: "Brazil Modernizes its Artillery Force with New Vehicles", publisher: Diálogo Américas, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://defencesecurityasia.com/en/malaysian-army-fires-astros-ii-mlrs-during-exercise-lembing-sakti/", title: "Malaysian Army Fires \"ASTROS II\" MLRS During Exercise Lembing Sakti", publisher: Defence Security Asia, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.hrw.org/news/2016/12/23/yemen-brazil-made-cluster-munitions-harm-civilians", title: "Yemen: Brazil-Made Cluster Munitions Harm Civilians", publisher: Human Rights Watch, retrieved: 2026-11-22, kind: other }
+  - { id: s9, url: "https://www.b-11.net/2026/09/26/avibras-leva-missil-tatico-de-cruzeiro-de-300-km-e-plataformas-astros-a-operacao-formosa-2026/", title: "Avibras leva míssil tático de cruzeiro de 300 km e plataformas ASTROS à Operação Formosa 2026", publisher: B-11, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://en.missilery.info/missile/asros-2", title: "Astros II multiple launch rocket system", publisher: Missilery.info, retrieved: 2026-11-22, kind: reference }
+  - { id: s11, url: "https://www.militarytoday.com/artillery/astros_ii.htm", title: "ASTROS II Multiple Launch Rocket System", publisher: Military-Today, retrieved: 2026-11-22, kind: reference }
+  - { id: s12, url: "https://en.wikipedia.org/wiki/Astros_II", title: "Astros II", publisher: Wikipedia, retrieved: 2026-11-22, kind: reference }

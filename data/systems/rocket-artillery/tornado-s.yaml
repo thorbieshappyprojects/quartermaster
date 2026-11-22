@@ -1,0 +1,39 @@
+id: tornado-s
+category: rocket-artillery
+name: "Tornado-S (9K515)"
+variant_note: "9K515 system with 9A54 launch vehicle on MAZ-543M 8x8 chassis"
+family: "Smerch / Tornado"
+aliases: ["9K515", "9A54", "Tornado-S MLRS"]
+manufacturer: { name: "JSC NPO Splav named after A.N. Ganichev (Rostec / Tecmash)" }
+production_sites:
+  - { place: "Perm", country: RU, source: s3 }
+origin: RU
+role: "300 mm self-propelled multiple rocket launcher firing guided and unguided rockets against area and point targets at long range."
+memorable_fact: { text: "Tornado-S is a deep modernisation of the Soviet BM-30 Smerch, and each rocket in a salvo can be given its own flight mission so that one salvo can engage several targets.", source: s7 }
+status: in_production
+in_service_since: { value: 2016, source: s2, confidence: medium, note: "Year this variant (Tornado-S) was approved for Russian service (July–August 2016). State trials were reported as completed in 2015 (s3). The base system, BM-30 Smerch, dates from the late 1980s (s2)." }
+units_built: { value: null, source: null, confidence: null, note: "No public production total found." }
+combat_use: { text: "On 22 November 2022, the Russian Ministry of Defence announced that Tornado-S had been deployed in Ukraine for combat operations.", source: s2 }
+specs:
+  rockets_per_launcher: { value: 12, source: s2, confidence: medium, note: "12 x 300 mm launch tubes on the 9A54 launch vehicle." }
+  max_range: { value: 120, source: s1, confidence: high, note: "Rostec gives 'up to 120 km' with the new 300 mm guided rockets." }
+  reload_time: { value: 20, source: s8, confidence: low, range: { min: 18, max: 20 }, note: "Reloading the combat vehicle takes 20 min (s8). Russian media (s9) give 18–20 min using the 9T255 transport-loader. The displayed value comes from the reference listing (s8)." }
+  combat_weight: { value: 43.7, source: s8, confidence: low, note: "The source gives 43,700 kg in firing position and 33,700 kg without rockets. This comes from a single secondary reference; no manufacturer figure was found." }
+  crew: { value: 3, source: s2, confidence: medium }
+operators:
+  - { country: RU, force: "Ground Forces (Missile Troops and Artillery)", state: in_service, quantity: null, source: s2 }
+cost: { value: 300000000, currency: RUB, price_year: 2019, basis: contract_per_unit, source: s3, confidence: low, range: { min: 300000000, max: 350000000 }, note: "Derived from a 2019 Russian MoD contract with ZAO SKB (Motovilikha group): unofficially reported at RUB 6–7 billion for about 20 vehicles. The vehicles are a mix of 9A54 launch vehicles and transport-loader vehicles. The lower bound is displayed. The contract value was not officially disclosed." }
+contracts:
+  - { customer: "Russia / Ministry of Defence", year: 2019, quantity: 20, value: 6500000000, currency: RUB, note: "Launch vehicles and transport-loader vehicles from ZAO SKB (Motovilikha group), for delivery in 2020. Industry sources put the value at RUB 6–7 billion (midpoint shown) for about 20 vehicles. Not officially disclosed.", source: s3 }
+  - { customer: "Russia / Ministry of Defence", year: 2020, quantity: null, value: 30000000000, currency: RUB, note: "Several state contracts with NPO Splav signed at Army-2020 for Tornado-S combat and transport-loader vehicles. The total of about RUB 30 billion also includes 9M22U rockets for Grad.", source: s5 }
+  - { customer: "Russia / Ministry of Defence", year: 2022, quantity: null, value: null, currency: null, note: "Contract for 300 mm rockets for Tornado-S, signed with NPO Splav at Army-2022.", source: s6 }
+peers: [phl-16, m270a2-mlrs, k239-chunmoo, puls]
+sources:
+  - { id: s1, url: "https://www.rostec.ru/en/media/news/rostec-launches-tornado-s-into-the-international-market/", title: "Rostec Launches \"Tornado-S\" Into the International Market", publisher: "Rostec State Corporation", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/multiple-launch-rocket-systems/tornado-s-9k515-mlrs", title: "Tornado-S 9K515 MLRS", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.kommersant.ru/doc/4102655", title: "«Мотовилихинские заводы» загрузят залпом", publisher: "Kommersant", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://armstrade.org/includes/periodics/news/2020/0901/102059416/detail.shtml", title: "НПО «СПЛАВ» поставит в войска изделия на сумму около 30 млрд. рублей", publisher: "CAMTO (Centre for Analysis of World Arms Trade)", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://armstrade.org/includes/periodics/mainnews/2022/0817/084269022/detail.shtml", title: "На форуме «Армия-2022» подписаны 7 и вручены 29 госконтрактов с 26 предприятиями ОПК", publisher: "CAMTO (Centre for Analysis of World Arms Trade)", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://tass.com/defense/1225005", title: "Advanced Tornado-S rocket launchers to replace Smerch systems in Russian troops by 2027", publisher: "TASS", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://missilery.info/missile/tornado-s", title: "Реактивная система залпового огня 9К515 \"Торнадо-С\"", publisher: "missilery.info (Ракетная техника)", retrieved: 2026-11-22, kind: reference }
+  - { id: s9, url: "https://360.ru/tekst/ukrainian-crisis/tornado-s/", title: "РСЗО «Торнадо-С»: характеристики, как показала себя на СВО, как придумали, преимущества «Торнадо-С»", publisher: "360.ru", retrieved: 2026-11-22, kind: press }

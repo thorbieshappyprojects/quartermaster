@@ -1,0 +1,104 @@
+id: m142-himars
+category: rocket-artillery
+name: "M142 HIMARS"
+variant_note: "Full-rate production Lot 17 standard (2026), M142 with Increased Crew Protection (ICP) armoured cab"
+family: "MLRS"
+aliases: ["HIMARS", "High Mobility Artillery Rocket System"]
+manufacturer: { name: "Lockheed Martin Missiles and Fire Control" }
+production_sites:
+  - { place: "Camden, Arkansas", country: US, source: s3 }
+origin: US
+role: "Wheeled 6x6 truck-mounted launcher that carries one pod of six 227 mm GMLRS rockets, two PrSM or one ATACMS missile for long-range precision strike."
+memorable_fact: { text: "HIMARS can be flown in a C-130 while combat-loaded. Its single pod holds either six GMLRS rockets or two Precision Strike Missiles.", source: s2 }
+status: in_production
+in_service_since:
+  value: 2005
+  source: s3
+  confidence: high
+  note: "Year the US Army first fielded the base M142 system. The ICP armoured cab entered production in FY2009 (FRP III) and was retrofitted to the rest of the US fleet (s17)."
+units_built:
+  value: 750
+  source: s3
+  confidence: high
+  note: "Total launchers delivered to all customers, all M142 production lots: the 750th was delivered on 5 Nov 2025. Lockheed Martin raised annual output from 48 to 96 launchers, so later deliveries are not included in this figure."
+combat_use: { text: "Used by Ukraine against Russian forces from 2022. According to CENTCOM, US forces used it in Operation Epic Fury against Iran in 2026, the first combat use of PrSM.", source: s7 }
+specs:
+  rockets_per_launcher:
+    value: 6
+    source: s2
+    confidence: high
+    note: "Six GMLRS or ER GMLRS (227 mm) in one pod. The alternative loads are 2 PrSM or 1 ATACMS missile."
+  max_range:
+    value: 150
+    range: { min: 70, max: 150 }
+    source: s6
+    confidence: medium
+    note: "Shown value is for the guided ER GMLRS rocket (150 km). Standard GMLRS reaches about 70 km (s16). The missiles are not counted here: Lockheed Martin gives a munitions span of 15 to 499+ km including PrSM (s2), and ATACMS reaches 300 km."
+  reload_time:
+    value: 5
+    range: { min: 4, max: 5 }
+    source: s8
+    confidence: low
+    note: "Press figure: a trained crew reloads in about 4 to 5 minutes using the integrated crane. No manufacturer or government figure was found."
+  combat_weight:
+    value: 16.3
+    range: { min: 16.25, max: 16.3 }
+    source: s2
+    confidence: high
+    note: "Manufacturer figure is 16,283 kg (35,800 lb) combat loaded, rounded to 16.3 t. Army Recognition gives 16.25 t (s15). The manufacturer figure is shown."
+  crew:
+    value: 3
+    source: s2
+    confidence: high
+operators:
+  - { country: US, force: "Army", state: in_service, quantity: null, source: s3 }
+  - { country: US, force: "Marine Corps", state: in_service, quantity: null, source: s5 }
+  - { country: SG, force: "Army", state: in_service, quantity: null, source: s16 }
+  - { country: AE, force: "Army", state: in_service, quantity: null, source: s7 }
+  - { country: JO, force: "Armed Forces", state: in_service, quantity: null, source: s7 }
+  - { country: RO, force: "Land Forces", state: in_service, quantity: null, source: s7 }
+  - { country: PL, force: "Land Forces", state: in_service, quantity: 20, source: s10 }
+  - { country: UA, force: "Ground Forces", state: in_service, quantity: null, source: s7 }
+  - { country: AU, force: "Army", state: in_service, quantity: 42, source: s7 }
+  - { country: EE, force: "Defence Forces", state: in_service, quantity: 6, source: s13 }
+  - { country: TW, force: "Army", state: in_service, quantity: null, source: s4 }
+  - { country: TW, force: "Army", state: ordered, quantity: 82, source: s6 }
+  - { country: LT, force: "Land Forces", state: in_service, quantity: null, source: s1 }
+  - { country: LV, force: "Land Forces", state: ordered, quantity: null, source: s13 }
+  - { country: IT, force: "Army", state: ordered, quantity: 21, source: s4 }
+  - { country: HR, force: "Army", state: ordered, quantity: null, source: s7 }
+  - { country: CA, force: "Army", state: ordered, quantity: 26, source: s1 }
+  - { country: SE, force: "Army", state: ordered, quantity: 20, source: s6 }
+  - { country: AL, force: "Land Force", state: evaluating, quantity: 2, source: s14 }
+cost:
+  value: 7800000
+  currency: USD
+  price_year: 2027
+  basis: unit_price
+  source: s9
+  confidence: medium
+  note: "Gross weapon-system unit cost in the US Army FY2027 budget books, as reported by Inside Defense. The request is USD 746 million for 96 launchers including associated equipment. The FY2026 unit cost was USD 10.3 million. This is not an export package price."
+contracts:
+  - { customer: "US Army/USMC plus FMS for Australia, Canada, Estonia, Sweden, Taiwan", year: 2026, quantity: null, value: 1132447811, currency: USD, note: "Undefinitized contract for full-rate production Lot 17, work to be completed by 30 Apr 2028. Launcher quantity not confirmed; exact value from s15.", source: s5 }
+  - { customer: "US Army", year: 2025, quantity: null, value: 742179564, currency: USD, note: "Firm-fixed-price contract for HIMARS production. Quantity not stated.", source: s11 }
+  - { customer: "US Army and international partners", year: 2023, quantity: null, value: 615000000, currency: USD, note: "Full-rate production contract for launchers and associated equipment, built in Camden, Arkansas.", source: s12 }
+  - { customer: "Poland", year: 2019, quantity: 20, value: 414000000, currency: USD, note: "18 combat and 2 training launchers with ammunition and related equipment. First delivery in May 2023.", source: s10 }
+peers: [m270a2-mlrs, k239-chunmoo, puls]
+sources:
+  - { id: s1, url: "https://www.lockheedmartin.com/en-us/products/himars.html", title: "HIMARS: Mobile Artillery Rocket Launcher System", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/pc/high-mobility-artillery-rocket-system/himars-product-card%20.pdf", title: "HIMARS Precision Firepower, Unmatched Reliability (product card)", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.lockheedmartin.com/en-us/news/features/2025/driving-precision-and-readiness-lockheed-martin-delivers-750th-himars.html", title: "Driving Precision and Readiness: Lockheed Martin Delivers 750th HIMARS", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://thedefensepost.com/2025/11/10/lockheed-750th-himars-launcher/", title: "Lockheed Martin Delivers 750th HIMARS Launcher Amid Global Expansion", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://thedefensepost.com/2026/04/30/lockheed-himars-us-allies/", title: "Lockheed Wins $1B HIMARS Production Deal for US, Five Allied Nations", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.armyrecognition.com/news/army-news/2026/u-s-awards-1-13b-contract-to-expand-m142-himars-launchers-for-army-and-allied-long-range-fires", title: "U.S. Awards $1.13B Contract to Expand M142 HIMARS Launchers for Army and Allied Long Range Fires", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.army-technology.com/projects/himars/", title: "M142 HIMARS Rocket Artillery System: Specs & Munitions", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://nationalinterest.org/blog/buzz/ukraines-himars-hit-detailed-look-russias-successful-strike-209914", title: "Ukraine's HIMARS Hit: A Detailed Look at Russia's Successful Strike", publisher: "The National Interest", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://insidedefense.com/insider/army-and-lockheed-shake-undefinitized-11-billion-himars-deal", title: "Army and Lockheed shake on undefinitized $1.1 billion HIMARS deal", publisher: "Inside Defense", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.euronews.com/2023/05/16/poland-takes-first-delivery-of-us-made-himars-rocket-launchers-amid-concerns-over-ukraine-", title: "Poland takes first delivery of US-made HIMARS rocket launchers amid concerns over Ukraine war", publisher: "Euronews", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://news.clearancejobs.com/2025/05/09/lockheed-wins-742m-army-contract-to-build-more-himars-rocket-systems/", title: "Lockheed Wins $742M Army Contract to Build More HIMARS", publisher: "ClearanceJobs", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://news.lockheedmartin.com/2023-04-28-Us-army-awards-lockheed-martin-615m-production-contract-for-domestic-and-international-himars", title: "US Army Awards Lockheed Martin $615M Production Contract for Domestic and International HIMARS", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s13, url: "https://www.overtdefense.com/2025/05/06/estonias-himars-rocket-artillery-to-begin-live-fire-training-in-summer/", title: "Estonia's HIMARS Rocket Artillery To Begin Live Fire Training In Summer", publisher: "Overt Defense", retrieved: 2026-11-22, kind: press }
+  - { id: s14, url: "https://www.armyrecognition.com/news/army-news/2026/albania-to-acquire-two-himars-rocket-launchers-following-us-approval-of-210-million-arms-sale", title: "Albania to acquire two HIMARS rocket launchers following US approval of $210 million arms sale", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s15, url: "https://www.armyrecognition.com/news/army-news/2026/us-launches-production-of-first-m142-himars-rocket-launchers-for-canada-under-1-13-billion-deal", title: "US launches production of first M142 HIMARS rocket launchers for Canada as part of $1.13 billion deal", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s16, url: "https://www.nas.gov.sg/archivesonline/data/pdfdoc/MINDEF_20110905001/MINDEF_20110905003.pdf", title: "Fact Sheet: High Mobility Artillery Rocket System (05 Sep 2011)", publisher: "Ministry of Defence Singapore", retrieved: 2026-11-22, kind: government }
+  - { id: s17, url: "https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2011_SARS/HIMARS-SAR_31_DEC_2011.pdf", title: "Selected Acquisition Report (SAR): HIMARS, 31 Dec 2011", publisher: "US Department of Defense", retrieved: 2026-11-22, kind: government }

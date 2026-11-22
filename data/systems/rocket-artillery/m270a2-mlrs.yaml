@@ -1,0 +1,88 @@
+id: m270a2-mlrs
+category: rocket-artillery
+name: "M270A2"
+variant_note: "Recapitalised 'zero-time' M270 with Common Fire Control System, 600 hp engine and Improved Armored Cab"
+family: "M270 MLRS"
+aliases: ["MLRS", "M270 MLRS", "Multiple Launch Rocket System"]
+manufacturer: { name: "Lockheed Martin Missiles and Fire Control" }
+production_sites:
+  - { place: "Camden, Arkansas", country: US, source: s2 }
+origin: US
+role: "Tracked, armoured multiple launch rocket system that fires guided 227 mm rockets and long-range surface-to-surface missiles."
+memorable_fact: { text: "M270A2 launchers are not built new: existing M270s are fully restored and upgraded, intended to keep them in service through 2050.", source: s2 }
+status: in_production
+in_service_since:
+  value: 2022
+  source: s2
+  confidence: medium
+  note: "Year of first M270A2 delivery to the US Army (12 July 2022, Camden, Arkansas). The first US Army unit fully equipped was the 41st Field Artillery Brigade in late 2024 (s5). The base M270 system has been in US Army service since 1983 (s2)."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public cumulative M270A2 delivery figure found. The US Army plans to upgrade 225 M270A1 and 160 decommissioned M270A0 launchers to M270A2 (s1). The first contract (2019) covered 50 launchers (s4)."
+combat_use: { text: "No confirmed combat use of the M270A2 as of 2026. The earlier M270A1 configuration was used in Operation Iraqi Freedom.", source: s15 }
+specs:
+  rockets_per_launcher:
+    value: 12
+    source: s1
+    confidence: high
+    note: "12 GMLRS or ER GMLRS rockets in two six-rocket pods. Lockheed Martin also lists 4 PrSM or ATACMS as an alternative load."
+  max_range:
+    value: 150
+    source: s6
+    confidence: medium
+    note: "Approximately 150 km with the Extended-Range GMLRS rocket. Standard GMLRS exceeds 84 km. Missiles fly farther: ATACMS up to 300 km and PrSM beyond 500 km (s6), but those are missiles, not rockets."
+  reload_time:
+    value: 3
+    source: s13
+    confidence: low
+    range: { min: 3, max: 10 }
+    note: "No manufacturer reload figure for the M270A2. The 3 min figure is for the M270A1 Improved Launcher Mechanical System (4 min on the original M270) per s13. Lockheed Martin states a 38% reload-time reduction for the M270A1 (s15). Another secondary source gives 8-10 min for a full reload by the crew (s16). 3 min is displayed as the launcher-mechanism figure."
+  combat_weight:
+    value: 27.5
+    source: s6
+    confidence: low
+    range: { min: 24.9, max: 27.5 }
+    note: "Army Recognition gives approximately 27,500 kg for the M270A2. Army Technology gives 55,000 lb (about 24.9 t) for the generic M270 (s14). No manufacturer or government M270A2 figure found. The A2-specific value is displayed."
+  crew:
+    value: 3
+    source: s1
+    confidence: high
+    note: "Commander, gunner and driver (s6)."
+operators:
+  - { country: US, force: "Army", state: in_service, quantity: null, source: s5 }
+  - { country: FI, force: "Army", state: ordered, quantity: 41, source: s7 }
+  - { country: GB, force: "Army", state: ordered, quantity: 61, source: s12 }
+  - { country: IT, force: "Army", state: ordered, quantity: 21, source: s9 }
+cost:
+  value: 7240000
+  currency: USD
+  price_year: 2019
+  basis: contract_per_unit
+  source: s4
+  confidence: medium
+  note: "April 2019 US Army contract, USD 362 million for recapitalising 50 launchers to M270A2, divided by 50. This is the cost of converting an existing launcher, not a new-build unit price."
+contracts:
+  - { customer: "United States Army", year: 2019, quantity: 50, value: 362000000, currency: USD, note: "First M270A2 recapitalisation contract.", source: s4 }
+  - { customer: "Finland (Army)", year: 2023, quantity: null, value: 395000000, currency: USD, note: "US State Department approval of a possible Foreign Military Sale to upgrade Finnish M270s to M270A2. The Finnish Army states its whole fleet of 41 launchers will be upgraded (s7).", source: s8 }
+  - { customer: "United States Army and international partners", year: 2024, quantity: null, value: 451000000, currency: USD, note: "Recapitalisation of more US Army M270s plus upgrades for partner nations. Lockheed Martin also received a further USD 214 million in May 2025 for US, UK, Finnish and Italian upgrades (s11).", source: s10 }
+  - { customer: "United States Army", year: 2026, quantity: null, value: 200000000, currency: USD, note: "September 2026 award to recapitalise more M270 launchers as M270A2.", source: s3 }
+peers: [m142-himars, k239-chunmoo, puls, tornado-s]
+sources:
+  - { id: s1, url: "https://www.lockheedmartin.com/en-us/products/m270.html", title: "Multiple Launch Rocket System (M270)", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://news.lockheedmartin.com/built-in-arkansas-lockheed-martin-delivers-first-modernized-m270a2-to-us-army", title: "Built In Arkansas: Lockheed Martin Delivers First Modernized M270A2 to U.S. Army", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.lockheedmartin.com/en-us/news/features/2026/Modernizing-a-Proven-Force-Connecting-M270A2-to-the-Joint.html", title: "Modernizing a Proven Force: Connecting M270A2 to the Joint Fight", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://news.lockheedmartin.com/2019-04-23-Lockheed-Martin-Receives-362-Million-Contract-for-Multiple-Launch-Rocket-System-Launcher-M270A2-Recapitalization", title: "Lockheed Martin Receives $362 Million Contract for Multiple Launch Rocket System Launcher (M270A2) Recapitalization", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s5, url: "https://www.army.mil/article/282077/41st_fab_becomes_first_u_s_army_unit_to_receive_new_m270a2_mlrs", title: "V Corps brigade first US Army unit to receive new rocket system", publisher: "U.S. Army", retrieved: 2026-11-22, kind: government }
+  - { id: s6, url: "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/multiple-launch-rocket-systems/m270a2-mlrs", title: "M270A2 MLRS", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://maavoimat.fi/en/-/upgrade-of-the-mlrs-fleet-to-ensure-long-range-fires-capacity", title: "Upgrade of the MLRS fleet to ensure long-range fires capacity", publisher: "Finnish Army (Maavoimat)", retrieved: 2026-11-22, kind: government }
+  - { id: s8, url: "https://www.defensenews.com/global/europe/2023/08/04/us-approves-395-million-upgrade-of-finlands-m270-rocket-launchers/", title: "US approves $395 million upgrade of Finland's M270 rocket launchers", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.armyrecognition.com/news/army-news/2025/u-s-lockheed-martin-to-modernize-m270-mlrs-for-u-s-finland-italy-and-uk-to-boost-long-range-firepower", title: "U.S. Lockheed Martin To Modernize M270 MLRS for U.S. - Finland - Italy and UK to Boost Long-Range Firepower", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://euro-sd.com/2024/05/major-news/37984/lm-to-upgrade-more-mlrs/", title: "Lockheed Martin secures contract to upgrade more US Army and international MLRSs", publisher: "European Security & Defence", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://thedefensepost.com/2025/05/27/lockheed-m270-mlrs-us/", title: "Lockheed Awarded $214M to Upgrade M270 MLRS for US, Allies", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://janes.com/osint-insights/defence-news/land/future-artillery-2025-uk-to-receive-first-upgraded-m270-mlrs-this-year", title: "Future Artillery 2025: UK to receive first upgraded M270 MLRS this year", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://weaponsystems.net/system/467-M270+MLRS", title: "M270 MLRS", publisher: "Weapon Systems (weaponsystems.net)", retrieved: 2026-11-22, kind: reference }
+  - { id: s14, url: "https://www.army-technology.com/projects/mlrs/", title: "M270 MLRS: Multiple Launch Rocket System Specs", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s15, url: "https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/pc/multiple-launch-rocket-system-m270/mfc-mlrs-m270-pc.pdf", title: "MLRS M270 Series Launchers: Ever-Evolving Family of Launchers (product card)", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s16, url: "https://www.militarytoday.com/artillery/m270_mlrs.htm", title: "M270 MLRS Multiple Launch Rocket System", publisher: "Military Today", retrieved: 2026-11-22, kind: reference }

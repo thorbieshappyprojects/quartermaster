@@ -1,0 +1,59 @@
+id: puls
+category: rocket-artillery
+name: PULS
+variant_note: Elbit launcher module with two interchangeable pods; truck chassis varies by customer
+family: Lynx / PULS
+aliases: [Precise & Universal Launching System, Lahav, Suryastra]
+manufacturer: { name: Elbit Systems }
+origin: IL
+role: Truck-mounted multi-calibre rocket launcher firing unguided rockets, guided rockets and missiles from two interchangeable launch pod containers.
+memorable_fact: { text: "A single PULS can fire different munitions out to 300 km from one position, so the unit does not have to move to match the required range.", source: s1 }
+status: in_production
+in_service_since: { value: 2020, source: s3, confidence: medium, note: "Base system: PULS-based Lahav entered IDF service in 2020. First export deliveries (Denmark) began in 2023. The predecessor Lynx was introduced in 2013." }
+units_built: { value: null, source: null, confidence: null, note: "No consolidated public production figure found." }
+combat_use: { text: "Used operationally for the first time by the Israel Defense Forces (as Lahav) in the Gaza Strip in February 2024.", source: s3 }
+specs:
+  rockets_per_launcher: { value: 4, source: s1, confidence: high, note: "Predator Hawk (370 mm): 2 rockets per pod x 2 pods. Other loads per pod: 18 Accular 122 mm, 10 Accular 160 mm, 4 EXTRA." }
+  max_range: { value: 300, source: s2, confidence: high, note: "Predator Hawk guided rocket; EXTRA 150 km; Accular 122 mm 35 km." }
+  reload_time: { value: 10, source: s14, confidence: low, note: "Reported as pod exchange in 'under ten minutes' (upper bound); manufacturer gives no figure." }
+  combat_weight: { value: null, source: null, confidence: null, note: "Depends on carrier truck (Tatra, Scania Gryphus, HEMTT, Iveco); no public figure found." }
+  crew: { value: 2, source: s6, confidence: medium, note: "Dutch PULS: driver and launch commander in the cab; the article mentions 4 personnel during a deployment." }
+operators:
+  - { country: IL, force: Israel Defense Forces (Artillery Corps), state: in_service, quantity: null, source: s4 }
+  - { country: DK, force: Royal Danish Army, state: in_service, quantity: 8, source: s8 }
+  - { country: NL, force: Royal Netherlands Army, state: in_service, quantity: 20, source: s5 }
+  - { country: MA, force: Royal Moroccan Armed Forces, state: in_service, quantity: null, source: s13 }
+  - { country: DE, force: German Army, state: ordered, quantity: 5, source: s9 }
+  - { country: GR, force: Hellenic Army, state: ordered, quantity: 36, source: s11 }
+  - { country: RS, force: Serbian Army, state: ordered, quantity: null, source: s12 }
+  - { country: IN, force: Indian Army, state: ordered, quantity: null, source: s15 }
+cost:
+  value: 15.25
+  currency: USD
+  price_year: 2023
+  basis: contract_per_unit
+  source: s7
+  confidence: medium
+  range: { min: 11.4, max: 20.83 }
+  note: "Netherlands contract of May 2023: USD 305 million for 20 launchers, including rockets and missiles, training and support. Other contracts: Germany 2025 USD 57 million / 5 launchers (USD 11.4 million each, including adaptation and C4I integration); Greece 2026 USD 750 million / 36 launchers (about USD 20.8 million each, including munitions and support)."
+contracts:
+  - { customer: Netherlands / Royal Netherlands Army, year: 2023, quantity: 20, value: 305000000, currency: USD, note: "Government-to-government deal; includes rockets and missiles of various ranges, training and support; performed over five years.", source: s7 }
+  - { customer: Denmark / Royal Danish Army, year: 2023, quantity: 8, value: 133000000, currency: USD, note: "Two batteries plus rockets and missiles, command post and supply vehicles; deliveries completed by Q1 2024.", source: s8 }
+  - { customer: Germany / Bundeswehr, year: 2025, quantity: 5, value: 57000000, currency: USD, note: "Replaces five MARS II sent to Ukraine; delivered with KNDS Deutschland; later systems with German C4I equipment (EuroPULS standard).", source: s9 }
+  - { customer: Greece / Hellenic Armed Forces, year: 2026, quantity: 36, value: 750000000, currency: USD, note: "About EUR 650 million; reported 36 launchers with munitions, training and sustainment; four-year execution, ten-year support phase.", source: s11 }
+peers: [euro-puls, m142-himars, k239-chunmoo, astros-ii]
+sources:
+  - { id: s1, url: "https://www.elbitsystems.com/land/weapons-systems-and-munitions/launchers/puls", title: "PULS Multiple Rocket Launcher", publisher: Elbit Systems, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.elbitsystems.com/sites/default/files/2026-01/catalog_rms_13_pages_0.pdf", title: "Elbit Systems Land Rocket & Missile Systems (catalogue)", publisher: Elbit Systems, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/hamas-israel-war-2023/israeli-army-deploys-new-lahav-multi-caliber-mlrs-against-hamas-militants-in-gaza-strip", title: "Israeli Army deploys new Lahav multi-caliber MLRS against Hamas militants in Gaza Strip", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://defence-industry.eu/idf-employs-puls-rocket-artillery-system-during-ongoing-war/", title: "IDF employs PULS rocket artillery system during ongoing war", publisher: Defence Industry Europe, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://magazines.defensie.nl/materieelgezien/2023/04/snel-handelen-voor-puls-raketartillerie", title: "Snel handelen voor PULS", publisher: Netherlands Ministry of Defence (Materieelgezien), retrieved: 2026-11-22, kind: government }
+  - { id: s6, url: "https://www.defensie.nl/magazines/landmacht/2026/editie-8/03_cerberus-thunder-puls", title: "'Lange arm' van de artillerie", publisher: Netherlands Ministry of Defence (Landmacht magazine), retrieved: 2026-11-22, kind: government }
+  - { id: s7, url: "https://www.elbitsystems.com/news/elbit-systems-awarded-305-million-contract-supply-puls-rocket-artillery-systems-royal", title: "Elbit Systems Awarded $305 Million Contract to Supply PULS Rocket Artillery Systems to the Royal Netherlands Army", publisher: Elbit Systems, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s8, url: "https://www.janes.com/osint-insights/defence-news/weapons/future-artillery-2024-danish-puls-mrl-deliveries-completed", title: "Future Artillery 2024: Danish PULS MRL deliveries completed", publisher: Janes, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.hartpunkt.de/elbit-systems-mit-lieferung-des-raketenartilleriesystems-puls-an-die-bundeswehr-beauftragt/", title: "Elbit Systems mit Lieferung des Raketenartilleriesystems PULS an die Bundeswehr beauftragt", publisher: hartpunkt, retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://www.armyrecognition.com/news/army-news/2026/greece-secures-36-puls-rocket-launchers-from-israel-with-300-km-strike-range-in-750-million-deal", title: "Greece secures 36 PULS rocket launchers from Israel with 300 km strike range in $750 million deal", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://www.hartpunkt.de/puls-serbien-beschafft-israelisches-raketenartilleriesystem/", title: "PULS – Serbien beschafft israelisches Raketenartilleriesystem", publisher: hartpunkt, retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://www.army-technology.com/projects/puls-rocket-artillery-systems-israel/", title: "PULS Rocket Artillery Systems, Israel", publisher: Army Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s14, url: "https://nationalinterest.org/blog/buzz/why-greece-is-buying-the-israeli-puls-missile-system", title: "Why Greece Is Buying the Israeli PULS Missile System", publisher: The National Interest, retrieved: 2026-11-22, kind: press }
+  - { id: s15, url: "https://www.indiandefensenews.in/2026/05/indias-nibe-puls-rocket-artillery.html", title: "India's NIBE PULS Rocket Artillery Regiments Capable of Firing 300 Rockets At GHQ Rawalpindi In Under A Minute; Can Be Reloaded In Less Than 10 Minutes", publisher: Indian Defence News, retrieved: 2026-11-22, kind: other }

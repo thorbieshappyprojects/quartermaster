@@ -1,0 +1,44 @@
+id: homar-k
+category: rocket-artillery
+name: "Homar-K"
+variant_note: "K239 Chunmoo launcher module on Jelcz P882.57 8x8 chassis, integrated at Huta Stalowa Wola with Polish Topaz fire control"
+family: "K239 Chunmoo"
+aliases: ["K239PL", "K239 Chunmoo (Polish configuration)"]
+manufacturer: { name: "Hanwha Aerospace" }
+production_sites:
+  - { place: "Stalowa Wola", country: PL, source: s10 }
+origin: KR
+role: "Wheeled 8x8 multiple rocket launcher for the Polish Land Forces, firing 239 mm guided rockets and 600 mm tactical ballistic missiles from two modular pods."
+memorable_fact: { text: "A Homar-K launcher carries 12 guided rockets, twice as many as a HIMARS launcher.", source: s4 }
+status: in_production
+in_service_since: { value: 2023, source: s2, confidence: medium, note: "Year this variant entered service: by 30 December 2023, 15 Homar-K launchers had been delivered to the 18th Mechanized Division. The Armament Agency reports that the first Homar-K integrated in Poland was handed over in Nowa Deba in the second half of November (s3)." }
+units_built: { value: 156, source: s1, confidence: medium, note: "Homar-K launcher modules delivered to Poland out of 290 ordered, as reported in late 2026. The Armament Agency stated in December 2025 that 108 complete launchers had been assembled from 156 delivered modules (s14)." }
+specs:
+  rockets_per_launcher: { value: 12, source: s5, confidence: medium, note: "Two pods, each holding six 239 mm CGR-080 guided rockets. Alternatively each pod holds one 600 mm CTM-290 tactical ballistic missile, i.e. 2 per load (s5). Also stated as 12 rockets in s4." }
+  max_range: { value: 290, source: s8, confidence: medium, note: "CTM-290 600 mm tactical ballistic missile, up to 290 km, as reported from the Polish Armament Agency. The 239 mm CGR-080 guided rocket reaches up to 80 km according to the manufacturer (s7). The 290 km figure for the CTM-290 is also given in s9." }
+  reload_time: { value: 10, range: { min: 5, max: 10 }, source: s6, confidence: low, note: "Given for the K239 Chunmoo in general: pods reloaded 'within five to ten minutes'. No Homar-K-specific figure found; the upper bound is displayed." }
+  combat_weight: { value: 31, range: { min: 25, max: 31 }, source: s5, confidence: low, note: "Army Recognition gives 31 t for Homar-K, but its dimensions (9 m long) match the Korean K239 chassis, not the Jelcz chassis, which is 11 m long (s11). Army-technology gives 25 t combat weight for the K239 (s6). An academic paper puts the Jelcz-chassis vehicle at 18,500 kg empty (s13). No manufacturer or government figure found." }
+  crew: { value: 3, source: s5, confidence: medium, note: "The Jelcz P882.57 chassis has an armoured three-seat cab (s11)." }
+operators:
+  - { country: PL, force: "Land Forces (Army)", state: in_service, quantity: 290, source: s1, note: "290 launcher modules ordered under two executive contracts; 156 modules delivered by late 2026. Units: 18th Artillery Regiment, 1st Masurian Artillery Brigade, 5th Lubusz Artillery Regiment, 23rd Silesian Artillery Regiment." }
+cost: { value: 22200000, currency: USD, price_year: 2024, basis: contract_per_unit, source: s2, confidence: low, note: "Second executive contract of April 2024: about USD 1.6 billion net (PLN 6.45 billion net) / 72 launcher modules, rounded. s2 describes the scope as launcher modules, logistics and training packages, and Homar-K integration. JKN reports that this contract also includes rockets and CTM-290 missiles (s9), so the scope is reported inconsistently. The first contract (USD 3.55 billion for 218 modules) includes a large ammunition stock and is not used here." }
+contracts:
+  - { customer: "Poland / Armament Agency", year: 2022, quantity: 218, value: 3550000000, currency: USD, note: "First executive contract, 4 November 2022, net value. Covers launcher modules, logistics and training packages, and an ammunition stock of over ten thousand rounds. It followed the 19 October 2022 framework agreement for 288 launchers (s12).", source: s3 }
+  - { customer: "Poland / Armament Agency", year: 2024, quantity: 72, value: 1600000000, currency: USD, note: "Second executive contract, April 2024, net value (PLN 6.45 billion net / PLN 7.93 billion gross); includes logistics and training packages and integration.", source: s2 }
+  - { customer: "Poland / Armament Agency", year: 2025, quantity: null, value: 14000000000, currency: PLN, note: "Third executive contract, 29 December 2025, for CGR-080 rockets to be made in Gorzow Wielkopolski by the Hanwha WB Advanced System joint venture; rp.pl reports the value as about PLN 14 billion gross (s14).", source: s1 }
+peers: [k239-chunmoo, m142-himars, puls, euro-puls]
+sources:
+  - { id: s1, url: "https://milmag.pl/en/more-homar-k-multiple-rocket-launchers-delivered-to-the-23rd-silesian-artillery-regiment/", title: "More Homar-K multiple rocket launchers delivered to the 23rd Silesian Artillery Regiment", publisher: "MILMAG", retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://milmag.pl/en/second-executive-contract-for-the-homar-k-launchers/", title: "Second executive contract for the Homar-K launchers", publisher: "MILMAG", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.wojsko-polskie.pl/au/articles/aktualnosci/pierwszy-zintegrowany-w-polsce-homar-k-przekazany-artylerzystom-z-nowej-deby/", title: "Pierwszy, zintegrowany w Polsce HOMAR-K przekazany artylerzystom z Nowej Dęby", publisher: "Agencja Uzbrojenia (Polish Armament Agency)", retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://defence-industry.eu/hanwha-aerospace-delivers-126-homar-k-rocket-systems-to-poland-in-record-time/", title: "Hanwha Aerospace delivers 126 Homar-K rocket systems to Poland in record time", publisher: "Defence Industry Europe", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://armyrecognition.com/news/army-news/army-news-2024/poland-receives-new-homar-k-multiple-rocket-launchers-for-its-armed-forces", title: "Poland Receives New Homar-K Multiple Rocket Launchers for its Armed Forces", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.army-technology.com/projects/k239-chunmoo-multiple-launch-rocket-system-south-korea/", title: "K239 Chunmoo MLRS: South Korea Artillery System Specs", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.hanwhaaerospace.com/eng/whatwedo/product/template/popupTemplate.do?seq=101", title: "Chunmoo Guided Rocket", publisher: "Hanwha Aerospace", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s8, url: "https://militarnyi.com/en/news/range-of-up-to-290-km-poland-receives-batch-of-ctm-290-ballistic-missiles-for-the-homar-k/", title: "Range of Up to 290 km: Poland Receives Batch of CTM-290 Ballistic Missiles for the Homar-K", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://news.jkn.co.kr/editions/english/post/1039568", title: "Hanwha Aerospace Delivers First CTM-290 Ballistic Missiles to Poland for Chunmoo", publisher: "JKN", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://milmag.pl/en/the-first-homar-k-launcher-module-delivery-of-the-year/", title: "The first Homar-K launcher module delivery of the year", publisher: "MILMAG", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://jelcz.com.pl/pierwszy-homar-k-przekazany-do-wojska-polskiego/", title: "Pierwszy HOMAR-K przekazany do Wojska Polskiego", publisher: "Jelcz Sp. z o.o.", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s12, url: "https://milmag.pl/en/hanwha-aerospace-increases-polish-involvement-in-production-of-homar-k-launchers/", title: "Hanwha Aerospace increases Polish involvement in production of Homar-K launchers", publisher: "MILMAG", retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "http://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-74eb89ff-4204-4f1e-a4cc-30323bd663f7/c/Koteras_The_Homar_SJMULF_4_2025.pdf", title: "The Homar Programme", publisher: "Scientific Journal of the Military University of Land Forces", retrieved: 2026-11-22, kind: reference }
+  - { id: s14, url: "https://radar.rp.pl/przemysl-obronny/art45128791-homar-k-staje-sie-coraz-bardziej-polski-pod-gorzowem-powstaje-fabryka-rakiet", title: "Homar-K staje się coraz bardziej polski", publisher: "Rzeczpospolita (radar.rp.pl)", retrieved: 2026-11-22, kind: press }

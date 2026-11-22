@@ -1,0 +1,75 @@
+id: euro-puls
+category: rocket-artillery
+name: "MARS 3 (EuroPULS)"
+variant_note: "Bundeswehr IOC configuration on Iveco Trakker FSA 8x8 chassis"
+family: "PULS"
+aliases: ["EuroPULS", "Euro-PULS", "MARS 3"]
+manufacturer: { name: "KNDS Deutschland and Elbit Systems Land (EuroPULS GmbH 50:50 joint venture, Kassel); Elbit Systems is the contractor for the German IOC order" }
+origin: DE
+role: "Wheeled 8x8 multiple rocket launcher with two modular pods that fire guided rockets and missiles of several calibres and suppliers."
+memorable_fact: { text: "A MARS 3 test-fired Kongsberg's Naval Strike Missile in 2025, so the launcher can fire anti-ship missiles as well as artillery rockets.", source: s5 }
+status: in_production
+in_service_since:
+  value: null
+  source: null
+  confidence: null
+  note: "MARS 3/EuroPULS is not yet in service. It was described as in qualification in 2026, and delivery and qualification of the first five German launchers are planned for 2027 (s10, s7)."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public production total found. Germany has ordered 5 launchers (IOC batch)."
+combat_use: { text: "No confirmed combat use as of 2026.", source: s7 }
+specs:
+  rockets_per_launcher:
+    value: 4
+    source: s5
+    confidence: medium
+    note: "Largest calibre: 4 Predator Hawk (370 mm), 2 pods x 2. Other loads: 36 x 122 mm, 26 x 160 mm, 8 EXTRA (306 mm) or 6 SkyStriker loitering munitions."
+  max_range:
+    value: 300
+    source: s12
+    confidence: medium
+    note: "KNDS states up to 300 km without naming the munition. Trade press links 300 km to the Predator Hawk rocket. MBDA's JFS-M, a planned effector, is quoted at up to 499 km (s5) and is not counted here."
+  reload_time:
+    value: null
+    source: null
+    confidence: null
+    note: "No public figure. Sources only say an onboard crane allows the launcher to reload itself."
+  combat_weight:
+    value: 38
+    range: { min: 38, max: 38 }
+    source: s4
+    confidence: medium
+    note: "Eurosatory 2026 data gives 38 t. Janes (s3) reports less than 38 t, so the value is an upper bound."
+  crew:
+    value: 3
+    source: s3
+    confidence: medium
+    note: "Crew of three in a protected cabin."
+operators:
+  - { country: DE, force: Army, state: ordered, quantity: 5, source: s10 }
+  - { country: BG, force: Army, state: evaluating, quantity: null, source: s4 }
+  - { country: SI, force: Army, state: evaluating, quantity: null, source: s8 }
+cost:
+  value: 11400000
+  currency: USD
+  price_year: 2025
+  basis: contract_per_unit
+  source: s1
+  confidence: medium
+  note: "Elbit contract of about USD 57 million (about EUR 55 million) for 5 launchers, divided by 5. It also covers adaptation development, German C4I integration and in-service support. The Bundestag budget committee approved EUR 65 million for 5 systems including ammunition, spares and training (s9)."
+contracts:
+  - { customer: "Germany / Bundeswehr", year: 2025, quantity: 5, value: 57000000, currency: USD, note: "Initial operational capability launchers ordered through a Netherlands-Israel-Germany government agreement. Bundestag budget committee released EUR 65 million on 18 Dec 2024. A framework contract for about 500 MARS 3 was expected in late 2026 or early 2027 and was not confirmed as signed.", source: s9 }
+peers: [puls, m142-himars, m270a2-mlrs, k239-chunmoo]
+sources:
+  - { id: s1, url: "https://www.elbitsystems.com/news/germany-selects-puls-rocket-launcher-artillery-system-its-armed-forces", title: "Germany Selects PULS Rocket Launcher Artillery System for its Armed Forces", publisher: "Elbit Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://knds.com/en/press-releases/knds-and-elbit-systems-launch-euro-puls-joint-venture", title: "KNDS and Elbit Systems Launch EuroPULS Joint Venture", publisher: "KNDS", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.janes.com/osint-insights/defence-news/weapons/knds-and-elbit-systems-agree-to-form-europuls-joint-venture", title: "KNDS and Elbit Systems agree to form EuroPULS joint venture", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://milmag.pl/en/eurosatory-2026-knds-presents-the-mars-3-launcher/", title: "Eurosatory 2026: KNDS presents the MARS 3 launcher", publisher: "MILMAG", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://armyrecognition.com/news/army-news/2025/germany-fires-first-norwegian-naval-strike-missile-from-mars-3-rocket-launcher-to-reinforce-coastal-defense", title: "Germany fires first Norwegian Naval Strike Missile from MARS 3 rocket launcher to reinforce coastal defense", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.hartpunkt.de/renaissance-der-artillerie-deutsches-heer-soll-weitere-rad-und-panzerhaubitzen-sowie-raketenartilleriesysteme-und-drohnen-bekommen/", title: "Renaissance der Artillerie – Deutsches Heer soll weitere Rad- und Panzerhaubitzen sowie Raketenartilleriesysteme und Drohnen bekommen", publisher: "hartpunkt", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.hartpunkt.de/raketenartillerie-slowenien-offenbar-an-gemeinsamer-beschaffung-des-mars-3-mit-deutschland-interessiert/", title: "Raketenartillerie – Slowenien offenbar an gemeinsamer Beschaffung des MARS 3 mit Deutschland interessiert", publisher: "hartpunkt", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://soldat-und-technik.de/2025/02/bewaffnung/42191/bundeswehr-europuls/", title: "Bundeswehr beschafft Raketenartilleriesystem EuroPULS für 55 Millionen Euro", publisher: "Soldat & Technik", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.army-technology.com/news/knds-elbit-systems-jv-europuls/", title: "KNDS, Elbit Systems form JV for EuroPULS rocket artillery system", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://militarnyi.com/en/news/knds-unveils-mars-3-mlrs-with-nsm-capability-and-300-km-range/", title: "KNDS Unveils MARS 3 MLRS With NSM Capability and 300-km Range", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }

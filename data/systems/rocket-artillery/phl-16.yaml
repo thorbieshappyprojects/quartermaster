@@ -1,0 +1,35 @@
+id: phl-16
+category: rocket-artillery
+name: "PHL-16 (PCH191)"
+variant_note: "PLA Ground Force PCH191 two-pod launcher on WS2400 8x8 chassis"
+family: "AR3 / PHL-16"
+aliases: [PCH191, PCH-191, PCL-191, PCL191, PHL-191, PHL16]
+manufacturer: { name: "China North Industries Group Corporation (Norinco)" }
+origin: CN
+role: "Truck-mounted modular long-range multiple rocket launcher firing 300 mm and 370 mm rockets, 750 mm tactical ballistic missiles and an anti-ship missile from two pods."
+memorable_fact: { text: "Each of its two pods can hold five 300 mm rockets, four 370 mm rockets or one 750 mm missile, and pods can be swapped so the launcher is ready to fire again in about ten minutes.", source: s1 }
+status: in_service
+in_service_since: { value: 2019, source: s1, confidence: medium, note: "Year for this system (PCH191/PHL-16). Public debut was the October 2019 National Day Parade, and the Naval War College report describes wide PLA fielding since 2019. The report cites Jane's as saying Norinco completed development around 2017. The AR3 export base system was first marketed around 2010 (s3)." }
+units_built: { value: 120, source: s3, confidence: low, note: "Lower bound for launchers in PLA service ('more than 120'), as reported by SCMP from IISS Military Balance 2025 data. SCMP says the exact number is classified. This is not a production total, and AR3 export units are not included." }
+combat_use: { text: "No confirmed combat use as of 2026. Fired live in PLA exercises around Taiwan, including the August 2022 drills from Pingtan Island after the Pelosi visit.", source: s1 }
+specs:
+  rockets_per_launcher: { value: 8, source: s1, confidence: medium, note: "8 x 370 mm (4 per pod x 2 pods). Alternative loads: 10 x 300 mm rockets, or 2 x 750 mm FD-480 tactical missiles, or 380 mm TL-7B anti-ship missiles (1 per pod)." }
+  max_range: { value: 280, source: s1, confidence: medium, range: { min: 220, max: 350 }, note: "Shown value: 280 km for the BRE8 (FD280) 370 mm guided rocket, from the Naval War College table based on Jane's and Chinese industry sources. The Australian Army DATE entry also gives 280 km (s2). The BRE6 370 mm rocket reaches 220 km. SCMP in 2021 reported 350 km for the 370 mm rockets (s6). The 750 mm FD-480 tactical missile, about 480-500 km, is not counted as a rocket." }
+  reload_time: { value: 10, source: s1, confidence: medium, note: "Pod exchange; reloaded and ready to fire in about ten minutes, compared with up to one hour for the PHL-03." }
+  combat_weight: { value: 45, source: s1, confidence: medium, range: { min: 44, max: 45 }, note: "45 t is the stated combat weight of the modified WS2400 8x8 chassis (s1). The Australian Army DATE entry gives 44 t (s2)." }
+  crew: { value: 3, source: s2, confidence: medium, range: { min: 3, max: 5 }, note: "3 per the Australian Army DATE entry. Military-Today gives 5 (s7)." }
+operators:
+  - { country: CN, force: "PLA Ground Force", state: in_service, quantity: 120, source: s3, note: "'More than 120' per SCMP citing IISS (lower bound). Janes also identifies the PLA Ground Force as operator (s5)." }
+  - { country: AE, force: "UAE Armed Forces (AR3 export variant)", state: ordered, quantity: null, source: s4, note: "Ordered the AR3, the export base system, not the PLA PHL-16. Delivery status not confirmed in sources reviewed." }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public unit price for the PHL-16. The UAE AR3 contract (AED 902 million / USD 245 million, 2023) did not disclose a quantity, so a per-unit value cannot be calculated." }
+contracts:
+  - { customer: "United Arab Emirates", year: 2023, quantity: null, value: 902000000, currency: AED, note: "AR3 multiple rocket/missile launchers (export base system of the PHL-16), announced at IDEX 2023. Reported as about USD 245 million. Quantity not disclosed.", source: s4 }
+peers: [k239-chunmoo, puls, m142-himars, tornado-s]
+sources:
+  - { id: s1, url: "https://digital-commons.usnwc.edu/cgi/viewcontent.cgi?params=/context/cmsi-maritime-reports/article/1031/&path_info=CMR_32_Arostegui_FINAL_3_NOV_2023.pdf", title: "China Maritime Report No. 32: The PCH191 Modular Long-Range Rocket Launcher: Reshaping the PLA Army's Role in a Cross-Strait Campaign", publisher: "U.S. Naval War College, China Maritime Studies Institute", retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://date.army.gov.au/equipment/phl-16", title: "PHL-16", publisher: "Australian Army (Decisive Action Training Environment)", retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.scmp.com/news/china/military/article/3322516/phl16-multiple-rocket-launcher-chinas-answer-us-himars-system", title: "Is the PHL-16 multiple rocket launcher China's answer to the US Himars system?", publisher: "South China Morning Post", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.janes.com/osint-insights/defence-news/industry/idex-2023-uae-orders-norinco-ar3-launchers", title: "IDEX 2023: UAE orders Norinco AR3 launchers", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.janes.com/defence-intelligence-insights/defence-news/weapons/china-fires-airburst-munitions-from-phl-16-missile-launcher", title: "China fires airburst munitions from PHL-16 missile launcher", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.scmp.com/news/china/military/article/3117044/chinas-military-gives-glimpse-updated-long-range-rocket-system", title: "China's military gives glimpse of updated long-range rocket system", publisher: "South China Morning Post", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.militarytoday.com/artillery/phl_16.htm", title: "PHL-16 Multiple Launch Rocket System", publisher: "Military-Today", retrieved: 2026-11-22, kind: reference }

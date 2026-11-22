@@ -1,0 +1,47 @@
+id: k239-chunmoo
+category: rocket-artillery
+name: "K239 Chunmoo"
+variant_note: "K239 launcher on 8x8 truck chassis (ROK/export standard); Polish Homar-K variant uses a Jelcz 8x8 chassis"
+family: "Chunmoo"
+aliases: ["Chunmoo", "K-MLRS", "Chun-Moo", "Homar-K (Polish variant)"]
+manufacturer: { name: "Hanwha Aerospace" }
+origin: KR
+role: "Wheeled 8x8 multiple rocket launcher carrying two interchangeable pods for guided and unguided rockets and tactical ballistic missiles, providing long-range precision fires."
+memorable_fact: { text: "Chunmoo has no fixed launch tubes: it carries two swappable pods, so the same truck can fire 130 mm unguided rockets, 239 mm guided rockets or a 600 mm ballistic missile.", source: s2 }
+status: in_production
+in_service_since: { value: 2015, source: s2, confidence: medium, note: "Base system: South Korea ordered 58 in October 2014 and first deployment began in August 2015." }
+units_built: { value: null, source: null, confidence: null, note: "No public total production figure found. Polish Armament Agency reported 156 of 290 ordered Homar-K launcher modules delivered by 16 Oct 2026 (s9)." }
+combat_use: { text: "No confirmed combat use as of 2026. Saudi Chunmoo launchers were shown with units deployed on the Yemen border in 2023.", source: s11 }
+specs:
+  rockets_per_launcher: { value: 12, source: s2, confidence: medium, note: "Two pods x six 239 mm guided rockets. The largest-calibre munition, the 600 mm CTM-290 ballistic missile, is carried one per pod (2 per launcher); other loads are 20 x 130 mm rockets or 6 x 227 mm rockets per pod." }
+  max_range: { value: 80, source: s2, confidence: medium, note: "239 mm guided rocket. The 600 mm ballistic missile reaches approx. 290 km (s2); Norway's ordered munitions are reported to reach up to 500 km (s7)." }
+  reload_time: { value: 10, range: { min: 5, max: 10 }, source: s2, confidence: low, note: "Source gives 'five to ten minutes' for reloading the modular containers; the upper bound is displayed. No manufacturer figure found." }
+  combat_weight: { value: 31, range: { min: 25, max: 31 }, source: s3, confidence: low, note: "Army Recognition gives 31 t; Army Technology (s2) gives 25 t combat weight. No manufacturer figure found; 31 t displayed as the more recent report. Polish Jelcz-based Homar-K may differ." }
+  crew: { value: 3, source: s2, confidence: medium }
+operators:
+  - { country: KR, force: "Army", state: in_service, quantity: null, source: s2 }
+  - { country: AE, force: "Army", state: in_service, quantity: null, source: s2 }
+  - { country: SA, force: "Royal Saudi Land Forces", state: in_service, quantity: null, source: s10 }
+  - { country: PL, force: "Land Forces (Homar-K)", state: in_service, quantity: 156, source: s9 }
+  - { country: NO, force: "Army", state: ordered, quantity: 16, source: s7 }
+  - { country: EE, force: "Defence Forces", state: ordered, quantity: 9, source: s8 }
+  - { country: HR, force: "Armed Forces", state: ordered, quantity: 18, source: s1 }
+cost: { value: 22877778, currency: EUR, price_year: 2026, basis: contract_per_unit, source: s1, confidence: medium, note: "Croatia contract signed 10 Sep 2026: EUR 411.8 million / 18 launchers; includes ammunition carriers, fire direction command vehicles, precision-guided rockets, integrated logistics support and training. For comparison, Poland's 2022 contract (USD 3.55 bn / 218) gives about USD 16.3 million per launcher (s4)." }
+contracts:
+  - { customer: "Poland / Armament Agency", year: 2022, quantity: 218, value: 3550000000, currency: USD, note: "First executive contract (Homar-K), net value; includes training and logistics packages and a munitions stockpile; deliveries 2023-2027.", source: s4 }
+  - { customer: "Poland / Armament Agency", year: 2024, quantity: 72, value: 1600000000, currency: USD, note: "Second executive contract for 72 launcher modules plus logistics and training packages; approx. net value.", source: s5 }
+  - { customer: "Norway / Norwegian Defence Materiel Agency", year: 2026, quantity: 16, value: 922000000, currency: USD, note: "Approximate value of the Chunmoo agreement within a project budgeted at about USD 2 billion; quantity from s7.", source: s6 }
+  - { customer: "Croatia / Ministry of Defence", year: 2026, quantity: 18, value: 411800000, currency: EUR, note: "Launchers, ammunition carriers, command vehicles, precision-guided rockets, ILS and training; deliveries through 2030; TOPAZ battle management system.", source: s1 }
+peers: [m142-himars, puls, m270a2-mlrs, phl-16]
+sources:
+  - { id: s1, url: "https://www.hanwha.com/newsroom/news/press-releases/hanwha-aerospace-to-supply-chunmoo-mrls-to-croatia.do", title: "Hanwha Aerospace to supply Chunmoo MRLS to Croatia", publisher: "Hanwha", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.army-technology.com/projects/k239-chunmoo-multiple-launch-rocket-system-south-korea/", title: "K239 Chunmoo Multiple Launch Rocket System, South Korea", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2023/first-k239-chunmoo-mlrs-rockets-missile-launcher-arrive-in-poland-from-south-korea", title: "First K239 Chunmoo MLRS rockets/missile Launcher arrive in Poland from South Korea", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://defence24.com/armed-forces/blaszczak-218-chunmoo-launchers-for-poland", title: "Błaszczak: 218 Chunmoo Launchers for Poland", publisher: "Defence24", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://milmag.pl/en/second-executive-contract-for-the-homar-k-launchers/", title: "Second executive contract for the Homar-K launchers", publisher: "MILMAG", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.hanwha.com/newsroom/news/press-releases/hanwha-aerospace-secures-first-contract-to-supply-chunmoo-mrls-to-norway.do", title: "Hanwha Aerospace secures first contract to supply Chunmoo MRLS to Norway", publisher: "Hanwha", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s7, url: "https://www.calibredefence.co.uk/norway-picks-hanwha-and-chunmoo-for-long-range-fires/", title: "Norway picks Hanwha and Chunmoo for long-range fires", publisher: "Calibre Defence", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.koreaherald.com/article/10735260", title: "Hanwha Aerospace to supply 3 additional Chunmoo rocket launchers to Estonia", publisher: "The Korea Herald", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://milmag.pl/en/more-homar-k-multiple-rocket-launchers-delivered-to-the-23rd-silesian-artillery-regiment/", title: "More Homar-K multiple rocket launchers delivered to the 23rd Silesian Artillery Regiment", publisher: "MILMAG", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.janes.com/defence-intelligence-insights/defence-news/defence/saudi-military-unveils-chun-moo-mrls", title: "Saudi military unveils Chun-Moo MRLs", publisher: "Janes", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://thedefensepost.com/2023/04/05/saudi-arabia-chunmoo-rocket/", title: "Saudi Arabia Deploys S. Korean Chunmoo Multiple Launch Rocket System", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }

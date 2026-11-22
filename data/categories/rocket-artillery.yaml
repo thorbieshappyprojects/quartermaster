@@ -1,0 +1,122 @@
+# Indicators: scripts/research/indicators/rocket-artillery.yaml. Category card researched 2026-11-22.
+id: rocket-artillery
+name: Rocket artillery
+domain: Land fires
+wave: 1
+indicators:
+  - id: rockets_per_launcher
+    label: Rockets per load (largest calibre)
+    unit: ""
+    trump: higher_wins
+  - id: max_range
+    label: Max. range (guided rocket)
+    unit: km
+    trump: higher_wins
+  - id: reload_time
+    label: Reload time
+    unit: min
+    trump: lower_wins
+    decimals: 1
+  - id: combat_weight
+    label: Combat weight
+    unit: t
+    trump: lower_wins
+    decimals: 1
+  - id: crew
+    label: Crew
+    unit: ""
+    trump: lower_wins
+category_card:
+  summary: Rocket artillery is surface-to-surface indirect-fire weapons, usually wheeled or tracked vehicles carrying launcher pods, that fire single rockets or salvos of unguided or guided rockets and, on some platforms, tactical ballistic missiles. The category runs from older short-range area-saturation launchers such as the BM-21 Grad to newer precision systems such as HIMARS, PULS and K239 Chunmoo, which can strike targets from a few tens of kilometres out to about 300 km or more.
+  purpose:
+    - text: Rocket artillery units fire both saturation and precision strikes at the front line and deep in enemy territory, mainly to disrupt logistics and command structures and to hit enemy artillery so that friendly forces can advance.
+      source: s2
+    - text: Modern rocket launchers are used against high-value targets such as command posts, logistics centres and air defence systems, which helps win control of the air, especially in a war where neither side has air superiority.
+      source: s2
+    - text: In Ukraine, HIMARS and M270 firing GMLRS were used to systematically hit Russian depots and supply areas, and a RUSI report treats their arrival as the point where Russia's Donbas offensive ended.
+      source: s8
+  strengths:
+    - text: Guided rockets with a range of about 70 km can stay out of reach of front-line tube artillery while hitting depots and other targets deep behind the front that tube artillery cannot reach.
+      source: s1
+    - text: Precision means fewer rockets are needed per target, and launchers can move quickly after firing to avoid counter-battery fire, which improves their survival.
+      source: s1
+    - text: A Canadian Army official describes rocket artillery as fast-reacting and usable in all weather, with rockets at about Mach 2.5–3 reaching the target within a couple of minutes.
+      source: s7
+    - text: Launchers with interchangeable pods can mix mass and precision; PULS, for example, can carry 36 rockets with a 35 km range or 4 missiles with a 300 km range.
+      source: s6
+  weaknesses:
+    - text: Rocket artillery is only as effective as its intelligence, surveillance and reconnaissance (ISR). A British analysis of Ukraine names finding the enemy as the biggest hurdle and notes that both sides struggled to locate targets.
+      source: s6
+    - text: Guidance that relies on GPS can be jammed or spoofed. Russian electronic warfare has reportedly pushed GMLRS rockets off course, even though each rocket costs around USD 160,000.
+      source: s4
+    - text: Current rockets fly to a pre-set target point and cannot be redirected after launch. Systems that can find and hit an imprecisely located target are still in development and not yet in service.
+      source: s7
+    - text: Unguided rockets become less accurate the further they fly, so long-range area-fire systems without guidance miss by a wider margin against distant targets.
+      source: s5
+  counters:
+    - text: Short-range air defence and counter-rocket systems such as Tor and Pantsir-S can likely shoot down some guided rockets because the rockets do not manoeuvre. Long-range missile systems such as S-400 are poorly suited and too costly for this task.
+      source: s5
+    - text: GPS spoofing and jamming, set up densely along the front line, are used to reduce the accuracy of satellite-guided rockets.
+      source: s4
+    - text: Finding launchers requires surveillance reaching deep behind the front. RUSI links Russia's failure to destroy HIMARS and MLRS launchers to its limited ability to locate and track targets beyond the front line.
+      source: s1
+    - text: The defender can move ammunition stockpiles further back from the front, out of range of the rockets, although this makes resupply routes longer and logistics harder.
+      source: s5
+  trends:
+    - text: Since 2022, European armies have mostly bought foreign systems off the shelf. By January 2026 orders totalled 119 HIMARS, 74 PULS and 310 K239 Chunmoo, while Germany and France pursue joint or national development programmes.
+      source: s2
+    - text: Newer launchers combine saturation and precision fire using broader families of munitions, and medium-sized loitering munitions launched from rocket pods are being integrated.
+      source: s2
+    - text: To meet higher demand, Lockheed Martin set a target of 14,000 GMLRS rockets per year in 2025, up from 10,000 in 2024 and 6,000 in 2023. Other suppliers and local production deals, such as a Hanwha–WB Group joint venture in Poland, are also growing.
+      source: s3
+    - text: A key lesson from Ukraine is to combine long-range precision fires with software-enabled reconnaissance so that the time from spotting a target to striking it is cut down.
+      source: s1
+sources:
+  - id: s1
+    url: https://www.rusi.org/explore-our-research/publications/commentary/mlrs-and-totality-battlefield
+    title: MLRS and the Totality of the Battlefield
+    publisher: Royal United Services Institute (RUSI)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s2
+    url: https://www.ifri.org/sites/default/files/2026-03/ifri_peria_peigne_multiple_lauch_rocket_systems_2026.pdf
+    title: "Multiple Launch Rocket Systems: Europe's Long-standing and Enduring Dependence?"
+    publisher: French Institute of International Relations (Ifri)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s3
+    url: https://euro-sd.com/2025/09/articles/armament/46050/europes-dash-to-procure-rocket-artillery/
+    title: Europe's dash to procure rocket artillery
+    publisher: European Security & Defence (ESD)
+    retrieved: 2026-11-22
+    kind: press
+  - id: s4
+    url: https://www.defenseone.com/threats/2024/04/another-us-precision-guided-weapon-falls-prey-russian-electronic-warfare-us-says/396141/
+    title: Another US precision-guided weapon falls prey to Russian electronic warfare, US says
+    publisher: Defense One
+    retrieved: 2026-11-22
+    kind: press
+  - id: s5
+    url: https://euro-sd.com/2022/09/articles/exclusive/27158/the-challenge-of-himars-for-russia/
+    title: The Challenge of HIMARS for Russia
+    publisher: European Security & Defence (ESD)
+    retrieved: 2026-11-22
+    kind: press
+  - id: s6
+    url: https://wavellroom.com/2023/04/26/rise-of-the-rocket-launcher-2/
+    title: "Rise of the Rocket Launcher 2: Lessons from Ukraine"
+    publisher: Wavell Room
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s7
+    url: https://canadianarmytoday.com/loitering-or-rocket-artillery-assessing-the-solutions-for-long-range-precision-fires/
+    title: "Loitering or rocket artillery: Assessing the solutions for long-range precision fires"
+    publisher: Canadian Army Today
+    retrieved: 2026-11-22
+    kind: press
+  - id: s8
+    url: https://static.rusi.org/359-SR-Ukraine-Preliminary-Lessons-Feb-July-2022-web-final.pdf
+    title: "Preliminary Lessons in Conventional Warfighting from Russia's Invasion of Ukraine: February–July 2022"
+    publisher: Royal United Services Institute (RUSI)
+    retrieved: 2026-11-22
+    kind: reference
