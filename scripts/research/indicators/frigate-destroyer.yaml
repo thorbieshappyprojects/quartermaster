@@ -1,0 +1,11 @@
+id: frigate-destroyer
+name: Frigates and destroyers
+domain: Naval
+wave: 3
+indicators:
+  - { id: displacement, label: Displacement (full load), unit: t, trump: higher_wins }
+  - { id: length, label: Length, unit: m, trump: higher_wins, decimals: 1 }
+  - { id: max_speed, label: Max. speed, unit: kn, trump: higher_wins }
+  - { id: range, label: Range, unit: nmi, trump: higher_wins }
+  - { id: vls_cells, label: Vertical launch cells, unit: "", trump: higher_wins }
+  - { id: crew, label: Crew (core), unit: "", trump: lower_wins, description: Fewer crew means more automation; a playful convention. }

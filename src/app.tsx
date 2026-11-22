@@ -19,6 +19,7 @@ const NAV = [
   { hash: 'learn', label: 'Learn', ico: '↻' },
   { hash: 'quiz', label: 'Quiz', ico: '◐' },
   { hash: 'match', label: 'Match-up', ico: '⇄' },
+  { hash: 'compare', label: 'Compare', ico: '⊞' },
   { hash: 'map', label: 'Map', ico: '◍' },
   { hash: 'ranks', label: 'Ranks', ico: '★' },
   { hash: 'settings', label: 'More', ico: '⋯' },

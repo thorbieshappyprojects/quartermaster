@@ -26,10 +26,7 @@ export function Browser() {
   const cats = deck.categories.filter((c) => (!filter.value || c.id === filter.value) && (!q || c.name.toLowerCase().includes(q)));
   return (
     <div class="stack">
-      <div class="spread">
-        <h1>Cards</h1>
-        <a class="btn" href="#/compare" data-testid="open-compare">⇆ Compare</a>
-      </div>
+      <h1>Cards</h1>
       <input type="search" placeholder="Search name, maker, country…" value={query.value} onInput={(e) => (query.value = e.currentTarget.value)} aria-label="Search cards" />
       <CategoryFilter value={filter.value} onChange={(v) => (filter.value = v)} />
       <p class="muted small">{systems.length} system card{systems.length === 1 ? '' : 's'}</p>

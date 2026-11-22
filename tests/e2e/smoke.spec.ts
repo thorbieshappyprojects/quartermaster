@@ -55,16 +55,22 @@ test('browse, flip a card, play a full duel and a flashcard session', async ({ p
 test('compare two cards side by side', async ({ page }) => {
   await page.goto('/');
   if (await page.getByTestId('empty-deck').isVisible()) return;
-  await page.getByTestId('open-compare').click();
+  await page.getByRole('link', { name: /Compare/ }).first().click();
   const picker = page.getByTestId('compare-picker');
   await picker.getByRole('button').nth(0).click();
   await picker.getByRole('button').nth(1).click();
-  await page.getByTestId('compare-go').click();
   const table = page.getByTestId('compare-table');
   await expect(table).toBeVisible();
   await expect(table.locator('thead th')).toHaveCount(3);
-  // From a card: add to compare
-  await page.goto('/#/card/leopard-2a8');
+  // Opened from a URL with ids, the selection can still be changed (regression: it used to snap back).
+  await page.goto('/#/compare?ids=leopard-2a8,k2-black-panther');
+  await page.getByRole('button', { name: 'Remove K2 Black Panther' }).click();
+  await page.getByTestId('compare-picker').getByRole('button', { name: /T-90M/ }).click();
+  await expect(table.locator('thead th')).toHaveCount(3);
+  await expect(table.locator('thead')).toContainText('T-90M');
+  await expect(table.locator('thead')).not.toContainText('K2 Black Panther');
+  // From a card: add to compare (K2 was removed above)
+  await page.goto('/#/card/k2-black-panther');
   await page.getByTestId('compare-toggle').click();
   await expect(page.getByTestId('compare-toggle')).toHaveAttribute('aria-pressed', 'true');
 });

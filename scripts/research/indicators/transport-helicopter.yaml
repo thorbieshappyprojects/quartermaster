@@ -1,0 +1,10 @@
+id: transport-helicopter
+name: Transport and utility helicopters
+domain: Air mobility
+wave: 3
+indicators:
+  - { id: troops, label: Troops carried, unit: "", trump: higher_wins }
+  - { id: external_load, label: Max. external (sling) load, unit: t, trump: higher_wins, decimals: 1 }
+  - { id: max_takeoff_weight, label: Max. take-off weight, unit: t, trump: higher_wins, decimals: 1 }
+  - { id: max_speed, label: Max. speed, unit: km/h, trump: higher_wins }
+  - { id: range, label: Range (internal fuel), unit: km, trump: higher_wins }

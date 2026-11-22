@@ -1,0 +1,10 @@
+id: submarine
+name: Submarines
+domain: Naval
+wave: 3
+indicators:
+  - { id: displacement_submerged, label: Displacement (submerged), unit: t, trump: higher_wins }
+  - { id: length, label: Length, unit: m, trump: higher_wins, decimals: 1 }
+  - { id: max_speed_submerged, label: Max. speed (submerged), unit: kn, trump: higher_wins }
+  - { id: torpedo_tubes, label: Torpedo tubes, unit: "", trump: higher_wins }
+  - { id: crew, label: Crew, unit: "", trump: lower_wins, description: Fewer crew means more automation; a playful convention. }

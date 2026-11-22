@@ -1,0 +1,9 @@
+id: tank-ammunition
+name: Tank ammunition
+domain: Ammunition
+wave: 2
+indicators:
+  - { id: calibre, label: Calibre, unit: mm, trump: higher_wins }
+  - { id: muzzle_velocity, label: Muzzle velocity, unit: m/s, trump: higher_wins, description: "From the gun named in the note (e.g. L55)." }
+  - { id: round_weight, label: Complete round weight, unit: kg, trump: lower_wins, decimals: 1, description: Lighter is easier to load; a playful convention. }
+  - { id: max_effective_range, label: Max. effective range, unit: km, trump: higher_wins, decimals: 1 }

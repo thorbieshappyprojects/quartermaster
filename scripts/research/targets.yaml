@@ -121,3 +121,44 @@ artillery-ammunition:
   - { id: smart-155, name: SMArt 155 }
   - { id: bonus, name: BONUS sensor-fuzed round }
   - { id: dm121, name: Rheinmetall DM121 extended-range round }
+tank-ammunition:
+  - { id: dm63a1, name: DM63A1 APFSDS }
+  - { id: dm11, name: DM11 programmable HE }
+  - { id: m829a4, name: M829A4 APFSDS }
+  - { id: ofl-120-f2, name: OFL 120 F2 APFSDS }
+  - { id: 3bm60-svinets-2, name: 3BM60 Svinets-2 }
+  - { id: 3bm42-mango, name: 3BM42 Mango }
+# Wave 3 (M10), researched in-session
+attack-helicopter:
+  - { id: ah-64e-apache, name: AH-64E Apache }
+  - { id: tiger-had, name: Tiger HAD }
+  - { id: ka-52m, name: Ka-52M }
+  - { id: mi-28nm, name: Mi-28NM }
+  - { id: t129-atak, name: T129 ATAK }
+  - { id: z-10me, name: Z-10ME }
+  - { id: ah-1z-viper, name: AH-1Z Viper }
+transport-helicopter:
+  - { id: ch-47f-chinook, name: CH-47F Chinook }
+  - { id: nh90-tth, name: NH90 TTH }
+  - { id: uh-60m-black-hawk, name: UH-60M Black Hawk }
+  - { id: h145m, name: H145M }
+  - { id: mi-17v-5, name: Mi-17V-5 }
+  - { id: aw149, name: AW149 }
+  - { id: ch-53k, name: CH-53K King Stallion }
+frigate-destroyer:
+  - { id: arleigh-burke-flight-iia, name: Arleigh Burke Flight IIA }
+  - { id: type-45, name: Type 45 }
+  - { id: fremm, name: FREMM }
+  - { id: f125, name: F125 Baden-Württemberg class }
+  - { id: type-055, name: Type 055 }
+  - { id: admiral-gorshkov, name: Admiral Gorshkov class }
+  - { id: sejong-the-great, name: Sejong the Great class }
+  - { id: iver-huitfeldt, name: Iver Huitfeldt class }
+submarine:
+  - { id: virginia-class, name: Virginia class }
+  - { id: astute-class, name: Astute class }
+  - { id: suffren-class, name: Suffren class }
+  - { id: type-212a, name: Type 212A }
+  - { id: scorpene, name: Scorpène }
+  - { id: yasen-m, name: Yasen-M }
+  - { id: project-636-3, name: Project 636.3 Improved Kilo }

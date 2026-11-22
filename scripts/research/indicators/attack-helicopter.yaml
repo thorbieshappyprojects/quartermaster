@@ -1,0 +1,13 @@
+id: attack-helicopter
+name: Attack helicopters
+domain: Air combat
+wave: 3
+indicators:
+  - { id: max_speed, label: Max. speed, unit: km/h, trump: higher_wins }
+  - { id: range, label: Range (internal fuel), unit: km, trump: higher_wins }
+  - { id: service_ceiling, label: Service ceiling, unit: m, trump: higher_wins }
+  - { id: max_takeoff_weight, label: Max. take-off weight, unit: t, trump: higher_wins, decimals: 1 }
+  - { id: engine_power, label: Total engine power, unit: hp, trump: higher_wins }
+  - { id: power_to_weight, label: Power-to-weight, unit: hp/t, trump: higher_wins, decimals: 1,
+      derived: { op: divide, numerator: engine_power, denominator: max_takeoff_weight } }
+  - { id: gun_calibre, label: Gun calibre, unit: mm, trump: higher_wins }

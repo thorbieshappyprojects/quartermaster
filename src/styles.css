@@ -313,3 +313,19 @@ ul.plain li + li { margin-top: 6px; }
 .thumb { border-radius: 10px; overflow: hidden; aspect-ratio: 16 / 10; background: var(--surface-2); }
 .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 a.chip { text-decoration: none; color: inherit; }
+
+/* Compare: slots + picker */
+.slots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+@media (min-width: 760px) { .slots { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.slot { position: relative; border-radius: var(--radius); min-height: 64px; }
+.slot.filled { background: var(--surface); border: 1px solid var(--accent); padding: 6px; }
+.slot.empty { border: 1px dashed var(--line); display: grid; place-items: center; text-align: center; padding: 8px; }
+.slot-card { display: flex; flex-direction: column; gap: 4px; text-decoration: none; color: inherit; font-size: 0.85rem; }
+.slot .btn-x { position: absolute; top: 4px; right: 4px; }
+.pick-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 6px; }
+@media (min-width: 760px) { .pick-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; } }
+.slots { scroll-margin-top: 12px; }
+.pick { display: flex; flex-direction: column; gap: 4px; text-align: left; padding: 6px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface); color: inherit; font: inherit; cursor: pointer; }
+.pick .pick-name { font-weight: 600; font-size: 0.9rem; }
+.pick.sel { border-color: var(--accent); box-shadow: inset 0 0 0 2px var(--accent); }
+.pick:disabled { opacity: 0.45; cursor: not-allowed; }
