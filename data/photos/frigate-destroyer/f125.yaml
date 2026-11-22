@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: f125
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Baden-W%C3%BCrttemberg_Departs_NAVSTA_Rota_(8386991).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Baden-W%C3%BCrttemberg_Departs_NAVSTA_Rota_%288386991%29.jpg/1280px-Baden-W%C3%BCrttemberg_Departs_NAVSTA_Rota_%288386991%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Baden-Württemberg Departs NAVSTA Rota (8386991).jpg
+    caption: German Navy frigate Baden-Württemberg (F222) departing Naval Station Rota, 2024.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Navy photo by Petty Officer 2nd Class Ryan Brown
+    credit: This image was released by the United States Navy with the ID 240507-N-RB013-5147 (next) . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still require
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Fregatte_F223_Nordrhein-Westfalen_ausgehend_Hafen_Hamburg_auf_der_Elbe.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Fregatte_F223_Nordrhein-Westfalen_ausgehend_Hafen_Hamburg_auf_der_Elbe.jpg/1280px-Fregatte_F223_Nordrhein-Westfalen_ausgehend_Hafen_Hamburg_auf_der_Elbe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Fregatte F223 Nordrhein-Westfalen ausgehend Hafen Hamburg auf der Elbe.jpg
+    caption: Frigate Nordrhein-Westfalen (F223) leaving Hamburg on the Elbe, 2017.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Work from Hummelhummel uploaded by Commons user Buonasera are released under the Creative Commons Attribution Share Alike 3.0 International licence. This file i
+    credit: Foto stammt vom Fotografen und Rechteinhaber des Bildes und wurde frei gegeben
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:J38_592_Fregatte_F_224_Sachsen-Anhalt.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/J38_592_Fregatte_F_224_Sachsen-Anhalt.jpg/1280px-J38_592_Fregatte_F_224_Sachsen-Anhalt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: J38 592 Fregatte F 224 Sachsen-Anhalt.jpg
+    caption: Frigate Sachsen-Anhalt (F224), third ship of the Baden-Württemberg class, 2020.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Falk2
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded crew photos, unrelated Baden-Württemberg hits, a ship's boat and dockyard shots.

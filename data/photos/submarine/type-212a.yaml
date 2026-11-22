@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: type-212a
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:U_34_in_Fahrt.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/U_34_in_Fahrt.jpg/1280px-U_34_in_Fahrt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: U 34 in Fahrt.jpg
+    caption: Aerial view of Type 212A submarine U 34 under way, 2010.
+    shows: exact_variant
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    author: Bundeswehr-Fotos
+    credit: originally posted to Flickr as U 34 in Fahrt
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Unterseeboot_U-32.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Unterseeboot_U-32.jpg/1280px-Unterseeboot_U-32.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Unterseeboot U-32.jpg
+    caption: Type 212A submarine U 32 at sea, 2010.
+    shows: exact_variant
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    author: Bundeswehr-Fotos
+    credit: originally posted to Flickr as U-32
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:2019-05-02_-_U31-S181_in_der_Eckernf%C3%B6rder_Bucht.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/2019-05-02_-_U31-S181_in_der_Eckernf%C3%B6rder_Bucht.jpg/1280px-2019-05-02_-_U31-S181_in_der_Eckernf%C3%B6rder_Bucht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: 2019-05-02 - U31-S181 in der Eckernförder Bucht.jpg
+    caption: U 31 (S181) surfaced in Eckernförde Bay, 2019.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Fabian Horst
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded a model, porcelain painting, World War II boats with the same numbers and unrelated hits.

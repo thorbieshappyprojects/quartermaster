@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: astute-class
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:US_Navy_111128-N-NK458-064_The_Royal_Navy_submarine_HMS_Astute_(S119)_arrives_at_Naval_Station_Norfolk.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/US_Navy_111128-N-NK458-064_The_Royal_Navy_submarine_HMS_Astute_%28S119%29_arrives_at_Naval_Station_Norfolk.jpg/1280px-US_Navy_111128-N-NK458-064_The_Royal_Navy_submarine_HMS_Astute_%28S119%29_arrives_at_Naval_Station_Norfolk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: US Navy 111128-N-NK458-064 The Royal Navy submarine HMS Astute (S119) arrives at Naval Station Norfolk.jpg
+    caption: HMS Astute (S119) arriving at Naval Station Norfolk, 2011.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Navy photo by Mass Communication Specialist 1st Class Todd A. Schaffer
+    credit: This image was released by the United States Navy with the ID 111128-N-NK458-064 (next) . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:HMS_Ambush_Returning_to_HMNB_Clyde,_Scotland.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/6/6e/HMS_Ambush_Returning_to_HMNB_Clyde%2C_Scotland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: HMS Ambush Returning to HMNB Clyde, Scotland.jpg
+    caption: HMS Ambush returning to HMNB Clyde, Scotland, 2013.
+    shows: exact_variant
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    author: Defence Imagery
+    credit: https://www.flickr.com/photos/defenceimages/9522632603/
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:HMS_Astute_Clyde.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/HMS_Astute_Clyde.JPG/1280px-HMS_Astute_Clyde.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: HMS Astute Clyde.JPG
+    caption: HMS Astute being towed out of HMNB Clyde after repairs.
+    shows: exact_variant
+    licence: CC BY 3.0
+    licence_url: https://creativecommons.org/licenses/by/3.0
+    author: LordHarris
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded silhouettes, crew photos, the 2010 grounding images and older ships named Artful and Audacious.

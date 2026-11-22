@@ -1,0 +1,34 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: arleigh-burke-flight-iia
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:USS_Oscar_Austin_(DDG_79).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/USS_Oscar_Austin_%28DDG_79%29.jpg/1280px-USS_Oscar_Austin_%28DDG_79%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: USS Oscar Austin (DDG 79).jpg
+    caption: USS Oscar Austin (DDG 79), the first Flight IIA ship, during a maneuvering exercise, 2007.
+    shows: exact_variant
+    licence: Public domain
+    author: Mass Communication Specialist Seaman Apprentice Matthew D. Williams
+    credit: http://www.navy.mil/view_image.asp?id=52713
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:US_Navy_120109-N-CJ186-124_The_Arleigh_Burke-class_guided-missile_destroyer_USS_Spruance_(DDG_111)_transits_the_Pacific_Ocean_during_a_routine_unde.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/US_Navy_120109-N-CJ186-124_The_Arleigh_Burke-class_guided-missile_destroyer_USS_Spruance_%28DDG_111%29_transits_the_Pacific_Ocean_during_a_routine_unde.jpg/1280px-US_Navy_120109-N-CJ186-124_The_Arleigh_Burke-class_guided-missile_destroyer_USS_Spruance_%28DDG_111%29_transits_the_Pacific_Ocean_during_a_routine_unde.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: US Navy 120109-N-CJ186-124 The Arleigh Burke-class guided-missile destroyer USS Spruance (DDG 111) transits the Pacific Ocean during a routine unde.jpg
+    caption: USS Spruance (DDG 111) under way in the Pacific Ocean, 2012.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Navy photo by Mass Communication Specialist 2nd Class Torrey W Lee
+    credit: This image was released by the United States Navy with the ID 120109-N-CJ186-124 (next) . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:US_Navy_050102-N-1444C-013_The_guided_missile_destroyer_USS_Mason_(DDG_87)_patrols_the_Northern_Persian_Gulf.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/US_Navy_050102-N-1444C-013_The_guided_missile_destroyer_USS_Mason_%28DDG_87%29_patrols_the_Northern_Persian_Gulf.jpg/1280px-US_Navy_050102-N-1444C-013_The_guided_missile_destroyer_USS_Mason_%28DDG_87%29_patrols_the_Northern_Persian_Gulf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: US Navy 050102-N-1444C-013 The guided missile destroyer USS Mason (DDG 87) patrols the Northern Persian Gulf.jpg
+    caption: USS Mason (DDG 87) on patrol in the northern Persian Gulf, 2005.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Navy photo by Photographer's Mate 2nd Class Peter J. Carney
+    credit: This image was released by the United States Navy with the ID 050102-N-1444C-013 (next) . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required
+    priority: A
+    retrieved: 2026-11-22
+note: All picks are hulls in the DDG 79-124 range. Excluded dry-dock, crew and crest images and a file titled 'Flight III' for a Flight IIA ship.

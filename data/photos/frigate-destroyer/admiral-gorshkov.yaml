@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: admiral-gorshkov
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Admiral_Gorshkov_frigate_01.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/d/d9/Admiral_Gorshkov_frigate_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Admiral Gorshkov frigate 01.jpg
+    caption: Frigate Admiral Gorshkov with a Northern Fleet detachment, 2018.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Ministry of Defence of the Russian Federation
+    credit: http://мультимедиа.минобороны.рф/multimedia/photo/gallery.htm?id=59002@cmsPhotoGallery
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Frigate_%27Admiral_Kasatonov%27_is_moored_in_the_Neva_River,_St._Petersburg._July_24,_2020.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Frigate_%27Admiral_Kasatonov%27_is_moored_in_the_Neva_River%2C_St._Petersburg._July_24%2C_2020.jpg/1280px-Frigate_%27Admiral_Kasatonov%27_is_moored_in_the_Neva_River%2C_St._Petersburg._July_24%2C_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Frigate 'Admiral Kasatonov' is moored in the Neva River, St. Petersburg. July 24, 2020.jpg
+    caption: Frigate Admiral Kasatonov moored on the Neva in St. Petersburg, 2020.
+    shows: exact_variant
+    licence: CC0
+    licence_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    author: Bestalex
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Russian_frigate_Admiral_Kasatonov_(2021).jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/0/05/Russian_frigate_Admiral_Kasatonov_%282021%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Russian frigate Admiral Kasatonov (2021).jpg
+    caption: Frigate Admiral Kasatonov at the Navy Day parade rehearsal in St. Petersburg, 2021.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Министерство обороны Российской Федерации
+    credit: https://мультимедиа.минобороны.рф/images/upload/2019/galeraaera1200%20%282%29.jpg
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded silhouette drawings, a missile launch, a ship under completion and a group photo with people.

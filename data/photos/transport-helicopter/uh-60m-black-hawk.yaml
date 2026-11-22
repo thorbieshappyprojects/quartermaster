@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: uh-60m-black-hawk
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Sikorsky_UH-60M_Blackhawk_17-20927_HGR_MD1.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Sikorsky_UH-60M_Blackhawk_17-20927_HGR_MD1.jpg/1280px-Sikorsky_UH-60M_Blackhawk_17-20927_HGR_MD1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Sikorsky UH-60M Blackhawk 17-20927 HGR MD1.jpg
+    caption: UH-60M Black Hawk 17-20927 landing at Hagerstown Regional Airport, Maryland, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Acroterion
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:US_Army_(13-20592)_Sikorsky_UH-60M_Black_Hawk_on_display_at_the_2023_Australian_International_Airshow.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/US_Army_%2813-20592%29_Sikorsky_UH-60M_Black_Hawk_on_display_at_the_2023_Australian_International_Airshow.jpg/1280px-US_Army_%2813-20592%29_Sikorsky_UH-60M_Black_Hawk_on_display_at_the_2023_Australian_International_Airshow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: US Army (13-20592) Sikorsky UH-60M Black Hawk on display at the 2023 Australian International Airshow.jpg
+    caption: US Army UH-60M Black Hawk on display at the Australian International Airshow, 2023.
+    shows: exact_variant
+    licence: CC BY-SA 3.0 au
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/au/deed.en
+    author: Bidgee
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:06_UH-60M_Black_Hawk_SAF_01.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/06_UH-60M_Black_Hawk_SAF_01.jpg/1280px-06_UH-60M_Black_Hawk_SAF_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: 06 UH-60M Black Hawk SAF 01.jpg
+    caption: Swedish Air Force UH-60M Black Hawk at Visby during exercise Aurora 26.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Bene Riobó
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded generic UH-60 files without a variant and a dimension drawing; HH-60M photos not needed.

@@ -1,0 +1,35 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: iver-huitfeldt
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:F361_Iver_Huitfeldt_(ship,_2010)_at_Naval_Base_Kors%C3%B8r.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/F361_Iver_Huitfeldt_%28ship%2C_2010%29_at_Naval_Base_Kors%C3%B8r.jpg/1280px-F361_Iver_Huitfeldt_%28ship%2C_2010%29_at_Naval_Base_Kors%C3%B8r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: F361 Iver Huitfeldt (ship, 2010) at Naval Base Korsør.jpg
+    caption: Iver Huitfeldt (F361) at Naval Base Korsør, 2019.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Thomas Dahlstrøm Nielsen
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Danish_frigate_KDM_Niels_Juel_(F363)_underway_in_the_Red_Sea_on_15_April_2019_(190415-N-IL409-0016).JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Danish_frigate_KDM_Niels_Juel_%28F363%29_underway_in_the_Red_Sea_on_15_April_2019_%28190415-N-IL409-0016%29.JPG/1280px-Danish_frigate_KDM_Niels_Juel_%28F363%29_underway_in_the_Red_Sea_on_15_April_2019_%28190415-N-IL409-0016%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Danish frigate KDM Niels Juel (F363) underway in the Red Sea on 15 April 2019 (190415-N-IL409-0016).JPG
+    caption: Royal Danish Navy frigate Niels Juel (F363) under way in the Red Sea, 2019.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Navy photo by Mass Communication Specialist Seaman Joshua L. Leonard
+    credit: This image was released by the United States Navy with the ID 190415-N-IL409-0016 (next) . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still require
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Peter_Willemoes_(F362)_NOCO2014_01.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Peter_Willemoes_%28F362%29_NOCO2014_01.JPG/1280px-Peter_Willemoes_%28F362%29_NOCO2014_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Peter Willemoes (F362) NOCO2014 01.JPG
+    caption: Iver Huitfeldt-class frigate Peter Willemoes (F362) on the Aura river in Turku, 2014.
+    shows: exact_variant
+    licence: Public domain
+    author: MKFI
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded a VLS close-up, ceremony photos, the older frigate Niels Juel (F354) and statues.

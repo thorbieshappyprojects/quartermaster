@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: nh90-tth
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:NHIndustries_NH90_TTH_French_Army_Air_Corps_EAD_PAS_2013_01.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/NHIndustries_NH90_TTH_French_Army_Air_Corps_EAD_PAS_2013_01.jpg/1280px-NHIndustries_NH90_TTH_French_Army_Air_Corps_EAD_PAS_2013_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: NHIndustries NH90 TTH French Army Air Corps EAD PAS 2013 01.jpg
+    caption: NH90 TTH of the French Army Air Corps at the Paris Air Show, 2013.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Julian Herzog ( Website )
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:NHIndustries_NH90_TTH_Italian_Army_MM81540_EI-223_PAS_2013_01.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/NHIndustries_NH90_TTH_Italian_Army_MM81540_EI-223_PAS_2013_01.jpg/1280px-NHIndustries_NH90_TTH_Italian_Army_MM81540_EI-223_PAS_2013_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: NHIndustries NH90 TTH Italian Army MM81540 EI-223 PAS 2013 01.jpg
+    caption: NH90 TTH of the Italian Army at the Paris Air Show, 2013.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Julian Herzog ( Website )
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:NH90-TTH_79%2B15_static_display_ILA-2022.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/b/bd/NH90-TTH_79%2B15_static_display_ILA-2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: NH90-TTH 79+15 static display ILA-2022.jpg
+    caption: German Army NH90 TTH 79+15 on static display at ILA Berlin, 2022.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded NH90 NTH Sea Lion, prototype PT2, a bare airframe and a tail-rotor detail.

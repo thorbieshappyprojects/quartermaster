@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: project-636-3
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:June_2020_Baltic_Fleet_submarine_rescue_exercise_-_project_636.3_submarine_B-274.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/8/82/June_2020_Baltic_Fleet_submarine_rescue_exercise_-_project_636.3_submarine_B-274.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: June 2020 Baltic Fleet submarine rescue exercise - project 636.3 submarine B-274.jpg
+    caption: Project 636.3 submarine B-274 during a Baltic Fleet submarine rescue exercise, 2020.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Press Service of the Western Military District
+    credit: https://mil.ru/army2019/news/more.htm?id=12299143@egNews
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Submarine_636_(165902687).jpeg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Submarine_636_%28165902687%29.jpeg/1280px-Submarine_636_%28165902687%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Submarine 636 (165902687).jpeg
+    caption: Project 636.3 submarine B-265 Krasnodar at the Navy Day parade in St. Petersburg, 2016.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Eugene
+    credit: Imported from 500px ( archived version ) by the Archive Team . ( detail page )
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:B-261_Novorossiysk,_2020.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/7/72/B-261_Novorossiysk%2C_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: B-261 Novorossiysk, 2020.jpg
+    caption: Submarine B-261 Novorossiysk at the Navy Day parade off Tartus, 2020.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Unknown author Unknown author
+    credit: https://eng.mil.ru/news/3e44f458-7be5-47d3-bba4-9d997006f102
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded original Kilo (Project 877) photos, Algerian Project 636M boats, a crew photo, and files whose title names only the city or a parade.

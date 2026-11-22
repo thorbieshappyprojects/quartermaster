@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: ah-64e-apache
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:FRBR_240726_AH-64E_Apache_Guardian_ZM713_03.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/FRBR_240726_AH-64E_Apache_Guardian_ZM713_03.jpg/1280px-FRBR_240726_AH-64E_Apache_Guardian_ZM713_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: FRBR 240726 AH-64E Apache Guardian ZM713 03.jpg
+    caption: AH-64E Apache Guardian ZM713 at the Farnborough International Airshow, 2026.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Oren Rozen
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:IAF_AH-64E_Apache_with_Hellfire_missiles.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/IAF_AH-64E_Apache_with_Hellfire_missiles.jpg/1280px-IAF_AH-64E_Apache_with_Hellfire_missiles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: IAF AH-64E Apache with Hellfire missiles.jpg
+    caption: Indian Air Force AH-64E Apache with Hellfire missiles on display at Aero India, 2023.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Shanze1
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:A_Boeing_AH-64E_Apache_Guardian_(V6).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/A_Boeing_AH-64E_Apache_Guardian_%28V6%29.jpg/1280px-A_Boeing_AH-64E_Apache_Guardian_%28V6%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: A Boeing AH-64E Apache Guardian (V6).jpg
+    caption: US Army AH-64E Apache Guardian in flight above Germany, 2024.
+    shows: exact_variant
+    licence: CC0
+    licence_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    author: Phấn Nguyễn Thị
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded generic AH-64 files without a variant, the operator map and near-duplicate frames.

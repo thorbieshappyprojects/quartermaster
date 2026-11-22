@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: yasen-m
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Kazan_1.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/2/2c/Kazan_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Kazan 1.jpg
+    caption: Roll-out ceremony of the nuclear submarine Kazan, 2017.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Memit9
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:The_nuclear_submarine_Kazan_has_arrived_at_a_permanent_base_in_the_Northern_Fleet._May_2021.png
+    image_url: https://upload.wikimedia.org/wikipedia/commons/c/c2/The_nuclear_submarine_Kazan_has_arrived_at_a_permanent_base_in_the_Northern_Fleet._May_2021.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: The nuclear submarine Kazan has arrived at a permanent base in the Northern Fleet. May 2021.png
+    caption: Nuclear submarine Kazan arriving at its Northern Fleet base, 2021.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Ministry of Defense of Russia
+    credit: https://xn--80ahclcogc6ci4h.xn--90anlfbebar6i.xn--p1ai/multimedia/photo/gallery.htm?id=94178@cmsPhotoGallery
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:%D0%9A-560_%C2%AB%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%81%D0%BA%C2%BB.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/%D0%9A-560_%C2%AB%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%81%D0%BA%C2%BB.jpg/1280px-%D0%9A-560_%C2%AB%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%81%D0%BA%C2%BB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: К-560 «Северодвинск».jpg
+    caption: Project 885 submarine K-560 Severodvinsk, 2018.
+    shows: same_family
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Ministry of Defence of the Russian Federation
+    credit: Моряки-подводники Северного флота отметят профессиональный праздник на боевых постах
+    priority: A
+    retrieved: 2026-11-22
+note: Kazan is the first Project 885M boat; Severodvinsk is the original Project 885 and marked same_family. Excluded models, ceremony pins, people and town photos.

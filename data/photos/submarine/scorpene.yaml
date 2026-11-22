@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: scorpene
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:INS_Kalvari_(S21)_at_sea.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/INS_Kalvari_%28S21%29_at_sea.jpg/1280px-INS_Kalvari_%28S21%29_at_sea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: INS Kalvari (S21) at sea.jpg
+    caption: INS Kalvari (S21), first of India's Scorpène-class submarines, at sea, 2020.
+    shows: exact_variant
+    licence: CC BY 2.5 in
+    licence_url: https://creativecommons.org/licenses/by/2.5/in/deed.en
+    author: Indian Navy
+    credit: https://twitter.com/indiannavy/status/1338360747827466240
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Chilean_Submarine_Scorp%C3%A8ne_Class.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Chilean_Submarine_Scorp%C3%A8ne_Class.JPG/1280px-Chilean_Submarine_Scorp%C3%A8ne_Class.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Chilean Submarine Scorpène Class.JPG
+    caption: Chilean Scorpène-class submarine near Valparaíso, 2014.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Florian Wöhrl
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Submarino_Riachuelo_(S40)_(52690909478).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Submarino_Riachuelo_%28S40%29_%2852690909478%29.jpg/1280px-Submarino_Riachuelo_%28S40%29_%2852690909478%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Submarino Riachuelo (S40) (52690909478).jpg
+    caption: Brazilian submarine Riachuelo (S40), 2022.
+    shows: exact_variant
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    author: Marinha do Brasil
+    credit: Submarino Riachuelo (S40)
+    priority: A
+    retrieved: 2026-11-22
+note: Boats in service, not the Scorpène Evolved design the specs describe. Excluded screenshots and unrelated 'Tun Abdul Razak' hits.

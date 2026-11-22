@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: ah-1z-viper
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Bell_AH-1Z_169611_of_USMC_HMLA-773_FDK_MD1.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Bell_AH-1Z_169611_of_USMC_HMLA-773_FDK_MD1.jpg/1280px-Bell_AH-1Z_169611_of_USMC_HMLA-773_FDK_MD1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Bell AH-1Z 169611 of USMC HMLA-773 FDK MD1.jpg
+    caption: AH-1Z of US Marine Corps squadron HMLA-773 landing at Frederick Municipal Airport, Maryland, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Acroterion
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Bell_AH-1Z_168964_of_USMC_HMLA-773_FDK_MD2.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Bell_AH-1Z_168964_of_USMC_HMLA-773_FDK_MD2.jpg/1280px-Bell_AH-1Z_168964_of_USMC_HMLA-773_FDK_MD2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Bell AH-1Z 168964 of USMC HMLA-773 FDK MD2.jpg
+    caption: AH-1Z of US Marine Corps squadron HMLA-773 taking off at Frederick Municipal Airport, Maryland, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Acroterion
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Bell_AH-1Z_169611_of_USMC_HMLA-773_FDK_MD4.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Bell_AH-1Z_169611_of_USMC_HMLA-773_FDK_MD4.jpg/1280px-Bell_AH-1Z_169611_of_USMC_HMLA-773_FDK_MD4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Bell AH-1Z 169611 of USMC HMLA-773 FDK MD4.jpg
+    caption: AH-1Z of US Marine Corps squadron HMLA-773 at Frederick Municipal Airport, Maryland, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Acroterion
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: All candidates show the AH-1Z. Skipped near-duplicate frames of the same sequences and the NATO Days 2025 photo that also shows a UH-1Y.

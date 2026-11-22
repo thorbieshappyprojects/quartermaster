@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: h145m
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Airbus_H145M,_ILA_2024,_Schoenefeld_(ILA43976).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Airbus_H145M%2C_ILA_2024%2C_Schoenefeld_%28ILA43976%29.jpg/1280px-Airbus_H145M%2C_ILA_2024%2C_Schoenefeld_%28ILA43976%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Airbus H145M, ILA 2024, Schoenefeld (ILA43976).jpg
+    caption: Airbus H145M at the ILA Berlin Air Show, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+    author: Matti Blume
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:H145M_LUH_SOF,_ILA_2024,_Schoenefeld_(ILA44675).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/H145M_LUH_SOF%2C_ILA_2024%2C_Schoenefeld_%28ILA44675%29.jpg/1280px-H145M_LUH_SOF%2C_ILA_2024%2C_Schoenefeld_%28ILA44675%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: H145M LUH SOF, ILA 2024, Schoenefeld (ILA44675).jpg
+    caption: H145M LUH SOF of the German Air Force at the ILA Berlin Air Show, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+    author: Matti Blume
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Airbus_H145M_GAF_76%2B05_at_NATO_Days_2023.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/3/30/Airbus_H145M_GAF_76%2B05_at_NATO_Days_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Airbus H145M GAF 76+05 at NATO Days 2023.jpg
+    caption: German Air Force H145M 76+05 at NATO Days, 2023.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded civil EC145/BK 117 photos and an EC135.

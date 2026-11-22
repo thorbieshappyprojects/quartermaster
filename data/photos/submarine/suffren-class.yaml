@@ -1,0 +1,15 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: suffren-class
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Suffren_at_Cape_Brun_off_Toulon_on_26_July_2020.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/d/d4/Suffren_at_Cape_Brun_off_Toulon_on_26_July_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Suffren at Cape Brun off Toulon on 26 July 2020.jpg
+    caption: French nuclear submarine Suffren at Cape Brun off Toulon, 2020.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Xavier Grolet
+    credit: Own work [1]
+    priority: A
+    retrieved: 2026-11-22
+note: Only one openly licensed photo of a Suffren-class boat was found. Excluded the 1950s US Barracuda class, battleships and other ships named Suffren, Duguay-Trouin or Tourville, the museum boat Argonaute, a size-comparison drawing and a UUV launch photo whose submarine is not named.

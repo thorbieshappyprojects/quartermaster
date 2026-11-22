@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: ch-47f-chinook
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:U.S._Army_Boeing_CH-47F_Chinook_11-08097_FDK_MD1.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/U.S._Army_Boeing_CH-47F_Chinook_11-08097_FDK_MD1.jpg/1280px-U.S._Army_Boeing_CH-47F_Chinook_11-08097_FDK_MD1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: U.S. Army Boeing CH-47F Chinook 11-08097 FDK MD1.jpg
+    caption: US Army CH-47F Chinook hovering at Frederick Municipal Airport, Maryland, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Acroterion
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Boeing_CH-47F_Chinook_ILA_2018.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/1/10/Boeing_CH-47F_Chinook_ILA_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Boeing CH-47F Chinook ILA 2018.jpg
+    caption: US Army CH-47F Chinook 13-08436 at the ILA Berlin Airshow, 2018.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Boeing-Vertol_CH-47F_Chinook_%E2%80%98D-890%E2%80%99_(35756133671).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Boeing-Vertol_CH-47F_Chinook_%E2%80%98D-890%E2%80%99_%2835756133671%29.jpg/1280px-Boeing-Vertol_CH-47F_Chinook_%E2%80%98D-890%E2%80%99_%2835756133671%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Boeing-Vertol CH-47F Chinook ‘D-890’ (35756133671).jpg
+    caption: Royal Netherlands Air Force CH-47F Chinook D-890 on static display at RIAT, 2016.
+    shows: exact_variant
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    author: Alan Wilson from Stilton, Peterborough, Cambs, UK
+    credit: Boeing-Vertol CH-47F Chinook ‘D-890’
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded a museum scale model, a usage map and CH-47 files without a variant.

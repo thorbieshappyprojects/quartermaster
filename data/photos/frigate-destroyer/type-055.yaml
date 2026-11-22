@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: type-055
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:PLANS_Nanchang_(DDG-101)_20210825.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/PLANS_Nanchang_%28DDG-101%29_20210825.jpg/1280px-PLANS_Nanchang_%28DDG-101%29_20210825.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: PLANS Nanchang (DDG-101) 20210825.jpg
+    caption: Renhai-class destroyer Nanchang (101) photographed by the Japan Maritime Self-Defense Force, August 2021.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: 日本防衛省・統合幕僚監部
+    credit: https://www.mod.go.jp/js/Press/press2021/press_pdf/p20210825_06.pdf
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:PLANS_Nanchang_(DDG-101)_20210427.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/PLANS_Nanchang_%28DDG-101%29_20210427.jpg/1280px-PLANS_Nanchang_%28DDG-101%29_20210427.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: PLANS Nanchang (DDG-101) 20210427.jpg
+    caption: Renhai-class destroyer Nanchang (101) south of Miyako Island, April 2021.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: 日本防衛省・統合幕僚監部
+    credit: https://www.mod.go.jp/js/pdf/2021/p20210427_01.pdf
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:PLANS_Lhasa_(DDG-102)_20220620.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/c/cd/PLANS_Lhasa_%28DDG-102%29_20220620.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: PLANS Lhasa (DDG-102) 20220620.jpg
+    caption: Renhai-class destroyer Lhasa (102) photographed by the Japan Maritime Self-Defense Force, June 2022.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: 日本防衛省・統合幕僚監部
+    credit: https://www.mod.go.jp/js/Press/press2022/press_pdf/p20220620_01.pdf
+    priority: A
+    retrieved: 2026-11-22
+note: Only Japan Maritime Self-Defense Force surveillance photos are available; they are wide, low-resolution crops. Excluded an artist's impression and an unrelated hypersonic-vehicle image.

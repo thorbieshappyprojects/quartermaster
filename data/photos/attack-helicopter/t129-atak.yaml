@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: t129-atak
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:TAI_Agusta_Westland_T129_ATAK_Turkish_Army_Teknofest2023_(1).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/TAI_Agusta_Westland_T129_ATAK_Turkish_Army_Teknofest2023_%281%29.jpg/1280px-TAI_Agusta_Westland_T129_ATAK_Turkish_Army_Teknofest2023_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: TAI Agusta Westland T129 ATAK Turkish Army Teknofest2023 (1).jpg
+    caption: T129 ATAK of the Turkish Army at Teknofest 2023, Istanbul Atatürk Airport.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: CeeGee
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:EGLF_-_TAI_T-129_Atak_-_P2_(28723994207).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/EGLF_-_TAI_T-129_Atak_-_P2_%2828723994207%29.jpg/1280px-EGLF_-_TAI_T-129_Atak_-_P2_%2828723994207%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: EGLF - TAI T-129 Atak - P2 (28723994207).jpg
+    caption: T129 ATAK prototype P2 at the Farnborough International Airshow, 2018.
+    shows: exact_variant
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    author: Steve Lynes from Sandshurst, United Kingdom
+    credit: EGLF - TAI T-129 Atak - P2
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:T129_Atak_at_IDEX2023.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/T129_Atak_at_IDEX2023.jpg/1280px-T129_Atak_at_IDEX2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: T129 Atak at IDEX2023.jpg
+    caption: T129 ATAK at IDEX 2023.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Mztourist
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded information-board photos, the A129 Mangusta and detail shots (engine, tail fin).

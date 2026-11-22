@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: type-45
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:HMS_Dragon_(D35)_underway_in_the_Med_2013.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/HMS_Dragon_%28D35%29_underway_in_the_Med_2013.JPG/1280px-HMS_Dragon_%28D35%29_underway_in_the_Med_2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: HMS Dragon (D35) underway in the Med 2013.JPG
+    caption: HMS Dragon (D35) under way in the Mediterranean Sea, 2013.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Navy photo by Mass Communication Specialist 2nd Class Jacob D. Moore
+    credit: "This image was released by the United States Navy with the ID 130920-N-AW206-008 (cropped) (cropped)#mw-category-media (next) . This tag does not indicate the copyright status of the attached work. A "
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:HMS_Diamond_(D34)_entering_Portsmouth_Harbour_01.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/HMS_Diamond_%28D34%29_entering_Portsmouth_Harbour_01.jpg/1280px-HMS_Diamond_%28D34%29_entering_Portsmouth_Harbour_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: HMS Diamond (D34) entering Portsmouth Harbour 01.jpg
+    caption: HMS Diamond (D34) entering Portsmouth Harbour, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Simon Burchell
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:HMS_Daring_(D32)_docked_at_Barangaroo.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/HMS_Daring_%28D32%29_docked_at_Barangaroo.jpg/1280px-HMS_Daring_%28D32%29_docked_at_Barangaroo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: HMS Daring (D32) docked at Barangaroo.jpg
+    caption: HMS Daring (D32) docked at Barangaroo for the International Fleet Review, 2013.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Hpeterswald
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded a line drawing of the 1945 Daring class, stern-only views, a Phalanx close-up and low-resolution files.

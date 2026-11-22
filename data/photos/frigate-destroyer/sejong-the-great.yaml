@@ -1,0 +1,34 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: sejong-the-great
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:US_Navy_100709-N-0260R-029_ROKS_Sejong_the_Great_(DDG_991)_cruises_off_the_coast_of_Hawaii_during_Rim_of_the_Pacific_(RIMPAC)_2010_exercises.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/US_Navy_100709-N-0260R-029_ROKS_Sejong_the_Great_%28DDG_991%29_cruises_off_the_coast_of_Hawaii_during_Rim_of_the_Pacific_%28RIMPAC%29_2010_exercises.jpg/1280px-US_Navy_100709-N-0260R-029_ROKS_Sejong_the_Great_%28DDG_991%29_cruises_off_the_coast_of_Hawaii_during_Rim_of_the_Pacific_%28RIMPAC%29_2010_exercises.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: US Navy 100709-N-0260R-029 ROKS Sejong the Great (DDG 991) cruises off the coast of Hawaii during Rim of the Pacific (RIMPAC) 2010 exercises.jpg
+    caption: ROKS Sejong the Great (DDG 991) off Hawaii during RIMPAC 2010.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Navy photo by Mass Communication Specialist 1st Class Brandon Raile
+    credit: This image was released by the United States Navy with the ID 100709-N-0260R-029 (next) . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:ROKS_Yulgok_Yi_I_(DDG-992)_sails_during_the_at-sea_phase_of_RIMPAC_2024.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/ROKS_Yulgok_Yi_I_%28DDG-992%29_sails_during_the_at-sea_phase_of_RIMPAC_2024.jpg/1280px-ROKS_Yulgok_Yi_I_%28DDG-992%29_sails_during_the_at-sea_phase_of_RIMPAC_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: ROKS Yulgok Yi I (DDG-992) sails during the at-sea phase of RIMPAC 2024.jpg
+    caption: ROKS Yulgok Yi I (DDG 992) under way during RIMPAC 2024.
+    shows: exact_variant
+    licence: Public domain
+    author: Petty Officer 2nd Class Terrin Hartman
+    credit: This image was released by the United States Navy with the ID 240722-N-VX158-2076 (next) . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still require
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:The_South_Korean_guided_missile_destroyer_ROKS_Seoae_Ryu_Seong-ryong_(DDG_993)_moves_into_position_during_a_training_exercise_in_the_Sea_of_Japan_Oct._3,_2013_131003-N-TX154-154.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/The_South_Korean_guided_missile_destroyer_ROKS_Seoae_Ryu_Seong-ryong_%28DDG_993%29_moves_into_position_during_a_training_exercise_in_the_Sea_of_Japan_Oct._3%2C_2013_131003-N-TX154-154.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: The South Korean guided missile destroyer ROKS Seoae Ryu Seong-ryong (DDG 993) moves into position during a training exercise in the Sea of Japan Oct. 3, 2013 131003-N-TX154-154.jpg
+    caption: ROKS Seoae Ryu Seong-ryong (DDG 993) in the Sea of Japan, 2013.
+    shows: exact_variant
+    licence: Public domain
+    author: MC3 Paul Kelly
+    credit: http://www.defenseimagery.mil/imageRetrieve.action?guid=c01e393ec32eb7c45880c2a4612a8d702dc39208&amp;t=2
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded multi-ship formation photos where the class ship is not the subject and unrelated Korean hits.

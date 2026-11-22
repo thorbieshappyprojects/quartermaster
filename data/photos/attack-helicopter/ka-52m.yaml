@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: ka-52m
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Ka-52M_at_Dubai_Airshow_2021.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Ka-52M_at_Dubai_Airshow_2021.jpg/1280px-Ka-52M_at_Dubai_Airshow_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Ka-52M at Dubai Airshow 2021.jpg
+    caption: Ka-52M on display at the Dubai Airshow, 2021.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Mztourist
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Ka-52M_at_Army-2023_01.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/4/4c/Ka-52M_at_Army-2023_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Ka-52M at Army-2023 01.jpg
+    caption: Ka-52M at the Army-2023 forum.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Ministry of Defence of the Russian Federation
+    credit: https://xn--80ahclcogc6ci4h.xn--90anlfbebar6i.xn--p1ai/multimedia/photo/gallery.htm?id=126854@cmsPhotoGallery
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Ka-52M_at_Army-2023_02.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/f/fa/Ka-52M_at_Army-2023_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Ka-52M at Army-2023 02.jpg
+    caption: Ka-52M at the Army-2023 forum.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Ministry of Defence of the Russian Federation
+    credit: https://xn--80ahclcogc6ci4h.xn--90anlfbebar6i.xn--p1ai/multimedia/photo/gallery.htm?id=126854@cmsPhotoGallery
+    priority: A
+    retrieved: 2026-11-22
+note: Ka-52M files exist, so older Ka-52 and Ka-50 photos were not used. Excluded cockpit and weapon close-ups and unrelated search hits.

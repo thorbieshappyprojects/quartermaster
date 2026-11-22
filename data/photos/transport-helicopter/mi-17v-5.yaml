@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: mi-17v-5
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Mil_Mi-17V-5_at_the_MAKS-2013_(01).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Mil_Mi-17V-5_at_the_MAKS-2013_%2801%29.jpg/1280px-Mil_Mi-17V-5_at_the_MAKS-2013_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Mil Mi-17V-5 at the MAKS-2013 (01).jpg
+    caption: Mi-17V-5 at the MAKS-2013 air show.
+    shows: exact_variant
+    licence: Public domain
+    author: Doomych
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Sloboda_2019_-_03_-_Mi-17V5_01.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Sloboda_2019_-_03_-_Mi-17V5_01.jpg/1280px-Sloboda_2019_-_03_-_Mi-17V5_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Sloboda 2019 - 03 - Mi-17V5 01.jpg
+    caption: Serbian Air Force Mi-17V-5 on display during the Sloboda 2019 exercise.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Srđan Popović
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Russia_Helicopters,_742,_Mil_Mi-17V-5_(37184597496).jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/0/0f/Russia_Helicopters%2C_742%2C_Mil_Mi-17V-5_%2837184597496%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Russia Helicopters, 742, Mil Mi-17V-5 (37184597496).jpg
+    caption: Russian Helicopters Mi-17V-5 742, 2017.
+    shows: exact_variant
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    author: Anna Zvereva from Tallinn, Estonia
+    credit: Russia Helicopters, 742, Mil Mi-17V-5
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded files of components being loaded, Mi-8MTV-1 and near-duplicates.

@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: aw149
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:AW149,_Radom_Air_Show,_20230826_1623_9802.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/AW149%2C_Radom_Air_Show%2C_20230826_1623_9802.jpg/1280px-AW149%2C_Radom_Air_Show%2C_20230826_1623_9802.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: AW149, Radom Air Show, 20230826 1623 9802.jpg
+    caption: AW149 at the Radom Air Show, 2023.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Jakub Hałun
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:47_AgustaWestland_AW149_14Sqn_Egyptian_Air_Force_El_Alamein_4.9.24_(54027818873).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/47_AgustaWestland_AW149_14Sqn_Egyptian_Air_Force_El_Alamein_4.9.24_%2854027818873%29.jpg/1280px-47_AgustaWestland_AW149_14Sqn_Egyptian_Air_Force_El_Alamein_4.9.24_%2854027818873%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: 47 AgustaWestland AW149 14Sqn Egyptian Air Force El Alamein 4.9.24 (54027818873).jpg
+    caption: AW149 of the Egyptian Air Force's 14 Squadron at El Alamein, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    author: Colin Cooke Photo
+    credit: 47 AgustaWestland AW149 14Sqn Egyptian Air Force El Alamein 4.9.24
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:MIAS_260915_AW149_02.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/MIAS_260915_AW149_02.jpg/1280px-MIAS_260915_AW149_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: MIAS 260915 AW149 02.jpg
+    caption: AW149 CSX81890 at the Malta International Airshow, 2015.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Oren Rozen
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded AW139 photos and near-duplicate frames.

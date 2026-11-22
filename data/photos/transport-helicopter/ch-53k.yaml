@@ -1,0 +1,35 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: ch-53k
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Sikorsky_CH-53K_King_Stallion,_ILA_2018,_Sch%C3%B6nefeld_(1X7A6816).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Sikorsky_CH-53K_King_Stallion%2C_ILA_2018%2C_Sch%C3%B6nefeld_%281X7A6816%29.jpg/1280px-Sikorsky_CH-53K_King_Stallion%2C_ILA_2018%2C_Sch%C3%B6nefeld_%281X7A6816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Sikorsky CH-53K King Stallion, ILA 2018, Schönefeld (1X7A6816).jpg
+    caption: CH-53K King Stallion at the ILA Berlin Airshow, 2018.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Matti Blume
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Sea_Trials_CH-53K_operates_aboard_USS_Arlington._Image_13_of_14.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Sea_Trials_CH-53K_operates_aboard_USS_Arlington._Image_13_of_14.jpg/1280px-Sea_Trials_CH-53K_operates_aboard_USS_Arlington._Image_13_of_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Sea Trials CH-53K operates aboard USS Arlington. Image 13 of 14.jpg
+    caption: CH-53K King Stallion during sea trials aboard USS Arlington, 2023.
+    shows: exact_variant
+    licence: Public domain
+    author: Mass Communication Specialist 1st Class John Bellino
+    credit: https://www.dvidshub.net/image/7641163/sea-trials-ch-53k-operates-aboard-uss-arlington
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:CH-53K_King_Stallion_helicopter_at_the_2018_Berlin_Air_Show.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/CH-53K_King_Stallion_helicopter_at_the_2018_Berlin_Air_Show.jpg/1280px-CH-53K_King_Stallion_helicopter_at_the_2018_Berlin_Air_Show.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: CH-53K King Stallion helicopter at the 2018 Berlin Air Show.jpg
+    caption: CH-53K King Stallion taking off at the 2018 Berlin Air Show.
+    shows: exact_variant
+    licence: Public domain
+    author: Cpl. Hailey Clay
+    credit: dvidshub.net
+    priority: A
+    retrieved: 2026-11-22
+note: Most candidates are frames of the same ILA 2018 visit; one was kept, plus two US Navy photos.

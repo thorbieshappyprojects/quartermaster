@@ -1,0 +1,26 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22 in a Claude Code session. Attribution is shown with each photo.
+id: fremm
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:FREMM_Alsace-MVI_9214_03.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/FREMM_Alsace-MVI_9214_03.jpg/1280px-FREMM_Alsace-MVI_9214_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: FREMM Alsace-MVI 9214 03.jpg
+    caption: FREMM-class frigate Alsace sailing past the citadel of Port-Louis with a gun salute, 2021.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Corinne (@cbreizhmabro)
+    credit: https://twitter.com/cbreizhmabro/status/1375728367119515649/video/1 https://twitter.com/cbreizhmabro/status/1375709988207923201/video/1 https://twitter.com/cbreizhmabro/status/1375709179218907138/vide
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:JS_Yamagiri%EF%BC%88DD-152%EF%BC%89%26_French_Navy_FS_Lorraine_(D657)_during_the_Japan-France_Bilateral_Exercise_%E2%80%9COGURI-VERNY_23-2%E2%80%9D.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/8/88/JS_Yamagiri%EF%BC%88DD-152%EF%BC%89%26_French_Navy_FS_Lorraine_%28D657%29_during_the_Japan-France_Bilateral_Exercise_%E2%80%9COGURI-VERNY_23-2%E2%80%9D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: JS Yamagiri（DD-152）& French Navy FS Lorraine (D657) during the Japan-France Bilateral Exercise “OGURI-VERNY 23-2”.jpg
+    caption: French Navy frigate Lorraine (D657) with JS Yamagiri during exercise Oguri-Verny 23-2, 2023.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: https://www.mod.go.jp/msdf/index.html 海上自衛隊
+    credit: https://www.mod.go.jp/msdf/release/202305/20230530.pdf
+    priority: A
+    retrieved: 2026-11-22
+note: Only photos of the air-defence ships Alsace and Lorraine were picked; Lorraine under construction, the Italian ASW FREMM, a Languedoc gun close-up and unrelated hits were excluded.
