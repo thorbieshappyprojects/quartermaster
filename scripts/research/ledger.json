@@ -1,5 +1,5 @@
 {
-  "spentUsd": 55.3809,
+  "spentUsd": 62.1515,
   "entries": [
     {
       "date": "2026-11-21",
@@ -504,6 +504,630 @@
       "input": 297449,
       "output": 7282,
       "searches": 14
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/bergepanzer-3-buffel",
+      "usd": 0.0222,
+      "input": 4022,
+      "output": 305,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/dachs-2",
+      "usd": 0.0188,
+      "input": 3061,
+      "output": 329,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/bergepanzer-3-buffel",
+      "usd": 0.1607,
+      "input": 53451,
+      "output": 1127,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/k1-avlb",
+      "usd": 0.0163,
+      "input": 3284,
+      "output": 157,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/kodiak",
+      "usd": 0.0191,
+      "input": 3352,
+      "output": 286,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/leguan",
+      "usd": 0.0171,
+      "input": 2786,
+      "output": 296,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/dachs-2",
+      "usd": 0.2249,
+      "input": 85239,
+      "output": 2545,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/m1074-joint-assault-bridge",
+      "usd": 0.0226,
+      "input": 3863,
+      "output": 358,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/m1150-abv",
+      "usd": 0.0227,
+      "input": 4311,
+      "output": 273,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/k1-avlb",
+      "usd": 0.2493,
+      "input": 124192,
+      "output": 2251,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/m88a2-hercules",
+      "usd": 0.0214,
+      "input": 4161,
+      "output": 240,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/ascod-2",
+      "usd": 0.0193,
+      "input": 3360,
+      "output": 293,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/bmp-3",
+      "usd": 0.0106,
+      "input": 1318,
+      "output": 265,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/cv90-mkiv",
+      "usd": 0.0119,
+      "input": 1727,
+      "output": 251,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/kodiak",
+      "usd": 0.2556,
+      "input": 102005,
+      "output": 2761,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/k21",
+      "usd": 0.0151,
+      "input": 2396,
+      "output": 277,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/lynx-kf41",
+      "usd": 0.018,
+      "input": 2954,
+      "output": 307,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/m2a4-bradley",
+      "usd": 0.0228,
+      "input": 4353,
+      "output": 270,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/leguan",
+      "usd": 0.3211,
+      "input": 226391,
+      "output": 3261,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/puma-s1",
+      "usd": 0.015,
+      "input": 2258,
+      "output": 298,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/redback",
+      "usd": 0.0167,
+      "input": 3382,
+      "output": 160,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/m1074-joint-assault-bridge",
+      "usd": 0.2634,
+      "input": 109671,
+      "output": 3902,
+      "searches": 7
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/zbd-04a",
+      "usd": 0.0193,
+      "input": 3388,
+      "output": 289,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/altay",
+      "usd": 0.0147,
+      "input": 2370,
+      "output": 262,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/m1150-abv",
+      "usd": 0.2397,
+      "input": 93537,
+      "output": 2555,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/challenger-3",
+      "usd": 0.0153,
+      "input": 3315,
+      "output": 100,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/k2-black-panther",
+      "usd": 0.015,
+      "input": 2523,
+      "output": 246,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/leclerc-xlr",
+      "usd": 0.0164,
+      "input": 3010,
+      "output": 220,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/m88a2-hercules",
+      "usd": 0.2861,
+      "input": 128911,
+      "output": 4099,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/leopard-2a8",
+      "usd": 0.0151,
+      "input": 2538,
+      "output": 247,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/m1a2-sepv3-abrams",
+      "usd": 0.023,
+      "input": 4224,
+      "output": 303,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/ascod-2",
+      "usd": 0.2042,
+      "input": 76157,
+      "output": 2117,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/merkava-mk4",
+      "usd": 0.0194,
+      "input": 3329,
+      "output": 306,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/t-90m",
+      "usd": 0.0148,
+      "input": 2428,
+      "output": 253,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/type-10",
+      "usd": 0.0161,
+      "input": 2794,
+      "output": 246,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/bmp-3",
+      "usd": 0.276,
+      "input": 125210,
+      "output": 3850,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/type-99a",
+      "usd": 0.0164,
+      "input": 2277,
+      "output": 365,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/astros-ii",
+      "usd": 0.0161,
+      "input": 2697,
+      "output": 265,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/euro-puls",
+      "usd": 0.0156,
+      "input": 2599,
+      "output": 261,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/cv90-mkiv",
+      "usd": 0.3169,
+      "input": 131963,
+      "output": 4038,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/homar-k",
+      "usd": 0.0123,
+      "input": 1575,
+      "output": 299,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/k239-chunmoo",
+      "usd": 0.0113,
+      "input": 1411,
+      "output": 285,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/k21",
+      "usd": 0.2479,
+      "input": 80135,
+      "output": 2975,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/m142-himars",
+      "usd": 0.0263,
+      "input": 5422,
+      "output": 232,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/m270a2-mlrs",
+      "usd": 0.0262,
+      "input": 5135,
+      "output": 285,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/phl-16",
+      "usd": 0.0054,
+      "input": 958,
+      "output": 79,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/lynx-kf41",
+      "usd": 0.4657,
+      "input": 158031,
+      "output": 3414,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/puls",
+      "usd": 0.0179,
+      "input": 3985,
+      "output": 100,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/tornado-s",
+      "usd": 0.0192,
+      "input": 3331,
+      "output": 295,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/m2a4-bradley",
+      "usd": 0.1489,
+      "input": 41355,
+      "output": 867,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/2s19m2-msta-s",
+      "usd": 0.0196,
+      "input": 3503,
+      "output": 281,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/archer",
+      "usd": 0.0119,
+      "input": 1768,
+      "output": 243,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/as90",
+      "usd": 0.0221,
+      "input": 4315,
+      "output": 240,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/puma-s1",
+      "usd": 0.2716,
+      "input": 79002,
+      "output": 4021,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/caesar-mkii",
+      "usd": 0.015,
+      "input": 2653,
+      "output": 220,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/k9a2-thunder",
+      "usd": 0.0146,
+      "input": 2359,
+      "output": 259,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/krab",
+      "usd": 0.0167,
+      "input": 2827,
+      "output": 268,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/redback",
+      "usd": 0.3068,
+      "input": 178852,
+      "output": 3966,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/m109a7-paladin",
+      "usd": 0.0161,
+      "input": 2507,
+      "output": 302,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/zbd-04a",
+      "usd": 0.1485,
+      "input": 40273,
+      "output": 962,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/pcl-181",
+      "usd": 0.0147,
+      "input": 3172,
+      "output": 99,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/pzh-2000",
+      "usd": 0.0157,
+      "input": 2737,
+      "output": 240,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/altay",
+      "usd": 0.2004,
+      "input": 70364,
+      "output": 1501,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/rch-155",
+      "usd": 0.0166,
+      "input": 2726,
+      "output": 285,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/challenger-3",
+      "usd": 0.1522,
+      "input": 48451,
+      "output": 1043,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/boxer",
+      "usd": 0.0164,
+      "input": 2496,
+      "output": 321,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/btr-82a",
+      "usd": 0.0156,
+      "input": 2764,
+      "output": 229,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/dingo-2",
+      "usd": 0.0182,
+      "input": 3046,
+      "output": 302,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/k2-black-panther",
+      "usd": 0.4531,
+      "input": 157300,
+      "output": 3492,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/griffon",
+      "usd": 0.0121,
+      "input": 1651,
+      "output": 275,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/pandur-ii",
+      "usd": 0.0154,
+      "input": 2604,
+      "output": 251,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/patria-amv-xp",
+      "usd": 0.0193,
+      "input": 3472,
+      "output": 270,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/piranha-v",
+      "usd": 0.0158,
+      "input": 2693,
+      "output": 249,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/leclerc-xlr",
+      "usd": 0.3314,
+      "input": 175347,
+      "output": 5425,
+      "searches": 8
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/rosomak",
+      "usd": 0.018,
+      "input": 3307,
+      "output": 237,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/stryker",
+      "usd": 0.0287,
+      "input": 5308,
+      "output": 373,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/vbci",
+      "usd": 0.0171,
+      "input": 2913,
+      "output": 273,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "feedback/leopard-2a8",
+      "usd": 0.2812,
+      "input": 108144,
+      "output": 4141,
+      "searches": 8
     }
   ]
 }

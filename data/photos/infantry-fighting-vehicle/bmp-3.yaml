@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: bmp-3
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:BMP-3_(41204909204).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/BMP-3_%2841204909204%29.jpg/1280px-BMP-3_%2841204909204%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: BMP-3 (41204909204).jpg
+    caption: BMP-3 during a rehearsal of the Victory Day parade in Moscow, 2018.
+    shows: same_family
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    author: Dmitriy Fomin from Moscow, Russia
+    credit: BMP-3
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:TB2015ExhibitionP2-42.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/TB2015ExhibitionP2-42.jpg/1280px-TB2015ExhibitionP2-42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: TB2015ExhibitionP2-42.jpg
+    caption: BMP-3 infantry fighting vehicle on display at an exhibition, 2015.
+    shows: same_family
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Vitaly V. Kuzmin
+    credit: http://vitalykuzmin.net/?q=node/631
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Captured_BMP-3.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/a/a6/Captured_BMP-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Captured BMP-3.jpg
+    caption: Russian BMP-3 captured by a Ukrainian mechanized infantry brigade, 2022.
+    shows: same_family
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Армія Інформ
+    credit: https://armyinform.com.ua/2022/03/02/shhodnya-novi-trofeyi/
+    priority: A
+    retrieved: 2026-11-22
+note: "None of the file titles or descriptions confirm the current production standard with add-on protection kits, so all picks are generic BMP-3 photos and are marked same_family. #7 was skipped because it was taken in a museum. The 2008 and 2002 photos were deprioritized in favor of more recent ones."

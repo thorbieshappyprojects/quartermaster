@@ -1,0 +1,34 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: m2a4-bradley
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:M2A4E1_Bradley_with_Trophy.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/M2A4E1_Bradley_with_Trophy.jpg/1280px-M2A4E1_Bradley_with_Trophy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: M2A4E1 Bradley with Trophy.jpg
+    caption: M2A4E1 Bradley fitted with the Trophy active protection system, unveiled by the U.S. Army in 2024.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Army
+    credit: https://www.facebook.com/photo/?fbid=732922385695629&amp;set=pcb.732922472362287
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:M2A4_Bradley_with_2nd_Battalion,_7th_Infantry_Regiment.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/M2A4_Bradley_with_2nd_Battalion%2C_7th_Infantry_Regiment.jpg/1280px-M2A4_Bradley_with_2nd_Battalion%2C_7th_Infantry_Regiment.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: M2A4 Bradley with 2nd Battalion, 7th Infantry Regiment.jpg
+    caption: M2A4 Bradley of the 2nd Battalion, 7th Infantry Regiment during a training exercise at Fort Stewart, Georgia, 2024.
+    shows: same_family
+    licence: Public domain
+    author: Sgt. Duke Edwards
+    credit: https://www.dvidshub.net/image/8327549/hammer-xviii-airborne-corps-starts-marne-focus-2024
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:M2A4_Bradley_5-7th_CAV.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/M2A4_Bradley_5-7th_CAV.jpg/1280px-M2A4_Bradley_5-7th_CAV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: M2A4 Bradley 5-7th CAV.jpg
+    caption: M2A4 Bradley of the 5th Squadron, 7th Cavalry Regiment during NATO exercise Winter Camp near Tapa, Estonia, 2025.
+    shows: same_family
+    licence: Public domain
+    author: U.S. Army photo by Pfc. Nathan Arellano Tlaczani
+    credit: This image was released by the United States Army with the ID 250203-A-AQ215-1011 (next) . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still require
+    priority: A
+    retrieved: 2026-11-22
+note: "Only #1 shows the exact M2A4E1 variant; the other picks show the closely related M2A4 base variant."

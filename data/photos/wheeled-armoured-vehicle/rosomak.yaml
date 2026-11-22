@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: rosomak
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:KTO_Rosomak_IFV_with_ZSSW-30_RCWS.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/KTO_Rosomak_IFV_with_ZSSW-30_RCWS.jpg/1280px-KTO_Rosomak_IFV_with_ZSSW-30_RCWS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: KTO Rosomak IFV with ZSSW-30 RCWS.jpg
+    caption: Polish Rosomak infantry fighting vehicle fitted with the ZSSW-30 remotely controlled turret, 2022.
+    shows: exact_variant
+    licence: CC BY 3.0 pl
+    licence_url: https://creativecommons.org/licenses/by/3.0/pl/deed.en
+    author: Unknown author Unknown author
+    credit: https://www.gov.pl/web/obrona-narodowa/zssw-30
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Polish_KTO_Rosomak_at_NATO_Days_2023.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/4/4f/Polish_KTO_Rosomak_at_NATO_Days_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Polish KTO Rosomak at NATO Days 2023.jpg
+    caption: Polish KTO Rosomak wheeled armoured personnel carrier at NATO Days 2023 in Mošnov.
+    shows: same_family
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Perriquito
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:PICT82_-_KTO_Rosomak.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/PICT82_-_KTO_Rosomak.JPG/1280px-PICT82_-_KTO_Rosomak.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: PICT82 - KTO Rosomak.JPG
+    caption: KTO Rosomak at the Polish Army Day parade in Warsaw, 2007.
+    shows: same_family
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Raf24
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "Only #10 explicitly shows the ZSSW-30 turret variant. The other two picks are earlier Rosomak versions from the same family."

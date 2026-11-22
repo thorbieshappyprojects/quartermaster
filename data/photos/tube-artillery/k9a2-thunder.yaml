@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: k9a2-thunder
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:K9A1_howitzer_in_Gdynia_2025-05-29.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/K9A1_howitzer_in_Gdynia_2025-05-29.jpg/1280px-K9A1_howitzer_in_Gdynia_2025-05-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: K9A1 howitzer in Gdynia 2025-05-29.jpg
+    caption: K9A1 self-propelled howitzer in Gdynia, Poland, 2025.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Maciej Nux
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:20230915082743_IMG_5501.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/20230915082743_IMG_5501.jpg/1280px-20230915082743_IMG_5501.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: 20230915082743 IMG 5501.jpg
+    caption: K9A1 Thunder 155 mm self-propelled howitzer, 2023.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Rzecznik 1BA
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:A_Polish_K9_howitzer_maneuvers_on_the_firing_range_for_a_live_fire_demonstration.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/A_Polish_K9_howitzer_maneuvers_on_the_firing_range_for_a_live_fire_demonstration.jpg/1280px-A_Polish_K9_howitzer_maneuvers_on_the_firing_range_for_a_live_fire_demonstration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: A Polish K9 howitzer maneuvers on the firing range for a live fire demonstration.jpg
+    caption: Polish Army K9 howitzer maneuvering on the firing range at Bemowo Piskie, Poland, 2023.
+    shows: same_family
+    licence: Public domain
+    author: Staff Sgt. Matthew Foster
+    credit: This image was released by the United States National Guard with the ID 230331-Z-YU201-1475 (next) . This tag does not indicate the copyright status of the attached work. A normal copyright tag is sti
+    priority: A
+    retrieved: 2026-11-22
+note: "Only #8 and #5 explicitly name the K9A1 variant. The other photos are labelled only as K9, so the exact variant cannot be confirmed and #7 is marked same_family. #7 was preferred over the lower-resolution duplicate #2."

@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: griffon
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:VBMR_Griffon_-_Arm%C3%A9e_de_terre_(14_juillet_2021)_(2).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/VBMR_Griffon_-_Arm%C3%A9e_de_terre_%2814_juillet_2021%29_%282%29.jpg/1280px-VBMR_Griffon_-_Arm%C3%A9e_de_terre_%2814_juillet_2021%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: VBMR Griffon - Armée de terre (14 juillet 2021) (2).jpg
+    caption: VBMR Griffon of the French Army in new colours after the Bastille Day parade, 14 July 2021.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Kevin.B
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Arm%C3%A9e_de_terre_-_VBMR_Griffon_(14_juillet_2023).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Arm%C3%A9e_de_terre_-_VBMR_Griffon_%2814_juillet_2023%29.jpg/1280px-Arm%C3%A9e_de_terre_-_VBMR_Griffon_%2814_juillet_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Armée de terre - VBMR Griffon (14 juillet 2023).jpg
+    caption: VBMR Griffon of the French Army after the Bastille Day parade, 14 July 2023.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Kevin.B
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:VBMR_Griffon_disposant_d%27un_nouveau_camouflage_(d%C3%A9fil%C3%A9_14_Juillet_2023).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/VBMR_Griffon_disposant_d%27un_nouveau_camouflage_%28d%C3%A9fil%C3%A9_14_Juillet_2023%29.jpg/1280px-VBMR_Griffon_disposant_d%27un_nouveau_camouflage_%28d%C3%A9fil%C3%A9_14_Juillet_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: VBMR Griffon disposant d'un nouveau camouflage (défilé 14 Juillet 2023).jpg
+    caption: VBMR Griffon with a new camouflage scheme during the Bastille Day parade, 14 July 2023.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Robinsauveur
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "Excluded the model (#4), the rear view (#3), the engineer variant (#7) and the Belgian CP variant (#9). #8 is a lower-resolution PNG of uncertain nature. Generic VBMR Griffon photos are assumed to show the standard VTT."

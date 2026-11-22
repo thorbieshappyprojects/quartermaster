@@ -1,0 +1,34 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: m1a2-sepv3-abrams
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Cav._M1A2_SEPv3.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Cav._M1A2_SEPv3.jpg/1280px-Cav._M1A2_SEPv3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Cav. M1A2 SEPv3.jpg
+    caption: M1A2 SEPv3 Abrams being tested by the 2nd Battalion, 8th Cavalry Regiment at Fort Hood, Texas, 2019.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Army
+    credit: https://www.army.mil/article/222100/2_8_cav_tests_abrams_upgrades_demonstrates_increased_lethality
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:M1A2_SEPv3_Abrams_tanks_arrive_in_CENTCOM_(8732131).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/M1A2_SEPv3_Abrams_tanks_arrive_in_CENTCOM_%288732131%29.jpg/1280px-M1A2_SEPv3_Abrams_tanks_arrive_in_CENTCOM_%288732131%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: M1A2 SEPv3 Abrams tanks arrive in CENTCOM (8732131).jpg
+    caption: M1A2 SEPv3 Abrams of the 278th Armored Cavalry Regiment arriving in the U.S. Central Command area of responsibility, 2024.
+    shows: exact_variant
+    licence: Public domain
+    author: U.S. Army photo by Sgt. Richard Cole
+    credit: This image was released by the United States Army with the ID 241027-A-FL622-1005 (next) . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still require
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:M1A2_SEP_V3_Abrams_-_200721-A-BT735-211.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/M1A2_SEP_V3_Abrams_-_200721-A-BT735-211.jpg/1280px-M1A2_SEP_V3_Abrams_-_200721-A-BT735-211.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: M1A2 SEP V3 Abrams - 200721-A-BT735-211.jpg
+    caption: New M1A2C (SEPv3) Abrams tanks of the 1st Cavalry Division staged at Fort Hood, Texas, 2020.
+    shows: exact_variant
+    licence: Public domain
+    author: Sgt. Calab Franklin
+    credit: https://www.dvidshub.net/image/6281600/greywolf-brigade-first-receive-new-abrams-tanks
+    priority: A
+    retrieved: 2026-11-22
+note: Chose high-resolution official photos explicitly identified as SEPv3/M1A2C. Excluded maps, the poster, the diagram, older variants and the Bradley-focused images.

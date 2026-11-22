@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: archer
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Archer_i_Eldst%C3%A4llning.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Archer_i_Eldst%C3%A4llning.jpg/1280px-Archer_i_Eldst%C3%A4llning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Archer i Eldställning.jpg
+    caption: Archer 6x6 self-propelled howitzer in firing position at Ravlunda firing range, Sweden, 2015.
+    shows: same_family
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Stridsvagn122
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Archer_Artillery_System_at_Bold_Quest_21_(1).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Archer_Artillery_System_at_Bold_Quest_21_%281%29.jpg/1280px-Archer_Artillery_System_at_Bold_Quest_21_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Archer Artillery System at Bold Quest 21 (1).jpg
+    caption: Swedish Armed Forces Archer artillery system firing during a demonstration at Camp Atterbury, Indiana, 2021.
+    shows: same_family
+    licence: Public domain
+    author: Bryan Myhr
+    credit: https://www.dvidshub.net/image/6999052/swedish-armed-forces-demonstrate-archer-artillery-system-bold-quest-21
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Archerside_commons.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Archerside_commons.jpg/1280px-Archerside_commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Archerside commons.jpg
+    caption: Side view of an Archer artillery system, 2008.
+    shows: same_family
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Ibaril
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "No candidate clearly shows the HX2 8x8 variant; all picks show the earlier Volvo A30D-based 6x6 Archer. #2 shows a Strv 122 tank, not Archer."

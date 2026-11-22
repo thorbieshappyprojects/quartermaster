@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: tornado-s
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Tornado-S.png
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Tornado-S.png/1280px-Tornado-S.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Tornado-S.png
+    caption: 9A54 combat vehicle of the 9K515 Tornado-S multiple rocket launcher system, 2023.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Ministry of Defence of the Russian Federation
+    credit: https://мультимедиа.минобороны.рф/multimedia/video/clips/more.htm?id=20517@morfVideoAudioFile
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Tornado-S_(2).png
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Tornado-S_%282%29.png/1280px-Tornado-S_%282%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Tornado-S (2).png
+    caption: 9A54 combat vehicle of the 9K515 Tornado-S multiple rocket launcher system.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Ministry of Defence of the Russian Federation
+    credit: https://мультимедиа.минобороны.рф/multimedia/video/clips/more.htm?id=22842@morfVideoAudioFile
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:BM-30_Smerch,_2010.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/b/b6/BM-30_Smerch%2C_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: BM-30 Smerch, 2010.jpg
+    caption: Russian BM-30 Smerch rocket launcher, the Tornado-S predecessor, at the 2010 Victory Day parade.
+    shows: same_family
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Aleksey Toritsyn
+    credit: Victory_Day_09_05_2010_Tech
+    priority: A
+    retrieved: 2026-11-22
+note: "Only #1 and #2 explicitly show the Tornado-S (9A54). #14 is a BM-30 Smerch from the same family and is marked same_family. The rest are either unrelated files that merely contain '9A54' in a hash, or less suitable Smerch images such as museum pieces or ammunition."

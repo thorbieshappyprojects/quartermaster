@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: type-10
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:JGSDF_Type10_tank_20120527-11.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/JGSDF_Type10_tank_20120527-11.JPG/1280px-JGSDF_Type10_tank_20120527-11.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: JGSDF Type10 tank 20120527-11.JPG
+    caption: Production-model Type 10 tank of the JGSDF 1st Armored Training Unit at Camp Takeyama, Japan, 2012.
+    shows: exact_variant
+    licence: CC0
+    licence_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    author: Los688
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:JGSDF_Type10_tank_20120527-16.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/JGSDF_Type10_tank_20120527-16.JPG/1280px-JGSDF_Type10_tank_20120527-16.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: JGSDF Type10 tank 20120527-16.JPG
+    caption: JGSDF Type 10 production-model tank at Camp Takeyama, Japan, May 2012.
+    shows: exact_variant
+    licence: CC0
+    licence_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    author: Los688
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Type10MBT.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Type10MBT.jpg/1280px-Type10MBT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Type10MBT.jpg
+    caption: Type 10 main battle tank, 2010.
+    shows: exact_variant
+    licence: Public domain
+    author: T.Goto
+    credit: 自分
+    priority: A
+    retrieved: 2026-11-22
+note: "#9 shows a Type 10 but focuses on the regiment commander riding it; the other candidates are unrelated items that share the name Type 10, such as a rocket booster, a tram mockup and a Peugeot car."

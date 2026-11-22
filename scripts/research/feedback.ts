@@ -108,11 +108,22 @@ async function main() {
       { role: 'user', content: `System: ${card.name}${card.variant_note ? ` (${card.variant_note})` : ''}; family ${card.family ?? 'n/a'}; also known as ${(card.aliases ?? []).join(', ') || 'n/a'}; operators: ${card.operators.map((o) => o.country).join(', ') || 'n/a'}. Feedback on earlier variants of the same family is fine if marked in context. Find up to 5 strong items.` },
     ];
     try {
-      const msg = await converse(messages, meter);
-      const text = msg.content.filter((b) => b.type === 'text').map((b) => (b as { text: string }).text).join('\n');
-      const block = [...text.matchAll(/```ya?ml\s*\n([\s\S]*?)```/g)].pop()?.[1];
-      if (!block) throw new Error('no yaml block');
-      const doc = parse(block) as { items?: Record<string, any>[]; note?: string };
+      let msg = await converse(messages, meter);
+      let doc: { items?: Record<string, any>[]; note?: string } | undefined;
+      for (let attempt = 0; attempt < 2 && !doc; attempt++) {
+        const text = msg.content.filter((b) => b.type === 'text').map((b) => (b as { text: string }).text).join('\n');
+        const block = [...text.matchAll(/```ya?ml\s*\n([\s\S]*?)```/g)].pop()?.[1];
+        try {
+          if (!block) throw new Error('no yaml block');
+          doc = parse(block);
+        } catch (e) {
+          if (attempt === 1) throw e;
+          // One repair turn without new research: ask for the same content as valid YAML.
+          messages.push({ role: 'user', content: `That YAML does not parse (${(e as Error).message.split('\n')[0]}). Reply with the same content as one valid yaml block; put every text value in double quotes. Do not search again.` });
+          msg = await converse(messages, meter);
+        }
+      }
+      if (!doc) throw new Error('no parsable yaml');
       const urls = seenUrls(messages);
       const items = (doc.items ?? []).map((i) => ({
         ...i,

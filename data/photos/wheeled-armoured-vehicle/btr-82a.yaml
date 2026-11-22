@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: btr-82a
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:BTR-82AT_during_the_%22Armiya_2021%22_exhibition.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/BTR-82AT_during_the_%22Armiya_2021%22_exhibition.jpg/1280px-BTR-82AT_during_the_%22Armiya_2021%22_exhibition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: BTR-82AT during the "Armiya 2021" exhibition.jpg
+    caption: BTR-82AT on display at the Armiya 2021 exhibition, 2021.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Kirill Borisenko
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Army-2020-101.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Army-2020-101.JPG/1280px-Army-2020-101.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Army-2020-101.JPG
+    caption: BTR-82AT shown at the Army-2020 forum, 2020.
+    shows: exact_variant
+    licence: CC0
+    licence_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    author: Nickel nitride
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Army-2020-097.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Army-2020-097.JPG/1280px-Army-2020-097.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Army-2020-097.JPG
+    caption: BTR-82AT displayed at the Army-2020 forum, 2020.
+    shows: exact_variant
+    licence: CC0
+    licence_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    author: Nickel nitride
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "Picked landscape exact-variant photos first; #7/#8 show BTR-82AT with BTR-BM equipment, so they were treated as less representative. BTR-82A images were not needed as exact-variant photos exist."

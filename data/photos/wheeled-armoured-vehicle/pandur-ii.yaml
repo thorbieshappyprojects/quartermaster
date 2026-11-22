@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: pandur-ii
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Indonesian_Army_Pandur_II_8x8.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Indonesian_Army_Pandur_II_8x8.jpg/1280px-Indonesian_Army_Pandur_II_8x8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Indonesian Army Pandur II 8x8.jpg
+    caption: Indonesian Army Pandur II 8x8 during the 2024 Indonesian Armed Forces Anniversary at the National Monument, Jakarta.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Re57k
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Pandur_II_8x8_KBVP_(1).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Pandur_II_8x8_KBVP_%281%29.jpg/1280px-Pandur_II_8x8_KBVP_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Pandur II 8x8 KBVP (1).jpg
+    caption: Pandur II KBVP displayed at the IDET 2019 defence fair in Brno.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Reise Reise
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Pandur_II_(01).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Pandur_II_%2801%29.jpg/1280px-Pandur_II_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Pandur II (01).jpg
+    caption: Pandur II displayed at the IDET 2019 defence fair in Brno.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Reise Reise
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Pandur 8x8 EVO photos were excluded because the EVO is a distinct later development. Operator maps and the Serbian pandur artworks were excluded because they do not show the vehicle.

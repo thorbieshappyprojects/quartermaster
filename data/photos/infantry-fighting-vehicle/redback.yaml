@@ -1,0 +1,15 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: redback
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Hanwha_AS21_Redback_Australian_IFV.png
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Hanwha_AS21_Redback_Australian_IFV.png/1280px-Hanwha_AS21_Redback_Australian_IFV.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Hanwha AS21 Redback Australian IFV.png
+    caption: Hanwha AS21 Redback infantry fighting vehicle for the Australian Army.
+    shows: exact_variant
+    licence: CC0
+    licence_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    author: Fabrice Ram
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "Only #10 clearly shows the AS21 Redback, though it is a PNG and may be a render rather than a photo. The K21 images are a related but different South Korean vehicle and were not picked. The AS21 motorway signs, Swedish exercise photos and redback spider images are unrelated."

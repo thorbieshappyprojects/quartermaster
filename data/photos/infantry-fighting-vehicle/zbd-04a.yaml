@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: zbd-04a
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:ZBD-04A_front_left_view_20170919.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/ZBD-04A_front_left_view_20170919.jpg/1280px-ZBD-04A_front_left_view_20170919.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: ZBD-04A front left view 20170919.jpg
+    caption: ZBD-04A infantry fighting vehicle seen from the front left at the Military Museum of the Chinese People's Revolution, Beijing, 2017.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Tyg728
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:PeacefulMission2018-24.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/a/a4/PeacefulMission2018-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: PeacefulMission2018-24.jpg
+    caption: ZBD-04A infantry fighting vehicle during the Peace Mission 2018 exercise.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Евгений Кель (Yevgeny Kel).
+    credit: http://мультимедиа.минобороны.рф/multimedia/photo/gallery.htm?id=60277@cmsPhotoGallery
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:ZBD-04A_Infantry_fighting_vehicles_20170902.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/ZBD-04A_Infantry_fighting_vehicles_20170902.jpg/1280px-ZBD-04A_Infantry_fighting_vehicles_20170902.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: ZBD-04A Infantry fighting vehicles 20170902.jpg
+    caption: ZBD-04A infantry fighting vehicles on display at the PLA 90th anniversary exhibition in Beijing, 2017.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Tyg728
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Exact ZBD-04A photos were available, so older ZBD-04 images were not used. The rear view (#5) and turret close-up (#7) were skipped in favour of whole-vehicle views. Unrelated '04a' files were excluded.

@@ -1,0 +1,35 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: piranha-v
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Mowag_Piranha_V_Danish.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Mowag_Piranha_V_Danish.jpg/1280px-Mowag_Piranha_V_Danish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Mowag Piranha V Danish.jpg
+    caption: Mowag Piranha V of the Danish Army.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Forsvarsministeriets Materiel- og Indkøbsstyrelse
+    credit: http://www.forsvarsgalleriet.dk/arkivet/index.jspx?com.canto.cumulus.web.ErrorID=SessionIsExpired#1443534423585_13
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Mowag_Piranha_V_command_vehicle_Romanian_Army.webp
+    image_url: https://upload.wikimedia.org/wikipedia/commons/5/59/Mowag_Piranha_V_command_vehicle_Romanian_Army.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Mowag Piranha V command vehicle Romanian Army.webp
+    caption: Mowag Piranha V command vehicle of the Romanian Army, 2023.
+    shows: exact_variant
+    licence: Public domain
+    author: Spc. Sherald McAulay
+    credit: https://www.dvidshub.net/image/7837399/soldiers-assigned-508th-military-police-company-stage-static-display-slobozia-romania-during-defender-23
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Danish_Soldiers_Conduct_Live-Fire_Operation_During_Dynamic_Front_23_-_Danish_Army_Mowag_Piranha_V_Mortar_carrier.webp
+    image_url: https://upload.wikimedia.org/wikipedia/commons/e/e7/Danish_Soldiers_Conduct_Live-Fire_Operation_During_Dynamic_Front_23_-_Danish_Army_Mowag_Piranha_V_Mortar_carrier.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Danish Soldiers Conduct Live-Fire Operation During Dynamic Front 23 - Danish Army Mowag Piranha V Mortar carrier.webp
+    caption: Danish Army Mowag Piranha V mortar carrier with Cardom 120 mm system during exercise Dynamic Front 23, 2023.
+    shows: exact_variant
+    licence: Public domain
+    author: Staff Sgt. Agustin Montanez
+    credit: https://www.dvidshub.net/image/7713693/danish-soldiers-conduct-live-fire-operation-during-dynamic-front-23
+    priority: A
+    retrieved: 2026-11-22
+note: "All three picks are captioned as the Piranha V itself. #1 has the highest resolution. The Iceland series (#5–9) gives further Danish alternatives. Candidates #12–20 show older Piranha variants, so I left them out."

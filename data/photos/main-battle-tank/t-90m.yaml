@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: t-90m
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:The_80th_Air_Assault_Brigade_captured_a_T-90M_Proryv_tank_in_the_Kursk_region.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/The_80th_Air_Assault_Brigade_captured_a_T-90M_Proryv_tank_in_the_Kursk_region.jpg/1280px-The_80th_Air_Assault_Brigade_captured_a_T-90M_Proryv_tank_in_the_Kursk_region.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: The 80th Air Assault Brigade captured a T-90M Proryv tank in the Kursk region.jpg
+    caption: Russian T-90M Proryv tank captured by Ukraine's 80th Air Assault Brigade in the Kursk region, 2024.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Roman Pilipey
+    credit: https://mil.in.ua/en/news/the-80th-air-assault-brigade-captured-a-t-90m-proryv-tank-in-the-kursk-region/#google_vignette
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Captured_russian_T-90M_02.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/9/95/Captured_russian_T-90M_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Captured russian T-90M 02.jpg
+    caption: Captured Russian T-90M Proryv in Nakidka camouflage, 2022.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Ministry of Defence of Ukraine
+    credit: https://twitter.com/DefenceU/status/1571559314946506753?s=20&amp;t=KtSQLsDIfvkbSDLMN_NtKA https://www.youtube.com/channel/UC0ZyGHYpxTJNXv1_hBTJzDw/community
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Destroyed_T-90M_of_Russian_Army_1.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/0/0e/Destroyed_T-90M_of_Russian_Army_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Destroyed T-90M of Russian Army 1.jpg
+    caption: Destroyed Russian T-90M tank in the Kharkiv region, 2022.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: АрміяInform
+    credit: https://armyinform.com.ua/2022/06/19/yak-harkivski-teroboronivczi-znyshhyly-neperemozhnyj-tank-proryv-iz-karla-gustava/?fbclid=IwAR3dE3_QVu2MCLN_TYbrlwIrbixhonBMLqkJF-lYIzVjFBfu2lmD2JvCIyw
+    priority: A
+    retrieved: 2026-11-22
+note: Only T-90M-specific photos were chosen; they show captured or destroyed vehicles because no parade or intact-service shots of the M variant were among the candidates. Older T-90/T-90A parade photos were left out.

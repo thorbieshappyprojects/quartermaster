@@ -43,8 +43,18 @@ async function search(query: string, limit = 10): Promise<Candidate[]> {
     prop: 'imageinfo', iiprop: 'url|extmetadata|size', iiurlwidth: '1200',
     iiextmetadatafilter: 'LicenseShortName|LicenseUrl|Artist|ImageDescription|DateTimeOriginal|Credit',
   }).forEach(([k, v]) => url.searchParams.set(k, v));
-  const res = await fetch(url, { headers: { 'User-Agent': UA } });
-  if (!res.ok) throw new Error(`Commons ${res.status}`);
+  // Be polite to the Commons API: pause between requests, back off on 429/5xx (honouring Retry-After).
+  let res: Response | undefined;
+  for (let attempt = 0; attempt < 6; attempt++) {
+    await new Promise((r) => setTimeout(r, 1500));
+    res = await fetch(url, { headers: { 'User-Agent': UA } });
+    if (res.ok) break;
+    if (res.status !== 429 && res.status < 500) break;
+    const wait = Number(res.headers.get('retry-after')) || 15 * (attempt + 1);
+    console.log(`  Commons ${res.status}, waiting ${wait}s`);
+    await new Promise((r) => setTimeout(r, wait * 1000));
+  }
+  if (!res?.ok) throw new Error(`Commons ${res?.status}`);
   const pages = Object.values((await res.json()).query?.pages ?? {}) as any[];
   return pages
     .filter((p) => p.imageinfo?.[0])

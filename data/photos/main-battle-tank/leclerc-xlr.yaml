@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: leclerc-xlr
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:AMX-56_Leclerc.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/AMX-56_Leclerc.jpg/1280px-AMX-56_Leclerc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: AMX-56 Leclerc.jpg
+    caption: French Army Leclerc main battle tank on a tank carrier after the 2018 Bastille Day parade.
+    shows: same_family
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Dsgn
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Leclerc_p1040617.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Leclerc_p1040617.jpg/1280px-Leclerc_p1040617.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Leclerc p1040617.jpg
+    caption: Leclerc main battle tank, 14 July 2006.
+    shows: same_family
+    licence: CC BY-SA 3.0
+    licence_url: http://creativecommons.org/licenses/by-sa/3.0/
+    author: David Monniaux
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Leclerc-openphotonet_PICT6015.JPG
+    image_url: https://upload.wikimedia.org/wikipedia/commons/f/fc/Leclerc-openphotonet_PICT6015.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Leclerc-openphotonet PICT6015.JPG
+    caption: Leclerc main battle tank on the move, 2006.
+    shows: same_family
+    licence: CC BY-SA 2.5
+    licence_url: https://creativecommons.org/licenses/by-sa/2.5
+    author: Daniel Steger (Lausanne,Switzerland)
+    credit: OpenPhoto.net
+    priority: A
+    retrieved: 2026-11-22
+note: "None of the candidates is identified as the XLR/rénové variant, so these are earlier Leclerc tanks marked as the same family. The other files show unrelated subjects: books, buildings, supermarkets, a portrait and a map."

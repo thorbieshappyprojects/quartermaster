@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: krab
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:AHS_Krab_in_Kyiv_02.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/AHS_Krab_in_Kyiv_02.jpg/1280px-AHS_Krab_in_Kyiv_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: AHS Krab in Kyiv 02.jpg
+    caption: Polish AHS Krab self-propelled howitzer on display in Kyiv, 2017.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: VoidWanderer
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:UA_AHS_Krab_03.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/1/18/UA_AHS_Krab_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: UA AHS Krab 03.jpg
+    caption: Polish-supplied AHS Krab howitzers in action with Ukrainian forces, 2022.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: АрміяInform
+    credit: https://armyinform.com.ua/2022/08/05/yak-voyuvaty-na-krabi-vrazhennya-odnogo-ekipazhu/ https://armyinform.com.ua/2022/08/28/ukrayinski-voyiny-rozpovily-yak-sau-krab-nyshhyt-okupantiv/ https://armyinfo
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:UA_AHS_Krab_06.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/a/ae/UA_AHS_Krab_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: UA AHS Krab 06.jpg
+    caption: AHS Krab self-propelled howitzer of a Ukrainian artillery brigade, 2023.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: АрміяInform
+    credit: https://armyinform.com.ua/2023/11/03/arta-zavzhdy-na-krok-poperedu-u-znyshhenni-voroga/ https://web.archive.org/web/20231116134145/https://armyinform.com.ua/2023/11/03/arta-zavzhdy-na-krok-poperedu-u-
+    priority: A
+    retrieved: 2026-11-22
+note: The descriptions do not say whether the chassis is the K9-derived one, so the variant is assumed rather than confirmed. No photos specifically show the upgraded 2025-26 deliveries. Submarine and Crab Nebula files were excluded because they show unrelated subjects.

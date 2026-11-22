@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: boxer
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Bundeswehr_GTK_Boxer_Armor_-_Armor_Steel,_Adapted_Composite_Armor_(AMAP);_Main_armament_-_12.7_x_99mm;_Secondary_armament_-_Smoke_Bomb_System;_Stadtfest_Dresden_Blaulichtmeile_2024;.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Bundeswehr_GTK_Boxer_Armor_-_Armor_Steel%2C_Adapted_Composite_Armor_%28AMAP%29%3B_Main_armament_-_12.7_x_99mm%3B_Secondary_armament_-_Smoke_Bomb_System%3B_Stadtfest_Dresden_Blaulichtmeile_2024%3B.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Bundeswehr GTK Boxer Armor - Armor Steel, Adapted Composite Armor (AMAP); Main armament - 12.7 x 99mm; Secondary armament - Smoke Bomb System; Stadtfest Dresden Blaulichtmeile 2024;.jpg
+    caption: Bundeswehr GTK Boxer armoured personnel carrier armed with a 12.7 mm machine gun at the Dresden City Festival, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Lupus in Saxonia
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Blue_Light_Mile_Dresden_City_Festival_2024_-_Wheeled_Tank_-_GTK_BOXER_Bundeswehr;_Armored_transport_motor_vehicle.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Blue_Light_Mile_Dresden_City_Festival_2024_-_Wheeled_Tank_-_GTK_BOXER_Bundeswehr%3B_Armored_transport_motor_vehicle.jpg/1280px-Blue_Light_Mile_Dresden_City_Festival_2024_-_Wheeled_Tank_-_GTK_BOXER_Bundeswehr%3B_Armored_transport_motor_vehicle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Blue Light Mile Dresden City Festival 2024 - Wheeled Tank - GTK BOXER Bundeswehr; Armored transport motor vehicle.jpg
+    caption: Bundeswehr GTK Boxer armoured transport vehicle at the Blue Light Mile, Dresden City Festival, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Lupus in Saxonia
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:GTK_Boxer_side.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/0/0c/GTK_Boxer_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: GTK Boxer side.jpg
+    caption: Side view of an early GTK Boxer armoured vehicle, 2004.
+    shows: same_family
+    licence: Public domain
+    author: Heldt
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: Many candidates are unrelated (Boxer dogs, Boxer Rebellion, boxing). Interior and detail shots and other variants (command post, CRV, Land 400) were skipped in favour of whole-vehicle APC views. The 2024 Dresden photos are not confirmed as A3 standard, so 'exact_variant' means APC configuration only.

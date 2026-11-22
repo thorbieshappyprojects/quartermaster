@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: as90
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:AS-90_Howitzer_1.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/AS-90_Howitzer_1.jpg/1280px-AS-90_Howitzer_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: AS-90 Howitzer 1.jpg
+    caption: AS-90 self-propelled howitzer of the British Army, 2009.
+    shows: exact_variant
+    licence: CC BY 3.0
+    licence_url: https://creativecommons.org/licenses/by/3.0
+    author: Bthebest
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:AS-90_self-propelled_artillery.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/AS-90_self-propelled_artillery.JPG/1280px-AS-90_self-propelled_artillery.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: AS-90 self-propelled artillery.JPG
+    caption: British AS90 155 mm self-propelled guns of 3rd Regiment, Royal Horse Artillery firing calibration rounds in Basra, Iraq, 2008.
+    shows: exact_variant
+    licence: Public domain
+    author: Pfc. Rhonda J. Roth-Cameron, U.S. Army
+    credit: "http://www.defenselink.mil ; VIRIN: 080828-A-8243R-021"
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:AS90_(52931434897).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/AS90_%2852931434897%29.jpg/1280px-AS90_%2852931434897%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: AS90 (52931434897).jpg
+    caption: AS90 self-propelled howitzer, 2023.
+    shows: exact_variant
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    author: Airwolfhound from Hertfordshire, UK
+    credit: AS90
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded unrelated files (thorium, Roman diploma, HIMARS, bus, road sign) and lower-priority AS90 views (transporter loads, rear view, top view).

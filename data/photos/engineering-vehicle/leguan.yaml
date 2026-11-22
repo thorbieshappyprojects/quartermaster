@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: leguan
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Leopard-2_Leguan-14m.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/d/d2/Leopard-2_Leguan-14m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Leopard-2 Leguan-14m.jpg
+    caption: German Army Leguan bridge layer on Leopard 2 chassis carrying two 14 m bridges during exercise "Wettin Sword", April 2022.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Panzerschnellbr%C3%BCcke_Leguan.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Panzerschnellbr%C3%BCcke_Leguan.jpg/1280px-Panzerschnellbr%C3%BCcke_Leguan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Panzerschnellbrücke Leguan.jpg
+    caption: Panzerschnellbrücke Leguan on a Leopard 2 chassis at a Bundeswehr WTD 51 demonstration in Koblenz, 2008.
+    shows: exact_variant
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    author: Luhai Wong
+    credit: originally posted to Flickr as _MG_9999
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Leopard_2_Leguaan.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Leopard_2_Leguaan.jpg/1280px-Leopard_2_Leguaan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Leopard 2 Leguaan.jpg
+    caption: New Leopard 2 Leguan bridge-laying tank presented to the Netherlands defence materiel organisation in Munich, December 2019.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Ministerie van Defensie
+    credit: www.magazines.defensie.nl
+    priority: A
+    retrieved: 2026-11-22
+note: Excluded iguana photos, Guyana maps, Leopard 1 and Singapore Leguan variants (different chassis), and lower-resolution or unclear Dutch images.

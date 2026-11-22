@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: dingo-2
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:ATF_Dingo_2_CZ_Ostrava_2019.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/a/a9/ATF_Dingo_2_CZ_Ostrava_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: ATF Dingo 2 CZ Ostrava 2019.jpg
+    caption: ATF Dingo 2 in Czech service on display at NATO Days Ostrava, 2019.
+    shows: same_family
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:ATF_Dingo_2_mit_B%C3%9CR.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/ATF_Dingo_2_mit_B%C3%9CR.jpg/1280px-ATF_Dingo_2_mit_B%C3%9CR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: ATF Dingo 2 mit BÜR.jpg
+    caption: ATF Dingo 2 fitted with an EADS ground surveillance radar (BÜR), 2009.
+    shows: same_family
+    licence: CC BY 3.0
+    licence_url: https://creativecommons.org/licenses/by/3.0
+    author: Sonaz
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:ATF_Dingo_2_A3_PatSi.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/ATF_Dingo_2_A3_PatSi.jpg/1280px-ATF_Dingo_2_A3_PatSi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: ATF Dingo 2 A3 PatSi.jpg
+    caption: ATF Dingo 2 A3 PatSi with an ESLAIT EFWS WS4 Panther weapon station, 2024.
+    shows: same_family
+    licence: CC0
+    licence_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    author: Fabien Tremoulinas
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "No candidate is explicitly identified as the A4.1 variant, so all three picks are marked same_family. They show the Dingo 2 or Dingo 2 A3. Files #15–24 show the animal or the town of Dingo and were excluded. Generic 'ATF Dingo' photos were not picked because they do not clearly show the Dingo 2."

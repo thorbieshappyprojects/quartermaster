@@ -1,0 +1,26 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: euro-puls
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:KNDS_MARS_3_at_ILA-2026.JPG
+    image_url: https://upload.wikimedia.org/wikipedia/commons/0/00/KNDS_MARS_3_at_ILA-2026.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: KNDS MARS 3 at ILA-2026.JPG
+    caption: KNDS MARS 3 (Euro-PULS) launcher on an Iveco Trakker 8x8 chassis with armored cab, displayed at ILA 2026.
+    shows: exact_variant
+    licence: CC BY-SA 3.0 de
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:KMW_Elbit_Euro-PULS_MLRS_with_MBDA_JFS-M_at_ILA-2022.JPG
+    image_url: https://upload.wikimedia.org/wikipedia/commons/0/07/KMW_Elbit_Euro-PULS_MLRS_with_MBDA_JFS-M_at_ILA-2022.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: KMW Elbit Euro-PULS MLRS with MBDA JFS-M at ILA-2022.JPG
+    caption: Euro-PULS demonstrator with a JFS-M missile scale model on display at the ILA Berlin Air Show 2022.
+    shows: same_family
+    licence: CC BY-SA 3.0 de
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "#1 matches the MARS 3 on the Iveco Trakker 8x8 chassis. #11 is an earlier Euro-PULS demonstrator from the same family. #8 was left out because it is a mock-up. All other candidates are unrelated (coins, lynx, the village of Puls, Stolpersteine)."

@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: rch-155
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:KNDS_RCH_155_at_Klietz_2025.JPG
+    image_url: https://upload.wikimedia.org/wikipedia/commons/3/33/KNDS_RCH_155_at_Klietz_2025.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: KNDS RCH 155 at Klietz 2025.JPG
+    caption: KNDS Boxer-based RCH 155 test vehicle on static display at the Klietz training area open day, 2025.
+    shows: exact_variant
+    licence: CC BY-SA 3.0 de
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:KMW-RCH155-01.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/KMW-RCH155-01.jpg/1280px-KMW-RCH155-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: KMW-RCH155-01.jpg
+    caption: Krauss-Maffei Wegmann RCH 155 wheeled howitzer, 2017.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: "Foto: Krauss-Maffei Wegmann GmbH &amp; Co. KG"
+    credit: https://www.kmweg.de/news-media/fotos/bildmaterial/category/rch-155-1/
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:KMW-RCH155-02.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/KMW-RCH155-02.jpg/1280px-KMW-RCH155-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: KMW-RCH155-02.jpg
+    caption: RCH 155 with its unmanned 155 mm turret, 2017.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: KMW
+    credit: https://www.kmweg.de/fileadmin/user_upload/Bilddownloads/KMW-RCH155-02.jpg
+    priority: A
+    retrieved: 2026-11-22
+note: "Piranha-based renders, SETAS camera close-ups, generic Boxer vehicles and unrelated 'Boxer' images were excluded. The descriptions for #1 and #2 do not explicitly name the Boxer chassis, but in 2017 KMW's RCH 155 was demonstrated on the Boxer chassis."

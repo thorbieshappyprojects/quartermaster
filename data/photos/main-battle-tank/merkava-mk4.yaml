@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: merkava-mk4
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Merkava-Mk-4-Barak-0001.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Merkava-Mk-4-Barak-0001.jpg/1280px-Merkava-Mk-4-Barak-0001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Merkava-Mk-4-Barak-0001.jpg
+    caption: Merkava Mk 4 Barak main battle tank of the Israel Defense Forces, 2023.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: IDF Spokesperson's Unit photographer
+    credit: The upload of this file was supported by Wikimedia Israel . To see other files made with the support of Wikimedia Israel, please see the category Supported by Wikimedia Israel .
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Merkava-Mk-4-Barak-0018.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Merkava-Mk-4-Barak-0018.jpg/1280px-Merkava-Mk-4-Barak-0018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Merkava-Mk-4-Barak-0018.jpg
+    caption: IDF Merkava Mk 4 Barak tank during the Swords of Iron War, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: IDF Spokesperson's Unit photographer
+    credit: This file contains IDF content and released by the Israeli Defence Forces Spokesperson's Unit . To view all images uploaded courtesy of IDF Spokesperson's Unit This tag does not indicate the copyright
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Merkava-Mk-4-Barak-0019.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/6/68/Merkava-Mk-4-Barak-0019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Merkava-Mk-4-Barak-0019.jpg
+    caption: Another view of an IDF Merkava Mk 4 Barak tank during the Swords of Iron War, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: IDF Spokesperson's Unit photographer
+    credit: This file contains IDF content and released by the Israeli Defence Forces Spokesperson's Unit . To view all images uploaded courtesy of IDF Spokesperson's Unit This tag does not indicate the copyright
+    priority: A
+    retrieved: 2026-11-22
+note: "Candidates #7, #8 and #9 are the only files whose titles and descriptions name the Mk 4 Barak, so all three are marked as the exact variant. Viewing angles could not be checked from the metadata. #10 is a crop of #9, so it was not picked separately. #23 and #24 show the older Merkava Mk IV and were left out because Barak photos exist."

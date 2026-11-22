@@ -1,0 +1,26 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: cv90-mkiv
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:CV_90_Mk_IV_SIAF-2022.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/7/75/CV_90_Mk_IV_SIAF-2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: CV 90 Mk IV SIAF-2022.jpg
+    caption: CV90 Mk IV on static display at the Slovak International Air Fest at Malacky Air Base, August 2022.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:CV-90CZ.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/7/77/CV-90CZ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: CV-90CZ.jpg
+    caption: Czech CV90 infantry fighting vehicle shown at the IDET defence exhibition, 2025.
+    shows: exact_variant
+    licence: CC0
+    licence_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    author: ZEONar5469
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "#7 is explicitly described as the CV90 Mk IV. #9 is titled CV-90CZ and was shown at IDET 2025, which fits the Czech CV9030 MkIV, but its description gives few details. The other candidates are older CV90 variants or non-photos: a map and a drawing. Mk IV photos are available, so no same-family photos were picked."

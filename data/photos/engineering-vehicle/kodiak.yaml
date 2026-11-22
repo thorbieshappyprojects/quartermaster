@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: kodiak
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Pionierpanzerseite.JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Pionierpanzerseite.JPG/1280px-Pionierpanzerseite.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Pionierpanzerseite.JPG
+    caption: Pionierpanzer AEV3 Kodiak armoured engineer vehicle, 2014.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Hornet Driver , sockpuppet of Fernrohr
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:AEV3_2.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/AEV3_2.jpg/1280px-AEV3_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: AEV3 2.jpg
+    caption: AEV 3 Kodiak armoured engineer vehicle during testing in Thun, Switzerland, 2009.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Rheinmetall Defence
+    credit: Rheinmetall Defence
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Leopard_Kodiak_2017.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Leopard_Kodiak_2017.jpg/1280px-Leopard_Kodiak_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Leopard Kodiak 2017.jpg
+    caption: Dutch Army Kodiak engineer vehicle during exercise Independent Engineer in Marche-en-Famenne, 2017.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Ministerie van Defensie
+    credit: www.magazines.defensie.nl
+    priority: A
+    retrieved: 2026-11-22
+note: "No photos of Bundeswehr-ordered vehicles are clearly identified; the picks show the AEV 3 Kodiak, including a Dutch export vehicle and a Swiss test vehicle. #1 shows a bear and #20 is a map, so both were excluded."

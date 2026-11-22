@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: altay
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:TankAltayT1_(1).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/TankAltayT1_%281%29.jpg/1280px-TankAltayT1_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: TankAltayT1 (1).jpg
+    caption: Altay main battle tank displayed at the IDEF 2019 defence fair in Istanbul, Turkey, 2019.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: CeeGee
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Altay_Tank.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Altay_Tank.jpg/1280px-Altay_Tank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Altay Tank.jpg
+    caption: Altay main battle tank seen from the front left side, 2023.
+    shows: same_family
+    licence: CC0
+    licence_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    author: Emir GEÇİR
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Altay_MBT.png
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Altay_MBT.png/1280px-Altay_MBT.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Altay MBT.png
+    caption: Altay main battle tank, 2014.
+    shows: same_family
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Panzer VI-II
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "#2 is titled Altay T1, so it is treated as the exact variant. #4 and #1 show an Altay tank but do not name the variant, so they are marked same_family. #1 is a PNG without a description and may be a render rather than a photo. Excluded: #5, a scale model, and the unrelated Altay/Altai places, documents and club files."

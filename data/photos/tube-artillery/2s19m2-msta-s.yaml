@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: 2s19m2-msta-s
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:2S19M2_on_RAE-2013_2.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/2S19M2_on_RAE-2013_2.jpg/1280px-2S19M2_on_RAE-2013_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: 2S19M2 on RAE-2013 2.jpg
+    caption: 2S19M2 self-propelled howitzer displayed at the Russian Expo Arms exhibition, 2013.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Алексей Китаев
+    credit: http://www.vitalykuzmin.net/?q=node/531
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:2S19M2_Msta-S.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/2S19M2_Msta-S.jpg/1280px-2S19M2_Msta-S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: 2S19M2 Msta-S.jpg
+    caption: 2S19M2 Msta-S self-propelled howitzer, 2019.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Ministry of Defence of the Russian Federation
+    credit: https://function.mil.ru/news_page/country/more.htm?id=12225184@egNews
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Alabino110416-43.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Alabino110416-43.jpg/1280px-Alabino110416-43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Alabino110416-43.jpg
+    caption: 2S19M2 Msta-S self-propelled howitzer at Alabino, 2016.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: http://vitalykuzmin.net/?q=node/651
+    credit: Vitaly V. Kuzmin
+    priority: A
+    retrieved: 2026-11-22
+note: "Chose high-resolution photos explicitly identified as 2S19M2. The rear views (#3, #4), the front view (#5), the small exercise images and the captured-vehicle photos are less suitable. #6 was skipped because its description does not identify the vehicle. #13–22 show a museum 2S19 whose variant is not specified."

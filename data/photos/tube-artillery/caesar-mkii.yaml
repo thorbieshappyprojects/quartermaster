@@ -1,0 +1,24 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: caesar-mkii
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:CAESAR_NG_(Mk._II)_New_Generation_155mm_6x6_self-propelled_howitzer.png
+    image_url: https://upload.wikimedia.org/wikipedia/commons/6/63/CAESAR_NG_%28Mk._II%29_New_Generation_155mm_6x6_self-propelled_howitzer.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: CAESAR NG (Mk. II) New Generation 155mm 6x6 self-propelled howitzer.png
+    caption: CAESAR NG (Mk II) new-generation 155 mm 6x6 self-propelled howitzer, 2022.
+    shows: exact_variant
+    licence: Public domain
+    author: Belgium MoD
+    credit: https://www.armyrecognition.com/images/stories/news/2022/may/Belgium_signs_contract_with_France_to_acquire_9_CAESAR_NG_155mm_6x6_self-propelled_howitzers_925_001.jpg
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:CAESAR_battery_of_the_12th_Field_Artillery_Battalion_(Yon_Armed_12)_Kostrad,_2021.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/e/e1/CAESAR_battery_of_the_12th_Field_Artillery_Battalion_%28Yon_Armed_12%29_Kostrad%2C_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: CAESAR battery of the 12th Field Artillery Battalion (Yon Armed 12) Kostrad, 2021.jpg
+    caption: CAESAR howitzer battery of the Indonesian Army's 12th Field Artillery Battalion (Kostrad) during a live-fire exercise, 2021.
+    shows: same_family
+    licence: Public domain
+    author: Kostrad
+    credit: https://kostrad.mil.id/post_kegiatan/resimen-armed-2-kostrad-latihan-menembak-senjata-berat-terintegrasi-armed-tni-ad-ta-2021/
+    priority: A
+    retrieved: 2026-11-22
+note: "#2 is a cropped duplicate of #1. #3 shows an earlier CAESAR variant and is included as a family example. All other candidates are unrelated: coins, cocktails and artworks of Caesar."

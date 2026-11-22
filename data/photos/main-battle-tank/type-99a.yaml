@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: type-99a
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:ZTZ-99A_tank_front_right_20170902.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/ZTZ-99A_tank_front_right_20170902.jpg/1280px-ZTZ-99A_tank_front_right_20170902.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: ZTZ-99A tank front right 20170902.jpg
+    caption: Type 99A main battle tank displayed at the Military Museum of the Chinese People's Revolution during the PLA 90th anniversary exhibition, 2017.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Tyg728
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:ZTZ-99A_MBT_20170902.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/ZTZ-99A_MBT_20170902.jpg/1280px-ZTZ-99A_MBT_20170902.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: ZTZ-99A MBT 20170902.jpg
+    caption: Type 99A main battle tank on display at the Military Museum of the Chinese People's Revolution in Beijing, 2017.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Tyg728
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:ZTZ-99A_tank_20170919.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/ZTZ-99A_tank_20170919.jpg/1280px-ZTZ-99A_tank_20170919.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: ZTZ-99A tank 20170919.jpg
+    caption: Type 99A tank exhibited at the PLA 90th anniversary exhibition in the Military Museum of the Chinese People's Revolution, 2017.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Tyg728
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "Candidates #4–#8 are all explicitly titled ZTZ-99A and show the same tank on display at the Military Museum of the Chinese People's Revolution in 2017. It is a real vehicle, not a mock-up. #5 is named as a front-right view, so it was picked first, followed by #7 and #6. #8 was skipped because it is a frontal view. The 2015 parade images do not name the variant, so they were not used."

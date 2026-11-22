@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: leopard-2a8
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:LEOPARD_2A8.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/LEOPARD_2A8.jpg/1280px-LEOPARD_2A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: LEOPARD 2A8.jpg
+    caption: Leopard 2A8 demonstrator on display at Eurosatory 2022.
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Meumeu03
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Leopard_2A8.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/d/dd/Leopard_2A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Leopard 2A8.jpg
+    caption: Leopard 2A8 at Arena Zagreb, 2025.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Wikimedilea
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Leopard_2A8_prototype.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/7/74/Leopard_2A8_prototype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Leopard 2A8 prototype.jpg
+    caption: Leopard 2A8 prototype, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Defensie Nederlands
+    credit: https://magazines.defensie.nl/materieelgezien/2025/04/46-hypermoderne-tanks-in-aantocht
+    priority: A
+    retrieved: 2026-11-22
+note: "Picked high-resolution Eurosatory 2022 demonstrator photo plus Zagreb 2025 and prototype photos. Excluded #6 (description says 2A7A1), #11 (unclear variant), #5 (edited image), and duplicates/crops (#2, #4, #9, #10)."

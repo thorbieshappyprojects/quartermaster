@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: homar-k
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:K239PL_MSPO24_1.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/K239PL_MSPO24_1.jpg/1280px-K239PL_MSPO24_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: K239PL MSPO24 1.jpg
+    caption: Polish K239 Homar-K launcher on Jelcz P882.57 chassis at the International Defence Industry Exhibition in Kielce, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Michał Derela
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:K239PL_MSPO24_2.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/K239PL_MSPO24_2.jpg/1280px-K239PL_MSPO24_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: K239PL MSPO24 2.jpg
+    caption: Polish K239 Homar-K launcher on Jelcz P882.57 chassis on display at MSPO in Kielce, Poland, 2024.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Michał Derela
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:K239PL_MSPO23_140056323.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/K239PL_MSPO23_140056323.jpg/1280px-K239PL_MSPO23_140056323.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: K239PL MSPO23 140056323.jpg
+    caption: Prototype of the Polish K239 Homar-K launcher on Jelcz P882.57 chassis at MSPO in Kielce, 2023.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Michał Derela
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "Preferred the 2024 MSPO photos of the production configuration; #5 lists a differing chassis designation (P883.57), #8 is ambiguous, and #1-#3 show the Korean original or missile models."
