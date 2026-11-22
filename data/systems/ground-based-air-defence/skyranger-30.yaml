@@ -1,0 +1,72 @@
+id: skyranger-30
+category: ground-based-air-defence
+name: Skyranger 30 (Boxer)
+variant_note: German Army Boxer 8x8 configuration with Stinger missiles (1 verification model + 18 series vehicles)
+family: Oerlikon Skyranger
+aliases: ["Boxer Skyranger 30", "Oerlikon Skyranger 30", "Flakpanzer Skyranger 30"]
+manufacturer: { name: Rheinmetall Air Defence AG (Rheinmetall Group) }
+origin: CH
+role: Mobile very short-range air defence vehicle that pairs a 30 mm revolver cannon firing airburst ammunition with short-range missiles, mainly against drones.
+memorable_fact: { text: "The German Army disbanded its army air defence branch in 2012 and is now rebuilding it in Lüneburg, with the Boxer-based Skyranger 30 as its first system.", source: s4 }
+status: in_production
+in_service_since:
+  value: null
+  source: null
+  confidence: null
+  note: "Rheinmetall handed the first Boxer Skyranger 30, a verification model for approval trials, to the Bundeswehr at the end of January 2025 (s2). The Bundeswehr planned for one unit to receive the system in 2026 (s4), and series deliveries are mainly planned for 2027 and early 2028 (s2). No source found confirms that an operational unit has taken the system into service."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "One Boxer verification model has been delivered (s2). No public cumulative production figure was found for the Boxer variant or the Skyranger 30 family. Rheinmetall gives current turret production capacity as about 70-100 per year (s5)."
+combat_use: { text: "No confirmed combat use as of 2026. Rheinmetall says the system is intended for Ukraine's armed forces, but no fielded or combat use was found.", source: s5 }
+specs:
+  max_range:
+    value: 6
+    source: s3
+    confidence: medium
+    range: { min: 6, max: 8 }
+    note: "Rheinmetall brochure: effective range up to 3,000 m with the gun and 6,000 m with a missile. This is the baseline brochure configuration, not specifically the Stinger-armed Boxer. Army Recognition (s6) gives about 8 km with Stinger. The manufacturer figure is displayed. Gun-only effective range is 3 km (s3, s5)."
+  max_altitude: { value: null, source: null, confidence: null }
+  ready_rounds:
+    value: null
+    source: null
+    confidence: null
+    note: "German vehicles are armed with Stinger at first, with a later switch planned to a newly developed counter-drone missile (s2). The baseline brochure lists 2 ready missiles as an option (s3), but no official missile count was found for the German Boxer configuration. Gun ammunition per brochure: 252 linked 30 mm rounds ready to fire (s3)."
+  reaction_time: { value: null, source: null, confidence: null }
+  crew:
+    value: 2
+    source: s3
+    confidence: low
+    note: "Brochure lists two operator consoles in the vehicle (commander, gunner). A Boxer driver is not included in this figure, and no official total vehicle crew was found for the German variant."
+operators:
+  - { country: DE, force: Army, state: ordered, quantity: 19, source: s1 }    # Boxer; 1 verification model delivered Jan 2025
+  - { country: AT, force: Army, state: ordered, quantity: 36, source: s7 }    # Pandur EVO 6x6 platform
+  - { country: DK, force: Army, state: ordered, quantity: 16, source: s8 }    # turrets for 8x8 vehicles
+  - { country: NL, force: Army, state: ordered, quantity: null, source: s9 }  # mobile and dismounted systems
+  - { country: BE, force: Armed Forces, state: ordered, quantity: 20, source: s10 }  # stationary hooklift platform
+cost:
+  value: 31300000
+  currency: EUR
+  price_year: 2024
+  basis: contract_per_unit
+  source: s1
+  confidence: high
+  note: "German Army contract of February 2024: EUR 595 million including VAT, divided by 19 vehicles (1 prototype/verification model + 18 series). Includes development and the prototype, so it is not a flyaway price."
+contracts:
+  - { customer: Germany / Army, year: 2024, quantity: 19, value: 595000000, currency: EUR, note: "1 prototype + 18 series Boxer vehicles, including VAT; option for 30 more systems.", source: s1 }
+  - { customer: Austria / Army, year: 2024, quantity: 36, value: null, currency: null, note: "Skyranger 30 on GDELS Pandur EVO; value stated only as a mid-triple-digit million euro amount.", source: s5 }
+  - { customer: Denmark / Army, year: 2024, quantity: 16, value: null, currency: null, note: "Contract signed 27 Sep 2024; 4 initial/prototype turrets by end 2026, series turrets 2027-2028.", source: s8 }
+  - { customer: Belgium / Armed Forces, year: 2026, quantity: 20, value: null, currency: null, note: "Announced 9 Nov 2026; package including logistics in the mid three-digit million euro range.", source: s10 }
+peers: [gepard, pantsir-s1]
+sources:
+  - { id: s1, url: "https://www.rheinmetall.com/en/media/news-watch/news/2024/02/2024-02-27-bundeswehr-ordered-skyranger-30-mobile-air-defence-system", title: "Bundeswehr ordered air defence system Skyranger 30", publisher: Rheinmetall AG, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.rheinmetall.com/en/media/news-watch/news/2025/02/2025-02-05-rheinmetall-hands-over-verification-model-of-skyranger-30-to-the-bundeswehr", title: "Rheinmetall hands over verification model of Skyranger 30 to the Bundeswehr", publisher: Rheinmetall AG, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Air-Defence/D994e0222-Oerlikon-Skyranger-30.pdf", title: "Oerlikon Skyranger 30 - Light multi-role air defence system (brochure)", publisher: Rheinmetall Air Defence AG, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.bundeswehr.de/de/organisation/heer/aktuelles/heeresflugabwehrtruppe-wird-neu-aufgestellt-5777698", title: "Heeresflugabwehrtruppe wird neu aufgestellt", publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://www.rheinmetall.com/en/media/news-watch/news/2026/06/2026-06-15-rheinmetall-at-eurosatory-to-showcase-its-cutting-edge-skyranger-air-defence-system", title: "Eurosatory 2026: Rheinmetall showcases its Skyranger air defence system", publisher: Rheinmetall AG, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s6, url: "https://www.armyrecognition.com/news/defense-web-tv/discover-skyranger-30-rheinmetall-mobile-air-defence-in-germanys-500-unit-deal", title: "Discover Skyranger 30 Rheinmetall Mobile Air Defence in Germany's 500+ Unit Drone Defense Deal", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.rheinmetall.com/en/media/news-watch/news/2024/02/2024-02-23-rheinmetall-supplies-skyranger-30-to-austria", title: "Market breakthrough in Austria: Rheinmetall supplies Skyranger 30", publisher: Rheinmetall AG, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s8, url: "https://euro-sd.com/2024/09/major-news/40568/denmark-orders-16-skyranger-30/", title: "Denmark orders 16 Skyranger 30 air defence systems from Rheinmetall", publisher: European Security & Defence, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.rheinmetall.com/en/media/news-watch/news/2025/12/2025-12-12-rheinmetall-to-supply-skyranger-30-for-the-dutch-armed-forces", title: "Rheinmetall to supply Skyranger 30 to the Netherlands", publisher: Rheinmetall AG, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s10, url: "https://www.joint-forces.com/defence-equipment-news/95440-rheinmetall-belgian-skyranger-30-contract", title: "Rheinmetall Belgian Skyranger 30 Contract", publisher: Joint Forces News, retrieved: 2026-11-22, kind: press }

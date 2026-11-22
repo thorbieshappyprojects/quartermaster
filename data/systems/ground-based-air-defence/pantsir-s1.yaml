@@ -1,0 +1,92 @@
+id: pantsir-s1
+category: ground-based-air-defence
+name: "Pantsir-S1"
+variant_note: "Baseline 96K6 with 57E6/57E6-E missiles and 2A38M guns"
+family: "Pantsir"
+aliases: ["Pantsyr-S1", "96K6", "SA-22 Greyhound", "Pantsir-S1E"]
+manufacturer: { name: "KBP Instrument Design Bureau (Tula)" }
+production_sites:
+  - { place: "Ulyanovsk", country: RU, source: s5 }
+origin: RU
+role: "Wheeled short-range air defence system combining missiles and 30 mm guns to defend installations and longer-range air defence units against aircraft, cruise missiles, munitions and UAVs."
+memorable_fact: { text: "One vehicle carries both 12 missiles and two twin-barrel 30 mm guns, so it can engage targets from 200 m out to 20 km.", source: s1 }
+status: in_service
+in_service_since:
+  value: 2012
+  range: { min: 2003, max: 2012 }
+  source: s6
+  confidence: medium
+  note: "Year the base system was formally adopted by the Russian Army, by government order of 16 Nov 2012 (s6). CSIS gives 2003 as the in-service date (s4). Army-technology reports the first complete export systems went to the UAE in 2007 (s5). Army Recognition reports the first 10 systems entering Russian Air Force service on 18 Mar 2010 (s3). Formal adoption year shown."
+units_built:
+  value: 200
+  source: s9
+  confidence: low
+  note: "Covers the whole Pantsir family. The Wikipedia infobox says '200+' with no underlying source; treated as a lower bound. No manufacturer or government total found."
+combat_use:
+  text: "Used by Russian forces in the war against Ukraine. As of the cited 2026 report, Oryx counted 44 Pantsir-S1 visually confirmed lost since 2022 (37 destroyed, 5 damaged, 2 captured)."
+  source: s7
+specs:
+  max_range:
+    value: 20
+    range: { min: 12, max: 20 }
+    source: s1
+    confidence: high
+    note: "Rosoboronexport and KBP give a missile engagement range of 1,200–20,000 m against a 2 m² RCS aircraft (s1, s2). Army-technology gives 1–12 km for the 57E6 (s5). Gun range is 0.2–4 km. Manufacturer figure shown."
+  max_altitude:
+    value: 15
+    range: { min: 8, max: 15 }
+    source: s2
+    confidence: high
+    note: "KBP and Rosoboronexport give 15–15,000 m for missiles (s2, s1). CSIS gives 10 km against tactical aircraft (s4). Army Recognition gives both 8 km and 10 km in different places (s3). Manufacturer figure shown. Guns reach 3 km."
+  ready_rounds:
+    value: 12
+    source: s2
+    confidence: high
+    note: "12 surface-to-air missiles on the launchers (also s1)."
+  reaction_time:
+    value: 4
+    range: { min: 4, max: 6 }
+    source: s2
+    confidence: high
+    note: "KBP states 4–6 s; lower bound shown."
+  crew:
+    value: 3
+    source: s2
+    confidence: high
+    note: "KBP lists the combat crew as 3; Army Recognition and army-technology agree (s3, s5)."
+operators:
+  - { country: RU, force: "Ground Forces / Aerospace Forces", state: in_service, quantity: null, source: s4 }
+  - { country: AE, force: "Armed Forces", state: in_service, quantity: 50, source: s5 }
+  - { country: DZ, force: "Armed Forces", state: in_service, quantity: null, source: s3 }
+  - { country: AM, force: "Armed Forces", state: in_service, quantity: null, source: s3 }
+  - { country: ET, force: "Armed Forces", state: in_service, quantity: null, source: s3 }
+  - { country: GQ, force: "Armed Forces", state: in_service, quantity: null, source: s3 }
+  - { country: IR, force: "Armed Forces", state: in_service, quantity: null, source: s3 }
+  - { country: IQ, force: "Armed Forces", state: in_service, quantity: null, source: s3 }
+  - { country: JO, force: "Armed Forces", state: in_service, quantity: null, source: s3 }
+  - { country: MM, force: "Army", state: in_service, quantity: null, source: s3 }
+  - { country: OM, force: "Armed Forces", state: in_service, quantity: null, source: s3 }
+  - { country: RS, force: "Air Force and Air Defence", state: in_service, quantity: 6, source: s10 }
+  - { country: SY, force: "Armed Forces", state: in_service, quantity: null, source: s3, note: "Listed by Army Recognition; status after the change of government in Dec 2024 not confirmed in sources seen." }
+  - { country: VN, force: "Armed Forces", state: in_service, quantity: null, source: s3 }
+cost:
+  value: 14680000
+  currency: USD
+  price_year: 2000
+  basis: contract_per_unit
+  source: s5
+  confidence: medium
+  note: "UAE contract of May 2000: USD 734m for 50 systems on MAN SX45 8x8 chassis, i.e. 734m / 50. The figure covers the contract, not just the vehicle. The UAE later asked for a new radar, and completed systems were delivered from 2007."
+contracts:
+  - { customer: "United Arab Emirates", year: 2000, quantity: 50, value: 734000000, currency: USD, note: "First export order (May 2000); 96K6 on MAN SX45 8x8 chassis; first batch Nov 2004, completed systems from 2007 after radar change.", source: s5 }
+peers: [skyranger-30, gepard, iris-t-slm]
+sources:
+  - { id: s1, url: "http://roe.ru/en/production/protivovozdushnaya-oborona/zenitnye-raketnye-kompleksy-i-ustanovki/zenitnye-raketnye-raketno-pushechnye-kompleksy-maloy-dalnosti/pantsir-s1/?theme=theme-brown", title: "\"Pantsir-S1\" ADMGS", publisher: "Rosoboronexport", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "http://www.kbptula.ru/en/productions/air-defense-weapon-systems/pantsir-s1", title: "KBP Instrument Design Bureau - Pantsir-S1", publisher: "KBP Instrument Design Bureau", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.armyrecognition.com/military-products/army/air-defense-systems/air-defense-vehicles/pantsir-s1-russia-uk", title: "Pantsir-S1 SA-22 Greyhound", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://missilethreat.csis.org/defsys/pantsir-s-1/", title: "Pantsir S-1 | Missile Threat", publisher: "CSIS Missile Defense Project", retrieved: 2026-11-22, kind: reference }
+  - { id: s5, url: "https://www.army-technology.com/projects/pantsyr/", title: "Pantsyr S1 Close Range Air Defence System", publisher: "Army Technology", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://militarnyi.com/en/news/ukrainian-servicemen-hit-first-target-with-trophy-russian-pantsir-s1/", title: "Ukrainian servicemen hit first target with trophy Russian Pantsir-S1", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.armyrecognition.com/news/army-news/2026/russia-deploys-new-pantsir-s-air-defense-systems-to-counter-ukraine-drone-strikes", title: "Russia Deploys New Pantsir-S Air Defense Systems to Counter Ukraine Drone Strikes", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://en.wikipedia.org/wiki/Pantsir_missile_system", title: "Pantsir missile system", publisher: "Wikipedia", retrieved: 2026-11-22, kind: other }
+  - { id: s10, url: "https://www.airforce-technology.com/news/russia-pantsir-s1-systems-serbia/", title: "Russia to deliver six Pantsir-S1 air defence systems to Serbia", publisher: "Airforce Technology", retrieved: 2026-11-22, kind: press }

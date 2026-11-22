@@ -1,0 +1,107 @@
+# Indicators: scripts/research/indicators/ground-based-air-defence.yaml. Category card researched 2026-11-22.
+id: ground-based-air-defence
+name: Ground-based air defence
+domain: Air defence
+wave: 2
+indicators:
+  - id: max_range
+    label: Max. engagement range
+    unit: km
+    trump: higher_wins
+    decimals: 1
+    description: Longest-range interceptor or gun of the system, against aircraft.
+  - id: max_altitude
+    label: Max. engagement altitude
+    unit: km
+    trump: higher_wins
+    decimals: 1
+  - id: ready_rounds
+    label: Ready-to-fire missiles per launcher
+    unit: ""
+    trump: higher_wins
+    description: Missiles on one launcher vehicle; null for gun-only systems.
+  - id: reaction_time
+    label: Reaction time
+    unit: s
+    trump: lower_wins
+    decimals: 1
+  - id: crew
+    label: Crew (launcher or fire unit vehicle)
+    unit: ""
+    trump: lower_wins
+category_card:
+  summary: Ground-based air defence (GBAD) is made up of surface-based sensors, command-and-control systems and effectors used to detect and engage aircraft, helicopters, uncrewed aerial vehicles, and cruise and ballistic missiles. Effectors include surface-to-air missiles, anti-aircraft guns, man-portable air defence systems, and newer directed-energy and drone-interceptor systems. Systems are usually grouped by engagement range, from point and very short-range defence up to long-range area and missile defence, and they are normally combined into layered, integrated air and missile defence networks.
+  purpose:
+    - text: GBAD defends national airspace, forces and infrastructure, and stops an adversary from gaining air superiority; NATO has described this as a capability it neglected after the Cold War.
+      source: s1
+    - text: Short-range air defence protects mobile units from aerial attack so they keep their freedom to manoeuvre, and it engages low-altitude threats that get past the coverage of longer-range surface-to-air missile systems.
+      source: s4
+    - text: In Ukraine, a manoeuvre force that dispersed its ground-based air defences and kept them mobile denied air support to a numerically superior opponent, which shaped the course of the whole campaign.
+      source: s5
+  strengths:
+    - text: Ukraine's extensive GBAD network caused the Russian Aerospace Forces' campaign to suppress and destroy enemy air defences to fail, so most Russian tactical fighters could not meaningfully affect the ground war.
+      source: s2
+    - text: Mobility, dispersion and selective use of radars and launchers make GBAD units more survivable and harder for the adversary to target.
+      source: s5
+    - text: Medium-range systems such as NASAMS and IRIS-T SLM have worked well as point defence against cruise missiles, and long-range systems such as Patriot and SAMP/T have provided Ukraine's only effective defence against ballistic missiles.
+      source: s2
+    - text: Short- and intermediate-range ballistic-missile defence has proved relatively effective in operations in Ukraine and in Israel's layered architecture, which gives it value for deterrence as well as for war-fighting.
+      source: s1
+  weaknesses:
+    - text: Missile-based GBAD depends on interceptor supply, and European stocks of surface-to-air missiles are judged inadequate for high-intensity warfare, with an industrial base unable to scale up production quickly.
+      source: s1
+    - text: Using costly interceptors against cheap threats is a poor cost exchange; a PAC-3 Patriot interceptor costs over USD 3 million, while one-way attack drones cost far less.
+      source: s3
+    - text: Each short-range system covers only a small area, so effective coverage needs many personnel and a high density of systems deployed in depth.
+      source: s2
+    - text: The attacker chooses when and where to strike, so a concentrated attack can overwhelm the air defences around one target while systems deployed elsewhere stay idle.
+      source: s4
+  counters:
+    - text: In saturation attacks, Russia opens its strike packages with hundreds of one-way attack and decoy drones to probe and saturate defences, then follows with cruise and ballistic missiles.
+      source: s2
+    - text: Russian glide-bomb kits let aircraft release stand-off weapons from outside the engagement envelope of most Ukrainian ground-based air defence.
+      source: s1
+    - text: Russia has used short-range ballistic missiles for rapid strikes on time-critical, high-value targets such as mobile air-defence systems.
+      source: s1
+    - text: To suppress enemy air defences, Ukrainian aircraft fire AGM-88 HARM anti-radiation missiles at Russian GBAD systems.
+      source: s2
+  trends:
+    - text: Ukraine has built deep belts of cheap short-range defences (guns, MANPADS and thousands of drone interceptors) that now destroy most of the one-way attack drones shot down, which saves scarce surface-to-air missiles for cruise and ballistic missiles.
+      source: s2
+    - text: Militaries are again investing in gun-based short-range air defence firing programmable air-burst ammunition, and in large numbers of MANPADS, to reduce the use of high-end medium-range interceptors.
+      source: s4
+    - text: Laser weapons are being developed and fielded for counter-UAV work because each shot costs very little, but their power demands, limited range and sensitivity to weather mean they are expected to work as one layer among other systems.
+      source: s1
+    - text: NATO adopted an integrated air and missile defence policy in February 2025 that stresses the number of systems as well as their quality, and its Secretary General called for a 400 percent increase in Alliance air and missile defence.
+      source: s1
+sources:
+  - id: s1
+    url: https://www.iiss.org/globalassets/media-library---content--migration/files/publications---free-files/strategic-dossier/pds-2025/chapters/iiss_progress-and-shortfalls-in-europes-defence_2025_ch-3_integrated-air-and-missile-defence.pdf
+    title: Progress and Shortfalls in Europe's Defence, Chapter 3 - European Integrated Air and Missile Defence - Slow Progress
+    publisher: International Institute for Strategic Studies (IISS)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s2
+    url: https://www.rusi.org/explore-our-research/publications/commentary/four-years-update-air-war-over-ukraine
+    title: Four Years On - An Update on the Air War Over Ukraine
+    publisher: Royal United Services Institute (RUSI)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s3
+    url: https://www.csis.org/analysis/calculating-cost-effectiveness-russias-drone-strikes
+    title: Calculating the Cost-Effectiveness of Russia's Drone Strikes
+    publisher: Center for Strategic and International Studies (CSIS)
+    retrieved: 2026-11-22
+    kind: reference
+  - id: s4
+    url: https://euro-sd.com/2025/04/articles/43682/the-increasing-necessity-of-shorad/
+    title: The increasing necessity of SHORAD
+    publisher: European Security & Defence (ESD)
+    retrieved: 2026-11-22
+    kind: press
+  - id: s5
+    url: https://www.usni.org/magazines/proceedings/2023/september/air-denial-lessons-ukraine
+    title: Air Denial Lessons from Ukraine
+    publisher: U.S. Naval Institute Proceedings
+    retrieved: 2026-11-22
+    kind: reference

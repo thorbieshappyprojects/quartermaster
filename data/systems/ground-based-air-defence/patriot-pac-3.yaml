@@ -1,0 +1,85 @@
+id: patriot-pac-3
+category: ground-based-air-defence
+name: "Patriot PAC-3 MSE"
+variant_note: "PAC-3 MSE interceptor fired from the M903 launcher"
+family: "Patriot"
+aliases: ["PAC-3 Missile Segment Enhancement", "PAC-3 MSE"]
+manufacturer: { name: "Lockheed Martin (Missiles and Fire Control)" }
+production_sites:
+  - { place: "Camden, Arkansas", country: US, source: s2 }
+origin: US
+role: "Hit-to-kill interceptor for the Patriot system, used against tactical ballistic missiles, cruise missiles, hypersonic threats and aircraft."
+memorable_fact: { text: "An M903 Patriot launcher holds 12 PAC-3 MSE interceptors, each in its own canister, but only 4 of the older PAC-2 GEM missiles, and the MSE destroys its target by hitting it directly.", source: s1 }
+status: in_production
+in_service_since:
+  value: 2016
+  source: s3
+  confidence: high
+  note: "Year of first service of the MSE variant: IOC with 3-2 ADA on 5 July 2016 (s3). Lockheed Martin lists First Unit Equipped in 2015 (s1). The base Patriot system is much older."
+units_built:
+  value: 1000
+  source: s4
+  confidence: high
+  note: "Lower bound for the MSE variant only. Lockheed Martin finished the 1,000th PAC-3 MSE on 18 October 2021 (s4). The cumulative total is now much higher, but no current figure was found. A 2026 CSIS estimate (s14) put US stocks alone at more than 2,300 before the 2026 Iran conflict."
+combat_use: { text: "Used in combat. In 2026 CSIS estimated that US PAC-3 MSE stocks fell from more than 2,300 to about 800 during US operations against Iran.", source: s14 }
+specs:
+  max_range:
+    value: 35
+    source: s6
+    confidence: low
+    range: { min: 30, max: 120 }
+    note: "No figure from the manufacturer. About 35 km per s6; 'over 35 km' per s7; 30 km against ballistic missiles per s9; 19 mi (about 30.6 km) per s8; 75 mi (120 km) per s10, which may mix up different Patriot missiles. 35 km shown because two trade sources report it."
+  max_altitude:
+    value: 36
+    source: s10
+    confidence: low
+    range: { min: 15, max: 40 }
+    note: "Original figure 118,000 ft (35,966 m) per s10; 'over 36,000 m' per s7; 40 km against ballistic missiles per s8; 15 km per s6. No figure from the manufacturer."
+  ready_rounds:
+    value: 12
+    source: s1
+    confidence: high
+    note: "M903 launcher: 12 PAC-3 MSE, or 6 MSE plus 8 PAC-3 CRI, or 16 CRI, or 4 PAC-2 GEM (s1; CSIS s5 gives the same figures)."
+  reaction_time: { value: null, source: null, confidence: null }
+  crew: { value: null, source: null, confidence: null }
+operators:
+  - { country: US, force: Army, state: in_service, quantity: null, source: s5 }
+  - { country: JP, force: Air Self-Defense Force, state: in_service, quantity: null, source: s1 }
+  - { country: KR, force: Air Force, state: in_service, quantity: null, source: s1 }
+  - { country: AE, force: Armed Forces, state: in_service, quantity: null, source: s1 }
+  - { country: DE, force: Air Force, state: in_service, quantity: null, source: s1 }
+  - { country: BH, force: Defence Force, state: in_service, quantity: null, source: s10 }
+  - { country: PL, force: Armed Forces, state: in_service, quantity: null, source: s1 }
+  - { country: RO, force: Air Force, state: in_service, quantity: null, source: s1 }
+  - { country: SE, force: Armed Forces, state: in_service, quantity: null, source: s1 }
+  - { country: QA, force: Armed Forces, state: in_service, quantity: null, source: s1 }
+  - { country: UA, force: Air Force, state: in_service, quantity: null, source: s1 }
+  - { country: CH, force: Air Force, state: ordered, quantity: null, source: s1 }
+  - { country: ES, force: Army, state: ordered, quantity: null, source: s1 }
+cost:
+  value: 5300000
+  currency: USD
+  price_year: 2027
+  basis: unit_price
+  source: s13
+  confidence: medium
+  note: "About USD 5.3M per missile in the US Army FY2027 budget request, as reported by TWZ (s13). For comparison: the FY24-26 multiyear contract (s11) is USD 9.8B for 1,970 missiles plus associated hardware, about USD 4.97M each. The Dec 2022 SAR (s4) gives an average procurement unit cost of USD 3.640M in base-year dollars."
+contracts:
+  - { customer: "United States (Army, incl. FMS)", year: 2025, quantity: 1970, value: 9800000000, currency: USD, note: "FY2024-2026 multiyear contract for missiles and associated hardware for the US and international partners; it absorbed the June 2024 undefinitized contract action.", source: s11 }
+  - { customer: "United States (Army)", year: 2026, quantity: null, value: 53860000000, currency: USD, note: "Seven-year undefinitized contract action of 29 July 2026, up to USD 53.86B in the release text (USD 58.62B in the release title). Aims to triple production capacity by the end of 2030.", source: s12 }
+peers: [samp-t-ng, s-400]
+sources:
+  - { id: s1, url: "https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/documents/pac-3/24-09790-iamd-pac-3-mse-partner-ppt--updates_r2.pdf", title: "PAC-3 MSE Overview", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.lockheedmartin.com/en-us/news/features/2025/lockheed-martins-pac-3mse-achieves-record-production-year.html", title: "Lockheed Martin's PAC-3 MSE Achieves Record Production Year", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2021_SARS/22-F-0762_PAC-3_MSE_SAR_2021.pdf", title: "PAC-3 MSE Selected Acquisition Report (SAR) 2021", publisher: "US Department of Defense", retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2022_SARS/PAC-3_MSE_SAR_DEC_2022%20corrections_CAO_2023-04-12_FINAL%20(1).pdf", title: "PAC-3 MSE Selected Acquisition Report (SAR) December 2022", publisher: "US Department of Defense", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://missilethreat.csis.org/system/patriot/", title: "Patriot | Missile Threat", publisher: "CSIS Missile Defense Project", retrieved: 2026-11-22, kind: reference }
+  - { id: s6, url: "https://www.armyrecognition.com/military-products/army/air-defense-systems/air-defense-vehicles/patriot-pac-3-mse-gem-t-air-defense-missile-system-data", title: "Patriot PAC-3 MSE GEM-T", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.strategypage.com/htmw/htada/20130618.aspx", title: "Air Defense: Patriot Gains A Longer Reach Against Missiles", publisher: "StrategyPage", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.armscontrol.org/factsheets/us-and-allied-ballistic-missile-defenses-asia-pacific-region", title: "U.S. and Allied Ballistic Missile Defenses in the Asia-Pacific Region", publisher: "Arms Control Association", retrieved: 2026-11-22, kind: reference }
+  - { id: s9, url: "https://www.missiledefenseadvocacy.org/defense-systems/patriot-advanced-capability-3-missile/", title: "Patriot Advanced Capability-3 Missile", publisher: "Missile Defense Advocacy Alliance", retrieved: 2026-11-22, kind: reference }
+  - { id: s10, url: "https://thedefensepost.com/2024/03/07/lockheed-martin-bahrain-missile/", title: "Lockheed Delivers First Bahrain PAC-3 MSE Missile Package", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://www.army.mil/article/288257/us_army_awards_9_8_billion_contract_enhancing_readiness_and_lethality", title: "US Army awards $9.8 billion contract, enhancing readiness and lethality", publisher: "U.S. Army", retrieved: 2026-11-22, kind: government }
+  - { id: s12, url: "https://news.lockheedmartin.com/2026-07-29-Department-of-War-Awards-Lockheed-Martin-58-62B-for-Multiyear-PAC-3-MSE-Production-to-Strengthen-the-Arsenal-of-Freedom", title: "Department of War Awards Lockheed Martin $58.62B for Multiyear PAC-3 MSE Production", publisher: "Lockheed Martin", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s13, url: "https://www.twz.com/land/cheap-patriot-interceptor-costing-under-1-million-now-being-sought-by-army", title: "'Cheap' Patriot Interceptor Costing Under $1 Million Now Being Sought By Army", publisher: "The War Zone", retrieved: 2026-11-22, kind: press }
+  - { id: s14, url: "https://www.rferl.org/a/ukraine-patriots-russia-shortage-us-stockpile/33823317.html", title: "Ukraine Critically Short Of Air Defenses As Questions Swirl Over US Patriot Stockpiles", publisher: "Radio Free Europe/Radio Liberty", retrieved: 2026-11-22, kind: press }

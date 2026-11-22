@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: pantsir-s1
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Bronnitsy_-_01_-_Pantsir-S1_SAM.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Bronnitsy_-_01_-_Pantsir-S1_SAM.jpg/1280px-Bronnitsy_-_01_-_Pantsir-S1_SAM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Bronnitsy - 01 - Pantsir-S1 SAM.jpg
+    caption: 96K6 Pantsir-S1 on KAMAZ-6560 chassis during a demonstration at the Bronnitsy test range, 2011.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Vitaly V. Kuzmin
+    credit: http://vitalykuzmin.net/?q=node/372
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Pantsir_S-1_Moscow_2015.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/6/6e/Pantsir_S-1_Moscow_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Pantsir S-1 Moscow 2015.jpg
+    caption: 96K6 Pantsir-S1 air defence system at the Victory Day Parade in Moscow, 2015.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Army2016demo-093.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Army2016demo-093.jpg/1280px-Army2016demo-093.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Army2016demo-093.jpg
+    caption: 96K6 Pantsir-S1 during a demonstration at the Army-2016 forum, 2016.
+    shows: exact_variant
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Vitaly V. Kuzmin
+    credit: http://www.vitalykuzmin.net/Military/ARMY-2016-Demonstration/
+    priority: A
+    retrieved: 2026-11-22
+note: "Excluded #11 (Pantsir-S2), #15 (logistics vehicle), #20 (unrelated greyhound racing), #14 (no system identified in description), and #19 (turret close-up). Picked the clearly described 96K6 Pantsir-S1 photos instead."

@@ -1,5 +1,5 @@
 {
-  "spentUsd": 87.8983,
+  "spentUsd": 101.113,
   "entries": [
     {
       "date": "2026-11-21",
@@ -1703,6 +1703,222 @@
       "usd": 0.0178,
       "input": 3127,
       "output": 265,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "ground-based-air-defence/_category",
+      "usd": 0.7791,
+      "input": 558159,
+      "output": 15053,
+      "searches": 13
+    },
+    {
+      "date": "2026-11-22",
+      "item": "ground-based-air-defence/patriot-pac-3",
+      "usd": 1.0911,
+      "input": 1101464,
+      "output": 17851,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "ground-based-air-defence/iris-t-slm",
+      "usd": 0.7199,
+      "input": 488835,
+      "output": 12139,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "ground-based-air-defence/nasams",
+      "usd": 0.6828,
+      "input": 327034,
+      "output": 13618,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "ground-based-air-defence/samp-t-ng",
+      "usd": 0.7457,
+      "input": 271544,
+      "output": 12061,
+      "searches": 10
+    },
+    {
+      "date": "2026-11-22",
+      "item": "ground-based-air-defence/s-400",
+      "usd": 0.6207,
+      "input": 391438,
+      "output": 9813,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "ground-based-air-defence/pantsir-s1",
+      "usd": 0.9267,
+      "input": 677789,
+      "output": 17251,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "ground-based-air-defence/gepard",
+      "usd": 0.6599,
+      "input": 353462,
+      "output": 10713,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "ground-based-air-defence/skyranger-30",
+      "usd": 1.0448,
+      "input": 1080023,
+      "output": 13531,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/gepard",
+      "usd": 0.0192,
+      "input": 3447,
+      "output": 271,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/iris-t-slm",
+      "usd": 0.0169,
+      "input": 2774,
+      "output": 291,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/nasams",
+      "usd": 0.0182,
+      "input": 3312,
+      "output": 247,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/pantsir-s1",
+      "usd": 0.0177,
+      "input": 2950,
+      "output": 293,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/patriot-pac-3",
+      "usd": 0.0213,
+      "input": 3863,
+      "output": 290,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/s-400",
+      "usd": 0.0159,
+      "input": 2879,
+      "output": 218,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/samp-t-ng",
+      "usd": 0.0173,
+      "input": 2939,
+      "output": 276,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/skyranger-30",
+      "usd": 0.0163,
+      "input": 2458,
+      "output": 325,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "anti-tank-guided-missile/_category",
+      "usd": 0.7898,
+      "input": 613122,
+      "output": 16658,
+      "searches": 7
+    },
+    {
+      "date": "2026-11-22",
+      "item": "anti-tank-guided-missile/javelin",
+      "usd": 0.7994,
+      "input": 445216,
+      "output": 16288,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "anti-tank-guided-missile/nlaw",
+      "usd": 0.8214,
+      "input": 531961,
+      "output": 14717,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "anti-tank-guided-missile/spike-lr2",
+      "usd": 0.7607,
+      "input": 419670,
+      "output": 12619,
+      "searches": 13
+    },
+    {
+      "date": "2026-11-22",
+      "item": "anti-tank-guided-missile/mmp",
+      "usd": 0.9484,
+      "input": 835967,
+      "output": 12920,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "anti-tank-guided-missile/kornet",
+      "usd": 0.9654,
+      "input": 920725,
+      "output": 11775,
+      "searches": 15
+    },
+    {
+      "date": "2026-11-22",
+      "item": "anti-tank-guided-missile/tow-2b",
+      "usd": 0.6832,
+      "input": 393121,
+      "output": 12125,
+      "searches": 12
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/javelin",
+      "usd": 0.012,
+      "input": 2046,
+      "output": 191,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/kornet",
+      "usd": 0.0138,
+      "input": 2343,
+      "output": 223,
+      "searches": 0
+    },
+    {
+      "date": "2026-11-22",
+      "item": "photos/mmp",
+      "usd": 0.0071,
+      "input": 1074,
+      "output": 139,
       "searches": 0
     }
   ]

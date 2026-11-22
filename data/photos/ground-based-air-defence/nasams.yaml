@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: nasams
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Hungary_NASAMS.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Hungary_NASAMS.jpg/1280px-Hungary_NASAMS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Hungary NASAMS.jpg
+    caption: NASAMS equipment on display at City Park in Budapest on Hungary's National Day, 2024.
+    shows: same_family
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: OhanaUnited Talk page
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:NASAMS_And%C3%B8ya.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/NASAMS_And%C3%B8ya.jpg/1280px-NASAMS_And%C3%B8ya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: NASAMS Andøya.jpg
+    caption: Norwegian Army NASAMS firing a missile at Andøya Space Range during exercise Formidable Shield, 2023.
+    shows: same_family
+    licence: Public domain
+    author: U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet
+    credit: https://www.dvidshub.net/image/7795424/norwegian-army-nasams-launch-during-exercise-formidable-shield-2023
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:NASAMS_II_E.T..JPG
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/NASAMS_II_E.T..JPG/1280px-NASAMS_II_E.T..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: NASAMS II E.T..JPG
+    caption: Spanish Army NASAMS II launcher vehicle, 2009.
+    shows: same_family
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Outisnn
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: No candidate clearly identifies the NASAMS 3 configuration; the picks show the NASAMS family (variant unconfirmed or NASAMS II). The AMRAAM-only images do not show the system itself and were excluded.

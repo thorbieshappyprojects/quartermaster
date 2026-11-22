@@ -1,0 +1,61 @@
+id: nasams
+category: ground-based-air-defence
+name: NASAMS 3
+variant_note: Current configuration with AMRAAM, AMRAAM-ER and AIM-9X-2 effectors and AN/MPQ-64F1 Sentinel radar
+family: NASAMS
+aliases: [National Advanced Surface-to-Air Missile System, Norwegian Advanced Surface-to-Air Missile System, NASAMS III]
+manufacturer: { name: Kongsberg Defence & Aerospace (with Raytheon) }
+production_sites:
+  - { place: Tewksbury, country: US, source: s8 }
+origin: "NO"
+role: Networked short- to medium-range ground-based air defence system against aircraft, helicopters, UAVs and cruise missiles, using air-to-air missiles fired from ground launchers.
+memorable_fact: { text: "NASAMS has protected the airspace over Washington DC around the clock since 2005.", source: s1 }
+status: in_production
+in_service_since: { value: 1995, source: s12, confidence: low, note: "Year the original NASAMS base system was fielded in Norway. Only Wikipedia gives an exact year; trade press says only 'the 1990s'. No public year found for when NASAMS 3 entered service." }
+units_built: { value: 70, source: s10, confidence: low, note: "Fire units delivered across the whole NASAMS family. The source says 'over 70', so this is a minimum. Single secondary source (blog)." }
+combat_use: { text: "Used by Ukraine since late 2022. The Norwegian Armed Forces said in February 2025 that NASAMS in Ukraine had shot down about 900 missiles and drones, an estimated 94% interception rate.", source: s9 }
+specs:
+  max_range: { value: 60, range: { min: 40, max: 60 }, source: s7, confidence: low, note: "60 km is reported for NASAMS 3, presumably with AMRAAM-ER, the longest-range interceptor; s7 attributes the figure to The Defense Post. UNITED24 (s11) gives up to 40 km for NASAMS 3. No manufacturer figure is public. The higher value is shown because the field covers the longest-range interceptor." }
+  max_altitude: { value: 21, source: s6, confidence: low, note: "Converted from 21,000 m (69,000 ft) as stated by The Defense Post. UNITED24 (s11) gives 14-15 km for NASAMS II. Higher figures for AMRAAM-ER appear only in unsourced reference entries. No manufacturer figure is public." }
+  ready_rounds: { value: 6, source: s3, confidence: high, note: "Mark II canister launcher holds six ready-to-fire missiles in any mix. A full reload takes under 30 minutes." }
+  reaction_time: { value: null, source: null, confidence: null }
+  crew: { value: null, source: null, confidence: null }
+operators:
+  - { country: "NO", force: Air Force, state: in_service, quantity: null, source: s13 }
+  - { country: US, force: Army (National Capital Region), state: in_service, quantity: null, source: s13 }
+  - { country: NL, force: Army, state: in_service, quantity: null, source: s13 }
+  - { country: ES, force: Army, state: in_service, quantity: null, source: s13 }
+  - { country: FI, force: Army, state: in_service, quantity: null, source: s4 }
+  - { country: OM, force: Armed Forces, state: in_service, quantity: null, source: s4 }
+  - { country: LT, force: Air Force, state: in_service, quantity: null, source: s4 }
+  - { country: ID, force: Air Force, state: in_service, quantity: null, source: s4 }
+  - { country: AU, force: Army, state: in_service, quantity: null, source: s4 }
+  - { country: QA, force: Armed Forces, state: in_service, quantity: null, source: s4 }
+  - { country: HU, force: Defence Forces, state: in_service, quantity: null, source: s4 }
+  - { country: UA, force: Air Force, state: in_service, quantity: null, source: s9 }
+  - { country: CL, force: Armed Forces, state: in_service, quantity: null, source: s4 }
+  - { country: TW, force: Armed Forces, state: ordered, quantity: null, source: s8 }
+  - { country: DK, force: Armed Forces, state: ordered, quantity: null, source: s14 }
+  - { country: KW, force: Armed Forces, state: ordered, quantity: null, source: s7 }
+  - { country: BE, force: Armed Forces, state: ordered, quantity: 10, source: s6 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public source gives both a contract value and the number of fire units in that contract (Belgium NOK 10 bn, Taiwan USD 698.9 M and Kuwait USD 1.02 bn contracts have no confirmed unit count), so a per-unit cost is not derived." }
+contracts:
+  - { customer: Belgium, year: 2026, quantity: null, value: 10000000000, currency: NOK, note: "Kongsberg contract for NASAMS delivery to Belgium. The Defense Post (s6) earlier reported a planned purchase of 10 fire units in cooperation with the Netherlands.", source: s5 }
+  - { customer: Kuwait, year: 2026, quantity: null, value: 1020000000, currency: USD, note: "US Army firm-fixed-price contract to Raytheon for NASAMS fire units under Foreign Military Sales; number of units not stated.", source: s7 }
+  - { customer: Taiwan, year: 2025, quantity: null, value: 698900000, currency: USD, note: "US Army Foreign Military Sales contract to Raytheon, completion expected by February 2031; number not specified, earlier FMS notices referred to six fire units.", source: s8 }
+peers: [iris-t-slm, samp-t-ng, pantsir-s1]
+sources:
+  - { id: s1, url: "https://www.kongsberg.com/what-we-do/defence-and-security/integrated-air-and-missile-defence/nasams-air-defence-system/", title: "NASAMS Air Defence System", publisher: Kongsberg, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.kongsberg.com/globalassets/kongsberg/1.-what-we-do/1.-defence-and-security/intergrated-air-and-missile-defence/nasams-air-defence-system/nasams_brochure_2026.pdf", title: "NASAMS National Advanced Surface-to-Air Missile System (brochure 2026/02)", publisher: Kongsberg Defence & Aerospace, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.kongsberg.com/globalassets/kongsberg/1.-what-we-do/1.-defence-and-security/intergrated-air-and-missile-defence/nasams-air-defence-system/nasams-multi-missile-launcher/nasams_cl_brochure_2026.pdf", title: "NASAMS Mark II Canister Launcher / Multi-Missile Launcher (brochure 2026/02)", publisher: Kongsberg Defence & Aerospace, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/nasams", title: "NASAMS | Raytheon", publisher: RTX Raytheon, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s5, url: "https://www.kongsberg.com/news/news-archive/2026/belgium-orders-nasams-air-defence-system-from-kongsberg/", title: "Belgium orders NASAMS air defence system from KONGSBERG", publisher: Kongsberg, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s6, url: "https://thedefensepost.com/2026/07/09/belgium-nasams-kongsberg/", title: "Belgium to Order 10 NASAMS Air Defense Systems From Kongsberg", publisher: The Defense Post, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.executivebiz.com/articles/raytheon-army-contract-nasams-fire-unit", title: "Raytheon Secures $1.02B Army Contract for NASAMS Requirement", publisher: ExecutiveBiz, retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://defence-blog.com/raytheon-to-build-nasams-air-defense-systems-for-taiwan/", title: "Raytheon to build NASAMS air defense systems for Taiwan", publisher: Defence Blog, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/western-supplied-nasams-air-defense-system-shoots-down-11-russian-missiles-in-two-minutes-during-massive-air-attack-against-ukraine", title: "Western-supplied NASAMS air defense system shoots down 11 Russian missiles in two minutes during massive air attack against Ukraine", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://norskluftvern.com/2025/07/25/nasams-vs-fsad-current-system-vs-future-framework/", title: "NASAMS vs FSAD: Current System vs Future Framework", publisher: Norsk Luftvern (blog), retrieved: 2026-11-22, kind: other }
+  - { id: s11, url: "https://united24media.com/latest-news/ukraine-to-produce-nasams-missiles-as-norways-kongsberg-sets-up-joint-venture-6315", title: "Ukraine to Produce NASAMS Missiles as Norway's Kongsberg Sets Up Joint Venture", publisher: UNITED24 Media, retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://en.wikipedia.org/wiki/SLAMRAAM", title: "SLAMRAAM", publisher: Wikipedia, retrieved: 2026-11-22, kind: reference }
+  - { id: s13, url: "https://www.airforce-technology.com/projects/nasams-defence-system-norway/", title: "Nasams Defence System Norway", publisher: Airforce Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s14, url: "https://www.kongsberg.com/news/news-archive/2025/denmark-acquires-nasams-air-defence-from-kongsberg/", title: "Denmark acquires NASAMS air defence from KONGSBERG", publisher: Kongsberg, retrieved: 2026-11-22, kind: manufacturer }

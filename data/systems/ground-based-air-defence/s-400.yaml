@@ -1,0 +1,81 @@
+id: s-400
+category: ground-based-air-defence
+name: "S-400 Triumf"
+variant_note: "Russian service standard (48N6-series and 40N6 interceptors); export model S-400E"
+family: "S-300/S-400"
+aliases: ["SA-21 Growler", "S-300PM3", "S-400 Sudarshan"]
+manufacturer: { name: "Almaz-Antey" }
+production_sites:
+  - { place: "Nizhny Novgorod", country: RU, source: s4 }
+origin: RU
+role: "Mobile long-range surface-to-air missile system for engaging aircraft, cruise missiles and tactical ballistic missiles with several interceptor types."
+memorable_fact: { text: "Turkey became the first NATO member state to buy the Russian S-400, with launcher deliveries starting on 12 July 2019.", source: s6 }
+status: in_production
+in_service_since:
+  value: 2007
+  source: s1
+  confidence: medium
+  note: "Base system. TASS: accepted into service 28 April 2007; first battalion took up combat duty at Elektrostal (Moscow Region) on 6 August 2007. CSIS also gives 2007 (s2)."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public production total found. TASS cites public sources giving 19 regiments, 38 battalions and 304 launchers in Russian service as of April 2017 (s1). That is a snapshot of Russian holdings, not a production total."
+combat_use:
+  text: "Deployed by Russia in the war against Ukraine. Ukraine's General Staff reported that drones destroyed S-400 launchers and their missiles in Russia's Belgorod region."
+  source: s9
+specs:
+  max_range:
+    value: 400
+    range: { min: 250, max: 400 }
+    source: s2
+    confidence: medium
+    note: "400 km applies to the 40N6 missile and 250 km to the 48N6 series (CSIS). Army Recognition also gives 400 km (s3). The TASS factsheet gives 3-250 km against aerodynamic targets and 5-60 km against tactical ballistic missiles (s1). No manufacturer figure found. The longest-range interceptor figure is shown."
+  max_altitude:
+    value: 30
+    range: { min: 27, max: 30 }
+    source: s3
+    confidence: medium
+    note: "Army Recognition: up to 30 km. TASS factsheet: 2-27 km (s1). 30 km is shown to match the 400 km configuration. No manufacturer figure found."
+  ready_rounds:
+    value: 4
+    source: s3
+    confidence: medium
+    note: "Four missile containers per TEL, each holding one 48N6E or four 9M96 missiles, so up to 16 9M96-class rounds per launcher."
+  reaction_time:
+    value: null
+    source: null
+    confidence: null
+    note: "No public reaction-time figure found. TASS gives 5-10 min to deploy from march and 3 min to combat readiness from the deployed position (s1). Those are not reaction time."
+  crew:
+    value: null
+    source: null
+    confidence: null
+operators:
+  - { country: RU, force: "Aerospace Forces", state: in_service, quantity: null, source: s1 }
+  - { country: CN, force: "People's Liberation Army", state: in_service, quantity: null, source: s5 }
+  - { country: TR, force: "Turkish Armed Forces", state: in_service, quantity: null, source: s10 }
+  - { country: IN, force: "Air Force", state: in_service, quantity: 4, source: s8 }
+cost:
+  value: 1086000000
+  currency: USD
+  price_year: 2018
+  basis: contract_per_unit
+  source: s8
+  confidence: medium
+  note: "India's October 2018 contract: USD 5.43 billion for five S-400 squadrons, i.e. per squadron (regiment-level fire unit), including whatever the package contains. The Turkish contract (USD 2.5 billion) is not used because reported quantities conflict."
+contracts:
+  - { customer: "India / Air Force", year: 2018, quantity: 5, value: 5430000000, currency: USD, note: "Five squadrons. Four delivered by October 2026, fifth expected November 2026. Five more squadrons approved by India's Defence Acquisition Council in March 2026 but not yet contracted.", source: s8 }
+  - { customer: "Turkey", year: 2017, quantity: null, value: 2500000000, currency: USD, note: "Signed 12 September 2017. OSW: four batteries. TASS: one regiment set (two battalions). Deliveries began July 2019.", source: s7 }
+peers: [patriot-pac-3, samp-t-ng]
+sources:
+  - { id: s1, url: "https://tass.com/defense/1024655", title: "Russia's formidable S-400 Triumf air defense missile system", publisher: "TASS", retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://missilethreat.csis.org/defsys/s-400-triumf/", title: "S-400 Triumf | Missile Threat", publisher: "CSIS Missile Defense Project", retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://www.armyrecognition.com/military-products/army/air-defense-systems/air-defense-vehicles/s-400-russia-uk", title: "S-400 Triumf Triumph SA-21 Growler 5P85TE2", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "http://en.kremlin.ru/events/president/news/51592", title: "Visit to Nizhny Novgorod 70th Anniversary of Victory Plant", publisher: "President of Russia", retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://tass.com/defense/997447", title: "Guardian of the sky: Russia's advanced S-400 air defense system", publisher: "TASS", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://tass.com/defense/1192793", title: "Russia signs contract with Turkey on 2nd batch of S-400 air defense systems", publisher: "TASS", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.osw.waw.pl/en/publikacje/osw-commentary/2019-06-12/s-400-turkey-crisis-turkish-american-relations-escalates", title: "The S-400 for Turkey. The crisis in Turkish-American relations escalates", publisher: "Centre for Eastern Studies (OSW)", retrieved: 2026-11-22, kind: reference }
+  - { id: s8, url: "https://idrw.org/final-s-400-squadron-india-november-delivery/", title: "Final S-400 Squadron Could Arrive in India Next Month", publisher: "idrw.org", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://militarnyi.com/en/news/ukrainian-drones-destroyed-two-s-400-launchers-in-belgorod-region/", title: "Ukrainian Drones Destroyed Two S-400 Launchers in Belgorod Region", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://missilethreat.csis.org/turkey-tests-s-400-air-defense-system/", title: "Turkey Tests S-400 Air Defense System", publisher: "CSIS Missile Defense Project", retrieved: 2026-11-22, kind: reference }

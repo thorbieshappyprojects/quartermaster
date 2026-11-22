@@ -1,0 +1,52 @@
+id: iris-t-slm
+category: ground-based-air-defence
+name: IRIS-T SLM
+variant_note: Ground-launched fire unit with IRIS-T SLM interceptor
+family: IRIS-T SL
+aliases: ["IRIS-T Surface Launched Medium Range", "Saqr (Egyptian display name)"]
+manufacturer: { name: Diehl Defence }
+origin: DE
+role: Medium-range ground-based air defence system against aircraft, helicopters, cruise missiles and drones.
+memorable_fact: { text: "Germany's 2023 order for six IRIS-T SLM fire units marked the start of the European Sky Shield Initiative (ESSI).", source: s2 }
+status: in_production
+in_service_since: { value: 2022, source: s4, confidence: medium, note: "First confirmed operational service of the system, with Ukraine (combat use since October 2022). Egypt reportedly received systems from late 2021, but Diehl has not confirmed the customer. Germany reached initial capability in 2024." }
+units_built: { value: null, source: null, confidence: null, note: "No public total production figure found." }
+combat_use: { text: "Used by Ukraine since 2022, mainly against Russian cruise missiles and drones; the German Aid to Ukraine tracking project estimates an average interception rate of around 95%.", source: s5 }
+specs:
+  max_range: { value: 40, source: s1, confidence: high, note: "Interceptor range 40 km; Diehl also states a 60 km 'effective system range'." }
+  max_altitude: { value: 20, source: s1, confidence: high }
+  ready_rounds: { value: 8, source: s1, confidence: high, note: "Eight missiles per launcher; a fire unit can have up to 8 launchers." }
+  reaction_time: { value: null, source: null, confidence: null }
+  crew: { value: null, source: null, confidence: null, note: "No public per-launcher crew figure found; Diehl states fewer than 30 operators for a complete fire unit." }
+operators:
+  - { country: UA, force: Air Force, state: in_service, quantity: 11, source: s5 }
+  - { country: EG, force: Armed Forces, state: in_service, quantity: null, source: s6 }
+  - { country: DE, force: Air Force, state: in_service, quantity: 6, source: s2 }
+  - { country: EE, force: Defence Forces, state: in_service, quantity: 3, source: s7 }
+  - { country: LV, force: National Armed Forces, state: ordered, quantity: null, source: s9 }
+  - { country: SI, force: Slovenian Armed Forces, state: ordered, quantity: 3, source: s4 }
+  - { country: BG, force: Armed Forces, state: ordered, quantity: 1, source: s10 }
+  - { country: SE, force: Army, state: ordered, quantity: 7, source: s11 }
+  - { country: CH, force: Armed Forces, state: ordered, quantity: 5, source: s3 }
+  - { country: DK, force: Armed Forces, state: ordered, quantity: null, source: s13 }
+cost: { value: 182000000, currency: EUR, price_year: 2024, basis: contract_per_unit, source: s10, confidence: medium, range: { min: 180600000, max: 182100000 }, note: "Bulgaria's 2024 contract for one fire unit, excluding VAT (Army Recognition: EUR 182m). A secondary aggregator (s4) gives EUR 182.1m, revised to EUR 180.6m in October 2026. The displayed value follows the trade-press figure tied to the parliamentary ratification." }
+contracts:
+  - { customer: Germany (BAAINBw), year: 2023, quantity: 6, value: null, currency: null, note: "Contract signed 22 June 2023; first fire unit due 2024; start of ESSI procurement. Value not stated by Diehl.", source: s2 }
+  - { customer: Estonia (ECDI), year: 2023, quantity: 3, value: 400000000, currency: EUR, note: "Joint procurement with Latvia; nearly EUR 400m, the largest single defence contract in Estonian history. Three fire units per Estonian MoD (s7).", source: s8 }
+  - { customer: Sweden (FMV), year: 2025, quantity: 7, value: 9000000000, currency: SEK, note: "Seven fire units under ESSI, worth around SEK 9bn.", source: s12 }
+  - { customer: Switzerland (armasuisse), year: 2025, quantity: 5, value: 500000000, currency: CHF, note: "Signed 22 July 2025 under ESSI; about CHF 500m including logistics vehicles and spare parts; deliveries from end-2028 to 2031.", source: s3 }
+peers: [nasams, samp-t-ng, pantsir-s1]
+sources:
+  - { id: s1, url: "https://new.diehl.com/defence/en/products/air-defence-systems/iris-t-slm", title: "IRIS-T SLM | Diehl Defence", publisher: Diehl Defence, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://new.diehl.com/defence/en/press-media/news/germany-procures-six-iris-t-slm-fire-units", title: "Germany procures six IRIS-T SLM fire units", publisher: Diehl Defence, retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.ar.admin.ch/en/newnsb/ZjsNYPpgoETj", title: "GBAD MR: Contract on cooperative procurement for medium-range ground-based air defence signed", publisher: Swiss Armed Forces / Federal Administration, retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.grosswald.org/grosswald-systems-iris-t-slm-surface-to-air-missile-systems/", title: "IRIS-T SLM: Range, Specs, Operators & Combat Record (2026)", publisher: Grosswald, retrieved: 2026-11-22, kind: other }
+  - { id: s5, url: "https://militarnyi.com/en/news/ukraine-receives-11th-iris-t-slm-system/", title: "Ukraine Receives 11th IRIS-T SLM System", publisher: Militarnyi, retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.janes.com/defence-intelligence-insights/defence-news/land/egypt-displays-iris-t-sl-system-for-first-time", title: "Egypt displays IRIS-T SL system for first time", publisher: Janes, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://mil.ee/en/news/medium-range-air-defence-missile-systems-iris-t-slm-arrive-in-the-estonian-air-force/", title: "Medium-Range Air Defence Missile Systems IRIS-T SLM Arrive in the Estonian Air Force", publisher: Estonian Defence Forces, retrieved: 2026-11-22, kind: government }
+  - { id: s8, url: "https://news.err.ee/1609096988/estonia-inks-contract-to-buy-iris-t-medium-range-air-defense-systems", title: "Estonia inks contract to buy IRIS-T medium-range air defense systems", publisher: ERR News, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.airforce-technology.com/news/estonia-iris-t-slm-delivery/", title: "Estonia receives first IRIS-T SLM defence system from Diehl Defence", publisher: Airforce Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/bulgaria-purchases-german-iris-t-slm-air-defense-system", title: "Bulgaria purchases German IRIS-T SLM air defense system", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s11, url: "https://www.janes.com/osint-insights/defence-news/industry/sweden-procures-iris-t-slm", title: "Sweden procures IRIS-T SLM", publisher: Janes, retrieved: 2026-11-22, kind: press }
+  - { id: s12, url: "https://www.armyrecognition.com/archives/archives-land-defense/defense-news-army-2025/sweden-invests-in-iris-t-sls-air-defence-system-to-reshape-security-in-northern-europe", title: "Sweden invests in IRIS-T SLS air defence system to reshape security in Northern Europe", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s13, url: "https://new.diehl.com/defence/en/press-media/news/denmark-procures-iris-t-slm", title: "Denmark procures IRIS-T SLM", publisher: Diehl Defence, retrieved: 2026-11-22, kind: manufacturer }

@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: gepard
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Gepard_1a2_sideview.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Gepard_1a2_sideview.jpg/1280px-Gepard_1a2_sideview.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Gepard 1a2 sideview.jpg
+    caption: Side view of a Gepard 1A2 anti-aircraft gun tank, 2008.
+    shows: exact_variant
+    licence: CC BY-SA 2.0 de
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
+    author: Hans-Hermann Bühling
+    credit: http://data3.primeportal.net/tanks/hans-hermann_buhling/gepard_1a2/images/gepard_1a2_02_of_77.jpg
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Flugabwehrkanonenpanzer_Gepard_Heer.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Flugabwehrkanonenpanzer_Gepard_Heer.jpg/1280px-Flugabwehrkanonenpanzer_Gepard_Heer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Flugabwehrkanonenpanzer Gepard Heer.jpg
+    caption: Bundeswehr Flakpanzer Gepard 1A2 during rehearsals for an army demonstration exercise at the Munster training centre, 2010.
+    shows: exact_variant
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    author: Bundeswehr-Fotos
+    credit: originally posted to Flickr as Informationslehrübung Heer
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Gepard_1a2_overview.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Gepard_1a2_overview.jpg/1280px-Gepard_1a2_overview.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Gepard 1a2 overview.jpg
+    caption: Overview of a Gepard 1A2 anti-aircraft gun tank with radar and twin 35 mm guns on a Leopard chassis, 2008.
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: http://creativecommons.org/licenses/by-sa/3.0/
+    author: Hans-Hermann Bühling
+    credit: http://data3.primeportal.net/tanks/hans-hermann_buhling/gepard_1a2/images/gepard_1a2_01_of_77.jpg
+    priority: A
+    retrieved: 2026-11-22
+note: Picked files that explicitly name the 1A2 standard. The component close-ups (engine, weapons, radar) and the generic Gepard photos that do not name the variant were left out.

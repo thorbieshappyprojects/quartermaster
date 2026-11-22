@@ -1,0 +1,10 @@
+id: anti-tank-guided-missile
+name: Anti-tank guided missiles
+domain: Missiles
+wave: 2
+indicators:
+  - { id: max_range, label: Max. range, unit: km, trump: higher_wins, decimals: 1 }
+  - { id: min_range, label: Min. range, unit: m, trump: lower_wins }
+  - { id: penetration, label: "Penetration (RHA, behind ERA where stated)", unit: mm, trump: higher_wins }
+  - { id: missile_weight, label: Missile weight (in tube), unit: kg, trump: lower_wins, decimals: 1 }
+  - { id: flight_time_max, label: Flight time to max. range, unit: s, trump: lower_wins, decimals: 1 }

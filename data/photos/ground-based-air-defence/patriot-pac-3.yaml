@@ -1,0 +1,37 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: patriot-pac-3
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Patriot_PAC-3_MSE_SIAF-2022.jpg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/7/76/Patriot_PAC-3_MSE_SIAF-2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: Patriot PAC-3 MSE SIAF-2022.jpg
+    caption: U.S. Army Patriot M903 launching station with PAC-3 and PAC-3 MSE canisters on static display at Slovak International Airfest, Malacky Air Base, 2022
+    shows: exact_variant
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:PAC-3_MSE_interceptor_missile_-_MSPO_2026,_Poland,_Kielce.jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/PAC-3_MSE_interceptor_missile_-_MSPO_2026%2C_Poland%2C_Kielce.jpg/1280px-PAC-3_MSE_interceptor_missile_-_MSPO_2026%2C_Poland%2C_Kielce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: PAC-3 MSE interceptor missile - MSPO 2026, Poland, Kielce.jpg
+    caption: PAC-3 MSE interceptor missile exhibit at the MSPO 2026 defence exhibition in Kielce, Poland
+    shows: exact_variant
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    author: Krzysztof Popławski
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:MIM-104_Patriot_LS_Fassberg-2019.JPG
+    image_url: https://upload.wikimedia.org/wikipedia/commons/3/31/MIM-104_Patriot_LS_Fassberg-2019.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: MIM-104 Patriot LS Fassberg-2019.JPG
+    caption: German Air Force M901 Patriot launching station with four PAC-2 canisters at German Forces Day Fassberg, 2019
+    shows: same_family
+    licence: CC BY-SA 3.0 de
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+    author: Boevaya mashina
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: "Only #1 and #9 explicitly show PAC-3 MSE; #24 added as a clear same-family launcher photo. Odakyu MSE train and statistics files are unrelated."

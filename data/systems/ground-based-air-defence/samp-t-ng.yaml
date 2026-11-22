@@ -1,0 +1,76 @@
+id: samp-t-ng
+category: ground-based-air-defence
+name: "SAMP/T NG"
+variant_note: "New Generation system with Aster 30 B1/B1NT; GF300 radar (FR/DK) or Kronos Grand Mobile HP radar (IT)"
+family: "SAMP/T"
+aliases: ["SAMP/T New Generation", "ASTER SAMP/T NG"]
+manufacturer: { name: "Eurosam (MBDA France, MBDA Italy, Thales)" }
+origin: FR
+role: "Mobile long-range surface-to-air system protecting forces and sites against aircraft, cruise missiles and theatre ballistic missiles, using Aster 30 interceptors."
+memorable_fact: { text: "In September 2025 Denmark chose SAMP/T NG over the US Patriot for its long-range air defence, and it became the system's first export customer.", source: s9 }
+status: in_production
+in_service_since:
+  value: 2026
+  source: s3
+  confidence: medium
+  note: "Year of first delivery of this variant: the Italian Army received its first SAMP/T NG in January 2026, and France's first system went to the CEAM air warfare centre in April 2026 (s6). Both deliveries were for operational evaluation; Army Recognition reported that France expects formal entry into service in 2027. The co-developer is Italy; origin is given as FR for the Franco-Italian programme."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public production total found. Firm orders found: France 12, Italy 10, Denmark 4 systems."
+combat_use: { text: "No confirmed combat use as of 2026. Ukraine announced plans to combat-test SAMP/T NG against Russian ballistic missiles in 2026; the earlier SAMP/T (Mamba) has been used in Ukraine.", source: s8 }
+specs:
+  max_range:
+    value: 150
+    source: s1
+    confidence: high
+    note: "MBDA datasheet: up to 150 km against aircraft with Aster 30 (B1NT). Eurosam and Defense News quote an intercept range of more than 150 km against air-breathing targets."
+  max_altitude:
+    value: null
+    source: null
+    confidence: null
+    note: "Eurosam says Aster B1NT reaches a higher altitude than earlier Aster 30 but gives no figure. The 25 km class figure appears only in unsourced secondary references, so it is not used."
+  ready_rounds:
+    value: 8
+    source: s1
+    confidence: high
+    note: "8 ready-to-fire Aster 30 missiles per vertical launcher; up to 6 launchers (48 missiles) per system. Each launcher fires its 8 missiles in about 10 s."
+  reaction_time:
+    value: null
+    source: null
+    confidence: null
+    note: "MBDA states 'extremely quick response times' without giving a figure."
+  crew:
+    value: 3
+    source: s1
+    confidence: high
+    note: "MBDA: three people operate the system (engagement/fire-control module). Defense News reports that a full battery typically needs about 20 personnel (s4)."
+operators:
+  - { country: IT, force: "Italian Army and Italian Air Force", state: in_service, quantity: 10, source: s3 }
+  - { country: FR, force: "French Air and Space Force", state: ordered, quantity: 12, source: s6 }
+  - { country: DK, force: "Danish Armed Forces", state: ordered, quantity: 4, source: s5 }
+cost:
+  value: 367500000
+  currency: EUR
+  price_year: 2026
+  basis: contract_per_unit
+  source: s5
+  confidence: medium
+  note: "Denmark's EUR 1.47 billion Eurosam contract (2026) for four SAMP/T NG systems, including missiles, training and support, divided by 4. France's September 2024 order for seven systems was put at about EUR 500 million by a press estimate (s7); that contract has a different scope, so it is not used here."
+contracts:
+  - { customer: "France (Air and Space Force), via OCCAR", year: 2024, quantity: 7, value: 500000000, currency: EUR, note: "Serial-production order that brought France to 8 systems; the value is a press estimate, not an official figure.", source: s7 }
+  - { customer: "Italy (Italian Army), via OCCAR", year: 2024, quantity: 4, value: null, currency: null, note: "February 2024 amendment to the FSAF-PAAMS framework contract; it also covered upgraded Aster missiles.", source: s4 }
+  - { customer: "Denmark", year: 2026, quantity: 4, value: 1470000000, currency: EUR, note: "First export contract; includes missiles, training and support; deliveries from 2028.", source: s5 }
+  - { customer: "France (Air and Space Force), via OCCAR", year: 2026, quantity: 4, value: null, currency: null, note: "October 2026 order for 4 additional firing units in the multi-layer ASTER/MICA VL configuration, bringing France to 12; value not published.", source: s2 }
+peers: [patriot-pac-3, s-400, iris-t-slm]
+sources:
+  - { id: s1, url: "https://www.mbda-systems.com/sites/mbda/files/2024-08/2023%20ASTER%20SAMPT%20NG%20datasheet_0.pdf", title: "ASTER SAMP/T NG Medium Range Surface-to-Air Missile (datasheet)", publisher: "MBDA", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://eurosam.com/france-orders-4-additional-firing-units-samp-t-ng-air-and-missile-defence-system/", title: "France orders Four (4) additional firing units of SAMP/T NG air and missile defence system", publisher: "Eurosam", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://www.defensenews.com/global/europe/2026/04/21/denmark-to-receive-first-sampt-ng-air-defense-system-in-2028/", title: "Denmark to receive first SAMP/T NG air-defense system in 2028", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.defensenews.com/global/europe/2024/02/02/italy-orders-four-sampt-new-generation-air-defense-systems/", title: "Italy orders four SAMP/T new-generation air defense systems", publisher: "Defense News", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.defencenordic.com/article/view/1223077/denmark_awards_air_defence_deal_worth_147_billion_euro", title: "Denmark awards air defence deal worth 1.47 billion euro", publisher: "Defence Nordic", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.armyrecognition.com/news/army-news/2026/france-orders-four-additional-samp-t-ng-systems-to-strengthen-its-air-defenses", title: "France Orders Four Additional SAMP/T NG Systems to Strengthen Its Air Defenses", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://militarnyi.com/en/news/france-orders-seven-additional-samp-t-ng-air-defense-systems/", title: "France orders seven additional SAMP/T NG air defense systems", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.armyrecognition.com/news/army-news/2026/ukraine-to-combat-test-samp-t-ng-air-defense-against-russian-ballistic-missiles-in-2026", title: "Ukraine to Combat-Test SAMP/T NG Air Defense Against Russian Ballistic Missiles in 2026", publisher: "Army Recognition", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://www.defensenews.com/global/europe/2025/09/12/denmark-picks-french-italian-sampt-air-defense-system-over-patriot/", title: "Denmark picks French-Italian SAMP/T air defense system over Patriot", publisher: "Defense News", retrieved: 2026-11-22, kind: press }

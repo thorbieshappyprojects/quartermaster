@@ -1,0 +1,36 @@
+# Openly licensed photos (Wikimedia Commons), selected 2026-11-22. Attribution is shown with each photo.
+id: samp-t-ng
+photos:
+  - page_url: https://commons.wikimedia.org/wiki/File:Syst%C3%A8me_SAMP-T_(14_juillet_2021)_(1).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Syst%C3%A8me_SAMP-T_%2814_juillet_2021%29_%281%29.jpg/1280px-Syst%C3%A8me_SAMP-T_%2814_juillet_2021%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Système SAMP-T (14 juillet 2021) (1).jpg
+    caption: Truck carrying a SAMP/T surface-to-air missile system after the Bastille Day parade in Paris, 14 July 2021.
+    shows: same_family
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Kevin.B
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:SAMP-T_launcher_Italian_Army_Ali_Al_Salem_Airbase,_Kuwait_(2).webp
+    image_url: https://upload.wikimedia.org/wikipedia/commons/3/30/SAMP-T_launcher_Italian_Army_Ali_Al_Salem_Airbase%2C_Kuwait_%282%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    title: SAMP-T launcher Italian Army Ali Al Salem Airbase, Kuwait (2).webp
+    caption: Italian Army SAMP/T launcher at Ali Al Salem Air Base, Kuwait, 2023.
+    shows: same_family
+    licence: Public domain
+    author: Tech. Sgt. Isaac Garden
+    credit: https://www.dvidshub.net/image/7848269/us-airmen-visit-italian-samp-t-site
+    priority: A
+    retrieved: 2026-11-22
+  - page_url: https://commons.wikimedia.org/wiki/File:Syst%C3%A8me_SAMP-T_(14_juillet_2021)_(2).jpg
+    image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Syst%C3%A8me_SAMP-T_%2814_juillet_2021%29_%282%29.jpg/1280px-Syst%C3%A8me_SAMP-T_%2814_juillet_2021%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    title: Système SAMP-T (14 juillet 2021) (2).jpg
+    caption: SAMP/T surface-to-air missile system truck seen after the Bastille Day parade, 14 July 2021.
+    shows: same_family
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    author: Kevin.B
+    credit: Own work
+    priority: A
+    retrieved: 2026-11-22
+note: No candidate clearly shows the SAMP/T NG variant. The picks show the earlier SAMP/T system of the same family. Aster missile photos showing naval launches or static displays were excluded, as were the unrelated 'Muy Muy' files.

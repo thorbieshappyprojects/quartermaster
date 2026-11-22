@@ -1,0 +1,10 @@
+id: ground-based-air-defence
+name: Ground-based air defence
+domain: Air defence
+wave: 2
+indicators:
+  - { id: max_range, label: Max. engagement range, unit: km, trump: higher_wins, decimals: 1, description: "Longest-range interceptor or gun of the system, against aircraft." }
+  - { id: max_altitude, label: Max. engagement altitude, unit: km, trump: higher_wins, decimals: 1 }
+  - { id: ready_rounds, label: Ready-to-fire missiles per launcher, unit: "", trump: higher_wins, description: Missiles on one launcher vehicle; null for gun-only systems. }
+  - { id: reaction_time, label: Reaction time, unit: s, trump: lower_wins, decimals: 1 }
+  - { id: crew, label: Crew (launcher or fire unit vehicle), unit: "", trump: lower_wins }

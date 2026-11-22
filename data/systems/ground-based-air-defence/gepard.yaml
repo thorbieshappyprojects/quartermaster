@@ -1,0 +1,50 @@
+id: gepard
+category: ground-based-air-defence
+name: Gepard 1A2
+variant_note: "German post-Cold War life-extension standard (FlakPz 1A2), as exported ex-Bundeswehr to Brazil, Qatar, Romania and Ukraine"
+family: Gepard
+aliases: [Flakpanzer Gepard, Flugabwehrkanonenpanzer Gepard, FlakPz Gepard 1A2, Cheetah]
+manufacturer: { name: "Krauss-Maffei Wegmann (now KNDS Deutschland)" }
+production_sites:
+  - { place: Munich, country: DE, source: s10 }
+origin: DE
+role: "Tracked self-propelled anti-aircraft gun on a Leopard 1 chassis with twin 35 mm cannons and onboard search and tracking radars, for short-range air defence of ground forces."
+memorable_fact: { text: "Germany took the Gepard out of Bundeswehr service in 2010, then sent units from industry stocks to Ukraine in 2022, where it became known as one of the most effective drone killers.", source: s6 }
+status: in_service
+in_service_since: { value: 1976, source: s5, confidence: high, note: "Year the first Gepard (base system) was handed over to the Bundeswehr. The 1A2 version came later, as an upgrade after the end of the Cold War; the sources found give no exact service-entry year for the 1A2 itself." }
+units_built: { value: 570, source: s3, confidence: low, note: "Total Gepard family production by KMW as general contractor (all variants, including Dutch and Belgian vehicles). 1A2 vehicles were converted from existing German Gepards, not newly built; no publicly sourced count of 1A2 conversions was found." }
+combat_use: { text: "Ukraine has used the Gepard since mid-2022 against Russian drones and other aerial threats, and it has been widely called one of Ukraine's most effective counter-drone systems.", source: s6 }
+specs:
+  max_range: { value: 5.5, source: s1, confidence: medium, range: { min: 4, max: 5.5 }, note: "Displayed value is the maximum firing range of the 35 mm cannons with FAPDS ammunition (Army Recognition). GlobalSecurity gives a firing range of up to 4 km. No manufacturer figure was found." }
+  max_altitude: { value: 3, source: s3, confidence: low, note: "From a single secondary source, which states targets can be engaged at altitudes up to 3 km." }
+  ready_rounds: { value: null, source: null, confidence: null, note: "Gun-only system with no missiles. Each 35 mm gun carries 320 ready anti-air rounds plus 20 anti-ground rounds (Army Technology); Army Recognition gives 310 anti-air rounds per gun." }
+  reaction_time: { value: null, source: null, confidence: null }
+  crew: { value: 3, source: s2, confidence: medium, note: "Commander, gunner and driver; Army Recognition (s1) gives the same figure." }
+operators:
+  - { country: UA, force: Armed Forces of Ukraine, state: in_service, quantity: 55, source: s6 }
+  - { country: BR, force: Army, state: in_service, quantity: 34, source: s7 }
+  - { country: RO, force: Land Forces, state: in_service, quantity: 36, source: s10 }
+  - { country: QA, force: Qatar Armed Forces, state: in_service, quantity: 15, source: s9 }
+  - { country: DE, force: Army (Heeresflugabwehrtruppe), state: retired, quantity: null, source: s5 }
+  - { country: CL, force: Army, state: retired, quantity: 30, source: s12 }
+  - { country: JO, force: Army, state: retired, quantity: 60, source: s4 }
+  - { country: NL, force: Army, state: retired, quantity: null, source: s2 }
+  - { country: BE, force: Army, state: retired, quantity: null, source: s2 }
+cost: { value: 1.0, currency: EUR, price_year: 2013, basis: contract_per_unit, source: s3, confidence: low, note: "Value in millions of EUR. Brazilian Army contract signed April 2013 for ex-Bundeswehr Gepard 1A2: estimated EUR 37 million / 37 vehicles. The package also covered spare-parts vehicles and containers, tools, three simulators and about 540,000 rounds of 35 mm ammunition. Some sources say Brazil got 34 operational vehicles plus 3 for spare parts; dividing by 34 instead would give about EUR 1.09 million." }
+contracts:
+  - { customer: "Ukraine (German military aid)", year: 2022, quantity: 55, value: null, currency: null, note: "Germany approved Gepards from industry stocks in April 2022; the first 15 arrived in July 2022, and at least 55 had been delivered by 2026.", source: s6 }
+  - { customer: Brazil Army, year: 2013, quantity: 37, value: 37000000, currency: EUR, note: "Ex-Bundeswehr Gepard 1A2 with training, simulators, spares and ammunition. Value is an estimate. Reported quantities range from 34 to 37, depending on whether spare-parts vehicles are counted.", source: s3 }
+  - { customer: Romania Land Forces, year: 2004, quantity: 43, value: null, currency: null, note: "Surplus German Gepards given to Romania; first delivered November 2004. KMW refurbished 36 for service, and 7 were kept for spare parts (s10).", source: s2 }
+  - { customer: Qatar, year: 2020, quantity: 15, value: null, currency: null, note: "German export approval in December 2020; the vehicles were to protect the 2022 FIFA World Cup against drone threats.", source: s9 }
+peers: [skyranger-30, pantsir-s1]
+sources:
+  - { id: s1, url: "https://www.armyrecognition.com/military-products/army/air-defense-systems/self-propelled-anti-aircraft-guns/gepard-cheetah-35mm-self-propelled-anti-aircraft-cannon-tracked-armored-data", title: "Gepard - Cheetah SPAAG", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s2, url: "https://www.army-technology.com/projects/gepard/", title: "Gepard Mobile Air Defence System - Army Technology", publisher: Army Technology, retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.globalsecurity.org/military/world/europe/gepard.htm", title: "Flugabwehrkanonenpanzer Gepard", publisher: GlobalSecurity.org, retrieved: 2026-11-22, kind: reference }
+  - { id: s4, url: "https://armyrecognition.com/news/army-news/army-news-2023/us-purchase-for-118-mn-60-dutch-gepard-systems-sold-to-jordan-for-21-mn", title: "US purchases for $118 Mn 60 Dutch Gepard tanks sold to Jordan for €21 Mn", publisher: Army Recognition, retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.bundeswehr.de/de/meldungen/flugabwehrkanonenpanzer-gepard-5400072", title: "Der Flugabwehrkanonenpanzer Gepard", publisher: Bundeswehr, retrieved: 2026-11-22, kind: government }
+  - { id: s6, url: "https://www.euronews.com/2026/04/17/four-years-of-gepard-in-ukraine-how-the-german-vintage-weapon-is-proving-its-worth", title: "Four years of Gepard in Ukraine: How the vintage German weapon is proving its worth", publisher: Euronews, retrieved: 2026-11-22, kind: press }
+  - { id: s7, url: "https://www.thelocal.de/20130412/49087/", title: "Brazil to buy German anti-aircraft tanks", publisher: The Local Germany, retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://militaryleak.com/2020/12/09/germany-approves-sale-of-15-gepard-self-propelled-anti-aircraft-gun-to-qatar/", title: "Germany Approves Sale of 15 Gepard Self-Propelled Anti-Aircraft Gun to Qatar", publisher: MilitaryLeak, retrieved: 2026-11-22, kind: press }
+  - { id: s10, url: "https://www.armedconflicts.com/Flakpanzer-I-Gepard-t12983", title: "Flakpanzer I Gepard : Germany (DEU)", publisher: Armedconflicts.com, retrieved: 2026-11-22, kind: other }
+  - { id: s12, url: "https://greydynamics.com/flakpanzer-gepard-relic-or-drone-killer-2/", title: "Flakpanzer Gepard: Relic or Drone Killer?", publisher: Grey Dynamics, retrieved: 2026-11-22, kind: other }
