@@ -53,9 +53,9 @@ export function SettingsPage() {
         {msg && <p role="status">{msg}</p>}
       </div>
       <div class="panel stack">
-        <h2>Card design</h2>
+        <h2>Display</h2>
         <p>
-          <a href="#/design">Try the card styles and motions</a> — the choice is stored in this browser.
+          <a href="#/design">Card style, motion and light/dark theme</a> — stored in this browser.
         </p>
       </div>
       <div class="panel stack">

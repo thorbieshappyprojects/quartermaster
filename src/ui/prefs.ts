@@ -9,8 +9,9 @@ export interface Prefs {
   dark: boolean;
 }
 
-const KEY = 'quartermaster.prefs.v1';
-const DEFAULTS: Prefs = { style: 'plain', motion: 'flip', dark: false };
+// v2: defaults chosen after the design test (A Field, pillar, dark); earlier test choices are not carried over.
+const KEY = 'quartermaster.prefs.v2';
+const DEFAULTS: Prefs = { style: 'field', motion: 'rotate', dark: true };
 
 function load(): Prefs {
   try {
@@ -35,6 +36,6 @@ export function setPrefs(p: Partial<Prefs>) {
 export function applyTheme() {
   const root = document.documentElement;
   root.dataset.cardStyle = prefs.value.style;
-  if (prefs.value.dark) root.dataset.theme = 'dark';
-  else delete root.dataset.theme;
+  // Always explicit, so the choice wins over the system setting in both directions.
+  root.dataset.theme = prefs.value.dark ? 'dark' : 'light';
 }
