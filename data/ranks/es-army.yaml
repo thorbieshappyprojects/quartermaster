@@ -1,0 +1,31 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: es-army
+country: ES
+branch: army
+force: Ejército de Tierra
+force_en: Spanish Army
+note: "Rank names follow Ley 39/2007 de la carrera militar, art. 21 (basic designations); NATO codes follow the Spanish column of NATO APersP-01 (STANAG 2116, Ed. A V3, June 2022). APersP-01 has no Spanish OR-1 and places the NCO ranks higher than many secondary tables do (e.g. sargento at OR-7 where they give OR-5 or OR-6); the NATO table is followed here. Students of the military academies may hold provisional ranks (alférez, sargento, soldado) under art. 68.2; they share the names of the regular ranks and are not listed separately."
+ranks:
+  - { id: es-army-soldado, name: Soldado, name_en: Private, code: OR-2, group: enlisted, note: "APersP-01 lists soldado at OR-2 (initial commitment) and OR-3 (long-term commitment) and gives Spain no OR-1; the lower code is used.", source: s2 }
+  - { id: es-army-cabo, name: Cabo, name_en: Corporal, code: OR-4, group: enlisted, source: s2 }
+  - { id: es-army-cabo-primero, name: Cabo primero, name_en: First corporal, code: OR-5, group: enlisted, source: s2 }
+  - { id: es-army-cabo-mayor, name: Cabo mayor, name_en: Corporal major, code: OR-6, group: enlisted, note: "Highest rank of tropa y marinería.", source: s2 }
+  - { id: es-army-sargento, name: Sargento, name_en: Sergeant, code: OR-7, group: nco, note: "Lowest suboficial rank. APersP-01 places it with sargento primero at OR-7; secondary tables give OR-5 or OR-6.", source: s2 }
+  - { id: es-army-sargento-primero, name: Sargento primero, name_en: Sergeant first class, code: OR-7, group: nco, source: s2 }
+  - { id: es-army-brigada, name: Brigada, name_en: "Brigada (senior NCO)", code: OR-8, group: nco, source: s2 }
+  - { id: es-army-subteniente, name: Subteniente, name_en: "Subteniente (senior NCO)", code: OR-9, group: nco, note: "An NCO rank, not an officer despite the name.", source: s2 }
+  - { id: es-army-suboficial-mayor, name: Suboficial mayor, name_en: Sergeant major, code: OR-9, group: nco, note: "Highest suboficial rank.", source: s2 }
+  - { id: es-army-alferez, name: Alférez, name_en: Second lieutenant, code: OF-1, group: officer, source: s2 }
+  - { id: es-army-teniente, name: Teniente, name_en: Lieutenant, code: OF-1, group: officer, source: s2 }
+  - { id: es-army-capitan, name: Capitán, name_en: Captain, code: OF-2, group: officer, source: s2 }
+  - { id: es-army-comandante, name: Comandante, name_en: Major, code: OF-3, group: officer, source: s2 }
+  - { id: es-army-teniente-coronel, name: Teniente coronel, name_en: Lieutenant colonel, code: OF-4, group: officer, source: s2 }
+  - { id: es-army-coronel, name: Coronel, name_en: Colonel, code: OF-5, group: officer, source: s2 }
+  - { id: es-army-general-de-brigada, name: General de brigada, name_en: Brigadier general, code: OF-6, group: general_flag, source: s2 }
+  - { id: es-army-general-de-division, name: General de división, name_en: Major general, code: OF-7, group: general_flag, source: s2 }
+  - { id: es-army-teniente-general, name: Teniente general, name_en: Lieutenant general, code: OF-8, group: general_flag, source: s2 }
+  - { id: es-army-general-de-ejercito, name: General de ejército, name_en: General, code: OF-9, group: general_flag, source: s2 }
+  - { id: es-army-capitan-general, name: Capitán general, name_en: Captain general, code: OF-10, group: general_flag, note: "Held exclusively by the King as supreme commander of the Armed Forces (Ley 39/2007, art. 2).", source: s1 }
+sources:
+  - { id: s1, url: "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19880", title: "Ley 39/2007, de 19 de noviembre, de la carrera militar (consolidated text), arts. 2 and 21", publisher: Agencia Estatal Boletín Oficial del Estado, retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf", title: "APersP-01 NATO Codes for Grades of Military Personnel, Edition A Version 3 (Annexes A and D, ESP)", publisher: NATO Standardization Office, retrieved: 2026-11-22, kind: government, note: "Third-party copy of the NATO standard that implements STANAG 2116." }

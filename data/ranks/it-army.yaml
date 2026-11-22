@@ -1,0 +1,42 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: it-army
+country: IT
+branch: army
+force: Esercito Italiano
+force_en: Italian Army
+note: Rank names and order follow the Codice dell'ordinamento militare (D.Lgs. 66/2010, arts. 628-631, text in force on Normattiva); NATO codes follow the Italian column of NATO APersP-01 (STANAG 2116, Ed. A V3, June 2022). The code has since renamed the graduati (APersP-01 still lists primo caporal maggiore to caporal maggiore capo scelto qualifica speciale at OR-4), so their codes are taken by position. Italy has no official English rank names; the English given are translations. Officer cadets (allievi ufficiali) hold no rank and are not listed. Some corps use other general-officer titles (see notes).
+ranks:
+  - { id: it-army-soldato, name: Soldato, name_en: Private, code: OR-1, group: enlisted, note: "Strictly a soldier without rank (militare di truppa senza alcun grado).", source: s4 }
+  - { id: it-army-caporale, name: Caporale, name_en: Corporal, code: OR-2, group: enlisted, source: s4 }
+  - { id: it-army-caporal-maggiore, name: Caporal maggiore, name_en: Senior corporal, code: OR-3, group: enlisted, source: s4 }
+  - { id: it-army-graduato, name: Graduato, name_en: Leading soldier, code: OR-4, group: enlisted, note: "Lowest grade of the graduati (career volunteers); formerly primo caporal maggiore. OR-4 by position: APersP-01 places all graduati at OR-4.", source: s3 }
+  - { id: it-army-graduato-scelto, name: Graduato scelto, name_en: Senior leading soldier, code: OR-4, group: enlisted, note: "OR-4 by position (see graduato).", source: s3 }
+  - { id: it-army-graduato-capo, name: Graduato capo, name_en: Chief leading soldier, code: OR-4, group: enlisted, note: "OR-4 by position (see graduato).", source: s3 }
+  - { id: it-army-primo-graduato, name: Primo graduato, name_en: First leading soldier, code: OR-4, group: enlisted, note: "Top grade of the graduati. OR-4 by position (see graduato).", source: s3 }
+  - { id: it-army-graduato-aiutante, name: Graduato aiutante, name_en: "Leading soldier, adjutant", code: OR-4, group: enlisted, note: "A qualification (qualifica) conferred on a primo graduato, ranking above peers; not a separate grade. OR-4 by position (see graduato).", source: s3 }
+  - { id: it-army-sergente, name: Sergente, name_en: Sergeant, code: OR-5, group: nco, source: s5 }
+  - { id: it-army-sergente-maggiore, name: Sergente maggiore, name_en: Senior sergeant, code: OR-6, group: nco, source: s5 }
+  - { id: it-army-sergente-maggiore-capo, name: Sergente maggiore capo, name_en: Chief senior sergeant, code: OR-7, group: nco, source: s5 }
+  - { id: it-army-sergente-maggiore-aiutante, name: Sergente maggiore aiutante, name_en: "Senior sergeant, adjutant", code: OR-7, group: nco, note: "A qualification conferred on a sergente maggiore capo, ranking above peers; APersP-01 (2022) lists the title sergente maggiore capo qualifica speciale at OR-7.", source: s2 }
+  - { id: it-army-maresciallo, name: Maresciallo, name_en: Marshal, code: OR-8, group: nco, note: "Marescialli form the senior NCO career, roughly the warrant-officer level of other armies.", source: s5 }
+  - { id: it-army-maresciallo-ordinario, name: Maresciallo ordinario, name_en: Ordinary marshal, code: OR-8, group: nco, source: s5 }
+  - { id: it-army-maresciallo-capo, name: Maresciallo capo, name_en: Chief marshal, code: OR-8, group: nco, source: s5 }
+  - { id: it-army-primo-maresciallo, name: Primo maresciallo, name_en: First marshal, code: OR-9, group: nco, source: s5 }
+  - { id: it-army-luogotenente, name: Luogotenente, name_en: "Luogotenente (senior NCO)", code: OR-9, group: nco, note: "Highest NCO grade; not an officer despite the name.", source: s5 }
+  - { id: it-army-primo-luogotenente, name: Primo luogotenente, name_en: "First luogotenente (senior NCO)", code: OR-9, group: nco, note: "A qualification conferred on a luogotenente, ranking above peers.", source: s5 }
+  - { id: it-army-sottotenente, name: Sottotenente, name_en: Second lieutenant, code: OF-1, group: officer, source: s5 }
+  - { id: it-army-tenente, name: Tenente, name_en: Lieutenant, code: OF-1, group: officer, source: s5 }
+  - { id: it-army-capitano, name: Capitano, name_en: Captain, code: OF-2, group: officer, source: s5 }
+  - { id: it-army-maggiore, name: Maggiore, name_en: Major, code: OF-3, group: officer, source: s5 }
+  - { id: it-army-tenente-colonnello, name: Tenente colonnello, name_en: Lieutenant colonel, code: OF-4, group: officer, source: s5 }
+  - { id: it-army-colonnello, name: Colonnello, name_en: Colonel, code: OF-5, group: officer, source: s5 }
+  - { id: it-army-generale-di-brigata, name: Generale di brigata, name_en: Brigadier general, code: OF-6, group: general_flag, note: "Titled brigadiere generale in the transport and materiel arm and the logistic corps.", source: s5 }
+  - { id: it-army-generale-di-divisione, name: Generale di divisione, name_en: Major general, code: OF-7, group: general_flag, note: "Titled maggiore generale in the transport and materiel arm and the logistic corps.", source: s5 }
+  - { id: it-army-generale-di-corpo-d-armata, name: Generale di corpo d'armata, name_en: Lieutenant general, code: OF-8, group: general_flag, note: "Titled tenente generale in the transport and materiel arm and the logistic corps.", source: s5 }
+  - { id: it-army-generale, name: Generale, name_en: General, code: OF-9, group: general_flag, note: "Highest rank; Italy has no OF-10.", source: s1 }
+sources:
+  - { id: s1, url: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-15;66~art628", title: "D.Lgs. 15 marzo 2010, n. 66 (Codice dell'ordinamento militare), art. 628: Successione e corrispondenza dei gradi degli ufficiali", publisher: Istituto Poligrafico e Zecca dello Stato (Normattiva), retrieved: 2026-11-22, kind: government }
+  - { id: s2, url: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-15;66~art629", title: "D.Lgs. 15 marzo 2010, n. 66 (Codice dell'ordinamento militare), art. 629: Successione e corrispondenza dei gradi e delle qualifiche dei sottufficiali", publisher: Istituto Poligrafico e Zecca dello Stato (Normattiva), retrieved: 2026-11-22, kind: government }
+  - { id: s3, url: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-15;66~art630", title: "D.Lgs. 15 marzo 2010, n. 66 (Codice dell'ordinamento militare), art. 630: Successione e corrispondenza dei gradi dei graduati", publisher: Istituto Poligrafico e Zecca dello Stato (Normattiva), retrieved: 2026-11-22, kind: government }
+  - { id: s4, url: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-15;66~art631", title: "D.Lgs. 15 marzo 2010, n. 66 (Codice dell'ordinamento militare), art. 631: Successione e corrispondenza dei gradi dei militari di truppa", publisher: Istituto Poligrafico e Zecca dello Stato (Normattiva), retrieved: 2026-11-22, kind: government }
+  - { id: s5, url: "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf", title: "APersP-01 NATO Codes for Grades of Military Personnel, Edition A Version 3 (Annexes A and D, ITA)", publisher: NATO Standardization Office, retrieved: 2026-11-22, kind: government, note: "Third-party copy of the NATO standard that implements STANAG 2116." }

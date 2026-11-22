@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "esercito.difesa.it gradi Esercito Italiano distintivi di grado",
+    "decreto legislativo 66/2010 articolo gradi primo luogotenente caporal maggiore capo scelto comune di 2a classe codice ordinamento militare",
+    "\"graduato aiutante\" \"primo graduato\" decreto legislativo riordino carriere forze armate",
+    "nuovi gradi graduati esercito graduato scelto graduato capo primo graduato 2025 2026 decreto legislativo",
+    "normattiva D.Lgs. 66/2010 artt. 625-632 (direct fetch)",
+    "NATO APersP-01 Ed. A V3 annexes A-F, ITA column (direct fetch of the copy used for de/fr)"
+  ],
+  "urlsSeen": [
+    "https://militaria.lv/wp-content/uploads/APersP-01-EDA-V3-E.pdf",
+    "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-15;66~art627",
+    "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-15;66~art628",
+    "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-15;66~art629",
+    "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-15;66~art630",
+    "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-15;66~art631",
+    "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-15;66~art632",
+    "https://www.esercito.difesa.it/en/Equipment/Militaria/Rank-insignias/Pagine/Le-Insegne-di-grado-in-uso.aspx (connection refused)",
+    "https://en.wikipedia.org/wiki/Italian_Army_ranks",
+    "https://www.wikipedia.com/wiki/Italian_Air_Force_ranks",
+    "https://www.difesa.it/assets/allegati/93812/dd_16_03_2026_nr_0128277.pdf (not reachable)",
+    "https://futura.study/blog/forze-armate-e-forze-di-polizia/gradi-esercito-italiano/",
+    "https://www.polpenuil.it/images/apcsm_ffaa_18122024.pdf",
+    "https://www.gazzettaufficiale.it/sommario/codici/ordinamentoMilitare"
+  ]
+}
