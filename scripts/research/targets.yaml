@@ -11,6 +11,9 @@ main-battle-tank:
   - { id: type-99a, name: Type 99A }
   - { id: type-10, name: Type 10 }
   - { id: altay, name: Altay }
+  - { id: t-72b3, name: T-72B3 }
+  - { id: leopard-2a4, name: Leopard 2A4 }
+  - { id: m1a1-abrams, name: M1A1 Abrams }
 infantry-fighting-vehicle:
   - { id: puma-s1, name: Puma S1 }
   - { id: cv90-mkiv, name: CV90 Mk IV }
@@ -21,6 +24,9 @@ infantry-fighting-vehicle:
   - { id: bmp-3, name: BMP-3 }
   - { id: zbd-04a, name: ZBD-04A }
   - { id: redback, name: Redback AS21 }
+  - { id: bmp-2, name: BMP-2 }
+  - { id: cv90-mkiii, name: CV90 Mk III }
+  - { id: marder-1a3, name: Marder 1A3 }
 wheeled-armoured-vehicle:
   - { id: boxer, name: Boxer }
   - { id: vbci, name: VBCI }
@@ -32,6 +38,9 @@ wheeled-armoured-vehicle:
   - { id: btr-82a, name: BTR-82A }
   - { id: pandur-ii, name: Pandur II }
   - { id: dingo-2, name: Dingo 2 }
+  - { id: btr-80, name: BTR-80 }
+  - { id: lav-6, name: LAV 6.0 }
+  - { id: fuchs-1a8, name: Fuchs 1A8 }
 tube-artillery:
   - { id: pzh-2000, name: PzH 2000 }
   - { id: caesar-mkii, name: CAESAR Mk II }
@@ -43,6 +52,9 @@ tube-artillery:
   - { id: 2s19m2-msta-s, name: 2S19M2 Msta-S }
   - { id: rch-155, name: RCH 155 }
   - { id: pcl-181, name: PCL-181 }
+  - { id: m777, name: M777 }
+  - { id: 2s1-gvozdika, name: 2S1 Gvozdika }
+  - { id: m109a6-paladin, name: M109A6 Paladin }
 rocket-artillery:
   - { id: m142-himars, name: M142 HIMARS }
   - { id: m270a2-mlrs, name: M270A2 MLRS }
@@ -53,6 +65,9 @@ rocket-artillery:
   - { id: phl-16, name: PHL-16 }
   - { id: homar-k, name: Homar-K }
   - { id: euro-puls, name: EuroPULS }
+  - { id: bm-21-grad, name: BM-21 Grad }
+  - { id: bm-27-uragan, name: BM-27 Uragan }
+  - { id: bm-30-smerch, name: BM-30 Smerch }
 engineering-vehicle:
   - { id: leguan, name: Leguan bridge layer }
   - { id: kodiak, name: Kodiak engineer vehicle }
@@ -62,3 +77,39 @@ engineering-vehicle:
   - { id: m1150-abv, name: M1150 Assault Breacher Vehicle }
   - { id: dachs-2, name: Dachs 2 }
   - { id: k1-avlb, name: K1 AVLB }
+  - { id: brem-1, name: BREM-1 recovery vehicle }
+  - { id: imr-2m, name: IMR-2M engineer vehicle }
+  - { id: trojan-avre, name: Trojan AVRE }
+# Wave 2 (M8)
+ground-based-air-defence:
+  - { id: patriot-pac-3, name: Patriot PAC-3 MSE }
+  - { id: iris-t-slm, name: IRIS-T SLM }
+  - { id: nasams, name: NASAMS }
+  - { id: samp-t-ng, name: SAMP/T NG }
+  - { id: s-400, name: S-400 }
+  - { id: pantsir-s1, name: Pantsir-S1 }
+  - { id: gepard, name: Gepard 1A2 }
+  - { id: skyranger-30, name: Skyranger 30 }
+anti-tank-guided-missile:
+  - { id: javelin, name: FGM-148 Javelin }
+  - { id: nlaw, name: NLAW }
+  - { id: spike-lr2, name: Spike LR2 }
+  - { id: mmp, name: Akeron MP }
+  - { id: kornet, name: 9M133 Kornet }
+  - { id: tow-2b, name: BGM-71 TOW-2B }
+uncrewed-aircraft:
+  - { id: bayraktar-tb2, name: Bayraktar TB2 }
+  - { id: mq-9a-reaper, name: MQ-9A Reaper }
+  - { id: heron-tp, name: Heron TP }
+  - { id: wing-loong-ii, name: Wing Loong II }
+  - { id: orlan-10, name: Orlan-10 }
+  - { id: scaneagle, name: ScanEagle }
+# Wave 3 (M10)
+fighter-aircraft:
+  - { id: f-35a, name: F-35A Lightning II }
+  - { id: eurofighter-typhoon, name: Eurofighter Typhoon }
+  - { id: rafale-f4, name: Rafale F4 }
+  - { id: f-16-block-70, name: F-16 Block 70 }
+  - { id: gripen-e, name: Gripen E }
+  - { id: su-35s, name: Su-35S }
+  - { id: j-20, name: J-20 }

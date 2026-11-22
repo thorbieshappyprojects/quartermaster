@@ -72,7 +72,7 @@ Output: after researching, reply with exactly one fenced \`\`\`yaml block contai
 function systemPrompt(cat: { id: string; indicators: { id: string; label: string; unit: string; derived?: unknown; description?: string }[] }, target: Target, all: Target[]) {
   const stored = cat.indicators.filter((i) => !i.derived);
   return `Research the "${target.name}" for category "${cat.id}".
-First confirm the current production/service variant. Keep id: ${target.id} exactly (the file name is fixed); put the precise variant in name.
+Describe the variant named here. Older variants that are still in service count (the deck covers every system in use, not only the newest); if the name is only a family, use its most widely fielded variant in service. Keep id: ${target.id} exactly (the file name is fixed); put the precise variant in name.
 
 The YAML must follow this shape (all keys required unless marked optional):
 
