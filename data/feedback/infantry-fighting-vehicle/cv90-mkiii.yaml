@@ -1,0 +1,11 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "cv90-mkiii"
+items:
+  - summary: "After the first live firing of Estonia's ex-Dutch CV9035 vehicles, the company commander said the shooting went better than expected, which he took as proof that crew training had been fully sufficient."
+    quote: "Laskeharjutused läksid paremini kui ootasime, mis näitab, et meeskondade väljaõpe on olnud täiesti piisav"
+    speaker: "Estonian company commander (captain), Scouts Battalion"
+    context: "First CV9035 live-fire exercises in Estonia, March 2017, on vehicles bought from the Netherlands"
+    sentiment: "positive"
+    topics: ["training", "firepower"]
+    source: { url: "https://www.err.ee/585879/fotod-ja-video-soomuskool-viis-labi-esimesed-cv9035-lahinglaskmised", title: "Fotod ja video: soomuskool viis läbi esimesed CV9035 lahinglaskmised", publisher: "ERR", date: "2017-03-24", retrieved: "2026-11-22" }
+note: "I found almost no first-hand Dutch crew feedback on the as-built CV9035NL; the one item comes from Estonia, which uses the same ex-Dutch vehicles, and Dutch-language Defensie magazines were only partly checked."

@@ -1,0 +1,25 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "t-72b3"
+items:
+  - summary: "A Ukrainian armoured group commander phoned the manufacturer about a captured T-72B3M (a later variant). He said the engine was leaking oil, the compressor would not fill the air cylinders and the electric turret drive failed with the electrics, which forced the crew to traverse by hand."
+    quote: "The tank is new, but the problem is that we simply cannot operate it."
+    speaker: "Ukrainian armoured group commander, 54th Mechanised Brigade (captured vehicle)"
+    context: "Later variant (T-72B3M). Recorded phone call with Uralvagonzavod, reported October 2023"
+    sentiment: "negative"
+    topics: ["reliability", "maintenance"]
+    source: { url: "https://militarnyi.com/en/news/tank-operators-of-the-54th-brigade-complained-about-the-quality-of-captured-tanks-to-the-uralvagonzavod-management/", title: "Tank operators of the 54th Brigade complained about the quality of captured tanks to the Uralvagonzavod management", publisher: "Militarnyi", date: "2023-10-01", retrieved: "2026-11-22" }
+  - summary: "A Russian T-72B3 gunner said the tank works well because it is simple, with little electronics and mostly mechanical systems, and claimed this makes it more accurate and dependable than Western tanks."
+    quote: "Всё намного проще устроено, минимум электроники, всё в основном механическое"
+    speaker: "Russian T-72B3 gunner"
+    context: "Russian state media (TASS) report republished by www1.ru, March 2026"
+    sentiment: "positive"
+    topics: ["reliability", "firepower"]
+    source: { url: "https://www1.ru/news/2026/03/20/t-72b3-bez-elektroniki-obosel-zapadnye-tanki-stal-tocnee-streliat.amp.html", title: "Т-72Б3 без электроники обошёл западные танки: стал точнее стрелять", publisher: "www1.ru (citing TASS)", date: "2026-03-20", retrieved: "2026-11-22" }
+  - summary: "A Ukrainian crew using a captured, almost new 2018-built T-72B3M (a later variant) found it in working order after maintenance and valued that the commander can also fire the gun, while stressing that the crew matters more than the tank."
+    quote: "не головне, який танк, головне — який екіпаж"
+    speaker: "Ukrainian tank commander (captured vehicle)"
+    context: "Later variant (T-72B3M). Captured in the Kharkiv-Luhansk counteroffensive; ArmyInform report, May 2023"
+    sentiment: "positive"
+    topics: ["reliability", "firepower"]
+    source: { url: "https://armyinform.com.ua/2023/05/09/2018-roku-vypusku-nebytyj-pidfarbovanyj-yak-trofejnyj-rosijskyj-tank-praczyuye-v-zsu/", title: "2018 року випуску, небитий, підфарбований: як трофейний російський танк «працює» в ЗСУ", publisher: "ArmyInform (Ukrainian MoD news agency)", date: "2023-05-09", retrieved: "2026-11-22" }
+note: "Thin and partisan coverage: Russian user voices come through state media, Ukrainian ones from captured tanks, and two of three items concern the later T-72B3M."

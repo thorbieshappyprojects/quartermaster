@@ -1,0 +1,25 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "m1a1-abrams"
+items:
+  - summary: "A Ukrainian M1A1 commander whose tank was hit by several FPV drones said the isolated ammunition and blowout panels give the crew a chance to survive, unlike T-series tanks, and that crew-added reactive armour and anti-drone netting were essential. He warned that the top armour stays exposed and that US trainers underestimated Russian thermal-imaging drones at night."
+    quote: "Their tanks are too thin and vulnerable given the current threats on the battlefield."
+    speaker: "Ukrainian M1A1 tank commander, 47th Mechanised Brigade"
+    context: "Interview by analysts Rob Lee and Michael Kofman after a drone attack in Kursk region, December 2024"
+    sentiment: "mixed"
+    topics: ["protection", "sensors", "training"]
+    source: { url: "https://www.twz.com/news-features/ukrainian-m1-abrams-commander-talks-tanks-major-vulnerabilities-advantages-in-combat", title: "Ukrainian M1 Abrams Commander Talks Tank's Major Vulnerabilities, Advantages In Combat", publisher: "The War Zone", date: "2024-12-20", retrieved: "2026-11-22" }
+  - summary: "An Abrams driver-mechanic said his tank hit an anti-tank mine in Kursk region, lost a track and left the crew concussed but alive. He called the 65-tonne tank fast, easy to drive thanks to its automatic transmission, and easier to maintain than Soviet tanks, with an engine change taking about 45 minutes."
+    quote: "Everyone's alive—only the track blew off. It can withstand those mines"
+    speaker: "Ukrainian Abrams driver-mechanic, 47th Mechanised Brigade"
+    context: "Brigade video reported by ArmyInform, July 2026"
+    sentiment: "positive"
+    topics: ["protection", "mobility", "maintenance"]
+    source: { url: "https://armyinform.com.ua/en/2026/07/16/everyones-alive-only-the-track-came-off-an-abrams-tank-mechanic-and-driver-recounted-how-the-tank-saved-the-crew-in-kursk/", title: "Everyone's alive, only the track came off: an Abrams tank mechanic and driver recounted how the tank saved the crew in Kursk", publisher: "ArmyInform", date: "2026-07-16", retrieved: "2026-11-22" }
+  - summary: "Crew members near Avdiivka said the Abrams held up well, but early missions without extra protection brought losses until crews fitted their own reactive armour. A mechanic said the donated tanks are old, with seal and parts problems, that parts shipped from abroad cause delays and that dust damages the engine."
+    quote: "These tanks are old. There are problems with seals and various parts."
+    speaker: "Ukrainian Abrams mechanic, tank commander and loader, 47th Mechanised Brigade"
+    context: "Avdiivka front, first half of 2024"
+    sentiment: "mixed"
+    topics: ["maintenance", "logistics", "protection"]
+    source: { url: "https://united24media.com/war-in-ukraine/advanced-us-abrams-tanks-experience-highs-and-lows-on-avdiivka-front-931", title: "Advanced US Abrams Tanks Experience Highs and Lows on Avdiivka Front", publisher: "United24 Media", date: "2024-06-26", retrieved: "2026-11-22" }
+note: "All items come from Ukraine's 47th Brigade, which operates ex-US M1A1 SA tanks; I did not check US Marine Corps, Australian, Iraqi or Egyptian user accounts."

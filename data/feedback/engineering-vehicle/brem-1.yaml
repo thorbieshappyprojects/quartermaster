@@ -1,0 +1,11 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "brem-1"
+items:
+  - summary: "Recovery crews of a Ukrainian tank brigade said their old BREM-1 can pull out any Soviet-made tank and they never complained about it, but after receiving a German Leopard-based recovery vehicle they found the Western vehicle much simpler and easier to work with."
+    quote: "Вона може витягнути будь-який танк радянського виробництва."
+    speaker: "Ukrainian recovery vehicle crew members, 1st Tank Brigade"
+    context: "Vikna TV report on tank recovery and captured vehicles, March 2023"
+    sentiment: "mixed"
+    topics: ["mobility", "ergonomics"]
+    source: { url: "https://vikna.tv/video/ukrayina/yak-ukrayinski-zahysnyky-ryatuyut-tanky-i-zabyrayut-tehniku-okupantiv", title: "Рятують своє, ще й беруть трофеї! Як українські захисники позбавляють окупантів техніки", publisher: "Vikna (STB)", date: "2023-03-10", retrieved: "2026-11-22" }
+note: "Very little first-hand feedback; one Ukrainian TV report, with most other results about destroyed vehicles or the newer BREM-1M."

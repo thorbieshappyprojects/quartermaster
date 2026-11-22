@@ -1,0 +1,18 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "trojan-avre"
+items:
+  - summary: "A Trojan commander described firing the rocket-propelled mine-clearing system in combat to clear a safe route for a convoy of about 50 supply vehicles, with the hatches closed. He said the crew could feel the pressure as the rocket left and mostly felt relief."
+    quote: "We had our hatches closed down and, when the rocket went off, we could feel the pressure as it left."
+    speaker: "British Army Trojan commander (lieutenant), Royal Engineers"
+    context: "Operation Moshtarak, Helmand, Afghanistan, 2010; Defence Focus article"
+    sentiment: "positive"
+    topics: ["firepower", "protection"]
+    source: { url: "https://www.gov.uk/government/news/beating-the-ied-threat-in-helmand", title: "Beating the IED threat in Helmand", publisher: "UK Ministry of Defence", date: "2010-07-28", retrieved: "2026-11-22" }
+  - summary: "An explosive ordnance disposal officer said the Trojan suited the fast advance but could not replace troops and search dogs in towns and villages, because breaking through with an armoured vehicle undermines efforts to reassure local people."
+    quote: "You can't reassure the local people if you go smashing through with a tank"
+    speaker: "British Army captain, second-in-command, Joint Force EOD Group"
+    context: "Operation Moshtarak, Helmand, Afghanistan, 2010; same Defence Focus article"
+    sentiment: "mixed"
+    topics: ["mobility"]
+    source: { url: "https://www.gov.uk/government/news/beating-the-ied-threat-in-helmand", title: "Beating the IED threat in Helmand", publisher: "UK Ministry of Defence", date: "2010-07-28", retrieved: "2026-11-22" }
+note: "Little first-hand feedback; both items come from one 2010 MoD article on Afghanistan, and recent exercise reports quote no Trojan users."

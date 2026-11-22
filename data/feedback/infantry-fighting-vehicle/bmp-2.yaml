@@ -1,0 +1,18 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "bmp-2"
+items:
+  - summary: "A BMP-2 commander of Ukraine's 72nd Brigade recalled that the gun on his vehicle broke during its first practice firing near Bakhmut; once repaired and with enough ammunition at Vuhledar, the crew fired it so intensely that, as he put it, nuts flew off the vehicle."
+    quote: "Ми почали стріляти так, що аж гайки з машини летіли"
+    speaker: "Ukrainian BMP-2 commander (sergeant), 72nd Mechanised Brigade"
+    context: "ArmyInform profile covering Bakhmut and Vuhledar, published June 2024"
+    sentiment: "mixed"
+    topics: ["firepower", "reliability", "maintenance"]
+    source: { url: "https://armyinform.com.ua/2024/06/15/my-pochaly-strilyaty-tak-shho-azh-gajky-z-mashyny-letily-komandyr-bojovoyi-mashyny-yaroslav/", title: "«Ми почали стріляти так, що аж гайки з машини летіли», — командир бойової машини Ярослав", publisher: "ArmyInform (Ukrainian MoD news agency)", date: "2024-06-15", retrieved: "2026-11-22" }
+  - summary: "Ukrainian paratroopers who moved to the German Marder 1A3 said it is much more comfortable than the BMP-1 and BMP-2 they had used before."
+    quote: "much more comfortable than the Soviet BMP-1 and BMP-2 in service with the Armed Forces of Ukraine"
+    speaker: "Ukrainian Air Assault Forces paratroopers"
+    context: "Comparison made while presenting the Marder 1A3, July 2023"
+    sentiment: "negative"
+    topics: ["ergonomics"]
+    source: { url: "https://militarnyi.com/en/news/ukrainian-paratroopers-showcase-marder-1a3-ifv-maneuvering-skills/", title: "Ukrainian paratroopers showcase Marder 1A3 IFV maneuvering skills", publisher: "Militarnyi", date: "2023-07-28", retrieved: "2026-11-22" }
+note: "Very little first-hand user feedback on the BMP-2 itself despite its wide use; most reports are about destroyed or captured vehicles, and I found no Indian, Finnish or Czech user accounts."

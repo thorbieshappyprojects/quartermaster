@@ -1,0 +1,11 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "imr-2m"
+items:
+  - summary: "A Russian IMR-2 crew member said the crew cleared a lane through ground that drones had mined, with the vehicle's equipment setting off the mines ahead of it, while drones kept attacking and electronic warfare fended them off."
+    quote: "Постоянно пытались атаковать беспилотники, но с ними успешно справлялась РЭБ"
+    speaker: "Russian IMR-2 crew member"
+    context: "IMR-2 family vehicle (exact sub-variant not stated). Russian Ministry of Defence material republished by www1.ru, July 2025"
+    sentiment: "positive"
+    topics: ["protection", "mobility"]
+    source: { url: "https://www1.ru/news/2025/07/20/stalnaia-lapa-vezdesushhaia-imr-2-stala-kliucom-dlia-vskrytiia-minnyx-polei.html", title: "«Стальная лапа»: вездесущая ИМР-2 стала ключом для вскрытия минных полей", publisher: "www1.ru (citing Russian Ministry of Defence)", date: "2025-07-20", retrieved: "2026-11-22" }
+note: "Only one user voice, from Russian state material on the IMR-2 family; I found no Ukrainian user accounts of captured vehicles."

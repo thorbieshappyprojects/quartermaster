@@ -1,0 +1,25 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "leopard-2a4"
+items:
+  - summary: "A Leopard 2A4 crew of Ukraine's 33rd Mechanised Brigade, some of whom moved over from the T-64, said the tank is quieter, more agile and better protected than Soviet designs, and credited the separate ammunition compartment with keeping crews alive. They regretted that only 15 rounds sit in the ready rack, since they avoid loading the hull rack, and preferred reactive armour to cages and nets that hamper movement."
+    quote: "Навіть у разі вибуху боєкомплекту екіпаж точно виживе і сам танк уціліє та лишиться на ходу."
+    speaker: "Ukrainian Leopard 2A4 crew (commander, driver, gunner, loader), 33rd Mechanised Brigade"
+    context: "ArmyInform crew interview, eastern front, early 2025; crew trained in Spain"
+    sentiment: "positive"
+    topics: ["protection", "ergonomics", "logistics"]
+    source: { url: "https://armyinform.com.ua/2025/01/02/leopard-i-santa-barbara-yak-lohmatyj-tank-nato-berezhe-tankistiv/", title: "Leopard i Santa Barbara: how the 'Lokhmatyi' NATO tank protects its crew (Ukrainian)", publisher: "ArmyInform (Ukrainian MoD news agency)", date: "2025-01-02", retrieved: "2026-11-22" }
+  - summary: "A tank battalion instructor of the 33rd Brigade said speed and accuracy are the Leopard 2A4's strengths and that its turret does not blow off when hit, but a disabled, immobile Leopard then becomes a target for FPV drones, drop munitions and thermobaric rounds. He also criticised Western instructors for teaching theory without combat experience."
+    quote: "У Leopard немає такого, що зривається башта"
+    speaker: "Ukrainian senior sergeant, tank instructor, 33rd Mechanised Brigade"
+    context: "ArmyInform interview, November 2024; crews trained in Poland and Spain"
+    sentiment: "mixed"
+    topics: ["protection", "firepower", "training"]
+    source: { url: "https://armyinform.com.ua/2024/11/12/u-radyanskyj-tank-bilshe-ne-syadu-instruktor-leopard-rozpoviv-pro-perevagy-yevropejskoyi-tehniky-ta-nedoliky-tamteshnih-instruktoriv/", title: "'I will not get into a Soviet tank again': Leopard instructor on European equipment and instructors (Ukrainian)", publisher: "ArmyInform (Ukrainian MoD news agency)", date: "2024-11-12", retrieved: "2026-11-22" }
+  - summary: "A Ukrainian repair and restoration battalion reported that a Leopard 2A4 survived 10 FPV drone hits that set off its ammunition, drove on for about 500 metres and would return to service after repair; the unit said no Soviet or Russian tank would survive such an ammunition detonation."
+    quote: "No Soviet/Russian tank would survive after an ammo detonation."
+    speaker: "Ukrainian 508th Separate Repair and Restoration Battalion (maintainers)"
+    context: "Unit statement reported by Euromaidan Press, May 2025"
+    sentiment: "positive"
+    topics: ["protection", "maintenance"]
+    source: { url: "https://euromaidanpress.com/?p=335857", title: "\"No Russian tank would survive\": German Leopard 2A4 withstands 10 FPV drone strikes in Ukraine", publisher: "Euromaidan Press", date: "2025-05-03", retrieved: "2026-11-22" }
+note: "Good Ukrainian first-hand coverage (33rd Brigade crews and maintainers), mostly in Ukrainian-language ArmyInform pieces; no older peacetime user reports from other operators were checked."

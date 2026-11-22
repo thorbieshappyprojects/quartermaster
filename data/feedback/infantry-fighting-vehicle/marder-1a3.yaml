@@ -1,0 +1,18 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "marder-1a3"
+items:
+  - summary: "Marder crews of Ukraine's 100th Brigade said the vehicle's armour saves lives and one kept driving after hitting a mine, and they praised the cannon's rate of fire, though guns jam in some vehicles. They criticised the lack of rear doors, which forces them to lower the whole ramp and has exposed people to shrapnel, and said spare parts for the roughly 50-year-old design are scarce."
+    quote: "Підірвалась на міні, але продовжувала їхати."
+    speaker: "Ukrainian Marder crew members, 100th Mechanised Brigade"
+    context: "Radio Svoboda (Donbas.Realii) report from the Toretsk area, February 2025"
+    sentiment: "mixed"
+    topics: ["protection", "firepower", "maintenance"]
+    source: { url: "https://www.radiosvoboda.org/a/marder-bmp-toreck/33298819.html", title: "«Ми самі були в шоці»: бійці ЗСУ про переваги і недоліки БМП «Мардер»", publisher: "Radio Svoboda", date: "2025-02-15", retrieved: "2026-11-22" }
+  - summary: "Ukrainian paratroopers shared their first impressions of the Marder 1A3, praising its speed on roads and rough ground and calling it much more comfortable than Soviet BMPs; they said more of these vehicles would bring victory closer."
+    quote: "much more comfortable than the Soviet BMP-1 and BMP-2 in service with the Armed Forces of Ukraine"
+    speaker: "Ukrainian Air Assault Forces paratroopers"
+    context: "Air Assault Forces presentation of the vehicle, July 2023"
+    sentiment: "positive"
+    topics: ["mobility", "ergonomics"]
+    source: { url: "https://militarnyi.com/en/news/ukrainian-paratroopers-showcase-marder-1a3-ifv-maneuvering-skills/", title: "Ukrainian paratroopers showcase Marder 1A3 IFV maneuvering skills", publisher: "Militarnyi", date: "2023-07-28", retrieved: "2026-11-22" }
+note: "Ukrainian combat feedback exists but is limited; German Bundeswehr, Greek and other user accounts were not found or checked."
