@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "China Military Online PLA ranks soldiers enlisted 2022 new rank system conscript first-class private",
+    "全国人民代表大会常务委员会关于中国人民解放军现役士兵衔级制度的决定 一级军士长 二级军士长 三级军士长 一级上士 二级上士 中士 下士 上等兵 列兵 海军",
+    "PLA officer ranks 2023 reform abolish 少将 准将 China Military Online 军衔 现行 军官军衔 十级",
+    "中国人民解放军军官军衔条例 修订 2022 军官军衔 三等十级 上将 中将 少将 大校 上校 中校 少校 上尉 中尉 少尉",
+    "军官军衔条例 site:npc.gov.cn OR site:mod.gov.cn 现行有效 1994年修正",
+    "PLA officer rank system reform 2023 2024 \"rank-based\" officer law revision ranks unchanged 10 ranks senior colonel retained",
+    "eng.chinamil.com.cn PLA military ranks officers \"senior colonel\" \"major general\" \"lieutenant general\" \"general\" ranks system explained",
+    "PLA Navy officer ranks English \"senior captain\" \"rear admiral\" \"vice admiral\" 海军大校 official translation",
+    "site:eng.chinamil.com.cn military rank insignia ranks PLA explained sergeant master sergeant"
+  ],
+  "urlsSeen": [
+    "https://npcobserver.com/legislation/npcsc-enlisted-ranks-decision/",
+    "https://subsites.chinadaily.com.cn/npc/2022-02/28/c_846005.htm",
+    "https://www.12371.cn/2022/02/28/ARTI1646058025882112.shtml",
+    "http://www.mod.gov.cn/gfbw/qwfb/4905834.html",
+    "https://www.12371.cn/2020/06/29/ARTI1593362102988412.shtml",
+    "https://www.fadada.com/article/detail-4039",
+    "https://www.uscc.gov/sites/default/files/2022-11/Personnel_Peoples_Liberation_Army.pdf",
+    "https://jamestown.org/a-new-step-forward-in-pla-professionalization/",
+    "https://jamestown.org/program/assessing-the-plas-promotion-ladder-to-cmc-member-based-on-grades-vs-ranks-part-1/",
+    "https://warontherocks.com/2022/08/people-win-wars-a-2022-reality-check-on-pla-enlisted-force-and-related-matters/",
+    "https://chinainarms.substack.com/p/major-update-assessing-chinese-military",
+    "https://en.wikipedia.org/wiki/Ranks_of_the_People%27s_Liberation_Army_Ground_Force (pointer only)",
+    "https://en.wikipedia.org/wiki/Ranks_of_the_People%27s_Liberation_Army_Navy (pointer only)",
+    "https://www.airuniversity.af.edu/Portals/10/CASI/documents/Toolkit presentations/2025-08-04 Toolkit- PLA Personnel article.pdf (not reachable)"
+  ]
+}

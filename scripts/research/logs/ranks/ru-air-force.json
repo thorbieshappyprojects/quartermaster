@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Russia Federal Law 53-FZ military service article 46 military ranks list ефрейтор рядовой матрос",
+    "Russian military ranks English equivalents chart US Army TRADOC OR OF Russian Armed Forces rank insignia pdf",
+    "mil.ru знаки различия воинские звания Министерство обороны",
+    "\"Russia Military Power\" 2017 DIA rank insignia chart US equivalent",
+    "Russian Armed Forces ranks \"praporshchik\" \"warrant officer\" \"colonel general\" \"starshina\" table US Army publication OR \"Foreign Military Studies Office\"",
+    "\"ATP 7-100.1\" Russian tactics ranks \"junior sergeant\" OR \"praporshchik\" OR \"senior lieutenant\"",
+    "корабельные воинские звания присваиваются военнослужащим надводных подводных сил ВМФ войсковые звания положение о порядке прохождения военной службы 1237",
+    "\"корабельные воинские звания\" морская пехота морская авиация береговые войска войсковые звания ВКС"
+  ],
+  "urlsSeen": [
+    "https://legalacts.ru/doc/FZ-o-voinskoj-objazannosti-i-voennoj-sluzhbe/razdel-vi/statja-46/",
+    "https://legalacts.ru/doc/ukaz-prezidenta-rf-ot-16091999-n-1237/",
+    "https://t-j.ru/voinskie-zvaniya/",
+    "https://www.govinfo.gov/content/pkg/GOVPUB-D5_200-PURL-gpo82226/pdf/GOVPUB-D5_200-PURL-gpo82226.pdf",
+    "https://ia801000.us.archive.org/0/items/The_Russian_Way_of_War_Force_Structure_Tactics_and_Moderniza/The_Russian_Way_of_War__Force_Structure_Tactics_and_Modernization_of_the_Russian_Ground_Forces_Dr._Lester_W._Grau_and_Charles_K._Bartles.pdf",
+    "https://www.c2f.usff.navy.mil/Portals/24/Documents/Russia Military Power Report 2017.pdf (not reachable)",
+    "https://mil.ru/ (not reachable)"
+  ]
+}

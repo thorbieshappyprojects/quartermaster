@@ -1,0 +1,30 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: ru-navy
+country: RU
+branch: navy
+force: "Voyenno-morskoy flot"
+force_en: "Russian Navy"
+nato_graded: false
+note: "Native name Военно-морской флот (ВМФ). Ranks are the naval (корабельные) military ranks of Article 46 of Federal Law 53-FZ as restated in the Regulation on the Procedure for Military Service, which makes each naval rank equal to the army rank in the same position; codes therefore match the ru-army file. Navy personnel outside the ship-based forces may hold army-style ranks; which arms do was not confirmed from an official source. Names in standard transliteration, Cyrillic in each note. Russia is not graded in the NATO scheme, so every code is an approximate equivalent. Basis: the rank's position in the statutory sequence of Article 46 (most junior first) and the Western rank with the same or usual English title (e.g. serzhant = sergeant OR-5, polkovnik = colonel OF-5). Russia has no brigadier rank: the four flag ranks are placed at OF-6 to OF-9; the Marshal of the Russian Federation has no naval counterpart. The michman ranks are a separate personnel category between NCOs and officers, not commissioned; they are placed at OR-8 and OR-9. Junior lieutenant, lieutenant and senior lieutenant are placed at OF-1."
+ranks:
+  - { id: ru-navy-matros, name: "Matros", name_en: "Seaman", code: OR-1, approximate: true, group: enlisted, note: "Матрос. Equal to ryadovoy (private).", source: s1 }
+  - { id: ru-navy-starshiy-matros, name: "Starshiy matros", name_en: "Senior seaman", code: OR-2, approximate: true, group: enlisted, note: "Старший матрос. Equal to yefreytor.", source: s1 }
+  - { id: ru-navy-starshina-2-stati, name: "Starshina 2 stat'i", name_en: "Petty officer 2nd class", code: OR-4, approximate: true, group: nco, note: "Старшина 2 статьи. Equal to mladshiy serzhant (junior sergeant).", source: s1 }
+  - { id: ru-navy-starshina-1-stati, name: "Starshina 1 stat'i", name_en: "Petty officer 1st class", code: OR-5, approximate: true, group: nco, note: "Старшина 1 статьи. Equal to serzhant.", source: s1 }
+  - { id: ru-navy-glavnyy-starshina, name: "Glavnyy starshina", name_en: "Chief petty officer", code: OR-6, approximate: true, group: nco, note: "Главный старшина. Equal to starshiy serzhant (senior sergeant).", source: s1 }
+  - { id: ru-navy-glavnyy-korabelnyy-starshina, name: "Glavnyy korabel'nyy starshina", name_en: "Chief ship petty officer", code: OR-7, approximate: true, group: nco, note: "Главный корабельный старшина. Equal to starshina; highest rank of the seamen-and-petty-officers category.", source: s1 }
+  - { id: ru-navy-michman, name: "Michman", name_en: "Michman (warrant officer)", code: OR-8, approximate: true, group: warrant, note: "Мичман. Equal to praporshchik; separate category between petty officers and officers, not commissioned.", source: s1 }
+  - { id: ru-navy-starshiy-michman, name: "Starshiy michman", name_en: "Senior michman (senior warrant officer)", code: OR-9, approximate: true, group: warrant, note: "Старший мичман. Equal to starshiy praporshchik.", source: s1 }
+  - { id: ru-navy-mladshiy-leytenant, name: "Mladshiy leytenant", name_en: "Junior lieutenant", code: OF-1, approximate: true, group: officer, note: "Младший лейтенант. Lowest officer rank.", source: s1 }
+  - { id: ru-navy-leytenant, name: "Leytenant", name_en: "Lieutenant", code: OF-1, approximate: true, group: officer, note: "Лейтенант.", source: s1 }
+  - { id: ru-navy-starshiy-leytenant, name: "Starshiy leytenant", name_en: "Senior lieutenant", code: OF-1, approximate: true, group: officer, note: "Старший лейтенант.", source: s1 }
+  - { id: ru-navy-kapitan-leytenant, name: "Kapitan-leytenant", name_en: "Captain lieutenant", code: OF-2, approximate: true, group: officer, note: "Капитан-лейтенант. Equal to kapitan (army captain).", source: s1 }
+  - { id: ru-navy-kapitan-3-ranga, name: "Kapitan 3 ranga", name_en: "Captain 3rd rank", code: OF-3, approximate: true, group: officer, note: "Капитан 3 ранга. Equal to mayor (major).", source: s1 }
+  - { id: ru-navy-kapitan-2-ranga, name: "Kapitan 2 ranga", name_en: "Captain 2nd rank", code: OF-4, approximate: true, group: officer, note: "Капитан 2 ранга. Equal to podpolkovnik (lieutenant colonel).", source: s1 }
+  - { id: ru-navy-kapitan-1-ranga, name: "Kapitan 1 ranga", name_en: "Captain 1st rank", code: OF-5, approximate: true, group: officer, note: "Капитан 1 ранга. Equal to polkovnik (colonel).", source: s1 }
+  - { id: ru-navy-kontr-admiral, name: "Kontr-admiral", name_en: "Rear admiral", code: OF-6, approximate: true, group: general_flag, note: "Контр-адмирал. Equal to general-mayor; placed at OF-6 because Russia has no commodore/brigadier rank.", source: s1 }
+  - { id: ru-navy-vitse-admiral, name: "Vitse-admiral", name_en: "Vice admiral", code: OF-7, approximate: true, group: general_flag, note: "Вице-адмирал. Equal to general-leytenant.", source: s1 }
+  - { id: ru-navy-admiral, name: "Admiral", name_en: "Admiral", code: OF-8, approximate: true, group: general_flag, note: "Адмирал. Equal to general-polkovnik (colonel general).", source: s1 }
+  - { id: ru-navy-admiral-flota, name: "Admiral flota", name_en: "Admiral of the fleet", code: OF-9, approximate: true, group: general_flag, note: "Адмирал флота. Equal to general armii; highest naval rank.", source: s1 }
+sources:
+  - { id: s1, url: "https://legalacts.ru/doc/ukaz-prezidenta-rf-ot-16091999-n-1237/", title: "Presidential Decree No. 1237 of 16 Sep 1999, Regulation on the Procedure for Military Service, Article 20", publisher: "President of the Russian Federation (consolidated text published by legalacts.ru)", retrieved: 2026-11-22, kind: government, note: "Restates the Article 46 list of Federal Law 53-FZ; Art. 20(3): seniority follows the order of the list, and corresponding army and naval ranks are equal." }

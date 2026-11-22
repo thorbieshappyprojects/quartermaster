@@ -1,0 +1,31 @@
+# Ranks researched 2026-11-22 in a Claude Code session (web search).
+id: ru-army
+country: RU
+branch: army
+force: "Sukhoputnyye voyska"
+force_en: "Russian Ground Forces"
+nato_graded: false
+note: "Native name Сухопутные войска Вооружённых сил Российской Федерации. Ranks are the army-style (войсковые) military ranks of Article 46 of Federal Law 53-FZ; names in standard transliteration, Cyrillic in each note. Russia is not graded in the NATO scheme, so every code is an approximate equivalent. Basis: the rank's position in the statutory sequence of Article 46 (most junior first) and the Western rank with the same or usual English title (e.g. serzhant = sergeant OR-5, polkovnik = colonel OF-5). Russia has no brigadier rank: the four general ranks are placed at OF-6 to OF-9 and the Marshal of the Russian Federation at OF-10. The praporshchik (warrant officer) ranks are a separate personnel category between NCOs and officers, not commissioned; they are placed at OR-8 and OR-9. All three junior lieutenant ranks are placed at OF-1."
+ranks:
+  - { id: ru-army-ryadovoy, name: "Ryadovoy", name_en: "Private", code: OR-1, approximate: true, group: enlisted, note: "Рядовой. Lowest rank.", source: s1 }
+  - { id: ru-army-yefreytor, name: "Yefreytor", name_en: "Lance corporal", code: OR-2, approximate: true, group: enlisted, note: "Ефрейтор. Senior private.", source: s1 }
+  - { id: ru-army-mladshiy-serzhant, name: "Mladshiy serzhant", name_en: "Junior sergeant", code: OR-4, approximate: true, group: nco, note: "Младший сержант. Lowest sergeant rank.", source: s1 }
+  - { id: ru-army-serzhant, name: "Serzhant", name_en: "Sergeant", code: OR-5, approximate: true, group: nco, note: "Сержант.", source: s1 }
+  - { id: ru-army-starshiy-serzhant, name: "Starshiy serzhant", name_en: "Senior sergeant", code: OR-6, approximate: true, group: nco, note: "Старший сержант.", source: s1 }
+  - { id: ru-army-starshina, name: "Starshina", name_en: "Master sergeant", code: OR-7, approximate: true, group: nco, note: "Старшина. Highest rank of the soldiers-and-sergeants category; literally \"foreman\".", source: s1 }
+  - { id: ru-army-praporshchik, name: "Praporshchik", name_en: "Warrant officer", code: OR-8, approximate: true, group: warrant, note: "Прапорщик. Separate category (прапорщики и мичманы) between sergeants and officers; not a commissioned rank.", source: s1 }
+  - { id: ru-army-starshiy-praporshchik, name: "Starshiy praporshchik", name_en: "Senior warrant officer", code: OR-9, approximate: true, group: warrant, note: "Старший прапорщик.", source: s1 }
+  - { id: ru-army-mladshiy-leytenant, name: "Mladshiy leytenant", name_en: "Junior lieutenant", code: OF-1, approximate: true, group: officer, note: "Младший лейтенант. Lowest officer rank.", source: s1 }
+  - { id: ru-army-leytenant, name: "Leytenant", name_en: "Lieutenant", code: OF-1, approximate: true, group: officer, note: "Лейтенант.", source: s1 }
+  - { id: ru-army-starshiy-leytenant, name: "Starshiy leytenant", name_en: "Senior lieutenant", code: OF-1, approximate: true, group: officer, note: "Старший лейтенант.", source: s1 }
+  - { id: ru-army-kapitan, name: "Kapitan", name_en: "Captain", code: OF-2, approximate: true, group: officer, note: "Капитан.", source: s1 }
+  - { id: ru-army-mayor, name: "Mayor", name_en: "Major", code: OF-3, approximate: true, group: officer, note: "Майор.", source: s1 }
+  - { id: ru-army-podpolkovnik, name: "Podpolkovnik", name_en: "Lieutenant colonel", code: OF-4, approximate: true, group: officer, note: "Подполковник.", source: s1 }
+  - { id: ru-army-polkovnik, name: "Polkovnik", name_en: "Colonel", code: OF-5, approximate: true, group: officer, note: "Полковник.", source: s1 }
+  - { id: ru-army-general-mayor, name: "General-mayor", name_en: "Major general", code: OF-6, approximate: true, group: general_flag, note: "Генерал-майор. Lowest general rank; placed at OF-6 because Russia has no brigadier rank.", source: s1 }
+  - { id: ru-army-general-leytenant, name: "General-leytenant", name_en: "Lieutenant general", code: OF-7, approximate: true, group: general_flag, note: "Генерал-лейтенант.", source: s1 }
+  - { id: ru-army-general-polkovnik, name: "General-polkovnik", name_en: "Colonel general", code: OF-8, approximate: true, group: general_flag, note: "Генерал-полковник.", source: s1 }
+  - { id: ru-army-general-armii, name: "General armii", name_en: "General of the army", code: OF-9, approximate: true, group: general_flag, note: "Генерал армии.", source: s1 }
+  - { id: ru-army-marshal-rossiyskoy-federatsii, name: "Marshal Rossiyskoy Federatsii", name_en: "Marshal of the Russian Federation", code: OF-10, approximate: true, group: general_flag, note: "Маршал Российской Федерации. Highest military rank listed in Article 46; it has no separate naval counterpart.", source: s1 }
+sources:
+  - { id: s1, url: "https://legalacts.ru/doc/FZ-o-voinskoj-objazannosti-i-voennoj-sluzhbe/razdel-vi/statja-46/", title: "Federal Law No. 53-FZ of 28 March 1998 \"On Military Duty and Military Service\", Article 46 (as amended 4 Aug 2026)", publisher: "State Duma of the Russian Federation (consolidated text published by legalacts.ru)", retrieved: 2026-11-22, kind: government, note: "Statutory list of personnel categories and military ranks, army-style (войсковые) and naval (корабельные) columns." }
