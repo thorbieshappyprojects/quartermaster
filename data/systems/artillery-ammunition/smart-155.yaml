@@ -1,0 +1,56 @@
+id: smart-155
+category: artillery-ammunition
+name: "SMArt 155 (DM702A1)"
+variant_note: "Bundeswehr designation DM702A1; carrier shell with two sensor-fuzed submunitions"
+family: "SMArt 155"
+aliases: ["DM702", "DM702A1", "SMArt155"]
+manufacturer: { name: "GIWS (joint venture of Diehl and Rheinmetall)" }
+origin: DE
+role: "155 mm carrier shell releasing two sensor-fuzed submunitions that find and attack armoured vehicles from above with explosively formed penetrators."
+memorable_fact: { text: "If a SMArt submunition finds no target, two independent self-destruct mechanisms are meant to stop it leaving unexploded ordnance.", source: s2 }
+status: in_production
+in_service_since:
+  value: 2000
+  source: s3
+  confidence: low
+  note: "Germany's defence ministry reported receiving 9,000 rounds in 2000-2003 (as cited by s3)."
+units_built:
+  value: 12000
+  source: s1
+  confidence: medium
+  note: "'Over 12,000 rounds produced' as of the 2017 GD-OTS datasheet; a lower bound."
+combat_use:
+  text: "Fired by Ukrainian PzH 2000 howitzers against armoured vehicles near Soledar, reported in January 2023."
+  source: s3
+specs:
+  max_range:
+    value: 27.5
+    source: s3
+    confidence: medium
+    note: "27.5 km as reported for Ukrainian PzH 2000 (155 mm/52) use. GD-OTS gives 22 km for US guns (s1); a 2008 report gives 28 km from a standard 155 mm gun (s4)."
+  projectile_weight: { value: 47, source: s1, confidence: high, note: "Weight with fuze, 103 lb (47 kg)." }
+  explosive_fill:
+    value: 4.2
+    source: s1
+    confidence: medium
+    range: { min: 4.2, max: 4.4 }
+    note: "Datasheet states 'High Explosive 9.7 lb (4.2 kg)'; 9.7 lb converts to 4.4 kg. Total for both submunitions. The stated kg figure is shown."
+  accuracy_cep: { value: null, source: null, confidence: null, note: "Sensor-fuzed area munition; no CEP published." }
+operators:
+  - { country: DE, force: Army, state: in_service, quantity: null, source: s2 }
+  - { country: CH, force: Army, state: in_service, quantity: null, source: s2 }
+  - { country: GR, force: Army, state: in_service, quantity: null, source: s2 }
+  - { country: AU, force: Army, state: in_service, quantity: null, source: s2 }
+  - { country: UA, force: Ground Forces, state: in_service, quantity: null, source: s3 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public per-round price found." }
+contracts:
+  - { customer: "Germany (Bundeswehr)", quantity: 9000, value: null, currency: null, note: "Initial German Army order from GIWS.", source: s4 }
+  - { customer: "Germany (Bundeswehr)", year: 2022, quantity: null, value: 102600000, currency: EUR, note: "Contract to eliminate obsolescence in the DM702A1, approved by the Bundestag budget committee; work 2022-2027.", source: s5 }
+peers: [bonus, m982a1-excalibur]
+fired_by: [pzh-2000]
+sources:
+  - { id: s1, url: "https://www.gdots.com/wp-content/uploads/2017/11/SMArt155.pdf", title: "SMArt 155 - 155mm Sensor Fuzed Munition (SFM) for the Artillery (datasheet)", publisher: "General Dynamics Ordnance and Tactical Systems / GIWS", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2018/2018-06-11-Eurosatory/2018_06_11_rheinmetall_eurosatory_smart_155mm_desmart_155mm_en.pdf", title: "SMArt155 sensor-fused artillery ammunition assures high-accuracy engagement of land and coastal targets", publisher: "Rheinmetall", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://militarnyi.com/en/news/ukrainian-artillerymen-use-smart-155-rounds-in-soledar-area/", title: "Ukrainian artillerymen use SMArt 155 rounds in Soledar area", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }
+  - { id: s4, url: "https://www.australiandefence.com.au/D5B40560-F806-11DD-8DFE0050568C22C9", title: "Sensor-fuzed munition enters German service", publisher: "Australian Defence Magazine", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://esut.de/en/2022/10/meldungen/37472/nachentwicklung-fuer-artilleriemunition-smart-155-genehmigt/", title: "Nachentwicklung für Artilleriemunition SMArt 155 genehmigt", publisher: "ES&T (Europäische Sicherheit & Technik)", retrieved: 2026-11-22, kind: press }

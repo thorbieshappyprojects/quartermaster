@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "Vulcano 155 GLR Leonardo range 70 km guided long range",
+    "Leonardo Vulcano 155 GLR datasheet range 155/52 155/39 IMU GPS",
+    "Vulcano 155 GLR German Army Italian Army order contract Diehl Leonardo quantity",
+    "Vulcano 155 GLR Ukraine delivered Italy Germany Netherlands Army procurement Vulcano rounds",
+    "Vulcano 155 GLR projectile weight kg length subcalibre sabot"
+  ],
+  "urlsSeen": [
+    "https://electronics.leonardo.com/documents/16277707/0/Vulcano%2B155%2B%2528MM08723%2529_HQ.pdf",
+    "https://www.leonardo.com/en/press-release-detail/-/detail/16-06-2026-diehl-defence-leonardo-and-general-dynamics-celebrate-extended-range-artillery-projectile-award-based-on-vulcano-155mm-glr",
+    "https://thedefensepost.com/2026/07/15/nato-diehl-vulcano-ammunition/",
+    "https://esut.de/2019/09/meldungen/ruestung2/15362/qualifikation-der-lenkmunition-vulcano-abgeschlossen/",
+    "https://militarnyi.com/en/news/ukraine-will-receive-225-high-precision-vulcano-rounds/",
+    "https://militarnyi.com/en/news/ukraine-may-procure-vulcano-precision-guided-artillery-shells-for-long-range-guns/",
+    "https://www.edrmagazine.eu/eurosatory-2026-leonardo-details-progresses-on-vulcano-land-ammunition",
+    "https://www.diehl.com/defence/en/press-and-media/news/vulcano-precision-guided-munition-qualification-ready-for-fielding",
+    "https://www.difesa.it/sgd-dna/staff/dt/navarm/vulcano-en/index.html",
+    "https://kyivindependent.com/germany-plans-to-send-255-vulcano-projectiles-to-ukraine"
+  ]
+}

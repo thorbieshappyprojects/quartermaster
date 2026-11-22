@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "M982A1 Excalibur Raytheon range 40 km CEP 2 m specifications",
+    "RTX Raytheon Excalibur projectile rounds fired combat countries fielded",
+    "Excalibur M982A1 unit cost Army budget justification procurement ammunition",
+    "Excalibur contract Raytheon US Army 155mm projectiles million award 2024 2025 foreign military sales",
+    "Excalibur Increment Ib P-40 budget exhibit unit cost FY2021 FY2024",
+    "Excalibur fired from PzH 2000 Archer Caesar K9 qualified test firing",
+    "Excalibur Ukraine supplied M777 Excalibur rounds jamming accuracy dropped"
+  ],
+  "urlsSeen": [
+    "https://www.rtx.com/raytheon/what-we-do/land/excalibur-projectile",
+    "https://designation-systems.net/dusrm/app4/m982.html",
+    "https://www.csis.org/analysis/rebuilding-us-inventories-six-critical-systems",
+    "https://www.shephardmedia.com/news/landwarfareintl/excalibur-successfully-fired-pzh2000-self-propelle/",
+    "https://www.army-technology.com/?p=22339",
+    "https://www.shephardmedia.com/news/landwarfareintl/india-netherlands-and-spain-receive-excalibur/",
+    "https://www.adn.com/nation-world/2024/05/24/russian-jamming-leaves-some-high-tech-us-weapons-ineffective-in-ukraine/",
+    "https://euro-sd.com/2024/07/articles/39533/blunting-excaliburs-edge/",
+    "https://www.dacis.com/budget/budget_pdf/FY20/PROC/A/6600E80100_16.pdf",
+    "https://www.dacis.com/budget/budget_pdf/FY19/PROC/A/6600E80100_15.pdf",
+    "https://www.army.mil/article/262786/84_million_contract_awarded_for_excalibur_replenishment",
+    "https://www.wikipedia.com/wiki/M982_Excalibur"
+  ]
+}

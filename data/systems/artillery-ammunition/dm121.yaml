@@ -1,0 +1,54 @@
+id: dm121
+category: artillery-ammunition
+name: "DM121"
+variant_note: "Bundeswehr 155 mm high-explosive round with insensitive fill"
+manufacturer: { name: "Rheinmetall Waffe Munition" }
+production_sites:
+  - { place: "Unterlüß", country: DE, source: s1 }
+origin: DE
+role: "Insensitive 155 mm high-explosive shell of the Bundeswehr, fired from the PzH 2000 and also used for training."
+memorable_fact: { text: "Rheinmetall says about 85% of DM121 shells land within an area the size of a football pitch at maximum range.", source: s1 }
+status: in_production
+in_service_since:
+  value: null
+  source: null
+  confidence: null
+  note: "A first batch of 30,000 rounds was procured in 2009 (s1); no in-service year published."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "Orders: 30,000 (2009) and over 32,000 plus an 11,000 option (2019); no delivered total published."
+combat_use:
+  text: "Supplied to Ukraine; Ukrainian gunners were photographed with DM121 rounds in July 2022."
+  source: s3
+specs:
+  max_range:
+    value: 30
+    source: s1
+    confidence: high
+    note: "Up to 30 km from the PzH 2000 (155 mm/52)."
+  projectile_weight: { value: null, source: null, confidence: null }
+  explosive_fill: { value: null, source: null, confidence: null, note: "Manufacturer only says 'several kilograms' of high-performance explosive." }
+  accuracy_cep: { value: null, source: null, confidence: null, note: "Unguided round." }
+operators:
+  - { country: DE, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: UA, force: Ground Forces, state: in_service, quantity: null, source: s3 }
+cost:
+  value: 3406
+  currency: EUR
+  price_year: 2019
+  basis: contract_per_unit
+  source: s1
+  confidence: low
+  note: "2019 framework contract: about EUR 109 million including VAT for 'over 32,000' rounds, i.e. at most about EUR 3,400 per round; includes VAT."
+contracts:
+  - { customer: "Germany (Bundeswehr)", year: 2009, quantity: 30000, value: null, currency: null, note: "First batch.", source: s1 }
+  - { customer: "Germany (Bundeswehr)", year: 2019, quantity: 32000, value: 109000000, currency: EUR, note: "Five-year framework contract, over 32,000 rounds, incl. VAT; option for 11,000 more worth about EUR 37 million.", source: s1 }
+  - { customer: "Germany (Bundeswehr)", year: 2023, quantity: null, value: 137000000, currency: EUR, note: "Extension of the DM121 framework from EUR 109 million to EUR 246 million (gross).", source: s2 }
+peers: [m795, vulcano-155]
+fired_by: [pzh-2000]
+sources:
+  - { id: s1, url: "https://www.rheinmetall.com/en/media/news-watch/news/2019/2019-04-08_major-bundeswehr-order", title: "Major Bundeswehr order: Rheinmetall to supply tens of thousands of artillery shells", publisher: "Rheinmetall", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.rheinmetall.com/de/media/news-watch/news/2023/07/2023-07-18-rheinmetall-erhaelt-grossauftrag-artilleriemunitionder-der-bundeswehr", title: "Rheinmetall erhält Großauftrag für Artilleriemunition der Bundeswehr", publisher: "Rheinmetall", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://militarnyi.com/en/news/ukraine-received-dm121-rounds-with-increased-range-of-30-km/", title: "Ukraine received DM121 rounds with increased range of 30 km", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }

@@ -1,0 +1,47 @@
+id: m795
+category: artillery-ammunition
+name: "M795"
+variant_note: "155 mm high-explosive projectile, TNT or IMX-101 fill; values from the GD-OTS datasheet"
+aliases: ["M795 HE", "M795 IM"]
+manufacturer: { name: "General Dynamics Ordnance and Tactical Systems" }
+production_sites:
+  - { place: "Scranton, Pennsylvania", country: US, source: s2 }
+origin: US
+role: "Standard US 155 mm high-explosive fragmentation shell, used against personnel, vehicles, command posts and supply points."
+memorable_fact: { text: "The M795 replaced the older M107 shell and adds about 29% range, from 17.5 to 22.5 km.", source: s1 }
+status: in_production
+in_service_since: { value: null, source: null, confidence: null }
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public total found. The US Army reported in 2025 that monthly M795 output had nearly quadrupled since 2022 (s3)."
+specs:
+  max_range:
+    value: 22.5
+    source: s1
+    confidence: high
+    note: "Manufacturer figure; the datasheet does not name the gun (top zone with the M203A1 propellant charge). No 52-calibre figure published."
+  projectile_weight:
+    value: 46.7
+    source: s1
+    confidence: high
+    note: "Datasheet: 103 lb, converted to kg."
+  explosive_fill:
+    value: 10.8
+    source: s1
+    confidence: high
+    note: "Datasheet: 23.8 lb of TNT or IMX-101, converted to kg."
+  accuracy_cep: { value: null, source: null, confidence: null, note: "Unguided round." }
+operators:
+  - { country: US, force: Army, state: in_service, quantity: null, source: s3 }
+  - { country: US, force: Marine Corps, state: in_service, quantity: null, source: s1 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public per-round price found." }
+contracts:
+  - { customer: "United States (US Army)", year: 1999, quantity: 57580, value: 11931727, currency: USD, note: "Metal parts only (projectile bodies and rotating band covers), base year; up to USD 27.2M with options. Awarded to Chamberlain Manufacturing, Scranton Army Ammunition Plant.", source: s2 }
+peers: [dm121, m982a1-excalibur, vulcano-155]
+fired_by: []
+sources:
+  - { id: s1, url: "https://www.gdots.com/wp-content/uploads/2021/02/155mm-M795-HE-ArtilleryProjectile-202007-1.pdf", title: "155mm M795 HE Artillery Projectile (datasheet)", publisher: "General Dynamics Ordnance and Tactical Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://man.fas.org/dod-101/sys/land/m795.htm", title: "155-mm M795 projectile", publisher: "Federation of American Scientists (FAS)", retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://www.army.mil/article/287732/new_production_facility_opens_to_streamline_army_artillery_production", title: "New production facility opens to streamline Army artillery production", publisher: "U.S. Army", retrieved: 2026-11-22, kind: government }

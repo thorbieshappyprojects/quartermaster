@@ -1,0 +1,49 @@
+id: bonus
+category: artillery-ammunition
+name: "BONUS"
+variant_note: "155 mm base-bleed carrier shell with two sensor-fuzed attack modules (current BONUS Mk II)"
+aliases: ["Bofors 155 BONUS", "BONUS Mk II"]
+manufacturer: { name: "BAE Systems Bofors and KNDS France (formerly Nexter)" }
+production_sites:
+  - { place: "Karlskoga", country: SE, source: s2 }
+origin: SE
+role: "Fire-and-forget 155 mm carrier shell whose two sensor-fuzed submunitions each search for and attack an armoured vehicle."
+memorable_fact: { text: "Each of the two BONUS submunitions scans a footprint of up to 32,000 square metres for armoured targets.", source: s1 }
+status: in_production
+in_service_since:
+  value: 2003
+  source: s2
+  confidence: medium
+  note: "Sweden has used BONUS since 2003 (s2); the year it entered French service was not found."
+units_built: { value: null, source: null, confidence: null }
+combat_use:
+  text: "A 2022 video showed a BONUS round fired from a CAESAR howitzer in Ukraine hitting an armoured target."
+  source: s5
+specs:
+  max_range:
+    value: 35
+    source: s1
+    confidence: high
+    note: "Manufacturer: 35 km from a NATO L52 gun (base-bleed); 27 km from a 39-calibre gun (s3)."
+  projectile_weight: { value: 44.6, source: s3, confidence: high, note: "Without fuze." }
+  explosive_fill: { value: null, source: null, confidence: null }
+  accuracy_cep: { value: null, source: null, confidence: null, note: "Sensor-fuzed area munition; no CEP published." }
+operators:
+  - { country: SE, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: FI, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: FR, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: NO, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: US, force: Army, state: in_service, quantity: null, source: s1 }
+  - { country: UA, force: Ground Forces, state: in_service, quantity: null, source: s5 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "Contract values are public but round quantities are not, so no per-round figure." }
+contracts:
+  - { customer: "Sweden (FMV, for the Swedish Armed Forces)", year: 2025, quantity: null, value: 600000000, currency: SEK, note: "Third Swedish BONUS contract since 2017.", source: s4 }
+  - { customer: "Sweden (Swedish Army)", year: 2017, quantity: null, value: null, currency: null, note: "Additional rounds, delivery scheduled for 2019.", source: s2 }
+peers: [smart-155, m982a1-excalibur]
+fired_by: [archer]
+sources:
+  - { id: s1, url: "https://www.baesystems.com/en/product/155-bonus", title: "Bofors 155mm BONUS munition", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.baesystems.com/en/article/swedish-army-selects-bofors-155mm-bonus-munition", title: "Swedish Army selects Bofors 155mm BONUS munition", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s3, url: "https://knds.com/products/ammunition/155mm-bonus", title: "155mm BONUS", publisher: "KNDS", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.baesystems.com/en/article/bae-systems-secures-contract-with-swedish-armed-forces-for-155mm-bonus-munition", title: "BAE Systems secures contract with Swedish Armed Forces for 155mm BONUS munition", publisher: "BAE Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s5, url: "https://defence24.pl/sily-zbrojne/ukraina-specjalna-amunicja-artyleryjska-w-uzyciu", title: "Ukraina: specjalna amunicja artyleryjska w użyciu", publisher: "Defence24", retrieved: 2026-11-22, kind: press }

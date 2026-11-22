@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "RUSI 155mm artillery ammunition shell production Ukraine precision guided munitions analysis",
+    "CSIS 155mm ammunition production stockpiles Ukraine analysis shells per month",
+    "Excalibur Ukraine supplied M777 Excalibur rounds jamming accuracy dropped"
+  ],
+  "urlsSeen": [
+    "https://www.rusi.org/explore-our-research/publications/commentary/russias-artillery-war-ukraine-challenges-and-innovations",
+    "https://www.csis.org/analysis/rebuilding-us-inventories-six-critical-systems",
+    "https://www.defenseone.com/policy/2024/02/army-aims-double-155mm-shell-production-october/393943/",
+    "https://www.adn.com/nation-world/2024/05/24/russian-jamming-leaves-some-high-tech-us-weapons-ineffective-in-ukraine/",
+    "https://euro-sd.com/2024/07/articles/39533/blunting-excaliburs-edge/",
+    "https://thedefensepost.com/2026/07/15/nato-diehl-vulcano-ammunition/",
+    "https://www.shephardmedia.com/news/landwarfareintl/excalibur-successfully-fired-pzh2000-self-propelle/",
+    "https://www.gdots.com/wp-content/uploads/2021/02/155mm-M795-HE-ArtilleryProjectile-202007-1.pdf",
+    "https://rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2018/2018-06-11-Eurosatory/2018_06_11_rheinmetall_eurosatory_smart_155mm_desmart_155mm_en.pdf",
+    "https://www.lawfaremedia.org/article/ukraine-s-artillery-shell-shortfall",
+    "https://www.janes.com/defence-intelligence-insights/defence-news/defence/shelling-out-us-army-on-road-to-100000-rounds-per-month-of-155-mm-ammo"
+  ]
+}

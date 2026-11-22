@@ -1,0 +1,71 @@
+id: m982a1-excalibur
+category: artillery-ammunition
+name: "M982A1 Excalibur"
+variant_note: "Increment Ib, GPS-guided 155 mm projectile"
+family: "Excalibur"
+aliases: ["Excalibur Ib", "M982 Excalibur"]
+manufacturer: { name: "RTX (Raytheon), with BAE Systems Bofors" }
+origin: US
+role: "GPS-guided, fin-stabilised 155 mm projectile with a unitary high-explosive warhead for precise strikes on point targets."
+memorable_fact: { text: "In a 2013 test from a PzH 2000, the average miss distance of Excalibur at 48 km was under one metre.", source: s4 }
+status: in_production
+in_service_since:
+  value: 2007
+  source: s5
+  confidence: high
+  note: "Base system: Excalibur was first fielded in 2007 (Increment Ia-1). The M982A1 (Increment Ib) reached full-rate production in 2018 (s2)."
+units_built:
+  value: null
+  source: null
+  confidence: null
+  note: "No public production total found. CSIS estimated annual production at about 1,000 rounds in early 2023 (s3)."
+combat_use:
+  text: "Ukraine fired Excalibur from M777 howitzers; a Ukrainian assessment says Russian GPS jamming cut its hit rate from over 50% to below 10% during 2023. First combat use was in Iraq in 2007 (s2)."
+  source: s6
+specs:
+  max_range:
+    value: 50
+    source: s1
+    confidence: high
+    note: "Manufacturer: 40 km from 39-calibre, 50 km from 52-calibre and 70 km from 58-calibre guns (s1). The 52-calibre figure is shown."
+  projectile_weight: { value: 48, source: s2, confidence: medium }
+  explosive_fill: { value: 22, source: s2, confidence: medium, note: "PBXN-9 unitary warhead." }
+  accuracy_cep:
+    value: 2
+    source: s1
+    confidence: medium
+    range: { min: 2, max: 4 }
+    note: "Manufacturer: radial miss distance of less than two metres (s1); reference work: 4 m CEP or better (s2). Manufacturer figure shown."
+operators:
+  - { country: US, force: Army, state: in_service, quantity: null, source: s5 }
+  - { country: US, force: Marine Corps, state: in_service, quantity: null, source: s1 }
+  - { country: AU, force: Army, state: in_service, quantity: null, source: s5 }
+  - { country: CA, force: Army, state: in_service, quantity: null, source: s5 }
+  - { country: JO, force: Army, state: in_service, quantity: null, source: s5 }
+  - { country: SE, force: Army, state: in_service, quantity: null, source: s5 }
+  - { country: NL, force: Army, state: in_service, quantity: null, source: s5 }
+  - { country: IN, force: Army, state: ordered, quantity: null, source: s5 }
+  - { country: ES, force: Army, state: ordered, quantity: null, source: s5 }
+  - { country: UA, force: Ground Forces, state: in_service, quantity: null, source: s6 }
+cost:
+  value: 84000
+  currency: USD
+  price_year: 2022
+  basis: contract_per_unit
+  source: s3
+  confidence: medium
+  note: "US contract of about USD 84 million for 1,000 rounds, as reported by CSIS (January 2023)."
+contracts:
+  - { customer: "United States (US Army)", year: 2022, quantity: 1000, value: 84000000, currency: USD, note: "Replenishment contract reported by CSIS.", source: s3 }
+  - { customer: "Netherlands (FMS)", year: 2021, quantity: null, value: 20310000, currency: USD, note: "Increment Ib, delivery by April 2023.", source: s5 }
+  - { customer: "India (FMS)", year: 2021, quantity: null, value: 9170000, currency: USD, source: s5 }
+  - { customer: "Spain (FMS)", year: 2021, quantity: null, value: 9140000, currency: USD, source: s5 }
+peers: [vulcano-155, m795, smart-155]
+fired_by: [m777, m109a6-paladin, pzh-2000, archer]
+sources:
+  - { id: s1, url: "https://www.rtx.com/raytheon/what-we-do/land/excalibur-projectile", title: "Excalibur projectile", publisher: "RTX (Raytheon)", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://designation-systems.net/dusrm/app4/m982.html", title: "Raytheon/Bofors M982 Excalibur (Directory of U.S. Military Rockets and Missiles)", publisher: "Designation-Systems.net", retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://www.csis.org/analysis/rebuilding-us-inventories-six-critical-systems", title: "Rebuilding U.S. Inventories: Six Critical Systems", publisher: "Center for Strategic and International Studies (CSIS)", retrieved: 2026-11-22, kind: reference }
+  - { id: s4, url: "https://www.shephardmedia.com/news/landwarfareintl/excalibur-successfully-fired-pzh2000-self-propelle/", title: "Excalibur successfully fired from PzH2000 howitzer", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.shephardmedia.com/news/landwarfareintl/india-netherlands-and-spain-receive-excalibur/", title: "India, Netherlands and Spain to receive Excalibur", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.adn.com/nation-world/2024/05/24/russian-jamming-leaves-some-high-tech-us-weapons-ineffective-in-ukraine/", title: "Russian jamming leaves some high-tech U.S. weapons ineffective in Ukraine", publisher: "The Washington Post (via Anchorage Daily News)", retrieved: 2026-11-22, kind: press }

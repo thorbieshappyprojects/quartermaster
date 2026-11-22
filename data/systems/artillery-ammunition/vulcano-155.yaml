@@ -1,0 +1,51 @@
+id: vulcano-155
+category: artillery-ammunition
+name: "Vulcano 155 GLR"
+variant_note: "Guided Long Range version (IMU + GPS, optional semi-active laser seeker) of the Vulcano 155 family"
+family: "Vulcano"
+aliases: ["Vulcano GLR"]
+manufacturer: { name: "Leonardo, with Diehl Defence" }
+origin: IT
+role: "Guided, fin-stabilised sub-calibre 155 mm round for long-range precision fire against stationary and moving point targets."
+memorable_fact: { text: "The same Vulcano family is fired by 155 mm land guns and 127 mm naval guns, with ranges of up to 70 km and 80 km respectively.", source: s2 }
+status: in_production
+in_service_since:
+  value: null
+  source: null
+  confidence: null
+  note: "In September 2019 the 155 mm qualification was reported as shortly before completion (s2); no public in-service year found."
+units_built: { value: null, source: null, confidence: null }
+combat_use:
+  text: "Ukraine has fired the unguided sister round, Vulcano 155 BER, from PzH 2000 howitzers since 2023; no specific combat use of the guided GLR is documented publicly."
+  source: s6
+specs:
+  max_range:
+    value: 70
+    source: s1
+    confidence: high
+    note: "Manufacturer: up to 70 km from a 155/52 gun and 55 km from a 155/39 gun. The unguided BER reaches 50 km and 36 km respectively."
+  projectile_weight: { value: null, source: null, confidence: null }
+  explosive_fill: { value: null, source: null, confidence: null }
+  accuracy_cep:
+    value: 5
+    source: s1
+    confidence: high
+    note: "Manufacturer: CEP of 5 m or less on coordinates at any range with IMU + GPS; 3 m or less with the semi-active laser seeker on a designated target."
+operators:
+  - { country: DE, force: Army, state: in_service, quantity: null, source: s4 }
+  - { country: IT, force: Army, state: in_service, quantity: null, source: s4 }
+  - { country: US, force: Army, state: evaluating, quantity: null, source: s4 }
+cost: { value: null, currency: null, price_year: null, basis: null, source: null, confidence: null, note: "No public per-round price found." }
+contracts:
+  - { customer: "Ukraine (procured by Germany, with EU involvement)", year: 2022, quantity: 225, value: null, currency: null, note: "Variant not stated at the time; later reporting puts the figure at 255 and says the rounds delivered from March 2023 were the unguided BER (s6).", source: s5 }
+  - { customer: "NATO Support and Procurement Agency (NSPA)", year: 2026, quantity: null, value: null, currency: null, note: "Framework contract to Diehl Defence for Vulcano 155 mm guided ammunition; deliveries expected from 2027.", source: s4 }
+  - { customer: "United States (US Army, ERAP)", year: 2026, quantity: null, value: null, currency: null, note: "Extended Range Artillery Projectile contract won by General Dynamics OTS for a US version based on Vulcano 155 GLR.", source: s3 }
+peers: [m982a1-excalibur, m795, dm121]
+fired_by: [pzh-2000]
+sources:
+  - { id: s1, url: "https://electronics.leonardo.com/documents/16277707/0/Vulcano%2B155%2B%2528MM08723%2529_HQ.pdf", title: "Vulcano 155 - Guided and unguided long range 155 mm ammunition (datasheet MM08723 05-21)", publisher: "Leonardo", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://esut.de/2019/09/meldungen/ruestung2/15362/qualifikation-der-lenkmunition-vulcano-abgeschlossen/", title: "Qualifikation der Lenkmunition Vulcano abgeschlossen", publisher: "ES&T (Europäische Sicherheit & Technik)", retrieved: 2026-11-22, kind: press }
+  - { id: s3, url: "https://www.leonardo.com/en/press-release-detail/-/detail/16-06-2026-diehl-defence-leonardo-and-general-dynamics-celebrate-extended-range-artillery-projectile-award-based-on-vulcano-155mm-glr", title: "Diehl Defence, Leonardo and General Dynamics celebrate Extended Range Artillery Projectile award based on Vulcano 155mm GLR", publisher: "Leonardo", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://thedefensepost.com/2026/07/15/nato-diehl-vulcano-ammunition/", title: "NSPA awards Diehl Defence framework contract for Vulcano 155mm guided ammunition", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://militarnyi.com/en/news/ukraine-will-receive-225-high-precision-vulcano-rounds/", title: "Ukraine will receive 225 high-precision Vulcano rounds", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://militarnyi.com/en/news/ukraine-may-procure-vulcano-precision-guided-artillery-shells-for-long-range-guns/", title: "Ukraine May Procure Vulcano Precision-Guided Artillery Shells for Long-Range Guns", publisher: "Militarnyi", retrieved: 2026-11-22, kind: press }

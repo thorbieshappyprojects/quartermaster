@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "BONUS 155mm sensor fuzed munition Nexter Bofors range 35 km",
+    "BAE Systems BONUS contract Swedish Armed Forces value SEK quantity Finland Norway",
+    "BONUS shell used in Ukraine France supplied BONUS Caesar combat"
+  ],
+  "urlsSeen": [
+    "https://www.baesystems.com/en/product/155-bonus",
+    "https://knds.com/products/ammunition/155mm-bonus",
+    "https://www.baesystems.com/en/article/bae-systems-secures-contract-with-swedish-armed-forces-for-155mm-bonus-munition",
+    "https://www.baesystems.com/en/article/swedish-army-selects-bofors-155mm-bonus-munition",
+    "https://defence24.pl/sily-zbrojne/ukraina-specjalna-amunicja-artyleryjska-w-uzyciu",
+    "https://ukdefencejournal.org.uk/sweden-orders-62m-in-bonus-precision-artillery-rounds/",
+    "https://en.wikipedia.org/wiki/Bofors/Nexter_Bonus"
+  ]
+}

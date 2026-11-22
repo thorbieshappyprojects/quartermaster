@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "SMArt 155 GIWS sensor fuzed munition range 27.5 km Bundeswehr",
+    "SMArt 155 order Bundeswehr Diehl Rheinmetall GIWS contract million rounds 2023 2024",
+    "\"SMArt 155\" range \"27.5 km\" OR \"27,5 km\" PzH 2000 52 calibre",
+    "SMArt 155 Ukraine Pantsir PzH 2000 strike July 2022 sensor fuzed"
+  ],
+  "urlsSeen": [
+    "https://www.gd-ots.com/wp-content/uploads/2017/11/SMArt155.pdf",
+    "https://www.gdots.com/wp-content/uploads/2017/11/SMArt155.pdf",
+    "https://rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2018/2018-06-11-Eurosatory/2018_06_11_rheinmetall_eurosatory_smart_155mm_desmart_155mm_en.pdf",
+    "https://www.rheinmetall.com/en/products/weapons-and-munition/weapons-and-ammunition/large-calibre-weapons-and-ammunition/cutting-edge-in-modern-artillery-technology",
+    "https://militarnyi.com/en/news/ukrainian-artillerymen-use-smart-155-rounds-in-soledar-area/",
+    "https://www.australiandefence.com.au/D5B40560-F806-11DD-8DFE0050568C22C9",
+    "https://esut.de/en/2022/10/meldungen/37472/nachentwicklung-fuer-artilleriemunition-smart-155-genehmigt/",
+    "https://janes.com/defence-news/news-detail/new-serial-production-of-smart-155-slated-for-2024",
+    "https://deagel.com/weapons/smart 155/a001141",
+    "https://overtdefense.com/2022/07/12/155mm-pzh-2000-self-propelled-artillery-and-smart-ammunition-in-action-in-ukraine"
+  ]
+}

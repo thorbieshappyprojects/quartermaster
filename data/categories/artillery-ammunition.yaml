@@ -1,0 +1,57 @@
+# Indicators: scripts/research/indicators/artillery-ammunition.yaml. Category card researched 2026-11-22.
+id: artillery-ammunition
+name: 155 mm artillery ammunition
+domain: Ammunition
+wave: 2
+indicators:
+  - { id: max_range, label: Max. range, unit: km, trump: higher_wins, decimals: 1, description: From a 52-calibre gun where stated (say which gun in note). }
+  - { id: projectile_weight, label: Projectile weight, unit: kg, trump: higher_wins, decimals: 1 }
+  - { id: explosive_fill, label: Explosive fill, unit: kg, trump: higher_wins, decimals: 1 }
+  - { id: accuracy_cep, label: Accuracy (CEP), unit: m, trump: lower_wins, description: Circular error probable; guided rounds only. }
+category_card:
+  summary: 155 mm artillery ammunition covers the projectiles fired by NATO-standard howitzers, from unguided high-explosive shells to base-bleed and sub-calibre extended-range rounds, GPS- or laser-guided projectiles and sensor-fuzed anti-armour carrier shells. The same round can usually be fired from many different guns, and its range depends strongly on barrel length and propellant charge.
+  purpose:
+    - text: The standard high-explosive shell is used against personnel, trucks, surveillance and target-acquisition equipment, supply points, command posts and mechanised forces.
+      source: s1
+    - text: Reports cited by RUSI attribute around 70% of Ukraine's casualties to artillery fire, which makes shell supply central to the war.
+      source: s2
+    - text: Sensor-fuzed rounds carry two submunitions that search for armoured vehicles on their own, so artillery can engage tanks without a direct line of sight.
+      source: s3
+  strengths:
+    - text: Shells are far cheaper than missiles, and an unguided round can still have an effect when navigation signals are jammed; Ukraine proposed unguided area weapons as a jamming-resistant alternative to GPS-guided ones.
+      source: s4
+    - text: Guided rounds can hit a point target with one or a few shells. In a 2013 test from a PzH 2000, ten Excalibur rounds all landed within 3 m of their targets at 9 to 48 km.
+      source: s5
+    - text: Sensor-fuzed rounds let a fire mission finish with only a few projectiles, which supports 'shoot and scoot' tactics and reduces exposure to counter-battery fire.
+      source: s3
+  weaknesses:
+    - text: With unguided shells, the chance of hitting a small target such as a dispersed gun is low unless a large number of rounds is fired.
+      source: s2
+    - text: Guided rounds are expensive and scarce. In early 2023 CSIS estimated annual Excalibur production at about 1,000 rounds, against around 1,000 a month being sent to Ukraine.
+      source: s6
+    - text: Demand far outstripped Western production. CSIS put US 155 mm output at 3,250 shells a month in early 2023, against Ukrainian use of 6,000-7,000 rounds a day.
+      source: s6
+  counters:
+    - text: GPS jamming cut the hit rate of Excalibur rounds in Ukraine from more than 50% to below 10% over several months of 2023, according to a Ukrainian assessment.
+      source: s4
+    - text: It is unclear whether Ukraine received the encrypted military GPS code (P(Y)) that makes guided rounds harder to jam; anti-jam improvements are being considered.
+      source: s7
+    - text: Laser-guided rounds such as Russia's Krasnopol lose accuracy under low cloud and in broken terrain.
+      source: s2
+  trends:
+    - text: The US Army planned to raise 155 mm shell output from about 14,000 a month before February 2022 to 100,000 a month by October 2025, partly with a new plant in Texas.
+      source: s8
+    - text: Range is being pushed with guided long-range rounds. The US Army's Extended Range Artillery Projectile programme, with initial capability expected in fiscal year 2030, is evaluating several designs, among them one based on the Vulcano sub-calibre round.
+      source: s9
+    - text: Insensitive explosives such as IMX-101 are replacing TNT in standard shells to reduce the risk of unplanned detonation during handling.
+      source: s1
+sources:
+  - { id: s1, url: "https://www.gdots.com/wp-content/uploads/2021/02/155mm-M795-HE-ArtilleryProjectile-202007-1.pdf", title: "155mm M795 HE Artillery Projectile (datasheet)", publisher: "General Dynamics Ordnance and Tactical Systems", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s2, url: "https://www.rusi.org/explore-our-research/publications/commentary/russias-artillery-war-ukraine-challenges-and-innovations", title: "Russia's Artillery War in Ukraine: Challenges and Innovations", publisher: "Royal United Services Institute (RUSI)", retrieved: 2026-11-22, kind: reference }
+  - { id: s3, url: "https://rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2018/2018-06-11-Eurosatory/2018_06_11_rheinmetall_eurosatory_smart_155mm_desmart_155mm_en.pdf", title: "SMArt155 sensor-fused artillery ammunition assures high-accuracy engagement of land and coastal targets", publisher: "Rheinmetall", retrieved: 2026-11-22, kind: manufacturer }
+  - { id: s4, url: "https://www.adn.com/nation-world/2024/05/24/russian-jamming-leaves-some-high-tech-us-weapons-ineffective-in-ukraine/", title: "Russian jamming leaves some high-tech U.S. weapons ineffective in Ukraine", publisher: "The Washington Post (via Anchorage Daily News)", retrieved: 2026-11-22, kind: press }
+  - { id: s5, url: "https://www.shephardmedia.com/news/landwarfareintl/excalibur-successfully-fired-pzh2000-self-propelle/", title: "Excalibur successfully fired from PzH2000 howitzer", publisher: "Shephard Media", retrieved: 2026-11-22, kind: press }
+  - { id: s6, url: "https://www.csis.org/analysis/rebuilding-us-inventories-six-critical-systems", title: "Rebuilding U.S. Inventories: Six Critical Systems", publisher: "Center for Strategic and International Studies (CSIS)", retrieved: 2026-11-22, kind: reference }
+  - { id: s7, url: "https://euro-sd.com/2024/07/articles/39533/blunting-excaliburs-edge/", title: "Blunting Excalibur's edge", publisher: "European Security & Defence (ESD)", retrieved: 2026-11-22, kind: press }
+  - { id: s8, url: "https://www.defenseone.com/policy/2024/02/army-aims-double-155mm-shell-production-october/393943/", title: "Army aims to double 155mm shell production by October", publisher: "Defense One", retrieved: 2026-11-22, kind: press }
+  - { id: s9, url: "https://thedefensepost.com/2026/07/15/nato-diehl-vulcano-ammunition/", title: "NSPA awards Diehl Defence framework contract for Vulcano 155mm guided ammunition", publisher: "The Defense Post", retrieved: 2026-11-22, kind: press }

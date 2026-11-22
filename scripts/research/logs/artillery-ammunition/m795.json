@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-22",
+  "method": "in-session (Claude Code web search)",
+  "queries": [
+    "M795 155mm high explosive projectile weight TNT fill range specifications",
+    "M795 Army procurement budget unit cost \"M795\" projectile cost per round",
+    "M795 155mm projectile type classified year production Scranton Army Ammunition Plant shells per month"
+  ],
+  "urlsSeen": [
+    "https://www.gd-ots.com/wp-content/uploads/2021/02/155mm-M795-HE-ArtilleryProjectile-202007-1.pdf",
+    "https://www.gdots.com/wp-content/uploads/2021/02/155mm-M795-HE-ArtilleryProjectile-202007-1.pdf",
+    "https://www.gd-ots.com/wp-content/uploads/2019/06/M795-Brochure.pdf",
+    "https://en.wikipedia.org/wiki/M795_projectile",
+    "https://man.fas.org/dod-101/sys/land/m795.htm",
+    "https://www.army.mil/article/287732/new_production_facility_opens_to_streamline_army_artillery_production",
+    "https://fieldartillery.org/news/army-to-cut-155-mm-artillery-spending-citing-budget-pressure",
+    "https://www.marines.mil/News/News-Display/Article/631490/groundbreaking-round-new-artillery-round-brings-promise-of-more-bang-less-buck/"
+  ]
+}
