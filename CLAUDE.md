@@ -1,6 +1,6 @@
 # Quartermaster
 
-Quartet-style card game for learning military equipment: one card per system, comparable core values, playful modes. A second deck (planned) teaches military ranks. English only. Users: the owner and friends, on phone and Mac; solo play first.
+Quartet-style card game for learning military equipment: one card per system, comparable core values, playful modes. A second deck teaches military ranks (pilot: Germany and France). English only. Users: the owner and friends, on phone and Mac; solo play first.
 
 The repository is **public**. Planning documents live in `docs/` locally and are gitignored — never commit them, and keep code, data and commit messages neutral (no company framing, no paths to other local projects).
 
@@ -44,6 +44,8 @@ data/manufacturers/                  # optional manufacturer context (local impo
 data/photos/<category>/<id>.yaml     # openly licensed photos with attribution
 data/feedback/<category>/<id>.yaml   # field reports
 data/fx/ecb.yaml                     # ECB annual average rates for EUR conversion
+data/ranks/<country>-<branch>.yaml   # ranks deck: one service, most junior first, NATO code + source per rank
+data/insignia/<country>-<branch>.yaml # openly licensed insignia per rank id (npm run research:insignia)
 schemas/                             # JSON Schemas: common, category, system, source
 scripts/validate.ts                  # npm run validate [-- <root>] [--gaps]
 scripts/build-data.ts                # npm run build:data
@@ -83,6 +85,10 @@ sources:
 ```
 
 Trump directions: `higher_wins`, `lower_wins`, `not_playable`.
+
+Ammunition cards (category id ending in `ammunition`) are system cards with an extra `fired_by: [platform ids]`; the card view shows the relation on both the round and the platform.
+
+Ranks (`schemas/ranks.schema.json`): `{ id, country, branch: army|air_force|navy, force, force_en, nato_graded?, ranks: [{ id, name, name_en, abbreviation?, code: OR-n|WO-n|OF-D|OF-n, approximate?, group, role?, source }], sources }`. Equivalence = same NATO code; countries outside the NATO scheme set `nato_graded: false` and every code `approximate: true`. Research: `npm run research:ranks` (forces listed in `scripts/research/ranks.ts`).
 
 ## Working rules
 
