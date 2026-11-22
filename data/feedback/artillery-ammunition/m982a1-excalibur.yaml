@@ -1,0 +1,29 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: m982a1-excalibur
+items:
+  - summary: "Internal Ukrainian military assessments reported that Excalibur's hit rate fell from over half early on to under 10 percent within months, and blamed Russian GPS jamming. Gunners had largely stopped firing the round, which also needs time-consuming programming compared with standard shells."
+    quote: "The Excalibur technology in existing versions has lost its potential."
+    speaker: "Ukrainian military assessment and field artillery personnel (Ukraine)"
+    context: "Confidential Ukrainian assessments from autumn 2023 to April 2024, reported by The Washington Post and republished by Stars and Stripes; later shots were fewer and often unobserved"
+    sentiment: "negative"
+    topics: ["sensors", "training"]
+    source: { url: "https://www.stripes.com/theaters/europe/2024-05-24/russian-jamming-high-tech-weapons-ukraine-13964032.html", title: "Russian jamming leaves some high-tech US weapons ineffective in Ukraine", publisher: "Stars and Stripes (The Washington Post)", date: "2024-05-24", retrieved: 2026-11-22 }
+  - summary: "Earlier in the war, a Ukrainian serviceman working with artillery crews on the Dnipro front said Excalibur rounds were very important for wearing down Russian forces. He credited them with destroying Russian equipment, including two S-300 systems."
+    speaker: "Serviceman working with artillery crews (Ukraine)"
+    context: "Video shared by Ukraine's commander-in-chief, April 2023, reported by Ukrainska Pravda"
+    sentiment: "positive"
+    topics: ["firepower"]
+    source: { url: "https://www.pravda.com.ua/eng/news/2023/04/5/7396637/", title: "Ukrainian defenders demonstrate their work with high-precision Excalibur projectiles", publisher: "Ukrainska Pravda", date: "2023-04-05", retrieved: 2026-11-22 }
+  - summary: "An M777 gun commander said Excalibur can land within a few metres of the target, but noted the shell is much bigger, heavier and more expensive than ordinary rounds."
+    speaker: "Chief gun commander, 45th Separate Artillery Brigade (Ukraine)"
+    context: "ArmyInform feature on an M777 unit, March 2025, in Ukrainian"
+    sentiment: "mixed"
+    topics: ["firepower", "cost", "logistics"]
+    source: { url: "https://armyinform.com.ua/2025/03/31/gaubyczya-m777-amerykanski-sokyry-rubayut-golovy-rosiyanam/", title: "Гаубиця М777: американські «сокири» «рубають» голови росіянам", publisher: "ArmyInform", date: "2025-03-31", retrieved: 2026-11-22 }
+  - summary: "A Ukrainian artillery brigade commander described a practice of choosing unguided 155 mm shells over guided rounds such as Excalibur. Accuracy comes from the gun and from drone spotting instead."
+    speaker: "Commander, 7th Artillery Brigade, National Guard (Ukraine)"
+    context: "Interview with Oboronka, summarised by Quwa in September 2026; his view is paraphrased by the outlet"
+    sentiment: "negative"
+    topics: ["cost", "sensors"]
+    source: { url: "https://quwa.org/europe/market-intelligence-emea/why-ukraine-now-prefers-unguided-155-mm-artillery-shells-over-guided-ones/", title: "Why Ukraine now prefers unguided 155 mm artillery shells over guided ones", publisher: "Quwa", date: "2026-09-22", retrieved: 2026-11-22 }
+note: "All items come from Ukrainian users; the reporting does not say which Excalibur increment was fired, and the 2024 hit-rate figures come from a limited sample."

@@ -1,0 +1,17 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: 2s1-gvozdika
+items:
+  - summary: "The driver-mechanic of a 2S1 crew in Donetsk Oblast said the vehicle always starts and has never let them down, though mud is the main difficulty. The battery commander said their hits depend mostly on the crew's skill. The crew mostly fires from cover and works with aerial reconnaissance, and enemy shelling and drones have forced it to leave positions early."
+    speaker: "Driver-mechanic, gun commander and battery commander of an airborne 2S1 battery (Ukraine)"
+    context: "ArmyInform front-line report, June 2023, in Ukrainian"
+    sentiment: "positive"
+    topics: ["reliability", "mobility", "protection"]
+    source: { url: "https://armyinform.com.ua/2023/06/03/budni-artrozrahunku-sau-2s1-gvozdyka-na-donechchyni-reportazh-iz-peredovoyi/", title: "Будні артрозрахунку САУ 2С1 «Гвоздика» на Донеччині", publisher: "ArmyInform", date: "2023-06-03", retrieved: 2026-11-22 }
+  - summary: "A Ukrainian howitzer crew commander who first trained on the 2S1 said switching to the domestic 155 mm Bohdana made the gap to Soviet-era systems clear at once, mainly because of the better barrel and the longer accurate range."
+    quote: "the difference was immediately obvious"
+    speaker: "Bohdana crew commander, formerly trained on 2S1, 50th Separate Artillery Brigade (Ukraine)"
+    context: "Ukrinform interview, 2026; the comparison is indirect"
+    sentiment: "negative"
+    topics: ["firepower", "training"]
+    source: { url: "https://www.ukrinform.net/rubric-ato/4150749-oleksii-bohdana-selfpropelled-howitzer-commander-its-an-incredible-experience-where-else-would-you-ever-get-the-chance-to-fire-a-155-mm-round-at-a-target.html", title: "Oleksii, Bohdana Self-Propelled Howitzer Commander: \"It's an Incredible Experience. Where Else Would You Ever Get the Chance to Fire a 155 mm Round at a Target?\"", publisher: "Ukrinform", date: "2026-08-04", retrieved: 2026-11-22 }
+note: "There is little first-hand 2S1 feedback beyond Ukrainian army media; a Ukrainian-language interview with a Gvozdika commander (Ukranews) could not be opened."

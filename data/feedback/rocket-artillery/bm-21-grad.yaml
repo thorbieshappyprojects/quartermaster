@@ -1,0 +1,31 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: bm-21-grad
+items:
+  - summary: "A senior battery officer who had earlier served on the M109 Paladin said he prefers the Grad: it is manoeuvrable, easy to operate and maintain, and he can complete a fire mission faster with it. The crew cleans and inspects the tubes together so the launcher is always ready."
+    quote: "But to me, the Grad just feels better."
+    speaker: "Senior battery officer, 148th Artillery Brigade (Ukraine)"
+    context: "Frontliner reporters with a Grad crew in June 2026"
+    sentiment: "positive"
+    topics: ["ergonomics", "maintenance", "mobility"]
+    source: { url: "https://frontliner.ua/en/bm-21-grad-40-rockets-20-seconds-and-zero-chance-for-ew/", title: "Grad: Why the Soviet-era system is still effective against EW", publisher: "Frontliner", date: "2026", retrieved: 2026-11-22 }
+  - summary: "A Grad vehicle commander said drones now dominate the battlefield but can be jammed, while an unguided rocket salvo cannot."
+    quote: "And no EW can jam the salvos of rockets we fire."
+    speaker: "Combat vehicle commander, 148th Artillery Brigade (Ukraine)"
+    context: "Frontliner report, June 2026"
+    sentiment: "positive"
+    topics: ["firepower"]
+    source: { url: "https://frontliner.ua/en/bm-21-grad-40-rockets-20-seconds-and-zero-chance-for-ew/", title: "Grad: Why the Soviet-era system is still effective against EW", publisher: "Frontliner", date: "2026", retrieved: 2026-11-22 }
+  - summary: "The same crew stressed how exposed the truck is. They wait under cover, sometimes for hours, drive out to fire and leave as fast as they can, because staying longer gets them spotted. The unit later said a Lancet drone hit the same launcher and wounded two crew members."
+    quote: "The longer you stay at a firing position, the faster enemy spots you."
+    speaker: "Senior battery officer, 148th Artillery Brigade (Ukraine)"
+    context: "Frontliner report, June 2026; the drone strike followed in August, according to the brigade's press officer"
+    sentiment: "mixed"
+    topics: ["protection", "mobility"]
+    source: { url: "https://frontliner.ua/en/bm-21-grad-40-rockets-20-seconds-and-zero-chance-for-ew/", title: "Grad: Why the Soviet-era system is still effective against EW", publisher: "Frontliner", date: "2026", retrieved: 2026-11-22 }
+  - summary: "Grad crews near Bakhmut said they use the launcher for precise strikes on valuable Russian equipment, and that aiming and firing quickly is key to avoiding detection."
+    speaker: "Grad crew members, 80th Brigade (Ukraine)"
+    context: "RFE/RL Ukrainian Service report from the Bakhmut area, April 2023; crew views are paraphrased by the outlet"
+    sentiment: "positive"
+    topics: ["firepower", "mobility"]
+    source: { url: "https://rferl.org/amp/ukraine-russia-bakhmut-artillery-grads-rocket-accordion-trophy-pinpoint/32377304.html", title: "Ukrainian Artillery Crews Defending Bakhmut Rely On Grad Rocket Systems", publisher: "RFE/RL", date: "2023-04-24", retrieved: 2026-11-22 }
+note: "All items are Ukrainian crews; the most detailed account is one Frontliner report from 2026. I did not check Russian crew accounts, which are mostly in state media."

@@ -1,0 +1,31 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: m109a6-paladin
+items:
+  - summary: "Crew members of a Ukrainian brigade told Voice of America that the Paladin outranges the Soviet-era howitzers they used before. A crew member said he learned the digital fire-control system within a week, felt it made them more precise, and found the armour and the joystick-controlled barrel better than on the 2S3 Akatsiya."
+    speaker: "Paladin crew commander and crew member, 24th Separate Mechanised Brigade (Ukraine)"
+    context: "Voice of America report from the front, February 2024, as summarised by Army Recognition"
+    sentiment: "positive"
+    topics: ["firepower", "sensors", "ergonomics"]
+    source: { url: "https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/ukrainian-brigade-values-us-m109a6-paladin-howitzer-s-superior-range-and-defense-features", title: "Ukrainian Brigade values US M109A6 Paladin howitzer's superior range and defense features", publisher: "Army Recognition", date: "2024-02-29", retrieved: 2026-11-22 }
+  - summary: "Gunners of Ukraine's 47th Brigade said their Paladins helped the infantry take Robotyne. They fired about 50 to 100 rounds a day, often at targets under 10 km away, and praised how quickly the howitzer can change position to avoid return fire."
+    quote: "When the infantry needs help, there's no room for economy"
+    speaker: "Paladin crew members, 47th Separate Mechanised Brigade (Ukraine)"
+    context: "Interview with United24 Media during the 2023 Zaporizhzhia counteroffensive, reported by The War Zone"
+    sentiment: "positive"
+    topics: ["mobility", "firepower"]
+    source: { url: "https://www.twz.com/ukraine-situation-report-m109-paladins-are-proving-too-wily-for-russian-gunners", title: "Ukraine Situation Report: M109 Paladins Are Proving Too Wily For Russian Gunners", publisher: "The War Zone", date: "2023-09-18", retrieved: 2026-11-22 }
+  - summary: "A Paladin crew commander described how the shortage of 155 mm shells limited his crew. They fired only when they saw a target, often with just a handful of rounds, while the Russian side fired around the clock."
+    quote: "We can't work like that, we often get only three shells to hit a target"
+    speaker: "Paladin crew commander, 93rd Mechanised Brigade (Ukraine)"
+    context: "Front-line report on the shell shortage during the 2024 delay in US aid"
+    sentiment: "negative"
+    topics: ["logistics"]
+    source: { url: "https://kyivindependent.com/on-the-front-line-of-ukraines-shell-hunger-as-effects-of-congress-blockade-bite", title: "On the front line of Ukraine's shell hunger as effects of Congress blockade bite", publisher: "The Kyiv Independent", date: "2024-02-22", retrieved: 2026-11-22 }
+  - summary: "In Donbas, a Ukrainian artillery officer said the donated older M109 guns broke down often and were worn out, and asked for newer equipment. A soldier in the same unit still preferred the M109 for comfort, manoeuvrability and accuracy."
+    quote: "It's comfortable to work with, the maneuverability is good, it shoots accurately, and is not capricious."
+    speaker: "Ukrainian artillery officer and artillery soldier (Ukraine)"
+    context: "Earlier variant: mostly Norwegian-donated M109A3, with Paladin A6 also mentioned. ERR report from Donbas, January 2023"
+    sentiment: "mixed"
+    topics: ["reliability", "mobility", "ergonomics"]
+    source: { url: "https://news.err.ee/1608862559/sports", title: "ERR in Donbas: Even older Western artillery is a help to Ukrainian forces", publisher: "ERR News", date: "2023-01-25", retrieved: 2026-11-22 }
+note: "Coverage is Ukrainian crews from 2023 to 2024 via Western and Ukrainian media; I found no published US Army user evaluation of the A6 in this search."

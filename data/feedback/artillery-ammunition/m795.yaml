@@ -1,0 +1,11 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: m795
+items:
+  - summary: "A Ukrainian artillery brigade commander said long-range M795-type shells reach about 30 km with good propellant, but they are expensive, scarce, wear barrels faster and give away the position with a large muzzle flash. He suggested a mix with cheaper short-range M107 rounds of about 60 to 40 for most brigades."
+    quote: "cause faster barrel wear"
+    speaker: "Commander, 7th Artillery Brigade, National Guard (Ukraine)"
+    context: "Interview with the Ukrainian outlet Oboronka, reported by The War Zone in September 2026. He spoke of M795 and its foreign equivalents as a class"
+    sentiment: "mixed"
+    topics: ["firepower", "cost", "logistics"]
+    source: { url: "https://www.twz.com/news-features/the-evolving-role-of-ukraines-artillery-in-the-age-of-drones", title: "The Evolving Role Of Ukraine's Artillery In The Age Of Drones", publisher: "The War Zone", date: "2026-09-23", retrieved: 2026-11-22 }
+note: "I found no other user feedback that names the M795 itself; the item is about long-range HE shells of this class."

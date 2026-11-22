@@ -1,0 +1,11 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: smart-155
+items:
+  - summary: "A PzH 2000 crew commander said his crew fired 136 SMArt rounds in about six weeks, 36 of them while learning the round. He credited about 100 combat rounds with destroying up to 41 tanks plus other vehicles and guns. These figures are self-reported."
+    quote: "very effective, nothing saves from it"
+    speaker: "PzH 2000 crew commander (Ukraine)"
+    context: "Interview with Vodohrai magazine about spring 2023, cited by Defense Express in June 2024"
+    sentiment: "positive"
+    topics: ["firepower", "training"]
+    source: { url: "https://en.defence-ua.com/weapon_and_tech/important_advantage_of_smart_155_artillery_munitions_proves_it_more_useful_than_excalibur_or_vulcan-10920.html", title: "Important Advantage of SMArt 155 Artillery Munitions Proves it More Useful Than Excalibur or Vulcano", publisher: "Defense Express", date: "2024-06-21", retrieved: 2026-11-22 }
+note: "Only one first-hand user account found; other coverage is strike videos and unit posts without crew comment."

@@ -1,0 +1,22 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: bm-27-uragan
+items:
+  - summary: "The commander of a Bureviy, Ukraine's upgraded Uragan on a Tatra chassis, said the new vehicle is more comfortable, warmer and better protected than the Soviet launcher. He added that the Tatra copes better off-road and the extra outriggers make it steadier when firing."
+    speaker: "Bureviy combat vehicle commander (Ukraine)"
+    context: "Upgraded derivative; the comparison is with the original 9P140. ArmyInform interview from November 2022, reported by Militarnyi in Ukrainian"
+    sentiment: "mixed"
+    topics: ["protection", "ergonomics", "mobility"]
+    source: { url: "https://militarnyi.com/uk/news/vijskovi-rozpovily-pro-bojovu-robotu-rszv-burevij/", title: "Військові розповіли про бойову роботу РСЗВ «Буревій»", publisher: "Militarnyi", date: "2022-12-01", retrieved: 2026-11-22 }
+  - summary: "A battery commander said that with the Bureviy's digital fire control, crews can lay the launcher without leaving the cab and send commands without radios. Neither was possible on the old Uragan, and the article says this saves several minutes before launch."
+    speaker: "Battery commander, rocket artillery regiment (Ukraine)"
+    context: "Upgraded derivative compared with the original launcher. ArmyInform, October 2022, in Ukrainian"
+    sentiment: "negative"
+    topics: ["ergonomics", "sensors"]
+    source: { url: "https://armyinform.com.ua/2022/10/13/burevij-u-diyi-zsu-pokazaly-yak-nyshhat-voroga/", title: "«Буревій» у дії. ЗСУ показали, як нищать ворога", publisher: "ArmyInform", date: "2022-10-13", retrieved: 2026-11-22 }
+  - summary: "Ukrainian rocket crews in Donetsk Oblast said they regularly stop Russian infantry attacks with the upgraded Uragan and that it gives them an edge over their opponents."
+    speaker: "Ukrainian Bureviy rocket crews (Ukraine)"
+    context: "Upgraded derivative. RFE/RL report from Donetsk Oblast, December 2022; crew views are paraphrased by the outlet"
+    sentiment: "positive"
+    topics: ["firepower"]
+    source: { url: "https://www.rferl.org/a/ukraine-russia-artillery-bureviy-rocket-donetsk-howitzer/32166322.html", title: "Ukrainian Rocket Crews Fend Off Russian Infantry With Updated Launchers", publisher: "RFE/RL", date: "2022-12-07", retrieved: 2026-11-22 }
+note: "Ukrainian crew feedback is about the Bureviy upgrade and judges the Soviet base vehicle only by comparison; I left out Russian state-media crew claims."

@@ -1,0 +1,16 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: bm-30-smerch
+items:
+  - summary: "An artillery officer who spent about ten years on Smerch units described the 300 mm rocket as devastating and long-ranged, a deterrent even when unused. He stressed that without accurate target data from reconnaissance, the system is blind."
+    speaker: "Artillery reconnaissance commander, former Smerch officer (Ukraine)"
+    context: "ArmyInform interview, November 2021, in Ukrainian; the variant of Ukrainian launchers is not stated"
+    sentiment: "mixed"
+    topics: ["firepower", "sensors"]
+    source: { url: "https://armyinform.com.ua/2021/11/03/vluchnist-bogiv-vijny-vidpovidalnist-artrozvidky/", title: "Влучність «богів війни» – відповідальність артрозвідки", publisher: "ArmyInform", date: "2021-11-03", retrieved: 2026-11-22 }
+  - summary: "An M270 battalion commander who fought on the Smerch from 2014 to mid-2022 said the two systems cannot fairly be compared, likening it to an early Soviet car versus a modern luxury saloon. He pointed to the M270's armour, tracked mobility, comfort and modern fire control, navigation and communications."
+    speaker: "M270 battalion commander, former Smerch officer (Ukraine)"
+    context: "ArmyInform interview, January 2023, in Ukrainian; the comparison is with the M270"
+    sentiment: "negative"
+    topics: ["protection", "mobility", "ergonomics"]
+    source: { url: "https://armyinform.com.ua/2023/01/27/m270-vrazhaye-vorozhi-czili-z-hirurgichnoyu-tochnistyu/", title: "М270 вражає ворожі цілі з хірургічною точністю", publisher: "ArmyInform", date: "2023-01-27", retrieved: 2026-11-22 }
+note: "Smerch user feedback is scarce; both items come from Ukrainian officers in ArmyInform, and English-language coverage is mostly about destroyed Russian launchers."

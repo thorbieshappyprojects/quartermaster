@@ -1,0 +1,37 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: m777
+items:
+  - summary: "Ukrainian marine gunners called the M777 precise, manoeuvrable, long-ranged and powerful. A gun commander said it hits more accurately and further than Soviet-era guns such as the Giatsint, is easier to handle, and its light weight lets crews leave a firing position faster."
+    quote: "M777 is easy to operate."
+    speaker: "Gun commander and gunners, marine artillery brigade (Ukraine)"
+    context: "ArmyInform report from 2022, summarised by Militarnyi"
+    sentiment: "positive"
+    topics: ["firepower", "mobility", "ergonomics"]
+    source: { url: "https://militarnyi.com/en/news/ukrainian-marine-gunners-offered-their-assessment-for-m777-howitzers/", title: "Ukrainian marine gunners offered their assessment for M777 howitzers", publisher: "Militarnyi", date: "2022-10-27", retrieved: 2026-11-22 }
+  - summary: "A senior M777 gun commander said the gun had been trouble-free since mid-2022. He found it lighter, more accurate and easier to load and clean than the Soviet Msta-B, and simple to operate. His guns lack the electronic aiming system, so his crew lays them by hand."
+    speaker: "Chief gun commander, 45th Separate Artillery Brigade (Ukraine)"
+    context: "ArmyInform feature, March 2025, in Ukrainian; the guns described are export models without the digital fire-control system on this card"
+    sentiment: "positive"
+    topics: ["reliability", "ergonomics", "firepower"]
+    source: { url: "https://armyinform.com.ua/2025/03/31/gaubyczya-m777-amerykanski-sokyry-rubayut-golovy-rosiyanam/", title: "Гаубиця М777: американські «сокири» «рубають» голови росіянам", publisher: "ArmyInform", date: "2025-03-31", retrieved: 2026-11-22 }
+  - summary: "An M777 crew said their earlier gun ran like clockwork, while the current one, which had served in Afghanistan before getting a new barrel, is sometimes temperamental. The senior gunner called the M777A1 simple to maintain and said its accuracy depends on the gunner and the target coordinates. Training took ten days."
+    speaker: "Gun crew commander and senior gunner, 148th Separate Artillery Brigade (Ukraine)"
+    context: "ArmyInform crew portrait, November 2024, in Ukrainian; the crew uses the M777A1"
+    sentiment: "mixed"
+    topics: ["reliability", "maintenance", "training"]
+    source: { url: "https://armyinform.com.ua/2024/11/20/garmata-z-afganistanu-artyleryst-30-rozryadu-ta-mriyi-pro-peremogu-yak-voyuye-rozrahunok-garmaty-m777/", title: "Гармата з Афганістану, артилерист 30 розряду та мрії про перемогу: як воює розрахунок гармати М777", publisher: "ArmyInform", date: "2024-11-20", retrieved: 2026-11-22 }
+  - summary: "A Ukrainian artillery brigade commander said donated Western guns such as the M777 can stand idle for months waiting for spare parts, and repairing them in the unit could void the warranty. Domestic Bohdana guns, by contrast, are fixed quickly."
+    quote: "the gun might have been sitting idle for six months"
+    speaker: "Commander, 7th Artillery Brigade, National Guard (Ukraine)"
+    context: "Interview with the Ukrainian outlet Oboronka, reported by The War Zone in September 2026"
+    sentiment: "negative"
+    topics: ["maintenance", "logistics"]
+    source: { url: "https://www.twz.com/news-features/the-evolving-role-of-ukraines-artillery-in-the-age-of-drones", title: "The Evolving Role Of Ukraine's Artillery In The Age Of Drones", publisher: "The War Zone", date: "2026-09-23", retrieved: 2026-11-22 }
+  - summary: "In Donbas, a Ukrainian artillery officer who was critical of worn-out older M109s praised the M777."
+    quote: "The M777s have also given a good account of themselves; a great machine."
+    speaker: "Ukrainian artillery officer (Ukraine)"
+    context: "ERR report from Donbas, January 2023"
+    sentiment: "positive"
+    topics: ["reliability"]
+    source: { url: "https://news.err.ee/1608862559/sports", title: "ERR in Donbas: Even older Western artillery is a help to Ukrainian forces", publisher: "ERR News", date: "2023-01-25", retrieved: 2026-11-22 }
+note: "All items are Ukrainian users from 2022 to 2026; several describe M777A1 or export guns without digital fire control rather than the A2. Reports of barrel wear were mostly secondhand, so I left them out."
