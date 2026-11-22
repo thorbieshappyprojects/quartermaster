@@ -135,9 +135,36 @@ export interface EurCost {
   partial?: string;
 }
 
+export interface Photo {
+  page_url: string;
+  image_url: string;
+  title: string;
+  caption: string;
+  shows: 'exact_variant' | 'same_family';
+  licence: string;
+  licence_url?: string;
+  author?: string;
+  credit?: string;
+  priority: 'A' | 'B';
+  retrieved: string;
+}
+
+export interface FeedbackItem {
+  summary: string;
+  quote?: string;
+  speaker: string;
+  context?: string;
+  sentiment: 'positive' | 'mixed' | 'negative';
+  topics?: string[];
+  source: { url: string; title: string; publisher: string; date?: string; retrieved: string };
+  unverified_url?: boolean;
+}
+
 export interface CompiledSystem extends Omit<SystemCard, 'specs' | 'cost'> {
   specs: Record<string, CompiledSpec>;
   cost: Cost & { eur?: EurCost };
+  photos?: Photo[];
+  feedback?: { items: FeedbackItem[]; note?: string };
 }
 
 export interface FxTable {

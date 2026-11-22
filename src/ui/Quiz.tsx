@@ -3,6 +3,7 @@ import type { CompiledSystem } from '../model/types.ts';
 import { deck, hasOwnSilhouette } from '../data/deck.ts';
 import { makeRng, sample, shuffle } from '../game/rng.ts';
 import { Silhouette } from './Silhouette.tsx';
+import { PhotoView } from './PhotoView.tsx';
 import { CategoryFilter } from './CategoryFilter.tsx';
 import { updateProgress } from './store.ts';
 
@@ -25,7 +26,7 @@ export function makeRound(pool: CompiledSystem[], all: CompiledSystem[], seed: n
 
 export function QuizPage() {
   const [cat, setCat] = useState('');
-  const pool = useMemo(() => deck.systems.filter((s) => hasOwnSilhouette(s) && (!cat || s.category === cat)), [cat]);
+  const pool = useMemo(() => deck.systems.filter((s) => (hasOwnSilhouette(s) || s.photos?.length) && (!cat || s.category === cat)), [cat]);
   const [seed, setSeed] = useState(() => Date.now());
   const [chosen, setChosen] = useState<string | null>(null);
   const [score, setScore] = useState({ right: 0, total: 0 });
@@ -45,11 +46,11 @@ export function QuizPage() {
   return (
     <div class="stack">
       <h1>Recognition quiz</h1>
-      <p class="muted">Which system is this? Silhouettes are original drawings in one consistent style.</p>
+      <p class="muted">Which system is this? Openly licensed photos where available, otherwise original silhouettes.</p>
       <CategoryFilter value={cat} onChange={(v) => (setCat(v), setChosen(null))} />
       {!round ? (
         <div class="panel">
-          <p>No silhouettes drawn for {cat ? 'this category' : 'any card'} yet ({deck.systems.filter(hasOwnSilhouette).length} of {deck.systems.length} cards have one).</p>
+          <p>No photos or silhouettes for {cat ? 'this category' : 'any card'} yet.</p>
           <p class="muted small">Cards without a drawing show a generic category placeholder and are left out of this quiz.</p>
         </div>
       ) : (
@@ -57,7 +58,7 @@ export function QuizPage() {
           <span class="muted small">
             Score {score.right}/{score.total}
           </span>
-          <Silhouette card={round.card} label="Mystery silhouette" />
+          {round.card.photos?.length ? <PhotoView key={round.card.id} photos={round.card.photos} hideCaption={!chosen} /> : <Silhouette card={round.card} label="Mystery silhouette" />}
           <div class="options">
             {round.options.map((o) => (
               <button class={`btn${chosen ? (o.id === round.card.id ? ' right' : o.id === chosen ? ' wrong' : '') : ''}`} disabled={!!chosen} onClick={() => answer(o.id)}>

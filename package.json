@@ -17,7 +17,9 @@
     "preview": "vite preview",
     "import:manufacturers": "tsx scripts/import-manufacturers.ts",
     "deploy": "zsh scripts/deploy.sh",
-    "fetch:fx": "tsx scripts/fetch-fx.ts"
+    "fetch:fx": "tsx scripts/fetch-fx.ts",
+    "research:photos": "tsx scripts/research/photos.ts",
+    "research:feedback": "tsx scripts/research/feedback.ts"
   },
   "dependencies": {
     "@preact/signals": "^2.11.4",

@@ -6,6 +6,8 @@ import type {
   Confidence,
   Deck,
   EurCost,
+  FeedbackItem,
+  Photo,
   FxTable,
   Manufacturer,
   Source,
@@ -66,10 +68,18 @@ export function compileDeck(data: LoadedData, generated = new Date().toISOString
   const categories = data.categories.map((f) => f.data as Category).sort((a, b) => a.wave - b.wave || a.name.localeCompare(b.name));
   const byId = new Map(categories.map((c) => [c.id, c]));
   const fx = data.fx[0]?.data as FxTable | undefined;
+  // Only openly licensed photos with attribution are published; feedback items need a source.
+  const photos = new Map(
+    data.photos.map((f) => f.data as { id: string; photos?: Photo[] }).map((d) => [d.id, (d.photos ?? []).filter((p) => p.priority === 'A' && p.licence && p.image_url)] as const),
+  );
+  const feedback = new Map(
+    data.feedback.map((f) => f.data as { id: string; items?: FeedbackItem[]; note?: string }).map((d) => [d.id, { items: (d.items ?? []).filter((i) => i.source?.url && !i.unverified_url), note: d.note }] as const),
+  );
   const systems = data.systems
     .map((f) => f.data as SystemCard)
     .map((s) => compileSystem(s, byId.get(s.category)))
     .map((s) => ({ ...s, cost: { ...s.cost, eur: toEur(s.cost, fx) } }))
+    .map((s) => ({ ...s, photos: photos.get(s.id), feedback: feedback.get(s.id) }))
     .sort((a, b) => a.name.localeCompare(b.name));
   const sharedSources = data.sources.flatMap((f) => (f.data as { sources: Source[] }).sources);
   const manufacturers = data.manufacturers.map((f) => f.data as Manufacturer);

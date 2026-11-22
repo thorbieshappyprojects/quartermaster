@@ -6,8 +6,10 @@ import { Silhouette } from './Silhouette.tsx';
 import { OperatorMap } from './OperatorMap.tsx';
 import { go } from './router.ts';
 import { CardFrame } from './CardFrame.tsx';
+import { PhotoView } from './PhotoView.tsx';
 
-export const FACES = ['Identity', 'Specs', 'Service', 'Business', 'Sources'] as const;
+export const FACES = ['Identity', 'Specs', 'Service', 'Business', 'Field', 'Sources'] as const;
+const SENTIMENT: Record<string, string> = { positive: 'positive', mixed: 'mixed', negative: 'critical' };
 
 const STATUS: Record<string, string> = { in_production: 'In production', in_service: 'In service', retired: 'Retired' };
 const OP_STATE: Record<string, string> = { in_service: 'in service', ordered: 'ordered', retired: 'retired', evaluating: 'evaluating' };
@@ -90,7 +92,7 @@ export function SystemCardView({ card, onPrev, onNext }: { card: CompiledSystem;
       <>
         {face === 0 && (
           <>
-            <Silhouette card={card} label={`${card.name} silhouette`} />
+            {card.photos?.length ? <PhotoView photos={card.photos} /> : <Silhouette card={card} label={`${card.name} silhouette`} />}
             <p>{card.role}</p>
             {card.memorable_fact && (
               <p>
@@ -234,11 +236,46 @@ export function SystemCardView({ card, onPrev, onNext }: { card: CompiledSystem;
         )}
         {face === 4 && (
           <>
+            <h2>Field reports</h2>
+            {card.feedback?.items.length ? (
+              <ul class="plain feedback">
+                {card.feedback.items.map((f) => (
+                  <li>
+                    <div class="spread small">
+                      <strong>{f.speaker}</strong>
+                      <span class={`tag sent-${f.sentiment}`}>{SENTIMENT[f.sentiment] ?? f.sentiment}</span>
+                    </div>
+                    <p>{f.summary}</p>
+                    {f.quote && <blockquote>“{f.quote}”</blockquote>}
+                    <div class="muted small">
+                      {f.context ? `${f.context} · ` : ''}
+                      <a href={f.source.url} target="_blank" rel="noopener noreferrer">{f.source.publisher}</a>
+                      {f.source.date ? `, ${f.source.date}` : ''}
+                      {f.topics?.length ? ` · ${f.topics.join(', ')}` : ''}
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p class="muted">No first-hand reports from crews found yet.</p>
+            )}
+            {card.feedback?.note && <p class="muted small">{card.feedback.note}</p>}
+          </>
+        )}
+        {face === 5 && (
+          <>
             <h2>Sources</h2>
             <p class="muted small">
               Spec confidence: {confCounts.high ?? 0} high · {confCounts.medium ?? 0} medium · {confCounts.low ?? 0} low · {confCounts.empty ?? 0} empty
             </p>
             <SourceList refs={sourceUses(card, cat)} local={card.sources} />
+            {card.photos?.map((p) => (
+              <p class="src">
+                <a href={p.page_url} target="_blank" rel="noopener noreferrer">{p.title}</a>{' '}
+                <span class="muted">— {p.author || 'unknown'}, {p.licence}, via Wikimedia Commons, retrieved {p.retrieved}</span>
+                <div class="muted small">Used for: photo</div>
+              </p>
+            ))}
             {card.cost.eur && card.cost.currency !== 'EUR' && deck.fxSource && (
               <p class="src">
                 <a href={deck.fxSource.url} target="_blank" rel="noopener noreferrer">{deck.fxSource.title}</a>{' '}

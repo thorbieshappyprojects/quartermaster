@@ -177,6 +177,19 @@ input[type='search'], select {
 .kv dt { color: var(--muted); }
 .kv dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
 
+/* photos */
+.photo { margin: 0 0 4px; }
+.photo-frame { position: relative; border-radius: 10px; overflow: hidden; background: var(--surface-2); aspect-ratio: 3 / 2; }
+.photo-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.photo-next { position: absolute; right: 6px; bottom: 6px; border: 0; border-radius: 999px; padding: 4px 10px; background: rgb(0 0 0 / 0.55); color: #fff; font-size: 0.75rem; cursor: pointer; min-height: 32px; }
+.photo figcaption { margin-top: 4px; line-height: 1.35; font-size: 0.72rem; }
+.feedback li { padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.feedback p { margin: 4px 0; }
+.feedback blockquote { margin: 4px 0; padding-left: 10px; border-left: 3px solid var(--accent); font-style: italic; }
+.sent-positive { color: var(--win); border-color: var(--win); }
+.sent-negative { color: var(--lose); border-color: var(--lose); }
+.sent-mixed { color: var(--gold); border-color: var(--gold); }
+
 /* spec rows (trump values) */
 .stats { display: flex; flex-direction: column; gap: 4px; }
 .stat { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 5px 2px; border-bottom: 1px solid var(--line); }
