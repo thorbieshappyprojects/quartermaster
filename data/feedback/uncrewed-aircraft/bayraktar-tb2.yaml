@@ -1,0 +1,10 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "bayraktar-tb2"
+items:
+  - summary: "A Ukrainian TB2 pilot, the first to talk publicly about his missions, said he had to pass tests of calm under pressure and focus during long, monotonous searches for hidden artillery and air defences before training on the drone. After the TB2's early successes the crews became priority targets, so ground control stations had to keep moving to avoid counterstrikes."
+    speaker: "Ukrainian Bayraktar TB2 pilot (Ukraine)"
+    context: "Interview with The Times, relayed by dev.ua, July 2022; the strike tally is the pilot's own claim"
+    sentiment: "mixed"
+    topics: ["training", "protection", "logistics"]
+    source: { url: "https://dev.ua/en/news/bayraktar-1657349637", title: "Bayraktar TB2 pilot interview (dev.ua news report)", publisher: "dev.ua", date: "2022-07-09", retrieved: "2026-11-22" }
+note: "Only one first-hand pilot account found; manufacturer statements were left out, and Turkish, Polish or Azerbaijani user reporting was not checked because the session's web search limit was reached."

@@ -1,0 +1,32 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "javelin"
+items:
+  - summary: "An ATGM operator trained on both Javelin and NLAW just before the full-scale invasion said the Javelin is the weapon for open ground at roughly 1 to 2 km, took about a day and a half to learn, and that improvised roof cages on Russian vehicles did not stop it. He recommended pairing it with the shorter-range NLAW."
+    quote: "No tank can withstand the Javelin attack"
+    speaker: "Ukrainian ATGM operator, 128th Mountain Assault Brigade (Ukraine)"
+    context: "Interview reported by Defense Express in April 2022, early in the full-scale invasion; earlier Javelin models, not specifically the F round"
+    sentiment: "positive"
+    topics: ["firepower", "training"]
+    source: { url: "https://en.defence-ua.com/weapon_and_tech/javelin_vs_nlaw_ukrainian_soldier_explains_from_own_experience_which_of_the_two_is_more_effective_against_russian_armored_targets-2495.html", title: "Javelin vs NLAW: Ukrainian Soldier Explains from Own Experience which of the Two is More Effective Against Russian Armored Targets", publisher: "Defense Express", date: "2022-04-09", retrieved: "2026-11-22" }
+  - summary: "Officers of a Ukrainian mechanised brigade said Javelins still destroy tanks and can scatter a whole convoy with one hit, but that the front lines often sit inside the missile's range, so small two-person teams now move up to fire after drones find targets. One lieutenant had first learned the weapon from a short video and the manual while under fire."
+    quote: "Right now, they're afraid to even walk up to their tanks."
+    speaker: "Ukrainian battalion commander and lieutenant, 93rd Mechanised Brigade (Ukraine)"
+    context: "Washington Post reporting from eastern Ukraine, republished by Stars and Stripes, August 2022; earlier Javelin models"
+    sentiment: "mixed"
+    topics: ["firepower", "training"]
+    source: { url: "https://stripes.com/theaters/europe/2022-08-05/ukraine-war-javelin-missiles-6888865.html", title: "It's an artillery war, but Ukraine still kills tanks with Javelins", publisher: "Stars and Stripes (The Washington Post)", date: "2022-08-05", retrieved: "2026-11-22" }
+  - summary: "An ATGM operator, later commander of an ATGM company, described hitting a Ka-52 attack helicopter with a Javelin after two months of training. He credited the seeker's lock-on logic, noting that the launcher will not fire until a target is locked, and said he could not get ready in time for the first two helicopters that passed."
+    quote: "how to properly approach the target, how to lock on it, how to choose a firing spot"
+    speaker: "Ukrainian ATGM operator, later ATGM company commander (Ukraine)"
+    context: "Ukrainian Navy interview relayed by Defense Express and reposted by The Low-Down blog, April 2024; earlier Javelin models; second-hand account"
+    sentiment: "positive"
+    topics: ["sensors", "training"]
+    source: { url: "https://www.thelowdownblog.com/2024/04/how-ukrainian-shot-down-russian-attack.html", title: "How A Ukrainian Shot Down Russian Attack 'Copter With Anti-Tank Weapon", publisher: "The Low-Down", date: "2024-04-04", retrieved: "2026-11-22" }
+  - summary: "A Javelin and NLAW operator who started Javelin training two days before the full-scale war said he had used the Javelin nine times and that Western anti-tank weapons were essential for holding the enemy back, because Russian troops feared them."
+    quote: "The enemy knows we have Javelins and NLAWs, they fear them like plague"
+    speaker: "Ukrainian Javelin and NLAW operator, 128th Mountain Assault Brigade (Ukraine)"
+    context: "Report by Ukrinform (Ukrainian state news agency), April 2022; the operator's own claims, not independently verified; earlier Javelin models"
+    sentiment: "positive"
+    topics: ["firepower", "training"]
+    source: { url: "https://www.ukrinform.net/rubric-ato/3471295-javelin-nlaw-operator-destroys-six-russian-armored-vehicles-in-one-day.html", title: "Javelin, NLAW operator destroys six Russian armored vehicles in one day", publisher: "Ukrinform", date: "2022-04-30", retrieved: "2026-11-22" }
+note: "All four items are Ukrainian accounts from 2022 to 2024 on earlier Javelin models, three of them relayed second-hand; no US, Baltic or Australian user reporting was checked because the session's web search limit was reached."

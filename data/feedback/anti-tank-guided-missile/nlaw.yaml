@@ -1,0 +1,31 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "nlaw"
+items:
+  - summary: "An ATGM operator trained on both systems said the NLAW is the weapon for close combat such as street fighting, at roughly 20 to 600 m, and took up to four days to learn. He saw it as equally effective as the Javelin when aimed properly and recommended using the two together."
+    quote: "NLAW is great in close combat at ranges from 20 to 600 meters."
+    speaker: "Ukrainian ATGM operator, 128th Mountain Assault Brigade (Ukraine)"
+    context: "Interview reported by Defense Express in April 2022, early in the full-scale invasion"
+    sentiment: "positive"
+    topics: ["firepower", "training"]
+    source: { url: "https://en.defence-ua.com/weapon_and_tech/javelin_vs_nlaw_ukrainian_soldier_explains_from_own_experience_which_of_the_two_is_more_effective_against_russian_armored_targets-2495.html", title: "Javelin vs NLAW: Ukrainian Soldier Explains from Own Experience which of the Two is More Effective Against Russian Armored Targets", publisher: "Defense Express", date: "2022-04-09", retrieved: "2026-11-22" }
+  - summary: "An infantry sergeant who fought in the forests of Chernihiv and Sumy oblasts said the NLAW suited his ambush group better than the Javelin in wooded terrain: they let columns pass, hit the tail vehicles with two or three rounds and withdrew quickly. The main drawback he named was weight, which limited how many launchers a group could carry on foot."
+    speaker: "Ukrainian infantry sergeant, separate motorised infantry brigade (Ukraine)"
+    context: "ArmyInform (Ukrainian Ministry of Defence news agency) article on fighting in northern Ukraine, spring 2022; in Ukrainian"
+    sentiment: "mixed"
+    topics: ["firepower", "mobility", "logistics"]
+    source: { url: "https://armyinform.com.ua/2022/05/14/nlaw-osoblyvo-efektyvnyj-v-umovah-lisystoyi-misczevosti-abo-yak-pihotynczi-rozryvaly-tehniku-rashystiv-na-shmatky/", title: "NLAW is especially effective in wooded terrain (Ukrainian-language article)", publisher: "ArmyInform", date: "2022-05-14", retrieved: "2026-11-22" }
+  - summary: "Ukrainian soldiers and an army lieutenant colonel publicly thanked Britain for the NLAW in the first weeks of the invasion, with front-line fighters asking for more of the launchers and the officer calling them decisive."
+    quote: "These missiles have changed the war for us."
+    speaker: "Ukrainian army lieutenant colonel and front-line soldiers (Ukraine)"
+    context: "Statements first reported by The Telegraph and the Daily Mail, collected by The Week, April 2022"
+    sentiment: "positive"
+    topics: ["firepower"]
+    source: { url: "https://theweek.com/news/defence/956302/british-made-weapon-helping-ukraine-repel-russia", title: "The British-made weapon helping Ukraine repel Russia", publisher: "The Week", date: "2022-04-01", retrieved: "2026-11-22" }
+  - summary: "A Javelin and NLAW operator said Western anti-tank weapons were essential for holding back Russian armour and that Russian troops feared them, which hurt their morale."
+    quote: "The enemy knows we have Javelins and NLAWs, they fear them like plague"
+    speaker: "Ukrainian Javelin and NLAW operator, 128th Mountain Assault Brigade (Ukraine)"
+    context: "Report by Ukrinform (Ukrainian state news agency), April 2022; the operator's own claims, not independently verified"
+    sentiment: "positive"
+    topics: ["firepower"]
+    source: { url: "https://www.ukrinform.net/rubric-ato/3471295-javelin-nlaw-operator-destroys-six-russian-armored-vehicles-in-one-day.html", title: "Javelin, NLAW operator destroys six Russian armored vehicles in one day", publisher: "Ukrinform", date: "2022-04-30", retrieved: "2026-11-22" }
+note: "All items are Ukrainian accounts from spring 2022, partly relayed by Ukrainian state media or British newspapers; British, Swedish and Finnish user reports were not checked because the session's web search limit was reached."

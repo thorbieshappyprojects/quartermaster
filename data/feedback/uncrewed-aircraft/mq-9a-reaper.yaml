@@ -1,0 +1,17 @@
+# User feedback researched 2026-11-22 in a Claude Code session (web search). Summaries in own words; quotes are short excerpts with their source.
+id: "mq-9a-reaper"
+items:
+  - summary: "A US Air Force MQ-9 pilot described a single sortie over Afghanistan, flown from Nevada with his sensor operator, in which the crew switched between surveillance, battle damage assessment, helping ground troops direct fire and Hellfire strikes. He said the physical distance fades once a mission starts."
+    quote: "I feel very much like I'm in Afghanistan or Iraq."
+    speaker: "US Air Force MQ-9 pilot, major (United States)"
+    context: "Modern War Institute podcast The Spear, first released 2020, about an October 2018 mission; Block configuration not stated"
+    sentiment: "positive"
+    topics: ["sensors", "firepower", "ergonomics"]
+    source: { url: "https://mwi.westpoint.edu/podcast-the-spear-the-mq-9-reaper-in-combat/", title: "Podcast: The Spear - The MQ-9 Reaper in Combat", publisher: "Modern War Institute at West Point", date: "2020", retrieved: "2026-11-22" }
+  - summary: "MQ-9 crew members described the split of work: the pilot flies the aircraft and commands the mission while the sensor operator scans the area and guides the weapons, and they said the crew partnership is built through shared combat hours."
+    speaker: "US Air Force MQ-9 pilot and sensor operator (United States)"
+    context: "Air Combat Command article after a milestone flight; seen only as a search-result excerpt, the page itself could not be loaded"
+    sentiment: "positive"
+    topics: ["training", "ergonomics"]
+    source: { url: "https://www.acc.af.mil/News/Article-Display/Article/2449860/mq-9-aircrew-reflect-on-partnership-after-milestone-flight/", title: "MQ-9 Aircrew reflect on partnership after milestone flight", publisher: "US Air Force, Air Combat Command", date: "unknown", retrieved: "2026-11-22" }
+note: "Two US Air Force crew accounts, one from a search excerpt only; British, French, Italian, Spanish and Dutch crew reporting was not checked because the session's web search limit was reached."
