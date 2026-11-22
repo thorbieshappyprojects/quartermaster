@@ -1,11 +1,11 @@
-import { useEffect, useRef, useState } from 'preact/hooks';
 import type { Category, CompiledSystem, Confidence, Source } from '../model/types.ts';
-import { categoriesById, deck, resolveSource, systemsById, systemsIn } from '../data/deck.ts';
+import { cardCode, categoriesById, deck, resolveSource, systemsById, systemsIn } from '../data/deck.ts';
 import { formatMoney, formatValue, peersOf } from '../game/cards.ts';
 import { countryName, flag } from '../game/countries.ts';
 import { Silhouette } from './Silhouette.tsx';
 import { OperatorMap } from './OperatorMap.tsx';
 import { go } from './router.ts';
+import { CardFrame } from './CardFrame.tsx';
 
 export const FACES = ['Identity', 'Specs', 'Service', 'Business', 'Sources'] as const;
 
@@ -17,76 +17,27 @@ export function Conf({ c }: { c: Confidence | null | undefined }) {
   return <span class={`conf ${c}`} title={`Confidence: ${c}`} aria-label={`confidence ${c}`} />;
 }
 
-/** Swipe left/right and arrow keys change the face; tap on a non-interactive area goes to the next face. */
-export function useFaces(count: number, onPrevCard?: () => void, onNextCard?: () => void) {
-  const [face, setFace] = useState(0);
-  const start = useRef<{ x: number; y: number } | null>(null);
-  const moved = useRef(false);
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
-      if ((e.target as HTMLElement)?.closest?.('input, select, textarea')) return;
-      if (e.key === 'ArrowRight') setFace((f) => (f + 1) % count);
-      else if (e.key === 'ArrowLeft') setFace((f) => (f - 1 + count) % count);
-      else if (e.key === 'ArrowDown' && onNextCard) (e.preventDefault(), onNextCard());
-      else if (e.key === 'ArrowUp' && onPrevCard) (e.preventDefault(), onPrevCard());
-      else if (/^[1-9]$/.test(e.key) && Number(e.key) <= count) setFace(Number(e.key) - 1);
-    };
-    addEventListener('keydown', onKey);
-    return () => removeEventListener('keydown', onKey);
-  }, [count, onNextCard, onPrevCard]);
-  const handlers = {
-    onPointerDown: (e: PointerEvent) => {
-      start.current = { x: e.clientX, y: e.clientY };
-      moved.current = false;
-    },
-    onPointerUp: (e: PointerEvent) => {
-      if (!start.current) return;
-      const dx = e.clientX - start.current.x;
-      const dy = e.clientY - start.current.y;
-      start.current = null;
-      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) {
-        moved.current = true;
-        setFace((f) => (dx < 0 ? (f + 1) % count : (f - 1 + count) % count));
-      }
-    },
-    onClick: (e: MouseEvent) => {
-      if (moved.current) return;
-      if ((e.target as HTMLElement).closest('a, button, input, select, svg')) return;
-      if (window.getSelection()?.toString()) return;
-      setFace((f) => (f + 1) % count);
-    },
-  };
-  // Direction of the last turn (1 = forward, -1 = back) so the flip animation turns the right way.
-  const prev = useRef(face);
-  const dir = ((face - prev.current + count) % count) <= count / 2 ? 1 : -1;
-  useEffect(() => {
-    prev.current = face;
-  }, [face]);
-  const flipClass = face === prev.current ? 'card' : `card flip ${dir > 0 ? 'fwd' : 'back'}`;
-  return { face, setFace, handlers, flipClass };
-}
-
 function Spec({ card, cat }: { card: CompiledSystem; cat: Category }) {
   return (
-    <dl class="kv">
+    <div class="stats">
       {cat.indicators.map((i) => {
         const v = card.specs[i.id];
         return (
-          <>
-            <dt>
+          <div class={`stat${v?.value == null ? ' empty' : ''}`}>
+            <span class="k">
               {i.label}
               {i.trump === 'lower_wins' && <span class="muted small" title="Lower wins in the duel"> ↓</span>}
-            </dt>
-            <dd>
+            </span>
+            <span class="v">
               {formatValue(v?.value ?? null, i)}
               {v?.derived && v.value != null && <span class="tag" title={v.note}> calc</span>}
-              {v?.range && <span class="muted small" title="Public figures vary"> ({formatValue(v.range.min, { unit: '', decimals: i.decimals })}–{formatValue(v.range.max, { unit: '', decimals: i.decimals })})</span>}
+              {v?.range && <span class="range" title="Public figures vary"> {formatValue(v.range.min, { unit: '', decimals: i.decimals })}–{formatValue(v.range.max, { unit: '', decimals: i.decimals })}</span>}
               <Conf c={v?.confidence} />
-            </dd>
-          </>
+            </span>
+          </div>
         );
       })}
-    </dl>
+    </div>
   );
 }
 
@@ -131,21 +82,12 @@ export function SourceList({ refs, local }: { refs: Map<string, string[]>; local
 
 export function SystemCardView({ card, onPrev, onNext }: { card: CompiledSystem; onPrev?: () => void; onNext?: () => void }) {
   const cat = categoriesById.get(card.category);
-  const { face, setFace, handlers, flipClass } = useFaces(FACES.length, onPrev, onNext);
-  useEffect(() => setFace(0), [card.id]);
   const peers = [...peersOf(card, deck.systems)].map((id) => systemsById.get(id)).filter(Boolean) as CompiledSystem[];
   const maker = card.manufacturer.benchmark_slug ? deck.manufacturers.find((m) => m.slug === card.manufacturer.benchmark_slug) : undefined;
   const confCounts = Object.values(card.specs).reduce<Record<string, number>>((acc, v) => ((acc[v.confidence ?? 'empty'] = (acc[v.confidence ?? 'empty'] ?? 0) + 1), acc), {});
 
-  return (
-    <div class="card-stage">
-    <article key={`${card.id}-${face}`} class={flipClass} {...handlers} data-testid="system-card" aria-roledescription="card">
-      <header class="card-head">
-        <div class="cat">{cat?.name}</div>
-        <h1>{card.name}</h1>
-        {card.variant_note && <div class="variant" title={card.variant_note}>{card.variant_note}</div>}
-      </header>
-      <section class="card-body stack" aria-live="polite">
+  const renderFace = (face: number) => (
+      <>
         {face === 0 && (
           <>
             <Silhouette card={card} label={`${card.name} silhouette`} />
@@ -306,16 +248,26 @@ export function SystemCardView({ card, onPrev, onNext }: { card: CompiledSystem;
             )}
           </>
         )}
-      </section>
-      <nav class="faces" aria-label="Card faces">
-        {FACES.map((f, i) => (
-          <button class={face === i ? 'on' : ''} aria-pressed={face === i} onClick={() => setFace(i)}>
-            {f}
-          </button>
-        ))}
-      </nav>
-    </article>
-    </div>
+      </>
+  );
+
+  return (
+    <CardFrame
+      labels={FACES}
+      resetKey={card.id}
+      code={cardCode(card)}
+      testId="system-card"
+      onPrevCard={onPrev}
+      onNextCard={onNext}
+      header={
+        <>
+          <div class="cat">{cat?.name}</div>
+          <h1>{card.name}</h1>
+          {card.variant_note && <div class="variant" title={card.variant_note}>{card.variant_note}</div>}
+        </>
+      }
+      renderFace={renderFace}
+    />
   );
 }
 

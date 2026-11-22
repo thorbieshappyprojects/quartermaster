@@ -44,6 +44,13 @@
   }
 }
 
+:root[data-theme='dark'] {
+  --bg: #121614; --surface: #1b211e; --surface-2: #242c28; --text: #e9ece6; --muted: #a3aba5; --line: #333d38;
+  --accent: #7fbf9c; --accent-ink: #0e1a14; --gold: #d8b85a; --win: #6fcf97; --lose: #ef7b7b; --tie: #e0c06a;
+  --sil: #c9d3cc; --map-land: #2c3531; --map-in-service: #7fbf9c; --map-ordered: #d8b85a; --map-retired: #59625d;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.4); color-scheme: dark;
+}
+
 * { box-sizing: border-box; }
 html, body { margin: 0; }
 body {
@@ -123,29 +130,61 @@ input[type='search'], select {
 .sil.placeholder { opacity: 0.35; }
 
 /* playing card: fixed playing-card proportions (63 × 88 mm), same size on every face */
-.card-stage { perspective: 1400px; width: min(100%, 400px, calc((100dvh - 210px) * 63 / 88)); min-width: 280px; margin: 0 auto; }
-.card {
-  background: var(--surface); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow);
-  aspect-ratio: 63 / 88; width: 100%; display: flex; flex-direction: column;
-  overflow: hidden; touch-action: pan-y; user-select: none; transform-origin: center;
+.card-stage {
+  position: relative; perspective: 1400px; width: min(100%, 400px, calc((100dvh - 210px) * 63 / 88)); min-width: 280px;
+  aspect-ratio: 63 / 88; margin: 0 auto;
 }
+.card {
+  position: absolute; inset: 0; border-radius: 18px; overflow: hidden; touch-action: pan-y; user-select: none;
+  background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); transform-origin: center;
+  backface-visibility: hidden;
+}
+.card-inner { height: 100%; display: flex; flex-direction: column; border-radius: inherit; overflow: hidden; }
+
+/* motion: flip (half turn in) */
 .card.flip.fwd { animation: flip-fwd 0.32s ease-out; }
 .card.flip.back { animation: flip-back 0.32s ease-out; }
 @keyframes flip-fwd { from { transform: rotateY(-80deg); } to { transform: rotateY(0); } }
 @keyframes flip-back { from { transform: rotateY(80deg); } to { transform: rotateY(0); } }
-@media (prefers-reduced-motion: reduce) { .card.flip.fwd, .card.flip.back { animation: none; } }
-.card-head { flex: none; padding: 12px 16px 8px; border-bottom: 1px solid var(--line); }
+/* motion: pillar (each face is one side of a prism turning around its vertical axis) */
+.card.pillar { transform-origin: 50% 50% calc(-1 * var(--apothem)); animation-duration: 0.48s; animation-timing-function: cubic-bezier(0.45, 0, 0.2, 1); animation-fill-mode: both; }
+.card.pillar.current.fwd { animation-name: pillar-in-fwd; }
+.card.pillar.leaving.fwd { animation-name: pillar-out-fwd; }
+.card.pillar.current.back { animation-name: pillar-in-back; }
+.card.pillar.leaving.back { animation-name: pillar-out-back; }
+@keyframes pillar-in-fwd { from { transform: rotateY(var(--step)); filter: brightness(0.6); } to { transform: rotateY(0); filter: none; } }
+@keyframes pillar-out-fwd { from { transform: rotateY(0); filter: none; } to { transform: rotateY(calc(-1 * var(--step))); filter: brightness(0.6); } }
+@keyframes pillar-in-back { from { transform: rotateY(calc(-1 * var(--step))); filter: brightness(0.6); } to { transform: rotateY(0); filter: none; } }
+@keyframes pillar-out-back { from { transform: rotateY(0); filter: none; } to { transform: rotateY(var(--step)); filter: brightness(0.6); } }
+.motion-rotate { perspective: 1800px; }
+@media (prefers-reduced-motion: reduce) { .card.flip, .card.pillar { animation: none !important; } .card.pillar.leaving { display: none; } }
+
+.card-head { flex: none; display: flex; gap: 10px; align-items: center; padding: 12px 16px 8px; border-bottom: 1px solid var(--line); }
+.card-head .head-text { min-width: 0; flex: 1; }
+.card-head .code { flex: none; font-weight: 800; font-size: 0.9rem; min-width: 2.3rem; text-align: center; padding: 4px 6px; border-radius: 8px; background: var(--surface-2); color: var(--text); }
 .card-head .variant { font-size: 0.78rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 2px; }
 .card-head h1 { font-size: 1.2rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0; }
-.card-head .cat { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
-.card-body .sil { width: 80%; margin-left: auto; margin-right: auto; }
+.card-head .cat { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sil-window { border-radius: 10px; padding: 6% 10%; }
+.card-body .sil-window { margin: 0 0 4px; }
 .card-body { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 12px 16px; font-size: 0.92rem; scrollbar-width: thin; }
 .faces { flex: none; display: flex; border-top: 1px solid var(--line); }
 .faces button { flex: 1; border: 0; background: none; padding: 10px 2px; font-size: 0.72rem; color: var(--muted); cursor: pointer; min-height: 44px; }
 .faces button.on { color: var(--accent); font-weight: 700; box-shadow: inset 0 3px 0 var(--accent); }
-.kv { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 12px; margin: 0; }
+
+/* label/value lists: the label keeps its own column, long values wrap instead of overlapping */
+.kv { display: grid; grid-template-columns: minmax(6.5rem, 40%) minmax(0, 1fr); gap: 6px 12px; margin: 0; }
 .kv dt { color: var(--muted); }
-.kv dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; }
+.kv dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+
+/* spec rows (trump values) */
+.stats { display: flex; flex-direction: column; gap: 4px; }
+.stat { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 5px 2px; border-bottom: 1px solid var(--line); }
+.stat .k { color: var(--muted); }
+.stat .v { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.stat .range { color: var(--muted); font-size: 0.8em; }
+.stat.empty .v { color: var(--muted); }
+
 .conf { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-left: 6px; vertical-align: middle; }
 .conf.high { background: var(--win); }
 .conf.medium { background: var(--gold); }
@@ -186,3 +225,49 @@ ul.plain li + li { margin-top: 6px; }
 .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; }
 
 .empty { text-align: center; padding: 48px 16px; }
+
+
+/* ---------- design proposal: card styles (chosen per browser on #/design) ---------- */
+/* Shared by both proposals: a printed card — white border, rounded corners, real shadow. */
+[data-card-style='field'] .card, [data-card-style='classic'] .card {
+  background: #f7f5ef; border: 0; padding: 9px; border-radius: 20px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 0.25), 0 6px 14px rgb(0 0 0 / 0.28), 0 22px 44px rgb(0 0 0 / 0.32);
+}
+[data-card-style='field'] .card-inner, [data-card-style='classic'] .card-inner { border-radius: 12px; }
+
+/* A "Field": dark gunmetal inner panel, white code badge, stats as translucent bars (like the car quartets) */
+[data-card-style='field'] .card-inner {
+  --text: #eef1ec; --muted: #aab5ae; --line: rgb(255 255 255 / 0.12); --accent: #d9b860; --sil: #dfe6e1; --surface-2: rgb(255 255 255 / 0.08);
+  color: var(--text);
+  background: radial-gradient(120% 70% at 30% 0%, #3b4b43 0%, #26312c 55%, #1b2320 100%);
+}
+[data-card-style='field'] .card-head { border-bottom: 0; background: rgb(0 0 0 / 0.25); }
+[data-card-style='field'] .card-head .code { background: #f7f5ef; color: #1f2a24; border-radius: 6px; }
+[data-card-style='field'] .card-head h1 { text-transform: uppercase; letter-spacing: 0.02em; font-size: 1.05rem; }
+[data-card-style='field'] .sil-window { background: linear-gradient(180deg, rgb(255 255 255 / 0.10), rgb(255 255 255 / 0.03)); border: 1px solid rgb(255 255 255 / 0.12); }
+[data-card-style='field'] .stat { border: 0; border-radius: 8px; padding: 6px 10px; background: rgb(255 255 255 / 0.09); }
+[data-card-style='field'] .stat .k { color: #dfe6e1; }
+[data-card-style='field'] .stat .v { font-weight: 700; }
+[data-card-style='field'] .faces { border-top: 0; background: rgb(0 0 0 / 0.25); }
+[data-card-style='field'] .tag { border-color: rgb(255 255 255 / 0.25); color: var(--muted); }
+[data-card-style='field'] a { color: #e6c873; }
+
+/* B "Classic": light printed card with a category colour band and a code badge (like the Swiss quartet) */
+[data-card-style='classic'] .card-inner {
+  --text: #1d2420; --muted: #5d655f; --line: #ddd6c6; --accent: var(--band); --sil: #39463f; --surface-2: #efe9dc;
+  color: var(--text); background: #fffdf8;
+}
+[data-card-style='classic'] .card-head { background: var(--band); color: #fff; border-bottom: 3px solid rgb(0 0 0 / 0.15); }
+[data-card-style='classic'] .card-head .cat, [data-card-style='classic'] .card-head .variant { color: rgb(255 255 255 / 0.85); }
+[data-card-style='classic'] .card-head .code { background: #fff; color: var(--band); }
+[data-card-style='classic'] .sil-window { background: linear-gradient(180deg, #e9eef0, #f6f3ea); border: 1px solid var(--line); }
+[data-card-style='classic'] .stat { border-bottom: 1px dashed var(--line); }
+[data-card-style='classic'] .stat .v { font-weight: 700; color: #111; }
+[data-card-style='classic'] .faces button.on { color: var(--band); box-shadow: inset 0 3px 0 var(--band); }
+[data-card-style='classic'] .card { --band: #2f5d47; }
+[data-card-style='classic'] [data-cat='A'] { --band: #2f5d47; }
+[data-card-style='classic'] [data-cat='B'] { --band: #9b3b2f; }
+[data-card-style='classic'] [data-cat='C'] { --band: #2f5a8a; }
+[data-card-style='classic'] [data-cat='D'] { --band: #8a6d1d; }
+[data-card-style='classic'] [data-cat='E'] { --band: #6a3f86; }
+[data-card-style='classic'] [data-cat='F'] { --band: #3a6f73; }

@@ -30,3 +30,14 @@ export function silhouetteUrl(card: Pick<CompiledSystem, 'silhouette' | 'categor
 export function hasOwnSilhouette(card: CompiledSystem): boolean {
   return !!card.silhouette;
 }
+
+/** Quartet-style card code: category letter (A, B, …) plus position within the category, e.g. "A3". */
+export function categoryLetter(categoryId: string): string {
+  const i = deck.categories.findIndex((c) => c.id === categoryId);
+  return i < 0 ? '?' : String.fromCharCode(65 + i);
+}
+
+export function cardCode(card: Pick<CompiledSystem, 'id' | 'category'>): string {
+  const n = systemsIn(card.category).findIndex((s) => s.id === card.id) + 1;
+  return `${categoryLetter(card.category)}${n}`;
+}

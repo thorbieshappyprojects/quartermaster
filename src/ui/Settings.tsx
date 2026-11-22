@@ -53,6 +53,12 @@ export function SettingsPage() {
         {msg && <p role="status">{msg}</p>}
       </div>
       <div class="panel stack">
+        <h2>Card design</h2>
+        <p>
+          <a href="#/design">Try the card styles and motions</a> — the choice is stored in this browser.
+        </p>
+      </div>
+      <div class="panel stack">
         <h2>About the deck</h2>
         <p>
           {deck.categories.length} categories, {deck.systems.length} system cards, {filled} of {values.length} spec values filled. Data built {deck.generated.slice(0, 10)}.
